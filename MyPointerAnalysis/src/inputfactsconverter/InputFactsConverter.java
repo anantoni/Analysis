@@ -56,7 +56,7 @@ public class InputFactsConverter {
             System.exit(-1);
         }
         
-        ParameterFactsConverter pfc = new ParameterFactsConverter(id, vdfc.getVarRefFactsList(), ifc.getCallGraphEdgeSourceRefFactsList(), vdfc.getMethodSignatureRefFactsList() );
+        ParameterFactsConverter pfc = new ParameterFactsConverter(id, vdfc.getvarFactsList(), ifc.getCallGraphEdgeSourceRefFactsList(), vdfc.getMethodSignatureRefFactsList() );
         pfc.parseLogicBloxFactsFile();
         pfc.createDatomicFactsFile();
         id.printID();
@@ -73,25 +73,25 @@ public class InputFactsConverter {
         MethodDeclarationsAndSignaturesFactsConverter mdasfc = new MethodDeclarationsAndSignaturesFactsConverter(id,tfc.getTypeFactsList(),fdfc.getSimpleNameRefFactsList(), vdfc.getMethodSignatureRefFactsList(), fdfc.getModifierRefFactsList());
         mdasfc.startThread();
         
-        ReturnVariablesFactsConverter rvfc = new ReturnVariablesFactsConverter(id, vdfc.getVarRefFactsList(), vdfc.getMethodSignatureRefFactsList());
+        ReturnVariablesFactsConverter rvfc = new ReturnVariablesFactsConverter(id, vdfc.getvarFactsList(), vdfc.getMethodSignatureRefFactsList());
         rvfc.startThread();
         
-        SpecialMethodInvocationsFactsConverter smifc = new SpecialMethodInvocationsFactsConverter(id, vdfc.getVarRefFactsList(), vdfc.getMethodSignatureRefFactsList(), pfc.getMethodInvocationRefFactsList());
+        SpecialMethodInvocationsFactsConverter smifc = new SpecialMethodInvocationsFactsConverter(id, vdfc.getvarFactsList(), vdfc.getMethodSignatureRefFactsList(), pfc.getMethodInvocationRefFactsList());
         smifc.startThread();
         
         StaticMethodInvocationsFactsConverter staticmifc = new StaticMethodInvocationsFactsConverter(id, vdfc.getMethodSignatureRefFactsList(), pfc.getMethodInvocationRefFactsList());
         staticmifc.startThread();
         
-        VirtualMethodInvocationsFactsConverter vmifc = new VirtualMethodInvocationsFactsConverter(id, vdfc.getVarRefFactsList(), vdfc.getMethodSignatureRefFactsList(), pfc.getMethodInvocationRefFactsList() );
+        VirtualMethodInvocationsFactsConverter vmifc = new VirtualMethodInvocationsFactsConverter(id, vdfc.getvarFactsList(), vdfc.getMethodSignatureRefFactsList(), pfc.getMethodInvocationRefFactsList() );
         vmifc.startThread();
         
-        AssignmentsFactsConverter afc = new AssignmentsFactsConverter(id, hatfc.getHeapAllocationRefFactsList(), vdfc.getVarRefFactsList(), pfc.getMethodInvocationRefFactsList(), vdfc.getMethodSignatureRefFactsList(), tfc.getTypeFactsList() );
+        AssignmentsFactsConverter afc = new AssignmentsFactsConverter(id, hatfc.getHeapAllocationRefFactsList(), vdfc.getvarFactsList(), pfc.getMethodInvocationRefFactsList(), vdfc.getMethodSignatureRefFactsList(), tfc.getTypeFactsList() );
         afc.startThread();
         
-        FieldsFactsConverter ffc = new FieldsFactsConverter( id, vdfc.getVarRefFactsList(), vdfc.getMethodSignatureRefFactsList(), fdfc.getFieldSignatureRefFactsList() );
+        FieldsFactsConverter ffc = new FieldsFactsConverter( id, vdfc.getvarFactsList(), vdfc.getMethodSignatureRefFactsList(), fdfc.getFieldSignatureRefFactsList() );
         ffc.startThread();
         
-        ArrayFactsConverter arrayfc = new ArrayFactsConverter(id, vdfc.getMethodSignatureRefFactsList(), vdfc.getVarRefFactsList(), tfc.getTypeFactsList(), tfc.getArrayTypeFactsList());
+        ArrayFactsConverter arrayfc = new ArrayFactsConverter(id, vdfc.getMethodSignatureRefFactsList(), vdfc.getvarFactsList(), tfc.getTypeFactsList(), tfc.getArrayTypeFactsList());
         arrayfc.startThread();
         
         
@@ -111,7 +111,7 @@ public class InputFactsConverter {
             System.out.println(ex.toString());
             System.exit(-1);
         }
-        LibraryFactsConverter lfc = new LibraryFactsConverter(id, tfc.getTypeFactsList(), vdfc.getMethodSignatureRefFactsList(), mdasfc.getMethodDescriptorRefFactsList() , fdfc.getSimpleNameRefFactsList(), hatfc.getHeapAllocationRefFactsList(), vdfc.getVarRefFactsList() );
+        LibraryFactsConverter lfc = new LibraryFactsConverter(id, tfc.getTypeFactsList(), vdfc.getMethodSignatureRefFactsList(), mdasfc.getMethodDescriptorRefFactsList() , fdfc.getSimpleNameRefFactsList(), hatfc.getHeapAllocationRefFactsList(), vdfc.getvarFactsList() );
         lfc.parseLogicBloxFactsFile();
         lfc.createDatomicFactsFile();
         

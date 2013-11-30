@@ -11,10 +11,10 @@ package datomicFacts;
 public class LoadArrayIndex {
     int id;
     MethodSignatureRef inmethod = null;
-    VarRef base = null;
-    VarRef to = null;
+    Var base = null;
+    Var to = null;
     
-    public LoadArrayIndex( int id, VarRef base, VarRef to, MethodSignatureRef inmethod ) {
+    public LoadArrayIndex( int id, Var base, Var to, MethodSignatureRef inmethod ) {
         this.id = id;
         this.base = base;
         this.to = to;
@@ -25,11 +25,11 @@ public class LoadArrayIndex {
         return this.id;
     }
     
-    public VarRef getBase() {
+    public Var getBase() {
         return this.base;
     }
     
-    public VarRef getTo() {
+    public Var getTo() {
         return this.to;
     }
     

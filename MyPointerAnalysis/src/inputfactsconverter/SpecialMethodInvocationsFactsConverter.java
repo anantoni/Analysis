@@ -9,7 +9,7 @@ import datomicFacts.MethodSignatureRef;
 import datomicFacts.SpecialMethodInvocationBase;
 import datomicFacts.SpecialMethodInvocationIn;
 import datomicFacts.SpecialMethodInvocationSignature;
-import datomicFacts.VarRef;
+import datomicFacts.Var;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -26,7 +26,7 @@ import java.util.regex.Pattern;
  */
 public class SpecialMethodInvocationsFactsConverter extends FactsConverter implements Runnable {
     private ArrayList<MethodInvocationRef> methodInvocationRefFactsList = null;
-    private ArrayList<VarRef> varRefFactsList = null;
+    private ArrayList<Var> varFactsList = null;
     private ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
     private ArrayList<SpecialMethodInvocationBase> specialMethodInvocationBaseFactsList = null;
     private ArrayList<SpecialMethodInvocationIn> specialMethodInvocationInFactsList = null;
@@ -34,9 +34,9 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
     private FactsID id = null;
     private Thread t = null;
     
-    public SpecialMethodInvocationsFactsConverter(FactsID id, ArrayList<VarRef> varRefFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, ArrayList<MethodInvocationRef> methodInvocationRefFactsList) {
+    public SpecialMethodInvocationsFactsConverter(FactsID id, ArrayList<Var> varFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, ArrayList<MethodInvocationRef> methodInvocationRefFactsList) {
         this.methodInvocationRefFactsList = methodInvocationRefFactsList;
-        this.varRefFactsList = varRefFactsList;
+        this.varFactsList = varFactsList;
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
         specialMethodInvocationBaseFactsList = new ArrayList<>();
         specialMethodInvocationInFactsList = new ArrayList<>();
@@ -69,7 +69,7 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
                             System.exit(-1);
                         }
                         MethodInvocationRef invocation = null;
-                        VarRef var = null;
+                        Var var = null;
 
                         for ( MethodInvocationRef invocation1 : methodInvocationRefFactsList ) {
                             if ( invocation1.getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
@@ -82,8 +82,8 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
                             System.exit(-1);
                         }
 
-                        for ( VarRef var1 : varRefFactsList ) {
-                            if ( var1.getValue().equals( m.group(3) ) ) {
+                        for ( Var var1 : varFactsList ) {
+                            if ( var1.getName().equals( m.group(3) ) ) {
                                 var = var1;
                                 break;
                             }

@@ -10,11 +10,11 @@ package datomicFacts;
  */
 public class StoreStaticField {
     int id;
-    VarRef from = null;
+    Var from = null;
     MethodSignatureRef inmethod = null;
     FieldSignatureRef signature = null;
     
-    public StoreStaticField(int id, VarRef from, FieldSignatureRef signature,  MethodSignatureRef inmethod ) {
+    public StoreStaticField(int id, Var from, FieldSignatureRef signature,  MethodSignatureRef inmethod ) {
         this.id = id;
         this.from = from;
         this.inmethod = inmethod;
@@ -25,7 +25,7 @@ public class StoreStaticField {
         return this.id;
     }
     
-    public VarRef getFrom() {
+    public Var getFrom() {
         return this.from;
     }
     

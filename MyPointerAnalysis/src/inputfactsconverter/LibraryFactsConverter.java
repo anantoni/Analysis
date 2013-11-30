@@ -18,7 +18,7 @@ import datomicFacts.MethodLookup;
 import datomicFacts.MethodSignatureRef;
 import datomicFacts.SimpleNameRef;
 import datomicFacts.Type;
-import datomicFacts.VarRef;
+import datomicFacts.Var;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -46,7 +46,7 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
     private ArrayList<SimpleNameRef> simpleNameRefFactsList = null;
     private ArrayList<MethodDescriptorRef> methodDescriptorRefFactsList = null;
     private ArrayList<HeapAllocationRef> heapAllocationRefFactsList = null;
-    private ArrayList<VarRef> varRefFactsList = null;
+    private ArrayList<Var> varFactsList = null;
     private ArrayList<AssignNormalHeapAllocation> assignNormalHeapAllocationFactsList = null;
     private ArrayList<AssignAuxiliaryHeapAllocation> assignAuxiliaryHeapAllocationFactsList = null;
     private ArrayList<AssignContextInsensitiveHeapAllocation> assignContextInsensitiveHeapAllocationFactsList = null;
@@ -54,7 +54,7 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
     
     public LibraryFactsConverter( FactsID id, ArrayList<Type> typeFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, 
                                     ArrayList<MethodDescriptorRef> methodDescriptorRefFactsList, ArrayList<SimpleNameRef> simplenNameRefFactsList,
-                                    ArrayList<HeapAllocationRef> heapAllocationRefFactsList, ArrayList<VarRef> varRefFactsList ) {
+                                    ArrayList<HeapAllocationRef> heapAllocationRefFactsList, ArrayList<Var> varFactsList ) {
         this.id = id;
         this.typeFactsList = typeFactsList;
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
@@ -66,7 +66,7 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
         this.methodLookupFactsList = new ArrayList<>();
         this.simpleNameRefFactsList = simplenNameRefFactsList;
         this.methodDescriptorRefFactsList = methodDescriptorRefFactsList;
-        this.varRefFactsList = varRefFactsList;
+        this.varFactsList = varFactsList;
         this.heapAllocationRefFactsList = heapAllocationRefFactsList;
         this.assignNormalHeapAllocationFactsList = new ArrayList<>();
         this.assignAuxiliaryHeapAllocationFactsList = new ArrayList<>();
@@ -306,7 +306,7 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
                         }
                         
                         HeapAllocationRef heap = null;
-                        VarRef var = null;
+                        Var var = null;
                         MethodSignatureRef inmethod = null;
                         
                         
@@ -321,8 +321,8 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
                             System.exit(-1);
                         }
                         
-                        for ( VarRef var1 : varRefFactsList ) {
-                            if ( var1.getValue().equals( m.group(3) ) ) {
+                        for ( Var var1 : varFactsList ) {
+                            if ( var1.getName().equals( m.group(3) ) ) {
                                 var = var1;
                                 break;
                             }
@@ -371,7 +371,7 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
                         }
                         
                         HeapAllocationRef heap = null;
-                        VarRef var = null;
+                        Var var = null;
                         MethodSignatureRef inmethod = null;
                         
                         
@@ -386,8 +386,8 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
                             System.exit(-1);
                         }
                         
-                        for ( VarRef var1 : varRefFactsList ) {
-                            if ( var1.getValue().equals( m.group(3) ) ) {
+                        for ( Var var1 : varFactsList ) {
+                            if ( var1.getName().equals( m.group(3) ) ) {
                                 var = var1;
                                 break;
                             }
@@ -436,7 +436,7 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
                         }
                         
                         HeapAllocationRef heap = null;
-                        VarRef var = null;
+                        Var var = null;
                         MethodSignatureRef inmethod = null;
                         
                         for ( HeapAllocationRef heap1 : heapAllocationRefFactsList ) {
@@ -450,8 +450,8 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
                             System.exit(-1);
                         }
                         
-                        for ( VarRef var1 : varRefFactsList ) {
-                            if ( var1.getValue().equals( m.group(3) ) ) {
+                        for ( Var var1 : varFactsList ) {
+                            if ( var1.getName().equals( m.group(3) ) ) {
                                 var = var1;
                                 break;
                             }

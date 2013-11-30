@@ -4,14 +4,10 @@
  */
 package inputfactsconverter;
 
-import datomicFacts.MethodDeclaration;
-import datomicFacts.MethodDeclarationException;
+import datomicFacts.Method;
 import datomicFacts.MethodDescriptorRef;
 import datomicFacts.MethodModifier;
-import datomicFacts.MethodSignatureDescriptor;
 import datomicFacts.MethodSignatureRef;
-import datomicFacts.MethodSignatureSimpleName;
-import datomicFacts.MethodSignatureType;
 import datomicFacts.ModifierRef;
 import datomicFacts.SimpleNameRef;
 import datomicFacts.Type;
@@ -34,13 +30,9 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
     private ArrayList<SimpleNameRef> simpleNameRefFactsList = null;
     private ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
     private ArrayList<ModifierRef> modifierRefFactsList = null;
-    private ArrayList<MethodDescriptorRef> methodDescriptorRefFactsList = null;
-    private ArrayList<MethodDeclaration> methodDeclarationFactsList = null;
-    private ArrayList<MethodDeclarationException> methodDeclarationExceptionFactsList = null;
-    private ArrayList<MethodSignatureType> methodSignatureTypeFactsList = null;
-    private ArrayList<MethodSignatureSimpleName> methodSignatureSimpleNameFactsList = null;
-    private ArrayList<MethodSignatureDescriptor> methodSignatureDescriptorFactsList = null;
+    private ArrayList<Method> methodFactsList = null;
     private ArrayList<MethodModifier> methodModifierFactsList = null;
+    private ArrayList<MethodDescriptorRef> methodDescriptorRefFactsList = null;
     private FactsID id = null;
     Thread t = null;
     
@@ -50,12 +42,8 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
         this.modifierRefFactsList = modifierRefFactsList;
         this.id = id;
-        methodDeclarationFactsList = new ArrayList();
+        methodFactsList = new ArrayList();
         methodDescriptorRefFactsList = new ArrayList<>();
-        methodDeclarationExceptionFactsList = new ArrayList<>();
-        methodSignatureTypeFactsList = new ArrayList<>();
-        methodSignatureSimpleNameFactsList = new ArrayList<>();
-        methodSignatureDescriptorFactsList = new ArrayList<>();
         methodModifierFactsList = new ArrayList<>();
     }
     
@@ -122,60 +110,8 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                             System.exit(-1);
                         }
 
-                        MethodDeclaration methodDeclaration = new MethodDeclaration( id.getID(), signature, ref );
-                        methodDeclarationFactsList.add( methodDeclaration );
-                        
-                    }
-                    br.close();  
-            }
-            
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodDeclaration-Exception.facts" ) )) {
-                    String line;
-                    while ((line = br.readLine()) != null) {
-                        line = line.trim();
-                        String pattern = "(.*)(,\\s)(.*)";
-                        // Create a Pattern object
-                        Pattern r = Pattern.compile(pattern);
-
-                        // Now create matcher object.
-                        Matcher m = r.matcher(line);
-                        if ( m.find() ) {
-                            if ( m.groupCount() != 3 ) {
-                                System.out.println( "Invalid number of groups matched" );
-                                System.exit(-1);
-                            }
-                        } 
-                        else {
-                            System.out.println( "Could not find match" );
-                            System.exit(-1);
-                        }
-                        MethodSignatureRef method = null;
-                        Type exceptionType = null;
-
-                        for ( MethodSignatureRef methodSignatureRef : methodSignatureRefFactsList ) {
-                            if ( methodSignatureRef.getValue().equals( m.group(3) ) ) {
-                                method = methodSignatureRef;
-                                break;
-                            }
-                        }
-                        if ( method == null ) { 
-                            System.out.println( "Method Signature Ref not found for: " + m.group(3) );
-                            System.exit(-1);
-                        }
-
-                        for ( Type type: typeFactsList ) {
-                            if ( type.getValue().equals( m.group(1) ) ) {
-                                exceptionType = type;
-                                break;
-                            }
-                        }
-                        if ( exceptionType == null ) { 
-                            System.out.println( "Exception type not found for: " + m.group(1) );
-                            System.exit(-1);
-                        }
-
-                        MethodDeclarationException methodDeclarationException = new MethodDeclarationException( id.getID(), method , exceptionType );
-                        methodDeclarationExceptionFactsList.add( methodDeclarationException );
+                        Method method = new Method( id.getID(), signature, ref );
+                        methodFactsList.add( method );
                         
                     }
                     br.close();  
@@ -183,6 +119,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodSignature-Type.facts" ) )) {
                 String line;
+                int counter = 0;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
                     String pattern = "(.*)(,\\s)(.*)";
@@ -201,19 +138,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                         System.out.println( "Could not find match" );
                         System.exit(-1);
                     }
-                    MethodSignatureRef signature = null;
                     Type type = null;
-
-                    for ( MethodSignatureRef methodSignatureRef : methodSignatureRefFactsList ) {
-                        if ( methodSignatureRef.getValue().equals( m.group(1) ) ) {
-                            signature = methodSignatureRef;
-                            break;
-                        }
-                    }
-                    if ( signature == null ) { 
-                        System.out.println( "MethodSignature-Type.facts: Method signature not found for: " + m.group(1) );
-                        System.exit(-1);
-                    }
 
                     for ( Type type1 : typeFactsList ) {
                         if ( type1.getValue().equals( m.group(3) ) ) {
@@ -225,9 +150,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                         System.out.println( "MethodSignature-Type.facts: Method type not found for: " + m.group(3) );
                         System.exit(-1);
                     }
-
-                    MethodSignatureType methodSignatureType = new MethodSignatureType( id.getID(), signature, type );
-                    methodSignatureTypeFactsList.add(methodSignatureType);
+                    methodFactsList.get(counter++).setType(type);
 
                 }
                 br.close();  
@@ -235,6 +158,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodSignature-SimpleName.facts" ) )) {
                 String line;
+                int counter = 0;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
                     String pattern = "(.*)(,\\s)(.*)";
@@ -253,19 +177,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                         System.out.println( "Could not find match" );
                         System.exit(-1);
                     }
-                    MethodSignatureRef signature = null;
                     SimpleNameRef simplename = null;
-
-                    for ( MethodSignatureRef methodSignatureRef : methodSignatureRefFactsList ) {
-                        if ( methodSignatureRef.getValue().equals( m.group(1) ) ) {
-                            signature = methodSignatureRef;
-                            break;
-                        }
-                    }
-                    if ( signature == null ) { 
-                        System.out.println( "MethodSignature-SimpleName.facts: Method signature not found for: " + m.group(1) );
-                        System.exit(-1);
-                    }
 
                     for ( SimpleNameRef simplename1 : simpleNameRefFactsList ) {
                         if ( simplename1.getValue().equals( m.group(3) ) ) {
@@ -278,15 +190,14 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                         System.exit(-1);
                     }
 
-                    MethodSignatureSimpleName methodSignatureSimpleName = new MethodSignatureSimpleName( id.getID(), signature, simplename );
-                    methodSignatureSimpleNameFactsList.add(methodSignatureSimpleName);
-
+                    methodFactsList.get(counter++).setSimpleName(simplename);
                 }
                 br.close();  
             }
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodSignature-Descriptor.facts" ) )) {
                 String line;
+                int counter = 0;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
                     String pattern = "(.*)(,\\s)(.*)";
@@ -305,19 +216,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                         System.out.println( "Could not find match" );
                         System.exit(-1);
                     }
-                    MethodSignatureRef signature = null;
                     MethodDescriptorRef descriptor = null;
-
-                    for ( MethodSignatureRef methodSignatureRef : methodSignatureRefFactsList ) {
-                        if ( methodSignatureRef.getValue().equals( m.group(1) ) ) {
-                            signature = methodSignatureRef;
-                            break;
-                        }
-                    }
-                    if ( signature == null ) { 
-                        System.out.println( "MethodSignature-Descriptor.facts: Method signature not found for: " + m.group(1) );
-                        System.exit(-1);
-                    }
 
                     for ( MethodDescriptorRef descriptor1 : methodDescriptorRefFactsList ) {
                         if ( descriptor1.getValue().equals( m.group(3) ) ) {
@@ -329,64 +228,62 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                         System.out.println( "MethodSignature-Descriptor.facts: Method descriptor not found for: " + m.group(3) );
                         System.exit(-1);
                     }
-
-                    MethodSignatureDescriptor methodSignatureDescriptor = new MethodSignatureDescriptor( id.getID(), signature, descriptor );
-                    methodSignatureDescriptorFactsList.add(methodSignatureDescriptor);
+                    methodFactsList.get(counter++).setDescriptor(descriptor);
 
                 }
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodModifier.facts" ) )) {
-                String line;
-                while ((line = br.readLine()) != null) {
-                    line = line.trim();
-                    String pattern = "(.*)(,\\s)(.*)";
-                    // Create a Pattern object
-                    Pattern r = Pattern.compile(pattern);
-
-                    // Now create matcher object.
-                    Matcher m = r.matcher(line);
-                    if ( m.find() ) {
-                        if ( m.groupCount() != 3 ) {
-                            System.out.println( "Invalid number of groups matched" );
-                            System.exit(-1);
-                        }
-                    } 
-                    else {
-                        System.out.println( "Could not find match" );
-                        System.exit(-1);
-                    }
-                    MethodSignatureRef method = null;
-                    ModifierRef mod = null;
-
-                    for ( MethodSignatureRef methodSignatureRef : methodSignatureRefFactsList ) {
-                        if ( methodSignatureRef.getValue().equals( m.group(3) ) ) {
-                            method = methodSignatureRef;
-                            break;
-                        }
-                    }
-                    if ( method == null ) { 
-                        System.out.println( "MethodModifier.facts: Method signature not found for: " + m.group(3) );
-                        System.exit(-1);
-                    }
-
-                    for ( ModifierRef mod1 : modifierRefFactsList ) {
-                        if ( mod1.getValue().equals( m.group(1) ) ) {
-                            mod = mod1;
-                            break;
-                        }
-                    }
-                    if ( mod == null ) { 
-                        System.out.println( "MethodModifier.facts: Method modifier not found for: " + m.group(1) );
-                        System.exit(-1);
-                    }
-
-                    MethodModifier methodModifier = new MethodModifier( id.getID(), method, mod );
-                    methodModifierFactsList.add(methodModifier);
-                }
-                br.close();  
-            }
+//            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodModifier.facts" ) )) {
+//                String line;
+//                while ((line = br.readLine()) != null) {
+//                    line = line.trim();
+//                    String pattern = "(.*)(,\\s)(.*)";
+//                    // Create a Pattern object
+//                    Pattern r = Pattern.compile(pattern);
+//
+//                    // Now create matcher object.
+//                    Matcher m = r.matcher(line);
+//                    if ( m.find() ) {
+//                        if ( m.groupCount() != 3 ) {
+//                            System.out.println( "Invalid number of groups matched" );
+//                            System.exit(-1);
+//                        }
+//                    } 
+//                    else {
+//                        System.out.println( "Could not find match" );
+//                        System.exit(-1);
+//                    }
+//                    MethodSignatureRef method = null;
+//                    ModifierRef mod = null;
+//
+//                    for ( MethodSignatureRef methodSignatureRef : methodSignatureRefFactsList ) {
+//                        if ( methodSignatureRef.getValue().equals( m.group(3) ) ) {
+//                            method = methodSignatureRef;
+//                            break;
+//                        }
+//                    }
+//                    if ( method == null ) { 
+//                        System.out.println( "MethodModifier.facts: Method signature not found for: " + m.group(3) );
+//                        System.exit(-1);
+//                    }
+//
+//                    for ( ModifierRef mod1 : modifierRefFactsList ) {
+//                        if ( mod1.getValue().equals( m.group(1) ) ) {
+//                            mod = mod1;
+//                            break;
+//                        }
+//                    }
+//                    if ( mod == null ) { 
+//                        System.out.println( "MethodModifier.facts: Method modifier not found for: " + m.group(1) );
+//                        System.exit(-1);
+//                    }
+//
+//                    MethodModifier methodModifier = new MethodModifier( id.getID(), method, mod );
+//                    methodModifierFactsList.add(methodModifier);
+//                }
+//                br.close();  
+//            }
         }
         catch( IOException ex) {
             System.out.println( ex.toString() );
@@ -407,66 +304,28 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
             }
             System.out.println( "MethodDescriptorRef facts converted: " + methodDescriptorRefFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodDeclaration.dtm", false)));) {
-                for ( MethodDeclaration key : methodDeclarationFactsList ) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/Method.dtm", false)));) {
+                for ( Method key : methodFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :MethodDeclaration/signature #db/id[:db.part/user " + key.getSignature().getID() + "]");
-                    writer.println( " :MethodDeclaration/ref #db/id[:db.part/user " + key.getRef().getID() + "]}");
+                    writer.println( " :Method/signature #db/id[:db.part/user " + key.getSignature().getID() + "]");
+                    writer.println( " :Method/simplename #db/id[:db.part/user " + key.getSimpleName().getID() + "]");
+                    writer.println( " :Method/type #db/id[:db.part/user " + key.getType().getID() + "]");
+                    writer.println( " :Method/descriptor #db/id[:db.part/user " + key.getDescriptor().getID() + "]");    
+                    writer.println( " :Method/declaration #db/id[:db.part/user " + key.getDeclaration().getID() + "]}");
                 }
                 writer.close();
             }
-            System.out.println( "MethodDeclaration facts converted: " + methodDeclarationFactsList.size() );
+            System.out.println( "Method facts converted: " + methodFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodDeclaration-Exception.dtm", false)));) {
-                for ( MethodDeclarationException key : methodDeclarationExceptionFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :MethodDeclaration-Exception/method #db/id[:db.part/user " + key.getMethod().getID() + "]");
-                    writer.println( " :MethodDeclaration-Exception/exceptionType #db/id[:db.part/user " + key.getExceptionType().getID() + "]}");
-                }
-                writer.close();
-            }
-            System.out.println( "MethodDeclaration-Exception facts converted: " + methodDeclarationExceptionFactsList.size() );
-            
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodSignature-Type.dtm", false)));) {
-                for ( MethodSignatureType key : methodSignatureTypeFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :MethodSignature-Type/signature #db/id[:db.part/user " + key.getMethodSignatureRef().getID() + "]");
-                    writer.println( " :MethodSignature-Type/type #db/id[:db.part/user " + key.getType().getID() + "]}");
-                }
-                writer.close();
-            }
-            System.out.println( "MethodSignature-Type facts converted: " + methodSignatureTypeFactsList.size() );
-
-            
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodSignature-SimpleName.dtm", false)));) {
-                for ( MethodSignatureSimpleName key : methodSignatureSimpleNameFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :MethodSignature-SimpleName/signature #db/id[:db.part/user " + key.getMethodSignatureRef().getID() + "]");
-                    writer.println( " :MethodSignature-SimpleName/simplename #db/id[:db.part/user " + key.getSimpleName().getID() + "]}");
-                }
-                writer.close();
-            }
-            System.out.println( "MethodSignature-SimpleName facts converted: " + methodSignatureSimpleNameFactsList.size() );
-
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodSignature-Descriptor.dtm", false)));) {
-                for ( MethodSignatureDescriptor key : methodSignatureDescriptorFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :MethodSignature-Descriptor/signature #db/id[:db.part/user " + key.getMethodSignatureRef().getID() + "]");
-                    writer.println( " :MethodSignature-Descriptor/descriptor #db/id[:db.part/user " + key.getDescriptor().getID() + "]}");    
-                }
-                writer.close();
-            }
-            System.out.println( "MethodSignature-Descriptor facts converted: " + methodSignatureDescriptorFactsList.size() );     
-            
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodModifier.dtm", false)));) {
-                for ( MethodModifier key : methodModifierFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :MethodModifier/method #db/id[:db.part/user " + key.getMethod().getID() + "]");
-                    writer.println( " :MethodModifier/mod #db/id[:db.part/user " + key.getModifier().getID() + "]}");    
-                }
-                writer.close();
-            }
-            System.out.println( "MethodModifier facts converted: " + methodModifierFactsList.size() ); 
+//            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodModifier.dtm", false)));) {
+//                for ( MethodModifier key : methodModifierFactsList ) {
+//                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
+//                    writer.println( " :MethodModifier/method #db/id[:db.part/user " + key.getMethod().getID() + "]");
+//                    writer.println( " :MethodModifier/mod #db/id[:db.part/user " + key.getModifier().getID() + "]}");    
+//                }
+//                writer.close();
+//            }
+//            System.out.println( "MethodModifier facts converted: " + methodModifierFactsList.size() ); 
         }        
         catch ( Exception ex ) {
             System.out.println( ex.toString() ); 

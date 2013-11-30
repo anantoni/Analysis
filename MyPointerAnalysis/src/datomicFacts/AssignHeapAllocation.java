@@ -12,9 +12,9 @@ public class AssignHeapAllocation {
     int id;
     HeapAllocationRef heap = null;
     MethodSignatureRef inmethod = null;
-    VarRef to = null;
+    Var to = null;
     
-    public AssignHeapAllocation( int id, HeapAllocationRef heap, MethodSignatureRef inmethod, VarRef to ) {
+    public AssignHeapAllocation( int id, HeapAllocationRef heap, MethodSignatureRef inmethod, Var to ) {
         this.id = id;
         this.heap = heap;
         this.inmethod = inmethod;
@@ -33,7 +33,7 @@ public class AssignHeapAllocation {
         return inmethod;
     }
     
-    public VarRef getTo() {
+    public Var getTo() {
         return to;
     }
 }

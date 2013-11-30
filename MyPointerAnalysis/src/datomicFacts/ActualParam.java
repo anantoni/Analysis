@@ -12,9 +12,9 @@ public class ActualParam {
     int id;
     int index;
     MethodInvocationRef invocation = null;
-    VarRef var = null;
+    Var var = null;
     
-    public ActualParam(int id, int index, MethodInvocationRef invocation, VarRef var) {
+    public ActualParam(int id, int index, MethodInvocationRef invocation, Var var) {
         this.id = id;
         this.index = index;
         this.invocation = invocation;
@@ -33,7 +33,7 @@ public class ActualParam {
         return invocation;
     }
     
-    public VarRef getVar() {
+    public Var getVar() {
         return var;
     }
 }

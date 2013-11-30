@@ -11,9 +11,9 @@ package datomicFacts;
 public class AssignReturnValue {
     int id;
     MethodInvocationRef invocation = null;
-    VarRef to = null;
+    Var to = null;
     
-    public AssignReturnValue( int id, MethodInvocationRef invocation, VarRef to ) {
+    public AssignReturnValue( int id, MethodInvocationRef invocation, Var to ) {
         this.id = id;
         this.invocation = invocation;
         this.to = to;
@@ -27,7 +27,7 @@ public class AssignReturnValue {
         return invocation;
     }
     
-    public VarRef getTo() {
+    public Var getTo() {
         return to;
     }
 }

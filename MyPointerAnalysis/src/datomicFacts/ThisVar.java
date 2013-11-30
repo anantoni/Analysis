@@ -11,9 +11,9 @@ package datomicFacts;
 public class ThisVar {
     int id;
     MethodSignatureRef method = null;
-    VarRef var = null;
+    Var var = null;
     
-    public ThisVar( int id, MethodSignatureRef method, VarRef var ) {
+    public ThisVar( int id, MethodSignatureRef method, Var var ) {
         this.id = id;
         this.method = method;
         this.var = var;
@@ -27,7 +27,7 @@ public class ThisVar {
         return method;
     }
     
-    public VarRef getVar() {
+    public Var getVar() {
         return var;
     }
     

@@ -11,7 +11,7 @@ import datomicFacts.InstructionRef;
 import datomicFacts.MethodInvocationRef;
 import datomicFacts.MethodSignatureRef;
 import datomicFacts.ThisVar;
-import datomicFacts.VarRef;
+import datomicFacts.Var;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
  * @author anantoni
  */
 public class ParameterFactsConverter extends FactsConverter {
-    private ArrayList<VarRef> varRefFactsList = null;
+    private ArrayList<Var> varFactsList = null;
     private ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
     private ArrayList<MethodInvocationRef> methodInvocationRefFactsList = null;
     private ArrayList<FormalParam> formalParamFactsList = null;
@@ -37,8 +37,8 @@ public class ParameterFactsConverter extends FactsConverter {
     private ArrayList<CallGraphEdgeSourceRef> callGraphEdgeSourceRefFactsList = null;
     private FactsID id = null;
     
-    public ParameterFactsConverter(FactsID id, ArrayList<VarRef> varRefFactsList, ArrayList<CallGraphEdgeSourceRef> callGraphEdgeSourceRefFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList) {
-        this.varRefFactsList = varRefFactsList;
+    public ParameterFactsConverter(FactsID id, ArrayList<Var> varFactsList, ArrayList<CallGraphEdgeSourceRef> callGraphEdgeSourceRefFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList) {
+        this.varFactsList = varFactsList;
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
         methodInvocationRefFactsList = new ArrayList<>();
         formalParamFactsList = new ArrayList<>();
@@ -74,7 +74,7 @@ public class ParameterFactsConverter extends FactsConverter {
                     }
                     MethodSignatureRef method = null;
                     int paramIndexRef = -1;
-                    VarRef var = null;
+                    Var var = null;
 
                     for ( MethodSignatureRef methodSignatureRef1 : methodSignatureRefFactsList ) {
                         if ( methodSignatureRef1.getValue().equals( m.group(3) ) ) {
@@ -87,8 +87,8 @@ public class ParameterFactsConverter extends FactsConverter {
                         System.exit(-1);
                     }
 
-                    for ( VarRef var1 : varRefFactsList ) {
-                        if ( var1.getValue().equals( m.group(5) ) ) {
+                    for ( Var var1 : varFactsList ) {
+                        if ( var1.getName().equals( m.group(5) ) ) {
                             var = var1;
                             break;
                         }
@@ -160,7 +160,7 @@ public class ParameterFactsConverter extends FactsConverter {
                         }
                         MethodInvocationRef invocation = null;
                         int paramIndexRef = -1;
-                        VarRef var = null;
+                        Var var = null;
 
                         for ( MethodInvocationRef methodInvocationRef : methodInvocationRefFactsList ) {
                             if ( methodInvocationRef.getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(3) ) ) {
@@ -173,8 +173,8 @@ public class ParameterFactsConverter extends FactsConverter {
                             System.exit(-1);
                         }
 
-                        for ( VarRef var1 : varRefFactsList ) {
-                            if ( var1.getValue().equals( m.group(5) ) ) {
+                        for ( Var var1 : varFactsList ) {
+                            if ( var1.getName().equals( m.group(5) ) ) {
                                 var = var1;
                                 break;
                             }
@@ -223,7 +223,7 @@ public class ParameterFactsConverter extends FactsConverter {
                             System.exit(-1);
                         }
                         MethodSignatureRef method = null;
-                        VarRef var = null;
+                        Var var = null;
 
                         for ( MethodSignatureRef methodSignatureRef : methodSignatureRefFactsList ) {
                             if ( methodSignatureRef.getValue().equals( m.group(1) ) ) {
@@ -236,8 +236,8 @@ public class ParameterFactsConverter extends FactsConverter {
                             System.exit(-1);
                         }
 
-                        for ( VarRef var1 : varRefFactsList ) {
-                            if ( var1.getValue().equals( m.group(3) ) ) {
+                        for ( Var var1 : varFactsList ) {
+                            if ( var1.getName().equals( m.group(3) ) ) {
                                 var = var1;
                                 break;
                             }

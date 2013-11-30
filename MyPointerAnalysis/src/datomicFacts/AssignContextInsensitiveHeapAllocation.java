@@ -11,10 +11,10 @@ package datomicFacts;
 public class AssignContextInsensitiveHeapAllocation {
     int id;
     HeapAllocationRef heap = null;
-    VarRef var = null;
+    Var var = null;
     MethodSignatureRef inmethod = null;
     
-    public AssignContextInsensitiveHeapAllocation( int id, HeapAllocationRef heap, VarRef var, MethodSignatureRef inmethod ) {
+    public AssignContextInsensitiveHeapAllocation( int id, HeapAllocationRef heap, Var var, MethodSignatureRef inmethod ) {
         this.id = id;
         this.heap = heap;
         this.var = var;
@@ -29,7 +29,7 @@ public class AssignContextInsensitiveHeapAllocation {
         return this.heap;
     }
     
-    public VarRef getVar() {
+    public Var getVar() {
         return this.var;
     }
     

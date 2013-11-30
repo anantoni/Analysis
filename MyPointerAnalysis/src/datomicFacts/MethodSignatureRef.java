@@ -6,8 +6,7 @@ package datomicFacts;
 
 /**
  *
- * @author
- * anantoni
+ * @author anantoni
  */
 public class MethodSignatureRef {
     private int id;

@@ -12,10 +12,10 @@ public class AssignCast {
     int id;
     Type type = null;
     MethodSignatureRef inmethod = null;
-    VarRef to = null;
-    VarRef from = null;
+    Var to = null;
+    Var from = null;
     
-    public AssignCast( int id, Type type, VarRef from, VarRef to, MethodSignatureRef inmethod  ) {
+    public AssignCast( int id, Type type, Var from, Var to, MethodSignatureRef inmethod  ) {
         this.id = id;
         this.type = type;
         this.inmethod = inmethod;
@@ -35,11 +35,11 @@ public class AssignCast {
         return inmethod;
     }
     
-    public VarRef getTo() {
+    public Var getTo() {
         return to;
     }
     
-     public VarRef getFrom() {
+     public Var getFrom() {
         return from;
     }
 }

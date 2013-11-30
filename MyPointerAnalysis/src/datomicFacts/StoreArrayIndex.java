@@ -11,10 +11,10 @@ package datomicFacts;
 public class StoreArrayIndex {
     int id;
     MethodSignatureRef inmethod = null;
-    VarRef base = null;
-    VarRef from = null;
+    Var base = null;
+    Var from = null;
     
-    public StoreArrayIndex( int id, VarRef from, VarRef base, MethodSignatureRef inmethod ) {
+    public StoreArrayIndex( int id, Var from, Var base, MethodSignatureRef inmethod ) {
         this.id = id;
         this.base = base;
         this.from = from;
@@ -25,11 +25,11 @@ public class StoreArrayIndex {
         return this.id;
     }
     
-    public VarRef getBase() {
+    public Var getBase() {
         return this.base;
     }
     
-    public VarRef getFrom() {
+    public Var getFrom() {
         return this.from;
     }
     

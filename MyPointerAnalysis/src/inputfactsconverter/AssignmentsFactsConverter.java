@@ -12,7 +12,7 @@ import datomicFacts.HeapAllocationRef;
 import datomicFacts.MethodInvocationRef;
 import datomicFacts.MethodSignatureRef;
 import datomicFacts.Type;
-import datomicFacts.VarRef;
+import datomicFacts.Var;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -30,7 +30,7 @@ import java.util.regex.Pattern;
 public class AssignmentsFactsConverter extends FactsConverter implements Runnable {
     private ArrayList<HeapAllocationRef> heapAllocationRefFactsList = null;
     private ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
-    private ArrayList<VarRef> varRefFactsList = null;
+    private ArrayList<Var> varFactsList = null;
     private ArrayList<MethodInvocationRef> methodInvocationRefFactsList = null;
     private ArrayList<AssignHeapAllocation> assignHeapAllocationFactsList = null;
     private ArrayList<AssignReturnValue> assignReturnValueFactsList = null;
@@ -40,11 +40,11 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
     private FactsID id = null;
     private Thread t = null;
     
-    public AssignmentsFactsConverter( FactsID id, ArrayList<HeapAllocationRef> heapAllocationRefFactsList, ArrayList<VarRef> varRefFactsList, ArrayList<MethodInvocationRef> methodInvocationRefFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, ArrayList<Type> typeFactsList ) {
+    public AssignmentsFactsConverter( FactsID id, ArrayList<HeapAllocationRef> heapAllocationRefFactsList, ArrayList<Var> varFactsList, ArrayList<MethodInvocationRef> methodInvocationRefFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, ArrayList<Type> typeFactsList ) {
         this.heapAllocationRefFactsList = heapAllocationRefFactsList;
         this.methodInvocationRefFactsList = methodInvocationRefFactsList;
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
-        this.varRefFactsList = varRefFactsList;
+        this.varFactsList = varFactsList;
         this.typeFactsList = typeFactsList;
         this.id = id;
         assignCastFactsList = new ArrayList<>();
@@ -78,7 +78,7 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
                         }
                         HeapAllocationRef heap = null;
                         MethodSignatureRef inmethod = null;
-                        VarRef to = null;
+                        Var to = null;
 
                         for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
                             if ( inmethod1.getValue().equals( m.group(5) ) ) {
@@ -91,8 +91,8 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
                             System.exit(-1);
                         }
 
-                        for ( VarRef to1 : varRefFactsList ) {
-                            if ( to1.getValue().equals( m.group(3) ) ) {
+                        for ( Var to1 : varFactsList ) {
+                            if ( to1.getName().equals( m.group(3) ) ) {
                                 to = to1;
                                 break;
                             }
@@ -140,7 +140,7 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
                             System.exit(-1);
                         }
                         MethodInvocationRef invocation = null;
-                        VarRef to = null;
+                        Var to = null;
 
                         for ( MethodInvocationRef invocation1 : methodInvocationRefFactsList ) {
                             if ( invocation1.getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
@@ -153,8 +153,8 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
                             System.exit(-1);
                         }
 
-                        for ( VarRef to1 : varRefFactsList ) {
-                            if ( to1.getValue().equals( m.group(3) ) ) {
+                        for ( Var to1 : varFactsList ) {
+                            if ( to1.getName().equals( m.group(3) ) ) {
                                 to = to1;
                                 break;
                             }
@@ -191,8 +191,8 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
                             System.out.println( "AssignLocal.facts: Could not find match - " + line );
                             System.exit(-1);
                         }
-                        VarRef from = null;
-                        VarRef to = null;
+                        Var from = null;
+                        Var to = null;
                         MethodSignatureRef inmethod = null;
                         
                         for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
@@ -206,8 +206,8 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
                             System.exit(-1);
                         }
 
-                        for ( VarRef to1 : varRefFactsList ) {
-                            if ( to1.getValue().equals( m.group(3) ) ) {
+                        for ( Var to1 : varFactsList ) {
+                            if ( to1.getName().equals( m.group(3) ) ) {
                                 to = to1;
                                 break;
                             }
@@ -217,8 +217,8 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
                             System.exit(-1);
                         }
                         
-                        for ( VarRef from1 : varRefFactsList ) {
-                            if ( from1.getValue().equals( m.group(1) ) ) {
+                        for ( Var from1 : varFactsList ) {
+                            if ( from1.getName().equals( m.group(1) ) ) {
                                 from = from1;
                                 break;
                             }
@@ -255,8 +255,8 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
                             System.exit(-1);
                         }
                         Type type = null;
-                        VarRef from = null;
-                        VarRef to = null;
+                        Var from = null;
+                        Var to = null;
                         MethodSignatureRef inmethod = null;
                         
                         for ( Type type1 : typeFactsList ) {
@@ -282,8 +282,8 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
                             System.exit(-1);
                         }
 
-                        for ( VarRef to1 : varRefFactsList ) {
-                            if ( to1.getValue().equals( m.group(5) ) ) {
+                        for ( Var to1 : varFactsList ) {
+                            if ( to1.getName().equals( m.group(5) ) ) {
                                 to = to1;
                                 break;
                             }
@@ -293,8 +293,8 @@ public class AssignmentsFactsConverter extends FactsConverter implements Runnabl
                             System.exit(-1);
                         }
                         
-                        for ( VarRef from1 : varRefFactsList ) {
-                            if ( from1.getValue().equals( m.group(3) ) ) {
+                        for ( Var from1 : varFactsList ) {
+                            if ( from1.getName().equals( m.group(3) ) ) {
                                 from = from1;
                                 break;
                             }

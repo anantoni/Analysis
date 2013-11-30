@@ -10,11 +10,11 @@ package datomicFacts;
  */
 public class LoadStaticField {
     int id;
-    VarRef to = null;
+    Var to = null;
     MethodSignatureRef inmethod = null;
     FieldSignatureRef sig = null;
     
-    public LoadStaticField(int id, FieldSignatureRef sig, VarRef to, MethodSignatureRef inmethod ) {
+    public LoadStaticField(int id, FieldSignatureRef sig, Var to, MethodSignatureRef inmethod ) {
         this.id = id;
         this.to = to;
         this.inmethod = inmethod;
@@ -25,7 +25,7 @@ public class LoadStaticField {
         return this.id;
     }
     
-    public VarRef getTo() {
+    public Var getTo() {
         return this.to;
     }
     

@@ -10,12 +10,12 @@ package datomicFacts;
  */
 public class LoadInstanceField {
     int id;
-    VarRef base = null;
-    VarRef to = null;
+    Var base = null;
+    Var to = null;
     MethodSignatureRef inmethod = null;
     FieldSignatureRef sig = null;
     
-    public LoadInstanceField(int id, VarRef base, FieldSignatureRef sig, VarRef to, MethodSignatureRef inmethod ) {
+    public LoadInstanceField(int id, Var base, FieldSignatureRef sig, Var to, MethodSignatureRef inmethod ) {
         this.id = id;
         this.base = base;
         this.to = to;
@@ -27,11 +27,11 @@ public class LoadInstanceField {
         return this.id;
     }
     
-    public VarRef getBase() {
+    public Var getBase() {
         return this.base;
     }
     
-    public VarRef getTo() {
+    public Var getTo() {
         return this.to;
     }
     

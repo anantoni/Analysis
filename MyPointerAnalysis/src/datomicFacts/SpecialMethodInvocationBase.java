@@ -11,9 +11,9 @@ package datomicFacts;
 public class SpecialMethodInvocationBase {
     int id;
     MethodInvocationRef invocation = null;
-    VarRef var = null;
+    Var var = null;
     
-    public SpecialMethodInvocationBase( int id, MethodInvocationRef invocation, VarRef var) {
+    public SpecialMethodInvocationBase( int id, MethodInvocationRef invocation, Var var) {
         this.id = id;
         this.invocation = invocation;
         this.var = var;
@@ -27,7 +27,7 @@ public class SpecialMethodInvocationBase {
         return this.invocation;
     }
     
-    public VarRef getVar() {
+    public Var getVar() {
         return this.var;
     }
 }

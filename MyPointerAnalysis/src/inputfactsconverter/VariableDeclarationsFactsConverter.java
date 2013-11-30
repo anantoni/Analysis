@@ -6,9 +6,7 @@ package inputfactsconverter;
 
 import datomicFacts.MethodSignatureRef;
 import datomicFacts.Type;
-import datomicFacts.VarDeclaringMethod;
-import datomicFacts.VarRef;
-import datomicFacts.VarType;
+import datomicFacts.Var;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -26,20 +24,16 @@ import java.util.regex.Pattern;
  */
 public class VariableDeclarationsFactsConverter extends FactsConverter implements Runnable {
     ArrayList<Type> typeFactsList = null;
-    ArrayList<VarRef> varRefFactsList = null;
+    ArrayList<Var> varFactsList = null;
     ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
-    ArrayList<VarType> varTypeFactsList = null;
-    ArrayList<VarDeclaringMethod> varDeclaringMethodFactsList = null;
     FactsID id = null;
     private Thread t = null;
     
     public VariableDeclarationsFactsConverter(FactsID id, ArrayList<Type> typeFactsList ) {
         this.typeFactsList = typeFactsList;
         this.id = id;
-        varRefFactsList = new ArrayList<>();
-        varTypeFactsList = new ArrayList<>();
+        varFactsList = new ArrayList<>();
         methodSignatureRefFactsList = new ArrayList<>();
-        varDeclaringMethodFactsList = new ArrayList<>();
     }
     
     @Override
@@ -91,16 +85,15 @@ public class VariableDeclarationsFactsConverter extends FactsConverter implement
                         System.exit(-1);
                     }
                     
-                    VarRef ref = new VarRef( id.getID(), m.group(1) );
-                    varRefFactsList.add(ref);
-                    VarType varType = new VarType( id.getID(), ref, type );
-                    varTypeFactsList.add( varType );
+                    Var var = new Var( id.getID(), m.group(1), type );
+                    varFactsList.add(var);
                 }
                 br.close();
             }
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/Var-DeclaringMethod.facts" ) ) ) {
                 String line;
+                int counter = 0;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
                     String pattern = "(.*)(,\\s)(<.*>)|";
@@ -122,7 +115,6 @@ public class VariableDeclarationsFactsConverter extends FactsConverter implement
                     }
                     
                     MethodSignatureRef method = null;
-                    VarRef ref = null;
                     
                     for ( MethodSignatureRef methodSignatureRef : methodSignatureRefFactsList ) {
                         if ( methodSignatureRef.getValue().equals( m.group(3) ) ) {
@@ -136,19 +128,7 @@ public class VariableDeclarationsFactsConverter extends FactsConverter implement
                         System.exit(-1);
                     }
                     
-                    for ( VarRef varRef : varRefFactsList ) {
-                        if ( varRef.getValue().equals( m.group(1) ) ) {
-                            ref = varRef;
-                            break;
-                        }
-                    }
-                    if ( ref == null ) { 
-                        System.out.println( "Variable reference not found for: " + m.group(1) );
-                        System.exit(-1);
-                    }
-                    
-                    VarDeclaringMethod varDeclaringMethod= new VarDeclaringMethod( id.getID(), ref, method );
-                    varDeclaringMethodFactsList.add( varDeclaringMethod );
+                    varFactsList.get(counter++).setDeclaringMethod(method);              
                     
                 }
                 br.close();
@@ -165,14 +145,17 @@ public class VariableDeclarationsFactsConverter extends FactsConverter implement
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/VarRef.dtm", false)));) {
-                for ( VarRef key : varRefFactsList ) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/Var.dtm", false)));) {
+                for ( Var key : varFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :VarRef/value " + "\""+ key.getValue() + "\""+ "}");
+                    writer.println( " :Var/name " + "\""+ key.getName() + "\"");
+                    writer.println( " :Var/type #db/id[:db.part/user " + key.getType().getID() + "]");
+                    writer.println( " :Var/method #db/id[:db.part/user " + key.getDeclaringMethod().getID() + "]}");
+
                 }
                 writer.close();
             }
-            System.out.println( "VarRef facts converted: " + varRefFactsList.size() );
+            System.out.println( "Var facts converted: " + varFactsList.size() );
             
             try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodSignatureRef.dtm", false)));) {
                 for ( MethodSignatureRef key : methodSignatureRefFactsList) {
@@ -182,27 +165,7 @@ public class VariableDeclarationsFactsConverter extends FactsConverter implement
                 writer.close();
             }
             System.out.println( "MethodSignatureRef facts converted: " + methodSignatureRefFactsList.size() );
-
-            
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/Var-Type.dtm", false)));) {
-                for ( VarType key : varTypeFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :Var-Type/ref #db/id[:db.part/user " + key.getVarRef().getID() +"]"); 
-                    writer.println( " :Var-Type/type #db/id[:db.part/user " + key.getType().getID() + "]}");
-                }
-                writer.close();
-            }
-            System.out.println( "Var-Type facts converted: " + varTypeFactsList.size() );
-
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/Var-DeclaringMethod.dtm", false)));) {
-                for ( VarDeclaringMethod key : varDeclaringMethodFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :Var-DeclaringMethod/ref #db/id[:db.part/user " + key.getMethodSignatureRef().getID() +"]"); 
-                    writer.println( " :Var-DeclaringMethod/method #db/id[:db.part/user " + key.getMethodSignatureRef().getID() + "]}");                
-                }
-                writer.close();
-            }
-            System.out.println( "Var-DeclaringMethod facts converted: " + varDeclaringMethodFactsList.size() );       
+    
         }        
         catch ( Exception ex ) {
             System.out.println( ex.toString() ); 
@@ -214,8 +177,8 @@ public class VariableDeclarationsFactsConverter extends FactsConverter implement
         return this.methodSignatureRefFactsList;
     }
     
-    public ArrayList<VarRef> getVarRefFactsList() {
-        return this.varRefFactsList;
+    public ArrayList<Var> getvarFactsList() {
+        return this.varFactsList;
     }
 
     

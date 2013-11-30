@@ -12,7 +12,7 @@ import datomicFacts.MethodSignatureRef;
 import datomicFacts.StoreInstanceField;
 import datomicFacts.StorePrimStaticField;
 import datomicFacts.StoreStaticField;
-import datomicFacts.VarRef;
+import datomicFacts.Var;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -30,7 +30,7 @@ import java.util.regex.Pattern;
 public class FieldsFactsConverter extends FactsConverter implements Runnable {
     private ArrayList<FieldSignatureRef> fieldSignatureRefFactsList = null;
     private ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
-    private ArrayList<VarRef> varRefFactsList = null;
+    private ArrayList<Var> varFactsList = null;
     private ArrayList<LoadInstanceField> loadInstanceFieldFactsList = null;
     private ArrayList<LoadStaticField> loadStaticFieldFactsList = null;
     private ArrayList<LoadPrimStaticField> loadPrimStaticFieldFactsList = null;
@@ -40,10 +40,10 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
     private FactsID id = null;
     private Thread t = null;
     
-    public FieldsFactsConverter(FactsID id, ArrayList<VarRef> varRefFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, ArrayList<FieldSignatureRef> fieldSignatureRefFactsList) {
+    public FieldsFactsConverter(FactsID id, ArrayList<Var> varFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, ArrayList<FieldSignatureRef> fieldSignatureRefFactsList) {
         this.fieldSignatureRefFactsList = fieldSignatureRefFactsList;
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
-        this.varRefFactsList = varRefFactsList;
+        this.varFactsList = varFactsList;
         loadInstanceFieldFactsList = new ArrayList<>();
         loadStaticFieldFactsList = new ArrayList<>();
         loadPrimStaticFieldFactsList = new ArrayList<>();
@@ -77,9 +77,9 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
                     FieldSignatureRef sig = null;
-                    VarRef base = null;
+                    Var base = null;
                     MethodSignatureRef inmethod = null;
-                    VarRef to = null;
+                    Var to = null;
 
                     for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
                         if ( inmethod1.getValue().equals( m.group(7) ) ) {
@@ -92,8 +92,8 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( VarRef to1 : varRefFactsList ) {
-                        if ( to1.getValue().equals( m.group(5) ) ) {
+                    for ( Var to1 : varFactsList ) {
+                        if ( to1.getName().equals( m.group(5) ) ) {
                             to = to1;
                             break;
                         }
@@ -103,8 +103,8 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( VarRef base1 : varRefFactsList ) {
-                        if ( base1.getValue().equals( m.group(1) ) ) {
+                    for ( Var base1 : varFactsList ) {
+                        if ( base1.getName().equals( m.group(1) ) ) {
                             base = base1;
                             break;
                         }
@@ -153,7 +153,7 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                     }
                     FieldSignatureRef sig = null;
                     MethodSignatureRef inmethod = null;
-                    VarRef to = null;
+                    Var to = null;
 
                     for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
                         if ( inmethod1.getValue().equals( m.group(5) ) ) {
@@ -166,8 +166,8 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( VarRef to1 : varRefFactsList ) {
-                        if ( to1.getValue().equals( m.group(3) ) ) {
+                    for ( Var to1 : varFactsList ) {
+                        if ( to1.getName().equals( m.group(3) ) ) {
                             to = to1;
                             break;
                         }
@@ -266,9 +266,9 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
                     FieldSignatureRef sig = null;
-                    VarRef base = null;
+                    Var base = null;
                     MethodSignatureRef inmethod = null;
-                    VarRef from = null;
+                    Var from = null;
 
                     for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
                         if ( inmethod1.getValue().equals( m.group(7) ) ) {
@@ -281,8 +281,8 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( VarRef from1 : varRefFactsList ) {
-                        if ( from1.getValue().equals( m.group(1) ) ) {
+                    for ( Var from1 : varFactsList ) {
+                        if ( from1.getName().equals( m.group(1) ) ) {
                             from = from1;
                             break;
                         }
@@ -292,8 +292,8 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( VarRef base1 : varRefFactsList ) {
-                        if ( base1.getValue().equals( m.group(3) ) ) {
+                    for ( Var base1 : varFactsList ) {
+                        if ( base1.getName().equals( m.group(3) ) ) {
                             base = base1;
                             break;
                         }
@@ -342,7 +342,7 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                     }
                     FieldSignatureRef sig = null;
                     MethodSignatureRef inmethod = null;
-                    VarRef from = null;
+                    Var from = null;
 
                     for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
                         if ( inmethod1.getValue().equals( m.group(5) ) ) {
@@ -355,8 +355,8 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( VarRef from1 : varRefFactsList ) {
-                        if ( from1.getValue().equals( m.group(1) ) ) {
+                    for ( Var from1 : varFactsList ) {
+                        if ( from1.getName().equals( m.group(1) ) ) {
                             from = from1;
                             break;
                         }

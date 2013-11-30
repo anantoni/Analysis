@@ -12,9 +12,9 @@ public class FormalParam {
     int id;
     int index;
     MethodSignatureRef method = null;
-    VarRef var = null;
+    Var var = null;
     
-    public FormalParam(int id, int index, MethodSignatureRef method, VarRef var) {
+    public FormalParam(int id, int index, MethodSignatureRef method, Var var) {
         this.id = id;
         this.index = index;
         this.method = method;
@@ -33,7 +33,7 @@ public class FormalParam {
         return method;
     }
     
-    public VarRef getVar() {
+    public Var getVar() {
         return var;
     }
     

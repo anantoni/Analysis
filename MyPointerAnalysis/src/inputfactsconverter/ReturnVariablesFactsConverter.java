@@ -6,7 +6,7 @@ package inputfactsconverter;
 
 import datomicFacts.MethodSignatureRef;
 import datomicFacts.ReturnVar;
-import datomicFacts.VarRef;
+import datomicFacts.Var;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -22,14 +22,14 @@ import java.util.regex.Pattern;
  * @author anantoni
  */
 public class ReturnVariablesFactsConverter extends FactsConverter implements Runnable {
-    private ArrayList<VarRef> varRefFactsList = null;
+    private ArrayList<Var> varFactsList = null;
     private ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
     private ArrayList<ReturnVar> returnVarFactsList = null;
     private FactsID id = null;
     private Thread t = null;
     
-    public ReturnVariablesFactsConverter(FactsID id, ArrayList<VarRef> varRefFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList) {
-        this.varRefFactsList = varRefFactsList;
+    public ReturnVariablesFactsConverter(FactsID id, ArrayList<Var> varFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList) {
+        this.varFactsList = varFactsList;
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
         this.id = id;
         returnVarFactsList = new ArrayList<>();
@@ -60,7 +60,7 @@ public class ReturnVariablesFactsConverter extends FactsConverter implements Run
                     }
                     
                     MethodSignatureRef method = null;
-                    VarRef var = null;
+                    Var var = null;
                     
                     for ( MethodSignatureRef method1 : methodSignatureRefFactsList ) {
                         if ( method1.getValue().equals( m.group(3) ) ) {
@@ -73,8 +73,8 @@ public class ReturnVariablesFactsConverter extends FactsConverter implements Run
                         System.exit(-1);
                     }
                     
-                    for ( VarRef var1 : varRefFactsList ) {
-                        if ( var1.getValue().equals( m.group(1) ) ) {
+                    for ( Var var1 : varFactsList ) {
+                        if ( var1.getName().equals( m.group(1) ) ) {
                             var = var1;
                             break;
                         }

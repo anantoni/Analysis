@@ -10,7 +10,7 @@ import datomicFacts.LoadArrayIndex;
 import datomicFacts.MethodSignatureRef;
 import datomicFacts.StoreArrayIndex;
 import datomicFacts.Type;
-import datomicFacts.VarRef;
+import datomicFacts.Var;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -29,18 +29,18 @@ public class ArrayFactsConverter extends FactsConverter implements Runnable {
     private ArrayList<ArrayType> arrayTypeFactsList = null;
     private ArrayList<Type> typeFactsList = null;
     private ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
-    private ArrayList<VarRef> varRefFactsList = null;
+    private ArrayList<Var> varFactsList = null;
     private ArrayList<LoadArrayIndex> loadArrayIndexFactsList = null;
     private ArrayList<StoreArrayIndex> storeArrayIndexFactsList = null;
     private ArrayList<ComponentType> componentTypeFactsList = null;
     private FactsID id = null;
     private Thread t = null;
     
-    public ArrayFactsConverter(FactsID id, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, ArrayList<VarRef> varRefFactsList, ArrayList<Type> typeFactsList, ArrayList<ArrayType> arrayTypeFactsList) {
+    public ArrayFactsConverter(FactsID id, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, ArrayList<Var> varFactsList, ArrayList<Type> typeFactsList, ArrayList<ArrayType> arrayTypeFactsList) {
         this.arrayTypeFactsList = arrayTypeFactsList;
         this.typeFactsList = typeFactsList;
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
-        this.varRefFactsList = varRefFactsList;
+        this.varFactsList = varFactsList;
         this.id = id;
         loadArrayIndexFactsList = new ArrayList<>();
         storeArrayIndexFactsList = new ArrayList<>();
@@ -51,8 +51,8 @@ public class ArrayFactsConverter extends FactsConverter implements Runnable {
         this.typeFactsList = typeFactsList;
     }
     
-    public void setVarRefFactsList( ArrayList<VarRef> varRefFactsList ) {
-        this.varRefFactsList = varRefFactsList;
+    public void setvarFactsList( ArrayList<Var> varFactsList ) {
+        this.varFactsList = varFactsList;
     }
     
     public void setMethodSignatureRefFactsList( ArrayList<MethodSignatureRef> methodSignatureRefFactsList ) {
@@ -86,9 +86,9 @@ public class ArrayFactsConverter extends FactsConverter implements Runnable {
                         System.out.println( "LoadArrayIndex.facts: Could not find match - " + line );
                         System.exit(-1);
                     }
-                    VarRef base = null;
+                    Var base = null;
                     MethodSignatureRef inmethod = null;
-                    VarRef to = null;
+                    Var to = null;
 
                     for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
                         if ( inmethod1.getValue().equals( m.group(5) ) ) {
@@ -101,8 +101,8 @@ public class ArrayFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( VarRef to1 : varRefFactsList ) {
-                        if ( to1.getValue().equals( m.group(3) ) ) {
+                    for ( Var to1 : varFactsList ) {
+                        if ( to1.getName().equals( m.group(3) ) ) {
                             to = to1;
                             break;
                         }
@@ -113,8 +113,8 @@ public class ArrayFactsConverter extends FactsConverter implements Runnable {
                     }
 
                     
-                    for ( VarRef base1 : varRefFactsList ) {
-                        if ( base1.getValue().equals( m.group(1) ) ) {
+                    for ( Var base1 : varFactsList ) {
+                        if ( base1.getName().equals( m.group(1) ) ) {
                             base = base1;
                             break;
                         }
@@ -150,9 +150,9 @@ public class ArrayFactsConverter extends FactsConverter implements Runnable {
                         System.out.println( "StoreArrayIndex.facts: Could not find match - " + line );
                         System.exit(-1);
                     }
-                    VarRef base = null;
+                    Var base = null;
                     MethodSignatureRef inmethod = null;
-                    VarRef from = null;
+                    Var from = null;
 
                     for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
                         if ( inmethod1.getValue().equals( m.group(5) ) ) {
@@ -165,8 +165,8 @@ public class ArrayFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( VarRef from1 : varRefFactsList ) {
-                        if ( from1.getValue().equals( m.group(1) ) ) {
+                    for ( Var from1 : varFactsList ) {
+                        if ( from1.getName().equals( m.group(1) ) ) {
                             from = from1;
                             break;
                         }
@@ -176,8 +176,8 @@ public class ArrayFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( VarRef base1 : varRefFactsList ) {
-                        if ( base1.getValue().equals( m.group(3) ) ) {
+                    for ( Var base1 : varFactsList ) {
+                        if ( base1.getName().equals( m.group(3) ) ) {
                             base = base1;
                             break;
                         }

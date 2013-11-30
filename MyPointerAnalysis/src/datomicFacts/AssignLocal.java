@@ -11,10 +11,10 @@ package datomicFacts;
 public class AssignLocal {
     int id;
     MethodSignatureRef inmethod = null;
-    VarRef to = null;
-    VarRef from = null;
+    Var to = null;
+    Var from = null;
     
-    public AssignLocal( int id, VarRef from, VarRef to, MethodSignatureRef inmethod  ) {
+    public AssignLocal( int id, Var from, Var to, MethodSignatureRef inmethod  ) {
         this.id = id;
         this.inmethod = inmethod;
         this.to = to;
@@ -29,11 +29,11 @@ public class AssignLocal {
         return inmethod;
     }
     
-    public VarRef getTo() {
+    public Var getTo() {
         return to;
     }
     
-     public VarRef getFrom() {
+     public Var getFrom() {
         return from;
     }
 }
