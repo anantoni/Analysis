@@ -1,0 +1,2082 @@
+{:db/id #db/id[:db.part/user -322988]
+ :DirectSuperclass/ref #db/id[:db.part/user -119398]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -322989]
+ :DirectSuperclass/ref #db/id[:db.part/user -119402]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -322990]
+ :DirectSuperclass/ref #db/id[:db.part/user -119403]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -322991]
+ :DirectSuperclass/ref #db/id[:db.part/user -119407]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -322992]
+ :DirectSuperclass/ref #db/id[:db.part/user -119408]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -322993]
+ :DirectSuperclass/ref #db/id[:db.part/user -119409]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -322994]
+ :DirectSuperclass/ref #db/id[:db.part/user -119410]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -322995]
+ :DirectSuperclass/ref #db/id[:db.part/user -119411]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -322996]
+ :DirectSuperclass/ref #db/id[:db.part/user -119412]
+ :DirectSuperclass/super #db/id[:db.part/user -119410]}
+{:db/id #db/id[:db.part/user -322997]
+ :DirectSuperclass/ref #db/id[:db.part/user -119413]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -322998]
+ :DirectSuperclass/ref #db/id[:db.part/user -119414]
+ :DirectSuperclass/super #db/id[:db.part/user -119408]}
+{:db/id #db/id[:db.part/user -322999]
+ :DirectSuperclass/ref #db/id[:db.part/user -119415]
+ :DirectSuperclass/super #db/id[:db.part/user -119408]}
+{:db/id #db/id[:db.part/user -323000]
+ :DirectSuperclass/ref #db/id[:db.part/user -119416]
+ :DirectSuperclass/super #db/id[:db.part/user -119408]}
+{:db/id #db/id[:db.part/user -323001]
+ :DirectSuperclass/ref #db/id[:db.part/user -119417]
+ :DirectSuperclass/super #db/id[:db.part/user -119409]}
+{:db/id #db/id[:db.part/user -323002]
+ :DirectSuperclass/ref #db/id[:db.part/user -119418]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -323003]
+ :DirectSuperclass/ref #db/id[:db.part/user -119419]
+ :DirectSuperclass/super #db/id[:db.part/user -119426]}
+{:db/id #db/id[:db.part/user -323004]
+ :DirectSuperclass/ref #db/id[:db.part/user -119420]
+ :DirectSuperclass/super #db/id[:db.part/user -119815]}
+{:db/id #db/id[:db.part/user -323005]
+ :DirectSuperclass/ref #db/id[:db.part/user -119421]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323006]
+ :DirectSuperclass/ref #db/id[:db.part/user -119422]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323007]
+ :DirectSuperclass/ref #db/id[:db.part/user -119423]
+ :DirectSuperclass/super #db/id[:db.part/user -119814]}
+{:db/id #db/id[:db.part/user -323008]
+ :DirectSuperclass/ref #db/id[:db.part/user -119424]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323009]
+ :DirectSuperclass/ref #db/id[:db.part/user -119425]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323010]
+ :DirectSuperclass/ref #db/id[:db.part/user -119426]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -323011]
+ :DirectSuperclass/ref #db/id[:db.part/user -119427]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323012]
+ :DirectSuperclass/ref #db/id[:db.part/user -119428]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -323013]
+ :DirectSuperclass/ref #db/id[:db.part/user -119429]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323014]
+ :DirectSuperclass/ref #db/id[:db.part/user -119430]
+ :DirectSuperclass/super #db/id[:db.part/user -119443]}
+{:db/id #db/id[:db.part/user -323015]
+ :DirectSuperclass/ref #db/id[:db.part/user -119431]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323016]
+ :DirectSuperclass/ref #db/id[:db.part/user -119432]
+ :DirectSuperclass/super #db/id[:db.part/user -119433]}
+{:db/id #db/id[:db.part/user -323017]
+ :DirectSuperclass/ref #db/id[:db.part/user -119433]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -323018]
+ :DirectSuperclass/ref #db/id[:db.part/user -119434]
+ :DirectSuperclass/super #db/id[:db.part/user -119685]}
+{:db/id #db/id[:db.part/user -323019]
+ :DirectSuperclass/ref #db/id[:db.part/user -119435]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -323020]
+ :DirectSuperclass/ref #db/id[:db.part/user -119436]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323021]
+ :DirectSuperclass/ref #db/id[:db.part/user -119437]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -323022]
+ :DirectSuperclass/ref #db/id[:db.part/user -119438]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -323023]
+ :DirectSuperclass/ref #db/id[:db.part/user -119439]
+ :DirectSuperclass/super #db/id[:db.part/user -119426]}
+{:db/id #db/id[:db.part/user -323024]
+ :DirectSuperclass/ref #db/id[:db.part/user -119440]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323025]
+ :DirectSuperclass/ref #db/id[:db.part/user -119441]
+ :DirectSuperclass/super #db/id[:db.part/user -119409]}
+{:db/id #db/id[:db.part/user -323026]
+ :DirectSuperclass/ref #db/id[:db.part/user -119442]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323027]
+ :DirectSuperclass/ref #db/id[:db.part/user -119443]
+ :DirectSuperclass/super #db/id[:db.part/user -119441]}
+{:db/id #db/id[:db.part/user -323028]
+ :DirectSuperclass/ref #db/id[:db.part/user -119444]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323029]
+ :DirectSuperclass/ref #db/id[:db.part/user -119445]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323030]
+ :DirectSuperclass/ref #db/id[:db.part/user -119446]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323031]
+ :DirectSuperclass/ref #db/id[:db.part/user -119447]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -323032]
+ :DirectSuperclass/ref #db/id[:db.part/user -119448]
+ :DirectSuperclass/super #db/id[:db.part/user -119438]}
+{:db/id #db/id[:db.part/user -323033]
+ :DirectSuperclass/ref #db/id[:db.part/user -119449]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323034]
+ :DirectSuperclass/ref #db/id[:db.part/user -119450]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323035]
+ :DirectSuperclass/ref #db/id[:db.part/user -119451]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -323036]
+ :DirectSuperclass/ref #db/id[:db.part/user -119452]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323037]
+ :DirectSuperclass/ref #db/id[:db.part/user -119453]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323038]
+ :DirectSuperclass/ref #db/id[:db.part/user -119454]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -323039]
+ :DirectSuperclass/ref #db/id[:db.part/user -119455]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -323040]
+ :DirectSuperclass/ref #db/id[:db.part/user -119456]
+ :DirectSuperclass/super #db/id[:db.part/user -119441]}
+{:db/id #db/id[:db.part/user -323041]
+ :DirectSuperclass/ref #db/id[:db.part/user -119457]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323042]
+ :DirectSuperclass/ref #db/id[:db.part/user -119458]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -323043]
+ :DirectSuperclass/ref #db/id[:db.part/user -119459]
+ :DirectSuperclass/super #db/id[:db.part/user -119868]}
+{:db/id #db/id[:db.part/user -323044]
+ :DirectSuperclass/ref #db/id[:db.part/user -119460]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -323046]
+ :DirectSuperclass/ref #db/id[:db.part/user -119461]
+ :DirectSuperclass/super #db/id[:db.part/user -119815]}
+{:db/id #db/id[:db.part/user -323291]
+ :DirectSuperclass/ref #db/id[:db.part/user -119462]
+ :DirectSuperclass/super #db/id[:db.part/user -119815]}
+{:db/id #db/id[:db.part/user -323320]
+ :DirectSuperclass/ref #db/id[:db.part/user -119463]
+ :DirectSuperclass/super #db/id[:db.part/user -119410]}
+{:db/id #db/id[:db.part/user -323559]
+ :DirectSuperclass/ref #db/id[:db.part/user -119464]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -323639]
+ :DirectSuperclass/ref #db/id[:db.part/user -119465]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323699]
+ :DirectSuperclass/ref #db/id[:db.part/user -119466]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323735]
+ :DirectSuperclass/ref #db/id[:db.part/user -119467]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323813]
+ :DirectSuperclass/ref #db/id[:db.part/user -119468]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323887]
+ :DirectSuperclass/ref #db/id[:db.part/user -119469]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -323908]
+ :DirectSuperclass/ref #db/id[:db.part/user -119470]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -323977]
+ :DirectSuperclass/ref #db/id[:db.part/user -119471]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324057]
+ :DirectSuperclass/ref #db/id[:db.part/user -119473]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324095]
+ :DirectSuperclass/ref #db/id[:db.part/user -119474]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324147]
+ :DirectSuperclass/ref #db/id[:db.part/user -119475]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324222]
+ :DirectSuperclass/ref #db/id[:db.part/user -119476]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324406]
+ :DirectSuperclass/ref #db/id[:db.part/user -119478]
+ :DirectSuperclass/super #db/id[:db.part/user -119685]}
+{:db/id #db/id[:db.part/user -324421]
+ :DirectSuperclass/ref #db/id[:db.part/user -119480]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324523]
+ :DirectSuperclass/ref #db/id[:db.part/user -119482]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324625]
+ :DirectSuperclass/ref #db/id[:db.part/user -119483]
+ :DirectSuperclass/super #db/id[:db.part/user -119700]}
+{:db/id #db/id[:db.part/user -324626]
+ :DirectSuperclass/ref #db/id[:db.part/user -119484]
+ :DirectSuperclass/super #db/id[:db.part/user -119559]}
+{:db/id #db/id[:db.part/user -324627]
+ :DirectSuperclass/ref #db/id[:db.part/user -119485]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324628]
+ :DirectSuperclass/ref #db/id[:db.part/user -119486]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324629]
+ :DirectSuperclass/ref #db/id[:db.part/user -119487]
+ :DirectSuperclass/super #db/id[:db.part/user -119705]}
+{:db/id #db/id[:db.part/user -324630]
+ :DirectSuperclass/ref #db/id[:db.part/user -119488]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324631]
+ :DirectSuperclass/ref #db/id[:db.part/user -119490]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324632]
+ :DirectSuperclass/ref #db/id[:db.part/user -119494]
+ :DirectSuperclass/super #db/id[:db.part/user -119702]}
+{:db/id #db/id[:db.part/user -324633]
+ :DirectSuperclass/ref #db/id[:db.part/user -119495]
+ :DirectSuperclass/super #db/id[:db.part/user -119702]}
+{:db/id #db/id[:db.part/user -324634]
+ :DirectSuperclass/ref #db/id[:db.part/user -119496]
+ :DirectSuperclass/super #db/id[:db.part/user -119702]}
+{:db/id #db/id[:db.part/user -324635]
+ :DirectSuperclass/ref #db/id[:db.part/user -119497]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324636]
+ :DirectSuperclass/ref #db/id[:db.part/user -119498]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324638]
+ :DirectSuperclass/ref #db/id[:db.part/user -119499]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324647]
+ :DirectSuperclass/ref #db/id[:db.part/user -119500]
+ :DirectSuperclass/super #db/id[:db.part/user -119561]}
+{:db/id #db/id[:db.part/user -324654]
+ :DirectSuperclass/ref #db/id[:db.part/user -119501]
+ :DirectSuperclass/super #db/id[:db.part/user -119562]}
+{:db/id #db/id[:db.part/user -324658]
+ :DirectSuperclass/ref #db/id[:db.part/user -119502]
+ :DirectSuperclass/super #db/id[:db.part/user -119497]}
+{:db/id #db/id[:db.part/user -324663]
+ :DirectSuperclass/ref #db/id[:db.part/user -119503]
+ :DirectSuperclass/super #db/id[:db.part/user -119555]}
+{:db/id #db/id[:db.part/user -324665]
+ :DirectSuperclass/ref #db/id[:db.part/user -119505]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324668]
+ :DirectSuperclass/ref #db/id[:db.part/user -119506]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324672]
+ :DirectSuperclass/ref #db/id[:db.part/user -119507]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -324674]
+ :DirectSuperclass/ref #db/id[:db.part/user -119508]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324677]
+ :DirectSuperclass/ref #db/id[:db.part/user -119509]
+ :DirectSuperclass/super #db/id[:db.part/user -119443]}
+{:db/id #db/id[:db.part/user -324682]
+ :DirectSuperclass/ref #db/id[:db.part/user -119510]
+ :DirectSuperclass/super #db/id[:db.part/user -119705]}
+{:db/id #db/id[:db.part/user -324687]
+ :DirectSuperclass/ref #db/id[:db.part/user -119512]
+ :DirectSuperclass/super #db/id[:db.part/user -119786]}
+{:db/id #db/id[:db.part/user -324690]
+ :DirectSuperclass/ref #db/id[:db.part/user -119513]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324691]
+ :DirectSuperclass/ref #db/id[:db.part/user -119515]
+ :DirectSuperclass/super #db/id[:db.part/user -119666]}
+{:db/id #db/id[:db.part/user -324692]
+ :DirectSuperclass/ref #db/id[:db.part/user -119516]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324693]
+ :DirectSuperclass/ref #db/id[:db.part/user -119517]
+ :DirectSuperclass/super #db/id[:db.part/user -119556]}
+{:db/id #db/id[:db.part/user -324694]
+ :DirectSuperclass/ref #db/id[:db.part/user -119518]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324695]
+ :DirectSuperclass/ref #db/id[:db.part/user -119519]
+ :DirectSuperclass/super #db/id[:db.part/user -119555]}
+{:db/id #db/id[:db.part/user -324696]
+ :DirectSuperclass/ref #db/id[:db.part/user -119520]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324699]
+ :DirectSuperclass/ref #db/id[:db.part/user -119521]
+ :DirectSuperclass/super #db/id[:db.part/user -119555]}
+{:db/id #db/id[:db.part/user -324702]
+ :DirectSuperclass/ref #db/id[:db.part/user -119522]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324704]
+ :DirectSuperclass/ref #db/id[:db.part/user -119523]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324707]
+ :DirectSuperclass/ref #db/id[:db.part/user -119524]
+ :DirectSuperclass/super #db/id[:db.part/user -119512]}
+{:db/id #db/id[:db.part/user -324710]
+ :DirectSuperclass/ref #db/id[:db.part/user -119525]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324713]
+ :DirectSuperclass/ref #db/id[:db.part/user -119526]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324716]
+ :DirectSuperclass/ref #db/id[:db.part/user -119527]
+ :DirectSuperclass/super #db/id[:db.part/user -119497]}
+{:db/id #db/id[:db.part/user -324719]
+ :DirectSuperclass/ref #db/id[:db.part/user -119528]
+ :DirectSuperclass/super #db/id[:db.part/user -119556]}
+{:db/id #db/id[:db.part/user -324723]
+ :DirectSuperclass/ref #db/id[:db.part/user -119529]
+ :DirectSuperclass/super #db/id[:db.part/user -119776]}
+{:db/id #db/id[:db.part/user -324727]
+ :DirectSuperclass/ref #db/id[:db.part/user -119530]
+ :DirectSuperclass/super #db/id[:db.part/user -119700]}
+{:db/id #db/id[:db.part/user -324730]
+ :DirectSuperclass/ref #db/id[:db.part/user -119531]
+ :DirectSuperclass/super #db/id[:db.part/user -119555]}
+{:db/id #db/id[:db.part/user -324732]
+ :DirectSuperclass/ref #db/id[:db.part/user -119532]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324734]
+ :DirectSuperclass/ref #db/id[:db.part/user -119535]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324736]
+ :DirectSuperclass/ref #db/id[:db.part/user -119536]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324738]
+ :DirectSuperclass/ref #db/id[:db.part/user -119537]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324742]
+ :DirectSuperclass/ref #db/id[:db.part/user -119538]
+ :DirectSuperclass/super #db/id[:db.part/user -119776]}
+{:db/id #db/id[:db.part/user -324746]
+ :DirectSuperclass/ref #db/id[:db.part/user -119539]
+ :DirectSuperclass/super #db/id[:db.part/user -119705]}
+{:db/id #db/id[:db.part/user -324748]
+ :DirectSuperclass/ref #db/id[:db.part/user -119540]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324752]
+ :DirectSuperclass/ref #db/id[:db.part/user -119541]
+ :DirectSuperclass/super #db/id[:db.part/user -119816]}
+{:db/id #db/id[:db.part/user -324757]
+ :DirectSuperclass/ref #db/id[:db.part/user -119542]
+ :DirectSuperclass/super #db/id[:db.part/user -119815]}
+{:db/id #db/id[:db.part/user -324762]
+ :DirectSuperclass/ref #db/id[:db.part/user -119543]
+ :DirectSuperclass/super #db/id[:db.part/user -119815]}
+{:db/id #db/id[:db.part/user -324765]
+ :DirectSuperclass/ref #db/id[:db.part/user -119544]
+ :DirectSuperclass/super #db/id[:db.part/user -119693]}
+{:db/id #db/id[:db.part/user -324767]
+ :DirectSuperclass/ref #db/id[:db.part/user -119546]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324772]
+ :DirectSuperclass/ref #db/id[:db.part/user -119547]
+ :DirectSuperclass/super #db/id[:db.part/user -119815]}
+{:db/id #db/id[:db.part/user -324774]
+ :DirectSuperclass/ref #db/id[:db.part/user -119554]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -324776]
+ :DirectSuperclass/ref #db/id[:db.part/user -119555]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324778]
+ :DirectSuperclass/ref #db/id[:db.part/user -119556]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324781]
+ :DirectSuperclass/ref #db/id[:db.part/user -119557]
+ :DirectSuperclass/super #db/id[:db.part/user -119559]}
+{:db/id #db/id[:db.part/user -324784]
+ :DirectSuperclass/ref #db/id[:db.part/user -119558]
+ :DirectSuperclass/super #db/id[:db.part/user -119559]}
+{:db/id #db/id[:db.part/user -324785]
+ :DirectSuperclass/ref #db/id[:db.part/user -119559]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324787]
+ :DirectSuperclass/ref #db/id[:db.part/user -119560]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324789]
+ :DirectSuperclass/ref #db/id[:db.part/user -119561]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324791]
+ :DirectSuperclass/ref #db/id[:db.part/user -119562]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324795]
+ :DirectSuperclass/ref #db/id[:db.part/user -119563]
+ :DirectSuperclass/super #db/id[:db.part/user -119816]}
+{:db/id #db/id[:db.part/user -324799]
+ :DirectSuperclass/ref #db/id[:db.part/user -119564]
+ :DirectSuperclass/super #db/id[:db.part/user -119844]}
+{:db/id #db/id[:db.part/user -324803]
+ :DirectSuperclass/ref #db/id[:db.part/user -119565]
+ :DirectSuperclass/super #db/id[:db.part/user -119834]}
+{:db/id #db/id[:db.part/user -324806]
+ :DirectSuperclass/ref #db/id[:db.part/user -119566]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324807]
+ :DirectSuperclass/ref #db/id[:db.part/user -119567]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324809]
+ :DirectSuperclass/ref #db/id[:db.part/user -119570]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324811]
+ :DirectSuperclass/ref #db/id[:db.part/user -119572]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324813]
+ :DirectSuperclass/ref #db/id[:db.part/user -119575]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324815]
+ :DirectSuperclass/ref #db/id[:db.part/user -119576]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324817]
+ :DirectSuperclass/ref #db/id[:db.part/user -119577]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324820]
+ :DirectSuperclass/ref #db/id[:db.part/user -119578]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324822]
+ :DirectSuperclass/ref #db/id[:db.part/user -119579]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324824]
+ :DirectSuperclass/ref #db/id[:db.part/user -119583]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324825]
+ :DirectSuperclass/ref #db/id[:db.part/user -119584]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324828]
+ :DirectSuperclass/ref #db/id[:db.part/user -119585]
+ :DirectSuperclass/super #db/id[:db.part/user -119443]}
+{:db/id #db/id[:db.part/user -324830]
+ :DirectSuperclass/ref #db/id[:db.part/user -119586]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324832]
+ :DirectSuperclass/ref #db/id[:db.part/user -119587]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324834]
+ :DirectSuperclass/ref #db/id[:db.part/user -119588]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324837]
+ :DirectSuperclass/ref #db/id[:db.part/user -119589]
+ :DirectSuperclass/super #db/id[:db.part/user -119563]}
+{:db/id #db/id[:db.part/user -324839]
+ :DirectSuperclass/ref #db/id[:db.part/user -119590]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324842]
+ :DirectSuperclass/ref #db/id[:db.part/user -119591]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324844]
+ :DirectSuperclass/ref #db/id[:db.part/user -119592]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324846]
+ :DirectSuperclass/ref #db/id[:db.part/user -119593]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324849]
+ :DirectSuperclass/ref #db/id[:db.part/user -119594]
+ :DirectSuperclass/super #db/id[:db.part/user -119682]}
+{:db/id #db/id[:db.part/user -324854]
+ :DirectSuperclass/ref #db/id[:db.part/user -119595]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324858]
+ :DirectSuperclass/ref #db/id[:db.part/user -119596]
+ :DirectSuperclass/super #db/id[:db.part/user -119705]}
+{:db/id #db/id[:db.part/user -324860]
+ :DirectSuperclass/ref #db/id[:db.part/user -119597]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324863]
+ :DirectSuperclass/ref #db/id[:db.part/user -119599]
+ :DirectSuperclass/super #db/id[:db.part/user -119562]}
+{:db/id #db/id[:db.part/user -324865]
+ :DirectSuperclass/ref #db/id[:db.part/user -119600]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324868]
+ :DirectSuperclass/ref #db/id[:db.part/user -119601]
+ :DirectSuperclass/super #db/id[:db.part/user -119497]}
+{:db/id #db/id[:db.part/user -324872]
+ :DirectSuperclass/ref #db/id[:db.part/user -119603]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324876]
+ :DirectSuperclass/ref #db/id[:db.part/user -119604]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324881]
+ :DirectSuperclass/ref #db/id[:db.part/user -119605]
+ :DirectSuperclass/super #db/id[:db.part/user -119556]}
+{:db/id #db/id[:db.part/user -324885]
+ :DirectSuperclass/ref #db/id[:db.part/user -119606]
+ :DirectSuperclass/super #db/id[:db.part/user -119724]}
+{:db/id #db/id[:db.part/user -324890]
+ :DirectSuperclass/ref #db/id[:db.part/user -119607]
+ :DirectSuperclass/super #db/id[:db.part/user -119700]}
+{:db/id #db/id[:db.part/user -324893]
+ :DirectSuperclass/ref #db/id[:db.part/user -119608]
+ :DirectSuperclass/super #db/id[:db.part/user -119700]}
+{:db/id #db/id[:db.part/user -324896]
+ :DirectSuperclass/ref #db/id[:db.part/user -119609]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324901]
+ :DirectSuperclass/ref #db/id[:db.part/user -119612]
+ :DirectSuperclass/super #db/id[:db.part/user -119720]}
+{:db/id #db/id[:db.part/user -324903]
+ :DirectSuperclass/ref #db/id[:db.part/user -119613]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324905]
+ :DirectSuperclass/ref #db/id[:db.part/user -119614]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324907]
+ :DirectSuperclass/ref #db/id[:db.part/user -119615]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324910]
+ :DirectSuperclass/ref #db/id[:db.part/user -119616]
+ :DirectSuperclass/super #db/id[:db.part/user -119561]}
+{:db/id #db/id[:db.part/user -324913]
+ :DirectSuperclass/ref #db/id[:db.part/user -119617]
+ :DirectSuperclass/super #db/id[:db.part/user -119561]}
+{:db/id #db/id[:db.part/user -324916]
+ :DirectSuperclass/ref #db/id[:db.part/user -119618]
+ :DirectSuperclass/super #db/id[:db.part/user -119562]}
+{:db/id #db/id[:db.part/user -324919]
+ :DirectSuperclass/ref #db/id[:db.part/user -119620]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324922]
+ :DirectSuperclass/ref #db/id[:db.part/user -119621]
+ :DirectSuperclass/super #db/id[:db.part/user -119562]}
+{:db/id #db/id[:db.part/user -324924]
+ :DirectSuperclass/ref #db/id[:db.part/user -119622]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324930]
+ :DirectSuperclass/ref #db/id[:db.part/user -119623]
+ :DirectSuperclass/super #db/id[:db.part/user -119705]}
+{:db/id #db/id[:db.part/user -324932]
+ :DirectSuperclass/ref #db/id[:db.part/user -119624]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324934]
+ :DirectSuperclass/ref #db/id[:db.part/user -119625]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324937]
+ :DirectSuperclass/ref #db/id[:db.part/user -119626]
+ :DirectSuperclass/super #db/id[:db.part/user -119705]}
+{:db/id #db/id[:db.part/user -324939]
+ :DirectSuperclass/ref #db/id[:db.part/user -119627]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324941]
+ :DirectSuperclass/ref #db/id[:db.part/user -119629]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324943]
+ :DirectSuperclass/ref #db/id[:db.part/user -119630]
+ :DirectSuperclass/super #db/id[:db.part/user -119561]}
+{:db/id #db/id[:db.part/user -324947]
+ :DirectSuperclass/ref #db/id[:db.part/user -119631]
+ :DirectSuperclass/super #db/id[:db.part/user -119698]}
+{:db/id #db/id[:db.part/user -324948]
+ :DirectSuperclass/ref #db/id[:db.part/user -119633]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324951]
+ :DirectSuperclass/ref #db/id[:db.part/user -119636]
+ :DirectSuperclass/super #db/id[:db.part/user -119410]}
+{:db/id #db/id[:db.part/user -324953]
+ :DirectSuperclass/ref #db/id[:db.part/user -119638]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324958]
+ :DirectSuperclass/ref #db/id[:db.part/user -119639]
+ :DirectSuperclass/super #db/id[:db.part/user -119769]}
+{:db/id #db/id[:db.part/user -324961]
+ :DirectSuperclass/ref #db/id[:db.part/user -119640]
+ :DirectSuperclass/super #db/id[:db.part/user -119769]}
+{:db/id #db/id[:db.part/user -324964]
+ :DirectSuperclass/ref #db/id[:db.part/user -119641]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324966]
+ :DirectSuperclass/ref #db/id[:db.part/user -119642]
+ :DirectSuperclass/super #db/id[:db.part/user -119561]}
+{:db/id #db/id[:db.part/user -324969]
+ :DirectSuperclass/ref #db/id[:db.part/user -119643]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324971]
+ :DirectSuperclass/ref #db/id[:db.part/user -119644]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324972]
+ :DirectSuperclass/ref #db/id[:db.part/user -119646]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324974]
+ :DirectSuperclass/ref #db/id[:db.part/user -119647]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324976]
+ :DirectSuperclass/ref #db/id[:db.part/user -119648]
+ :DirectSuperclass/super #db/id[:db.part/user -119555]}
+{:db/id #db/id[:db.part/user -324978]
+ :DirectSuperclass/ref #db/id[:db.part/user -119649]
+ :DirectSuperclass/super #db/id[:db.part/user -119555]}
+{:db/id #db/id[:db.part/user -324980]
+ :DirectSuperclass/ref #db/id[:db.part/user -119651]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324982]
+ :DirectSuperclass/ref #db/id[:db.part/user -119654]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324984]
+ :DirectSuperclass/ref #db/id[:db.part/user -119655]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324986]
+ :DirectSuperclass/ref #db/id[:db.part/user -119656]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -324989]
+ :DirectSuperclass/ref #db/id[:db.part/user -119657]
+ :DirectSuperclass/super #db/id[:db.part/user -119844]}
+{:db/id #db/id[:db.part/user -324995]
+ :DirectSuperclass/ref #db/id[:db.part/user -119658]
+ :DirectSuperclass/super #db/id[:db.part/user -119844]}
+{:db/id #db/id[:db.part/user -324998]
+ :DirectSuperclass/ref #db/id[:db.part/user -119659]
+ :DirectSuperclass/super #db/id[:db.part/user -119833]}
+{:db/id #db/id[:db.part/user -325003]
+ :DirectSuperclass/ref #db/id[:db.part/user -119660]
+ :DirectSuperclass/super #db/id[:db.part/user -119834]}
+{:db/id #db/id[:db.part/user -325005]
+ :DirectSuperclass/ref #db/id[:db.part/user -119661]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325008]
+ :DirectSuperclass/ref #db/id[:db.part/user -119662]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325011]
+ :DirectSuperclass/ref #db/id[:db.part/user -119663]
+ :DirectSuperclass/super #db/id[:db.part/user -119513]}
+{:db/id #db/id[:db.part/user -325014]
+ :DirectSuperclass/ref #db/id[:db.part/user -119666]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325017]
+ :DirectSuperclass/ref #db/id[:db.part/user -119667]
+ :DirectSuperclass/super #db/id[:db.part/user -119666]}
+{:db/id #db/id[:db.part/user -325019]
+ :DirectSuperclass/ref #db/id[:db.part/user -119668]
+ :DirectSuperclass/super #db/id[:db.part/user -119667]}
+{:db/id #db/id[:db.part/user -325021]
+ :DirectSuperclass/ref #db/id[:db.part/user -119669]
+ :DirectSuperclass/super #db/id[:db.part/user -119666]}
+{:db/id #db/id[:db.part/user -325024]
+ :DirectSuperclass/ref #db/id[:db.part/user -119670]
+ :DirectSuperclass/super #db/id[:db.part/user -119669]}
+{:db/id #db/id[:db.part/user -325027]
+ :DirectSuperclass/ref #db/id[:db.part/user -119671]
+ :DirectSuperclass/super #db/id[:db.part/user -119667]}
+{:db/id #db/id[:db.part/user -325029]
+ :DirectSuperclass/ref #db/id[:db.part/user -119672]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325031]
+ :DirectSuperclass/ref #db/id[:db.part/user -119673]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325033]
+ :DirectSuperclass/ref #db/id[:db.part/user -119674]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325035]
+ :DirectSuperclass/ref #db/id[:db.part/user -119675]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -325038]
+ :DirectSuperclass/ref #db/id[:db.part/user -119676]
+ :DirectSuperclass/super #db/id[:db.part/user -119815]}
+{:db/id #db/id[:db.part/user -325042]
+ :DirectSuperclass/ref #db/id[:db.part/user -119677]
+ :DirectSuperclass/super #db/id[:db.part/user -119678]}
+{:db/id #db/id[:db.part/user -325045]
+ :DirectSuperclass/ref #db/id[:db.part/user -119678]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325048]
+ :DirectSuperclass/ref #db/id[:db.part/user -119679]
+ :DirectSuperclass/super #db/id[:db.part/user -119541]}
+{:db/id #db/id[:db.part/user -325051]
+ :DirectSuperclass/ref #db/id[:db.part/user -119680]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325053]
+ :DirectSuperclass/ref #db/id[:db.part/user -119681]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325057]
+ :DirectSuperclass/ref #db/id[:db.part/user -119682]
+ :DirectSuperclass/super #db/id[:db.part/user -119839]}
+{:db/id #db/id[:db.part/user -325060]
+ :DirectSuperclass/ref #db/id[:db.part/user -119683]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325062]
+ :DirectSuperclass/ref #db/id[:db.part/user -119684]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325064]
+ :DirectSuperclass/ref #db/id[:db.part/user -119685]
+ :DirectSuperclass/super #db/id[:db.part/user -119441]}
+{:db/id #db/id[:db.part/user -325067]
+ :DirectSuperclass/ref #db/id[:db.part/user -119686]
+ :DirectSuperclass/super #db/id[:db.part/user -119688]}
+{:db/id #db/id[:db.part/user -325069]
+ :DirectSuperclass/ref #db/id[:db.part/user -119688]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325072]
+ :DirectSuperclass/ref #db/id[:db.part/user -119689]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325074]
+ :DirectSuperclass/ref #db/id[:db.part/user -119691]
+ :DirectSuperclass/super #db/id[:db.part/user -119776]}
+{:db/id #db/id[:db.part/user -325076]
+ :DirectSuperclass/ref #db/id[:db.part/user -119693]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325078]
+ :DirectSuperclass/ref #db/id[:db.part/user -119695]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325080]
+ :DirectSuperclass/ref #db/id[:db.part/user -119697]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325082]
+ :DirectSuperclass/ref #db/id[:db.part/user -119698]
+ :DirectSuperclass/super #db/id[:db.part/user -119697]}
+{:db/id #db/id[:db.part/user -325088]
+ :DirectSuperclass/ref #db/id[:db.part/user -119699]
+ :DirectSuperclass/super #db/id[:db.part/user -119834]}
+{:db/id #db/id[:db.part/user -325090]
+ :DirectSuperclass/ref #db/id[:db.part/user -119700]
+ :DirectSuperclass/super #db/id[:db.part/user -119556]}
+{:db/id #db/id[:db.part/user -325093]
+ :DirectSuperclass/ref #db/id[:db.part/user -119702]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325096]
+ :DirectSuperclass/ref #db/id[:db.part/user -119703]
+ :DirectSuperclass/super #db/id[:db.part/user -119705]}
+{:db/id #db/id[:db.part/user -325097]
+ :DirectSuperclass/ref #db/id[:db.part/user -119704]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325099]
+ :DirectSuperclass/ref #db/id[:db.part/user -119705]
+ :DirectSuperclass/super #db/id[:db.part/user -119562]}
+{:db/id #db/id[:db.part/user -325101]
+ :DirectSuperclass/ref #db/id[:db.part/user -119706]
+ :DirectSuperclass/super #db/id[:db.part/user -119561]}
+{:db/id #db/id[:db.part/user -325104]
+ :DirectSuperclass/ref #db/id[:db.part/user -119708]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325106]
+ :DirectSuperclass/ref #db/id[:db.part/user -119710]
+ :DirectSuperclass/super #db/id[:db.part/user -119561]}
+{:db/id #db/id[:db.part/user -325108]
+ :DirectSuperclass/ref #db/id[:db.part/user -119711]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325110]
+ :DirectSuperclass/ref #db/id[:db.part/user -119712]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325113]
+ :DirectSuperclass/ref #db/id[:db.part/user -119713]
+ :DirectSuperclass/super #db/id[:db.part/user -119524]}
+{:db/id #db/id[:db.part/user -325114]
+ :DirectSuperclass/ref #db/id[:db.part/user -119714]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325117]
+ :DirectSuperclass/ref #db/id[:db.part/user -119715]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325119]
+ :DirectSuperclass/ref #db/id[:db.part/user -119716]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325123]
+ :DirectSuperclass/ref #db/id[:db.part/user -119717]
+ :DirectSuperclass/super #db/id[:db.part/user -119816]}
+{:db/id #db/id[:db.part/user -325128]
+ :DirectSuperclass/ref #db/id[:db.part/user -119718]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325131]
+ :DirectSuperclass/ref #db/id[:db.part/user -119720]
+ :DirectSuperclass/super #db/id[:db.part/user -119697]}
+{:db/id #db/id[:db.part/user -325133]
+ :DirectSuperclass/ref #db/id[:db.part/user -119721]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325136]
+ :DirectSuperclass/ref #db/id[:db.part/user -119723]
+ :DirectSuperclass/super #db/id[:db.part/user -119606]}
+{:db/id #db/id[:db.part/user -325138]
+ :DirectSuperclass/ref #db/id[:db.part/user -119724]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325142]
+ :DirectSuperclass/ref #db/id[:db.part/user -119726]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325144]
+ :DirectSuperclass/ref #db/id[:db.part/user -119727]
+ :DirectSuperclass/super #db/id[:db.part/user -119572]}
+{:db/id #db/id[:db.part/user -325147]
+ :DirectSuperclass/ref #db/id[:db.part/user -119729]
+ :DirectSuperclass/super #db/id[:db.part/user -119776]}
+{:db/id #db/id[:db.part/user -325149]
+ :DirectSuperclass/ref #db/id[:db.part/user -119731]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325153]
+ :DirectSuperclass/ref #db/id[:db.part/user -119732]
+ :DirectSuperclass/super #db/id[:db.part/user -119844]}
+{:db/id #db/id[:db.part/user -325157]
+ :DirectSuperclass/ref #db/id[:db.part/user -119733]
+ :DirectSuperclass/super #db/id[:db.part/user -119833]}
+{:db/id #db/id[:db.part/user -325160]
+ :DirectSuperclass/ref #db/id[:db.part/user -119734]
+ :DirectSuperclass/super #db/id[:db.part/user -119844]}
+{:db/id #db/id[:db.part/user -325162]
+ :DirectSuperclass/ref #db/id[:db.part/user -119735]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325164]
+ :DirectSuperclass/ref #db/id[:db.part/user -119736]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325166]
+ :DirectSuperclass/ref #db/id[:db.part/user -119737]
+ :DirectSuperclass/super #db/id[:db.part/user -119683]}
+{:db/id #db/id[:db.part/user -325169]
+ :DirectSuperclass/ref #db/id[:db.part/user -119738]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325171]
+ :DirectSuperclass/ref #db/id[:db.part/user -119739]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325174]
+ :DirectSuperclass/ref #db/id[:db.part/user -119740]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325175]
+ :DirectSuperclass/ref #db/id[:db.part/user -119741]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325177]
+ :DirectSuperclass/ref #db/id[:db.part/user -119742]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -325179]
+ :DirectSuperclass/ref #db/id[:db.part/user -119745]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325180]
+ :DirectSuperclass/ref #db/id[:db.part/user -119746]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325183]
+ :DirectSuperclass/ref #db/id[:db.part/user -119748]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325186]
+ :DirectSuperclass/ref #db/id[:db.part/user -119749]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325189]
+ :DirectSuperclass/ref #db/id[:db.part/user -119750]
+ :DirectSuperclass/super #db/id[:db.part/user -119561]}
+{:db/id #db/id[:db.part/user -325191]
+ :DirectSuperclass/ref #db/id[:db.part/user -119751]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325192]
+ :DirectSuperclass/ref #db/id[:db.part/user -119756]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325194]
+ :DirectSuperclass/ref #db/id[:db.part/user -119757]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -325196]
+ :DirectSuperclass/ref #db/id[:db.part/user -119758]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325199]
+ :DirectSuperclass/ref #db/id[:db.part/user -119759]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325201]
+ :DirectSuperclass/ref #db/id[:db.part/user -119761]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325203]
+ :DirectSuperclass/ref #db/id[:db.part/user -119762]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325206]
+ :DirectSuperclass/ref #db/id[:db.part/user -119763]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -325209]
+ :DirectSuperclass/ref #db/id[:db.part/user -119764]
+ :DirectSuperclass/super #db/id[:db.part/user -119814]}
+{:db/id #db/id[:db.part/user -325213]
+ :DirectSuperclass/ref #db/id[:db.part/user -119766]
+ :DirectSuperclass/super #db/id[:db.part/user -119762]}
+{:db/id #db/id[:db.part/user -325215]
+ :DirectSuperclass/ref #db/id[:db.part/user -119767]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325217]
+ :DirectSuperclass/ref #db/id[:db.part/user -119768]
+ :DirectSuperclass/super #db/id[:db.part/user -119505]}
+{:db/id #db/id[:db.part/user -325220]
+ :DirectSuperclass/ref #db/id[:db.part/user -119769]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325223]
+ :DirectSuperclass/ref #db/id[:db.part/user -119770]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325224]
+ :DirectSuperclass/ref #db/id[:db.part/user -119771]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325227]
+ :DirectSuperclass/ref #db/id[:db.part/user -119772]
+ :DirectSuperclass/super #db/id[:db.part/user -119770]}
+{:db/id #db/id[:db.part/user -325230]
+ :DirectSuperclass/ref #db/id[:db.part/user -119773]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325232]
+ :DirectSuperclass/ref #db/id[:db.part/user -119774]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325235]
+ :DirectSuperclass/ref #db/id[:db.part/user -119775]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325237]
+ :DirectSuperclass/ref #db/id[:db.part/user -119776]
+ :DirectSuperclass/super #db/id[:db.part/user -119497]}
+{:db/id #db/id[:db.part/user -325240]
+ :DirectSuperclass/ref #db/id[:db.part/user -119777]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -325241]
+ :DirectSuperclass/ref #db/id[:db.part/user -119778]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325243]
+ :DirectSuperclass/ref #db/id[:db.part/user -119779]
+ :DirectSuperclass/super #db/id[:db.part/user -119555]}
+{:db/id #db/id[:db.part/user -325249]
+ :DirectSuperclass/ref #db/id[:db.part/user -119780]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325253]
+ :DirectSuperclass/ref #db/id[:db.part/user -119781]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325256]
+ :DirectSuperclass/ref #db/id[:db.part/user -119782]
+ :DirectSuperclass/super #db/id[:db.part/user -119771]}
+{:db/id #db/id[:db.part/user -325258]
+ :DirectSuperclass/ref #db/id[:db.part/user -119783]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325261]
+ :DirectSuperclass/ref #db/id[:db.part/user -119784]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325263]
+ :DirectSuperclass/ref #db/id[:db.part/user -119785]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325265]
+ :DirectSuperclass/ref #db/id[:db.part/user -119786]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325267]
+ :DirectSuperclass/ref #db/id[:db.part/user -119787]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325270]
+ :DirectSuperclass/ref #db/id[:db.part/user -119788]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -325271]
+ :DirectSuperclass/ref #db/id[:db.part/user -119789]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325274]
+ :DirectSuperclass/ref #db/id[:db.part/user -119791]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325277]
+ :DirectSuperclass/ref #db/id[:db.part/user -119792]
+ :DirectSuperclass/super #db/id[:db.part/user -119791]}
+{:db/id #db/id[:db.part/user -325282]
+ :DirectSuperclass/ref #db/id[:db.part/user -119794]
+ :DirectSuperclass/super #db/id[:db.part/user -119792]}
+{:db/id #db/id[:db.part/user -325285]
+ :DirectSuperclass/ref #db/id[:db.part/user -119795]
+ :DirectSuperclass/super #db/id[:db.part/user -119791]}
+{:db/id #db/id[:db.part/user -325287]
+ :DirectSuperclass/ref #db/id[:db.part/user -119796]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325290]
+ :DirectSuperclass/ref #db/id[:db.part/user -119798]
+ :DirectSuperclass/super #db/id[:db.part/user -119796]}
+{:db/id #db/id[:db.part/user -325292]
+ :DirectSuperclass/ref #db/id[:db.part/user -119799]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325294]
+ :DirectSuperclass/ref #db/id[:db.part/user -119800]
+ :DirectSuperclass/super #db/id[:db.part/user -119799]}
+{:db/id #db/id[:db.part/user -325297]
+ :DirectSuperclass/ref #db/id[:db.part/user -119801]
+ :DirectSuperclass/super #db/id[:db.part/user -119800]}
+{:db/id #db/id[:db.part/user -325299]
+ :DirectSuperclass/ref #db/id[:db.part/user -119802]
+ :DirectSuperclass/super #db/id[:db.part/user -119799]}
+{:db/id #db/id[:db.part/user -325303]
+ :DirectSuperclass/ref #db/id[:db.part/user -119803]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325307]
+ :DirectSuperclass/ref #db/id[:db.part/user -119804]
+ :DirectSuperclass/super #db/id[:db.part/user -119803]}
+{:db/id #db/id[:db.part/user -325310]
+ :DirectSuperclass/ref #db/id[:db.part/user -119805]
+ :DirectSuperclass/super #db/id[:db.part/user -119844]}
+{:db/id #db/id[:db.part/user -325312]
+ :DirectSuperclass/ref #db/id[:db.part/user -119806]
+ :DirectSuperclass/super #db/id[:db.part/user -119816]}
+{:db/id #db/id[:db.part/user -325316]
+ :DirectSuperclass/ref #db/id[:db.part/user -119807]
+ :DirectSuperclass/super #db/id[:db.part/user -119834]}
+{:db/id #db/id[:db.part/user -325323]
+ :DirectSuperclass/ref #db/id[:db.part/user -119808]
+ :DirectSuperclass/super #db/id[:db.part/user -119816]}
+{:db/id #db/id[:db.part/user -325325]
+ :DirectSuperclass/ref #db/id[:db.part/user -119809]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325328]
+ :DirectSuperclass/ref #db/id[:db.part/user -119810]
+ :DirectSuperclass/super #db/id[:db.part/user -119844]}
+{:db/id #db/id[:db.part/user -325334]
+ :DirectSuperclass/ref #db/id[:db.part/user -119811]
+ :DirectSuperclass/super #db/id[:db.part/user -119816]}
+{:db/id #db/id[:db.part/user -325340]
+ :DirectSuperclass/ref #db/id[:db.part/user -119812]
+ :DirectSuperclass/super #db/id[:db.part/user -119834]}
+{:db/id #db/id[:db.part/user -325343]
+ :DirectSuperclass/ref #db/id[:db.part/user -119813]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325345]
+ :DirectSuperclass/ref #db/id[:db.part/user -119814]
+ :DirectSuperclass/super #db/id[:db.part/user -119443]}
+{:db/id #db/id[:db.part/user -325347]
+ :DirectSuperclass/ref #db/id[:db.part/user -119815]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -325349]
+ :DirectSuperclass/ref #db/id[:db.part/user -119816]
+ :DirectSuperclass/super #db/id[:db.part/user -119833]}
+{:db/id #db/id[:db.part/user -325351]
+ :DirectSuperclass/ref #db/id[:db.part/user -119817]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325353]
+ :DirectSuperclass/ref #db/id[:db.part/user -119818]
+ :DirectSuperclass/super #db/id[:db.part/user -119817]}
+{:db/id #db/id[:db.part/user -325355]
+ :DirectSuperclass/ref #db/id[:db.part/user -119819]
+ :DirectSuperclass/super #db/id[:db.part/user -119816]}
+{:db/id #db/id[:db.part/user -325359]
+ :DirectSuperclass/ref #db/id[:db.part/user -119820]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325361]
+ :DirectSuperclass/ref #db/id[:db.part/user -119821]
+ :DirectSuperclass/super #db/id[:db.part/user -119698]}
+{:db/id #db/id[:db.part/user -325368]
+ :DirectSuperclass/ref #db/id[:db.part/user -119822]
+ :DirectSuperclass/super #db/id[:db.part/user -119844]}
+{:db/id #db/id[:db.part/user -325371]
+ :DirectSuperclass/ref #db/id[:db.part/user -119823]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -325375]
+ :DirectSuperclass/ref #db/id[:db.part/user -119824]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325377]
+ :DirectSuperclass/ref #db/id[:db.part/user -119825]
+ :DirectSuperclass/super #db/id[:db.part/user -119721]}
+{:db/id #db/id[:db.part/user -325380]
+ :DirectSuperclass/ref #db/id[:db.part/user -119826]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -325382]
+ :DirectSuperclass/ref #db/id[:db.part/user -119827]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325384]
+ :DirectSuperclass/ref #db/id[:db.part/user -119828]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325386]
+ :DirectSuperclass/ref #db/id[:db.part/user -119829]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325388]
+ :DirectSuperclass/ref #db/id[:db.part/user -119831]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325391]
+ :DirectSuperclass/ref #db/id[:db.part/user -119832]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325394]
+ :DirectSuperclass/ref #db/id[:db.part/user -119833]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325395]
+ :DirectSuperclass/ref #db/id[:db.part/user -119834]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325400]
+ :DirectSuperclass/ref #db/id[:db.part/user -119835]
+ :DirectSuperclass/super #db/id[:db.part/user -119844]}
+{:db/id #db/id[:db.part/user -325403]
+ :DirectSuperclass/ref #db/id[:db.part/user -119836]
+ :DirectSuperclass/super #db/id[:db.part/user -119833]}
+{:db/id #db/id[:db.part/user -325405]
+ :DirectSuperclass/ref #db/id[:db.part/user -119837]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325407]
+ :DirectSuperclass/ref #db/id[:db.part/user -119838]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325410]
+ :DirectSuperclass/ref #db/id[:db.part/user -119839]
+ :DirectSuperclass/super #db/id[:db.part/user -119776]}
+{:db/id #db/id[:db.part/user -325413]
+ :DirectSuperclass/ref #db/id[:db.part/user -119840]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325417]
+ :DirectSuperclass/ref #db/id[:db.part/user -119841]
+ :DirectSuperclass/super #db/id[:db.part/user -119758]}
+{:db/id #db/id[:db.part/user -325419]
+ :DirectSuperclass/ref #db/id[:db.part/user -119842]
+ :DirectSuperclass/super #db/id[:db.part/user -119597]}
+{:db/id #db/id[:db.part/user -325423]
+ :DirectSuperclass/ref #db/id[:db.part/user -119843]
+ :DirectSuperclass/super #db/id[:db.part/user -119909]}
+{:db/id #db/id[:db.part/user -325426]
+ :DirectSuperclass/ref #db/id[:db.part/user -119844]
+ :DirectSuperclass/super #db/id[:db.part/user -119833]}
+{:db/id #db/id[:db.part/user -325429]
+ :DirectSuperclass/ref #db/id[:db.part/user -119845]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325434]
+ :DirectSuperclass/ref #db/id[:db.part/user -119847]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325435]
+ :DirectSuperclass/ref #db/id[:db.part/user -119848]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325438]
+ :DirectSuperclass/ref #db/id[:db.part/user -119851]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -325440]
+ :DirectSuperclass/ref #db/id[:db.part/user -119852]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325442]
+ :DirectSuperclass/ref #db/id[:db.part/user -119853]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325445]
+ :DirectSuperclass/ref #db/id[:db.part/user -119856]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325447]
+ :DirectSuperclass/ref #db/id[:db.part/user -119857]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325450]
+ :DirectSuperclass/ref #db/id[:db.part/user -119858]
+ :DirectSuperclass/super #db/id[:db.part/user -119792]}
+{:db/id #db/id[:db.part/user -325454]
+ :DirectSuperclass/ref #db/id[:db.part/user -119859]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325455]
+ :DirectSuperclass/ref #db/id[:db.part/user -119860]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325457]
+ :DirectSuperclass/ref #db/id[:db.part/user -119861]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325460]
+ :DirectSuperclass/ref #db/id[:db.part/user -119862]
+ :DirectSuperclass/super #db/id[:db.part/user -119816]}
+{:db/id #db/id[:db.part/user -325464]
+ :DirectSuperclass/ref #db/id[:db.part/user -119863]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325466]
+ :DirectSuperclass/ref #db/id[:db.part/user -119864]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325469]
+ :DirectSuperclass/ref #db/id[:db.part/user -119865]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -325471]
+ :DirectSuperclass/ref #db/id[:db.part/user -119866]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325473]
+ :DirectSuperclass/ref #db/id[:db.part/user -119867]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325475]
+ :DirectSuperclass/ref #db/id[:db.part/user -119868]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -325479]
+ :DirectSuperclass/ref #db/id[:db.part/user -119870]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325481]
+ :DirectSuperclass/ref #db/id[:db.part/user -119872]
+ :DirectSuperclass/super #db/id[:db.part/user -119433]}
+{:db/id #db/id[:db.part/user -325483]
+ :DirectSuperclass/ref #db/id[:db.part/user -119873]
+ :DirectSuperclass/super #db/id[:db.part/user -119433]}
+{:db/id #db/id[:db.part/user -325485]
+ :DirectSuperclass/ref #db/id[:db.part/user -119874]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325488]
+ :DirectSuperclass/ref #db/id[:db.part/user -119875]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325491]
+ :DirectSuperclass/ref #db/id[:db.part/user -119876]
+ :DirectSuperclass/super #db/id[:db.part/user -119497]}
+{:db/id #db/id[:db.part/user -325495]
+ :DirectSuperclass/ref #db/id[:db.part/user -119877]
+ :DirectSuperclass/super #db/id[:db.part/user -119742]}
+{:db/id #db/id[:db.part/user -325499]
+ :DirectSuperclass/ref #db/id[:db.part/user -119879]
+ :DirectSuperclass/super #db/id[:db.part/user -119906]}
+{:db/id #db/id[:db.part/user -325501]
+ :DirectSuperclass/ref #db/id[:db.part/user -119881]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325502]
+ :DirectSuperclass/ref #db/id[:db.part/user -119882]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325505]
+ :DirectSuperclass/ref #db/id[:db.part/user -119883]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325507]
+ :DirectSuperclass/ref #db/id[:db.part/user -119884]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325508]
+ :DirectSuperclass/ref #db/id[:db.part/user -119885]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325511]
+ :DirectSuperclass/ref #db/id[:db.part/user -119886]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325514]
+ :DirectSuperclass/ref #db/id[:db.part/user -119887]
+ :DirectSuperclass/super #db/id[:db.part/user -119597]}
+{:db/id #db/id[:db.part/user -325517]
+ :DirectSuperclass/ref #db/id[:db.part/user -119888]
+ :DirectSuperclass/super #db/id[:db.part/user -119737]}
+{:db/id #db/id[:db.part/user -325519]
+ :DirectSuperclass/ref #db/id[:db.part/user -119889]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325522]
+ :DirectSuperclass/ref #db/id[:db.part/user -119890]
+ :DirectSuperclass/super #db/id[:db.part/user -119862]}
+{:db/id #db/id[:db.part/user -325523]
+ :DirectSuperclass/ref #db/id[:db.part/user -119891]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325524]
+ :DirectSuperclass/ref #db/id[:db.part/user -119892]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325526]
+ :DirectSuperclass/ref #db/id[:db.part/user -119893]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325527]
+ :DirectSuperclass/ref #db/id[:db.part/user -119894]
+ :DirectSuperclass/super #db/id[:db.part/user -119853]}
+{:db/id #db/id[:db.part/user -325528]
+ :DirectSuperclass/ref #db/id[:db.part/user -119895]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325529]
+ :DirectSuperclass/ref #db/id[:db.part/user -119896]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325530]
+ :DirectSuperclass/ref #db/id[:db.part/user -119897]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325532]
+ :DirectSuperclass/ref #db/id[:db.part/user -119898]
+ :DirectSuperclass/super #db/id[:db.part/user -119899]}
+{:db/id #db/id[:db.part/user -325533]
+ :DirectSuperclass/ref #db/id[:db.part/user -119899]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325534]
+ :DirectSuperclass/ref #db/id[:db.part/user -119900]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325535]
+ :DirectSuperclass/ref #db/id[:db.part/user -119901]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325536]
+ :DirectSuperclass/ref #db/id[:db.part/user -119902]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325538]
+ :DirectSuperclass/ref #db/id[:db.part/user -119904]
+ :DirectSuperclass/super #db/id[:db.part/user -119868]}
+{:db/id #db/id[:db.part/user -325540]
+ :DirectSuperclass/ref #db/id[:db.part/user -119906]
+ :DirectSuperclass/super #db/id[:db.part/user -119485]}
+{:db/id #db/id[:db.part/user -325541]
+ :DirectSuperclass/ref #db/id[:db.part/user -119907]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325542]
+ :DirectSuperclass/ref #db/id[:db.part/user -119908]
+ :DirectSuperclass/super #db/id[:db.part/user -119879]}
+{:db/id #db/id[:db.part/user -325543]
+ :DirectSuperclass/ref #db/id[:db.part/user -119909]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325544]
+ :DirectSuperclass/ref #db/id[:db.part/user -119910]
+ :DirectSuperclass/super #db/id[:db.part/user -119497]}
+{:db/id #db/id[:db.part/user -325546]
+ :DirectSuperclass/ref #db/id[:db.part/user -119911]
+ :DirectSuperclass/super #db/id[:db.part/user -119839]}
+{:db/id #db/id[:db.part/user -325547]
+ :DirectSuperclass/ref #db/id[:db.part/user -119912]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325548]
+ :DirectSuperclass/ref #db/id[:db.part/user -119913]
+ :DirectSuperclass/super #db/id[:db.part/user -119915]}
+{:db/id #db/id[:db.part/user -325549]
+ :DirectSuperclass/ref #db/id[:db.part/user -119914]
+ :DirectSuperclass/super #db/id[:db.part/user -119913]}
+{:db/id #db/id[:db.part/user -325550]
+ :DirectSuperclass/ref #db/id[:db.part/user -119915]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325553]
+ :DirectSuperclass/ref #db/id[:db.part/user -119917]
+ :DirectSuperclass/super #db/id[:db.part/user -119537]}
+{:db/id #db/id[:db.part/user -325555]
+ :DirectSuperclass/ref #db/id[:db.part/user -119919]
+ :DirectSuperclass/super #db/id[:db.part/user -119714]}
+{:db/id #db/id[:db.part/user -325556]
+ :DirectSuperclass/ref #db/id[:db.part/user -119920]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325558]
+ :DirectSuperclass/ref #db/id[:db.part/user -119921]
+ :DirectSuperclass/super #db/id[:db.part/user -119640]}
+{:db/id #db/id[:db.part/user -325559]
+ :DirectSuperclass/ref #db/id[:db.part/user -119922]
+ :DirectSuperclass/super #db/id[:db.part/user -119557]}
+{:db/id #db/id[:db.part/user -325561]
+ :DirectSuperclass/ref #db/id[:db.part/user -119923]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -325562]
+ :DirectSuperclass/ref #db/id[:db.part/user -119924]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325563]
+ :DirectSuperclass/ref #db/id[:db.part/user -119925]
+ :DirectSuperclass/super #db/id[:db.part/user -119899]}
+{:db/id #db/id[:db.part/user -325565]
+ :DirectSuperclass/ref #db/id[:db.part/user -119926]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325566]
+ :DirectSuperclass/ref #db/id[:db.part/user -119927]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325567]
+ :DirectSuperclass/ref #db/id[:db.part/user -119928]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -325569]
+ :DirectSuperclass/ref #db/id[:db.part/user -119929]
+ :DirectSuperclass/super #db/id[:db.part/user -119931]}
+{:db/id #db/id[:db.part/user -325570]
+ :DirectSuperclass/ref #db/id[:db.part/user -119930]
+ :DirectSuperclass/super #db/id[:db.part/user -119713]}
+{:db/id #db/id[:db.part/user -325571]
+ :DirectSuperclass/ref #db/id[:db.part/user -119931]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325572]
+ :DirectSuperclass/ref #db/id[:db.part/user -119932]
+ :DirectSuperclass/super #db/id[:db.part/user -119443]}
+{:db/id #db/id[:db.part/user -325573]
+ :DirectSuperclass/ref #db/id[:db.part/user -119933]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325575]
+ :DirectSuperclass/ref #db/id[:db.part/user -119934]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325576]
+ :DirectSuperclass/ref #db/id[:db.part/user -119935]
+ :DirectSuperclass/super #db/id[:db.part/user -119823]}
+{:db/id #db/id[:db.part/user -325577]
+ :DirectSuperclass/ref #db/id[:db.part/user -119936]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325578]
+ :DirectSuperclass/ref #db/id[:db.part/user -119937]
+ :DirectSuperclass/super #db/id[:db.part/user -119433]}
+{:db/id #db/id[:db.part/user -325579]
+ :DirectSuperclass/ref #db/id[:db.part/user -119938]
+ :DirectSuperclass/super #db/id[:db.part/user -119769]}
+{:db/id #db/id[:db.part/user -325581]
+ :DirectSuperclass/ref #db/id[:db.part/user -119939]
+ :DirectSuperclass/super #db/id[:db.part/user -119943]}
+{:db/id #db/id[:db.part/user -325583]
+ :DirectSuperclass/ref #db/id[:db.part/user -119940]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325584]
+ :DirectSuperclass/ref #db/id[:db.part/user -119941]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325585]
+ :DirectSuperclass/ref #db/id[:db.part/user -119943]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325587]
+ :DirectSuperclass/ref #db/id[:db.part/user -119944]
+ :DirectSuperclass/super #db/id[:db.part/user -119814]}
+{:db/id #db/id[:db.part/user -325588]
+ :DirectSuperclass/ref #db/id[:db.part/user -119945]
+ :DirectSuperclass/super #db/id[:db.part/user -119969]}
+{:db/id #db/id[:db.part/user -325589]
+ :DirectSuperclass/ref #db/id[:db.part/user -119946]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325590]
+ :DirectSuperclass/ref #db/id[:db.part/user -119947]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325591]
+ :DirectSuperclass/ref #db/id[:db.part/user -119948]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325593]
+ :DirectSuperclass/ref #db/id[:db.part/user -119949]
+ :DirectSuperclass/super #db/id[:db.part/user -119505]}
+{:db/id #db/id[:db.part/user -325594]
+ :DirectSuperclass/ref #db/id[:db.part/user -119950]
+ :DirectSuperclass/super #db/id[:db.part/user -119556]}
+{:db/id #db/id[:db.part/user -325595]
+ :DirectSuperclass/ref #db/id[:db.part/user -119951]
+ :DirectSuperclass/super #db/id[:db.part/user -119497]}
+{:db/id #db/id[:db.part/user -325596]
+ :DirectSuperclass/ref #db/id[:db.part/user -119952]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325598]
+ :DirectSuperclass/ref #db/id[:db.part/user -119954]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325600]
+ :DirectSuperclass/ref #db/id[:db.part/user -119955]
+ :DirectSuperclass/super #db/id[:db.part/user -119954]}
+{:db/id #db/id[:db.part/user -325601]
+ :DirectSuperclass/ref #db/id[:db.part/user -119956]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325602]
+ :DirectSuperclass/ref #db/id[:db.part/user -119957]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325603]
+ :DirectSuperclass/ref #db/id[:db.part/user -119958]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325605]
+ :DirectSuperclass/ref #db/id[:db.part/user -119959]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325606]
+ :DirectSuperclass/ref #db/id[:db.part/user -119960]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325607]
+ :DirectSuperclass/ref #db/id[:db.part/user -119962]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325609]
+ :DirectSuperclass/ref #db/id[:db.part/user -119963]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325610]
+ :DirectSuperclass/ref #db/id[:db.part/user -119964]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325611]
+ :DirectSuperclass/ref #db/id[:db.part/user -119965]
+ :DirectSuperclass/super #db/id[:db.part/user -119527]}
+{:db/id #db/id[:db.part/user -325612]
+ :DirectSuperclass/ref #db/id[:db.part/user -119966]
+ :DirectSuperclass/super #db/id[:db.part/user -119528]}
+{:db/id #db/id[:db.part/user -325613]
+ :DirectSuperclass/ref #db/id[:db.part/user -119968]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325614]
+ :DirectSuperclass/ref #db/id[:db.part/user -119969]
+ :DirectSuperclass/super #db/id[:db.part/user -119697]}
+{:db/id #db/id[:db.part/user -325616]
+ :DirectSuperclass/ref #db/id[:db.part/user -119970]
+ :DirectSuperclass/super #db/id[:db.part/user -119814]}
+{:db/id #db/id[:db.part/user -325618]
+ :DirectSuperclass/ref #db/id[:db.part/user -119971]
+ :DirectSuperclass/super #db/id[:db.part/user -119685]}
+{:db/id #db/id[:db.part/user -325620]
+ :DirectSuperclass/ref #db/id[:db.part/user -119972]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -325621]
+ :DirectSuperclass/ref #db/id[:db.part/user -119973]
+ :DirectSuperclass/super #db/id[:db.part/user -119751]}
+{:db/id #db/id[:db.part/user -325623]
+ :DirectSuperclass/ref #db/id[:db.part/user -119974]
+ :DirectSuperclass/super #db/id[:db.part/user -119443]}
+{:db/id #db/id[:db.part/user -325624]
+ :DirectSuperclass/ref #db/id[:db.part/user -119975]
+ :DirectSuperclass/super #db/id[:db.part/user -119814]}
+{:db/id #db/id[:db.part/user -325625]
+ :DirectSuperclass/ref #db/id[:db.part/user -119976]
+ :DirectSuperclass/super #db/id[:db.part/user -119685]}
+{:db/id #db/id[:db.part/user -325626]
+ :DirectSuperclass/ref #db/id[:db.part/user -119977]
+ :DirectSuperclass/super #db/id[:db.part/user -119443]}
+{:db/id #db/id[:db.part/user -325627]
+ :DirectSuperclass/ref #db/id[:db.part/user -119978]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325629]
+ :DirectSuperclass/ref #db/id[:db.part/user -119979]
+ :DirectSuperclass/super #db/id[:db.part/user -119978]}
+{:db/id #db/id[:db.part/user -325630]
+ :DirectSuperclass/ref #db/id[:db.part/user -119980]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325631]
+ :DirectSuperclass/ref #db/id[:db.part/user -119981]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325632]
+ :DirectSuperclass/ref #db/id[:db.part/user -119982]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325633]
+ :DirectSuperclass/ref #db/id[:db.part/user -119984]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325634]
+ :DirectSuperclass/ref #db/id[:db.part/user -119985]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325636]
+ :DirectSuperclass/ref #db/id[:db.part/user -119986]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325637]
+ :DirectSuperclass/ref #db/id[:db.part/user -119987]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325638]
+ :DirectSuperclass/ref #db/id[:db.part/user -119988]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325639]
+ :DirectSuperclass/ref #db/id[:db.part/user -119989]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325640]
+ :DirectSuperclass/ref #db/id[:db.part/user -119990]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325641]
+ :DirectSuperclass/ref #db/id[:db.part/user -119991]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325643]
+ :DirectSuperclass/ref #db/id[:db.part/user -119992]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325644]
+ :DirectSuperclass/ref #db/id[:db.part/user -119993]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325645]
+ :DirectSuperclass/ref #db/id[:db.part/user -119994]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325646]
+ :DirectSuperclass/ref #db/id[:db.part/user -119995]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325648]
+ :DirectSuperclass/ref #db/id[:db.part/user -119996]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325649]
+ :DirectSuperclass/ref #db/id[:db.part/user -119997]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325650]
+ :DirectSuperclass/ref #db/id[:db.part/user -119998]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325652]
+ :DirectSuperclass/ref #db/id[:db.part/user -119999]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325653]
+ :DirectSuperclass/ref #db/id[:db.part/user -120000]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -325654]
+ :DirectSuperclass/ref #db/id[:db.part/user -120001]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325655]
+ :DirectSuperclass/ref #db/id[:db.part/user -120002]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325656]
+ :DirectSuperclass/ref #db/id[:db.part/user -120003]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325657]
+ :DirectSuperclass/ref #db/id[:db.part/user -120005]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325660]
+ :DirectSuperclass/ref #db/id[:db.part/user -120006]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325661]
+ :DirectSuperclass/ref #db/id[:db.part/user -120007]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325662]
+ :DirectSuperclass/ref #db/id[:db.part/user -120008]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325663]
+ :DirectSuperclass/ref #db/id[:db.part/user -120009]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325665]
+ :DirectSuperclass/ref #db/id[:db.part/user -120010]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325666]
+ :DirectSuperclass/ref #db/id[:db.part/user -120011]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325668]
+ :DirectSuperclass/ref #db/id[:db.part/user -120012]
+ :DirectSuperclass/super #db/id[:db.part/user -119879]}
+{:db/id #db/id[:db.part/user -325669]
+ :DirectSuperclass/ref #db/id[:db.part/user -120013]
+ :DirectSuperclass/super #db/id[:db.part/user -119879]}
+{:db/id #db/id[:db.part/user -325671]
+ :DirectSuperclass/ref #db/id[:db.part/user -120014]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325672]
+ :DirectSuperclass/ref #db/id[:db.part/user -120015]
+ :DirectSuperclass/super #db/id[:db.part/user -120014]}
+{:db/id #db/id[:db.part/user -325674]
+ :DirectSuperclass/ref #db/id[:db.part/user -120016]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325675]
+ :DirectSuperclass/ref #db/id[:db.part/user -120017]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325677]
+ :DirectSuperclass/ref #db/id[:db.part/user -120018]
+ :DirectSuperclass/super #db/id[:db.part/user -120014]}
+{:db/id #db/id[:db.part/user -325678]
+ :DirectSuperclass/ref #db/id[:db.part/user -120019]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325679]
+ :DirectSuperclass/ref #db/id[:db.part/user -120020]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325681]
+ :DirectSuperclass/ref #db/id[:db.part/user -120021]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325682]
+ :DirectSuperclass/ref #db/id[:db.part/user -120022]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325684]
+ :DirectSuperclass/ref #db/id[:db.part/user -120023]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325685]
+ :DirectSuperclass/ref #db/id[:db.part/user -120024]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325687]
+ :DirectSuperclass/ref #db/id[:db.part/user -120025]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325689]
+ :DirectSuperclass/ref #db/id[:db.part/user -120026]
+ :DirectSuperclass/super #db/id[:db.part/user -119720]}
+{:db/id #db/id[:db.part/user -325690]
+ :DirectSuperclass/ref #db/id[:db.part/user -120027]
+ :DirectSuperclass/super #db/id[:db.part/user -119844]}
+{:db/id #db/id[:db.part/user -325691]
+ :DirectSuperclass/ref #db/id[:db.part/user -120028]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325692]
+ :DirectSuperclass/ref #db/id[:db.part/user -120029]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325693]
+ :DirectSuperclass/ref #db/id[:db.part/user -120030]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325695]
+ :DirectSuperclass/ref #db/id[:db.part/user -120031]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325696]
+ :DirectSuperclass/ref #db/id[:db.part/user -120032]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325697]
+ :DirectSuperclass/ref #db/id[:db.part/user -120033]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325698]
+ :DirectSuperclass/ref #db/id[:db.part/user -120034]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325699]
+ :DirectSuperclass/ref #db/id[:db.part/user -120035]
+ :DirectSuperclass/super #db/id[:db.part/user -120036]}
+{:db/id #db/id[:db.part/user -325701]
+ :DirectSuperclass/ref #db/id[:db.part/user -120036]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325702]
+ :DirectSuperclass/ref #db/id[:db.part/user -120038]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325703]
+ :DirectSuperclass/ref #db/id[:db.part/user -120039]
+ :DirectSuperclass/super #db/id[:db.part/user -119561]}
+{:db/id #db/id[:db.part/user -325704]
+ :DirectSuperclass/ref #db/id[:db.part/user -120040]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325705]
+ :DirectSuperclass/ref #db/id[:db.part/user -120041]
+ :DirectSuperclass/super #db/id[:db.part/user -119577]}
+{:db/id #db/id[:db.part/user -325707]
+ :DirectSuperclass/ref #db/id[:db.part/user -120042]
+ :DirectSuperclass/super #db/id[:db.part/user -119577]}
+{:db/id #db/id[:db.part/user -325708]
+ :DirectSuperclass/ref #db/id[:db.part/user -120043]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325709]
+ :DirectSuperclass/ref #db/id[:db.part/user -120044]
+ :DirectSuperclass/super #db/id[:db.part/user -119466]}
+{:db/id #db/id[:db.part/user -325710]
+ :DirectSuperclass/ref #db/id[:db.part/user -120045]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325711]
+ :DirectSuperclass/ref #db/id[:db.part/user -120046]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325714]
+ :DirectSuperclass/ref #db/id[:db.part/user -120047]
+ :DirectSuperclass/super #db/id[:db.part/user -119577]}
+{:db/id #db/id[:db.part/user -325715]
+ :DirectSuperclass/ref #db/id[:db.part/user -120048]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325716]
+ :DirectSuperclass/ref #db/id[:db.part/user -120049]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325717]
+ :DirectSuperclass/ref #db/id[:db.part/user -120050]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325718]
+ :DirectSuperclass/ref #db/id[:db.part/user -120051]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325721]
+ :DirectSuperclass/ref #db/id[:db.part/user -120052]
+ :DirectSuperclass/super #db/id[:db.part/user -120051]}
+{:db/id #db/id[:db.part/user -325722]
+ :DirectSuperclass/ref #db/id[:db.part/user -120053]
+ :DirectSuperclass/super #db/id[:db.part/user -120051]}
+{:db/id #db/id[:db.part/user -325723]
+ :DirectSuperclass/ref #db/id[:db.part/user -120054]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325725]
+ :DirectSuperclass/ref #db/id[:db.part/user -120055]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325727]
+ :DirectSuperclass/ref #db/id[:db.part/user -120056]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325729]
+ :DirectSuperclass/ref #db/id[:db.part/user -120057]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325730]
+ :DirectSuperclass/ref #db/id[:db.part/user -120058]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325731]
+ :DirectSuperclass/ref #db/id[:db.part/user -120059]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -325732]
+ :DirectSuperclass/ref #db/id[:db.part/user -120060]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325735]
+ :DirectSuperclass/ref #db/id[:db.part/user -120061]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325736]
+ :DirectSuperclass/ref #db/id[:db.part/user -120062]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325737]
+ :DirectSuperclass/ref #db/id[:db.part/user -120063]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325738]
+ :DirectSuperclass/ref #db/id[:db.part/user -120064]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325740]
+ :DirectSuperclass/ref #db/id[:db.part/user -120065]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325741]
+ :DirectSuperclass/ref #db/id[:db.part/user -120066]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325743]
+ :DirectSuperclass/ref #db/id[:db.part/user -120067]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325744]
+ :DirectSuperclass/ref #db/id[:db.part/user -120068]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325745]
+ :DirectSuperclass/ref #db/id[:db.part/user -120069]
+ :DirectSuperclass/super #db/id[:db.part/user -119561]}
+{:db/id #db/id[:db.part/user -325747]
+ :DirectSuperclass/ref #db/id[:db.part/user -120070]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325749]
+ :DirectSuperclass/ref #db/id[:db.part/user -120071]
+ :DirectSuperclass/super #db/id[:db.part/user -119925]}
+{:db/id #db/id[:db.part/user -325750]
+ :DirectSuperclass/ref #db/id[:db.part/user -120072]
+ :DirectSuperclass/super #db/id[:db.part/user -119898]}
+{:db/id #db/id[:db.part/user -325751]
+ :DirectSuperclass/ref #db/id[:db.part/user -120073]
+ :DirectSuperclass/super #db/id[:db.part/user -119899]}
+{:db/id #db/id[:db.part/user -325752]
+ :DirectSuperclass/ref #db/id[:db.part/user -120074]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325754]
+ :DirectSuperclass/ref #db/id[:db.part/user -120075]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325755]
+ :DirectSuperclass/ref #db/id[:db.part/user -120077]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325756]
+ :DirectSuperclass/ref #db/id[:db.part/user -120078]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325757]
+ :DirectSuperclass/ref #db/id[:db.part/user -120079]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325759]
+ :DirectSuperclass/ref #db/id[:db.part/user -120080]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325760]
+ :DirectSuperclass/ref #db/id[:db.part/user -120081]
+ :DirectSuperclass/super #db/id[:db.part/user -119417]}
+{:db/id #db/id[:db.part/user -325762]
+ :DirectSuperclass/ref #db/id[:db.part/user -120082]
+ :DirectSuperclass/super #db/id[:db.part/user -119505]}
+{:db/id #db/id[:db.part/user -325763]
+ :DirectSuperclass/ref #db/id[:db.part/user -120084]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325764]
+ :DirectSuperclass/ref #db/id[:db.part/user -120085]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325765]
+ :DirectSuperclass/ref #db/id[:db.part/user -120086]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325766]
+ :DirectSuperclass/ref #db/id[:db.part/user -120087]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325768]
+ :DirectSuperclass/ref #db/id[:db.part/user -120088]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325769]
+ :DirectSuperclass/ref #db/id[:db.part/user -120089]
+ :DirectSuperclass/super #db/id[:db.part/user -119605]}
+{:db/id #db/id[:db.part/user -325770]
+ :DirectSuperclass/ref #db/id[:db.part/user -120090]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325771]
+ :DirectSuperclass/ref #db/id[:db.part/user -120091]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325773]
+ :DirectSuperclass/ref #db/id[:db.part/user -120092]
+ :DirectSuperclass/super #db/id[:db.part/user -120105]}
+{:db/id #db/id[:db.part/user -325774]
+ :DirectSuperclass/ref #db/id[:db.part/user -120093]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325775]
+ :DirectSuperclass/ref #db/id[:db.part/user -120094]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325777]
+ :DirectSuperclass/ref #db/id[:db.part/user -120095]
+ :DirectSuperclass/super #db/id[:db.part/user -120091]}
+{:db/id #db/id[:db.part/user -325779]
+ :DirectSuperclass/ref #db/id[:db.part/user -120096]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325781]
+ :DirectSuperclass/ref #db/id[:db.part/user -120097]
+ :DirectSuperclass/super #db/id[:db.part/user -119727]}
+{:db/id #db/id[:db.part/user -325783]
+ :DirectSuperclass/ref #db/id[:db.part/user -120098]
+ :DirectSuperclass/super #db/id[:db.part/user -119919]}
+{:db/id #db/id[:db.part/user -325784]
+ :DirectSuperclass/ref #db/id[:db.part/user -120099]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325785]
+ :DirectSuperclass/ref #db/id[:db.part/user -120100]
+ :DirectSuperclass/super #db/id[:db.part/user -119601]}
+{:db/id #db/id[:db.part/user -325787]
+ :DirectSuperclass/ref #db/id[:db.part/user -120101]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325788]
+ :DirectSuperclass/ref #db/id[:db.part/user -120102]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325789]
+ :DirectSuperclass/ref #db/id[:db.part/user -120103]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325790]
+ :DirectSuperclass/ref #db/id[:db.part/user -120104]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325792]
+ :DirectSuperclass/ref #db/id[:db.part/user -120105]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325794]
+ :DirectSuperclass/ref #db/id[:db.part/user -120107]
+ :DirectSuperclass/super #db/id[:db.part/user -119563]}
+{:db/id #db/id[:db.part/user -325795]
+ :DirectSuperclass/ref #db/id[:db.part/user -120108]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325797]
+ :DirectSuperclass/ref #db/id[:db.part/user -120110]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325798]
+ :DirectSuperclass/ref #db/id[:db.part/user -120111]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325799]
+ :DirectSuperclass/ref #db/id[:db.part/user -120112]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325801]
+ :DirectSuperclass/ref #db/id[:db.part/user -120113]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325802]
+ :DirectSuperclass/ref #db/id[:db.part/user -120114]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325803]
+ :DirectSuperclass/ref #db/id[:db.part/user -120115]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325804]
+ :DirectSuperclass/ref #db/id[:db.part/user -120116]
+ :DirectSuperclass/super #db/id[:db.part/user -120105]}
+{:db/id #db/id[:db.part/user -325806]
+ :DirectSuperclass/ref #db/id[:db.part/user -120117]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325807]
+ :DirectSuperclass/ref #db/id[:db.part/user -120118]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325809]
+ :DirectSuperclass/ref #db/id[:db.part/user -120119]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325810]
+ :DirectSuperclass/ref #db/id[:db.part/user -120120]
+ :DirectSuperclass/super #db/id[:db.part/user -119936]}
+{:db/id #db/id[:db.part/user -325812]
+ :DirectSuperclass/ref #db/id[:db.part/user -120121]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325813]
+ :DirectSuperclass/ref #db/id[:db.part/user -120122]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325814]
+ :DirectSuperclass/ref #db/id[:db.part/user -120123]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325815]
+ :DirectSuperclass/ref #db/id[:db.part/user -120124]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325816]
+ :DirectSuperclass/ref #db/id[:db.part/user -120125]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325818]
+ :DirectSuperclass/ref #db/id[:db.part/user -120126]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325819]
+ :DirectSuperclass/ref #db/id[:db.part/user -120127]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325820]
+ :DirectSuperclass/ref #db/id[:db.part/user -120128]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325821]
+ :DirectSuperclass/ref #db/id[:db.part/user -120129]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325822]
+ :DirectSuperclass/ref #db/id[:db.part/user -120130]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325825]
+ :DirectSuperclass/ref #db/id[:db.part/user -120131]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325826]
+ :DirectSuperclass/ref #db/id[:db.part/user -120132]
+ :DirectSuperclass/super #db/id[:db.part/user -120129]}
+{:db/id #db/id[:db.part/user -325827]
+ :DirectSuperclass/ref #db/id[:db.part/user -120133]
+ :DirectSuperclass/super #db/id[:db.part/user -120132]}
+{:db/id #db/id[:db.part/user -325829]
+ :DirectSuperclass/ref #db/id[:db.part/user -120134]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325832]
+ :DirectSuperclass/ref #db/id[:db.part/user -120135]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325833]
+ :DirectSuperclass/ref #db/id[:db.part/user -120136]
+ :DirectSuperclass/super #db/id[:db.part/user -120129]}
+{:db/id #db/id[:db.part/user -325834]
+ :DirectSuperclass/ref #db/id[:db.part/user -120137]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325837]
+ :DirectSuperclass/ref #db/id[:db.part/user -120138]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325838]
+ :DirectSuperclass/ref #db/id[:db.part/user -120139]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325839]
+ :DirectSuperclass/ref #db/id[:db.part/user -120140]
+ :DirectSuperclass/super #db/id[:db.part/user -119595]}
+{:db/id #db/id[:db.part/user -325841]
+ :DirectSuperclass/ref #db/id[:db.part/user -120141]
+ :DirectSuperclass/super #db/id[:db.part/user -120144]}
+{:db/id #db/id[:db.part/user -325843]
+ :DirectSuperclass/ref #db/id[:db.part/user -120142]
+ :DirectSuperclass/super #db/id[:db.part/user -120148]}
+{:db/id #db/id[:db.part/user -325844]
+ :DirectSuperclass/ref #db/id[:db.part/user -120143]
+ :DirectSuperclass/super #db/id[:db.part/user -119887]}
+{:db/id #db/id[:db.part/user -325845]
+ :DirectSuperclass/ref #db/id[:db.part/user -120144]
+ :DirectSuperclass/super #db/id[:db.part/user -119597]}
+{:db/id #db/id[:db.part/user -325846]
+ :DirectSuperclass/ref #db/id[:db.part/user -120145]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325848]
+ :DirectSuperclass/ref #db/id[:db.part/user -120146]
+ :DirectSuperclass/super #db/id[:db.part/user -119776]}
+{:db/id #db/id[:db.part/user -325849]
+ :DirectSuperclass/ref #db/id[:db.part/user -120147]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325850]
+ :DirectSuperclass/ref #db/id[:db.part/user -120148]
+ :DirectSuperclass/super #db/id[:db.part/user -120153]}
+{:db/id #db/id[:db.part/user -325851]
+ :DirectSuperclass/ref #db/id[:db.part/user -120149]
+ :DirectSuperclass/super #db/id[:db.part/user -119776]}
+{:db/id #db/id[:db.part/user -325854]
+ :DirectSuperclass/ref #db/id[:db.part/user -120150]
+ :DirectSuperclass/super #db/id[:db.part/user -119505]}
+{:db/id #db/id[:db.part/user -325855]
+ :DirectSuperclass/ref #db/id[:db.part/user -120151]
+ :DirectSuperclass/super #db/id[:db.part/user -119960]}
+{:db/id #db/id[:db.part/user -325856]
+ :DirectSuperclass/ref #db/id[:db.part/user -120152]
+ :DirectSuperclass/super #db/id[:db.part/user -119530]}
+{:db/id #db/id[:db.part/user -325857]
+ :DirectSuperclass/ref #db/id[:db.part/user -120153]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325859]
+ :DirectSuperclass/ref #db/id[:db.part/user -120154]
+ :DirectSuperclass/super #db/id[:db.part/user -119465]}
+{:db/id #db/id[:db.part/user -325860]
+ :DirectSuperclass/ref #db/id[:db.part/user -120155]
+ :DirectSuperclass/super #db/id[:db.part/user -120149]}
+{:db/id #db/id[:db.part/user -325861]
+ :DirectSuperclass/ref #db/id[:db.part/user -120156]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325862]
+ :DirectSuperclass/ref #db/id[:db.part/user -120157]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325865]
+ :DirectSuperclass/ref #db/id[:db.part/user -120158]
+ :DirectSuperclass/super #db/id[:db.part/user -120153]}
+{:db/id #db/id[:db.part/user -325867]
+ :DirectSuperclass/ref #db/id[:db.part/user -120159]
+ :DirectSuperclass/super #db/id[:db.part/user -119595]}
+{:db/id #db/id[:db.part/user -325868]
+ :DirectSuperclass/ref #db/id[:db.part/user -120161]
+ :DirectSuperclass/super #db/id[:db.part/user -119605]}
+{:db/id #db/id[:db.part/user -325869]
+ :DirectSuperclass/ref #db/id[:db.part/user -120162]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325871]
+ :DirectSuperclass/ref #db/id[:db.part/user -120163]
+ :DirectSuperclass/super #db/id[:db.part/user -119497]}
+{:db/id #db/id[:db.part/user -325872]
+ :DirectSuperclass/ref #db/id[:db.part/user -120164]
+ :DirectSuperclass/super #db/id[:db.part/user -120162]}
+{:db/id #db/id[:db.part/user -325874]
+ :DirectSuperclass/ref #db/id[:db.part/user -120165]
+ :DirectSuperclass/super #db/id[:db.part/user -120162]}
+{:db/id #db/id[:db.part/user -325876]
+ :DirectSuperclass/ref #db/id[:db.part/user -120166]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325877]
+ :DirectSuperclass/ref #db/id[:db.part/user -120167]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325878]
+ :DirectSuperclass/ref #db/id[:db.part/user -120168]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325879]
+ :DirectSuperclass/ref #db/id[:db.part/user -120169]
+ :DirectSuperclass/super #db/id[:db.part/user -119421]}
+{:db/id #db/id[:db.part/user -325880]
+ :DirectSuperclass/ref #db/id[:db.part/user -120170]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325882]
+ :DirectSuperclass/ref #db/id[:db.part/user -120171]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325883]
+ :DirectSuperclass/ref #db/id[:db.part/user -120172]
+ :DirectSuperclass/super #db/id[:db.part/user -119512]}
+{:db/id #db/id[:db.part/user -325884]
+ :DirectSuperclass/ref #db/id[:db.part/user -120173]
+ :DirectSuperclass/super #db/id[:db.part/user -119497]}
+{:db/id #db/id[:db.part/user -325886]
+ :DirectSuperclass/ref #db/id[:db.part/user -120174]
+ :DirectSuperclass/super #db/id[:db.part/user -120146]}
+{:db/id #db/id[:db.part/user -325889]
+ :DirectSuperclass/ref #db/id[:db.part/user -120175]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325891]
+ :DirectSuperclass/ref #db/id[:db.part/user -120176]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325892]
+ :DirectSuperclass/ref #db/id[:db.part/user -120177]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325893]
+ :DirectSuperclass/ref #db/id[:db.part/user -120178]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325895]
+ :DirectSuperclass/ref #db/id[:db.part/user -120179]
+ :DirectSuperclass/super #db/id[:db.part/user -120091]}
+{:db/id #db/id[:db.part/user -325896]
+ :DirectSuperclass/ref #db/id[:db.part/user -120181]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325897]
+ :DirectSuperclass/ref #db/id[:db.part/user -120182]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325898]
+ :DirectSuperclass/ref #db/id[:db.part/user -120183]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325899]
+ :DirectSuperclass/ref #db/id[:db.part/user -120184]
+ :DirectSuperclass/super #db/id[:db.part/user -119589]}
+{:db/id #db/id[:db.part/user -325901]
+ :DirectSuperclass/ref #db/id[:db.part/user -120185]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325902]
+ :DirectSuperclass/ref #db/id[:db.part/user -120187]
+ :DirectSuperclass/super #db/id[:db.part/user -119595]}
+{:db/id #db/id[:db.part/user -325903]
+ :DirectSuperclass/ref #db/id[:db.part/user -120188]
+ :DirectSuperclass/super #db/id[:db.part/user -119842]}
+{:db/id #db/id[:db.part/user -325904]
+ :DirectSuperclass/ref #db/id[:db.part/user -120189]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325906]
+ :DirectSuperclass/ref #db/id[:db.part/user -120190]
+ :DirectSuperclass/super #db/id[:db.part/user -119843]}
+{:db/id #db/id[:db.part/user -325907]
+ :DirectSuperclass/ref #db/id[:db.part/user -120191]
+ :DirectSuperclass/super #db/id[:db.part/user -119405]}
+{:db/id #db/id[:db.part/user -325909]
+ :DirectSuperclass/ref #db/id[:db.part/user -120192]
+ :DirectSuperclass/super #db/id[:db.part/user -119737]}
+{:db/id #db/id[:db.part/user -325910]
+ :DirectSuperclass/ref #db/id[:db.part/user -120193]
+ :DirectSuperclass/super #db/id[:db.part/user -119595]}
+{:db/id #db/id[:db.part/user -325913]
+ :DirectSuperclass/ref #db/id[:db.part/user -120194]
+ :DirectSuperclass/super #db/id[:db.part/user -120144]}

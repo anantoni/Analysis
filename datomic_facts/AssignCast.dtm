@@ -1,0 +1,3215 @@
+{:db/id #db/id[:db.part/user -447458]
+ :AssignCast/type #db/id[:db.part/user -119404]
+ :AssignCast/from #db/id[:db.part/user -136339]
+ :AssignCast/to #db/id[:db.part/user -136341]
+ :AssignCast/inmethod #db/id[:db.part/user -123783]}
+{:db/id #db/id[:db.part/user -447466]
+ :AssignCast/type #db/id[:db.part/user -119474]
+ :AssignCast/from #db/id[:db.part/user -148702]
+ :AssignCast/to #db/id[:db.part/user -148698]
+ :AssignCast/inmethod #db/id[:db.part/user -123783]}
+{:db/id #db/id[:db.part/user -447475]
+ :AssignCast/type #db/id[:db.part/user -119480]
+ :AssignCast/from #db/id[:db.part/user -150749]
+ :AssignCast/to #db/id[:db.part/user -150743]
+ :AssignCast/inmethod #db/id[:db.part/user -123848]}
+{:db/id #db/id[:db.part/user -447485]
+ :AssignCast/type #db/id[:db.part/user -119514]
+ :AssignCast/from #db/id[:db.part/user -150755]
+ :AssignCast/to #db/id[:db.part/user -150757]
+ :AssignCast/inmethod #db/id[:db.part/user -123848]}
+{:db/id #db/id[:db.part/user -447494]
+ :AssignCast/type #db/id[:db.part/user -119480]
+ :AssignCast/from #db/id[:db.part/user -150799]
+ :AssignCast/to #db/id[:db.part/user -150793]
+ :AssignCast/inmethod #db/id[:db.part/user -123850]}
+{:db/id #db/id[:db.part/user -447503]
+ :AssignCast/type #db/id[:db.part/user -119514]
+ :AssignCast/from #db/id[:db.part/user -150805]
+ :AssignCast/to #db/id[:db.part/user -150807]
+ :AssignCast/inmethod #db/id[:db.part/user -123850]}
+{:db/id #db/id[:db.part/user -447512]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -150851]
+ :AssignCast/to #db/id[:db.part/user -150845]
+ :AssignCast/inmethod #db/id[:db.part/user -123852]}
+{:db/id #db/id[:db.part/user -447521]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -150891]
+ :AssignCast/to #db/id[:db.part/user -150881]
+ :AssignCast/inmethod #db/id[:db.part/user -123854]}
+{:db/id #db/id[:db.part/user -447530]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -150915]
+ :AssignCast/to #db/id[:db.part/user -150917]
+ :AssignCast/inmethod #db/id[:db.part/user -123854]}
+{:db/id #db/id[:db.part/user -447540]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -150919]
+ :AssignCast/to #db/id[:db.part/user -150921]
+ :AssignCast/inmethod #db/id[:db.part/user -123854]}
+{:db/id #db/id[:db.part/user -447548]
+ :AssignCast/type #db/id[:db.part/user -119480]
+ :AssignCast/from #db/id[:db.part/user -150937]
+ :AssignCast/to #db/id[:db.part/user -150935]
+ :AssignCast/inmethod #db/id[:db.part/user -123856]}
+{:db/id #db/id[:db.part/user -447557]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -150995]
+ :AssignCast/to #db/id[:db.part/user -150997]
+ :AssignCast/inmethod #db/id[:db.part/user -123858]}
+{:db/id #db/id[:db.part/user -447568]
+ :AssignCast/type #db/id[:db.part/user -119540]
+ :AssignCast/from #db/id[:db.part/user -152392]
+ :AssignCast/to #db/id[:db.part/user -152394]
+ :AssignCast/inmethod #db/id[:db.part/user -123873]}
+{:db/id #db/id[:db.part/user -447578]
+ :AssignCast/type #db/id[:db.part/user -119421]
+ :AssignCast/from #db/id[:db.part/user -152424]
+ :AssignCast/to #db/id[:db.part/user -152426]
+ :AssignCast/inmethod #db/id[:db.part/user -123873]}
+{:db/id #db/id[:db.part/user -447589]
+ :AssignCast/type #db/id[:db.part/user -119540]
+ :AssignCast/from #db/id[:db.part/user -152674]
+ :AssignCast/to #db/id[:db.part/user -152676]
+ :AssignCast/inmethod #db/id[:db.part/user -123880]}
+{:db/id #db/id[:db.part/user -447600]
+ :AssignCast/type #db/id[:db.part/user -119540]
+ :AssignCast/from #db/id[:db.part/user -152692]
+ :AssignCast/to #db/id[:db.part/user -152694]
+ :AssignCast/inmethod #db/id[:db.part/user -123882]}
+{:db/id #db/id[:db.part/user -447610]
+ :AssignCast/type #db/id[:db.part/user -119552]
+ :AssignCast/from #db/id[:db.part/user -152879]
+ :AssignCast/to #db/id[:db.part/user -152841]
+ :AssignCast/inmethod #db/id[:db.part/user -123884]}
+{:db/id #db/id[:db.part/user -447620]
+ :AssignCast/type #db/id[:db.part/user -119540]
+ :AssignCast/from #db/id[:db.part/user -152849]
+ :AssignCast/to #db/id[:db.part/user -152851]
+ :AssignCast/inmethod #db/id[:db.part/user -123884]}
+{:db/id #db/id[:db.part/user -447627]
+ :AssignCast/type #db/id[:db.part/user -119413]
+ :AssignCast/from #db/id[:db.part/user -153388]
+ :AssignCast/to #db/id[:db.part/user -137791]
+ :AssignCast/inmethod #db/id[:db.part/user -123892]}
+{:db/id #db/id[:db.part/user -447633]
+ :AssignCast/type #db/id[:db.part/user -119421]
+ :AssignCast/from #db/id[:db.part/user -153388]
+ :AssignCast/to #db/id[:db.part/user -137793]
+ :AssignCast/inmethod #db/id[:db.part/user -123892]}
+{:db/id #db/id[:db.part/user -447639]
+ :AssignCast/type #db/id[:db.part/user -119466]
+ :AssignCast/from #db/id[:db.part/user -153388]
+ :AssignCast/to #db/id[:db.part/user -137795]
+ :AssignCast/inmethod #db/id[:db.part/user -123892]}
+{:db/id #db/id[:db.part/user -447645]
+ :AssignCast/type #db/id[:db.part/user -119441]
+ :AssignCast/from #db/id[:db.part/user -153388]
+ :AssignCast/to #db/id[:db.part/user -137797]
+ :AssignCast/inmethod #db/id[:db.part/user -123892]}
+{:db/id #db/id[:db.part/user -447655]
+ :AssignCast/type #db/id[:db.part/user -119570]
+ :AssignCast/from #db/id[:db.part/user -154315]
+ :AssignCast/to #db/id[:db.part/user -154317]
+ :AssignCast/inmethod #db/id[:db.part/user -123963]}
+{:db/id #db/id[:db.part/user -447664]
+ :AssignCast/type #db/id[:db.part/user -119488]
+ :AssignCast/from #db/id[:db.part/user -154676]
+ :AssignCast/to #db/id[:db.part/user -154670]
+ :AssignCast/inmethod #db/id[:db.part/user -123972]}
+{:db/id #db/id[:db.part/user -447675]
+ :AssignCast/type #db/id[:db.part/user -119580]
+ :AssignCast/from #db/id[:db.part/user -154694]
+ :AssignCast/to #db/id[:db.part/user -154688]
+ :AssignCast/inmethod #db/id[:db.part/user -123974]}
+{:db/id #db/id[:db.part/user -447687]
+ :AssignCast/type #db/id[:db.part/user -119581]
+ :AssignCast/from #db/id[:db.part/user -154712]
+ :AssignCast/to #db/id[:db.part/user -154714]
+ :AssignCast/inmethod #db/id[:db.part/user -123974]}
+{:db/id #db/id[:db.part/user -447698]
+ :AssignCast/type #db/id[:db.part/user -119561]
+ :AssignCast/from #db/id[:db.part/user -154740]
+ :AssignCast/to #db/id[:db.part/user -154742]
+ :AssignCast/inmethod #db/id[:db.part/user -123976]}
+{:db/id #db/id[:db.part/user -447701]
+ :AssignCast/type #db/id[:db.part/user -119587]
+ :AssignCast/from #db/id[:db.part/user -154894]
+ :AssignCast/to #db/id[:db.part/user -154880]
+ :AssignCast/inmethod #db/id[:db.part/user -123978]}
+{:db/id #db/id[:db.part/user -447704]
+ :AssignCast/type #db/id[:db.part/user -119588]
+ :AssignCast/from #db/id[:db.part/user -154902]
+ :AssignCast/to #db/id[:db.part/user -154890]
+ :AssignCast/inmethod #db/id[:db.part/user -123978]}
+{:db/id #db/id[:db.part/user -447707]
+ :AssignCast/type #db/id[:db.part/user -119588]
+ :AssignCast/from #db/id[:db.part/user -154924]
+ :AssignCast/to #db/id[:db.part/user -154892]
+ :AssignCast/inmethod #db/id[:db.part/user -123978]}
+{:db/id #db/id[:db.part/user -447709]
+ :AssignCast/type #db/id[:db.part/user -119588]
+ :AssignCast/from #db/id[:db.part/user -154979]
+ :AssignCast/to #db/id[:db.part/user -154975]
+ :AssignCast/inmethod #db/id[:db.part/user -123980]}
+{:db/id #db/id[:db.part/user -447712]
+ :AssignCast/type #db/id[:db.part/user -119488]
+ :AssignCast/from #db/id[:db.part/user -155285]
+ :AssignCast/to #db/id[:db.part/user -155279]
+ :AssignCast/inmethod #db/id[:db.part/user -123985]}
+{:db/id #db/id[:db.part/user -447715]
+ :AssignCast/type #db/id[:db.part/user -119581]
+ :AssignCast/from #db/id[:db.part/user -155315]
+ :AssignCast/to #db/id[:db.part/user -155299]
+ :AssignCast/inmethod #db/id[:db.part/user -123987]}
+{:db/id #db/id[:db.part/user -447717]
+ :AssignCast/type #db/id[:db.part/user -119595]
+ :AssignCast/from #db/id[:db.part/user -156276]
+ :AssignCast/to #db/id[:db.part/user -156260]
+ :AssignCast/inmethod #db/id[:db.part/user -124008]}
+{:db/id #db/id[:db.part/user -447720]
+ :AssignCast/type #db/id[:db.part/user -119595]
+ :AssignCast/from #db/id[:db.part/user -156317]
+ :AssignCast/to #db/id[:db.part/user -156260]
+ :AssignCast/inmethod #db/id[:db.part/user -124008]}
+{:db/id #db/id[:db.part/user -447723]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -156284]
+ :AssignCast/to #db/id[:db.part/user -156286]
+ :AssignCast/inmethod #db/id[:db.part/user -124008]}
+{:db/id #db/id[:db.part/user -447725]
+ :AssignCast/type #db/id[:db.part/user -119595]
+ :AssignCast/from #db/id[:db.part/user -156327]
+ :AssignCast/to #db/id[:db.part/user -156329]
+ :AssignCast/inmethod #db/id[:db.part/user -124008]}
+{:db/id #db/id[:db.part/user -447728]
+ :AssignCast/type #db/id[:db.part/user -119600]
+ :AssignCast/from #db/id[:db.part/user -156822]
+ :AssignCast/to #db/id[:db.part/user -156810]
+ :AssignCast/inmethod #db/id[:db.part/user -124012]}
+{:db/id #db/id[:db.part/user -447731]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -157507]
+ :AssignCast/to #db/id[:db.part/user -157503]
+ :AssignCast/inmethod #db/id[:db.part/user -124024]}
+{:db/id #db/id[:db.part/user -447733]
+ :AssignCast/type #db/id[:db.part/user -119421]
+ :AssignCast/from #db/id[:db.part/user -157671]
+ :AssignCast/to #db/id[:db.part/user -137987]
+ :AssignCast/inmethod #db/id[:db.part/user -124025]}
+{:db/id #db/id[:db.part/user -447736]
+ :AssignCast/type #db/id[:db.part/user -119466]
+ :AssignCast/from #db/id[:db.part/user -157671]
+ :AssignCast/to #db/id[:db.part/user -137989]
+ :AssignCast/inmethod #db/id[:db.part/user -124025]}
+{:db/id #db/id[:db.part/user -447739]
+ :AssignCast/type #db/id[:db.part/user -119441]
+ :AssignCast/from #db/id[:db.part/user -157671]
+ :AssignCast/to #db/id[:db.part/user -137991]
+ :AssignCast/inmethod #db/id[:db.part/user -124025]}
+{:db/id #db/id[:db.part/user -447742]
+ :AssignCast/type #db/id[:db.part/user -119561]
+ :AssignCast/from #db/id[:db.part/user -157907]
+ :AssignCast/to #db/id[:db.part/user -157901]
+ :AssignCast/inmethod #db/id[:db.part/user -124028]}
+{:db/id #db/id[:db.part/user -447744]
+ :AssignCast/type #db/id[:db.part/user -119561]
+ :AssignCast/from #db/id[:db.part/user -157911]
+ :AssignCast/to #db/id[:db.part/user -157901]
+ :AssignCast/inmethod #db/id[:db.part/user -124028]}
+{:db/id #db/id[:db.part/user -447747]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -158584]
+ :AssignCast/to #db/id[:db.part/user -158577]
+ :AssignCast/inmethod #db/id[:db.part/user -124034]}
+{:db/id #db/id[:db.part/user -447750]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -158624]
+ :AssignCast/to #db/id[:db.part/user -158618]
+ :AssignCast/inmethod #db/id[:db.part/user -124035]}
+{:db/id #db/id[:db.part/user -447753]
+ :AssignCast/type #db/id[:db.part/user -119512]
+ :AssignCast/from #db/id[:db.part/user -161327]
+ :AssignCast/to #db/id[:db.part/user -161325]
+ :AssignCast/inmethod #db/id[:db.part/user -124096]}
+{:db/id #db/id[:db.part/user -447756]
+ :AssignCast/type #db/id[:db.part/user -119651]
+ :AssignCast/from #db/id[:db.part/user -161345]
+ :AssignCast/to #db/id[:db.part/user -161347]
+ :AssignCast/inmethod #db/id[:db.part/user -124096]}
+{:db/id #db/id[:db.part/user -447759]
+ :AssignCast/type #db/id[:db.part/user -119513]
+ :AssignCast/from #db/id[:db.part/user -161702]
+ :AssignCast/to #db/id[:db.part/user -161735]
+ :AssignCast/inmethod #db/id[:db.part/user -124098]}
+{:db/id #db/id[:db.part/user -447762]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -161739]
+ :AssignCast/to #db/id[:db.part/user -161741]
+ :AssignCast/inmethod #db/id[:db.part/user -124098]}
+{:db/id #db/id[:db.part/user -447765]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -161750]
+ :AssignCast/to #db/id[:db.part/user -161752]
+ :AssignCast/inmethod #db/id[:db.part/user -124098]}
+{:db/id #db/id[:db.part/user -447768]
+ :AssignCast/type #db/id[:db.part/user -119513]
+ :AssignCast/from #db/id[:db.part/user -161704]
+ :AssignCast/to #db/id[:db.part/user -161758]
+ :AssignCast/inmethod #db/id[:db.part/user -124098]}
+{:db/id #db/id[:db.part/user -447771]
+ :AssignCast/type #db/id[:db.part/user -119505]
+ :AssignCast/from #db/id[:db.part/user -161875]
+ :AssignCast/to #db/id[:db.part/user -161877]
+ :AssignCast/inmethod #db/id[:db.part/user -124102]}
+{:db/id #db/id[:db.part/user -447774]
+ :AssignCast/type #db/id[:db.part/user -119513]
+ :AssignCast/from #db/id[:db.part/user -161911]
+ :AssignCast/to #db/id[:db.part/user -161928]
+ :AssignCast/inmethod #db/id[:db.part/user -124102]}
+{:db/id #db/id[:db.part/user -447777]
+ :AssignCast/type #db/id[:db.part/user -119513]
+ :AssignCast/from #db/id[:db.part/user -161850]
+ :AssignCast/to #db/id[:db.part/user -161930]
+ :AssignCast/inmethod #db/id[:db.part/user -124102]}
+{:db/id #db/id[:db.part/user -447780]
+ :AssignCast/type #db/id[:db.part/user -119497]
+ :AssignCast/from #db/id[:db.part/user -162053]
+ :AssignCast/to #db/id[:db.part/user -162055]
+ :AssignCast/inmethod #db/id[:db.part/user -124109]}
+{:db/id #db/id[:db.part/user -447783]
+ :AssignCast/type #db/id[:db.part/user -119664]
+ :AssignCast/from #db/id[:db.part/user -162400]
+ :AssignCast/to #db/id[:db.part/user -162402]
+ :AssignCast/inmethod #db/id[:db.part/user -124113]}
+{:db/id #db/id[:db.part/user -447786]
+ :AssignCast/type #db/id[:db.part/user -119664]
+ :AssignCast/from #db/id[:db.part/user -162419]
+ :AssignCast/to #db/id[:db.part/user -162421]
+ :AssignCast/inmethod #db/id[:db.part/user -124115]}
+{:db/id #db/id[:db.part/user -447789]
+ :AssignCast/type #db/id[:db.part/user -119668]
+ :AssignCast/from #db/id[:db.part/user -162767]
+ :AssignCast/to #db/id[:db.part/user -162791]
+ :AssignCast/inmethod #db/id[:db.part/user -124117]}
+{:db/id #db/id[:db.part/user -447792]
+ :AssignCast/type #db/id[:db.part/user -119670]
+ :AssignCast/from #db/id[:db.part/user -162767]
+ :AssignCast/to #db/id[:db.part/user -162815]
+ :AssignCast/inmethod #db/id[:db.part/user -124117]}
+{:db/id #db/id[:db.part/user -447795]
+ :AssignCast/type #db/id[:db.part/user -119670]
+ :AssignCast/from #db/id[:db.part/user -162767]
+ :AssignCast/to #db/id[:db.part/user -162842]
+ :AssignCast/inmethod #db/id[:db.part/user -124117]}
+{:db/id #db/id[:db.part/user -447798]
+ :AssignCast/type #db/id[:db.part/user -119552]
+ :AssignCast/from #db/id[:db.part/user -163446]
+ :AssignCast/to #db/id[:db.part/user -163448]
+ :AssignCast/inmethod #db/id[:db.part/user -124121]}
+{:db/id #db/id[:db.part/user -447801]
+ :AssignCast/type #db/id[:db.part/user -119540]
+ :AssignCast/from #db/id[:db.part/user -163481]
+ :AssignCast/to #db/id[:db.part/user -163483]
+ :AssignCast/inmethod #db/id[:db.part/user -124121]}
+{:db/id #db/id[:db.part/user -447803]
+ :AssignCast/type #db/id[:db.part/user -119421]
+ :AssignCast/from #db/id[:db.part/user -163899]
+ :AssignCast/to #db/id[:db.part/user -138228]
+ :AssignCast/inmethod #db/id[:db.part/user -124125]}
+{:db/id #db/id[:db.part/user -447805]
+ :AssignCast/type #db/id[:db.part/user -119466]
+ :AssignCast/from #db/id[:db.part/user -163899]
+ :AssignCast/to #db/id[:db.part/user -138230]
+ :AssignCast/inmethod #db/id[:db.part/user -124125]}
+{:db/id #db/id[:db.part/user -447808]
+ :AssignCast/type #db/id[:db.part/user -119441]
+ :AssignCast/from #db/id[:db.part/user -163899]
+ :AssignCast/to #db/id[:db.part/user -138232]
+ :AssignCast/inmethod #db/id[:db.part/user -124125]}
+{:db/id #db/id[:db.part/user -447810]
+ :AssignCast/type #db/id[:db.part/user -119666]
+ :AssignCast/from #db/id[:db.part/user -164260]
+ :AssignCast/to #db/id[:db.part/user -164258]
+ :AssignCast/inmethod #db/id[:db.part/user -124131]}
+{:db/id #db/id[:db.part/user -447813]
+ :AssignCast/type #db/id[:db.part/user -119541]
+ :AssignCast/from #db/id[:db.part/user -165138]
+ :AssignCast/to #db/id[:db.part/user -165136]
+ :AssignCast/inmethod #db/id[:db.part/user -124133]}
+{:db/id #db/id[:db.part/user -447816]
+ :AssignCast/type #db/id[:db.part/user -119403]
+ :AssignCast/from #db/id[:db.part/user -165900]
+ :AssignCast/to #db/id[:db.part/user -165811]
+ :AssignCast/inmethod #db/id[:db.part/user -124141]}
+{:db/id #db/id[:db.part/user -447820]
+ :AssignCast/type #db/id[:db.part/user -119580]
+ :AssignCast/from #db/id[:db.part/user -165888]
+ :AssignCast/to #db/id[:db.part/user -165890]
+ :AssignCast/inmethod #db/id[:db.part/user -124141]}
+{:db/id #db/id[:db.part/user -447823]
+ :AssignCast/type #db/id[:db.part/user -119697]
+ :AssignCast/from #db/id[:db.part/user -165823]
+ :AssignCast/to #db/id[:db.part/user -165898]
+ :AssignCast/inmethod #db/id[:db.part/user -124141]}
+{:db/id #db/id[:db.part/user -447826]
+ :AssignCast/type #db/id[:db.part/user -119572]
+ :AssignCast/from #db/id[:db.part/user -166542]
+ :AssignCast/to #db/id[:db.part/user -166548]
+ :AssignCast/inmethod #db/id[:db.part/user -124183]}
+{:db/id #db/id[:db.part/user -447829]
+ :AssignCast/type #db/id[:db.part/user -119599]
+ :AssignCast/from #db/id[:db.part/user -166884]
+ :AssignCast/to #db/id[:db.part/user -166886]
+ :AssignCast/inmethod #db/id[:db.part/user -124198]}
+{:db/id #db/id[:db.part/user -447833]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -167068]
+ :AssignCast/to #db/id[:db.part/user -167054]
+ :AssignCast/inmethod #db/id[:db.part/user -124202]}
+{:db/id #db/id[:db.part/user -447838]
+ :AssignCast/type #db/id[:db.part/user -119712]
+ :AssignCast/from #db/id[:db.part/user -167072]
+ :AssignCast/to #db/id[:db.part/user -167074]
+ :AssignCast/inmethod #db/id[:db.part/user -124202]}
+{:db/id #db/id[:db.part/user -447843]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -167076]
+ :AssignCast/to #db/id[:db.part/user -167078]
+ :AssignCast/inmethod #db/id[:db.part/user -124202]}
+{:db/id #db/id[:db.part/user -447847]
+ :AssignCast/type #db/id[:db.part/user -119447]
+ :AssignCast/from #db/id[:db.part/user -167119]
+ :AssignCast/to #db/id[:db.part/user -138436]
+ :AssignCast/inmethod #db/id[:db.part/user -124204]}
+{:db/id #db/id[:db.part/user -447852]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -167135]
+ :AssignCast/to #db/id[:db.part/user -167115]
+ :AssignCast/inmethod #db/id[:db.part/user -124204]}
+{:db/id #db/id[:db.part/user -447857]
+ :AssignCast/type #db/id[:db.part/user -119712]
+ :AssignCast/from #db/id[:db.part/user -167140]
+ :AssignCast/to #db/id[:db.part/user -167142]
+ :AssignCast/inmethod #db/id[:db.part/user -124204]}
+{:db/id #db/id[:db.part/user -447862]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -167144]
+ :AssignCast/to #db/id[:db.part/user -167146]
+ :AssignCast/inmethod #db/id[:db.part/user -124204]}
+{:db/id #db/id[:db.part/user -447866]
+ :AssignCast/type #db/id[:db.part/user -119481]
+ :AssignCast/from #db/id[:db.part/user -168277]
+ :AssignCast/to #db/id[:db.part/user -168267]
+ :AssignCast/inmethod #db/id[:db.part/user -124209]}
+{:db/id #db/id[:db.part/user -447871]
+ :AssignCast/type #db/id[:db.part/user -119606]
+ :AssignCast/from #db/id[:db.part/user -168517]
+ :AssignCast/to #db/id[:db.part/user -168513]
+ :AssignCast/inmethod #db/id[:db.part/user -124213]}
+{:db/id #db/id[:db.part/user -447875]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -168519]
+ :AssignCast/to #db/id[:db.part/user -168521]
+ :AssignCast/inmethod #db/id[:db.part/user -124213]}
+{:db/id #db/id[:db.part/user -447880]
+ :AssignCast/type #db/id[:db.part/user -119724]
+ :AssignCast/from #db/id[:db.part/user -168525]
+ :AssignCast/to #db/id[:db.part/user -168527]
+ :AssignCast/inmethod #db/id[:db.part/user -124213]}
+{:db/id #db/id[:db.part/user -447884]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -168531]
+ :AssignCast/to #db/id[:db.part/user -168533]
+ :AssignCast/inmethod #db/id[:db.part/user -124213]}
+{:db/id #db/id[:db.part/user -447888]
+ :AssignCast/type #db/id[:db.part/user -119606]
+ :AssignCast/from #db/id[:db.part/user -168692]
+ :AssignCast/to #db/id[:db.part/user -168688]
+ :AssignCast/inmethod #db/id[:db.part/user -124215]}
+{:db/id #db/id[:db.part/user -447892]
+ :AssignCast/type #db/id[:db.part/user -119563]
+ :AssignCast/from #db/id[:db.part/user -169031]
+ :AssignCast/to #db/id[:db.part/user -169029]
+ :AssignCast/inmethod #db/id[:db.part/user -124219]}
+{:db/id #db/id[:db.part/user -447895]
+ :AssignCast/type #db/id[:db.part/user -119562]
+ :AssignCast/from #db/id[:db.part/user -169215]
+ :AssignCast/to #db/id[:db.part/user -169206]
+ :AssignCast/inmethod #db/id[:db.part/user -124221]}
+{:db/id #db/id[:db.part/user -447899]
+ :AssignCast/type #db/id[:db.part/user -119562]
+ :AssignCast/from #db/id[:db.part/user -169217]
+ :AssignCast/to #db/id[:db.part/user -169219]
+ :AssignCast/inmethod #db/id[:db.part/user -124221]}
+{:db/id #db/id[:db.part/user -447902]
+ :AssignCast/type #db/id[:db.part/user -119562]
+ :AssignCast/from #db/id[:db.part/user -169329]
+ :AssignCast/to #db/id[:db.part/user -169331]
+ :AssignCast/inmethod #db/id[:db.part/user -124223]}
+{:db/id #db/id[:db.part/user -447906]
+ :AssignCast/type #db/id[:db.part/user -119600]
+ :AssignCast/from #db/id[:db.part/user -169497]
+ :AssignCast/to #db/id[:db.part/user -169481]
+ :AssignCast/inmethod #db/id[:db.part/user -124227]}
+{:db/id #db/id[:db.part/user -447910]
+ :AssignCast/type #db/id[:db.part/user -119618]
+ :AssignCast/from #db/id[:db.part/user -169565]
+ :AssignCast/to #db/id[:db.part/user -169569]
+ :AssignCast/inmethod #db/id[:db.part/user -124231]}
+{:db/id #db/id[:db.part/user -447914]
+ :AssignCast/type #db/id[:db.part/user -119563]
+ :AssignCast/from #db/id[:db.part/user -169585]
+ :AssignCast/to #db/id[:db.part/user -169573]
+ :AssignCast/inmethod #db/id[:db.part/user -124231]}
+{:db/id #db/id[:db.part/user -447918]
+ :AssignCast/type #db/id[:db.part/user -119563]
+ :AssignCast/from #db/id[:db.part/user -169632]
+ :AssignCast/to #db/id[:db.part/user -169626]
+ :AssignCast/inmethod #db/id[:db.part/user -124233]}
+{:db/id #db/id[:db.part/user -447921]
+ :AssignCast/type #db/id[:db.part/user -119498]
+ :AssignCast/from #db/id[:db.part/user -169899]
+ :AssignCast/to #db/id[:db.part/user -169889]
+ :AssignCast/inmethod #db/id[:db.part/user -124235]}
+{:db/id #db/id[:db.part/user -447925]
+ :AssignCast/type #db/id[:db.part/user -119590]
+ :AssignCast/from #db/id[:db.part/user -169926]
+ :AssignCast/to #db/id[:db.part/user -169928]
+ :AssignCast/inmethod #db/id[:db.part/user -124235]}
+{:db/id #db/id[:db.part/user -447928]
+ :AssignCast/type #db/id[:db.part/user -119565]
+ :AssignCast/from #db/id[:db.part/user -170242]
+ :AssignCast/to #db/id[:db.part/user -170240]
+ :AssignCast/inmethod #db/id[:db.part/user -124237]}
+{:db/id #db/id[:db.part/user -447932]
+ :AssignCast/type #db/id[:db.part/user -119731]
+ :AssignCast/from #db/id[:db.part/user -170261]
+ :AssignCast/to #db/id[:db.part/user -170263]
+ :AssignCast/inmethod #db/id[:db.part/user -124237]}
+{:db/id #db/id[:db.part/user -447936]
+ :AssignCast/type #db/id[:db.part/user -119746]
+ :AssignCast/from #db/id[:db.part/user -171640]
+ :AssignCast/to #db/id[:db.part/user -171634]
+ :AssignCast/inmethod #db/id[:db.part/user -124261]}
+{:db/id #db/id[:db.part/user -447940]
+ :AssignCast/type #db/id[:db.part/user -119746]
+ :AssignCast/from #db/id[:db.part/user -171663]
+ :AssignCast/to #db/id[:db.part/user -171655]
+ :AssignCast/inmethod #db/id[:db.part/user -124262]}
+{:db/id #db/id[:db.part/user -447945]
+ :AssignCast/type #db/id[:db.part/user -119709]
+ :AssignCast/from #db/id[:db.part/user -171732]
+ :AssignCast/to #db/id[:db.part/user -171737]
+ :AssignCast/inmethod #db/id[:db.part/user -124263]}
+{:db/id #db/id[:db.part/user -447951]
+ :AssignCast/type #db/id[:db.part/user -119709]
+ :AssignCast/from #db/id[:db.part/user -171728]
+ :AssignCast/to #db/id[:db.part/user -171741]
+ :AssignCast/inmethod #db/id[:db.part/user -124263]}
+{:db/id #db/id[:db.part/user -447955]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -171846]
+ :AssignCast/to #db/id[:db.part/user -171830]
+ :AssignCast/inmethod #db/id[:db.part/user -124268]}
+{:db/id #db/id[:db.part/user -447960]
+ :AssignCast/type #db/id[:db.part/user -119745]
+ :AssignCast/from #db/id[:db.part/user -171860]
+ :AssignCast/to #db/id[:db.part/user -171862]
+ :AssignCast/inmethod #db/id[:db.part/user -124268]}
+{:db/id #db/id[:db.part/user -447964]
+ :AssignCast/type #db/id[:db.part/user -119745]
+ :AssignCast/from #db/id[:db.part/user -171911]
+ :AssignCast/to #db/id[:db.part/user -171913]
+ :AssignCast/inmethod #db/id[:db.part/user -124268]}
+{:db/id #db/id[:db.part/user -447967]
+ :AssignCast/type #db/id[:db.part/user -119564]
+ :AssignCast/from #db/id[:db.part/user -173723]
+ :AssignCast/to #db/id[:db.part/user -173721]
+ :AssignCast/inmethod #db/id[:db.part/user -124330]}
+{:db/id #db/id[:db.part/user -447971]
+ :AssignCast/type #db/id[:db.part/user -119565]
+ :AssignCast/from #db/id[:db.part/user -173727]
+ :AssignCast/to #db/id[:db.part/user -173729]
+ :AssignCast/inmethod #db/id[:db.part/user -124330]}
+{:db/id #db/id[:db.part/user -447976]
+ :AssignCast/type #db/id[:db.part/user -119762]
+ :AssignCast/from #db/id[:db.part/user -174382]
+ :AssignCast/to #db/id[:db.part/user -174374]
+ :AssignCast/inmethod #db/id[:db.part/user -124339]}
+{:db/id #db/id[:db.part/user -447981]
+ :AssignCast/type #db/id[:db.part/user -119762]
+ :AssignCast/from #db/id[:db.part/user -174439]
+ :AssignCast/to #db/id[:db.part/user -174441]
+ :AssignCast/inmethod #db/id[:db.part/user -124341]}
+{:db/id #db/id[:db.part/user -447985]
+ :AssignCast/type #db/id[:db.part/user -119641]
+ :AssignCast/from #db/id[:db.part/user -175213]
+ :AssignCast/to #db/id[:db.part/user -175209]
+ :AssignCast/inmethod #db/id[:db.part/user -124363]}
+{:db/id #db/id[:db.part/user -447989]
+ :AssignCast/type #db/id[:db.part/user -119770]
+ :AssignCast/from #db/id[:db.part/user -175219]
+ :AssignCast/to #db/id[:db.part/user -175221]
+ :AssignCast/inmethod #db/id[:db.part/user -124363]}
+{:db/id #db/id[:db.part/user -447994]
+ :AssignCast/type #db/id[:db.part/user -119669]
+ :AssignCast/from #db/id[:db.part/user -175339]
+ :AssignCast/to #db/id[:db.part/user -175327]
+ :AssignCast/inmethod #db/id[:db.part/user -124368]}
+{:db/id #db/id[:db.part/user -447998]
+ :AssignCast/type #db/id[:db.part/user -119774]
+ :AssignCast/from #db/id[:db.part/user -175813]
+ :AssignCast/to #db/id[:db.part/user -175815]
+ :AssignCast/inmethod #db/id[:db.part/user -124396]}
+{:db/id #db/id[:db.part/user -448003]
+ :AssignCast/type #db/id[:db.part/user -119774]
+ :AssignCast/from #db/id[:db.part/user -175821]
+ :AssignCast/to #db/id[:db.part/user -175823]
+ :AssignCast/inmethod #db/id[:db.part/user -124396]}
+{:db/id #db/id[:db.part/user -448008]
+ :AssignCast/type #db/id[:db.part/user -119770]
+ :AssignCast/from #db/id[:db.part/user -177120]
+ :AssignCast/to #db/id[:db.part/user -177122]
+ :AssignCast/inmethod #db/id[:db.part/user -124411]}
+{:db/id #db/id[:db.part/user -448013]
+ :AssignCast/type #db/id[:db.part/user -119780]
+ :AssignCast/from #db/id[:db.part/user -178556]
+ :AssignCast/to #db/id[:db.part/user -178558]
+ :AssignCast/inmethod #db/id[:db.part/user -124424]}
+{:db/id #db/id[:db.part/user -448019]
+ :AssignCast/type #db/id[:db.part/user -119780]
+ :AssignCast/from #db/id[:db.part/user -178570]
+ :AssignCast/to #db/id[:db.part/user -178572]
+ :AssignCast/inmethod #db/id[:db.part/user -124426]}
+{:db/id #db/id[:db.part/user -448024]
+ :AssignCast/type #db/id[:db.part/user -119668]
+ :AssignCast/from #db/id[:db.part/user -178631]
+ :AssignCast/to #db/id[:db.part/user -178629]
+ :AssignCast/inmethod #db/id[:db.part/user -124428]}
+{:db/id #db/id[:db.part/user -448030]
+ :AssignCast/type #db/id[:db.part/user -119780]
+ :AssignCast/from #db/id[:db.part/user -178635]
+ :AssignCast/to #db/id[:db.part/user -178637]
+ :AssignCast/inmethod #db/id[:db.part/user -124428]}
+{:db/id #db/id[:db.part/user -448035]
+ :AssignCast/type #db/id[:db.part/user -119661]
+ :AssignCast/from #db/id[:db.part/user -179149]
+ :AssignCast/to #db/id[:db.part/user -179151]
+ :AssignCast/inmethod #db/id[:db.part/user -124430]}
+{:db/id #db/id[:db.part/user -448041]
+ :AssignCast/type #db/id[:db.part/user -119683]
+ :AssignCast/from #db/id[:db.part/user -179391]
+ :AssignCast/to #db/id[:db.part/user -179389]
+ :AssignCast/inmethod #db/id[:db.part/user -124435]}
+{:db/id #db/id[:db.part/user -448047]
+ :AssignCast/type #db/id[:db.part/user -119477]
+ :AssignCast/from #db/id[:db.part/user -179399]
+ :AssignCast/to #db/id[:db.part/user -179395]
+ :AssignCast/inmethod #db/id[:db.part/user -124435]}
+{:db/id #db/id[:db.part/user -448053]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -180825]
+ :AssignCast/to #db/id[:db.part/user -180827]
+ :AssignCast/inmethod #db/id[:db.part/user -124449]}
+{:db/id #db/id[:db.part/user -448060]
+ :AssignCast/type #db/id[:db.part/user -119829]
+ :AssignCast/from #db/id[:db.part/user -181504]
+ :AssignCast/to #db/id[:db.part/user -181483]
+ :AssignCast/inmethod #db/id[:db.part/user -124461]}
+{:db/id #db/id[:db.part/user -448067]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -181512]
+ :AssignCast/to #db/id[:db.part/user -181488]
+ :AssignCast/inmethod #db/id[:db.part/user -124461]}
+{:db/id #db/id[:db.part/user -448073]
+ :AssignCast/type #db/id[:db.part/user -119837]
+ :AssignCast/from #db/id[:db.part/user -183228]
+ :AssignCast/to #db/id[:db.part/user -183201]
+ :AssignCast/inmethod #db/id[:db.part/user -124465]}
+{:db/id #db/id[:db.part/user -448079]
+ :AssignCast/type #db/id[:db.part/user -119477]
+ :AssignCast/from #db/id[:db.part/user -183266]
+ :AssignCast/to #db/id[:db.part/user -183268]
+ :AssignCast/inmethod #db/id[:db.part/user -124465]}
+{:db/id #db/id[:db.part/user -448086]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -183871]
+ :AssignCast/to #db/id[:db.part/user -183873]
+ :AssignCast/inmethod #db/id[:db.part/user -124469]}
+{:db/id #db/id[:db.part/user -448092]
+ :AssignCast/type #db/id[:db.part/user -119758]
+ :AssignCast/from #db/id[:db.part/user -183877]
+ :AssignCast/to #db/id[:db.part/user -183879]
+ :AssignCast/inmethod #db/id[:db.part/user -124469]}
+{:db/id #db/id[:db.part/user -448099]
+ :AssignCast/type #db/id[:db.part/user -119770]
+ :AssignCast/from #db/id[:db.part/user -184322]
+ :AssignCast/to #db/id[:db.part/user -184320]
+ :AssignCast/inmethod #db/id[:db.part/user -124481]}
+{:db/id #db/id[:db.part/user -448105]
+ :AssignCast/type #db/id[:db.part/user -119771]
+ :AssignCast/from #db/id[:db.part/user -184344]
+ :AssignCast/to #db/id[:db.part/user -184346]
+ :AssignCast/inmethod #db/id[:db.part/user -124481]}
+{:db/id #db/id[:db.part/user -448112]
+ :AssignCast/type #db/id[:db.part/user -119720]
+ :AssignCast/from #db/id[:db.part/user -184571]
+ :AssignCast/to #db/id[:db.part/user -184554]
+ :AssignCast/inmethod #db/id[:db.part/user -124483]}
+{:db/id #db/id[:db.part/user -448119]
+ :AssignCast/type #db/id[:db.part/user -119670]
+ :AssignCast/from #db/id[:db.part/user -184573]
+ :AssignCast/to #db/id[:db.part/user -184575]
+ :AssignCast/inmethod #db/id[:db.part/user -124483]}
+{:db/id #db/id[:db.part/user -448126]
+ :AssignCast/type #db/id[:db.part/user -119782]
+ :AssignCast/from #db/id[:db.part/user -184548]
+ :AssignCast/to #db/id[:db.part/user -184583]
+ :AssignCast/inmethod #db/id[:db.part/user -124483]}
+{:db/id #db/id[:db.part/user -448132]
+ :AssignCast/type #db/id[:db.part/user -119771]
+ :AssignCast/from #db/id[:db.part/user -184709]
+ :AssignCast/to #db/id[:db.part/user -184707]
+ :AssignCast/inmethod #db/id[:db.part/user -124484]}
+{:db/id #db/id[:db.part/user -448139]
+ :AssignCast/type #db/id[:db.part/user -119781]
+ :AssignCast/from #db/id[:db.part/user -185208]
+ :AssignCast/to #db/id[:db.part/user -185206]
+ :AssignCast/inmethod #db/id[:db.part/user -124487]}
+{:db/id #db/id[:db.part/user -448145]
+ :AssignCast/type #db/id[:db.part/user -119780]
+ :AssignCast/from #db/id[:db.part/user -187642]
+ :AssignCast/to #db/id[:db.part/user -187644]
+ :AssignCast/inmethod #db/id[:db.part/user -124488]}
+{:db/id #db/id[:db.part/user -448149]
+ :AssignCast/type #db/id[:db.part/user -119413]
+ :AssignCast/from #db/id[:db.part/user -190454]
+ :AssignCast/to #db/id[:db.part/user -139438]
+ :AssignCast/inmethod #db/id[:db.part/user -124679]}
+{:db/id #db/id[:db.part/user -448156]
+ :AssignCast/type #db/id[:db.part/user -119403]
+ :AssignCast/from #db/id[:db.part/user -190450]
+ :AssignCast/to #db/id[:db.part/user -190452]
+ :AssignCast/inmethod #db/id[:db.part/user -124679]}
+{:db/id #db/id[:db.part/user -448164]
+ :AssignCast/type #db/id[:db.part/user -119842]
+ :AssignCast/from #db/id[:db.part/user -190633]
+ :AssignCast/to #db/id[:db.part/user -190675]
+ :AssignCast/inmethod #db/id[:db.part/user -124681]}
+{:db/id #db/id[:db.part/user -448168]
+ :AssignCast/type #db/id[:db.part/user -119466]
+ :AssignCast/from #db/id[:db.part/user -190801]
+ :AssignCast/to #db/id[:db.part/user -139446]
+ :AssignCast/inmethod #db/id[:db.part/user -124683]}
+{:db/id #db/id[:db.part/user -448173]
+ :AssignCast/type #db/id[:db.part/user -119421]
+ :AssignCast/from #db/id[:db.part/user -190801]
+ :AssignCast/to #db/id[:db.part/user -139448]
+ :AssignCast/inmethod #db/id[:db.part/user -124683]}
+{:db/id #db/id[:db.part/user -448180]
+ :AssignCast/type #db/id[:db.part/user -119890]
+ :AssignCast/from #db/id[:db.part/user -191386]
+ :AssignCast/to #db/id[:db.part/user -191388]
+ :AssignCast/inmethod #db/id[:db.part/user -124702]}
+{:db/id #db/id[:db.part/user -448188]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -194139]
+ :AssignCast/to #db/id[:db.part/user -194135]
+ :AssignCast/inmethod #db/id[:db.part/user -124719]}
+{:db/id #db/id[:db.part/user -448195]
+ :AssignCast/type #db/id[:db.part/user -119901]
+ :AssignCast/from #db/id[:db.part/user -194254]
+ :AssignCast/to #db/id[:db.part/user -194256]
+ :AssignCast/inmethod #db/id[:db.part/user -124721]}
+{:db/id #db/id[:db.part/user -448201]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -194258]
+ :AssignCast/to #db/id[:db.part/user -194260]
+ :AssignCast/inmethod #db/id[:db.part/user -124721]}
+{:db/id #db/id[:db.part/user -448208]
+ :AssignCast/type #db/id[:db.part/user -119901]
+ :AssignCast/from #db/id[:db.part/user -194299]
+ :AssignCast/to #db/id[:db.part/user -194301]
+ :AssignCast/inmethod #db/id[:db.part/user -124723]}
+{:db/id #db/id[:db.part/user -448215]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -194303]
+ :AssignCast/to #db/id[:db.part/user -194305]
+ :AssignCast/inmethod #db/id[:db.part/user -124723]}
+{:db/id #db/id[:db.part/user -448221]
+ :AssignCast/type #db/id[:db.part/user -119499]
+ :AssignCast/from #db/id[:db.part/user -194971]
+ :AssignCast/to #db/id[:db.part/user -194963]
+ :AssignCast/inmethod #db/id[:db.part/user -124732]}
+{:db/id #db/id[:db.part/user -448228]
+ :AssignCast/type #db/id[:db.part/user -119499]
+ :AssignCast/from #db/id[:db.part/user -194976]
+ :AssignCast/to #db/id[:db.part/user -194963]
+ :AssignCast/inmethod #db/id[:db.part/user -124732]}
+{:db/id #db/id[:db.part/user -448235]
+ :AssignCast/type #db/id[:db.part/user -119740]
+ :AssignCast/from #db/id[:db.part/user -195313]
+ :AssignCast/to #db/id[:db.part/user -195305]
+ :AssignCast/inmethod #db/id[:db.part/user -124737]}
+{:db/id #db/id[:db.part/user -448242]
+ :AssignCast/type #db/id[:db.part/user -119740]
+ :AssignCast/from #db/id[:db.part/user -195357]
+ :AssignCast/to #db/id[:db.part/user -195351]
+ :AssignCast/inmethod #db/id[:db.part/user -124739]}
+{:db/id #db/id[:db.part/user -448250]
+ :AssignCast/type #db/id[:db.part/user -119913]
+ :AssignCast/from #db/id[:db.part/user -195770]
+ :AssignCast/to #db/id[:db.part/user -195766]
+ :AssignCast/inmethod #db/id[:db.part/user -124752]}
+{:db/id #db/id[:db.part/user -448258]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -195772]
+ :AssignCast/to #db/id[:db.part/user -195774]
+ :AssignCast/inmethod #db/id[:db.part/user -124752]}
+{:db/id #db/id[:db.part/user -448266]
+ :AssignCast/type #db/id[:db.part/user -119915]
+ :AssignCast/from #db/id[:db.part/user -195778]
+ :AssignCast/to #db/id[:db.part/user -195780]
+ :AssignCast/inmethod #db/id[:db.part/user -124752]}
+{:db/id #db/id[:db.part/user -448274]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -195785]
+ :AssignCast/to #db/id[:db.part/user -195787]
+ :AssignCast/inmethod #db/id[:db.part/user -124752]}
+{:db/id #db/id[:db.part/user -448282]
+ :AssignCast/type #db/id[:db.part/user -119919]
+ :AssignCast/from #db/id[:db.part/user -196022]
+ :AssignCast/to #db/id[:db.part/user -196029]
+ :AssignCast/inmethod #db/id[:db.part/user -124756]}
+{:db/id #db/id[:db.part/user -448289]
+ :AssignCast/type #db/id[:db.part/user -119924]
+ :AssignCast/from #db/id[:db.part/user -196503]
+ :AssignCast/to #db/id[:db.part/user -196505]
+ :AssignCast/inmethod #db/id[:db.part/user -124855]}
+{:db/id #db/id[:db.part/user -448294]
+ :AssignCast/type #db/id[:db.part/user -119904]
+ :AssignCast/from #db/id[:db.part/user -196572]
+ :AssignCast/to #db/id[:db.part/user -139631]
+ :AssignCast/inmethod #db/id[:db.part/user -124857]}
+{:db/id #db/id[:db.part/user -448302]
+ :AssignCast/type #db/id[:db.part/user -119931]
+ :AssignCast/from #db/id[:db.part/user -196960]
+ :AssignCast/to #db/id[:db.part/user -196962]
+ :AssignCast/inmethod #db/id[:db.part/user -124872]}
+{:db/id #db/id[:db.part/user -448312]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -196964]
+ :AssignCast/to #db/id[:db.part/user -196966]
+ :AssignCast/inmethod #db/id[:db.part/user -124872]}
+{:db/id #db/id[:db.part/user -448321]
+ :AssignCast/type #db/id[:db.part/user -119934]
+ :AssignCast/from #db/id[:db.part/user -197265]
+ :AssignCast/to #db/id[:db.part/user -197267]
+ :AssignCast/inmethod #db/id[:db.part/user -124882]}
+{:db/id #db/id[:db.part/user -448329]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -197269]
+ :AssignCast/to #db/id[:db.part/user -197271]
+ :AssignCast/inmethod #db/id[:db.part/user -124882]}
+{:db/id #db/id[:db.part/user -448337]
+ :AssignCast/type #db/id[:db.part/user -119936]
+ :AssignCast/from #db/id[:db.part/user -197398]
+ :AssignCast/to #db/id[:db.part/user -197404]
+ :AssignCast/inmethod #db/id[:db.part/user -124886]}
+{:db/id #db/id[:db.part/user -448346]
+ :AssignCast/type #db/id[:db.part/user -119941]
+ :AssignCast/from #db/id[:db.part/user -197568]
+ :AssignCast/to #db/id[:db.part/user -197570]
+ :AssignCast/inmethod #db/id[:db.part/user -124961]}
+{:db/id #db/id[:db.part/user -448355]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -197572]
+ :AssignCast/to #db/id[:db.part/user -197574]
+ :AssignCast/inmethod #db/id[:db.part/user -124961]}
+{:db/id #db/id[:db.part/user -448363]
+ :AssignCast/type #db/id[:db.part/user -119622]
+ :AssignCast/from #db/id[:db.part/user -198111]
+ :AssignCast/to #db/id[:db.part/user -198114]
+ :AssignCast/inmethod #db/id[:db.part/user -125044]}
+{:db/id #db/id[:db.part/user -448367]
+ :AssignCast/type #db/id[:db.part/user -119421]
+ :AssignCast/from #db/id[:db.part/user -198134]
+ :AssignCast/to #db/id[:db.part/user -139757]
+ :AssignCast/inmethod #db/id[:db.part/user -125046]}
+{:db/id #db/id[:db.part/user -448375]
+ :AssignCast/type #db/id[:db.part/user -119497]
+ :AssignCast/from #db/id[:db.part/user -198130]
+ :AssignCast/to #db/id[:db.part/user -198132]
+ :AssignCast/inmethod #db/id[:db.part/user -125046]}
+{:db/id #db/id[:db.part/user -448380]
+ :AssignCast/type #db/id[:db.part/user -119421]
+ :AssignCast/from #db/id[:db.part/user -198146]
+ :AssignCast/to #db/id[:db.part/user -139759]
+ :AssignCast/inmethod #db/id[:db.part/user -125048]}
+{:db/id #db/id[:db.part/user -448388]
+ :AssignCast/type #db/id[:db.part/user -119556]
+ :AssignCast/from #db/id[:db.part/user -198142]
+ :AssignCast/to #db/id[:db.part/user -198144]
+ :AssignCast/inmethod #db/id[:db.part/user -125048]}
+{:db/id #db/id[:db.part/user -448395]
+ :AssignCast/type #db/id[:db.part/user -119961]
+ :AssignCast/from #db/id[:db.part/user -198517]
+ :AssignCast/to #db/id[:db.part/user -198519]
+ :AssignCast/inmethod #db/id[:db.part/user -125086]}
+{:db/id #db/id[:db.part/user -448400]
+ :AssignCast/type #db/id[:db.part/user -119421]
+ :AssignCast/from #db/id[:db.part/user -198736]
+ :AssignCast/to #db/id[:db.part/user -139811]
+ :AssignCast/inmethod #db/id[:db.part/user -125092]}
+{:db/id #db/id[:db.part/user -448406]
+ :AssignCast/type #db/id[:db.part/user -119497]
+ :AssignCast/from #db/id[:db.part/user -198732]
+ :AssignCast/to #db/id[:db.part/user -198734]
+ :AssignCast/inmethod #db/id[:db.part/user -125092]}
+{:db/id #db/id[:db.part/user -448409]
+ :AssignCast/type #db/id[:db.part/user -119445]
+ :AssignCast/from #db/id[:db.part/user -198788]
+ :AssignCast/to #db/id[:db.part/user -139819]
+ :AssignCast/inmethod #db/id[:db.part/user -125094]}
+{:db/id #db/id[:db.part/user -448416]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -198774]
+ :AssignCast/to #db/id[:db.part/user -198764]
+ :AssignCast/inmethod #db/id[:db.part/user -125094]}
+{:db/id #db/id[:db.part/user -448424]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -198778]
+ :AssignCast/to #db/id[:db.part/user -198780]
+ :AssignCast/inmethod #db/id[:db.part/user -125094]}
+{:db/id #db/id[:db.part/user -448432]
+ :AssignCast/type #db/id[:db.part/user -119622]
+ :AssignCast/from #db/id[:db.part/user -198784]
+ :AssignCast/to #db/id[:db.part/user -198786]
+ :AssignCast/inmethod #db/id[:db.part/user -125094]}
+{:db/id #db/id[:db.part/user -448436]
+ :AssignCast/type #db/id[:db.part/user -119421]
+ :AssignCast/from #db/id[:db.part/user -198827]
+ :AssignCast/to #db/id[:db.part/user -139828]
+ :AssignCast/inmethod #db/id[:db.part/user -125098]}
+{:db/id #db/id[:db.part/user -448444]
+ :AssignCast/type #db/id[:db.part/user -119556]
+ :AssignCast/from #db/id[:db.part/user -198823]
+ :AssignCast/to #db/id[:db.part/user -198825]
+ :AssignCast/inmethod #db/id[:db.part/user -125098]}
+{:db/id #db/id[:db.part/user -448451]
+ :AssignCast/type #db/id[:db.part/user -119945]
+ :AssignCast/from #db/id[:db.part/user -199305]
+ :AssignCast/to #db/id[:db.part/user -199303]
+ :AssignCast/inmethod #db/id[:db.part/user -125143]}
+{:db/id #db/id[:db.part/user -448458]
+ :AssignCast/type #db/id[:db.part/user -119979]
+ :AssignCast/from #db/id[:db.part/user -199596]
+ :AssignCast/to #db/id[:db.part/user -199598]
+ :AssignCast/inmethod #db/id[:db.part/user -125171]}
+{:db/id #db/id[:db.part/user -448466]
+ :AssignCast/type #db/id[:db.part/user -119978]
+ :AssignCast/from #db/id[:db.part/user -199600]
+ :AssignCast/to #db/id[:db.part/user -199602]
+ :AssignCast/inmethod #db/id[:db.part/user -125171]}
+{:db/id #db/id[:db.part/user -448473]
+ :AssignCast/type #db/id[:db.part/user -119503]
+ :AssignCast/from #db/id[:db.part/user -199604]
+ :AssignCast/to #db/id[:db.part/user -199606]
+ :AssignCast/inmethod #db/id[:db.part/user -125171]}
+{:db/id #db/id[:db.part/user -448481]
+ :AssignCast/type #db/id[:db.part/user -119978]
+ :AssignCast/from #db/id[:db.part/user -199629]
+ :AssignCast/to #db/id[:db.part/user -199631]
+ :AssignCast/inmethod #db/id[:db.part/user -125171]}
+{:db/id #db/id[:db.part/user -448488]
+ :AssignCast/type #db/id[:db.part/user -119978]
+ :AssignCast/from #db/id[:db.part/user -199689]
+ :AssignCast/to #db/id[:db.part/user -199691]
+ :AssignCast/inmethod #db/id[:db.part/user -125173]}
+{:db/id #db/id[:db.part/user -448495]
+ :AssignCast/type #db/id[:db.part/user -119990]
+ :AssignCast/from #db/id[:db.part/user -200444]
+ :AssignCast/to #db/id[:db.part/user -200440]
+ :AssignCast/inmethod #db/id[:db.part/user -125177]}
+{:db/id #db/id[:db.part/user -448502]
+ :AssignCast/type #db/id[:db.part/user -119983]
+ :AssignCast/from #db/id[:db.part/user -200448]
+ :AssignCast/to #db/id[:db.part/user -200450]
+ :AssignCast/inmethod #db/id[:db.part/user -125177]}
+{:db/id #db/id[:db.part/user -448509]
+ :AssignCast/type #db/id[:db.part/user -119987]
+ :AssignCast/from #db/id[:db.part/user -200976]
+ :AssignCast/to #db/id[:db.part/user -200974]
+ :AssignCast/inmethod #db/id[:db.part/user -125179]}
+{:db/id #db/id[:db.part/user -448516]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -200980]
+ :AssignCast/to #db/id[:db.part/user -200982]
+ :AssignCast/inmethod #db/id[:db.part/user -125179]}
+{:db/id #db/id[:db.part/user -448525]
+ :AssignCast/type #db/id[:db.part/user -119534]
+ :AssignCast/from #db/id[:db.part/user -200986]
+ :AssignCast/to #db/id[:db.part/user -200989]
+ :AssignCast/inmethod #db/id[:db.part/user -125179]}
+{:db/id #db/id[:db.part/user -448533]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -200995]
+ :AssignCast/to #db/id[:db.part/user -200997]
+ :AssignCast/inmethod #db/id[:db.part/user -125179]}
+{:db/id #db/id[:db.part/user -448541]
+ :AssignCast/type #db/id[:db.part/user -119992]
+ :AssignCast/from #db/id[:db.part/user -201540]
+ :AssignCast/to #db/id[:db.part/user -201538]
+ :AssignCast/inmethod #db/id[:db.part/user -125181]}
+{:db/id #db/id[:db.part/user -448549]
+ :AssignCast/type #db/id[:db.part/user -119534]
+ :AssignCast/from #db/id[:db.part/user -201544]
+ :AssignCast/to #db/id[:db.part/user -201546]
+ :AssignCast/inmethod #db/id[:db.part/user -125181]}
+{:db/id #db/id[:db.part/user -448557]
+ :AssignCast/type #db/id[:db.part/user -119534]
+ :AssignCast/from #db/id[:db.part/user -201550]
+ :AssignCast/to #db/id[:db.part/user -201552]
+ :AssignCast/inmethod #db/id[:db.part/user -125181]}
+{:db/id #db/id[:db.part/user -448565]
+ :AssignCast/type #db/id[:db.part/user -119993]
+ :AssignCast/from #db/id[:db.part/user -201703]
+ :AssignCast/to #db/id[:db.part/user -201701]
+ :AssignCast/inmethod #db/id[:db.part/user -125183]}
+{:db/id #db/id[:db.part/user -448572]
+ :AssignCast/type #db/id[:db.part/user -119477]
+ :AssignCast/from #db/id[:db.part/user -201707]
+ :AssignCast/to #db/id[:db.part/user -201709]
+ :AssignCast/inmethod #db/id[:db.part/user -125183]}
+{:db/id #db/id[:db.part/user -448580]
+ :AssignCast/type #db/id[:db.part/user -119534]
+ :AssignCast/from #db/id[:db.part/user -201713]
+ :AssignCast/to #db/id[:db.part/user -201715]
+ :AssignCast/inmethod #db/id[:db.part/user -125183]}
+{:db/id #db/id[:db.part/user -448588]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -201721]
+ :AssignCast/to #db/id[:db.part/user -201723]
+ :AssignCast/inmethod #db/id[:db.part/user -125183]}
+{:db/id #db/id[:db.part/user -448596]
+ :AssignCast/type #db/id[:db.part/user -119991]
+ :AssignCast/from #db/id[:db.part/user -201869]
+ :AssignCast/to #db/id[:db.part/user -201867]
+ :AssignCast/inmethod #db/id[:db.part/user -125185]}
+{:db/id #db/id[:db.part/user -448598]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -151776]
+ :AssignCast/to #db/id[:db.part/user -151778]
+ :AssignCast/inmethod #db/id[:db.part/user -125237]}
+{:db/id #db/id[:db.part/user -448600]
+ :AssignCast/type #db/id[:db.part/user -119546]
+ :AssignCast/from #db/id[:db.part/user -152554]
+ :AssignCast/to #db/id[:db.part/user -152530]
+ :AssignCast/inmethod #db/id[:db.part/user -125244]}
+{:db/id #db/id[:db.part/user -448603]
+ :AssignCast/type #db/id[:db.part/user -119546]
+ :AssignCast/from #db/id[:db.part/user -152544]
+ :AssignCast/to #db/id[:db.part/user -152546]
+ :AssignCast/inmethod #db/id[:db.part/user -125244]}
+{:db/id #db/id[:db.part/user -448605]
+ :AssignCast/type #db/id[:db.part/user -119540]
+ :AssignCast/from #db/id[:db.part/user -152708]
+ :AssignCast/to #db/id[:db.part/user -152700]
+ :AssignCast/inmethod #db/id[:db.part/user -125245]}
+{:db/id #db/id[:db.part/user -448607]
+ :AssignCast/type #db/id[:db.part/user -119548]
+ :AssignCast/from #db/id[:db.part/user -152722]
+ :AssignCast/to #db/id[:db.part/user -152706]
+ :AssignCast/inmethod #db/id[:db.part/user -125245]}
+{:db/id #db/id[:db.part/user -448609]
+ :AssignCast/type #db/id[:db.part/user -119477]
+ :AssignCast/from #db/id[:db.part/user -152730]
+ :AssignCast/to #db/id[:db.part/user -152732]
+ :AssignCast/inmethod #db/id[:db.part/user -125245]}
+{:db/id #db/id[:db.part/user -448611]
+ :AssignCast/type #db/id[:db.part/user -119534]
+ :AssignCast/from #db/id[:db.part/user -152740]
+ :AssignCast/to #db/id[:db.part/user -152742]
+ :AssignCast/inmethod #db/id[:db.part/user -125245]}
+{:db/id #db/id[:db.part/user -448613]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -152752]
+ :AssignCast/to #db/id[:db.part/user -152754]
+ :AssignCast/inmethod #db/id[:db.part/user -125245]}
+{:db/id #db/id[:db.part/user -448615]
+ :AssignCast/type #db/id[:db.part/user -119549]
+ :AssignCast/from #db/id[:db.part/user -152768]
+ :AssignCast/to #db/id[:db.part/user -152770]
+ :AssignCast/inmethod #db/id[:db.part/user -125245]}
+{:db/id #db/id[:db.part/user -448617]
+ :AssignCast/type #db/id[:db.part/user -119550]
+ :AssignCast/from #db/id[:db.part/user -152792]
+ :AssignCast/to #db/id[:db.part/user -152794]
+ :AssignCast/inmethod #db/id[:db.part/user -125245]}
+{:db/id #db/id[:db.part/user -448619]
+ :AssignCast/type #db/id[:db.part/user -119551]
+ :AssignCast/from #db/id[:db.part/user -152802]
+ :AssignCast/to #db/id[:db.part/user -152804]
+ :AssignCast/inmethod #db/id[:db.part/user -125245]}
+{:db/id #db/id[:db.part/user -448621]
+ :AssignCast/type #db/id[:db.part/user -119406]
+ :AssignCast/from #db/id[:db.part/user -152812]
+ :AssignCast/to #db/id[:db.part/user -152814]
+ :AssignCast/inmethod #db/id[:db.part/user -125245]}
+{:db/id #db/id[:db.part/user -448623]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -152824]
+ :AssignCast/to #db/id[:db.part/user -152826]
+ :AssignCast/inmethod #db/id[:db.part/user -125245]}
+{:db/id #db/id[:db.part/user -448625]
+ :AssignCast/type #db/id[:db.part/user -119571]
+ :AssignCast/from #db/id[:db.part/user -154351]
+ :AssignCast/to #db/id[:db.part/user -154343]
+ :AssignCast/inmethod #db/id[:db.part/user -125260]}
+{:db/id #db/id[:db.part/user -448627]
+ :AssignCast/type #db/id[:db.part/user -119481]
+ :AssignCast/from #db/id[:db.part/user -157099]
+ :AssignCast/to #db/id[:db.part/user -157084]
+ :AssignCast/inmethod #db/id[:db.part/user -125308]}
+{:db/id #db/id[:db.part/user -448630]
+ :AssignCast/type #db/id[:db.part/user -119481]
+ :AssignCast/from #db/id[:db.part/user -157101]
+ :AssignCast/to #db/id[:db.part/user -157086]
+ :AssignCast/inmethod #db/id[:db.part/user -125308]}
+{:db/id #db/id[:db.part/user -448632]
+ :AssignCast/type #db/id[:db.part/user -119567]
+ :AssignCast/from #db/id[:db.part/user -158178]
+ :AssignCast/to #db/id[:db.part/user -158180]
+ :AssignCast/inmethod #db/id[:db.part/user -125314]}
+{:db/id #db/id[:db.part/user -448635]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -160422]
+ :AssignCast/to #db/id[:db.part/user -160424]
+ :AssignCast/inmethod #db/id[:db.part/user -125364]}
+{:db/id #db/id[:db.part/user -448637]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -160426]
+ :AssignCast/to #db/id[:db.part/user -160428]
+ :AssignCast/inmethod #db/id[:db.part/user -125364]}
+{:db/id #db/id[:db.part/user -448640]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -163319]
+ :AssignCast/to #db/id[:db.part/user -163325]
+ :AssignCast/inmethod #db/id[:db.part/user -125415]}
+{:db/id #db/id[:db.part/user -448642]
+ :AssignCast/type #db/id[:db.part/user -119477]
+ :AssignCast/from #db/id[:db.part/user -163319]
+ :AssignCast/to #db/id[:db.part/user -163348]
+ :AssignCast/inmethod #db/id[:db.part/user -125415]}
+{:db/id #db/id[:db.part/user -448645]
+ :AssignCast/type #db/id[:db.part/user -119549]
+ :AssignCast/from #db/id[:db.part/user -163319]
+ :AssignCast/to #db/id[:db.part/user -163352]
+ :AssignCast/inmethod #db/id[:db.part/user -125415]}
+{:db/id #db/id[:db.part/user -448647]
+ :AssignCast/type #db/id[:db.part/user -119550]
+ :AssignCast/from #db/id[:db.part/user -163319]
+ :AssignCast/to #db/id[:db.part/user -163374]
+ :AssignCast/inmethod #db/id[:db.part/user -125415]}
+{:db/id #db/id[:db.part/user -448650]
+ :AssignCast/type #db/id[:db.part/user -119551]
+ :AssignCast/from #db/id[:db.part/user -163319]
+ :AssignCast/to #db/id[:db.part/user -163382]
+ :AssignCast/inmethod #db/id[:db.part/user -125415]}
+{:db/id #db/id[:db.part/user -448653]
+ :AssignCast/type #db/id[:db.part/user -119534]
+ :AssignCast/from #db/id[:db.part/user -163319]
+ :AssignCast/to #db/id[:db.part/user -163390]
+ :AssignCast/inmethod #db/id[:db.part/user -125415]}
+{:db/id #db/id[:db.part/user -448655]
+ :AssignCast/type #db/id[:db.part/user -119406]
+ :AssignCast/from #db/id[:db.part/user -163319]
+ :AssignCast/to #db/id[:db.part/user -163401]
+ :AssignCast/inmethod #db/id[:db.part/user -125415]}
+{:db/id #db/id[:db.part/user -448658]
+ :AssignCast/type #db/id[:db.part/user -119548]
+ :AssignCast/from #db/id[:db.part/user -163319]
+ :AssignCast/to #db/id[:db.part/user -163411]
+ :AssignCast/inmethod #db/id[:db.part/user -125415]}
+{:db/id #db/id[:db.part/user -448660]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -163319]
+ :AssignCast/to #db/id[:db.part/user -163419]
+ :AssignCast/inmethod #db/id[:db.part/user -125415]}
+{:db/id #db/id[:db.part/user -448663]
+ :AssignCast/type #db/id[:db.part/user -119695]
+ :AssignCast/from #db/id[:db.part/user -165998]
+ :AssignCast/to #db/id[:db.part/user -166000]
+ :AssignCast/inmethod #db/id[:db.part/user -125460]}
+{:db/id #db/id[:db.part/user -448666]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -166093]
+ :AssignCast/to #db/id[:db.part/user -166095]
+ :AssignCast/inmethod #db/id[:db.part/user -125464]}
+{:db/id #db/id[:db.part/user -448668]
+ :AssignCast/type #db/id[:db.part/user -119496]
+ :AssignCast/from #db/id[:db.part/user -166359]
+ :AssignCast/to #db/id[:db.part/user -166361]
+ :AssignCast/inmethod #db/id[:db.part/user -125476]}
+{:db/id #db/id[:db.part/user -448672]
+ :AssignCast/type #db/id[:db.part/user -119606]
+ :AssignCast/from #db/id[:db.part/user -168564]
+ :AssignCast/to #db/id[:db.part/user -168560]
+ :AssignCast/inmethod #db/id[:db.part/user -125495]}
+{:db/id #db/id[:db.part/user -448675]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -168566]
+ :AssignCast/to #db/id[:db.part/user -168568]
+ :AssignCast/inmethod #db/id[:db.part/user -125495]}
+{:db/id #db/id[:db.part/user -448680]
+ :AssignCast/type #db/id[:db.part/user -119724]
+ :AssignCast/from #db/id[:db.part/user -168572]
+ :AssignCast/to #db/id[:db.part/user -168574]
+ :AssignCast/inmethod #db/id[:db.part/user -125495]}
+{:db/id #db/id[:db.part/user -448685]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -168578]
+ :AssignCast/to #db/id[:db.part/user -168580]
+ :AssignCast/inmethod #db/id[:db.part/user -125495]}
+{:db/id #db/id[:db.part/user -448690]
+ :AssignCast/type #db/id[:db.part/user -119571]
+ :AssignCast/from #db/id[:db.part/user -169249]
+ :AssignCast/to #db/id[:db.part/user -169251]
+ :AssignCast/inmethod #db/id[:db.part/user -125526]}
+{:db/id #db/id[:db.part/user -448695]
+ :AssignCast/type #db/id[:db.part/user -119727]
+ :AssignCast/from #db/id[:db.part/user -169255]
+ :AssignCast/to #db/id[:db.part/user -169257]
+ :AssignCast/inmethod #db/id[:db.part/user -125526]}
+{:db/id #db/id[:db.part/user -448701]
+ :AssignCast/type #db/id[:db.part/user -119727]
+ :AssignCast/from #db/id[:db.part/user -169262]
+ :AssignCast/to #db/id[:db.part/user -169264]
+ :AssignCast/inmethod #db/id[:db.part/user -125526]}
+{:db/id #db/id[:db.part/user -448704]
+ :AssignCast/type #db/id[:db.part/user -119571]
+ :AssignCast/from #db/id[:db.part/user -169268]
+ :AssignCast/to #db/id[:db.part/user -169270]
+ :AssignCast/inmethod #db/id[:db.part/user -125526]}
+{:db/id #db/id[:db.part/user -448707]
+ :AssignCast/type #db/id[:db.part/user -119727]
+ :AssignCast/from #db/id[:db.part/user -169278]
+ :AssignCast/to #db/id[:db.part/user -169280]
+ :AssignCast/inmethod #db/id[:db.part/user -125526]}
+{:db/id #db/id[:db.part/user -448710]
+ :AssignCast/type #db/id[:db.part/user -119727]
+ :AssignCast/from #db/id[:db.part/user -169284]
+ :AssignCast/to #db/id[:db.part/user -169286]
+ :AssignCast/inmethod #db/id[:db.part/user -125526]}
+{:db/id #db/id[:db.part/user -448712]
+ :AssignCast/type #db/id[:db.part/user -119691]
+ :AssignCast/from #db/id[:db.part/user -170959]
+ :AssignCast/to #db/id[:db.part/user -170961]
+ :AssignCast/inmethod #db/id[:db.part/user -125557]}
+{:db/id #db/id[:db.part/user -448715]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -172051]
+ :AssignCast/to #db/id[:db.part/user -172053]
+ :AssignCast/inmethod #db/id[:db.part/user -125562]}
+{:db/id #db/id[:db.part/user -448718]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -172057]
+ :AssignCast/to #db/id[:db.part/user -172059]
+ :AssignCast/inmethod #db/id[:db.part/user -125562]}
+{:db/id #db/id[:db.part/user -448721]
+ :AssignCast/type #db/id[:db.part/user -119510]
+ :AssignCast/from #db/id[:db.part/user -174937]
+ :AssignCast/to #db/id[:db.part/user -174941]
+ :AssignCast/inmethod #db/id[:db.part/user -125617]}
+{:db/id #db/id[:db.part/user -448725]
+ :AssignCast/type #db/id[:db.part/user -119510]
+ :AssignCast/from #db/id[:db.part/user -174958]
+ :AssignCast/to #db/id[:db.part/user -174943]
+ :AssignCast/inmethod #db/id[:db.part/user -125617]}
+{:db/id #db/id[:db.part/user -448728]
+ :AssignCast/type #db/id[:db.part/user -119779]
+ :AssignCast/from #db/id[:db.part/user -176578]
+ :AssignCast/to #db/id[:db.part/user -176584]
+ :AssignCast/inmethod #db/id[:db.part/user -125661]}
+{:db/id #db/id[:db.part/user -448732]
+ :AssignCast/type #db/id[:db.part/user -119555]
+ :AssignCast/from #db/id[:db.part/user -176578]
+ :AssignCast/to #db/id[:db.part/user -176586]
+ :AssignCast/inmethod #db/id[:db.part/user -125661]}
+{:db/id #db/id[:db.part/user -448737]
+ :AssignCast/type #db/id[:db.part/user -119555]
+ :AssignCast/from #db/id[:db.part/user -176578]
+ :AssignCast/to #db/id[:db.part/user -176590]
+ :AssignCast/inmethod #db/id[:db.part/user -125661]}
+{:db/id #db/id[:db.part/user -448742]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -176862]
+ :AssignCast/to #db/id[:db.part/user -176856]
+ :AssignCast/inmethod #db/id[:db.part/user -125668]}
+{:db/id #db/id[:db.part/user -448747]
+ :AssignCast/type #db/id[:db.part/user -119641]
+ :AssignCast/from #db/id[:db.part/user -177759]
+ :AssignCast/to #db/id[:db.part/user -177765]
+ :AssignCast/inmethod #db/id[:db.part/user -125679]}
+{:db/id #db/id[:db.part/user -448752]
+ :AssignCast/type #db/id[:db.part/user -119555]
+ :AssignCast/from #db/id[:db.part/user -177759]
+ :AssignCast/to #db/id[:db.part/user -177771]
+ :AssignCast/inmethod #db/id[:db.part/user -125679]}
+{:db/id #db/id[:db.part/user -448758]
+ :AssignCast/type #db/id[:db.part/user -119705]
+ :AssignCast/from #db/id[:db.part/user -180590]
+ :AssignCast/to #db/id[:db.part/user -180595]
+ :AssignCast/inmethod #db/id[:db.part/user -125741]}
+{:db/id #db/id[:db.part/user -448762]
+ :AssignCast/type #db/id[:db.part/user -119724]
+ :AssignCast/from #db/id[:db.part/user -182334]
+ :AssignCast/to #db/id[:db.part/user -182326]
+ :AssignCast/inmethod #db/id[:db.part/user -125758]}
+{:db/id #db/id[:db.part/user -448768]
+ :AssignCast/type #db/id[:db.part/user -119913]
+ :AssignCast/from #db/id[:db.part/user -195817]
+ :AssignCast/to #db/id[:db.part/user -195813]
+ :AssignCast/inmethod #db/id[:db.part/user -125993]}
+{:db/id #db/id[:db.part/user -448774]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -195819]
+ :AssignCast/to #db/id[:db.part/user -195821]
+ :AssignCast/inmethod #db/id[:db.part/user -125993]}
+{:db/id #db/id[:db.part/user -448780]
+ :AssignCast/type #db/id[:db.part/user -119915]
+ :AssignCast/from #db/id[:db.part/user -195826]
+ :AssignCast/to #db/id[:db.part/user -195828]
+ :AssignCast/inmethod #db/id[:db.part/user -125993]}
+{:db/id #db/id[:db.part/user -448787]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -195832]
+ :AssignCast/to #db/id[:db.part/user -195834]
+ :AssignCast/inmethod #db/id[:db.part/user -125993]}
+{:db/id #db/id[:db.part/user -448793]
+ :AssignCast/type #db/id[:db.part/user -119727]
+ :AssignCast/from #db/id[:db.part/user -195854]
+ :AssignCast/to #db/id[:db.part/user -195856]
+ :AssignCast/inmethod #db/id[:db.part/user -125994]}
+{:db/id #db/id[:db.part/user -448798]
+ :AssignCast/type #db/id[:db.part/user -119931]
+ :AssignCast/from #db/id[:db.part/user -196995]
+ :AssignCast/to #db/id[:db.part/user -196997]
+ :AssignCast/inmethod #db/id[:db.part/user -126041]}
+{:db/id #db/id[:db.part/user -448805]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -196999]
+ :AssignCast/to #db/id[:db.part/user -197001]
+ :AssignCast/inmethod #db/id[:db.part/user -126041]}
+{:db/id #db/id[:db.part/user -448811]
+ :AssignCast/type #db/id[:db.part/user -119915]
+ :AssignCast/from #db/id[:db.part/user -197096]
+ :AssignCast/to #db/id[:db.part/user -197087]
+ :AssignCast/inmethod #db/id[:db.part/user -126042]}
+{:db/id #db/id[:db.part/user -448819]
+ :AssignCast/type #db/id[:db.part/user -119934]
+ :AssignCast/from #db/id[:db.part/user -197301]
+ :AssignCast/to #db/id[:db.part/user -197304]
+ :AssignCast/inmethod #db/id[:db.part/user -126047]}
+{:db/id #db/id[:db.part/user -448825]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -197306]
+ :AssignCast/to #db/id[:db.part/user -197308]
+ :AssignCast/inmethod #db/id[:db.part/user -126047]}
+{:db/id #db/id[:db.part/user -448831]
+ :AssignCast/type #db/id[:db.part/user -119941]
+ :AssignCast/from #db/id[:db.part/user -197603]
+ :AssignCast/to #db/id[:db.part/user -197605]
+ :AssignCast/inmethod #db/id[:db.part/user -126116]}
+{:db/id #db/id[:db.part/user -448837]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -197607]
+ :AssignCast/to #db/id[:db.part/user -197609]
+ :AssignCast/inmethod #db/id[:db.part/user -126116]}
+{:db/id #db/id[:db.part/user -448843]
+ :AssignCast/type #db/id[:db.part/user -119503]
+ :AssignCast/from #db/id[:db.part/user -198648]
+ :AssignCast/to #db/id[:db.part/user -198650]
+ :AssignCast/inmethod #db/id[:db.part/user -126139]}
+{:db/id #db/id[:db.part/user -448851]
+ :AssignCast/type #db/id[:db.part/user -119587]
+ :AssignCast/from #db/id[:db.part/user -198648]
+ :AssignCast/to #db/id[:db.part/user -198652]
+ :AssignCast/inmethod #db/id[:db.part/user -126139]}
+{:db/id #db/id[:db.part/user -448858]
+ :AssignCast/type #db/id[:db.part/user -119503]
+ :AssignCast/from #db/id[:db.part/user -198648]
+ :AssignCast/to #db/id[:db.part/user -198654]
+ :AssignCast/inmethod #db/id[:db.part/user -126139]}
+{:db/id #db/id[:db.part/user -448865]
+ :AssignCast/type #db/id[:db.part/user -119587]
+ :AssignCast/from #db/id[:db.part/user -198648]
+ :AssignCast/to #db/id[:db.part/user -198656]
+ :AssignCast/inmethod #db/id[:db.part/user -126139]}
+{:db/id #db/id[:db.part/user -448870]
+ :AssignCast/type #db/id[:db.part/user -119995]
+ :AssignCast/from #db/id[:db.part/user -202122]
+ :AssignCast/to #db/id[:db.part/user -202124]
+ :AssignCast/inmethod #db/id[:db.part/user -126167]}
+{:db/id #db/id[:db.part/user -448872]
+ :AssignCast/type #db/id[:db.part/user -119406]
+ :AssignCast/from #db/id[:db.part/user -148762]
+ :AssignCast/to #db/id[:db.part/user -148764]
+ :AssignCast/inmethod #db/id[:db.part/user -126177]}
+{:db/id #db/id[:db.part/user -448873]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -148940]
+ :AssignCast/to #db/id[:db.part/user -148942]
+ :AssignCast/inmethod #db/id[:db.part/user -126187]}
+{:db/id #db/id[:db.part/user -448875]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -148968]
+ :AssignCast/to #db/id[:db.part/user -148970]
+ :AssignCast/inmethod #db/id[:db.part/user -126190]}
+{:db/id #db/id[:db.part/user -448876]
+ :AssignCast/type #db/id[:db.part/user -119489]
+ :AssignCast/from #db/id[:db.part/user -149393]
+ :AssignCast/to #db/id[:db.part/user -149389]
+ :AssignCast/inmethod #db/id[:db.part/user -126248]}
+{:db/id #db/id[:db.part/user -448878]
+ :AssignCast/type #db/id[:db.part/user -119406]
+ :AssignCast/from #db/id[:db.part/user -149936]
+ :AssignCast/to #db/id[:db.part/user -149938]
+ :AssignCast/inmethod #db/id[:db.part/user -126308]}
+{:db/id #db/id[:db.part/user -448880]
+ :AssignCast/type #db/id[:db.part/user -119503]
+ :AssignCast/from #db/id[:db.part/user -150054]
+ :AssignCast/to #db/id[:db.part/user -150056]
+ :AssignCast/inmethod #db/id[:db.part/user -126319]}
+{:db/id #db/id[:db.part/user -448881]
+ :AssignCast/type #db/id[:db.part/user -119503]
+ :AssignCast/from #db/id[:db.part/user -150144]
+ :AssignCast/to #db/id[:db.part/user -150146]
+ :AssignCast/inmethod #db/id[:db.part/user -126321]}
+{:db/id #db/id[:db.part/user -448883]
+ :AssignCast/type #db/id[:db.part/user -119508]
+ :AssignCast/from #db/id[:db.part/user -150346]
+ :AssignCast/to #db/id[:db.part/user -150348]
+ :AssignCast/inmethod #db/id[:db.part/user -126343]}
+{:db/id #db/id[:db.part/user -448884]
+ :AssignCast/type #db/id[:db.part/user -119480]
+ :AssignCast/from #db/id[:db.part/user -150953]
+ :AssignCast/to #db/id[:db.part/user -150955]
+ :AssignCast/inmethod #db/id[:db.part/user -126362]}
+{:db/id #db/id[:db.part/user -448886]
+ :AssignCast/type #db/id[:db.part/user -119519]
+ :AssignCast/from #db/id[:db.part/user -151504]
+ :AssignCast/to #db/id[:db.part/user -151506]
+ :AssignCast/inmethod #db/id[:db.part/user -126379]}
+{:db/id #db/id[:db.part/user -448887]
+ :AssignCast/type #db/id[:db.part/user -119519]
+ :AssignCast/from #db/id[:db.part/user -151550]
+ :AssignCast/to #db/id[:db.part/user -151552]
+ :AssignCast/inmethod #db/id[:db.part/user -126381]}
+{:db/id #db/id[:db.part/user -448889]
+ :AssignCast/type #db/id[:db.part/user -119521]
+ :AssignCast/from #db/id[:db.part/user -151614]
+ :AssignCast/to #db/id[:db.part/user -151616]
+ :AssignCast/inmethod #db/id[:db.part/user -126395]}
+{:db/id #db/id[:db.part/user -448891]
+ :AssignCast/type #db/id[:db.part/user -119521]
+ :AssignCast/from #db/id[:db.part/user -151628]
+ :AssignCast/to #db/id[:db.part/user -151630]
+ :AssignCast/inmethod #db/id[:db.part/user -126397]}
+{:db/id #db/id[:db.part/user -448892]
+ :AssignCast/type #db/id[:db.part/user -119531]
+ :AssignCast/from #db/id[:db.part/user -151923]
+ :AssignCast/to #db/id[:db.part/user -151925]
+ :AssignCast/inmethod #db/id[:db.part/user -126411]}
+{:db/id #db/id[:db.part/user -448894]
+ :AssignCast/type #db/id[:db.part/user -119531]
+ :AssignCast/from #db/id[:db.part/user -151937]
+ :AssignCast/to #db/id[:db.part/user -151939]
+ :AssignCast/inmethod #db/id[:db.part/user -126413]}
+{:db/id #db/id[:db.part/user -448896]
+ :AssignCast/type #db/id[:db.part/user -119532]
+ :AssignCast/from #db/id[:db.part/user -151963]
+ :AssignCast/to #db/id[:db.part/user -151965]
+ :AssignCast/inmethod #db/id[:db.part/user -126419]}
+{:db/id #db/id[:db.part/user -448897]
+ :AssignCast/type #db/id[:db.part/user -119532]
+ :AssignCast/from #db/id[:db.part/user -152117]
+ :AssignCast/to #db/id[:db.part/user -152119]
+ :AssignCast/inmethod #db/id[:db.part/user -126422]}
+{:db/id #db/id[:db.part/user -448899]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -152241]
+ :AssignCast/to #db/id[:db.part/user -152245]
+ :AssignCast/inmethod #db/id[:db.part/user -126432]}
+{:db/id #db/id[:db.part/user -448901]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -152243]
+ :AssignCast/to #db/id[:db.part/user -152247]
+ :AssignCast/inmethod #db/id[:db.part/user -126432]}
+{:db/id #db/id[:db.part/user -448902]
+ :AssignCast/type #db/id[:db.part/user -119546]
+ :AssignCast/from #db/id[:db.part/user -152572]
+ :AssignCast/to #db/id[:db.part/user -152564]
+ :AssignCast/inmethod #db/id[:db.part/user -126448]}
+{:db/id #db/id[:db.part/user -448904]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -153830]
+ :AssignCast/to #db/id[:db.part/user -153832]
+ :AssignCast/inmethod #db/id[:db.part/user -126500]}
+{:db/id #db/id[:db.part/user -448906]
+ :AssignCast/type #db/id[:db.part/user -119494]
+ :AssignCast/from #db/id[:db.part/user -155411]
+ :AssignCast/to #db/id[:db.part/user -155413]
+ :AssignCast/inmethod #db/id[:db.part/user -126577]}
+{:db/id #db/id[:db.part/user -448908]
+ :AssignCast/type #db/id[:db.part/user -119495]
+ :AssignCast/from #db/id[:db.part/user -155572]
+ :AssignCast/to #db/id[:db.part/user -155574]
+ :AssignCast/inmethod #db/id[:db.part/user -126605]}
+{:db/id #db/id[:db.part/user -448909]
+ :AssignCast/type #db/id[:db.part/user -119496]
+ :AssignCast/from #db/id[:db.part/user -155740]
+ :AssignCast/to #db/id[:db.part/user -155742]
+ :AssignCast/inmethod #db/id[:db.part/user -126614]}
+{:db/id #db/id[:db.part/user -448911]
+ :AssignCast/type #db/id[:db.part/user -119498]
+ :AssignCast/from #db/id[:db.part/user -156183]
+ :AssignCast/to #db/id[:db.part/user -156185]
+ :AssignCast/inmethod #db/id[:db.part/user -126640]}
+{:db/id #db/id[:db.part/user -448913]
+ :AssignCast/type #db/id[:db.part/user -119571]
+ :AssignCast/from #db/id[:db.part/user -156451]
+ :AssignCast/to #db/id[:db.part/user -156453]
+ :AssignCast/inmethod #db/id[:db.part/user -126651]}
+{:db/id #db/id[:db.part/user -448915]
+ :AssignCast/type #db/id[:db.part/user -119560]
+ :AssignCast/from #db/id[:db.part/user -156465]
+ :AssignCast/to #db/id[:db.part/user -156467]
+ :AssignCast/inmethod #db/id[:db.part/user -126653]}
+{:db/id #db/id[:db.part/user -448917]
+ :AssignCast/type #db/id[:db.part/user -119571]
+ :AssignCast/from #db/id[:db.part/user -156518]
+ :AssignCast/to #db/id[:db.part/user -156520]
+ :AssignCast/inmethod #db/id[:db.part/user -126655]}
+{:db/id #db/id[:db.part/user -448919]
+ :AssignCast/type #db/id[:db.part/user -119617]
+ :AssignCast/from #db/id[:db.part/user -157942]
+ :AssignCast/to #db/id[:db.part/user -157926]
+ :AssignCast/inmethod #db/id[:db.part/user -126704]}
+{:db/id #db/id[:db.part/user -448922]
+ :AssignCast/type #db/id[:db.part/user -119618]
+ :AssignCast/from #db/id[:db.part/user -157958]
+ :AssignCast/to #db/id[:db.part/user -157934]
+ :AssignCast/inmethod #db/id[:db.part/user -126704]}
+{:db/id #db/id[:db.part/user -448924]
+ :AssignCast/type #db/id[:db.part/user -119572]
+ :AssignCast/from #db/id[:db.part/user -157950]
+ :AssignCast/to #db/id[:db.part/user -157952]
+ :AssignCast/inmethod #db/id[:db.part/user -126704]}
+{:db/id #db/id[:db.part/user -448926]
+ :AssignCast/type #db/id[:db.part/user -119475]
+ :AssignCast/from #db/id[:db.part/user -158836]
+ :AssignCast/to #db/id[:db.part/user -158838]
+ :AssignCast/inmethod #db/id[:db.part/user -126862]}
+{:db/id #db/id[:db.part/user -448928]
+ :AssignCast/type #db/id[:db.part/user -119475]
+ :AssignCast/from #db/id[:db.part/user -158951]
+ :AssignCast/to #db/id[:db.part/user -158954]
+ :AssignCast/inmethod #db/id[:db.part/user -126873]}
+{:db/id #db/id[:db.part/user -448930]
+ :AssignCast/type #db/id[:db.part/user -119475]
+ :AssignCast/from #db/id[:db.part/user -158972]
+ :AssignCast/to #db/id[:db.part/user -158974]
+ :AssignCast/inmethod #db/id[:db.part/user -126877]}
+{:db/id #db/id[:db.part/user -448932]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -159941]
+ :AssignCast/to #db/id[:db.part/user -159917]
+ :AssignCast/inmethod #db/id[:db.part/user -126987]}
+{:db/id #db/id[:db.part/user -448934]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -159943]
+ :AssignCast/to #db/id[:db.part/user -159919]
+ :AssignCast/inmethod #db/id[:db.part/user -126987]}
+{:db/id #db/id[:db.part/user -448936]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -159984]
+ :AssignCast/to #db/id[:db.part/user -159988]
+ :AssignCast/inmethod #db/id[:db.part/user -126990]}
+{:db/id #db/id[:db.part/user -448938]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -160034]
+ :AssignCast/to #db/id[:db.part/user -160028]
+ :AssignCast/inmethod #db/id[:db.part/user -126996]}
+{:db/id #db/id[:db.part/user -448940]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -160036]
+ :AssignCast/to #db/id[:db.part/user -160030]
+ :AssignCast/inmethod #db/id[:db.part/user -126996]}
+{:db/id #db/id[:db.part/user -448943]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -160079]
+ :AssignCast/to #db/id[:db.part/user -160072]
+ :AssignCast/inmethod #db/id[:db.part/user -126998]}
+{:db/id #db/id[:db.part/user -448945]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -160081]
+ :AssignCast/to #db/id[:db.part/user -160074]
+ :AssignCast/inmethod #db/id[:db.part/user -126998]}
+{:db/id #db/id[:db.part/user -448947]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -160121]
+ :AssignCast/to #db/id[:db.part/user -160115]
+ :AssignCast/inmethod #db/id[:db.part/user -127000]}
+{:db/id #db/id[:db.part/user -448949]
+ :AssignCast/type #db/id[:db.part/user -119510]
+ :AssignCast/from #db/id[:db.part/user -160200]
+ :AssignCast/to #db/id[:db.part/user -160202]
+ :AssignCast/inmethod #db/id[:db.part/user -127015]}
+{:db/id #db/id[:db.part/user -448951]
+ :AssignCast/type #db/id[:db.part/user -119510]
+ :AssignCast/from #db/id[:db.part/user -160208]
+ :AssignCast/to #db/id[:db.part/user -160210]
+ :AssignCast/inmethod #db/id[:db.part/user -127017]}
+{:db/id #db/id[:db.part/user -448953]
+ :AssignCast/type #db/id[:db.part/user -119587]
+ :AssignCast/from #db/id[:db.part/user -160854]
+ :AssignCast/to #db/id[:db.part/user -160856]
+ :AssignCast/inmethod #db/id[:db.part/user -127209]}
+{:db/id #db/id[:db.part/user -448955]
+ :AssignCast/type #db/id[:db.part/user -119648]
+ :AssignCast/from #db/id[:db.part/user -160987]
+ :AssignCast/to #db/id[:db.part/user -160989]
+ :AssignCast/inmethod #db/id[:db.part/user -127222]}
+{:db/id #db/id[:db.part/user -448958]
+ :AssignCast/type #db/id[:db.part/user -119648]
+ :AssignCast/from #db/id[:db.part/user -161001]
+ :AssignCast/to #db/id[:db.part/user -161003]
+ :AssignCast/inmethod #db/id[:db.part/user -127224]}
+{:db/id #db/id[:db.part/user -448960]
+ :AssignCast/type #db/id[:db.part/user -119649]
+ :AssignCast/from #db/id[:db.part/user -161106]
+ :AssignCast/to #db/id[:db.part/user -161108]
+ :AssignCast/inmethod #db/id[:db.part/user -127235]}
+{:db/id #db/id[:db.part/user -448962]
+ :AssignCast/type #db/id[:db.part/user -119649]
+ :AssignCast/from #db/id[:db.part/user -161120]
+ :AssignCast/to #db/id[:db.part/user -161122]
+ :AssignCast/inmethod #db/id[:db.part/user -127237]}
+{:db/id #db/id[:db.part/user -448964]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -161312]
+ :AssignCast/to #db/id[:db.part/user -161308]
+ :AssignCast/inmethod #db/id[:db.part/user -127253]}
+{:db/id #db/id[:db.part/user -448966]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -161363]
+ :AssignCast/to #db/id[:db.part/user -161357]
+ :AssignCast/inmethod #db/id[:db.part/user -127255]}
+{:db/id #db/id[:db.part/user -448968]
+ :AssignCast/type #db/id[:db.part/user -119580]
+ :AssignCast/from #db/id[:db.part/user -161436]
+ :AssignCast/to #db/id[:db.part/user -161438]
+ :AssignCast/inmethod #db/id[:db.part/user -127261]}
+{:db/id #db/id[:db.part/user -448971]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -161450]
+ :AssignCast/to #db/id[:db.part/user -161442]
+ :AssignCast/inmethod #db/id[:db.part/user -127261]}
+{:db/id #db/id[:db.part/user -448973]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -161536]
+ :AssignCast/to #db/id[:db.part/user -161538]
+ :AssignCast/inmethod #db/id[:db.part/user -127266]}
+{:db/id #db/id[:db.part/user -448975]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -161546]
+ :AssignCast/to #db/id[:db.part/user -161548]
+ :AssignCast/inmethod #db/id[:db.part/user -127267]}
+{:db/id #db/id[:db.part/user -448977]
+ :AssignCast/type #db/id[:db.part/user -119668]
+ :AssignCast/from #db/id[:db.part/user -162216]
+ :AssignCast/to #db/id[:db.part/user -162218]
+ :AssignCast/inmethod #db/id[:db.part/user -127275]}
+{:db/id #db/id[:db.part/user -448979]
+ :AssignCast/type #db/id[:db.part/user -119670]
+ :AssignCast/from #db/id[:db.part/user -162321]
+ :AssignCast/to #db/id[:db.part/user -162323]
+ :AssignCast/inmethod #db/id[:db.part/user -127275]}
+{:db/id #db/id[:db.part/user -448982]
+ :AssignCast/type #db/id[:db.part/user -119671]
+ :AssignCast/from #db/id[:db.part/user -162342]
+ :AssignCast/to #db/id[:db.part/user -162344]
+ :AssignCast/inmethod #db/id[:db.part/user -127275]}
+{:db/id #db/id[:db.part/user -448985]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -162464]
+ :AssignCast/to #db/id[:db.part/user -162470]
+ :AssignCast/inmethod #db/id[:db.part/user -127278]}
+{:db/id #db/id[:db.part/user -448987]
+ :AssignCast/type #db/id[:db.part/user -119515]
+ :AssignCast/from #db/id[:db.part/user -162574]
+ :AssignCast/to #db/id[:db.part/user -162572]
+ :AssignCast/inmethod #db/id[:db.part/user -127281]}
+{:db/id #db/id[:db.part/user -448989]
+ :AssignCast/type #db/id[:db.part/user -119664]
+ :AssignCast/from #db/id[:db.part/user -162578]
+ :AssignCast/to #db/id[:db.part/user -162580]
+ :AssignCast/inmethod #db/id[:db.part/user -127281]}
+{:db/id #db/id[:db.part/user -448991]
+ :AssignCast/type #db/id[:db.part/user -119666]
+ :AssignCast/from #db/id[:db.part/user -162592]
+ :AssignCast/to #db/id[:db.part/user -162594]
+ :AssignCast/inmethod #db/id[:db.part/user -127281]}
+{:db/id #db/id[:db.part/user -448994]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -162601]
+ :AssignCast/to #db/id[:db.part/user -162603]
+ :AssignCast/inmethod #db/id[:db.part/user -127281]}
+{:db/id #db/id[:db.part/user -448996]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -162607]
+ :AssignCast/to #db/id[:db.part/user -162609]
+ :AssignCast/inmethod #db/id[:db.part/user -127281]}
+{:db/id #db/id[:db.part/user -448998]
+ :AssignCast/type #db/id[:db.part/user -119515]
+ :AssignCast/from #db/id[:db.part/user -162615]
+ :AssignCast/to #db/id[:db.part/user -162617]
+ :AssignCast/inmethod #db/id[:db.part/user -127282]}
+{:db/id #db/id[:db.part/user -449001]
+ :AssignCast/type #db/id[:db.part/user -119480]
+ :AssignCast/from #db/id[:db.part/user -162665]
+ :AssignCast/to #db/id[:db.part/user -162667]
+ :AssignCast/inmethod #db/id[:db.part/user -127284]}
+{:db/id #db/id[:db.part/user -449003]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -162686]
+ :AssignCast/to #db/id[:db.part/user -162688]
+ :AssignCast/inmethod #db/id[:db.part/user -127285]}
+{:db/id #db/id[:db.part/user -449006]
+ :AssignCast/type #db/id[:db.part/user -119668]
+ :AssignCast/from #db/id[:db.part/user -162898]
+ :AssignCast/to #db/id[:db.part/user -162900]
+ :AssignCast/inmethod #db/id[:db.part/user -127286]}
+{:db/id #db/id[:db.part/user -449008]
+ :AssignCast/type #db/id[:db.part/user -119403]
+ :AssignCast/from #db/id[:db.part/user -163096]
+ :AssignCast/to #db/id[:db.part/user -163098]
+ :AssignCast/inmethod #db/id[:db.part/user -127290]}
+{:db/id #db/id[:db.part/user -449010]
+ :AssignCast/type #db/id[:db.part/user -119540]
+ :AssignCast/from #db/id[:db.part/user -163096]
+ :AssignCast/to #db/id[:db.part/user -163100]
+ :AssignCast/inmethod #db/id[:db.part/user -127290]}
+{:db/id #db/id[:db.part/user -449012]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -163108]
+ :AssignCast/to #db/id[:db.part/user -163116]
+ :AssignCast/inmethod #db/id[:db.part/user -127291]}
+{:db/id #db/id[:db.part/user -449014]
+ :AssignCast/type #db/id[:db.part/user -119691]
+ :AssignCast/from #db/id[:db.part/user -165020]
+ :AssignCast/to #db/id[:db.part/user -165028]
+ :AssignCast/inmethod #db/id[:db.part/user -127391]}
+{:db/id #db/id[:db.part/user -449017]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -165164]
+ :AssignCast/to #db/id[:db.part/user -165158]
+ :AssignCast/inmethod #db/id[:db.part/user -127403]}
+{:db/id #db/id[:db.part/user -449019]
+ :AssignCast/type #db/id[:db.part/user -119705]
+ :AssignCast/from #db/id[:db.part/user -166468]
+ :AssignCast/to #db/id[:db.part/user -166470]
+ :AssignCast/inmethod #db/id[:db.part/user -127569]}
+{:db/id #db/id[:db.part/user -449021]
+ :AssignCast/type #db/id[:db.part/user -119705]
+ :AssignCast/from #db/id[:db.part/user -166496]
+ :AssignCast/to #db/id[:db.part/user -166498]
+ :AssignCast/inmethod #db/id[:db.part/user -127571]}
+{:db/id #db/id[:db.part/user -449024]
+ :AssignCast/type #db/id[:db.part/user -119599]
+ :AssignCast/from #db/id[:db.part/user -166789]
+ :AssignCast/to #db/id[:db.part/user -166791]
+ :AssignCast/inmethod #db/id[:db.part/user -127602]}
+{:db/id #db/id[:db.part/user -449026]
+ :AssignCast/type #db/id[:db.part/user -119611]
+ :AssignCast/from #db/id[:db.part/user -167295]
+ :AssignCast/to #db/id[:db.part/user -167303]
+ :AssignCast/inmethod #db/id[:db.part/user -127669]}
+{:db/id #db/id[:db.part/user -449028]
+ :AssignCast/type #db/id[:db.part/user -119611]
+ :AssignCast/from #db/id[:db.part/user -167297]
+ :AssignCast/to #db/id[:db.part/user -167305]
+ :AssignCast/inmethod #db/id[:db.part/user -127669]}
+{:db/id #db/id[:db.part/user -449031]
+ :AssignCast/type #db/id[:db.part/user -119495]
+ :AssignCast/from #db/id[:db.part/user -167295]
+ :AssignCast/to #db/id[:db.part/user -167311]
+ :AssignCast/inmethod #db/id[:db.part/user -127669]}
+{:db/id #db/id[:db.part/user -449033]
+ :AssignCast/type #db/id[:db.part/user -119495]
+ :AssignCast/from #db/id[:db.part/user -167297]
+ :AssignCast/to #db/id[:db.part/user -167321]
+ :AssignCast/inmethod #db/id[:db.part/user -127669]}
+{:db/id #db/id[:db.part/user -449035]
+ :AssignCast/type #db/id[:db.part/user -119496]
+ :AssignCast/from #db/id[:db.part/user -167295]
+ :AssignCast/to #db/id[:db.part/user -167332]
+ :AssignCast/inmethod #db/id[:db.part/user -127669]}
+{:db/id #db/id[:db.part/user -449037]
+ :AssignCast/type #db/id[:db.part/user -119496]
+ :AssignCast/from #db/id[:db.part/user -167297]
+ :AssignCast/to #db/id[:db.part/user -167342]
+ :AssignCast/inmethod #db/id[:db.part/user -127669]}
+{:db/id #db/id[:db.part/user -449039]
+ :AssignCast/type #db/id[:db.part/user -119403]
+ :AssignCast/from #db/id[:db.part/user -167362]
+ :AssignCast/to #db/id[:db.part/user -167366]
+ :AssignCast/inmethod #db/id[:db.part/user -127675]}
+{:db/id #db/id[:db.part/user -449042]
+ :AssignCast/type #db/id[:db.part/user -119403]
+ :AssignCast/from #db/id[:db.part/user -167364]
+ :AssignCast/to #db/id[:db.part/user -167368]
+ :AssignCast/inmethod #db/id[:db.part/user -127675]}
+{:db/id #db/id[:db.part/user -449044]
+ :AssignCast/type #db/id[:db.part/user -119609]
+ :AssignCast/from #db/id[:db.part/user -168009]
+ :AssignCast/to #db/id[:db.part/user -168013]
+ :AssignCast/inmethod #db/id[:db.part/user -127737]}
+{:db/id #db/id[:db.part/user -449046]
+ :AssignCast/type #db/id[:db.part/user -119609]
+ :AssignCast/from #db/id[:db.part/user -168011]
+ :AssignCast/to #db/id[:db.part/user -168015]
+ :AssignCast/inmethod #db/id[:db.part/user -127737]}
+{:db/id #db/id[:db.part/user -449048]
+ :AssignCast/type #db/id[:db.part/user -119496]
+ :AssignCast/from #db/id[:db.part/user -168041]
+ :AssignCast/to #db/id[:db.part/user -168043]
+ :AssignCast/inmethod #db/id[:db.part/user -127742]}
+{:db/id #db/id[:db.part/user -449050]
+ :AssignCast/type #db/id[:db.part/user -119495]
+ :AssignCast/from #db/id[:db.part/user -168041]
+ :AssignCast/to #db/id[:db.part/user -168047]
+ :AssignCast/inmethod #db/id[:db.part/user -127742]}
+{:db/id #db/id[:db.part/user -449053]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -169057]
+ :AssignCast/to #db/id[:db.part/user -169051]
+ :AssignCast/inmethod #db/id[:db.part/user -127876]}
+{:db/id #db/id[:db.part/user -449055]
+ :AssignCast/type #db/id[:db.part/user -119618]
+ :AssignCast/from #db/id[:db.part/user -169346]
+ :AssignCast/to #db/id[:db.part/user -169348]
+ :AssignCast/inmethod #db/id[:db.part/user -127908]}
+{:db/id #db/id[:db.part/user -449058]
+ :AssignCast/type #db/id[:db.part/user -119563]
+ :AssignCast/from #db/id[:db.part/user -169608]
+ :AssignCast/to #db/id[:db.part/user -169610]
+ :AssignCast/inmethod #db/id[:db.part/user -127918]}
+{:db/id #db/id[:db.part/user -449060]
+ :AssignCast/type #db/id[:db.part/user -119561]
+ :AssignCast/from #db/id[:db.part/user -169675]
+ :AssignCast/to #db/id[:db.part/user -169669]
+ :AssignCast/inmethod #db/id[:db.part/user -127926]}
+{:db/id #db/id[:db.part/user -449062]
+ :AssignCast/type #db/id[:db.part/user -119591]
+ :AssignCast/from #db/id[:db.part/user -169747]
+ :AssignCast/to #db/id[:db.part/user -169749]
+ :AssignCast/inmethod #db/id[:db.part/user -128012]}
+{:db/id #db/id[:db.part/user -449065]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -169780]
+ :AssignCast/to #db/id[:db.part/user -169769]
+ :AssignCast/inmethod #db/id[:db.part/user -128016]}
+{:db/id #db/id[:db.part/user -449067]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -169784]
+ :AssignCast/to #db/id[:db.part/user -169786]
+ :AssignCast/inmethod #db/id[:db.part/user -128016]}
+{:db/id #db/id[:db.part/user -449069]
+ :AssignCast/type #db/id[:db.part/user -119591]
+ :AssignCast/from #db/id[:db.part/user -169790]
+ :AssignCast/to #db/id[:db.part/user -169792]
+ :AssignCast/inmethod #db/id[:db.part/user -128016]}
+{:db/id #db/id[:db.part/user -449072]
+ :AssignCast/type #db/id[:db.part/user -119590]
+ :AssignCast/from #db/id[:db.part/user -169853]
+ :AssignCast/to #db/id[:db.part/user -169855]
+ :AssignCast/inmethod #db/id[:db.part/user -128022]}
+{:db/id #db/id[:db.part/user -449074]
+ :AssignCast/type #db/id[:db.part/user -119592]
+ :AssignCast/from #db/id[:db.part/user -169956]
+ :AssignCast/to #db/id[:db.part/user -169960]
+ :AssignCast/inmethod #db/id[:db.part/user -128030]}
+{:db/id #db/id[:db.part/user -449077]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -170226]
+ :AssignCast/to #db/id[:db.part/user -170222]
+ :AssignCast/inmethod #db/id[:db.part/user -128059]}
+{:db/id #db/id[:db.part/user -449079]
+ :AssignCast/type #db/id[:db.part/user -119737]
+ :AssignCast/from #db/id[:db.part/user -170383]
+ :AssignCast/to #db/id[:db.part/user -170378]
+ :AssignCast/inmethod #db/id[:db.part/user -128082]}
+{:db/id #db/id[:db.part/user -449082]
+ :AssignCast/type #db/id[:db.part/user -119737]
+ :AssignCast/from #db/id[:db.part/user -170387]
+ :AssignCast/to #db/id[:db.part/user -170378]
+ :AssignCast/inmethod #db/id[:db.part/user -128082]}
+{:db/id #db/id[:db.part/user -449084]
+ :AssignCast/type #db/id[:db.part/user -119737]
+ :AssignCast/from #db/id[:db.part/user -170438]
+ :AssignCast/to #db/id[:db.part/user -170434]
+ :AssignCast/inmethod #db/id[:db.part/user -128088]}
+{:db/id #db/id[:db.part/user -449087]
+ :AssignCast/type #db/id[:db.part/user -119737]
+ :AssignCast/from #db/id[:db.part/user -170450]
+ :AssignCast/to #db/id[:db.part/user -170452]
+ :AssignCast/inmethod #db/id[:db.part/user -128090]}
+{:db/id #db/id[:db.part/user -449090]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -170536]
+ :AssignCast/to #db/id[:db.part/user -170538]
+ :AssignCast/inmethod #db/id[:db.part/user -128135]}
+{:db/id #db/id[:db.part/user -449092]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -170546]
+ :AssignCast/to #db/id[:db.part/user -170548]
+ :AssignCast/inmethod #db/id[:db.part/user -128137]}
+{:db/id #db/id[:db.part/user -449095]
+ :AssignCast/type #db/id[:db.part/user -119592]
+ :AssignCast/from #db/id[:db.part/user -170556]
+ :AssignCast/to #db/id[:db.part/user -170562]
+ :AssignCast/inmethod #db/id[:db.part/user -128139]}
+{:db/id #db/id[:db.part/user -449097]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -170558]
+ :AssignCast/to #db/id[:db.part/user -170564]
+ :AssignCast/inmethod #db/id[:db.part/user -128139]}
+{:db/id #db/id[:db.part/user -449099]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -170580]
+ :AssignCast/to #db/id[:db.part/user -170582]
+ :AssignCast/inmethod #db/id[:db.part/user -128141]}
+{:db/id #db/id[:db.part/user -449102]
+ :AssignCast/type #db/id[:db.part/user -119591]
+ :AssignCast/from #db/id[:db.part/user -170615]
+ :AssignCast/to #db/id[:db.part/user -170619]
+ :AssignCast/inmethod #db/id[:db.part/user -128150]}
+{:db/id #db/id[:db.part/user -449104]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -170682]
+ :AssignCast/to #db/id[:db.part/user -170676]
+ :AssignCast/inmethod #db/id[:db.part/user -128170]}
+{:db/id #db/id[:db.part/user -449106]
+ :AssignCast/type #db/id[:db.part/user -119592]
+ :AssignCast/from #db/id[:db.part/user -170686]
+ :AssignCast/to #db/id[:db.part/user -170688]
+ :AssignCast/inmethod #db/id[:db.part/user -128170]}
+{:db/id #db/id[:db.part/user -449109]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -170692]
+ :AssignCast/to #db/id[:db.part/user -170694]
+ :AssignCast/inmethod #db/id[:db.part/user -128170]}
+{:db/id #db/id[:db.part/user -449111]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -170741]
+ :AssignCast/to #db/id[:db.part/user -170719]
+ :AssignCast/inmethod #db/id[:db.part/user -128172]}
+{:db/id #db/id[:db.part/user -449113]
+ :AssignCast/type #db/id[:db.part/user -119592]
+ :AssignCast/from #db/id[:db.part/user -170743]
+ :AssignCast/to #db/id[:db.part/user -170745]
+ :AssignCast/inmethod #db/id[:db.part/user -128172]}
+{:db/id #db/id[:db.part/user -449115]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -170749]
+ :AssignCast/to #db/id[:db.part/user -170751]
+ :AssignCast/inmethod #db/id[:db.part/user -128172]}
+{:db/id #db/id[:db.part/user -449118]
+ :AssignCast/type #db/id[:db.part/user -119622]
+ :AssignCast/from #db/id[:db.part/user -171594]
+ :AssignCast/to #db/id[:db.part/user -171596]
+ :AssignCast/inmethod #db/id[:db.part/user -128250]}
+{:db/id #db/id[:db.part/user -449120]
+ :AssignCast/type #db/id[:db.part/user -119621]
+ :AssignCast/from #db/id[:db.part/user -172100]
+ :AssignCast/to #db/id[:db.part/user -172102]
+ :AssignCast/inmethod #db/id[:db.part/user -128266]}
+{:db/id #db/id[:db.part/user -449123]
+ :AssignCast/type #db/id[:db.part/user -119621]
+ :AssignCast/from #db/id[:db.part/user -172146]
+ :AssignCast/to #db/id[:db.part/user -172148]
+ :AssignCast/inmethod #db/id[:db.part/user -128270]}
+{:db/id #db/id[:db.part/user -449125]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -172597]
+ :AssignCast/to #db/id[:db.part/user -172599]
+ :AssignCast/inmethod #db/id[:db.part/user -128371]}
+{:db/id #db/id[:db.part/user -449128]
+ :AssignCast/type #db/id[:db.part/user -119753]
+ :AssignCast/from #db/id[:db.part/user -172635]
+ :AssignCast/to #db/id[:db.part/user -172637]
+ :AssignCast/inmethod #db/id[:db.part/user -128375]}
+{:db/id #db/id[:db.part/user -449131]
+ :AssignCast/type #db/id[:db.part/user -119753]
+ :AssignCast/from #db/id[:db.part/user -172661]
+ :AssignCast/to #db/id[:db.part/user -172664]
+ :AssignCast/inmethod #db/id[:db.part/user -128377]}
+{:db/id #db/id[:db.part/user -449133]
+ :AssignCast/type #db/id[:db.part/user -119584]
+ :AssignCast/from #db/id[:db.part/user -172828]
+ :AssignCast/to #db/id[:db.part/user -172830]
+ :AssignCast/inmethod #db/id[:db.part/user -128390]}
+{:db/id #db/id[:db.part/user -449135]
+ :AssignCast/type #db/id[:db.part/user -119584]
+ :AssignCast/from #db/id[:db.part/user -172836]
+ :AssignCast/to #db/id[:db.part/user -172838]
+ :AssignCast/inmethod #db/id[:db.part/user -128392]}
+{:db/id #db/id[:db.part/user -449138]
+ :AssignCast/type #db/id[:db.part/user -119568]
+ :AssignCast/from #db/id[:db.part/user -172938]
+ :AssignCast/to #db/id[:db.part/user -172940]
+ :AssignCast/inmethod #db/id[:db.part/user -128406]}
+{:db/id #db/id[:db.part/user -449141]
+ :AssignCast/type #db/id[:db.part/user -119568]
+ :AssignCast/from #db/id[:db.part/user -172985]
+ :AssignCast/to #db/id[:db.part/user -172987]
+ :AssignCast/inmethod #db/id[:db.part/user -128408]}
+{:db/id #db/id[:db.part/user -449144]
+ :AssignCast/type #db/id[:db.part/user -119568]
+ :AssignCast/from #db/id[:db.part/user -173272]
+ :AssignCast/to #db/id[:db.part/user -173270]
+ :AssignCast/inmethod #db/id[:db.part/user -128422]}
+{:db/id #db/id[:db.part/user -449146]
+ :AssignCast/type #db/id[:db.part/user -119568]
+ :AssignCast/from #db/id[:db.part/user -173280]
+ :AssignCast/to #db/id[:db.part/user -173276]
+ :AssignCast/inmethod #db/id[:db.part/user -128422]}
+{:db/id #db/id[:db.part/user -449149]
+ :AssignCast/type #db/id[:db.part/user -119567]
+ :AssignCast/from #db/id[:db.part/user -173292]
+ :AssignCast/to #db/id[:db.part/user -173294]
+ :AssignCast/inmethod #db/id[:db.part/user -128424]}
+{:db/id #db/id[:db.part/user -449152]
+ :AssignCast/type #db/id[:db.part/user -119577]
+ :AssignCast/from #db/id[:db.part/user -173550]
+ :AssignCast/to #db/id[:db.part/user -173552]
+ :AssignCast/inmethod #db/id[:db.part/user -128502]}
+{:db/id #db/id[:db.part/user -449154]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -174469]
+ :AssignCast/to #db/id[:db.part/user -174467]
+ :AssignCast/inmethod #db/id[:db.part/user -128696]}
+{:db/id #db/id[:db.part/user -449157]
+ :AssignCast/type #db/id[:db.part/user -119510]
+ :AssignCast/from #db/id[:db.part/user -174984]
+ :AssignCast/to #db/id[:db.part/user -174986]
+ :AssignCast/inmethod #db/id[:db.part/user -128746]}
+{:db/id #db/id[:db.part/user -449160]
+ :AssignCast/type #db/id[:db.part/user -119510]
+ :AssignCast/from #db/id[:db.part/user -174994]
+ :AssignCast/to #db/id[:db.part/user -174988]
+ :AssignCast/inmethod #db/id[:db.part/user -128746]}
+{:db/id #db/id[:db.part/user -449163]
+ :AssignCast/type #db/id[:db.part/user -119510]
+ :AssignCast/from #db/id[:db.part/user -174998]
+ :AssignCast/to #db/id[:db.part/user -175000]
+ :AssignCast/inmethod #db/id[:db.part/user -128746]}
+{:db/id #db/id[:db.part/user -449167]
+ :AssignCast/type #db/id[:db.part/user -119510]
+ :AssignCast/from #db/id[:db.part/user -175012]
+ :AssignCast/to #db/id[:db.part/user -175014]
+ :AssignCast/inmethod #db/id[:db.part/user -128746]}
+{:db/id #db/id[:db.part/user -449170]
+ :AssignCast/type #db/id[:db.part/user -119641]
+ :AssignCast/from #db/id[:db.part/user -175305]
+ :AssignCast/to #db/id[:db.part/user -175307]
+ :AssignCast/inmethod #db/id[:db.part/user -128805]}
+{:db/id #db/id[:db.part/user -449174]
+ :AssignCast/type #db/id[:db.part/user -119641]
+ :AssignCast/from #db/id[:db.part/user -175319]
+ :AssignCast/to #db/id[:db.part/user -175321]
+ :AssignCast/inmethod #db/id[:db.part/user -128809]}
+{:db/id #db/id[:db.part/user -449177]
+ :AssignCast/type #db/id[:db.part/user -119669]
+ :AssignCast/from #db/id[:db.part/user -175366]
+ :AssignCast/to #db/id[:db.part/user -175358]
+ :AssignCast/inmethod #db/id[:db.part/user -128815]}
+{:db/id #db/id[:db.part/user -449181]
+ :AssignCast/type #db/id[:db.part/user -119672]
+ :AssignCast/from #db/id[:db.part/user -176483]
+ :AssignCast/to #db/id[:db.part/user -176485]
+ :AssignCast/inmethod #db/id[:db.part/user -128997]}
+{:db/id #db/id[:db.part/user -449183]
+ :AssignCast/type #db/id[:db.part/user -119673]
+ :AssignCast/from #db/id[:db.part/user -176535]
+ :AssignCast/to #db/id[:db.part/user -176537]
+ :AssignCast/inmethod #db/id[:db.part/user -129013]}
+{:db/id #db/id[:db.part/user -449186]
+ :AssignCast/type #db/id[:db.part/user -119667]
+ :AssignCast/from #db/id[:db.part/user -176734]
+ :AssignCast/to #db/id[:db.part/user -176736]
+ :AssignCast/inmethod #db/id[:db.part/user -129040]}
+{:db/id #db/id[:db.part/user -449189]
+ :AssignCast/type #db/id[:db.part/user -119667]
+ :AssignCast/from #db/id[:db.part/user -176746]
+ :AssignCast/to #db/id[:db.part/user -176744]
+ :AssignCast/inmethod #db/id[:db.part/user -129042]}
+{:db/id #db/id[:db.part/user -449193]
+ :AssignCast/type #db/id[:db.part/user -119781]
+ :AssignCast/from #db/id[:db.part/user -176844]
+ :AssignCast/to #db/id[:db.part/user -176846]
+ :AssignCast/inmethod #db/id[:db.part/user -129074]}
+{:db/id #db/id[:db.part/user -449197]
+ :AssignCast/type #db/id[:db.part/user -119668]
+ :AssignCast/from #db/id[:db.part/user -176907]
+ :AssignCast/to #db/id[:db.part/user -176909]
+ :AssignCast/inmethod #db/id[:db.part/user -129076]}
+{:db/id #db/id[:db.part/user -449201]
+ :AssignCast/type #db/id[:db.part/user -119782]
+ :AssignCast/from #db/id[:db.part/user -177179]
+ :AssignCast/to #db/id[:db.part/user -177226]
+ :AssignCast/inmethod #db/id[:db.part/user -129095]}
+{:db/id #db/id[:db.part/user -449205]
+ :AssignCast/type #db/id[:db.part/user -119781]
+ :AssignCast/from #db/id[:db.part/user -177429]
+ :AssignCast/to #db/id[:db.part/user -177431]
+ :AssignCast/inmethod #db/id[:db.part/user -129106]}
+{:db/id #db/id[:db.part/user -449209]
+ :AssignCast/type #db/id[:db.part/user -119781]
+ :AssignCast/from #db/id[:db.part/user -177439]
+ :AssignCast/to #db/id[:db.part/user -177441]
+ :AssignCast/inmethod #db/id[:db.part/user -129108]}
+{:db/id #db/id[:db.part/user -449212]
+ :AssignCast/type #db/id[:db.part/user -119670]
+ :AssignCast/from #db/id[:db.part/user -177447]
+ :AssignCast/to #db/id[:db.part/user -177445]
+ :AssignCast/inmethod #db/id[:db.part/user -129110]}
+{:db/id #db/id[:db.part/user -449217]
+ :AssignCast/type #db/id[:db.part/user -119781]
+ :AssignCast/from #db/id[:db.part/user -177452]
+ :AssignCast/to #db/id[:db.part/user -177454]
+ :AssignCast/inmethod #db/id[:db.part/user -129110]}
+{:db/id #db/id[:db.part/user -449220]
+ :AssignCast/type #db/id[:db.part/user -119670]
+ :AssignCast/from #db/id[:db.part/user -177464]
+ :AssignCast/to #db/id[:db.part/user -177466]
+ :AssignCast/inmethod #db/id[:db.part/user -129112]}
+{:db/id #db/id[:db.part/user -449223]
+ :AssignCast/type #db/id[:db.part/user -119671]
+ :AssignCast/from #db/id[:db.part/user -177692]
+ :AssignCast/to #db/id[:db.part/user -177690]
+ :AssignCast/inmethod #db/id[:db.part/user -129127]}
+{:db/id #db/id[:db.part/user -449226]
+ :AssignCast/type #db/id[:db.part/user -119551]
+ :AssignCast/from #db/id[:db.part/user -177696]
+ :AssignCast/to #db/id[:db.part/user -177698]
+ :AssignCast/inmethod #db/id[:db.part/user -129127]}
+{:db/id #db/id[:db.part/user -449228]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -177702]
+ :AssignCast/to #db/id[:db.part/user -177704]
+ :AssignCast/inmethod #db/id[:db.part/user -129127]}
+{:db/id #db/id[:db.part/user -449231]
+ :AssignCast/type #db/id[:db.part/user -119671]
+ :AssignCast/from #db/id[:db.part/user -177723]
+ :AssignCast/to #db/id[:db.part/user -177725]
+ :AssignCast/inmethod #db/id[:db.part/user -129131]}
+{:db/id #db/id[:db.part/user -449234]
+ :AssignCast/type #db/id[:db.part/user -119669]
+ :AssignCast/from #db/id[:db.part/user -177942]
+ :AssignCast/to #db/id[:db.part/user -177944]
+ :AssignCast/inmethod #db/id[:db.part/user -129160]}
+{:db/id #db/id[:db.part/user -449238]
+ :AssignCast/type #db/id[:db.part/user -119669]
+ :AssignCast/from #db/id[:db.part/user -177979]
+ :AssignCast/to #db/id[:db.part/user -177977]
+ :AssignCast/inmethod #db/id[:db.part/user -129162]}
+{:db/id #db/id[:db.part/user -449241]
+ :AssignCast/type #db/id[:db.part/user -119770]
+ :AssignCast/from #db/id[:db.part/user -177983]
+ :AssignCast/to #db/id[:db.part/user -177985]
+ :AssignCast/inmethod #db/id[:db.part/user -129162]}
+{:db/id #db/id[:db.part/user -449244]
+ :AssignCast/type #db/id[:db.part/user -119667]
+ :AssignCast/from #db/id[:db.part/user -177989]
+ :AssignCast/to #db/id[:db.part/user -177991]
+ :AssignCast/inmethod #db/id[:db.part/user -129162]}
+{:db/id #db/id[:db.part/user -449248]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -178218]
+ :AssignCast/to #db/id[:db.part/user -178210]
+ :AssignCast/inmethod #db/id[:db.part/user -129168]}
+{:db/id #db/id[:db.part/user -449252]
+ :AssignCast/type #db/id[:db.part/user -119780]
+ :AssignCast/from #db/id[:db.part/user -178268]
+ :AssignCast/to #db/id[:db.part/user -178270]
+ :AssignCast/inmethod #db/id[:db.part/user -129172]}
+{:db/id #db/id[:db.part/user -449255]
+ :AssignCast/type #db/id[:db.part/user -119668]
+ :AssignCast/from #db/id[:db.part/user -178645]
+ :AssignCast/to #db/id[:db.part/user -178647]
+ :AssignCast/inmethod #db/id[:db.part/user -129210]}
+{:db/id #db/id[:db.part/user -449259]
+ :AssignCast/type #db/id[:db.part/user -119651]
+ :AssignCast/from #db/id[:db.part/user -179456]
+ :AssignCast/to #db/id[:db.part/user -179452]
+ :AssignCast/inmethod #db/id[:db.part/user -129360]}
+{:db/id #db/id[:db.part/user -449264]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -179478]
+ :AssignCast/to #db/id[:db.part/user -179480]
+ :AssignCast/inmethod #db/id[:db.part/user -129366]}
+{:db/id #db/id[:db.part/user -449269]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -179616]
+ :AssignCast/to #db/id[:db.part/user -179618]
+ :AssignCast/inmethod #db/id[:db.part/user -129416]}
+{:db/id #db/id[:db.part/user -449273]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -179632]
+ :AssignCast/to #db/id[:db.part/user -179634]
+ :AssignCast/inmethod #db/id[:db.part/user -129418]}
+{:db/id #db/id[:db.part/user -449276]
+ :AssignCast/type #db/id[:db.part/user -119725]
+ :AssignCast/from #db/id[:db.part/user -180253]
+ :AssignCast/to #db/id[:db.part/user -180263]
+ :AssignCast/inmethod #db/id[:db.part/user -129506]}
+{:db/id #db/id[:db.part/user -449280]
+ :AssignCast/type #db/id[:db.part/user -119821]
+ :AssignCast/from #db/id[:db.part/user -180454]
+ :AssignCast/to #db/id[:db.part/user -180456]
+ :AssignCast/inmethod #db/id[:db.part/user -129536]}
+{:db/id #db/id[:db.part/user -449283]
+ :AssignCast/type #db/id[:db.part/user -119705]
+ :AssignCast/from #db/id[:db.part/user -180621]
+ :AssignCast/to #db/id[:db.part/user -180623]
+ :AssignCast/inmethod #db/id[:db.part/user -129608]}
+{:db/id #db/id[:db.part/user -449287]
+ :AssignCast/type #db/id[:db.part/user -119562]
+ :AssignCast/from #db/id[:db.part/user -180631]
+ :AssignCast/to #db/id[:db.part/user -180627]
+ :AssignCast/inmethod #db/id[:db.part/user -129608]}
+{:db/id #db/id[:db.part/user -449290]
+ :AssignCast/type #db/id[:db.part/user -119562]
+ :AssignCast/from #db/id[:db.part/user -180643]
+ :AssignCast/to #db/id[:db.part/user -180645]
+ :AssignCast/inmethod #db/id[:db.part/user -129608]}
+{:db/id #db/id[:db.part/user -449294]
+ :AssignCast/type #db/id[:db.part/user -119599]
+ :AssignCast/from #db/id[:db.part/user -180762]
+ :AssignCast/to #db/id[:db.part/user -180764]
+ :AssignCast/inmethod #db/id[:db.part/user -129633]}
+{:db/id #db/id[:db.part/user -449298]
+ :AssignCast/type #db/id[:db.part/user -119599]
+ :AssignCast/from #db/id[:db.part/user -180772]
+ :AssignCast/to #db/id[:db.part/user -180768]
+ :AssignCast/inmethod #db/id[:db.part/user -129633]}
+{:db/id #db/id[:db.part/user -449302]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -181066]
+ :AssignCast/to #db/id[:db.part/user -181068]
+ :AssignCast/inmethod #db/id[:db.part/user -129696]}
+{:db/id #db/id[:db.part/user -449306]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -182442]
+ :AssignCast/to #db/id[:db.part/user -182434]
+ :AssignCast/inmethod #db/id[:db.part/user -129931]}
+{:db/id #db/id[:db.part/user -449311]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182560]
+ :AssignCast/to #db/id[:db.part/user -182556]
+ :AssignCast/inmethod #db/id[:db.part/user -130062]}
+{:db/id #db/id[:db.part/user -449315]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182564]
+ :AssignCast/to #db/id[:db.part/user -182566]
+ :AssignCast/inmethod #db/id[:db.part/user -130062]}
+{:db/id #db/id[:db.part/user -449320]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182582]
+ :AssignCast/to #db/id[:db.part/user -182578]
+ :AssignCast/inmethod #db/id[:db.part/user -130064]}
+{:db/id #db/id[:db.part/user -449324]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182586]
+ :AssignCast/to #db/id[:db.part/user -182588]
+ :AssignCast/inmethod #db/id[:db.part/user -130064]}
+{:db/id #db/id[:db.part/user -449329]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182604]
+ :AssignCast/to #db/id[:db.part/user -182600]
+ :AssignCast/inmethod #db/id[:db.part/user -130066]}
+{:db/id #db/id[:db.part/user -449334]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182610]
+ :AssignCast/to #db/id[:db.part/user -182612]
+ :AssignCast/inmethod #db/id[:db.part/user -130066]}
+{:db/id #db/id[:db.part/user -449338]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182643]
+ :AssignCast/to #db/id[:db.part/user -182639]
+ :AssignCast/inmethod #db/id[:db.part/user -130068]}
+{:db/id #db/id[:db.part/user -449343]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182647]
+ :AssignCast/to #db/id[:db.part/user -182649]
+ :AssignCast/inmethod #db/id[:db.part/user -130068]}
+{:db/id #db/id[:db.part/user -449347]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182667]
+ :AssignCast/to #db/id[:db.part/user -182663]
+ :AssignCast/inmethod #db/id[:db.part/user -130070]}
+{:db/id #db/id[:db.part/user -449352]
+ :AssignCast/type #db/id[:db.part/user -119580]
+ :AssignCast/from #db/id[:db.part/user -182697]
+ :AssignCast/to #db/id[:db.part/user -182699]
+ :AssignCast/inmethod #db/id[:db.part/user -130076]}
+{:db/id #db/id[:db.part/user -449357]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182712]
+ :AssignCast/to #db/id[:db.part/user -182703]
+ :AssignCast/inmethod #db/id[:db.part/user -130076]}
+{:db/id #db/id[:db.part/user -449362]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182738]
+ :AssignCast/to #db/id[:db.part/user -182732]
+ :AssignCast/inmethod #db/id[:db.part/user -130078]}
+{:db/id #db/id[:db.part/user -449367]
+ :AssignCast/type #db/id[:db.part/user -119731]
+ :AssignCast/from #db/id[:db.part/user -182793]
+ :AssignCast/to #db/id[:db.part/user -182788]
+ :AssignCast/inmethod #db/id[:db.part/user -130081]}
+{:db/id #db/id[:db.part/user -449370]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182815]
+ :AssignCast/to #db/id[:db.part/user -182817]
+ :AssignCast/inmethod #db/id[:db.part/user -130089]}
+{:db/id #db/id[:db.part/user -449374]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182955]
+ :AssignCast/to #db/id[:db.part/user -182957]
+ :AssignCast/inmethod #db/id[:db.part/user -130126]}
+{:db/id #db/id[:db.part/user -449379]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -182971]
+ :AssignCast/to #db/id[:db.part/user -182973]
+ :AssignCast/inmethod #db/id[:db.part/user -130128]}
+{:db/id #db/id[:db.part/user -449383]
+ :AssignCast/type #db/id[:db.part/user -119571]
+ :AssignCast/from #db/id[:db.part/user -183361]
+ :AssignCast/to #db/id[:db.part/user -183363]
+ :AssignCast/inmethod #db/id[:db.part/user -130158]}
+{:db/id #db/id[:db.part/user -449387]
+ :AssignCast/type #db/id[:db.part/user -119621]
+ :AssignCast/from #db/id[:db.part/user -183733]
+ :AssignCast/to #db/id[:db.part/user -183735]
+ :AssignCast/inmethod #db/id[:db.part/user -130260]}
+{:db/id #db/id[:db.part/user -449392]
+ :AssignCast/type #db/id[:db.part/user -119621]
+ :AssignCast/from #db/id[:db.part/user -183743]
+ :AssignCast/to #db/id[:db.part/user -183739]
+ :AssignCast/inmethod #db/id[:db.part/user -130260]}
+{:db/id #db/id[:db.part/user -449396]
+ :AssignCast/type #db/id[:db.part/user -119582]
+ :AssignCast/from #db/id[:db.part/user -183989]
+ :AssignCast/to #db/id[:db.part/user -183991]
+ :AssignCast/inmethod #db/id[:db.part/user -130397]}
+{:db/id #db/id[:db.part/user -449401]
+ :AssignCast/type #db/id[:db.part/user -119770]
+ :AssignCast/from #db/id[:db.part/user -184252]
+ :AssignCast/to #db/id[:db.part/user -184255]
+ :AssignCast/inmethod #db/id[:db.part/user -130486]}
+{:db/id #db/id[:db.part/user -449405]
+ :AssignCast/type #db/id[:db.part/user -119770]
+ :AssignCast/from #db/id[:db.part/user -184269]
+ :AssignCast/to #db/id[:db.part/user -184271]
+ :AssignCast/inmethod #db/id[:db.part/user -130489]}
+{:db/id #db/id[:db.part/user -449409]
+ :AssignCast/type #db/id[:db.part/user -119770]
+ :AssignCast/from #db/id[:db.part/user -184277]
+ :AssignCast/to #db/id[:db.part/user -184279]
+ :AssignCast/inmethod #db/id[:db.part/user -130491]}
+{:db/id #db/id[:db.part/user -449413]
+ :AssignCast/type #db/id[:db.part/user -119770]
+ :AssignCast/from #db/id[:db.part/user -184310]
+ :AssignCast/to #db/id[:db.part/user -184308]
+ :AssignCast/inmethod #db/id[:db.part/user -130521]}
+{:db/id #db/id[:db.part/user -449417]
+ :AssignCast/type #db/id[:db.part/user -119770]
+ :AssignCast/from #db/id[:db.part/user -184316]
+ :AssignCast/to #db/id[:db.part/user -184314]
+ :AssignCast/inmethod #db/id[:db.part/user -130522]}
+{:db/id #db/id[:db.part/user -449420]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -184403]
+ :AssignCast/to #db/id[:db.part/user -184397]
+ :AssignCast/inmethod #db/id[:db.part/user -130524]}
+{:db/id #db/id[:db.part/user -449424]
+ :AssignCast/type #db/id[:db.part/user -119772]
+ :AssignCast/from #db/id[:db.part/user -184849]
+ :AssignCast/to #db/id[:db.part/user -184851]
+ :AssignCast/inmethod #db/id[:db.part/user -130551]}
+{:db/id #db/id[:db.part/user -449428]
+ :AssignCast/type #db/id[:db.part/user -119770]
+ :AssignCast/from #db/id[:db.part/user -184890]
+ :AssignCast/to #db/id[:db.part/user -184886]
+ :AssignCast/inmethod #db/id[:db.part/user -130559]}
+{:db/id #db/id[:db.part/user -449432]
+ :AssignCast/type #db/id[:db.part/user -119774]
+ :AssignCast/from #db/id[:db.part/user -185046]
+ :AssignCast/to #db/id[:db.part/user -185048]
+ :AssignCast/inmethod #db/id[:db.part/user -130589]}
+{:db/id #db/id[:db.part/user -449437]
+ :AssignCast/type #db/id[:db.part/user -119781]
+ :AssignCast/from #db/id[:db.part/user -185229]
+ :AssignCast/to #db/id[:db.part/user -185231]
+ :AssignCast/inmethod #db/id[:db.part/user -130689]}
+{:db/id #db/id[:db.part/user -449441]
+ :AssignCast/type #db/id[:db.part/user -119850]
+ :AssignCast/from #db/id[:db.part/user -185303]
+ :AssignCast/to #db/id[:db.part/user -185297]
+ :AssignCast/inmethod #db/id[:db.part/user -130696]}
+{:db/id #db/id[:db.part/user -449446]
+ :AssignCast/type #db/id[:db.part/user -119513]
+ :AssignCast/from #db/id[:db.part/user -185326]
+ :AssignCast/to #db/id[:db.part/user -185328]
+ :AssignCast/inmethod #db/id[:db.part/user -130696]}
+{:db/id #db/id[:db.part/user -449451]
+ :AssignCast/type #db/id[:db.part/user -119513]
+ :AssignCast/from #db/id[:db.part/user -185334]
+ :AssignCast/to #db/id[:db.part/user -185336]
+ :AssignCast/inmethod #db/id[:db.part/user -130696]}
+{:db/id #db/id[:db.part/user -449455]
+ :AssignCast/type #db/id[:db.part/user -119720]
+ :AssignCast/from #db/id[:db.part/user -185364]
+ :AssignCast/to #db/id[:db.part/user -185354]
+ :AssignCast/inmethod #db/id[:db.part/user -130698]}
+{:db/id #db/id[:db.part/user -449459]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -185372]
+ :AssignCast/to #db/id[:db.part/user -185362]
+ :AssignCast/inmethod #db/id[:db.part/user -130698]}
+{:db/id #db/id[:db.part/user -449462]
+ :AssignCast/type #db/id[:db.part/user -119514]
+ :AssignCast/from #db/id[:db.part/user -185366]
+ :AssignCast/to #db/id[:db.part/user -185368]
+ :AssignCast/inmethod #db/id[:db.part/user -130698]}
+{:db/id #db/id[:db.part/user -449466]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -185403]
+ :AssignCast/to #db/id[:db.part/user -185405]
+ :AssignCast/inmethod #db/id[:db.part/user -130700]}
+{:db/id #db/id[:db.part/user -449470]
+ :AssignCast/type #db/id[:db.part/user -119514]
+ :AssignCast/from #db/id[:db.part/user -185429]
+ :AssignCast/to #db/id[:db.part/user -185431]
+ :AssignCast/inmethod #db/id[:db.part/user -130700]}
+{:db/id #db/id[:db.part/user -449474]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -185433]
+ :AssignCast/to #db/id[:db.part/user -185435]
+ :AssignCast/inmethod #db/id[:db.part/user -130700]}
+{:db/id #db/id[:db.part/user -449478]
+ :AssignCast/type #db/id[:db.part/user -119782]
+ :AssignCast/from #db/id[:db.part/user -185647]
+ :AssignCast/to #db/id[:db.part/user -185651]
+ :AssignCast/inmethod #db/id[:db.part/user -130747]}
+{:db/id #db/id[:db.part/user -449482]
+ :AssignCast/type #db/id[:db.part/user -119782]
+ :AssignCast/from #db/id[:db.part/user -185661]
+ :AssignCast/to #db/id[:db.part/user -185663]
+ :AssignCast/inmethod #db/id[:db.part/user -130749]}
+{:db/id #db/id[:db.part/user -449485]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -185935]
+ :AssignCast/to #db/id[:db.part/user -185937]
+ :AssignCast/inmethod #db/id[:db.part/user -130767]}
+{:db/id #db/id[:db.part/user -449489]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -186826]
+ :AssignCast/to #db/id[:db.part/user -186794]
+ :AssignCast/inmethod #db/id[:db.part/user -130817]}
+{:db/id #db/id[:db.part/user -449492]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -186863]
+ :AssignCast/to #db/id[:db.part/user -186855]
+ :AssignCast/inmethod #db/id[:db.part/user -130817]}
+{:db/id #db/id[:db.part/user -449496]
+ :AssignCast/type #db/id[:db.part/user -119779]
+ :AssignCast/from #db/id[:db.part/user -187181]
+ :AssignCast/to #db/id[:db.part/user -187183]
+ :AssignCast/inmethod #db/id[:db.part/user -130852]}
+{:db/id #db/id[:db.part/user -449499]
+ :AssignCast/type #db/id[:db.part/user -119779]
+ :AssignCast/from #db/id[:db.part/user -187198]
+ :AssignCast/to #db/id[:db.part/user -187200]
+ :AssignCast/inmethod #db/id[:db.part/user -130854]}
+{:db/id #db/id[:db.part/user -449503]
+ :AssignCast/type #db/id[:db.part/user -119780]
+ :AssignCast/from #db/id[:db.part/user -187650]
+ :AssignCast/to #db/id[:db.part/user -187652]
+ :AssignCast/inmethod #db/id[:db.part/user -131003]}
+{:db/id #db/id[:db.part/user -449506]
+ :AssignCast/type #db/id[:db.part/user -119514]
+ :AssignCast/from #db/id[:db.part/user -187693]
+ :AssignCast/to #db/id[:db.part/user -187685]
+ :AssignCast/inmethod #db/id[:db.part/user -131007]}
+{:db/id #db/id[:db.part/user -449510]
+ :AssignCast/type #db/id[:db.part/user -119784]
+ :AssignCast/from #db/id[:db.part/user -187851]
+ :AssignCast/to #db/id[:db.part/user -187853]
+ :AssignCast/inmethod #db/id[:db.part/user -131040]}
+{:db/id #db/id[:db.part/user -449514]
+ :AssignCast/type #db/id[:db.part/user -119580]
+ :AssignCast/from #db/id[:db.part/user -188544]
+ :AssignCast/to #db/id[:db.part/user -188546]
+ :AssignCast/inmethod #db/id[:db.part/user -131179]}
+{:db/id #db/id[:db.part/user -449518]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -188593]
+ :AssignCast/to #db/id[:db.part/user -188597]
+ :AssignCast/inmethod #db/id[:db.part/user -131196]}
+{:db/id #db/id[:db.part/user -449522]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -188595]
+ :AssignCast/to #db/id[:db.part/user -188599]
+ :AssignCast/inmethod #db/id[:db.part/user -131196]}
+{:db/id #db/id[:db.part/user -449526]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -189884]
+ :AssignCast/to #db/id[:db.part/user -189876]
+ :AssignCast/inmethod #db/id[:db.part/user -131409]}
+{:db/id #db/id[:db.part/user -449529]
+ :AssignCast/type #db/id[:db.part/user -119821]
+ :AssignCast/from #db/id[:db.part/user -189886]
+ :AssignCast/to #db/id[:db.part/user -189878]
+ :AssignCast/inmethod #db/id[:db.part/user -131409]}
+{:db/id #db/id[:db.part/user -449533]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -189933]
+ :AssignCast/to #db/id[:db.part/user -189935]
+ :AssignCast/inmethod #db/id[:db.part/user -131421]}
+{:db/id #db/id[:db.part/user -449537]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -189972]
+ :AssignCast/to #db/id[:db.part/user -189964]
+ :AssignCast/inmethod #db/id[:db.part/user -131424]}
+{:db/id #db/id[:db.part/user -449540]
+ :AssignCast/type #db/id[:db.part/user -119821]
+ :AssignCast/from #db/id[:db.part/user -189974]
+ :AssignCast/to #db/id[:db.part/user -189966]
+ :AssignCast/inmethod #db/id[:db.part/user -131424]}
+{:db/id #db/id[:db.part/user -449543]
+ :AssignCast/type #db/id[:db.part/user -119821]
+ :AssignCast/from #db/id[:db.part/user -190025]
+ :AssignCast/to #db/id[:db.part/user -190031]
+ :AssignCast/inmethod #db/id[:db.part/user -131433]}
+{:db/id #db/id[:db.part/user -449547]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -190095]
+ :AssignCast/to #db/id[:db.part/user -190097]
+ :AssignCast/inmethod #db/id[:db.part/user -131446]}
+{:db/id #db/id[:db.part/user -449550]
+ :AssignCast/type #db/id[:db.part/user -119577]
+ :AssignCast/from #db/id[:db.part/user -190602]
+ :AssignCast/to #db/id[:db.part/user -190598]
+ :AssignCast/inmethod #db/id[:db.part/user -131570]}
+{:db/id #db/id[:db.part/user -449554]
+ :AssignCast/type #db/id[:db.part/user -119737]
+ :AssignCast/from #db/id[:db.part/user -190971]
+ :AssignCast/to #db/id[:db.part/user -190973]
+ :AssignCast/inmethod #db/id[:db.part/user -131608]}
+{:db/id #db/id[:db.part/user -449557]
+ :AssignCast/type #db/id[:db.part/user -119737]
+ :AssignCast/from #db/id[:db.part/user -191054]
+ :AssignCast/to #db/id[:db.part/user -191069]
+ :AssignCast/inmethod #db/id[:db.part/user -131616]}
+{:db/id #db/id[:db.part/user -449561]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -191433]
+ :AssignCast/to #db/id[:db.part/user -191424]
+ :AssignCast/inmethod #db/id[:db.part/user -131665]}
+{:db/id #db/id[:db.part/user -449564]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -192996]
+ :AssignCast/to #db/id[:db.part/user -192998]
+ :AssignCast/inmethod #db/id[:db.part/user -131686]}
+{:db/id #db/id[:db.part/user -449568]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -193759]
+ :AssignCast/to #db/id[:db.part/user -193761]
+ :AssignCast/inmethod #db/id[:db.part/user -131775]}
+{:db/id #db/id[:db.part/user -449571]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -193820]
+ :AssignCast/to #db/id[:db.part/user -193822]
+ :AssignCast/inmethod #db/id[:db.part/user -131785]}
+{:db/id #db/id[:db.part/user -449575]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -193841]
+ :AssignCast/to #db/id[:db.part/user -193835]
+ :AssignCast/inmethod #db/id[:db.part/user -131788]}
+{:db/id #db/id[:db.part/user -449579]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -193845]
+ :AssignCast/to #db/id[:db.part/user -193847]
+ :AssignCast/inmethod #db/id[:db.part/user -131788]}
+{:db/id #db/id[:db.part/user -449582]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -193853]
+ :AssignCast/to #db/id[:db.part/user -193860]
+ :AssignCast/inmethod #db/id[:db.part/user -131790]}
+{:db/id #db/id[:db.part/user -449586]
+ :AssignCast/type #db/id[:db.part/user -119569]
+ :AssignCast/from #db/id[:db.part/user -193877]
+ :AssignCast/to #db/id[:db.part/user -193879]
+ :AssignCast/inmethod #db/id[:db.part/user -131794]}
+{:db/id #db/id[:db.part/user -449590]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -194088]
+ :AssignCast/to #db/id[:db.part/user -194090]
+ :AssignCast/inmethod #db/id[:db.part/user -131883]}
+{:db/id #db/id[:db.part/user -449593]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -194122]
+ :AssignCast/to #db/id[:db.part/user -194124]
+ :AssignCast/inmethod #db/id[:db.part/user -131892]}
+{:db/id #db/id[:db.part/user -449597]
+ :AssignCast/type #db/id[:db.part/user -119899]
+ :AssignCast/from #db/id[:db.part/user -194675]
+ :AssignCast/to #db/id[:db.part/user -194677]
+ :AssignCast/inmethod #db/id[:db.part/user -131974]}
+{:db/id #db/id[:db.part/user -449601]
+ :AssignCast/type #db/id[:db.part/user -119903]
+ :AssignCast/from #db/id[:db.part/user -194843]
+ :AssignCast/to #db/id[:db.part/user -194829]
+ :AssignCast/inmethod #db/id[:db.part/user -131988]}
+{:db/id #db/id[:db.part/user -449605]
+ :AssignCast/type #db/id[:db.part/user -119577]
+ :AssignCast/from #db/id[:db.part/user -195050]
+ :AssignCast/to #db/id[:db.part/user -195040]
+ :AssignCast/inmethod #db/id[:db.part/user -132007]}
+{:db/id #db/id[:db.part/user -449609]
+ :AssignCast/type #db/id[:db.part/user -119571]
+ :AssignCast/from #db/id[:db.part/user -195440]
+ :AssignCast/to #db/id[:db.part/user -195442]
+ :AssignCast/inmethod #db/id[:db.part/user -132050]}
+{:db/id #db/id[:db.part/user -449612]
+ :AssignCast/type #db/id[:db.part/user -119683]
+ :AssignCast/from #db/id[:db.part/user -195467]
+ :AssignCast/to #db/id[:db.part/user -195463]
+ :AssignCast/inmethod #db/id[:db.part/user -132057]}
+{:db/id #db/id[:db.part/user -449616]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -195690]
+ :AssignCast/to #db/id[:db.part/user -195692]
+ :AssignCast/inmethod #db/id[:db.part/user -132097]}
+{:db/id #db/id[:db.part/user -449620]
+ :AssignCast/type #db/id[:db.part/user -119653]
+ :AssignCast/from #db/id[:db.part/user -195730]
+ :AssignCast/to #db/id[:db.part/user -195733]
+ :AssignCast/inmethod #db/id[:db.part/user -132108]}
+{:db/id #db/id[:db.part/user -449623]
+ :AssignCast/type #db/id[:db.part/user -119924]
+ :AssignCast/from #db/id[:db.part/user -196482]
+ :AssignCast/to #db/id[:db.part/user -196484]
+ :AssignCast/inmethod #db/id[:db.part/user -132367]}
+{:db/id #db/id[:db.part/user -449627]
+ :AssignCast/type #db/id[:db.part/user -119477]
+ :AssignCast/from #db/id[:db.part/user -197677]
+ :AssignCast/to #db/id[:db.part/user -197679]
+ :AssignCast/inmethod #db/id[:db.part/user -132596]}
+{:db/id #db/id[:db.part/user -449631]
+ :AssignCast/type #db/id[:db.part/user -119477]
+ :AssignCast/from #db/id[:db.part/user -197685]
+ :AssignCast/to #db/id[:db.part/user -197687]
+ :AssignCast/inmethod #db/id[:db.part/user -132598]}
+{:db/id #db/id[:db.part/user -449635]
+ :AssignCast/type #db/id[:db.part/user -119587]
+ :AssignCast/from #db/id[:db.part/user -198159]
+ :AssignCast/to #db/id[:db.part/user -198161]
+ :AssignCast/inmethod #db/id[:db.part/user -132663]}
+{:db/id #db/id[:db.part/user -449638]
+ :AssignCast/type #db/id[:db.part/user -119503]
+ :AssignCast/from #db/id[:db.part/user -198177]
+ :AssignCast/to #db/id[:db.part/user -198182]
+ :AssignCast/inmethod #db/id[:db.part/user -132665]}
+{:db/id #db/id[:db.part/user -449642]
+ :AssignCast/type #db/id[:db.part/user -119503]
+ :AssignCast/from #db/id[:db.part/user -198192]
+ :AssignCast/to #db/id[:db.part/user -198196]
+ :AssignCast/inmethod #db/id[:db.part/user -132669]}
+{:db/id #db/id[:db.part/user -449646]
+ :AssignCast/type #db/id[:db.part/user -119503]
+ :AssignCast/from #db/id[:db.part/user -198208]
+ :AssignCast/to #db/id[:db.part/user -198213]
+ :AssignCast/inmethod #db/id[:db.part/user -132671]}
+{:db/id #db/id[:db.part/user -449649]
+ :AssignCast/type #db/id[:db.part/user -119503]
+ :AssignCast/from #db/id[:db.part/user -198225]
+ :AssignCast/to #db/id[:db.part/user -198229]
+ :AssignCast/inmethod #db/id[:db.part/user -132673]}
+{:db/id #db/id[:db.part/user -449653]
+ :AssignCast/type #db/id[:db.part/user -119587]
+ :AssignCast/from #db/id[:db.part/user -198242]
+ :AssignCast/to #db/id[:db.part/user -198244]
+ :AssignCast/inmethod #db/id[:db.part/user -132677]}
+{:db/id #db/id[:db.part/user -449656]
+ :AssignCast/type #db/id[:db.part/user -119503]
+ :AssignCast/from #db/id[:db.part/user -198401]
+ :AssignCast/to #db/id[:db.part/user -198405]
+ :AssignCast/inmethod #db/id[:db.part/user -132751]}
+{:db/id #db/id[:db.part/user -449660]
+ :AssignCast/type #db/id[:db.part/user -119406]
+ :AssignCast/from #db/id[:db.part/user -198465]
+ :AssignCast/to #db/id[:db.part/user -198467]
+ :AssignCast/inmethod #db/id[:db.part/user -132755]}
+{:db/id #db/id[:db.part/user -449664]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -198847]
+ :AssignCast/to #db/id[:db.part/user -198841]
+ :AssignCast/inmethod #db/id[:db.part/user -132835]}
+{:db/id #db/id[:db.part/user -449668]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -198859]
+ :AssignCast/to #db/id[:db.part/user -198857]
+ :AssignCast/inmethod #db/id[:db.part/user -132837]}
+{:db/id #db/id[:db.part/user -449671]
+ :AssignCast/type #db/id[:db.part/user -119945]
+ :AssignCast/from #db/id[:db.part/user -199278]
+ :AssignCast/to #db/id[:db.part/user -199276]
+ :AssignCast/inmethod #db/id[:db.part/user -132951]}
+{:db/id #db/id[:db.part/user -449675]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -199339]
+ :AssignCast/to #db/id[:db.part/user -199341]
+ :AssignCast/inmethod #db/id[:db.part/user -132971]}
+{:db/id #db/id[:db.part/user -449678]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -199345]
+ :AssignCast/to #db/id[:db.part/user -199347]
+ :AssignCast/inmethod #db/id[:db.part/user -132971]}
+{:db/id #db/id[:db.part/user -449682]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -199649]
+ :AssignCast/to #db/id[:db.part/user -199653]
+ :AssignCast/inmethod #db/id[:db.part/user -133087]}
+{:db/id #db/id[:db.part/user -449685]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -199651]
+ :AssignCast/to #db/id[:db.part/user -199655]
+ :AssignCast/inmethod #db/id[:db.part/user -133087]}
+{:db/id #db/id[:db.part/user -449689]
+ :AssignCast/type #db/id[:db.part/user -119978]
+ :AssignCast/from #db/id[:db.part/user -199697]
+ :AssignCast/to #db/id[:db.part/user -199699]
+ :AssignCast/inmethod #db/id[:db.part/user -133098]}
+{:db/id #db/id[:db.part/user -449692]
+ :AssignCast/type #db/id[:db.part/user -119980]
+ :AssignCast/from #db/id[:db.part/user -199725]
+ :AssignCast/to #db/id[:db.part/user -199728]
+ :AssignCast/inmethod #db/id[:db.part/user -133107]}
+{:db/id #db/id[:db.part/user -449696]
+ :AssignCast/type #db/id[:db.part/user -119980]
+ :AssignCast/from #db/id[:db.part/user -199734]
+ :AssignCast/to #db/id[:db.part/user -199736]
+ :AssignCast/inmethod #db/id[:db.part/user -133109]}
+{:db/id #db/id[:db.part/user -449701]
+ :AssignCast/type #db/id[:db.part/user -119979]
+ :AssignCast/from #db/id[:db.part/user -199968]
+ :AssignCast/to #db/id[:db.part/user -199960]
+ :AssignCast/inmethod #db/id[:db.part/user -133137]}
+{:db/id #db/id[:db.part/user -449705]
+ :AssignCast/type #db/id[:db.part/user -119979]
+ :AssignCast/from #db/id[:db.part/user -199977]
+ :AssignCast/to #db/id[:db.part/user -199979]
+ :AssignCast/inmethod #db/id[:db.part/user -133139]}
+{:db/id #db/id[:db.part/user -449709]
+ :AssignCast/type #db/id[:db.part/user -119563]
+ :AssignCast/from #db/id[:db.part/user -200039]
+ :AssignCast/to #db/id[:db.part/user -200041]
+ :AssignCast/inmethod #db/id[:db.part/user -133156]}
+{:db/id #db/id[:db.part/user -449713]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -200056]
+ :AssignCast/to #db/id[:db.part/user -200050]
+ :AssignCast/inmethod #db/id[:db.part/user -133160]}
+{:db/id #db/id[:db.part/user -449717]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -200064]
+ :AssignCast/to #db/id[:db.part/user -200066]
+ :AssignCast/inmethod #db/id[:db.part/user -133162]}
+{:db/id #db/id[:db.part/user -449721]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -200347]
+ :AssignCast/to #db/id[:db.part/user -200339]
+ :AssignCast/inmethod #db/id[:db.part/user -133194]}
+{:db/id #db/id[:db.part/user -449725]
+ :AssignCast/type #db/id[:db.part/user -119990]
+ :AssignCast/from #db/id[:db.part/user -200358]
+ :AssignCast/to #db/id[:db.part/user -200341]
+ :AssignCast/inmethod #db/id[:db.part/user -133194]}
+{:db/id #db/id[:db.part/user -449729]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -200349]
+ :AssignCast/to #db/id[:db.part/user -200351]
+ :AssignCast/inmethod #db/id[:db.part/user -133194]}
+{:db/id #db/id[:db.part/user -449732]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -200366]
+ :AssignCast/to #db/id[:db.part/user -200368]
+ :AssignCast/inmethod #db/id[:db.part/user -133194]}
+{:db/id #db/id[:db.part/user -449736]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -200390]
+ :AssignCast/to #db/id[:db.part/user -200382]
+ :AssignCast/inmethod #db/id[:db.part/user -133197]}
+{:db/id #db/id[:db.part/user -449740]
+ :AssignCast/type #db/id[:db.part/user -119990]
+ :AssignCast/from #db/id[:db.part/user -200401]
+ :AssignCast/to #db/id[:db.part/user -200384]
+ :AssignCast/inmethod #db/id[:db.part/user -133197]}
+{:db/id #db/id[:db.part/user -449743]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -200392]
+ :AssignCast/to #db/id[:db.part/user -200394]
+ :AssignCast/inmethod #db/id[:db.part/user -133197]}
+{:db/id #db/id[:db.part/user -449747]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -200411]
+ :AssignCast/to #db/id[:db.part/user -200413]
+ :AssignCast/inmethod #db/id[:db.part/user -133197]}
+{:db/id #db/id[:db.part/user -449750]
+ :AssignCast/type #db/id[:db.part/user -119991]
+ :AssignCast/from #db/id[:db.part/user -200472]
+ :AssignCast/to #db/id[:db.part/user -200470]
+ :AssignCast/inmethod #db/id[:db.part/user -133228]}
+{:db/id #db/id[:db.part/user -449754]
+ :AssignCast/type #db/id[:db.part/user -119987]
+ :AssignCast/from #db/id[:db.part/user -201005]
+ :AssignCast/to #db/id[:db.part/user -201007]
+ :AssignCast/inmethod #db/id[:db.part/user -133271]}
+{:db/id #db/id[:db.part/user -449758]
+ :AssignCast/type #db/id[:db.part/user -119988]
+ :AssignCast/from #db/id[:db.part/user -201066]
+ :AssignCast/to #db/id[:db.part/user -201068]
+ :AssignCast/inmethod #db/id[:db.part/user -133296]}
+{:db/id #db/id[:db.part/user -449762]
+ :AssignCast/type #db/id[:db.part/user -119988]
+ :AssignCast/from #db/id[:db.part/user -201095]
+ :AssignCast/to #db/id[:db.part/user -201093]
+ :AssignCast/inmethod #db/id[:db.part/user -133300]}
+{:db/id #db/id[:db.part/user -449766]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -201099]
+ :AssignCast/to #db/id[:db.part/user -201101]
+ :AssignCast/inmethod #db/id[:db.part/user -133300]}
+{:db/id #db/id[:db.part/user -449770]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -201105]
+ :AssignCast/to #db/id[:db.part/user -201107]
+ :AssignCast/inmethod #db/id[:db.part/user -133300]}
+{:db/id #db/id[:db.part/user -449773]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -201230]
+ :AssignCast/to #db/id[:db.part/user -201224]
+ :AssignCast/inmethod #db/id[:db.part/user -133313]}
+{:db/id #db/id[:db.part/user -449777]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -201285]
+ :AssignCast/to #db/id[:db.part/user -201267]
+ :AssignCast/inmethod #db/id[:db.part/user -133321]}
+{:db/id #db/id[:db.part/user -449781]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -201287]
+ :AssignCast/to #db/id[:db.part/user -201289]
+ :AssignCast/inmethod #db/id[:db.part/user -133321]}
+{:db/id #db/id[:db.part/user -449785]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -201316]
+ :AssignCast/to #db/id[:db.part/user -201312]
+ :AssignCast/inmethod #db/id[:db.part/user -133323]}
+{:db/id #db/id[:db.part/user -449788]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -201326]
+ :AssignCast/to #db/id[:db.part/user -201322]
+ :AssignCast/inmethod #db/id[:db.part/user -133325]}
+{:db/id #db/id[:db.part/user -449792]
+ :AssignCast/type #db/id[:db.part/user -119563]
+ :AssignCast/from #db/id[:db.part/user -201338]
+ :AssignCast/to #db/id[:db.part/user -201341]
+ :AssignCast/inmethod #db/id[:db.part/user -133330]}
+{:db/id #db/id[:db.part/user -449796]
+ :AssignCast/type #db/id[:db.part/user -119992]
+ :AssignCast/from #db/id[:db.part/user -201560]
+ :AssignCast/to #db/id[:db.part/user -201562]
+ :AssignCast/inmethod #db/id[:db.part/user -133395]}
+{:db/id #db/id[:db.part/user -449799]
+ :AssignCast/type #db/id[:db.part/user -119993]
+ :AssignCast/from #db/id[:db.part/user -201731]
+ :AssignCast/to #db/id[:db.part/user -201733]
+ :AssignCast/inmethod #db/id[:db.part/user -133409]}
+{:db/id #db/id[:db.part/user -449803]
+ :AssignCast/type #db/id[:db.part/user -119991]
+ :AssignCast/from #db/id[:db.part/user -201852]
+ :AssignCast/to #db/id[:db.part/user -201854]
+ :AssignCast/inmethod #db/id[:db.part/user -133426]}
+{:db/id #db/id[:db.part/user -449807]
+ :AssignCast/type #db/id[:db.part/user -119995]
+ :AssignCast/from #db/id[:db.part/user -201910]
+ :AssignCast/to #db/id[:db.part/user -201903]
+ :AssignCast/inmethod #db/id[:db.part/user -133430]}
+{:db/id #db/id[:db.part/user -449810]
+ :AssignCast/type #db/id[:db.part/user -119995]
+ :AssignCast/from #db/id[:db.part/user -201916]
+ :AssignCast/to #db/id[:db.part/user -201918]
+ :AssignCast/inmethod #db/id[:db.part/user -133430]}
+{:db/id #db/id[:db.part/user -449814]
+ :AssignCast/type #db/id[:db.part/user -119995]
+ :AssignCast/from #db/id[:db.part/user -201924]
+ :AssignCast/to #db/id[:db.part/user -201926]
+ :AssignCast/inmethod #db/id[:db.part/user -133430]}
+{:db/id #db/id[:db.part/user -449818]
+ :AssignCast/type #db/id[:db.part/user -119995]
+ :AssignCast/from #db/id[:db.part/user -201938]
+ :AssignCast/to #db/id[:db.part/user -201934]
+ :AssignCast/inmethod #db/id[:db.part/user -133432]}
+{:db/id #db/id[:db.part/user -449822]
+ :AssignCast/type #db/id[:db.part/user -119995]
+ :AssignCast/from #db/id[:db.part/user -201956]
+ :AssignCast/to #db/id[:db.part/user -201952]
+ :AssignCast/inmethod #db/id[:db.part/user -133435]}
+{:db/id #db/id[:db.part/user -449825]
+ :AssignCast/type #db/id[:db.part/user -119995]
+ :AssignCast/from #db/id[:db.part/user -201991]
+ :AssignCast/to #db/id[:db.part/user -201993]
+ :AssignCast/inmethod #db/id[:db.part/user -133444]}
+{:db/id #db/id[:db.part/user -449829]
+ :AssignCast/type #db/id[:db.part/user -119995]
+ :AssignCast/from #db/id[:db.part/user -202172]
+ :AssignCast/to #db/id[:db.part/user -202174]
+ :AssignCast/inmethod #db/id[:db.part/user -133450]}
+{:db/id #db/id[:db.part/user -449830]
+ :AssignCast/type #db/id[:db.part/user -119404]
+ :AssignCast/from #db/id[:db.part/user -148730]
+ :AssignCast/to #db/id[:db.part/user -148718]
+ :AssignCast/inmethod #db/id[:db.part/user -133480]}
+{:db/id #db/id[:db.part/user -449832]
+ :AssignCast/type #db/id[:db.part/user -119476]
+ :AssignCast/from #db/id[:db.part/user -148732]
+ :AssignCast/to #db/id[:db.part/user -148722]
+ :AssignCast/inmethod #db/id[:db.part/user -133480]}
+{:db/id #db/id[:db.part/user -449833]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -150587]
+ :AssignCast/to #db/id[:db.part/user -150589]
+ :AssignCast/inmethod #db/id[:db.part/user -133557]}
+{:db/id #db/id[:db.part/user -449835]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -151216]
+ :AssignCast/to #db/id[:db.part/user -151167]
+ :AssignCast/inmethod #db/id[:db.part/user -133564]}
+{:db/id #db/id[:db.part/user -449836]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -151220]
+ :AssignCast/to #db/id[:db.part/user -151169]
+ :AssignCast/inmethod #db/id[:db.part/user -133564]}
+{:db/id #db/id[:db.part/user -449838]
+ :AssignCast/type #db/id[:db.part/user -119488]
+ :AssignCast/from #db/id[:db.part/user -155329]
+ :AssignCast/to #db/id[:db.part/user -155331]
+ :AssignCast/inmethod #db/id[:db.part/user -133807]}
+{:db/id #db/id[:db.part/user -449839]
+ :AssignCast/type #db/id[:db.part/user -119540]
+ :AssignCast/from #db/id[:db.part/user -157610]
+ :AssignCast/to #db/id[:db.part/user -157596]
+ :AssignCast/inmethod #db/id[:db.part/user -133839]}
+{:db/id #db/id[:db.part/user -449841]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -161784]
+ :AssignCast/to #db/id[:db.part/user -161780]
+ :AssignCast/inmethod #db/id[:db.part/user -134032]}
+{:db/id #db/id[:db.part/user -449843]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -163982]
+ :AssignCast/to #db/id[:db.part/user -163956]
+ :AssignCast/inmethod #db/id[:db.part/user -134060]}
+{:db/id #db/id[:db.part/user -449845]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -164161]
+ :AssignCast/to #db/id[:db.part/user -164147]
+ :AssignCast/inmethod #db/id[:db.part/user -134070]}
+{:db/id #db/id[:db.part/user -449847]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -164165]
+ :AssignCast/to #db/id[:db.part/user -164149]
+ :AssignCast/inmethod #db/id[:db.part/user -134070]}
+{:db/id #db/id[:db.part/user -449849]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -164181]
+ :AssignCast/to #db/id[:db.part/user -164183]
+ :AssignCast/inmethod #db/id[:db.part/user -134070]}
+{:db/id #db/id[:db.part/user -449851]
+ :AssignCast/type #db/id[:db.part/user -119587]
+ :AssignCast/from #db/id[:db.part/user -166971]
+ :AssignCast/to #db/id[:db.part/user -166969]
+ :AssignCast/inmethod #db/id[:db.part/user -134098]}
+{:db/id #db/id[:db.part/user -449853]
+ :AssignCast/type #db/id[:db.part/user -119495]
+ :AssignCast/from #db/id[:db.part/user -167260]
+ :AssignCast/to #db/id[:db.part/user -167262]
+ :AssignCast/inmethod #db/id[:db.part/user -134101]}
+{:db/id #db/id[:db.part/user -449855]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -167568]
+ :AssignCast/to #db/id[:db.part/user -167566]
+ :AssignCast/inmethod #db/id[:db.part/user -134180]}
+{:db/id #db/id[:db.part/user -449856]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -167577]
+ :AssignCast/to #db/id[:db.part/user -167575]
+ :AssignCast/inmethod #db/id[:db.part/user -134182]}
+{:db/id #db/id[:db.part/user -449858]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -167587]
+ :AssignCast/to #db/id[:db.part/user -167589]
+ :AssignCast/inmethod #db/id[:db.part/user -134185]}
+{:db/id #db/id[:db.part/user -449860]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -167591]
+ :AssignCast/to #db/id[:db.part/user -167593]
+ :AssignCast/inmethod #db/id[:db.part/user -134185]}
+{:db/id #db/id[:db.part/user -449862]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -167595]
+ :AssignCast/to #db/id[:db.part/user -167597]
+ :AssignCast/inmethod #db/id[:db.part/user -134185]}
+{:db/id #db/id[:db.part/user -449864]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -167599]
+ :AssignCast/to #db/id[:db.part/user -167601]
+ :AssignCast/inmethod #db/id[:db.part/user -134185]}
+{:db/id #db/id[:db.part/user -449866]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -167603]
+ :AssignCast/to #db/id[:db.part/user -167605]
+ :AssignCast/inmethod #db/id[:db.part/user -134185]}
+{:db/id #db/id[:db.part/user -449868]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -167632]
+ :AssignCast/to #db/id[:db.part/user -167630]
+ :AssignCast/inmethod #db/id[:db.part/user -134189]}
+{:db/id #db/id[:db.part/user -449870]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -167644]
+ :AssignCast/to #db/id[:db.part/user -167642]
+ :AssignCast/inmethod #db/id[:db.part/user -134191]}
+{:db/id #db/id[:db.part/user -449872]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -167739]
+ :AssignCast/to #db/id[:db.part/user -167741]
+ :AssignCast/inmethod #db/id[:db.part/user -134214]}
+{:db/id #db/id[:db.part/user -449874]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -172751]
+ :AssignCast/to #db/id[:db.part/user -172753]
+ :AssignCast/inmethod #db/id[:db.part/user -134371]}
+{:db/id #db/id[:db.part/user -449876]
+ :AssignCast/type #db/id[:db.part/user -119588]
+ :AssignCast/from #db/id[:db.part/user -173633]
+ :AssignCast/to #db/id[:db.part/user -173635]
+ :AssignCast/inmethod #db/id[:db.part/user -134375]}
+{:db/id #db/id[:db.part/user -449878]
+ :AssignCast/type #db/id[:db.part/user -119399]
+ :AssignCast/from #db/id[:db.part/user -176779]
+ :AssignCast/to #db/id[:db.part/user -176775]
+ :AssignCast/inmethod #db/id[:db.part/user -134408]}
+{:db/id #db/id[:db.part/user -449881]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -178036]
+ :AssignCast/to #db/id[:db.part/user -178038]
+ :AssignCast/inmethod #db/id[:db.part/user -134422]}
+{:db/id #db/id[:db.part/user -449884]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -178046]
+ :AssignCast/to #db/id[:db.part/user -178048]
+ :AssignCast/inmethod #db/id[:db.part/user -134423]}
+{:db/id #db/id[:db.part/user -449886]
+ :AssignCast/type #db/id[:db.part/user -119551]
+ :AssignCast/from #db/id[:db.part/user -178056]
+ :AssignCast/to #db/id[:db.part/user -178058]
+ :AssignCast/inmethod #db/id[:db.part/user -134424]}
+{:db/id #db/id[:db.part/user -449889]
+ :AssignCast/type #db/id[:db.part/user -119472]
+ :AssignCast/from #db/id[:db.part/user -178064]
+ :AssignCast/to #db/id[:db.part/user -178068]
+ :AssignCast/inmethod #db/id[:db.part/user -134425]}
+{:db/id #db/id[:db.part/user -449891]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -178064]
+ :AssignCast/to #db/id[:db.part/user -178070]
+ :AssignCast/inmethod #db/id[:db.part/user -134425]}
+{:db/id #db/id[:db.part/user -449894]
+ :AssignCast/type #db/id[:db.part/user -119533]
+ :AssignCast/from #db/id[:db.part/user -178064]
+ :AssignCast/to #db/id[:db.part/user -178072]
+ :AssignCast/inmethod #db/id[:db.part/user -134425]}
+{:db/id #db/id[:db.part/user -449896]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -179787]
+ :AssignCast/to #db/id[:db.part/user -179789]
+ :AssignCast/inmethod #db/id[:db.part/user -134444]}
+{:db/id #db/id[:db.part/user -449899]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -179785]
+ :AssignCast/to #db/id[:db.part/user -179791]
+ :AssignCast/inmethod #db/id[:db.part/user -134444]}
+{:db/id #db/id[:db.part/user -449902]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -179885]
+ :AssignCast/to #db/id[:db.part/user -179881]
+ :AssignCast/inmethod #db/id[:db.part/user -134451]}
+{:db/id #db/id[:db.part/user -449904]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -179887]
+ :AssignCast/to #db/id[:db.part/user -179883]
+ :AssignCast/inmethod #db/id[:db.part/user -134451]}
+{:db/id #db/id[:db.part/user -449907]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -179915]
+ :AssignCast/to #db/id[:db.part/user -179911]
+ :AssignCast/inmethod #db/id[:db.part/user -134453]}
+{:db/id #db/id[:db.part/user -449909]
+ :AssignCast/type #db/id[:db.part/user -119504]
+ :AssignCast/from #db/id[:db.part/user -179917]
+ :AssignCast/to #db/id[:db.part/user -179913]
+ :AssignCast/inmethod #db/id[:db.part/user -134453]}
+{:db/id #db/id[:db.part/user -449911]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -181316]
+ :AssignCast/to #db/id[:db.part/user -181301]
+ :AssignCast/inmethod #db/id[:db.part/user -134510]}
+{:db/id #db/id[:db.part/user -449914]
+ :AssignCast/type #db/id[:db.part/user -119829]
+ :AssignCast/from #db/id[:db.part/user -181378]
+ :AssignCast/to #db/id[:db.part/user -181368]
+ :AssignCast/inmethod #db/id[:db.part/user -134512]}
+{:db/id #db/id[:db.part/user -449917]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -181384]
+ :AssignCast/to #db/id[:db.part/user -181370]
+ :AssignCast/inmethod #db/id[:db.part/user -134512]}
+{:db/id #db/id[:db.part/user -449919]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -181382]
+ :AssignCast/to #db/id[:db.part/user -181372]
+ :AssignCast/inmethod #db/id[:db.part/user -134512]}
+{:db/id #db/id[:db.part/user -449922]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -181413]
+ :AssignCast/to #db/id[:db.part/user -181411]
+ :AssignCast/inmethod #db/id[:db.part/user -134513]}
+{:db/id #db/id[:db.part/user -449925]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -181716]
+ :AssignCast/to #db/id[:db.part/user -181714]
+ :AssignCast/inmethod #db/id[:db.part/user -134520]}
+{:db/id #db/id[:db.part/user -449927]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -181765]
+ :AssignCast/to #db/id[:db.part/user -181753]
+ :AssignCast/inmethod #db/id[:db.part/user -134522]}
+{:db/id #db/id[:db.part/user -449930]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -181767]
+ :AssignCast/to #db/id[:db.part/user -181755]
+ :AssignCast/inmethod #db/id[:db.part/user -134522]}
+{:db/id #db/id[:db.part/user -449932]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -181769]
+ :AssignCast/to #db/id[:db.part/user -181761]
+ :AssignCast/inmethod #db/id[:db.part/user -134522]}
+{:db/id #db/id[:db.part/user -449935]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -181775]
+ :AssignCast/to #db/id[:db.part/user -181777]
+ :AssignCast/inmethod #db/id[:db.part/user -134522]}
+{:db/id #db/id[:db.part/user -449937]
+ :AssignCast/type #db/id[:db.part/user -119564]
+ :AssignCast/from #db/id[:db.part/user -182118]
+ :AssignCast/to #db/id[:db.part/user -182104]
+ :AssignCast/inmethod #db/id[:db.part/user -134532]}
+{:db/id #db/id[:db.part/user -449940]
+ :AssignCast/type #db/id[:db.part/user -119713]
+ :AssignCast/from #db/id[:db.part/user -182152]
+ :AssignCast/to #db/id[:db.part/user -182150]
+ :AssignCast/inmethod #db/id[:db.part/user -134533]}
+{:db/id #db/id[:db.part/user -449943]
+ :AssignCast/type #db/id[:db.part/user -119771]
+ :AssignCast/from #db/id[:db.part/user -184613]
+ :AssignCast/to #db/id[:db.part/user -184609]
+ :AssignCast/inmethod #db/id[:db.part/user -134553]}
+{:db/id #db/id[:db.part/user -449945]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -184666]
+ :AssignCast/to #db/id[:db.part/user -184656]
+ :AssignCast/inmethod #db/id[:db.part/user -134557]}
+{:db/id #db/id[:db.part/user -449948]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -184670]
+ :AssignCast/to #db/id[:db.part/user -184658]
+ :AssignCast/inmethod #db/id[:db.part/user -134557]}
+{:db/id #db/id[:db.part/user -449950]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -184674]
+ :AssignCast/to #db/id[:db.part/user -184660]
+ :AssignCast/inmethod #db/id[:db.part/user -134557]}
+{:db/id #db/id[:db.part/user -449952]
+ :AssignCast/type #db/id[:db.part/user -119771]
+ :AssignCast/from #db/id[:db.part/user -184682]
+ :AssignCast/to #db/id[:db.part/user -184684]
+ :AssignCast/inmethod #db/id[:db.part/user -134557]}
+{:db/id #db/id[:db.part/user -449956]
+ :AssignCast/type #db/id[:db.part/user -119879]
+ :AssignCast/from #db/id[:db.part/user -190714]
+ :AssignCast/to #db/id[:db.part/user -190710]
+ :AssignCast/inmethod #db/id[:db.part/user -134609]}
+{:db/id #db/id[:db.part/user -449959]
+ :AssignCast/type #db/id[:db.part/user -119879]
+ :AssignCast/from #db/id[:db.part/user -190727]
+ :AssignCast/to #db/id[:db.part/user -190723]
+ :AssignCast/inmethod #db/id[:db.part/user -134610]}
+{:db/id #db/id[:db.part/user -449961]
+ :AssignCast/type #db/id[:db.part/user -119771]
+ :AssignCast/from #db/id[:db.part/user -191534]
+ :AssignCast/to #db/id[:db.part/user -191529]
+ :AssignCast/inmethod #db/id[:db.part/user -134621]}
+{:db/id #db/id[:db.part/user -449964]
+ :AssignCast/type #db/id[:db.part/user -119771]
+ :AssignCast/from #db/id[:db.part/user -191527]
+ :AssignCast/to #db/id[:db.part/user -191532]
+ :AssignCast/inmethod #db/id[:db.part/user -134621]}
+{:db/id #db/id[:db.part/user -449967]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -194542]
+ :AssignCast/to #db/id[:db.part/user -194540]
+ :AssignCast/inmethod #db/id[:db.part/user -134630]}
+{:db/id #db/id[:db.part/user -449970]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -197067]
+ :AssignCast/to #db/id[:db.part/user -197063]
+ :AssignCast/inmethod #db/id[:db.part/user -134652]}
+{:db/id #db/id[:db.part/user -449973]
+ :AssignCast/type #db/id[:db.part/user -119402]
+ :AssignCast/from #db/id[:db.part/user -198960]
+ :AssignCast/to #db/id[:db.part/user -198954]
+ :AssignCast/inmethod #db/id[:db.part/user -134665]}
+{:db/id #db/id[:db.part/user -449976]
+ :AssignCast/type #db/id[:db.part/user -119989]
+ :AssignCast/from #db/id[:db.part/user -200091]
+ :AssignCast/to #db/id[:db.part/user -200089]
+ :AssignCast/inmethod #db/id[:db.part/user -134672]}

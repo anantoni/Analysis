@@ -1,0 +1,261 @@
+[
+[ (VarType ?var ?type)
+  [?varType :Var-Type/ref ?var]
+  [?varType :Var-Type/type ?type] ]
+
+[ (ThisVar ?method ?this)
+  [?thisVar :ThisVar/method ?method]
+  [?thisVar :ThisVar/var ?this] ]
+
+[ (HeapAllocationType ?heap ?type)
+  [?heapAllocationType :HeapAllocation-Type/heap ?heap]
+  [?heapAllocationType :HeapAllocation-Type/type ?type] ]
+
+[ (MethodDeclaration ?signature ?method)
+  [?methodDeclaration :MethodDeclaration/signature ?signature]
+  [?methodDeclaration :MethodDeclaration/ref ?method] ]
+
+[ (AssignCompatible ?target ?source)
+  [?assignCompatible :AssignCompatible/target ?target]
+  [?assignCompatible :AssignCompatible/source ?source] ]
+
+[ (ComponentType ?arrayType ?componentType)
+  [?componentType :ComponentType/arrayType ?arrayType]
+  [?componentType :ComponentType/componentType ?componentType] ]
+
+[ (Reachable ?method)
+  [?mainMethodDeclaration :MainMethodDeclaration/method ?method] ]
+
+[ (Reachable ?method) 
+  [?implicitReachable :ImplicitReachable/sig ?method] ]
+
+[ (Reachable ?clinit)
+  [?initializedClass :InitializedClass/classOrInterface ?class]
+  [?classInitializer :ClassInitializer/type ?class]
+  [?classInitializer :ClassInitializer/method ?clinit] ] 
+
+[ (Reachable ?tomethod)
+  (CallGraphEdge _ ?tomethod) ]
+
+[ (VirtualMethodInvocation ?invocation ?signature ?inmethod)
+  [?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]  
+  [?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]
+  [?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature] ]
+
+[ (VirtualMethodInvocationBase ?invocation ?base )
+  [?virtualMethodInvocationBase :VirtualMethodInvocation-Base/invocation ?invocation]
+  [?virtualMethodInvocationBase :VirtualMethodInvocation-Base/base ?base] ]
+
+[ (MethodSignatureSimplename ?signature ?simplename)
+  [?methodSignatureSimplename :MethodSignature-SimpleName/signature ?signature]
+  [?methodSignatureSimplename :MethodSignature-SimpleName/simplename ?simplename] ]
+  
+[ (MethodSignatureDescriptor ?signature ?descriptor)
+  [?methodSignatureDescriptor :MethodSignature-Descriptor/signature ?signature]
+  [?methodSignatureDescriptor :MethodSignature-Descriptor/descriptor ?descriptor] ]
+
+[ (MethodLookup ?simplename ?descriptor ?type ?tomethod)
+  [?methodLookup :MethodLookup/simplename ?simplename]
+  [?methodLookup :MethodLookup/descriptor ?descriptor]
+  [?methodLookup :MethodLookup/type ?type]
+  [?methodLookup :MethodLookup/method ?tomethod] ]
+
+[ (SpecialMethodInvocationIn ?invocation ?inmethod) 
+  [?specialMethodInvocationIn :SpecialMethodInvocation-In/inmethod ?inmethod]
+  [?specialMethodInvocationIn :SpecialMethodInvocation-In/invocation ?invocation] ]
+
+[ (SpecialMethodInvocationBase ?invocation ?base)
+  [?specialMethodInvocationBase :SpecialMethodInvocation-Base/invocation ?invocation]
+  [?specialMethodInvocationBase :SpecialMethodInvocation-Base/base ?base] ]
+
+[ (SpecialMethodInvocationSignature ?invocation ?signature)
+  [?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/invocation ?invocation]
+  [?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/signature ?signature] ]
+
+[ (StaticMethodInvocation ?invocation ?signature ?inmethod)
+  [?staticMethodInvocation :StaticMethodInvocation/inmethod ?inmethod]
+  [?staticMethodInvocation :StaticMethodInvocation/invocation ?invocation]
+  [?staticMethodInvocation :StaticMethodInvocation/signature ?signature] ]
+
+[ (LoadInstanceField ?base ?signature ?to ?inmethod)
+  [?loadInstanceField :LoadInstanceField/inmethod ?inmethod]
+  [?loadInstanceField :LoadInstanceField/sig ?fieldsig]
+  [?loadInstanceField :LoadInstanceField/base ?base]
+  [?loadInstanceField :LoadInstanceField/to ?to] ]
+
+[ (LoadStaticField ?signature ?to ?inmethod)
+  [?loadStaticField :LoadStaticField/inmethod ?inmethod]
+  [?loadStaticField :LoadStaticField/sig ?fieldsig]
+  [?loadStaticField :LoadStaticField/to ?to] ]
+
+[ (LoadArrayIndex ?base ?to ?inmethod)
+  [?loadArrayIndex :LoadArrayIndex/inmethod ?inmethod]                    
+  [?loadArrayIndex :LoadArrayIndex/to ?to]
+  [?loadArrayIndex :LoadArrayIndex/base ?base] ]
+
+[ (StoreInstanceField ?from ?base ?signature ?inmethod)
+  [?storeInstanceField :StoreInstanceField/inmethod ?inmethod]
+  [?storeInstanceField :StoreInstanceField/base ?base]
+  [?storeInstanceField :StoreInstanceField/from ?from]
+  [?storeInstanceField :StoreInstanceField/signature ?fieldsig] ]
+
+[ (StoreStaticField ?from ?signature ?inmethod)
+  [?storeStaticField :StoreStaticField/inmethod ?inmethod]                   
+  [?storeStaticField :StoreStaticField/signature ?fieldsig]
+  [?storeStaticField :StoreStaticField/from ?from] ]
+
+[ (StoreArrayIndex ?from ?base ?inmethod)
+  [?storeArrayIndex :StoreArrayIndex/inmethod ?inmethod]
+  [?storeArrayIndex :StoreArrayIndex/from ?from]
+  [?storeArrayIndex :StoreArrayIndex/base ?base] ]
+
+[ (AssignNormalHeapAllocation ?heap ?var ?inmethod)
+  [?assignNormalHeapAllocation :AssignNormalHeapAllocation/inmethod ?inmethod]
+  [?assignNormalHeapAllocation :AssignNormalHeapAllocation/heap ?heap]
+  [?assignNormalHeapAllocation :AssignNormalHeapAllocation/var ?var] ]  
+
+[ (AssignAuxiliaryHeapAllocation ?heap ?var ?inmethod)
+  [?assignAuxiliaryHeapAllocation :AssignAuxiliaryHeapAllocation/inmethod ?inmethod]
+  [?assignAuxiliaryHeapAllocation :AssignAuxiliaryHeapAllocation/heap ?heap]
+  [?assignAuxiliaryHeapAllocation :AssignAuxiliaryHeapAllocation/var ?var] ]
+  
+[ (AssignContextInsensitiveHeapAllocation ?heap ?var ?inmethod)
+  [?assignContextInsensitiveHeapAllocation :AssignContextInsensitiveHeapAllocation/inmethod ?inmethod]
+  [?assignContextInsensitiveHeapAllocation :AssignContextInsensitiveHeapAllocation/heap ?heap]
+  [?assignContextInsensitiveHeapAllocation :AssignContextInsensitiveHeapAllocation/var ?var] ]
+
+[ (AssignLocal ?from ?to ?inmethod)
+  [?assignLocal :AssignLocal/inmethod ?inmethod]
+  [?assignLocal :AssignLocal/to ?to]
+  [?assignLocal :AssignLocal/from ?from] ]      
+
+[ (AssignCast ?type ?form ?to ?inmethod)
+  [?assignCast :AssignCast/inmethod ?inmethod]
+  [?assignCast :AssignCast/type ?type]
+  [?assignCast :AssignCast/from ?from]
+  [?assignCast :AssignCast/to ?to] ]  
+            
+[ (Assign ?type ?from ?to)
+  (Reachable ?inmethod)
+  (AssignCast ?type ?form ?to ?inmethod) ] 
+
+[ (FormalParam ?index ?method ?formal)
+  [?formalParam :FormalParam/method ?method]
+  [?formalParam :FormalParam/index ?index]
+  [?formalParam :FormalParam/var ?formal] ]
+
+[ (ActualParam ?index ?invocation ?actual)
+  [?actualParam :ActualParam/invocation ?invocation]
+  [?actualParam :ActualParam/index ?index]
+  [?actualParam :ActualParam/var ?actual] ]
+
+[ (Assign ?type ?actual ?formal) 
+  (FormalParam ?index ?method ?formal)
+  (ActualParam ?index ?invocation ?actual)
+  (VarType ?formal ?type)
+  (CallGraphEdge ?invocation ?method) ]
+
+[ (AssignReturnValue ?invocation ?local)
+  [?assignReturnValue :AssignReturnValue/invocation ?invocation]
+  [?assignReturnValue :AssignReturnValue/to ?local] ]
+
+[ (ReturnVar ?return ?method)
+  [?returnVar :ReturnVar/method ?method] 
+  [?returnVar :ReturnVar/var ?return] ]
+
+[ (Assign ?type ?return ?local)
+  (ReturnVar ?return ?method)
+  (CallGraphEdge ?invocation ?method)
+  (VarType ?local ?type) 
+  (AssignReturnValue ?invocation ?local)]
+
+[ (VarPointsTo ?heap ?var)
+  (Reachable ?inmethod)
+  (AssignNormalHeapAllocation ?heap ?var ?inmethod) ]
+
+[ (VarPointsTo ?heap ?var)
+  (Reachable ?inmethod)
+  (AssignAuxiliaryHeapAllocation ?heap ?var ?inmethod) ]
+
+[ (VarPointsTo ?heap ?var)
+  (Reachable ?inmethod)
+  (AssignContextInsensitiveHeapAllocation ?heap ?var ?inmethod) ]
+
+[ (VarPointsTo ?heap ?this)
+  (Reachable ?inmethod)
+  (VirtualMethodInvocation ?invocation ?signature ?inmethod)
+  (VirtualMethodInvocationBase ?invocation ?base)
+  (VarPointsTo ?heap ?base)
+  (HeapAllocationType ?heap ?type)
+  (MethodSignatureSimplename ?signature ?simplename)
+  (MethodSignatureDescriptor ?signature ?descriptor)
+  (ThisVar ?tomethod ?this)
+  (MethodLookup ?simplename ?descriptor ?type ?tomethod) ]
+
+[ (VarPointsTo ?heap ?this)
+  (Reachable ?inmethod)
+  (SpecialMethodInvocationIn ?invocation ?inmethod)
+  (SpecialMethodInvocationBase ?invocation ?base)
+  (VarPointsTo ?heap ?base)
+  (SpecialMethodInvocationSignature ?invocation ?signature)
+  (ThisVar ?tomethod ?this)
+  (MethodDeclaration ?signature ?tomethod) ]
+
+[ (VarPointsTo ?heap ?to)
+  (Reachable ?inmethod)
+  (AssignLocal ?from ?to ?inmethod)
+  (VarPointsTo ?heap ?from) ]
+
+[ (VarPointsTo ?heap ?to)
+  (Reachable ?inmethod)
+  (LoadInstanceField ?base ?signature ?to ?inmethod)
+  (VarPointsTo ?heapbase ?base)
+  (InstanceFieldPointsTo ?heapbase ?fieldsig ?heap) ]
+
+[ (VarPointsTo ?heap ?to)
+  (Reachable ?inmethod)
+  (LoadStaticField ?signature ?to ?inmethod)
+  (StaticFieldPointsTo ?fieldsig ?heap) ]
+
+[ (VarPointsTo ?heap ?to)
+  (Assign ?type ?from ?to)
+  (VarPointsTo ?heap ?from)
+  (HeapAllocationType ?heap ?heaptype)
+  (AssignCompatible ?type ?heaptype) ]
+
+[ (VarPointsTo ?heap ?to)
+  (Reachable ?inmethod)
+  (LoadArrayIndex ?base ?to ?inmethod)
+  (VarPointsTo ?heapbase ?base)
+  (ArrayIndexPointsTo ?heapbase ?heap)
+  (VarType ?to ?type)
+  (HeapAllocationType ?heapbase ?heapbasetype)
+  (ComponentType ?heapbasetype ?basecomponenttype)
+  (AssignCompatible ?type ?basecomponenttype) ]      
+
+[ (CallGraphEdge ?invocation ?tomethod)
+  (Reachable ?inmethod)
+  (StaticMethodInvocation ?invocation ?signature ?inmethod)
+  (MethodDeclaration ?signature ?tomethod) ]	
+
+[ (StaticFieldPointsTo ?fieldsig ?heap)
+  (Reachable ?inmethod)
+  (StoreStaticField ?from ?signature ?inmethod)
+  (VarPointsTo ?heap ?from) ]
+
+[ (InstanceFieldPointsTo ?heapbase ?fieldsig ?heap)
+  (Reachable ?inmethod)
+  (StoreInstanceField ?from ?base ?signature ?inmethod)
+  (VarPointsTo ?heapbase ?base)
+  (VarPointsTo ?heap ?from) ] 
+
+[ (ArrayIndexPointsTo ?heapbase ?heap)
+  (Reachable ?inmethod)
+  (StoreArrayIndex ?from ?base ?inmethod)
+  (VarPointsTo ?heapbase ?base)
+  (VarPointsTo ?heap ?from)
+  (HeapAllocationType ?heap ?heaptype)
+  (HeapAllocationType ?heapbase ?heapbasetype)
+  (ComponentType ?heapbasetype ?componenttype)
+  (AssignCompatible ?componenttype ?heaptype) ]   
+]

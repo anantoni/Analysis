@@ -1,0 +1,18 @@
+{:db/id #db/id[:db.part/user -497247]
+ :ImplicitReachable/sig #db/id[:db.part/user -123980]}
+{:db/id #db/id[:db.part/user -497248]
+ :ImplicitReachable/sig #db/id[:db.part/user -126534]}
+{:db/id #db/id[:db.part/user -497249]
+ :ImplicitReachable/sig #db/id[:db.part/user -126536]}
+{:db/id #db/id[:db.part/user -497250]
+ :ImplicitReachable/sig #db/id[:db.part/user -126538]}
+{:db/id #db/id[:db.part/user -497251]
+ :ImplicitReachable/sig #db/id[:db.part/user -126539]}
+{:db/id #db/id[:db.part/user -497252]
+ :ImplicitReachable/sig #db/id[:db.part/user -126905]}
+{:db/id #db/id[:db.part/user -497253]
+ :ImplicitReachable/sig #db/id[:db.part/user -128229]}
+{:db/id #db/id[:db.part/user -497254]
+ :ImplicitReachable/sig #db/id[:db.part/user -128430]}
+{:db/id #db/id[:db.part/user -497255]
+ :ImplicitReachable/sig #db/id[:db.part/user -133688]}

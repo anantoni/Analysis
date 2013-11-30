@@ -1,0 +1,43 @@
+#!/bin/bash
+
+FILES="basic-input-facts"
+
+for file in $(find $FILES -type f)
+do
+  if [[ "${file##*/}" == "Var-Type.facts" ]] || [[ "${file##*/}" == "Var-DeclaringMethod.facts" ]]; then
+    echo ${file##*/}
+    sed '/^  java/d;/^  <java/d' $file > ${file##*/}
+
+  elif [[ "${file##*/}" == "FormalParam.facts" ]] || [[ "${file##*/}" == "ActualParam.facts" ]] || [[ "${file##*/}" == "ThisVar.facts" ]]; then
+    echo ${file##*/}
+    sed '/, java/d;/, <java/d' $file > ${file##*/}
+
+  elif [[ "${file##*/}" == "AssignHeapAllocation.facts" ]] || [[ "${file##*/}" == "AssignNormalHeapAllocation.facts" ]] || [[ "${file##*/}" == "AssignAuxiliaryHeapAllocation.facts" ]] || [[ "${file##*/}" == "AssignContextInsensitiveHeapAllocation.facts" ]]; then
+    sed '/.*, java.*,.*/d;/.*, <java.*,.*/d' $file > ${file##*/}
+
+  elif [[ "${file##*/}" == "ReturnVar.facts" ]]; then
+    sed '/^  java/d;/^  <java/d' $file > ${file##*/}
+
+  else
+    cp $file .
+  fi
+done
+cat /dev/null > SpecialMethodInvocation-Base.facts 
+cat /dev/null > SpecialMethodInvocation-In.facts 
+cat /dev/null > SpecialMethodInvocation-Signature.facts
+cat /dev/null > VirtualMethodInvocation-Signature.facts
+cat /dev/null > VirtualMethodInvocation-In.facts
+cat /dev/null > VirtualMethodInvocation.facts
+cat /dev/null > VirtualMethodInvocation-Base.facts
+cat /dev/null > LoadInstanceField.facts
+cat /dev/null > LoadStaticField.facts
+cat /dev/null > LoadArrayIndex.facts
+cat /dev/null > StoreArrayIndex.facts
+cat /dev/null > StoreInstanceField.facts
+cat /dev/null > StoreStaticField.facts
+cat /dev/null > AssignReturnValue.facts
+cat /dev/null > AssignLocal.facts
+cat /dev/null > AssignCast.facts
+
+
+

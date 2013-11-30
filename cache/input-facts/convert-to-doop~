@@ -1,0 +1,3 @@
+cp *.facts doop_facts/
+sed -i 's/, /	/' doop_facts/*.facts
+sed -i 's/^  //' doop_facts/*.facts  

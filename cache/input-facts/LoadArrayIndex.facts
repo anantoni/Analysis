@@ -1,0 +1,688 @@
+  java.lang.String.getBTCConverter/r1, java.lang.String.getBTCConverter/r2, <java.lang.String: sun.io.ByteToCharConverter getBTCConverter(java.lang.String)>
+  <java.lang.String: void <init>(java.lang.String)>/$r4, <java.lang.String: void <init>(java.lang.String)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.String: void <init>(java.lang.String)>
+  java.lang.String.moveToFront/r0, java.lang.String.moveToFront/r1, <java.lang.String: void moveToFront(java.lang.Object[],int)>
+  java.lang.String.moveToFront/r0, java.lang.String.moveToFront/$r2, <java.lang.String: void moveToFront(java.lang.Object[],int)>
+  <java.lang.String: void <init>(byte[],int,int,sun.io.ByteToCharConverter)>/$r13, <java.lang.String: void <init>(byte[],int,int,sun.io.ByteToCharConverter)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.String: void <init>(byte[],int,int,sun.io.ByteToCharConverter)>
+  <java.lang.String: byte[] getBytes(sun.io.CharToByteConverter)>/r2, <java.lang.String: byte[] getBytes(sun.io.CharToByteConverter)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.String: byte[] getBytes(sun.io.CharToByteConverter)>
+  <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>/r6, <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>/$r22, <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>
+  <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>/r8, <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>/$r25, <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>
+  <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>/r8, <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>/$r29, <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>
+  <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>/r5, <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Locale: java.lang.String getDisplayName(java.util.Locale)>
+  java.io.ObjectInputStream.resolveProxyClass/r1, java.io.ObjectInputStream.resolveProxyClass/$r5, <java.io.ObjectInputStream: java.lang.Class resolveProxyClass(java.lang.String[])>
+  java.io.ObjectInputStream.inputObject/$r63, java.io.ObjectInputStream.inputObject/$r64, <java.io.ObjectInputStream: int inputObject(boolean)>
+  java.io.ObjectInputStream.inputObject/$r70, java.io.ObjectInputStream.inputObject/r71, <java.io.ObjectInputStream: int inputObject(boolean)>
+  java.io.ObjectInputStream.inputObject/$r97, java.io.ObjectInputStream.inputObject/$r98, <java.io.ObjectInputStream: int inputObject(boolean)>
+  java.io.ObjectInputStream.inputObject/$r101, java.io.ObjectInputStream.inputObject/$r102, <java.io.ObjectInputStream: int inputObject(boolean)>
+  java.io.ObjectInputStream.inputObject/$r103, java.io.ObjectInputStream.inputObject/$r104, <java.io.ObjectInputStream: int inputObject(boolean)>
+  java.io.ObjectInputStream.inputObject/$r105, java.io.ObjectInputStream.inputObject/$r106, <java.io.ObjectInputStream: int inputObject(boolean)>
+  java.io.ObjectInputStream.readUTFBody/$r4, java.io.ObjectInputStream.readUTFBody/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectInputStream: java.lang.String readUTFBody(long)>
+  java.io.ObjectInputStream.inputClassFields/r3, java.io.ObjectInputStream.inputClassFields/$r21, <java.io.ObjectInputStream: void inputClassFields(java.lang.Object,java.lang.Class,java.io.ObjectStreamField[])>
+  java.io.ObjectInputStream.inputClassFields/$r25, java.io.ObjectInputStream.inputClassFields/$r26, <java.io.ObjectInputStream: void inputClassFields(java.lang.Object,java.lang.Class,java.io.ObjectStreamField[])>
+  <java.lang.ClassLoader: java.lang.Class defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)>/r7, <java.lang.ClassLoader: java.lang.Class defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)>/$r16, <java.lang.ClassLoader: java.lang.Class defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)>
+  java.lang.ClassLoader.getPackages/r10, java.lang.ClassLoader.getPackages/$r11, <java.lang.ClassLoader: java.lang.Package[] getPackages()>
+  java.lang.ClassLoader.getPackages/r10, java.lang.ClassLoader.getPackages/$r13, <java.lang.ClassLoader: java.lang.Package[] getPackages()>
+  java.lang.Package.getSystemPackages/r0, java.lang.Package.getSystemPackages/$r4, <java.lang.Package: java.lang.Package[] getSystemPackages()>
+  java.lang.Package.getSystemPackages/r0, java.lang.Package.getSystemPackages/$r5, <java.lang.Package: java.lang.Package[] getSystemPackages()>
+  java.lang.reflect.Method.toString/r3, java.lang.reflect.Method.toString/$r31, <java.lang.reflect.Method: java.lang.String toString()>
+  java.lang.reflect.Method.toString/r4, java.lang.reflect.Method.toString/$r37, <java.lang.reflect.Method: java.lang.String toString()>
+  java.lang.reflect.Constructor.toString/r3, java.lang.reflect.Constructor.toString/$r15, <java.lang.reflect.Constructor: java.lang.String toString()>
+  java.lang.reflect.Constructor.toString/r4, java.lang.reflect.Constructor.toString/$r21, <java.lang.reflect.Constructor: java.lang.String toString()>
+  java.security.CodeSource.writeObject/$r7, java.security.CodeSource.writeObject/r2, <java.security.CodeSource: void writeObject(java.io.ObjectOutputStream)>
+  java.io.ObjectStreamClass.computeFieldInfo/$r2, java.io.ObjectStreamClass.computeFieldInfo/$r3, <java.io.ObjectStreamClass: void computeFieldInfo()>
+  java.io.ObjectStreamClass.computeFieldInfo/$r4, java.io.ObjectStreamClass.computeFieldInfo/$r5, <java.io.ObjectStreamClass: void computeFieldInfo()>
+  java.io.ObjectStreamClass.computeFieldInfo/$r7, java.io.ObjectStreamClass.computeFieldInfo/$r8, <java.io.ObjectStreamClass: void computeFieldInfo()>
+  java.io.ObjectStreamClass.computeFieldInfo/$r10, java.io.ObjectStreamClass.computeFieldInfo/$r11, <java.io.ObjectStreamClass: void computeFieldInfo()>
+  java.io.ObjectStreamClass.computeFieldInfo/$r13, java.io.ObjectStreamClass.computeFieldInfo/$r14, <java.io.ObjectStreamClass: void computeFieldInfo()>
+  java.io.ObjectStreamClass.computeFieldInfo/$r16, java.io.ObjectStreamClass.computeFieldInfo/$r17, <java.io.ObjectStreamClass: void computeFieldInfo()>
+  java.io.ObjectStreamClass.computeFieldInfo/$r29, java.io.ObjectStreamClass.computeFieldInfo/$r30, <java.io.ObjectStreamClass: void computeFieldInfo()>
+  java.io.ObjectStreamClass.computeFieldInfo/$r31, java.io.ObjectStreamClass.computeFieldInfo/$r32, <java.io.ObjectStreamClass: void computeFieldInfo()>
+  java.io.ObjectStreamClass.computeSerialVersionUID/r19, java.io.ObjectStreamClass.computeSerialVersionUID/r8, <java.io.ObjectStreamClass: long computeSerialVersionUID(java.lang.Class)>
+  java.io.ObjectStreamClass.computeSerialVersionUID/r25, java.io.ObjectStreamClass.computeSerialVersionUID/r9, <java.io.ObjectStreamClass: long computeSerialVersionUID(java.lang.Class)>
+  java.io.ObjectStreamClass.computeSerialVersionUID/r7, java.io.ObjectStreamClass.computeSerialVersionUID/$r17, <java.io.ObjectStreamClass: long computeSerialVersionUID(java.lang.Class)>
+  java.io.ObjectStreamClass.computeSerialVersionUID/r28, java.io.ObjectStreamClass.computeSerialVersionUID/r29, <java.io.ObjectStreamClass: long computeSerialVersionUID(java.lang.Class)>
+  java.lang.SecurityManager.checkPackageAccess/$r10, java.lang.SecurityManager.checkPackageAccess/$r11, <java.lang.SecurityManager: void checkPackageAccess(java.lang.String)>
+  java.lang.SecurityManager.checkPackageAccess/$r12, java.lang.SecurityManager.checkPackageAccess/$r13, <java.lang.SecurityManager: void checkPackageAccess(java.lang.String)>
+  java.lang.SecurityManager.checkPackageDefinition/$r10, java.lang.SecurityManager.checkPackageDefinition/$r11, <java.lang.SecurityManager: void checkPackageDefinition(java.lang.String)>
+  java.lang.SecurityManager.checkPackageDefinition/$r12, java.lang.SecurityManager.checkPackageDefinition/$r13, <java.lang.SecurityManager: void checkPackageDefinition(java.lang.String)>
+  java.util.Hashtable.clone/$r7, java.util.Hashtable.clone/$r8, <java.util.Hashtable: java.lang.Object clone()>
+  java.util.Hashtable.clone/$r9, java.util.Hashtable.clone/$r10, <java.util.Hashtable: java.lang.Object clone()>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r4, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r8, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r13, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r16, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r25, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r29, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r39, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r44, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r54, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r60, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r67, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r68, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.text.MessageFormat.makeFormat/r1, java.text.MessageFormat.makeFormat/$r69, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  java.io.ObjectOutputStream.outputClassFields/r3, java.io.ObjectOutputStream.outputClassFields/$r25, <java.io.ObjectOutputStream: void outputClassFields(java.lang.Object,java.lang.Class,java.io.ObjectStreamField[])>
+  java.util.ArrayList.clone/$r4, java.util.ArrayList.clone/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.ArrayList: java.lang.Object clone()>
+  java.lang.reflect.Proxy.getProxyClass/r1, java.lang.reflect.Proxy.getProxyClass/$r23, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  java.lang.reflect.Proxy.getProxyClass/r1, java.lang.reflect.Proxy.getProxyClass/$r26, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  java.lang.reflect.Proxy.getProxyClass/r1, java.lang.reflect.Proxy.getProxyClass/$r29, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  java.lang.reflect.Proxy.getProxyClass/r1, java.lang.reflect.Proxy.getProxyClass/$r45, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  java.lang.reflect.Proxy.getProxyClass/r1, java.lang.reflect.Proxy.getProxyClass/$r67, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  java.lang.reflect.Proxy.getProxyClass/r1, java.lang.reflect.Proxy.getProxyClass/$r68, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  <java.io.BufferedWriter: void write(char[],int,int)>/r1, <java.io.BufferedWriter: void write(char[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.BufferedWriter: void write(char[],int,int)>
+  java.net.SocketPermission.getCanonName/$r4, java.net.SocketPermission.getCanonName/$r5, <java.net.SocketPermission: void getCanonName()>
+  java.net.SocketPermission.getCanonName/$r8, java.net.SocketPermission.getCanonName/$r9, <java.net.SocketPermission: void getCanonName()>
+  java.net.SocketPermission.getIP/$r6, java.net.SocketPermission.getIP/$r7, <java.net.SocketPermission: void getIP()>
+  java.net.SocketPermission.impliesIgnoreMask/$r8, java.net.SocketPermission.impliesIgnoreMask/$r9, <java.net.SocketPermission: boolean impliesIgnoreMask(java.net.SocketPermission)>
+  java.net.SocketPermission.impliesIgnoreMask/$r10, java.net.SocketPermission.impliesIgnoreMask/$r11, <java.net.SocketPermission: boolean impliesIgnoreMask(java.net.SocketPermission)>
+  java.net.SocketPermission.impliesIgnoreMask/$r13, java.net.SocketPermission.impliesIgnoreMask/$r14, <java.net.SocketPermission: boolean impliesIgnoreMask(java.net.SocketPermission)>
+  java.net.SocketPermission.impliesIgnoreMask/$r15, java.net.SocketPermission.impliesIgnoreMask/$r16, <java.net.SocketPermission: boolean impliesIgnoreMask(java.net.SocketPermission)>
+  java.net.SocketPermission.impliesIgnoreMask/$r25, java.net.SocketPermission.impliesIgnoreMask/$r26, <java.net.SocketPermission: boolean impliesIgnoreMask(java.net.SocketPermission)>
+  java.net.SocketPermission.impliesIgnoreMask/$r27, java.net.SocketPermission.impliesIgnoreMask/$r28, <java.net.SocketPermission: boolean impliesIgnoreMask(java.net.SocketPermission)>
+  <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String)>/r3, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String)>/$r13, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String)>
+  <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String)>/r3, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String)>/$r15, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String)>
+  <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String,java.lang.String)>/r2, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String,java.lang.String)>/$r16, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String,java.lang.String)>
+  <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String,java.lang.String)>/r2, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String,java.lang.String)>/$r18, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String,java.lang.String)>
+  java.io.ObjectStreamClass$1.run/r28, java.io.ObjectStreamClass$1.run/$r30, <java.io.ObjectStreamClass$1: java.lang.Object run()>
+  java.io.ObjectStreamClass$1.run/r28, java.io.ObjectStreamClass$1.run/$r31, <java.io.ObjectStreamClass$1: java.lang.Object run()>
+  java.io.ObjectStreamClass$1.run/$r41, java.io.ObjectStreamClass$1.run/$r42, <java.io.ObjectStreamClass$1: java.lang.Object run()>
+  java.io.ObjectStreamClass$1.run/$r46, java.io.ObjectStreamClass$1.run/$r47, <java.io.ObjectStreamClass$1: java.lang.Object run()>
+  java.io.ObjectStreamClass$1.run/$r51, java.io.ObjectStreamClass$1.run/$r52, <java.io.ObjectStreamClass$1: java.lang.Object run()>
+  java.io.ObjectStreamClass$1.run/r29, java.io.ObjectStreamClass$1.run/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectStreamClass$1: java.lang.Object run()>
+  <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>/r1, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>/$r3, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>
+  <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>/r1, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>/$r4, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>
+  <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>/r1, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>/$r5, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>
+  <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>/r1, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>/$r8, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>
+  <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>/r1, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>/$r11, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>
+  java.util.Vector.elementAt/$r8, java.util.Vector.elementAt/$r9, <java.util.Vector: java.lang.Object elementAt(int)>
+  java.util.Vector.clone/$r4, java.util.Vector.clone/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: java.lang.Object clone()>
+  java.security.UnresolvedPermission.resolve/$r4, java.security.UnresolvedPermission.resolve/$r5, <java.security.UnresolvedPermission: java.security.Permission resolve(java.security.Permission,java.security.cert.Certificate[])>
+  java.security.UnresolvedPermission.resolve/r2, java.security.UnresolvedPermission.resolve/$r6, <java.security.UnresolvedPermission: java.security.Permission resolve(java.security.Permission,java.security.cert.Certificate[])>
+  java.security.UnresolvedPermission.writeObject/$r7, java.security.UnresolvedPermission.writeObject/r2, <java.security.UnresolvedPermission: void writeObject(java.io.ObjectOutputStream)>
+  java.util.HashMap.clone/$r7, java.util.HashMap.clone/$r8, <java.util.HashMap: java.lang.Object clone()>
+  java.util.HashMap.clone/$r9, java.util.HashMap.clone/$r10, <java.util.HashMap: java.lang.Object clone()>
+  java.lang.ThreadGroup.setMaxPriority/r2, java.lang.ThreadGroup.setMaxPriority/$r7, <java.lang.ThreadGroup: void setMaxPriority(int)>
+  java.lang.ThreadGroup.setMaxPriority/$r5, java.lang.ThreadGroup.setMaxPriority/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: void setMaxPriority(int)>
+  java.lang.ThreadGroup.activeCount/r2, java.lang.ThreadGroup.activeCount/$r7, <java.lang.ThreadGroup: int activeCount()>
+  java.lang.ThreadGroup.activeCount/$r5, java.lang.ThreadGroup.activeCount/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: int activeCount()>
+  <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>/$r5, <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>/$r6, <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>
+  <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>/$r7, <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>/$r8, <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>
+  <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>/r2, <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>/$r12, <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>
+  <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>/$r10, <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: int enumerate(java.lang.Thread[],int,boolean)>
+  java.lang.ThreadGroup.activeGroupCount/r2, java.lang.ThreadGroup.activeGroupCount/$r7, <java.lang.ThreadGroup: int activeGroupCount()>
+  java.lang.ThreadGroup.activeGroupCount/$r5, java.lang.ThreadGroup.activeGroupCount/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: int activeGroupCount()>
+  <java.lang.ThreadGroup: int enumerate(java.lang.ThreadGroup[],int,boolean)>/r2, <java.lang.ThreadGroup: int enumerate(java.lang.ThreadGroup[],int,boolean)>/$r9, <java.lang.ThreadGroup: int enumerate(java.lang.ThreadGroup[],int,boolean)>
+  <java.lang.ThreadGroup: int enumerate(java.lang.ThreadGroup[],int,boolean)>/$r5, <java.lang.ThreadGroup: int enumerate(java.lang.ThreadGroup[],int,boolean)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: int enumerate(java.lang.ThreadGroup[],int,boolean)>
+  <java.lang.ThreadGroup: int enumerate(java.lang.ThreadGroup[],int,boolean)>/$r7, <java.lang.ThreadGroup: int enumerate(java.lang.ThreadGroup[],int,boolean)>/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.lang.ThreadGroup: int enumerate(java.lang.ThreadGroup[],int,boolean)>
+  java.lang.ThreadGroup.interrupt/$r4, java.lang.ThreadGroup.interrupt/$r5, <java.lang.ThreadGroup: void interrupt()>
+  java.lang.ThreadGroup.interrupt/r2, java.lang.ThreadGroup.interrupt/$r9, <java.lang.ThreadGroup: void interrupt()>
+  java.lang.ThreadGroup.interrupt/$r7, java.lang.ThreadGroup.interrupt/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: void interrupt()>
+  java.lang.ThreadGroup.stopOrSuspend/$r5, java.lang.ThreadGroup.stopOrSuspend/$r6, <java.lang.ThreadGroup: boolean stopOrSuspend(boolean)>
+  java.lang.ThreadGroup.stopOrSuspend/$r7, java.lang.ThreadGroup.stopOrSuspend/$r8, <java.lang.ThreadGroup: boolean stopOrSuspend(boolean)>
+  java.lang.ThreadGroup.stopOrSuspend/$r9, java.lang.ThreadGroup.stopOrSuspend/$r10, <java.lang.ThreadGroup: boolean stopOrSuspend(boolean)>
+  java.lang.ThreadGroup.stopOrSuspend/r2, java.lang.ThreadGroup.stopOrSuspend/$r14, <java.lang.ThreadGroup: boolean stopOrSuspend(boolean)>
+  java.lang.ThreadGroup.stopOrSuspend/$r12, java.lang.ThreadGroup.stopOrSuspend/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: boolean stopOrSuspend(boolean)>
+  java.lang.ThreadGroup.resume/$r4, java.lang.ThreadGroup.resume/$r5, <java.lang.ThreadGroup: void resume()>
+  java.lang.ThreadGroup.resume/r2, java.lang.ThreadGroup.resume/$r9, <java.lang.ThreadGroup: void resume()>
+  java.lang.ThreadGroup.resume/$r7, java.lang.ThreadGroup.resume/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: void resume()>
+  java.lang.ThreadGroup.destroy/r2, java.lang.ThreadGroup.destroy/$r9, <java.lang.ThreadGroup: void destroy()>
+  java.lang.ThreadGroup.destroy/$r6, java.lang.ThreadGroup.destroy/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: void destroy()>
+  <java.lang.ThreadGroup: void add(java.lang.ThreadGroup)>/$r9, <java.lang.ThreadGroup: void add(java.lang.ThreadGroup)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: void add(java.lang.ThreadGroup)>
+  <java.lang.ThreadGroup: void remove(java.lang.ThreadGroup)>/$r4, <java.lang.ThreadGroup: void remove(java.lang.ThreadGroup)>/$r5, <java.lang.ThreadGroup: void remove(java.lang.ThreadGroup)>
+  <java.lang.ThreadGroup: void remove(java.lang.ThreadGroup)>/$r7, <java.lang.ThreadGroup: void remove(java.lang.ThreadGroup)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: void remove(java.lang.ThreadGroup)>
+  <java.lang.ThreadGroup: void add(java.lang.Thread)>/$r9, <java.lang.ThreadGroup: void add(java.lang.Thread)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: void add(java.lang.Thread)>
+  <java.lang.ThreadGroup: void remove(java.lang.Thread)>/$r5, <java.lang.ThreadGroup: void remove(java.lang.Thread)>/$r6, <java.lang.ThreadGroup: void remove(java.lang.Thread)>
+  <java.lang.ThreadGroup: void remove(java.lang.Thread)>/$r7, <java.lang.ThreadGroup: void remove(java.lang.Thread)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: void remove(java.lang.Thread)>
+  <java.lang.ThreadGroup: void list(java.io.PrintStream,int)>/$r5, <java.lang.ThreadGroup: void list(java.io.PrintStream,int)>/$r6, <java.lang.ThreadGroup: void list(java.io.PrintStream,int)>
+  <java.lang.ThreadGroup: void list(java.io.PrintStream,int)>/r3, <java.lang.ThreadGroup: void list(java.io.PrintStream,int)>/$r10, <java.lang.ThreadGroup: void list(java.io.PrintStream,int)>
+  <java.lang.ThreadGroup: void list(java.io.PrintStream,int)>/$r8, <java.lang.ThreadGroup: void list(java.io.PrintStream,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.ThreadGroup: void list(java.io.PrintStream,int)>
+  <java.net.InetAddress: java.lang.String getHostName(boolean)>/r7, <java.net.InetAddress: java.lang.String getHostName(boolean)>/$r8, <java.net.InetAddress: java.lang.String getHostName(boolean)>
+  java.net.InetAddress.getAddressFromNameService/r1, java.net.InetAddress.getAddressFromNameService/r3, <java.net.InetAddress: java.lang.Object getAddressFromNameService(java.lang.String)>
+  java.net.InetAddress.getLocalHost/$r8, java.net.InetAddress.getLocalHost/$r9, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
+  java.text.ChoiceFormat.applyPattern/r2, java.text.ChoiceFormat.applyPattern/$r7, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r2, java.text.ChoiceFormat.applyPattern/$r9, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r2, java.text.ChoiceFormat.applyPattern/$r11, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r2, java.text.ChoiceFormat.applyPattern/$r13, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r2, java.text.ChoiceFormat.applyPattern/$r14, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r2, java.text.ChoiceFormat.applyPattern/$r21, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r2, java.text.ChoiceFormat.applyPattern/$r22, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r2, java.text.ChoiceFormat.applyPattern/$r24, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r2, java.text.ChoiceFormat.applyPattern/$r25, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r2, java.text.ChoiceFormat.applyPattern/$r27, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r4, java.text.ChoiceFormat.applyPattern/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.text.ChoiceFormat.applyPattern/r5, java.text.ChoiceFormat.applyPattern/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.text.ChoiceFormat: void applyPattern(java.lang.String)>
+  java.util.Hashtable$Enumerator.remove/r2, java.util.Hashtable$Enumerator.remove/r3, <java.util.Hashtable$Enumerator: void remove()>
+  java.util.Vector$1.nextElement/$r6, java.util.Vector$1.nextElement/r2, <java.util.Vector$1: java.lang.Object nextElement()>
+  java.util.Calendar.clone/$r6, java.util.Calendar.clone/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Calendar: java.lang.Object clone()>
+  java.util.Calendar.clone/$r8, java.util.Calendar.clone/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.util.Calendar: java.lang.Object clone()>
+  java.util.Calendar.clone/$r10, java.util.Calendar.clone/java.lang.System.arraycopy/2/@tmp-arraycopy, <java.util.Calendar: java.lang.Object clone()>
+  java.util.jar.JarFile.initializeVerifier/r2, java.util.jar.JarFile.initializeVerifier/$r5, <java.util.jar.JarFile: void initializeVerifier()>
+  <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String)>/r1, <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String)>/$r4, <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String)>
+  <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String)>/r1, <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String)>/$r6, <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String)>
+  <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String,java.lang.String)>/r2, <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String,java.lang.String)>/$r5, <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String,java.lang.String)>
+  <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String,java.lang.String)>/r2, <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String,java.lang.String)>/$r7, <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String,java.lang.String)>
+  <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/r1, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/$r3, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>
+  <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/r1, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/$r4, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>
+  <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/r1, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/$r5, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>
+  <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/r1, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/$r8, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>
+  <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/r1, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/$r11, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>
+  java.util.BitSet.clone/$r8, java.util.BitSet.clone/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.BitSet: java.lang.Object clone()>
+  <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String)>/r1, <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String)>/$r3, <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String)>
+  <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String)>/r1, <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String)>/$r5, <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String)>
+  <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String)>/r1, <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String)>/$r3, <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String)>
+  <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String)>/r1, <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String)>/$r5, <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String)>
+  <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String)>/r1, <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String)>/$r3, <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String)>
+  <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String)>/r1, <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String)>/$r5, <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String)>
+  <java.util.Observable: void notifyObservers(java.lang.Object)>/r3, <java.util.Observable: void notifyObservers(java.lang.Object)>/$r7, <java.util.Observable: void notifyObservers(java.lang.Object)>
+  <java.lang.String: void <init>(char[],int,int)>/r1, <java.lang.String: void <init>(char[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.String: void <init>(char[],int,int)>
+  java.lang.String.getChars/$r5, java.lang.String.getChars/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.String: void getChars(int,int,char[],int)>
+  java.lang.StringBuffer.getChars/$r5, java.lang.StringBuffer.getChars/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: void getChars(int,int,char[],int)>
+  java.lang.StringBuffer.delete/$r3, java.lang.StringBuffer.delete/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer delete(int,int)>
+  java.lang.StringBuffer.deleteCharAt/$r2, java.lang.StringBuffer.deleteCharAt/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer deleteCharAt(int)>
+  java.lang.StringBuffer.replace/$r5, java.lang.StringBuffer.replace/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer replace(int,int,java.lang.String)>
+  <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[],int,int)>/$r6, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[],int,int)>
+  <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[],int,int)>/r1, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[],int,int)>/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[],int,int)>
+  <java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.String)>/$r4, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.String)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.String)>
+  <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[])>/$r4, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[])>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[])>
+  <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[])>/r1, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[])>/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[])>
+  java.io.ObjectInputStream.inputArray/$r22, java.io.ObjectInputStream.inputArray/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectInputStream: int inputArray(boolean)>
+  java.io.ObjectInputStream.bufferData/$r2, java.io.ObjectInputStream.bufferData/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectInputStream: int bufferData(int)>
+  <java.io.ObjectInputStream: int read(byte[],int,int)>/$r4, <java.io.ObjectInputStream: int read(byte[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectInputStream: int read(byte[],int,int)>
+  java.lang.ClassLoader.loadLibrary/$r28, java.lang.ClassLoader.loadLibrary/$r29, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
+  java.lang.ClassLoader.loadLibrary/$r34, java.lang.ClassLoader.loadLibrary/$r35, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
+  java.io.ObjectStreamClass.setClass/r3, java.io.ObjectStreamClass.setClass/$r11, <java.io.ObjectStreamClass: void setClass(java.lang.Class)>
+  java.io.ObjectStreamClass.setClass/r2, java.io.ObjectStreamClass.setClass/$r13, <java.io.ObjectStreamClass: void setClass(java.lang.Class)>
+  java.io.ObjectStreamClass.setClass/r3, java.io.ObjectStreamClass.setClass/$r15, <java.io.ObjectStreamClass: void setClass(java.lang.Class)>
+  java.io.ObjectStreamClass.setClass/r3, java.io.ObjectStreamClass.setClass/$r16, <java.io.ObjectStreamClass: void setClass(java.lang.Class)>
+  java.io.ObjectStreamClass.setClass/r2, java.io.ObjectStreamClass.setClass/$r17, <java.io.ObjectStreamClass: void setClass(java.lang.Class)>
+  java.io.ObjectStreamClass.setClass/r2, java.io.ObjectStreamClass.setClass/$r21, <java.io.ObjectStreamClass: void setClass(java.lang.Class)>
+  java.io.ObjectStreamClass.setClass/r3, java.io.ObjectStreamClass.setClass/$r29, <java.io.ObjectStreamClass: void setClass(java.lang.Class)>
+  java.io.ObjectStreamClass.setClass/r2, java.io.ObjectStreamClass.setClass/$r30, <java.io.ObjectStreamClass: void setClass(java.lang.Class)>
+  java.lang.SecurityManager.checkMemberAccess/r2, java.lang.SecurityManager.checkMemberAccess/$r4, <java.lang.SecurityManager: void checkMemberAccess(java.lang.Class,int)>
+  java.lang.FloatingDecimal.big5pow/$r23, java.lang.FloatingDecimal.big5pow/r2, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  java.lang.FloatingDecimal.big5pow/$r28, java.lang.FloatingDecimal.big5pow/r3, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  java.lang.FloatingDecimal.big5pow/$r9, java.lang.FloatingDecimal.big5pow/$r10, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  java.lang.FloatingDecimal.big5pow/$r11, java.lang.FloatingDecimal.big5pow/$r12, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  java.lang.FloatingDecimal.big5pow/$r8, java.lang.FloatingDecimal.big5pow/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  java.lang.FloatingDecimal.developLongDigits/r1, java.lang.FloatingDecimal.developLongDigits/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.FloatingDecimal: void developLongDigits(int,long,long)>
+  <java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>/r6, <java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>/$r11, <java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>
+  <java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>/r9, <java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>/$r13, <java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>
+  <java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>/r6, <java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>/$r16, <java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>
+  java.util.Hashtable.contains/r2, java.util.Hashtable.contains/r3, <java.util.Hashtable: boolean contains(java.lang.Object)>
+  java.util.Hashtable.put/r3, java.util.Hashtable.put/r4, <java.util.Hashtable: java.lang.Object put(java.lang.Object,java.lang.Object)>
+  java.util.Hashtable.put/r3, java.util.Hashtable.put/$r10, <java.util.Hashtable: java.lang.Object put(java.lang.Object,java.lang.Object)>
+  java.text.MessageFormat.applyPattern/r2, java.text.MessageFormat.applyPattern/$r4, <java.text.MessageFormat: void applyPattern(java.lang.String)>
+  java.text.MessageFormat.applyPattern/r2, java.text.MessageFormat.applyPattern/$r6, <java.text.MessageFormat: void applyPattern(java.lang.String)>
+  java.text.MessageFormat.applyPattern/r2, java.text.MessageFormat.applyPattern/$r8, <java.text.MessageFormat: void applyPattern(java.lang.String)>
+  java.text.MessageFormat.applyPattern/r2, java.text.MessageFormat.applyPattern/$r10, <java.text.MessageFormat: void applyPattern(java.lang.String)>
+  java.text.MessageFormat.applyPattern/r2, java.text.MessageFormat.applyPattern/$r12, <java.text.MessageFormat: void applyPattern(java.lang.String)>
+  java.text.MessageFormat.applyPattern/r2, java.text.MessageFormat.applyPattern/$r14, <java.text.MessageFormat: void applyPattern(java.lang.String)>
+  java.text.MessageFormat.applyPattern/r2, java.text.MessageFormat.applyPattern/$r16, <java.text.MessageFormat: void applyPattern(java.lang.String)>
+  java.text.MessageFormat.applyPattern/r2, java.text.MessageFormat.applyPattern/$r19, <java.text.MessageFormat: void applyPattern(java.lang.String)>
+  java.io.ObjectOutputStream.outputArray/r70, java.io.ObjectOutputStream.outputArray/$r71, <java.io.ObjectOutputStream: void outputArray(java.lang.Object)>
+  java.io.ObjectOutputStream.writeInternal/r1, java.io.ObjectOutputStream.writeInternal/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectOutputStream: void writeInternal(byte[],int,int,boolean)>
+  <java.util.ArrayList: void add(int,java.lang.Object)>/$r9, <java.util.ArrayList: void add(int,java.lang.Object)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.ArrayList: void add(int,java.lang.Object)>
+  <java.util.ArrayList: boolean addAll(int,java.util.Collection)>/$r10, <java.util.ArrayList: boolean addAll(int,java.util.Collection)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.ArrayList: boolean addAll(int,java.util.Collection)>
+  <java.io.ByteArrayInputStream: int read(byte[],int,int)>/$r4, <java.io.ByteArrayInputStream: int read(byte[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ByteArrayInputStream: int read(byte[],int,int)>
+  <java.io.ByteArrayOutputStream: void write(byte[],int,int)>/$r6, <java.io.ByteArrayOutputStream: void write(byte[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+  <java.io.ByteArrayOutputStream: void write(byte[],int,int)>/r1, <java.io.ByteArrayOutputStream: void write(byte[],int,int)>/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.io.ByteArrayOutputStream: void write(byte[],int,int)>
+  <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>/r2, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>/$r5, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>
+  <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>/r2, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>/$r6, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>
+  <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>/r2, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>/$r7, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>
+  <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>/r2, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>/$r10, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>
+  <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>/r2, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>/$r13, <java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String,java.lang.String)>
+  <java.util.Vector: int lastIndexOf(java.lang.Object,int)>/$r8, <java.util.Vector: int lastIndexOf(java.lang.Object,int)>/$r9, <java.util.Vector: int lastIndexOf(java.lang.Object,int)>
+  <java.util.Vector: int lastIndexOf(java.lang.Object,int)>/$r10, <java.util.Vector: int lastIndexOf(java.lang.Object,int)>/$r11, <java.util.Vector: int lastIndexOf(java.lang.Object,int)>
+  java.util.Vector.firstElement/$r2, java.util.Vector.firstElement/$r3, <java.util.Vector: java.lang.Object firstElement()>
+  java.util.Vector.lastElement/$r2, java.util.Vector.lastElement/$r3, <java.util.Vector: java.lang.Object lastElement()>
+  java.util.Vector.removeElementAt/$r9, java.util.Vector.removeElementAt/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: void removeElementAt(int)>
+  java.util.Vector.insertElementAt/$r9, java.util.Vector.insertElementAt/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: void insertElementAt(java.lang.Object,int)>
+  java.util.Vector.get/$r2, java.util.Vector.get/$r3, <java.util.Vector: java.lang.Object get(int)>
+  java.util.Vector.set/$r4, java.util.Vector.set/r2, <java.util.Vector: java.lang.Object set(int,java.lang.Object)>
+  <java.util.Vector: java.lang.Object remove(int)>/$r4, <java.util.Vector: java.lang.Object remove(int)>/r2, <java.util.Vector: java.lang.Object remove(int)>
+  <java.util.Vector: java.lang.Object remove(int)>/$r5, <java.util.Vector: java.lang.Object remove(int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: java.lang.Object remove(int)>
+  <java.util.Vector: boolean addAll(int,java.util.Collection)>/$r5, <java.util.Vector: boolean addAll(int,java.util.Collection)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: boolean addAll(int,java.util.Collection)>
+  java.security.UnresolvedPermission.<init>/r4, java.security.UnresolvedPermission.<init>/$r7, <java.security.UnresolvedPermission: void <init>(java.lang.String,java.lang.String,java.lang.String,java.security.cert.Certificate[])>
+  java.security.UnresolvedPermission.<init>/r4, java.security.UnresolvedPermission.<init>/$r11, <java.security.UnresolvedPermission: void <init>(java.lang.String,java.lang.String,java.lang.String,java.security.cert.Certificate[])>
+  java.security.UnresolvedPermission.<init>/r4, java.security.UnresolvedPermission.<init>/$r14, <java.security.UnresolvedPermission: void <init>(java.lang.String,java.lang.String,java.lang.String,java.security.cert.Certificate[])>
+  java.security.UnresolvedPermission.<init>/r4, java.security.UnresolvedPermission.<init>/$r21, <java.security.UnresolvedPermission: void <init>(java.lang.String,java.lang.String,java.lang.String,java.security.cert.Certificate[])>
+  java.security.UnresolvedPermission.<init>/r4, java.security.UnresolvedPermission.<init>/$r22, <java.security.UnresolvedPermission: void <init>(java.lang.String,java.lang.String,java.lang.String,java.security.cert.Certificate[])>
+  java.security.UnresolvedPermission.<init>/r4, java.security.UnresolvedPermission.<init>/$r25, <java.security.UnresolvedPermission: void <init>(java.lang.String,java.lang.String,java.lang.String,java.security.cert.Certificate[])>
+  java.security.AccessControlContext.checkPermission/$r31, java.security.AccessControlContext.checkPermission/r2, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  java.security.AccessControlContext.checkPermission/$r14, java.security.AccessControlContext.checkPermission/$r15, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  java.security.AccessControlContext.checkPermission/$r20, java.security.AccessControlContext.checkPermission/$r21, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  java.security.AccessControlContext.checkPermission/$r22, java.security.AccessControlContext.checkPermission/$r23, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  java.lang.FDBigInt.lshiftMe/r2, java.lang.FDBigInt.lshiftMe/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.FDBigInt: void lshiftMe(int)>
+  java.util.Date.parse/$r3, java.util.Date.parse/$r4, <java.util.Date: long parse(java.lang.String)>
+  <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/r2, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/$r10, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>
+  <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/r2, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/$r11, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>
+  <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/r2, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/$r13, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>
+  <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/r2, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/$r15, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>
+  <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/r2, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/$r16, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>
+  java.text.SimpleDateFormat.subFormat/$r15, java.text.SimpleDateFormat.subFormat/r16, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r18, java.text.SimpleDateFormat.subFormat/r16, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r20, java.text.SimpleDateFormat.subFormat/r16, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r23, java.text.SimpleDateFormat.subFormat/r16, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r25, java.text.SimpleDateFormat.subFormat/r16, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r27, java.text.SimpleDateFormat.subFormat/r16, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r46, java.text.SimpleDateFormat.subFormat/r16, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r49, java.text.SimpleDateFormat.subFormat/r16, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r52, java.text.SimpleDateFormat.subFormat/r16, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r55, java.text.SimpleDateFormat.subFormat/r16, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r45, java.text.SimpleDateFormat.subFormat/$r46, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r48, java.text.SimpleDateFormat.subFormat/$r49, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r51, java.text.SimpleDateFormat.subFormat/$r52, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.text.SimpleDateFormat.subFormat/$r54, java.text.SimpleDateFormat.subFormat/$r55, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  java.util.Hashtable$Enumerator.nextElement/r2, java.util.Hashtable$Enumerator.nextElement/r1, <java.util.Hashtable$Enumerator: java.lang.Object nextElement()>
+  <java.io.PushbackInputStream: int read(byte[],int,int)>/$r4, <java.io.PushbackInputStream: int read(byte[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.PushbackInputStream: int read(byte[],int,int)>
+  <java.io.PushbackInputStream: void unread(byte[],int,int)>/r1, <java.io.PushbackInputStream: void unread(byte[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.PushbackInputStream: void unread(byte[],int,int)>
+  <java.security.MessageDigestSpi: int engineDigest(byte[],int,int)>/r2, <java.security.MessageDigestSpi: int engineDigest(byte[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.security.MessageDigestSpi: int engineDigest(byte[],int,int)>
+  java.util.HashMap$HashIterator.next/r2, java.util.HashMap$HashIterator.next/r1, <java.util.HashMap$HashIterator: java.lang.Object next()>
+  java.util.HashMap$HashIterator.remove/r1, java.util.HashMap$HashIterator.remove/r2, <java.util.HashMap$HashIterator: void remove()>
+  java.math.BigInteger.modPow/$r20, java.math.BigInteger.modPow/$r21, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  java.net.HttpURLConnection.setRequestMethod/$r3, java.net.HttpURLConnection.setRequestMethod/$r4, <java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+  <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/r2, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/$r5, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>
+  <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/r2, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/$r6, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>
+  <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/r2, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/$r7, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>
+  <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/r2, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/$r10, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>
+  <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/r2, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/$r13, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>
+  <java.security.SignatureSpi: int engineSign(byte[],int,int)>/r2, <java.security.SignatureSpi: int engineSign(byte[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.security.SignatureSpi: int engineSign(byte[],int,int)>
+  <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String,java.lang.String)>/r2, <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String,java.lang.String)>/$r5, <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String,java.lang.String)>
+  <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String,java.lang.String)>/r2, <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String,java.lang.String)>/$r7, <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String,java.lang.String)>
+  <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String,java.lang.String)>/r2, <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String,java.lang.String)>/$r5, <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String,java.lang.String)>
+  <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String,java.lang.String)>/r2, <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String,java.lang.String)>/$r7, <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String,java.lang.String)>
+  <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String,java.lang.String)>/r2, <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String,java.lang.String)>/$r5, <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String,java.lang.String)>
+  <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String,java.lang.String)>/r2, <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String,java.lang.String)>/$r7, <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String,java.lang.String)>
+  <java.lang.String: java.lang.String toLowerCase(java.util.Locale)>/r2, <java.lang.String: java.lang.String toLowerCase(java.util.Locale)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.String: java.lang.String toLowerCase(java.util.Locale)>
+  <java.lang.String: java.lang.String toUpperCase(java.util.Locale)>/r2, <java.lang.String: java.lang.String toUpperCase(java.util.Locale)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.String: java.lang.String toUpperCase(java.util.Locale)>
+  <java.lang.String: java.lang.String toUpperCase(java.util.Locale)>/r5, <java.lang.String: java.lang.String toUpperCase(java.util.Locale)>/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.lang.String: java.lang.String toUpperCase(java.util.Locale)>
+  <java.lang.String: java.lang.String toUpperCase(java.util.Locale)>/r5, <java.lang.String: java.lang.String toUpperCase(java.util.Locale)>/java.lang.System.arraycopy/2/@tmp-arraycopy, <java.lang.String: java.lang.String toUpperCase(java.util.Locale)>
+  java.lang.StringBuffer.copy/$r3, java.lang.StringBuffer.copy/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: void copy()>
+  java.lang.StringBuffer.expandCapacity/$r3, java.lang.StringBuffer.expandCapacity/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: void expandCapacity(int)>
+  <java.lang.StringBuffer: java.lang.StringBuffer append(char[])>/r1, <java.lang.StringBuffer: java.lang.StringBuffer append(char[])>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer append(char[])>
+  <java.lang.StringBuffer: java.lang.StringBuffer append(char[],int,int)>/r1, <java.lang.StringBuffer: java.lang.StringBuffer append(char[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer append(char[],int,int)>
+  <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char)>/$r2, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.StringBuffer: java.lang.StringBuffer insert(int,char)>
+  java.util.Locale.findStringMatch/r1, java.util.Locale.findStringMatch/$r4, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/$r4, java.util.Locale.findStringMatch/$r5, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/r1, java.util.Locale.findStringMatch/$r6, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/$r6, java.util.Locale.findStringMatch/$r7, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/r1, java.util.Locale.findStringMatch/$r8, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/$r8, java.util.Locale.findStringMatch/$r9, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/r1, java.util.Locale.findStringMatch/$r10, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/$r10, java.util.Locale.findStringMatch/$r11, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/r1, java.util.Locale.findStringMatch/$r15, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/$r15, java.util.Locale.findStringMatch/$r16, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/r1, java.util.Locale.findStringMatch/$r17, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.util.Locale.findStringMatch/$r17, java.util.Locale.findStringMatch/$r18, <java.util.Locale: java.lang.String findStringMatch(java.lang.String[][],java.lang.String,java.lang.String)>
+  java.io.ObjectInputStream.growClassStacks/$r4, java.io.ObjectInputStream.growClassStacks/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectInputStream: void growClassStacks()>
+  java.io.ObjectInputStream.growClassStacks/$r6, java.io.ObjectInputStream.growClassStacks/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.io.ObjectInputStream: void growClassStacks()>
+  java.io.ObjectInputStream.ensureBufferCapacity/$r3, java.io.ObjectInputStream.ensureBufferCapacity/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectInputStream: void ensureBufferCapacity(int)>
+  java.lang.ClassLoader.compareCerts/r2, java.lang.ClassLoader.compareCerts/$r3, <java.lang.ClassLoader: boolean compareCerts(java.security.cert.Certificate[],java.security.cert.Certificate[])>
+  java.lang.ClassLoader.compareCerts/r1, java.lang.ClassLoader.compareCerts/$r4, <java.lang.ClassLoader: boolean compareCerts(java.security.cert.Certificate[],java.security.cert.Certificate[])>
+  java.lang.ClassLoader.compareCerts/r1, java.lang.ClassLoader.compareCerts/$r5, <java.lang.ClassLoader: boolean compareCerts(java.security.cert.Certificate[],java.security.cert.Certificate[])>
+  java.lang.ClassLoader.compareCerts/r2, java.lang.ClassLoader.compareCerts/$r6, <java.lang.ClassLoader: boolean compareCerts(java.security.cert.Certificate[],java.security.cert.Certificate[])>
+  java.lang.reflect.Method.equals/r3, java.lang.reflect.Method.equals/$r9, <java.lang.reflect.Method: boolean equals(java.lang.Object)>
+  java.lang.reflect.Method.equals/r4, java.lang.reflect.Method.equals/$r10, <java.lang.reflect.Method: boolean equals(java.lang.Object)>
+  java.lang.reflect.Constructor.equals/r3, java.lang.reflect.Constructor.equals/$r7, <java.lang.reflect.Constructor: boolean equals(java.lang.Object)>
+  java.lang.reflect.Constructor.equals/r4, java.lang.reflect.Constructor.equals/$r8, <java.lang.reflect.Constructor: boolean equals(java.lang.Object)>
+  java.security.CodeSource.equals/$r10, java.security.CodeSource.equals/$r11, <java.security.CodeSource: boolean equals(java.lang.Object)>
+  java.security.CodeSource.equals/$r12, java.security.CodeSource.equals/$r13, <java.security.CodeSource: boolean equals(java.lang.Object)>
+  java.security.CodeSource.equals/$r16, java.security.CodeSource.equals/$r17, <java.security.CodeSource: boolean equals(java.lang.Object)>
+  java.security.CodeSource.equals/$r18, java.security.CodeSource.equals/$r19, <java.security.CodeSource: boolean equals(java.lang.Object)>
+  java.security.CodeSource.matchCerts/$r4, java.security.CodeSource.matchCerts/$r5, <java.security.CodeSource: boolean matchCerts(java.security.CodeSource)>
+  java.security.CodeSource.matchCerts/$r6, java.security.CodeSource.matchCerts/$r7, <java.security.CodeSource: boolean matchCerts(java.security.CodeSource)>
+  java.security.CodeSource.toString/$r10, java.security.CodeSource.toString/$r11, <java.security.CodeSource: java.lang.String toString()>
+  java.io.ObjectStreamClass.getFields/$r4, java.io.ObjectStreamClass.getFields/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectStreamClass: java.io.ObjectStreamField[] getFields()>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamField getField(java.lang.String)>/$r8, <java.io.ObjectStreamClass: java.io.ObjectStreamField getField(java.lang.String)>/$r7, <java.io.ObjectStreamClass: java.io.ObjectStreamField getField(java.lang.String)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamField getField(java.lang.String,java.lang.Class)>/$r6, <java.io.ObjectStreamClass: java.io.ObjectStreamField getField(java.lang.String,java.lang.Class)>/$r5, <java.io.ObjectStreamClass: java.io.ObjectStreamField getField(java.lang.String,java.lang.Class)>
+  java.io.ObjectStreamClass.write/$r5, java.io.ObjectStreamClass.write/r2, <java.io.ObjectStreamClass: void write(java.io.ObjectOutputStream)>
+  java.io.ObjectStreamClass.lightCopy/$r7, java.io.ObjectStreamClass.lightCopy/r2, <java.io.ObjectStreamClass: void lightCopy(java.io.ObjectStreamClass)>
+  java.lang.Class$1.run/r4, java.lang.Class$1.run/$r5, <java.lang.Class$1: java.lang.Object run()>
+  java.lang.Class$1.run/r4, java.lang.Class$1.run/$r6, <java.lang.Class$1: java.lang.Object run()>
+  java.security.Permissions.getUnresolvedPermissions/r6, java.security.Permissions.getUnresolvedPermissions/$r13, <java.security.Permissions: java.security.PermissionCollection getUnresolvedPermissions(java.security.Permission)>
+  java.security.Permissions.getUnresolvedPermissions/r6, java.security.Permissions.getUnresolvedPermissions/$r14, <java.security.Permissions: java.security.PermissionCollection getUnresolvedPermissions(java.security.Permission)>
+  java.security.Permissions.getUnresolvedPermissions/r6, java.security.Permissions.getUnresolvedPermissions/$r15, <java.security.Permissions: java.security.PermissionCollection getUnresolvedPermissions(java.security.Permission)>
+  <java.lang.ThreadLocal$ThreadLocalMap: void <init>(java.lang.ThreadLocal$ThreadLocalMap)>/r2, <java.lang.ThreadLocal$ThreadLocalMap: void <init>(java.lang.ThreadLocal$ThreadLocalMap)>/r3, <java.lang.ThreadLocal$ThreadLocalMap: void <init>(java.lang.ThreadLocal$ThreadLocalMap)>
+  <java.lang.ThreadLocal$ThreadLocalMap: void <init>(java.lang.ThreadLocal$ThreadLocalMap)>/$r11, <java.lang.ThreadLocal$ThreadLocalMap: void <init>(java.lang.ThreadLocal$ThreadLocalMap)>/$r12, <java.lang.ThreadLocal$ThreadLocalMap: void <init>(java.lang.ThreadLocal$ThreadLocalMap)>
+  java.lang.ThreadLocal$ThreadLocalMap.get/$r4, java.lang.ThreadLocal$ThreadLocalMap.get/r2, <java.lang.ThreadLocal$ThreadLocalMap: java.lang.Object get(java.lang.ThreadLocal)>
+  java.lang.ThreadLocal$ThreadLocalMap.getAfterMiss/r3, java.lang.ThreadLocal$ThreadLocalMap.getAfterMiss/r2, <java.lang.ThreadLocal$ThreadLocalMap: java.lang.Object getAfterMiss(java.lang.ThreadLocal,int,java.lang.ThreadLocal$ThreadLocalMap$Entry)>
+  java.lang.ThreadLocal$ThreadLocalMap.set/r3, java.lang.ThreadLocal$ThreadLocalMap.set/r4, <java.lang.ThreadLocal$ThreadLocalMap: void set(java.lang.ThreadLocal,java.lang.Object)>
+  java.lang.ThreadLocal$ThreadLocalMap.replaceStaleEntry/r3, java.lang.ThreadLocal$ThreadLocalMap.replaceStaleEntry/$r7, <java.lang.ThreadLocal$ThreadLocalMap: java.lang.Object replaceStaleEntry(java.lang.ThreadLocal,java.lang.Object,int,boolean)>
+  java.lang.ThreadLocal$ThreadLocalMap.replaceStaleEntry/r3, java.lang.ThreadLocal$ThreadLocalMap.replaceStaleEntry/$r9, <java.lang.ThreadLocal$ThreadLocalMap: java.lang.Object replaceStaleEntry(java.lang.ThreadLocal,java.lang.Object,int,boolean)>
+  java.lang.ThreadLocal$ThreadLocalMap.replaceStaleEntry/r3, java.lang.ThreadLocal$ThreadLocalMap.replaceStaleEntry/$r10, <java.lang.ThreadLocal$ThreadLocalMap: java.lang.Object replaceStaleEntry(java.lang.ThreadLocal,java.lang.Object,int,boolean)>
+  java.lang.ThreadLocal$ThreadLocalMap.replaceStaleEntry/r3, java.lang.ThreadLocal$ThreadLocalMap.replaceStaleEntry/$r12, <java.lang.ThreadLocal$ThreadLocalMap: java.lang.Object replaceStaleEntry(java.lang.ThreadLocal,java.lang.Object,int,boolean)>
+  java.lang.ThreadLocal$ThreadLocalMap.expungeStaleEntry/r1, java.lang.ThreadLocal$ThreadLocalMap.expungeStaleEntry/$r5, <java.lang.ThreadLocal$ThreadLocalMap: void expungeStaleEntry(int)>
+  java.lang.ThreadLocal$ThreadLocalMap.expungeStaleEntry/r1, java.lang.ThreadLocal$ThreadLocalMap.expungeStaleEntry/$r10, <java.lang.ThreadLocal$ThreadLocalMap: void expungeStaleEntry(int)>
+  java.lang.ThreadLocal$ThreadLocalMap.expungeStaleEntry/r1, java.lang.ThreadLocal$ThreadLocalMap.expungeStaleEntry/$r11, <java.lang.ThreadLocal$ThreadLocalMap: void expungeStaleEntry(int)>
+  java.lang.ThreadLocal$ThreadLocalMap.resize/r1, java.lang.ThreadLocal$ThreadLocalMap.resize/r3, <java.lang.ThreadLocal$ThreadLocalMap: void resize()>
+  java.lang.ThreadLocal$ThreadLocalMap.resize/r2, java.lang.ThreadLocal$ThreadLocalMap.resize/$r7, <java.lang.ThreadLocal$ThreadLocalMap: void resize()>
+  java.lang.ThreadLocal$ThreadLocalMap.expungeStaleEntries/r1, java.lang.ThreadLocal$ThreadLocalMap.expungeStaleEntries/r2, <java.lang.ThreadLocal$ThreadLocalMap: void expungeStaleEntries()>
+  java.lang.FloatingDecimal.toJavaFormatString/$r2, java.lang.FloatingDecimal.toJavaFormatString/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.FloatingDecimal: java.lang.String toJavaFormatString()>
+  java.lang.FloatingDecimal.toJavaFormatString/$r3, java.lang.FloatingDecimal.toJavaFormatString/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.lang.FloatingDecimal: java.lang.String toJavaFormatString()>
+  java.lang.FloatingDecimal.toJavaFormatString/$r4, java.lang.FloatingDecimal.toJavaFormatString/java.lang.System.arraycopy/2/@tmp-arraycopy, <java.lang.FloatingDecimal: java.lang.String toJavaFormatString()>
+  java.lang.FloatingDecimal.toJavaFormatString/$r5, java.lang.FloatingDecimal.toJavaFormatString/java.lang.System.arraycopy/3/@tmp-arraycopy, <java.lang.FloatingDecimal: java.lang.String toJavaFormatString()>
+  java.lang.FloatingDecimal.toJavaFormatString/$r6, java.lang.FloatingDecimal.toJavaFormatString/java.lang.System.arraycopy/4/@tmp-arraycopy, <java.lang.FloatingDecimal: java.lang.String toJavaFormatString()>
+  java.lang.FloatingDecimal.toJavaFormatString/$r7, java.lang.FloatingDecimal.toJavaFormatString/java.lang.System.arraycopy/5/@tmp-arraycopy, <java.lang.FloatingDecimal: java.lang.String toJavaFormatString()>
+  java.lang.FloatingDecimal.toJavaFormatString/$r9, java.lang.FloatingDecimal.toJavaFormatString/java.lang.System.arraycopy/6/@tmp-arraycopy, <java.lang.FloatingDecimal: java.lang.String toJavaFormatString()>
+  <java.io.BufferedOutputStream: void write(byte[],int,int)>/r1, <java.io.BufferedOutputStream: void write(byte[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.BufferedOutputStream: void write(byte[],int,int)>
+  java.io.BufferedInputStream.fill/$r3, java.io.BufferedInputStream.fill/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.BufferedInputStream: void fill()>
+  java.io.BufferedInputStream.fill/$r6, java.io.BufferedInputStream.fill/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.io.BufferedInputStream: void fill()>
+  java.io.BufferedInputStream.read1/$r4, java.io.BufferedInputStream.read1/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.BufferedInputStream: int read1(byte[],int,int)>
+  java.util.Hashtable.containsKey/r2, java.util.Hashtable.containsKey/r3, <java.util.Hashtable: boolean containsKey(java.lang.Object)>
+  java.util.Hashtable.get/r2, java.util.Hashtable.get/r3, <java.util.Hashtable: java.lang.Object get(java.lang.Object)>
+  java.util.Hashtable.rehash/r1, java.util.Hashtable.rehash/r3, <java.util.Hashtable: void rehash()>
+  java.util.Hashtable.rehash/r2, java.util.Hashtable.rehash/$r7, <java.util.Hashtable: void rehash()>
+  java.util.Hashtable.remove/r2, java.util.Hashtable.remove/r3, <java.util.Hashtable: java.lang.Object remove(java.lang.Object)>
+  java.util.Hashtable.writeObject/$r5, java.util.Hashtable.writeObject/r2, <java.util.Hashtable: void writeObject(java.io.ObjectOutputStream)>
+  java.text.MessageFormat.toPattern/$r9, java.text.MessageFormat.toPattern/$r10, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r11, java.text.MessageFormat.toPattern/$r12, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r13, java.text.MessageFormat.toPattern/$r14, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r18, java.text.MessageFormat.toPattern/$r19, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r23, java.text.MessageFormat.toPattern/$r24, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r28, java.text.MessageFormat.toPattern/$r29, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r35, java.text.MessageFormat.toPattern/$r36, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r42, java.text.MessageFormat.toPattern/$r43, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r44, java.text.MessageFormat.toPattern/$r45, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r49, java.text.MessageFormat.toPattern/$r50, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r54, java.text.MessageFormat.toPattern/$r55, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r59, java.text.MessageFormat.toPattern/$r60, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r64, java.text.MessageFormat.toPattern/$r65, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r69, java.text.MessageFormat.toPattern/$r70, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r74, java.text.MessageFormat.toPattern/$r75, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r79, java.text.MessageFormat.toPattern/$r80, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r84, java.text.MessageFormat.toPattern/$r85, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r89, java.text.MessageFormat.toPattern/$r90, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r96, java.text.MessageFormat.toPattern/$r97, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r103, java.text.MessageFormat.toPattern/$r104, <java.text.MessageFormat: java.lang.String toPattern()>
+  java.text.MessageFormat.toPattern/$r107, java.text.MessageFormat.toPattern/$r108, <java.text.MessageFormat: java.lang.String toPattern()>
+  <java.text.MessageFormat: java.lang.Object[] parse(java.lang.String,java.text.ParsePosition)>/$r10, <java.text.MessageFormat: java.lang.Object[] parse(java.lang.String,java.text.ParsePosition)>/$r11, <java.text.MessageFormat: java.lang.Object[] parse(java.lang.String,java.text.ParsePosition)>
+  <java.text.MessageFormat: java.lang.Object[] parse(java.lang.String,java.text.ParsePosition)>/$r25, <java.text.MessageFormat: java.lang.Object[] parse(java.lang.String,java.text.ParsePosition)>/$r26, <java.text.MessageFormat: java.lang.Object[] parse(java.lang.String,java.text.ParsePosition)>
+  java.text.MessageFormat.clone/$r6, java.text.MessageFormat.clone/$r7, <java.text.MessageFormat: java.lang.Object clone()>
+  java.text.MessageFormat.clone/$r9, java.text.MessageFormat.clone/$r10, <java.text.MessageFormat: java.lang.Object clone()>
+  <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>/r1, <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>/r4, <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>
+  <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>/$r19, <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>/$r20, <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>
+  <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>/$r21, <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>/$r22, <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>
+  <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>/$r23, <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>/$r24, <java.text.MessageFormat: java.lang.StringBuffer format(java.lang.Object[],java.lang.StringBuffer,java.text.FieldPosition,int)>
+  java.io.ObjectOutputStream.outputClassDescriptor/r6, java.io.ObjectOutputStream.outputClassDescriptor/$r7, <java.io.ObjectOutputStream: void outputClassDescriptor(java.io.ObjectStreamClass)>
+  java.io.ObjectOutputStream.bufferedWrite/r1, java.io.ObjectOutputStream.bufferedWrite/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectOutputStream: void bufferedWrite(byte[],int,int)>
+  java.io.ObjectOutputStream.bufferedWrite/r1, java.io.ObjectOutputStream.bufferedWrite/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.io.ObjectOutputStream: void bufferedWrite(byte[],int,int)>
+  java.io.ObjectOutputStream.bufferedWrite/r1, java.io.ObjectOutputStream.bufferedWrite/java.lang.System.arraycopy/2/@tmp-arraycopy, <java.io.ObjectOutputStream: void bufferedWrite(byte[],int,int)>
+  java.io.ObjectOutputStream.writeCanonical/r1, java.io.ObjectOutputStream.writeCanonical/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectOutputStream: void writeCanonical(byte[],int,int)>
+  java.io.DataInputStream.readLine/$r7, java.io.DataInputStream.readLine/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.DataInputStream: java.lang.String readLine()>
+  java.util.ArrayList.trimToSize/r2, java.util.ArrayList.trimToSize/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.ArrayList: void trimToSize()>
+  java.util.ArrayList.ensureCapacity/r2, java.util.ArrayList.ensureCapacity/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.ArrayList: void ensureCapacity(int)>
+  java.util.ArrayList.indexOf/$r2, java.util.ArrayList.indexOf/$r3, <java.util.ArrayList: int indexOf(java.lang.Object)>
+  java.util.ArrayList.indexOf/$r4, java.util.ArrayList.indexOf/$r5, <java.util.ArrayList: int indexOf(java.lang.Object)>
+  java.util.ArrayList.lastIndexOf/$r2, java.util.ArrayList.lastIndexOf/$r3, <java.util.ArrayList: int lastIndexOf(java.lang.Object)>
+  java.util.ArrayList.lastIndexOf/$r4, java.util.ArrayList.lastIndexOf/$r5, <java.util.ArrayList: int lastIndexOf(java.lang.Object)>
+  <java.util.ArrayList: java.lang.Object[] toArray()>/$r2, <java.util.ArrayList: java.lang.Object[] toArray()>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.ArrayList: java.lang.Object[] toArray()>
+  <java.util.ArrayList: java.lang.Object[] toArray(java.lang.Object[])>/$r5, <java.util.ArrayList: java.lang.Object[] toArray(java.lang.Object[])>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.ArrayList: java.lang.Object[] toArray(java.lang.Object[])>
+  java.util.ArrayList.get/$r1, java.util.ArrayList.get/$r2, <java.util.ArrayList: java.lang.Object get(int)>
+  java.util.ArrayList.set/$r3, java.util.ArrayList.set/r2, <java.util.ArrayList: java.lang.Object set(int,java.lang.Object)>
+  java.util.ArrayList.remove/$r3, java.util.ArrayList.remove/r1, <java.util.ArrayList: java.lang.Object remove(int)>
+  java.util.ArrayList.remove/$r4, java.util.ArrayList.remove/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.ArrayList: java.lang.Object remove(int)>
+  java.util.ArrayList.removeRange/$r2, java.util.ArrayList.removeRange/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.ArrayList: void removeRange(int,int)>
+  java.util.ArrayList.writeObject/$r3, java.util.ArrayList.writeObject/$r4, <java.util.ArrayList: void writeObject(java.io.ObjectOutputStream)>
+  <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>/$r8, <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>/$r9, <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>
+  <java.io.ByteArrayOutputStream: void write(int)>/$r4, <java.io.ByteArrayOutputStream: void write(int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ByteArrayOutputStream: void write(int)>
+  java.io.ByteArrayOutputStream.toByteArray/$r2, java.io.ByteArrayOutputStream.toByteArray/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ByteArrayOutputStream: byte[] toByteArray()>
+  java.util.Vector.copyInto/$r2, java.util.Vector.copyInto/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: void copyInto(java.lang.Object[])>
+  java.util.Vector.trimToSize/r2, java.util.Vector.trimToSize/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: void trimToSize()>
+  java.util.Vector.ensureCapacityHelper/r1, java.util.Vector.ensureCapacityHelper/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: void ensureCapacityHelper(int)>
+  <java.util.Vector: int indexOf(java.lang.Object,int)>/$r2, <java.util.Vector: int indexOf(java.lang.Object,int)>/$r3, <java.util.Vector: int indexOf(java.lang.Object,int)>
+  <java.util.Vector: int indexOf(java.lang.Object,int)>/$r4, <java.util.Vector: int indexOf(java.lang.Object,int)>/$r5, <java.util.Vector: int indexOf(java.lang.Object,int)>
+  <java.util.Vector: java.lang.Object[] toArray()>/$r2, <java.util.Vector: java.lang.Object[] toArray()>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: java.lang.Object[] toArray()>
+  <java.util.Vector: java.lang.Object[] toArray(java.lang.Object[])>/$r5, <java.util.Vector: java.lang.Object[] toArray(java.lang.Object[])>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: java.lang.Object[] toArray(java.lang.Object[])>
+  java.util.Vector.removeRange/$r2, java.util.Vector.removeRange/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Vector: void removeRange(int,int)>
+  java.security.UnresolvedPermission.equals/$r11, java.security.UnresolvedPermission.equals/$r12, <java.security.UnresolvedPermission: boolean equals(java.lang.Object)>
+  java.security.UnresolvedPermission.equals/$r13, java.security.UnresolvedPermission.equals/$r14, <java.security.UnresolvedPermission: boolean equals(java.lang.Object)>
+  java.security.UnresolvedPermission.equals/$r17, java.security.UnresolvedPermission.equals/$r18, <java.security.UnresolvedPermission: boolean equals(java.lang.Object)>
+  java.security.UnresolvedPermission.equals/$r19, java.security.UnresolvedPermission.equals/$r20, <java.security.UnresolvedPermission: boolean equals(java.lang.Object)>
+  java.util.HashMap.containsValue/r2, java.util.HashMap.containsValue/r3, <java.util.HashMap: boolean containsValue(java.lang.Object)>
+  java.util.HashMap.containsValue/r2, java.util.HashMap.containsValue/r5, <java.util.HashMap: boolean containsValue(java.lang.Object)>
+  java.util.HashMap.containsKey/r2, java.util.HashMap.containsKey/r3, <java.util.HashMap: boolean containsKey(java.lang.Object)>
+  java.util.HashMap.containsKey/r2, java.util.HashMap.containsKey/r5, <java.util.HashMap: boolean containsKey(java.lang.Object)>
+  java.util.HashMap.get/r2, java.util.HashMap.get/r3, <java.util.HashMap: java.lang.Object get(java.lang.Object)>
+  java.util.HashMap.get/r2, java.util.HashMap.get/r6, <java.util.HashMap: java.lang.Object get(java.lang.Object)>
+  java.util.HashMap.rehash/r1, java.util.HashMap.rehash/r3, <java.util.HashMap: void rehash()>
+  java.util.HashMap.rehash/r2, java.util.HashMap.rehash/$r7, <java.util.HashMap: void rehash()>
+  java.util.HashMap.put/r3, java.util.HashMap.put/r4, <java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>
+  java.util.HashMap.put/r3, java.util.HashMap.put/r7, <java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>
+  java.util.HashMap.put/r3, java.util.HashMap.put/$r12, <java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>
+  java.util.HashMap.remove/r2, java.util.HashMap.remove/r3, <java.util.HashMap: java.lang.Object remove(java.lang.Object)>
+  java.util.HashMap.remove/r2, java.util.HashMap.remove/r11, <java.util.HashMap: java.lang.Object remove(java.lang.Object)>
+  java.util.HashMap.writeObject/$r5, java.util.HashMap.writeObject/r2, <java.util.HashMap: void writeObject(java.io.ObjectOutputStream)>
+  <java.io.File: java.lang.String[] list(java.io.FilenameFilter)>/r2, <java.io.File: java.lang.String[] list(java.io.FilenameFilter)>/$r5, <java.io.File: java.lang.String[] list(java.io.FilenameFilter)>
+  <java.io.File: java.lang.String[] list(java.io.FilenameFilter)>/r2, <java.io.File: java.lang.String[] list(java.io.FilenameFilter)>/$r6, <java.io.File: java.lang.String[] list(java.io.FilenameFilter)>
+  <java.io.File: java.io.File[] listFiles()>/r1, <java.io.File: java.io.File[] listFiles()>/$r5, <java.io.File: java.io.File[] listFiles()>
+  <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>/r2, <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>/$r5, <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+  <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>/r2, <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>/$r8, <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)>
+  <java.io.File: java.io.File[] listFiles(java.io.FileFilter)>/r2, <java.io.File: java.io.File[] listFiles(java.io.FileFilter)>/$r8, <java.io.File: java.io.File[] listFiles(java.io.FileFilter)>
+  <java.security.AccessControlContext: void <init>(java.security.ProtectionDomain[])>/r1, <java.security.AccessControlContext: void <init>(java.security.ProtectionDomain[])>/$r6, <java.security.AccessControlContext: void <init>(java.security.ProtectionDomain[])>
+  <java.security.AccessControlContext: void <init>(java.security.ProtectionDomain[])>/r1, <java.security.AccessControlContext: void <init>(java.security.ProtectionDomain[])>/$r7, <java.security.AccessControlContext: void <init>(java.security.ProtectionDomain[])>
+  <java.security.AccessControlContext: void <init>(java.security.ProtectionDomain[])>/r1, <java.security.AccessControlContext: void <init>(java.security.ProtectionDomain[])>/$r8, <java.security.AccessControlContext: void <init>(java.security.ProtectionDomain[])>
+  java.security.AccessControlContext.combineWithPrivilegedContext/$r11, java.security.AccessControlContext.combineWithPrivilegedContext/$r12, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.combineWithPrivilegedContext/$r13, java.security.AccessControlContext.combineWithPrivilegedContext/$r14, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.combineWithPrivilegedContext/$r15, java.security.AccessControlContext.combineWithPrivilegedContext/$r16, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.combineWithPrivilegedContext/$r17, java.security.AccessControlContext.combineWithPrivilegedContext/$r18, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.combineWithPrivilegedContext/r2, java.security.AccessControlContext.combineWithPrivilegedContext/$r19, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.combineWithPrivilegedContext/$r20, java.security.AccessControlContext.combineWithPrivilegedContext/$r21, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.combineWithPrivilegedContext/$r23, java.security.AccessControlContext.combineWithPrivilegedContext/$r24, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.combineWithPrivilegedContext/$r25, java.security.AccessControlContext.combineWithPrivilegedContext/$r26, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.combineWithPrivilegedContext/r2, java.security.AccessControlContext.combineWithPrivilegedContext/$r27, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.combineWithPrivilegedContext/$r28, java.security.AccessControlContext.combineWithPrivilegedContext/$r29, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.combineWithPrivilegedContext/r2, java.security.AccessControlContext.combineWithPrivilegedContext/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.security.AccessControlContext: java.security.AccessControlContext combineWithPrivilegedContext()>
+  java.security.AccessControlContext.optimize/$r13, java.security.AccessControlContext.optimize/$r14, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.optimize/$r15, java.security.AccessControlContext.optimize/$r16, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.optimize/$r17, java.security.AccessControlContext.optimize/$r18, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.optimize/$r19, java.security.AccessControlContext.optimize/$r20, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.optimize/r2, java.security.AccessControlContext.optimize/$r21, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.optimize/$r22, java.security.AccessControlContext.optimize/$r23, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.optimize/$r25, java.security.AccessControlContext.optimize/$r26, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.optimize/$r27, java.security.AccessControlContext.optimize/$r28, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.optimize/r2, java.security.AccessControlContext.optimize/$r29, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.optimize/$r30, java.security.AccessControlContext.optimize/$r31, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.optimize/r2, java.security.AccessControlContext.optimize/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.security.AccessControlContext: java.security.AccessControlContext optimize()>
+  java.security.AccessControlContext.containsAllPDs/$r2, java.security.AccessControlContext.containsAllPDs/$r3, <java.security.AccessControlContext: boolean containsAllPDs(java.security.AccessControlContext)>
+  java.security.AccessControlContext.containsAllPDs/$r4, java.security.AccessControlContext.containsAllPDs/$r5, <java.security.AccessControlContext: boolean containsAllPDs(java.security.AccessControlContext)>
+  java.security.AccessControlContext.containsAllPDs/$r7, java.security.AccessControlContext.containsAllPDs/$r8, <java.security.AccessControlContext: boolean containsAllPDs(java.security.AccessControlContext)>
+  java.security.AccessControlContext.containsAllPDs/$r9, java.security.AccessControlContext.containsAllPDs/$r10, <java.security.AccessControlContext: boolean containsAllPDs(java.security.AccessControlContext)>
+  java.security.AccessControlContext.containsAllPDs/$r12, java.security.AccessControlContext.containsAllPDs/$r13, <java.security.AccessControlContext: boolean containsAllPDs(java.security.AccessControlContext)>
+  java.security.AccessControlContext.containsAllPDs/$r15, java.security.AccessControlContext.containsAllPDs/$r16, <java.security.AccessControlContext: boolean containsAllPDs(java.security.AccessControlContext)>
+  java.security.AccessControlContext.containsAllPDs/$r17, java.security.AccessControlContext.containsAllPDs/$r18, <java.security.AccessControlContext: boolean containsAllPDs(java.security.AccessControlContext)>
+  java.security.AccessControlContext.hashCode/$r2, java.security.AccessControlContext.hashCode/$r3, <java.security.AccessControlContext: int hashCode()>
+  java.security.AccessControlContext.hashCode/$r4, java.security.AccessControlContext.hashCode/$r5, <java.security.AccessControlContext: int hashCode()>
+  <java.lang.FDBigInt: void <init>(java.lang.FDBigInt)>/$r3, <java.lang.FDBigInt: void <init>(java.lang.FDBigInt)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.FDBigInt: void <init>(java.lang.FDBigInt)>
+  java.lang.FDBigInt.add/r4, java.lang.FDBigInt.add/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.lang.FDBigInt: java.lang.FDBigInt add(java.lang.FDBigInt)>
+  java.io.BufferedReader.fill/$r3, java.io.BufferedReader.fill/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.BufferedReader: void fill()>
+  java.io.BufferedReader.fill/$r5, java.io.BufferedReader.fill/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.io.BufferedReader: void fill()>
+  java.io.BufferedReader.read1/$r6, java.io.BufferedReader.read1/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.BufferedReader: int read1(char[],int,int)>
+  java.io.ObjectOutputStream$HandleTable.growSpine/$r5, java.io.ObjectOutputStream$HandleTable.growSpine/$r6, <java.io.ObjectOutputStream$HandleTable: void growSpine()>
+  java.io.ObjectOutputStream$HandleTable.growEntries/$r4, java.io.ObjectOutputStream$HandleTable.growEntries/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectOutputStream$HandleTable: void growEntries()>
+  java.io.ObjectOutputStream$HandleTable.growEntries/$r6, java.io.ObjectOutputStream$HandleTable.growEntries/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.io.ObjectOutputStream$HandleTable: void growEntries()>
+  java.io.ObjectOutputStream$HandleTable.findWireOffset/$r4, java.io.ObjectOutputStream$HandleTable.findWireOffset/$r5, <java.io.ObjectOutputStream$HandleTable: int findWireOffset(java.lang.Object)>
+  java.io.ObjectOutputStream$ReplaceTable.lookup/$r3, java.io.ObjectOutputStream$ReplaceTable.lookup/$r4, <java.io.ObjectOutputStream$ReplaceTable: java.lang.Object lookup(java.lang.Object)>
+  java.io.ObjectOutputStream$ReplaceTable.grow/$r3, java.io.ObjectOutputStream$ReplaceTable.grow/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.ObjectOutputStream$ReplaceTable: void grow()>
+  java.io.ObjectOutputStream$PutFieldImpl.write/$r6, java.io.ObjectOutputStream$PutFieldImpl.write/$r7, <java.io.ObjectOutputStream$PutFieldImpl: void write(java.io.ObjectOutput)>
+  java.text.SimpleDateFormat.matchString/r2, java.text.SimpleDateFormat.matchString/$r3, <java.text.SimpleDateFormat: int matchString(java.lang.String,int,int,java.lang.String[])>
+  java.text.SimpleDateFormat.matchString/r2, java.text.SimpleDateFormat.matchString/$r4, <java.text.SimpleDateFormat: int matchString(java.lang.String,int,int,java.lang.String[])>
+  java.text.SimpleDateFormat.matchZoneString/$r3, java.text.SimpleDateFormat.matchZoneString/$r4, <java.text.SimpleDateFormat: int matchZoneString(java.lang.String,int,int)>
+  java.text.SimpleDateFormat.matchZoneString/$r4, java.text.SimpleDateFormat.matchZoneString/$r5, <java.text.SimpleDateFormat: int matchZoneString(java.lang.String,int,int)>
+  java.text.SimpleDateFormat.matchZoneString/$r7, java.text.SimpleDateFormat.matchZoneString/$r8, <java.text.SimpleDateFormat: int matchZoneString(java.lang.String,int,int)>
+  java.text.SimpleDateFormat.matchZoneString/$r8, java.text.SimpleDateFormat.matchZoneString/$r9, <java.text.SimpleDateFormat: int matchZoneString(java.lang.String,int,int)>
+  java.text.SimpleDateFormat.subParseZoneString/$r7, java.text.SimpleDateFormat.subParseZoneString/$r8, <java.text.SimpleDateFormat: int subParseZoneString(java.lang.String,int)>
+  java.text.SimpleDateFormat.subParseZoneString/$r8, java.text.SimpleDateFormat.subParseZoneString/$r9, <java.text.SimpleDateFormat: int subParseZoneString(java.lang.String,int)>
+  java.text.SimpleDateFormat.subParseZoneString/$r14, java.text.SimpleDateFormat.subParseZoneString/$r15, <java.text.SimpleDateFormat: int subParseZoneString(java.lang.String,int)>
+  java.text.SimpleDateFormat.subParseZoneString/$r15, java.text.SimpleDateFormat.subParseZoneString/$r16, <java.text.SimpleDateFormat: int subParseZoneString(java.lang.String,int)>
+  java.text.SimpleDateFormat.subParseZoneString/$r18, java.text.SimpleDateFormat.subParseZoneString/$r19, <java.text.SimpleDateFormat: int subParseZoneString(java.lang.String,int)>
+  java.text.SimpleDateFormat.subParseZoneString/$r19, java.text.SimpleDateFormat.subParseZoneString/$r20, <java.text.SimpleDateFormat: int subParseZoneString(java.lang.String,int)>
+  java.text.SimpleDateFormat.subParseZoneString/$r27, java.text.SimpleDateFormat.subParseZoneString/$r28, <java.text.SimpleDateFormat: int subParseZoneString(java.lang.String,int)>
+  java.text.SimpleDateFormat.subParseZoneString/$r28, java.text.SimpleDateFormat.subParseZoneString/$r29, <java.text.SimpleDateFormat: int subParseZoneString(java.lang.String,int)>
+  java.text.ChoiceFormat.toPattern/$r24, java.text.ChoiceFormat.toPattern/r3, <java.text.ChoiceFormat: java.lang.String toPattern()>
+  <java.text.ChoiceFormat: java.lang.StringBuffer format(double,java.lang.StringBuffer,java.text.FieldPosition)>/$r5, <java.text.ChoiceFormat: java.lang.StringBuffer format(double,java.lang.StringBuffer,java.text.FieldPosition)>/$r6, <java.text.ChoiceFormat: java.lang.StringBuffer format(double,java.lang.StringBuffer,java.text.FieldPosition)>
+  java.text.ChoiceFormat.parse/$r4, java.text.ChoiceFormat.parse/r3, <java.text.ChoiceFormat: java.lang.Number parse(java.lang.String,java.text.ParsePosition)>
+  java.text.ChoiceFormat.hashCode/$r3, java.text.ChoiceFormat.hashCode/$r5, <java.text.ChoiceFormat: int hashCode()>
+  <java.text.DecimalFormat: void <init>()>/r5, <java.text.DecimalFormat: void <init>()>/r3, <java.text.DecimalFormat: void <init>()>
+  java.util.Hashtable$EntrySet.contains/r4, java.util.Hashtable$EntrySet.contains/r5, <java.util.Hashtable$EntrySet: boolean contains(java.lang.Object)>
+  java.util.Hashtable$EntrySet.remove/r4, java.util.Hashtable$EntrySet.remove/r5, <java.util.Hashtable$EntrySet: boolean remove(java.lang.Object)>
+  java.util.Hashtable$Enumerator.hasMoreElements/r2, java.util.Hashtable$Enumerator.hasMoreElements/r1, <java.util.Hashtable$Enumerator: boolean hasMoreElements()>
+  java.util.Arrays$ArrayList.get/$r1, java.util.Arrays$ArrayList.get/$r2, <java.util.Arrays$ArrayList: java.lang.Object get(int)>
+  java.util.Arrays$ArrayList.set/$r3, java.util.Arrays$ArrayList.set/r2, <java.util.Arrays$ArrayList: java.lang.Object set(int,java.lang.Object)>
+  java.util.Arrays$ArrayList.indexOf/$r2, java.util.Arrays$ArrayList.indexOf/$r3, <java.util.Arrays$ArrayList: int indexOf(java.lang.Object)>
+  java.util.Arrays$ArrayList.indexOf/$r5, java.util.Arrays$ArrayList.indexOf/$r6, <java.util.Arrays$ArrayList: int indexOf(java.lang.Object)>
+  java.util.HashMap$3.contains/r4, java.util.HashMap$3.contains/r5, <java.util.HashMap$3: boolean contains(java.lang.Object)>
+  java.util.HashMap$3.remove/r4, java.util.HashMap$3.remove/r5, <java.util.HashMap$3: boolean remove(java.lang.Object)>
+  java.util.HashMap$HashIterator.hasNext/r2, java.util.HashMap$HashIterator.hasNext/r1, <java.util.HashMap$HashIterator: boolean hasNext()>
+  <java.util.jar.Manifest$FastInputStream: int read(byte[],int,int)>/$r4, <java.util.jar.Manifest$FastInputStream: int read(byte[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.jar.Manifest$FastInputStream: int read(byte[],int,int)>
+  <java.util.jar.Manifest$FastInputStream: int readLine(byte[],int,int)>/r2, <java.util.jar.Manifest$FastInputStream: int readLine(byte[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.jar.Manifest$FastInputStream: int readLine(byte[],int,int)>
+  <java.net.ContentHandler: java.lang.Object getContent(java.net.URLConnection,java.lang.Class[])>/r2, <java.net.ContentHandler: java.lang.Object getContent(java.net.URLConnection,java.lang.Class[])>/$r4, <java.net.ContentHandler: java.lang.Object getContent(java.net.URLConnection,java.lang.Class[])>
+  java.util.Calendar.toString/$r23, java.util.Calendar.toString/$r24, <java.util.Calendar: java.lang.String toString()>
+  java.util.Calendar.setWeekCountData/r5, java.util.Calendar.setWeekCountData/$r7, <java.util.Calendar: void setWeekCountData(java.util.Locale)>
+  java.util.Calendar.setWeekCountData/r5, java.util.Calendar.setWeekCountData/$r8, <java.util.Calendar: void setWeekCountData(java.util.Locale)>
+  java.text.DateFormatSymbols.getZoneStrings/$r3, java.text.DateFormatSymbols.getZoneStrings/$r4, <java.text.DateFormatSymbols: java.lang.String[][] getZoneStrings()>
+  java.text.DateFormatSymbols.setZoneStrings/r1, java.text.DateFormatSymbols.setZoneStrings/$r3, <java.text.DateFormatSymbols: void setZoneStrings(java.lang.String[][])>
+  java.text.DateFormatSymbols.hashCode/$r1, java.text.DateFormatSymbols.hashCode/$r2, <java.text.DateFormatSymbols: int hashCode()>
+  java.text.DateFormatSymbols.hashCode/$r2, java.text.DateFormatSymbols.hashCode/$r3, <java.text.DateFormatSymbols: int hashCode()>
+  java.text.DateFormatSymbols.hashCode/$r4, java.text.DateFormatSymbols.hashCode/$r5, <java.text.DateFormatSymbols: int hashCode()>
+  java.text.DateFormatSymbols.cacheLookup/r2, java.text.DateFormatSymbols.cacheLookup/$r11, <java.text.DateFormatSymbols: java.util.ResourceBundle[] cacheLookup(java.util.Locale)>
+  java.text.DateFormatSymbols.cacheLookup/r2, java.text.DateFormatSymbols.cacheLookup/$r13, <java.text.DateFormatSymbols: java.util.ResourceBundle[] cacheLookup(java.util.Locale)>
+  java.text.DateFormatSymbols.cacheLookup/r3, java.text.DateFormatSymbols.cacheLookup/$r17, <java.text.DateFormatSymbols: java.util.ResourceBundle[] cacheLookup(java.util.Locale)>
+  java.text.DateFormatSymbols.cacheLookup/r3, java.text.DateFormatSymbols.cacheLookup/$r21, <java.text.DateFormatSymbols: java.util.ResourceBundle[] cacheLookup(java.util.Locale)>
+  java.text.DateFormatSymbols.initializeData/r2, java.text.DateFormatSymbols.initializeData/r3, <java.text.DateFormatSymbols: void initializeData(java.util.Locale)>
+  java.text.DateFormatSymbols.initializeData/r2, java.text.DateFormatSymbols.initializeData/r4, <java.text.DateFormatSymbols: void initializeData(java.util.Locale)>
+  java.text.DateFormatSymbols.initializeData/r5, java.text.DateFormatSymbols.initializeData/$r14, <java.text.DateFormatSymbols: void initializeData(java.util.Locale)>
+  java.text.DateFormatSymbols.initializeData/r6, java.text.DateFormatSymbols.initializeData/$r18, <java.text.DateFormatSymbols: void initializeData(java.util.Locale)>
+  java.text.DateFormatSymbols.getZoneIndex/$r2, java.text.DateFormatSymbols.getZoneIndex/$r3, <java.text.DateFormatSymbols: int getZoneIndex(java.lang.String)>
+  java.text.DateFormatSymbols.getZoneIndex/$r3, java.text.DateFormatSymbols.getZoneIndex/$r4, <java.text.DateFormatSymbols: int getZoneIndex(java.lang.String)>
+  java.text.DateFormatSymbols.duplicate/r1, java.text.DateFormatSymbols.duplicate/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.text.DateFormatSymbols: java.lang.String[] duplicate(java.lang.String[])>
+  java.text.DateFormatSymbols.copyMembers/$r16, java.text.DateFormatSymbols.copyMembers/$r17, <java.text.DateFormatSymbols: void copyMembers(java.text.DateFormatSymbols,java.text.DateFormatSymbols)>
+  <java.text.DateFormatSymbols: boolean equals(java.lang.String[],java.lang.String[])>/r1, <java.text.DateFormatSymbols: boolean equals(java.lang.String[],java.lang.String[])>/$r3, <java.text.DateFormatSymbols: boolean equals(java.lang.String[],java.lang.String[])>
+  <java.text.DateFormatSymbols: boolean equals(java.lang.String[],java.lang.String[])>/r2, <java.text.DateFormatSymbols: boolean equals(java.lang.String[],java.lang.String[])>/$r4, <java.text.DateFormatSymbols: boolean equals(java.lang.String[],java.lang.String[])>
+  java.math.BigInteger.oddModPow/r7, java.math.BigInteger.oddModPow/r15, <java.math.BigInteger: java.math.BigInteger oddModPow(java.math.BigInteger,java.math.BigInteger)>
+  java.math.BigInteger.oddModPow/r7, java.math.BigInteger.oddModPow/$r27, <java.math.BigInteger: java.math.BigInteger oddModPow(java.math.BigInteger,java.math.BigInteger)>
+  java.math.BigInteger.oddModPow/r7, java.math.BigInteger.oddModPow/$r28, <java.math.BigInteger: java.math.BigInteger oddModPow(java.math.BigInteger,java.math.BigInteger)>
+  java.math.BigInteger.oddModPow/r7, java.math.BigInteger.oddModPow/$r29, <java.math.BigInteger: java.math.BigInteger oddModPow(java.math.BigInteger,java.math.BigInteger)>
+  java.math.BigInteger.oddModPow/r7, java.math.BigInteger.oddModPow/$r30, <java.math.BigInteger: java.math.BigInteger oddModPow(java.math.BigInteger,java.math.BigInteger)>
+  java.math.BigInteger.oddModPow/r7, java.math.BigInteger.oddModPow/$r31, <java.math.BigInteger: java.math.BigInteger oddModPow(java.math.BigInteger,java.math.BigInteger)>
+  java.math.BigInteger.oddModPow/r7, java.math.BigInteger.oddModPow/$r35, <java.math.BigInteger: java.math.BigInteger oddModPow(java.math.BigInteger,java.math.BigInteger)>
+  java.math.BigInteger.shiftRight/$r4, java.math.BigInteger.shiftRight/$r3, <java.math.BigInteger: java.math.BigInteger shiftRight(int)>
+  <java.math.BigInteger: java.lang.String toString(int)>/$r11, <java.math.BigInteger: java.lang.String toString(int)>/r3, <java.math.BigInteger: java.lang.String toString(int)>
+  <java.math.BigInteger: java.lang.String toString(int)>/r1, <java.math.BigInteger: java.lang.String toString(int)>/$r25, <java.math.BigInteger: java.lang.String toString(int)>
+  <java.math.BigInteger: java.lang.String toString(int)>/r1, <java.math.BigInteger: java.lang.String toString(int)>/$r28, <java.math.BigInteger: java.lang.String toString(int)>
+  <java.math.BigInteger: java.lang.String toString(int)>/$r29, <java.math.BigInteger: java.lang.String toString(int)>/$r30, <java.math.BigInteger: java.lang.String toString(int)>
+  <java.math.BigInteger: java.lang.String toString(int)>/r1, <java.math.BigInteger: java.lang.String toString(int)>/$r32, <java.math.BigInteger: java.lang.String toString(int)>
+  java.text.DecimalFormatSymbols.initialize/r3, java.text.DecimalFormatSymbols.initialize/r5, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r3, java.text.DecimalFormatSymbols.initialize/r6, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r12, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r13, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r14, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r15, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r16, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r17, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r18, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r19, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r20, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r21, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r5, java.text.DecimalFormatSymbols.initialize/$r22, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r6, java.text.DecimalFormatSymbols.initialize/$r23, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r6, java.text.DecimalFormatSymbols.initialize/$r24, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r6, java.text.DecimalFormatSymbols.initialize/$r25, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  java.text.DecimalFormatSymbols.initialize/r6, java.text.DecimalFormatSymbols.initialize/$r26, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  <java.text.DigitList: void set(long,int)>/$r1, <java.text.DigitList: void set(long,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.text.DigitList: void set(long,int)>
+  <java.text.DigitList: void set(long,int)>/$r5, <java.text.DigitList: void set(long,int)>/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.text.DigitList: void set(long,int)>
+  java.util.jar.JarFile.getManifest/r1, java.util.jar.JarFile.getManifest/$r5, <java.util.jar.JarFile: java.util.jar.Manifest getManifest()>
+  java.util.jar.JarFile.getManifest/r1, java.util.jar.JarFile.getManifest/$r7, <java.util.jar.JarFile: java.util.jar.Manifest getManifest()>
+  <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.lang.Object[] toArray()>/r1, <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.lang.Object[] toArray()>/$r4, <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.lang.Object[] toArray()>
+  <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.lang.Object[] toArray(java.lang.Object[])>/r2, <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.lang.Object[] toArray(java.lang.Object[])>/$r9, <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.lang.Object[] toArray(java.lang.Object[])>
+  <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.lang.Object[] toArray(java.lang.Object[])>/r2, <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.lang.Object[] toArray(java.lang.Object[])>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet: java.lang.Object[] toArray(java.lang.Object[])>
+  java.io.StreamTokenizer.nextToken/$r8, java.io.StreamTokenizer.nextToken/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.io.StreamTokenizer: int nextToken()>
+  java.io.StreamTokenizer.nextToken/$r18, java.io.StreamTokenizer.nextToken/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.io.StreamTokenizer: int nextToken()>
+  java.util.BitSet.ensureCapacity/$r4, java.util.BitSet.ensureCapacity/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.BitSet: void ensureCapacity(int)>
+  java.text.CompactIntArray.compact/$r9, java.text.CompactIntArray.compact/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.text.CompactIntArray: void compact()>
+  java.text.CompactIntArray.compact/$r16, java.text.CompactIntArray.compact/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.text.CompactIntArray: void compact()>
+  java.text.CompactShortArray.compact/$r9, java.text.CompactShortArray.compact/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.text.CompactShortArray: void compact()>
+  java.text.CompactShortArray.compact/$r16, java.text.CompactShortArray.compact/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.text.CompactShortArray: void compact()>
+  java.text.CompactByteArray.compact/$r9, java.text.CompactByteArray.compact/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.text.CompactByteArray: void compact()>
+  java.text.CompactByteArray.compact/$r16, java.text.CompactByteArray.compact/java.lang.System.arraycopy/1/@tmp-arraycopy, <java.text.CompactByteArray: void compact()>
+  java.lang.String.getCTBConverter/r1, java.lang.String.getCTBConverter/r2, <java.lang.String: sun.io.CharToByteConverter getCTBConverter(java.lang.String)>
+  java.util.Locale.getISOCountries/$r9, java.util.Locale.getISOCountries/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Locale: java.lang.String[] getISOCountries()>
+  java.util.Locale.getISOLanguages/$r9, java.util.Locale.getISOLanguages/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Locale: java.lang.String[] getISOLanguages()>
+  java.util.Locale.formatList/r1, java.util.Locale.formatList/$r5, <java.util.Locale: java.lang.String formatList(java.lang.String[],java.lang.String[])>
+  java.util.Locale.formatList/r0, java.util.Locale.formatList/$r9, <java.util.Locale: java.lang.String formatList(java.lang.String[],java.lang.String[])>
+  java.util.Locale.formatList/r0, java.util.Locale.formatList/$r14, <java.util.Locale: java.lang.String formatList(java.lang.String[],java.lang.String[])>
+  java.util.Locale.formatList/r1, java.util.Locale.formatList/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Locale: java.lang.String formatList(java.lang.String[],java.lang.String[])>
+  java.util.Locale.composeList/r1, java.util.Locale.composeList/$r6, <java.util.Locale: java.lang.String[] composeList(java.text.MessageFormat,java.lang.String[])>
+  java.util.Locale.composeList/r1, java.util.Locale.composeList/$r7, <java.util.Locale: java.lang.String[] composeList(java.text.MessageFormat,java.lang.String[])>
+  java.util.Locale.composeList/r1, java.util.Locale.composeList/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Locale: java.lang.String[] composeList(java.text.MessageFormat,java.lang.String[])>
+  java.lang.reflect.Method.copy/r0, java.lang.reflect.Method.copy/$r2, <java.lang.reflect.Method: java.lang.Class[] copy(java.lang.Class[])>
+  <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.reflect.Method)>/r3, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.reflect.Method)>/$r5, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.reflect.Method)>
+  <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.reflect.Constructor)>/r3, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.reflect.Constructor)>/$r5, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.reflect.Constructor)>
+  java.io.ObjectStreamClass.findDescriptorFor/$r7, java.io.ObjectStreamClass.findDescriptorFor/$r8, <java.io.ObjectStreamClass: java.io.ObjectStreamClass findDescriptorFor(java.lang.Class)>
+  java.io.ObjectStreamClass.insertDescriptorFor/$r7, java.io.ObjectStreamClass.insertDescriptorFor/$r8, <java.io.ObjectStreamClass: void insertDescriptorFor(java.io.ObjectStreamClass)>
+  java.util.ResourceBundle.getLoader/r0, java.util.ResourceBundle.getLoader/r1, <java.util.ResourceBundle: java.lang.ClassLoader getLoader()>
+  java.text.MessageFormat.findKeyword/r1, java.text.MessageFormat.findKeyword/$r4, <java.text.MessageFormat: int findKeyword(java.lang.String,java.lang.String[])>
+  java.text.resources.LocaleData.getAvailableLocales/$r4, java.text.resources.LocaleData.getAvailableLocales/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.text.resources.LocaleData: java.util.Locale[] getAvailableLocales(java.lang.String)>
+  java.text.resources.LocaleData.scanDir/r3, java.text.resources.LocaleData.scanDir/$r4, <java.text.resources.LocaleData: void scanDir(java.io.File,java.util.Vector,java.lang.String)>
+  java.text.resources.LocaleData.<clinit>/r19, java.text.resources.LocaleData.<clinit>/$r22, <java.text.resources.LocaleData: void <clinit>()>
+  java.text.resources.LocaleData.<clinit>/r19, java.text.resources.LocaleData.<clinit>/$r23, <java.text.resources.LocaleData: void <clinit>()>
+  java.text.resources.LocaleData.<clinit>/r19, java.text.resources.LocaleData.<clinit>/$r25, <java.text.resources.LocaleData: void <clinit>()>
+  java.text.resources.LocaleData.<clinit>/r19, java.text.resources.LocaleData.<clinit>/$r26, <java.text.resources.LocaleData: void <clinit>()>
+  java.text.resources.LocaleData.<clinit>/r19, java.text.resources.LocaleData.<clinit>/$r27, <java.text.resources.LocaleData: void <clinit>()>
+  java.text.resources.LocaleData.<clinit>/r19, java.text.resources.LocaleData.<clinit>/$r28, <java.text.resources.LocaleData: void <clinit>()>
+  java.text.resources.LocaleData.<clinit>/r19, java.text.resources.LocaleData.<clinit>/$r29, <java.text.resources.LocaleData: void <clinit>()>
+  java.text.resources.LocaleData.<clinit>/r19, java.text.resources.LocaleData.<clinit>/$r30, <java.text.resources.LocaleData: void <clinit>()>
+  java.lang.Character$UnicodeBlock.of/$r2, java.lang.Character$UnicodeBlock.of/$r3, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock of(char)>
+  <java.lang.reflect.AccessibleObject: void setAccessible(java.lang.reflect.AccessibleObject[],boolean)>/r0, <java.lang.reflect.AccessibleObject: void setAccessible(java.lang.reflect.AccessibleObject[],boolean)>/$r3, <java.lang.reflect.AccessibleObject: void setAccessible(java.lang.reflect.AccessibleObject[],boolean)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/r1, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/$r2, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/r1, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/$r4, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/$r6, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/$r8, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/$r10, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/$r12, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/$r13, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/$r14, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int)>
+  <java.util.Arrays: void swap(java.lang.Object[],int,int)>/r0, <java.util.Arrays: void swap(java.lang.Object[],int,int)>/r1, <java.util.Arrays: void swap(java.lang.Object[],int,int)>
+  <java.util.Arrays: void swap(java.lang.Object[],int,int)>/r0, <java.util.Arrays: void swap(java.lang.Object[],int,int)>/$r2, <java.util.Arrays: void swap(java.lang.Object[],int,int)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/r1, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/$r3, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/r1, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/$r4, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/$r5, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/$r6, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/$r7, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/$r8, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/$r9, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/$r10, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>
+  <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/r0, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.Arrays: void mergeSort(java.lang.Object[],java.lang.Object[],int,int,java.util.Comparator)>
+  <java.util.Arrays: int binarySearch(java.lang.Object[],java.lang.Object)>/r0, <java.util.Arrays: int binarySearch(java.lang.Object[],java.lang.Object)>/r2, <java.util.Arrays: int binarySearch(java.lang.Object[],java.lang.Object)>
+  <java.util.Arrays: int binarySearch(java.lang.Object[],java.lang.Object,java.util.Comparator)>/r0, <java.util.Arrays: int binarySearch(java.lang.Object[],java.lang.Object,java.util.Comparator)>/r3, <java.util.Arrays: int binarySearch(java.lang.Object[],java.lang.Object,java.util.Comparator)>
+  <java.util.Arrays: boolean equals(java.lang.Object[],java.lang.Object[])>/r0, <java.util.Arrays: boolean equals(java.lang.Object[],java.lang.Object[])>/r2, <java.util.Arrays: boolean equals(java.lang.Object[],java.lang.Object[])>
+  <java.util.Arrays: boolean equals(java.lang.Object[],java.lang.Object[])>/r1, <java.util.Arrays: boolean equals(java.lang.Object[],java.lang.Object[])>/r3, <java.util.Arrays: boolean equals(java.lang.Object[],java.lang.Object[])>
+  java.io.ObjectStreamClass$MethodSignature.removePrivateAndSort/r0, java.io.ObjectStreamClass$MethodSignature.removePrivateAndSort/$r3, <java.io.ObjectStreamClass$MethodSignature: java.io.ObjectStreamClass$MethodSignature[] removePrivateAndSort(java.lang.reflect.Member[])>
+  java.io.ObjectStreamClass$MethodSignature.removePrivateAndSort/r0, java.io.ObjectStreamClass$MethodSignature.removePrivateAndSort/$r4, <java.io.ObjectStreamClass$MethodSignature: java.io.ObjectStreamClass$MethodSignature[] removePrivateAndSort(java.lang.reflect.Member[])>
+  java.io.ObjectStreamClass$MethodSignature.removePrivateAndSort/r0, java.io.ObjectStreamClass$MethodSignature.removePrivateAndSort/$r5, <java.io.ObjectStreamClass$MethodSignature: java.io.ObjectStreamClass$MethodSignature[] removePrivateAndSort(java.lang.reflect.Member[])>
+  java.io.ObjectStreamClass$MethodSignature.removePrivateAndSort/r1, java.io.ObjectStreamClass$MethodSignature.removePrivateAndSort/$r6, <java.io.ObjectStreamClass$MethodSignature: java.io.ObjectStreamClass$MethodSignature[] removePrivateAndSort(java.lang.reflect.Member[])>
+  java.net.InetAddress.getByName/$r3, java.net.InetAddress.getByName/$r4, <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+  java.net.InetAddress.getByName/$r5, java.net.InetAddress.getByName/$r6, <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+  java.net.InetAddress.getByName/$r7, java.net.InetAddress.getByName/$r8, <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+  java.net.InetAddress.getByName/$r9, java.net.InetAddress.getByName/$r10, <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+  java.net.InetAddress.getByName/$r11, java.net.InetAddress.getByName/$r12, <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+  <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale,int)>/r2, <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale,int)>/$r8, <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale,int)>
+  <java.text.Utility: boolean arrayRegionMatches(java.lang.Object[],int,java.lang.Object[],int,int)>/r0, <java.text.Utility: boolean arrayRegionMatches(java.lang.Object[],int,java.lang.Object[],int,int)>/$r2, <java.text.Utility: boolean arrayRegionMatches(java.lang.Object[],int,java.lang.Object[],int,int)>
+  <java.text.Utility: boolean arrayRegionMatches(java.lang.Object[],int,java.lang.Object[],int,int)>/r1, <java.text.Utility: boolean arrayRegionMatches(java.lang.Object[],int,java.lang.Object[],int,int)>/$r3, <java.text.Utility: boolean arrayRegionMatches(java.lang.Object[],int,java.lang.Object[],int,int)>
+  <java.util.Collections: void sort(java.util.List)>/r1, <java.util.Collections: void sort(java.util.List)>/$r4, <java.util.Collections: void sort(java.util.List)>
+  <java.util.Collections: void sort(java.util.List,java.util.Comparator)>/r2, <java.util.Collections: void sort(java.util.List,java.util.Comparator)>/$r5, <java.util.Collections: void sort(java.util.List,java.util.Comparator)>
+  <java.security.Security: java.security.Provider[] getProviders(java.util.Map)>/r14, <java.security.Security: java.security.Provider[] getProviders(java.util.Map)>/$r16, <java.security.Security: java.security.Provider[] getProviders(java.util.Map)>
+  java.security.Security.getAllQualifyingCandidates/r3, java.security.Security.getAllQualifyingCandidates/r4, <java.security.Security: java.util.HashSet getAllQualifyingCandidates(java.lang.String,java.lang.String,java.security.Provider[])>
+  java.security.Security.getAllQualifyingCandidates/r3, java.security.Security.getAllQualifyingCandidates/r5, <java.security.Security: java.util.HashSet getAllQualifyingCandidates(java.lang.String,java.lang.String,java.security.Provider[])>
+  java.security.Security.getAllQualifyingCandidates/r3, java.security.Security.getAllQualifyingCandidates/r6, <java.security.Security: java.util.HashSet getAllQualifyingCandidates(java.lang.String,java.lang.String,java.security.Provider[])>
+  java.security.Security.getProvidersNotUsingCache/r5, java.security.Security.getProvidersNotUsingCache/$r10, <java.security.Security: java.util.HashSet getProvidersNotUsingCache(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.HashSet,java.security.Provider[])>
+  java.security.Security.getProvidersNotUsingCache/r5, java.security.Security.getProvidersNotUsingCache/$r11, <java.security.Security: java.util.HashSet getProvidersNotUsingCache(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.HashSet,java.security.Provider[])>
+  <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>/$r3, <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>/$r4, <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>
+  <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>/$r5, <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>/$r6, <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>
+  <java.util.TimeZone: java.lang.String[] getAvailableIDs()>/$r2, <java.util.TimeZone: java.lang.String[] getAvailableIDs()>/$r4, <java.util.TimeZone: java.lang.String[] getAvailableIDs()>
+  <java.util.TimeZone: java.lang.String[] getAvailableIDs()>/r1, <java.util.TimeZone: java.lang.String[] getAvailableIDs()>/java.lang.System.arraycopy/0/@tmp-arraycopy, <java.util.TimeZone: java.lang.String[] getAvailableIDs()>
+  <java.math.BigInteger: java.math.BigInteger valueOf(long)>/$r1, <java.math.BigInteger: java.math.BigInteger valueOf(long)>/$r2, <java.math.BigInteger: java.math.BigInteger valueOf(long)>
+  <java.math.BigInteger: java.math.BigInteger valueOf(long)>/$r3, <java.math.BigInteger: java.math.BigInteger valueOf(long)>/$r4, <java.math.BigInteger: java.math.BigInteger valueOf(long)>
+  java.math.BigInteger.<clinit>/$r18, java.math.BigInteger.<clinit>/$r19, <java.math.BigInteger: void <clinit>()>
+  java.util.TimeZoneData.<clinit>/$r347, java.util.TimeZoneData.<clinit>/$r348, <java.util.TimeZoneData: void <clinit>()>
+  java.util.TimeZoneData.<clinit>/$r350, java.util.TimeZoneData.<clinit>/$r351, <java.util.TimeZoneData: void <clinit>()>
+  java.security.SecureRandom.getPrngAlgorithm/r0, java.security.SecureRandom.getPrngAlgorithm/$r3, <java.security.SecureRandom: java.lang.String getPrngAlgorithm()>
+  java.text.Normalizer.<clinit>/r2, java.text.Normalizer.<clinit>/r3, <java.text.Normalizer: void <clinit>()>

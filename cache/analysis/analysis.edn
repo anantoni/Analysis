@@ -1,0 +1,83 @@
+bonjour
+VarPointsTo: 31
+sun.misc.Version.init/$stringconstant0, <<string-constant>>
+sun.misc.NativeSignalHandler.<init>/r0, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/1
+sun.misc.Version.init/$stringconstant5, <<string-constant>>
+sun.misc.Signal.<clinit>/$r0, sun.misc.Signal.<clinit>/new java.util.Hashtable/0
+sun.misc.Signal.handle/$r23, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
+sun.misc.NativeSignalHandler.<init>/@this, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/0
+sun.misc.NativeSignalHandler.<init>/@this, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/1
+sun.misc.Signal.handle/$r8, sun.misc.Signal.handle/new java.lang.StringBuffer/0
+<sun.misc.Launcher$Factory: void <init>()>/@this, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
+sun.misc.SignalHandler.<clinit>/$r1, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/1
+sun.misc.Launcher$Factory.<clinit>/$stringconstant0, <<string-constant>>
+sun.misc.NativeSignalHandler.<init>/r0, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
+sun.misc.Version.init/$stringconstant3, <<string-constant>>
+sun.misc.NativeSignalHandler.<init>/r0, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/0
+sun.misc.Signal.handle/$r7, sun.io.ByteToCharConverter.setSubstitutionChars/new java.lang.IllegalArgumentException/0
+sun.misc.Launcher$1.<init>/@this, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$1/0
+sun.misc.Signal.<clinit>/$r1, sun.misc.Signal.<clinit>/new java.util.Hashtable/1
+sun.misc.Version.init/$stringconstant1, <<string-constant>>
+sun.misc.Version.init/$stringconstant4, <<string-constant>>
+sun.misc.Launcher$1.<init>/r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$1/0
+sun.misc.NativeSignalHandler.<init>/@this, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
+<sun.misc.Launcher$Factory: void <init>()>/r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
+<sun.misc.Launcher$Factory: void <init>(sun.misc.Launcher$1)>/r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
+sun.misc.SignalHandler.<clinit>/$r0, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/0
+sun.misc.Signal.handle/$r13, sun.misc.Signal.handle/new java.lang.Integer/0
+sun.misc.Signal.handle/$stringconstant0, <<string-constant>>
+<sun.misc.Launcher$Factory: void <init>(sun.misc.Launcher$1)>/@this, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
+sun.misc.Signal.handle/r24, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
+sun.misc.Launcher.<clinit>/$r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
+sun.misc.Version.init/$stringconstant2, <<string-constant>>
+sun.misc.Launcher.<clinit>/$r1, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$1/0
+CallGraphEdge: 48
+sun.misc.Signal.handle/java.lang.Integer.<init>/2, <java.lang.Integer: void <init>(int)>
+<sun.misc.Launcher$Factory: void <init>(sun.misc.Launcher$1)>/sun.misc.Launcher$Factory.<init>/0, <sun.misc.Launcher$Factory: void <init>()>
+sun.misc.SignalHandler.<clinit>/sun.misc.NativeSignalHandler.<init>/1, <sun.misc.NativeSignalHandler: void <init>(long)>
+java.lang.ClassLoader.getSystemClassLoader/java.lang.ClassLoader.getGetClassLoaderPerm/0, <java.lang.ClassLoader: java.lang.RuntimePermission getGetClassLoaderPerm()>
+java.lang.Terminator.setup/sun.misc.Signal.handle/2, <sun.misc.Signal: sun.misc.SignalHandler handle(sun.misc.Signal,sun.misc.SignalHandler)>
+java.lang.System.initializeSystemClass/java.lang.Terminator.setup/0, <java.lang.Terminator: void setup()>
+sun.misc.Signal.<clinit>/java.util.Hashtable.<init>/0, <java.util.Hashtable: void <init>(int)>
+java.lang.Terminator.setup/sun.misc.Signal.handle/0, <sun.misc.Signal: sun.misc.SignalHandler handle(sun.misc.Signal,sun.misc.SignalHandler)>
+sun.misc.Launcher.<clinit>/java.security.AccessController.doPrivileged/0, <java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction)>
+<java.lang.ClassLoader: void <init>()>/java.lang.ClassLoader.getSystemClassLoader/0, <java.lang.ClassLoader: java.lang.ClassLoader getSystemClassLoader()>
+sun.misc.Signal.handle/java.lang.StringBuffer.append/0, <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+java.lang.System.<clinit>/java.lang.System.nullPrintStream/0, <java.lang.System: java.io.PrintStream nullPrintStream()>
+java.lang.System.nullInputStream/java.lang.System.currentTimeMillis/0, <java.lang.System: long currentTimeMillis()>
+java.lang.ClassLoader.getSystemClassLoader/java.lang.ClassLoader.getCallerClassLoader/0, <java.lang.ClassLoader: java.lang.ClassLoader getCallerClassLoader()>
+sun.misc.Version.init/java.lang.System.setProperty/2, <java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>
+java.lang.System.initializeSystemClass/sun.misc.Version.init/0, <sun.misc.Version: void init()>
+java.lang.System.initializeSystemClass/java.lang.System.setOut0/0, <java.lang.System: void setOut0(java.io.PrintStream)>
+sun.misc.Launcher.<clinit>/sun.misc.Launcher$1.<init>/1, <sun.misc.Launcher$1: void <init>()>
+java.lang.System.<clinit>/java.lang.System.registerNatives/0, <java.lang.System: void registerNatives()>
+java.lang.Integer.<clinit>/java.lang.Class.getPrimitiveClass/0, <java.lang.Class: java.lang.Class getPrimitiveClass(java.lang.String)>
+sun.misc.SignalHandler.<clinit>/sun.misc.NativeSignalHandler.<init>/0, <sun.misc.NativeSignalHandler: void <init>(long)>
+java.lang.System.<clinit>/java.lang.System.nullInputStream/0, <java.lang.System: java.io.InputStream nullInputStream()>
+sun.misc.Version.init/java.lang.System.setProperty/0, <java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>
+sun.misc.Signal.handle/java.lang.IllegalArgumentException.<init>/1, <java.lang.IllegalArgumentException: void <init>(java.lang.String)>
+java.lang.System.initializeSystemClass/java.lang.System.initProperties/0, <java.lang.System: java.util.Properties initProperties(java.util.Properties)>
+java.lang.ClassLoader.checkPackageAccess/java.lang.System.getSecurityManager/0, <java.lang.System: java.lang.SecurityManager getSecurityManager()>
+sun.misc.Launcher.<clinit>/sun.misc.Launcher$Factory.<init>/0, <sun.misc.Launcher$Factory: void <init>(sun.misc.Launcher$1)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>/java.lang.String.valueOf/0, <java.lang.String: java.lang.String valueOf(java.lang.Object)>
+java.lang.Terminator.setup/sun.misc.Signal.handle/1, <sun.misc.Signal: sun.misc.SignalHandler handle(sun.misc.Signal,sun.misc.SignalHandler)>
+java.lang.System.nullPrintStream/java.lang.System.currentTimeMillis/0, <java.lang.System: long currentTimeMillis()>
+java.lang.System.initializeSystemClass/java.lang.System.setErr0/0, <java.lang.System: void setErr0(java.io.PrintStream)>
+java.lang.System.initializeSystemClass/java.lang.System.setIn0/0, <java.lang.System: void setIn0(java.io.InputStream)>
+sun.misc.Version.<clinit>/sun.misc.Version.init/0, <sun.misc.Version: void init()>
+java.lang.Class.<clinit>/java.lang.Class.registerNatives/0, <java.lang.Class: void registerNatives()>
+sun.misc.Signal.handle/java.lang.StringBuffer.<init>/0, <java.lang.StringBuffer: void <init>()>
+java.lang.Object.<clinit>/java.lang.Object.registerNatives/0, <java.lang.Object: void registerNatives()>
+java.lang.ClassLoader.getSystemClassLoader/java.lang.System.getSecurityManager/0, <java.lang.System: java.lang.SecurityManager getSecurityManager()>
+<java.lang.ClassLoader: void <init>()>/java.lang.System.getSecurityManager/0, <java.lang.System: java.lang.SecurityManager getSecurityManager()>
+sun.misc.NativeSignalHandler.<init>/java.lang.Object.<init>/0, <java.lang.Object: void <init>()>
+java.lang.System.<clinit>/java.lang.System.nullPrintStream/1, <java.lang.System: java.io.PrintStream nullPrintStream()>
+sun.misc.Signal.<clinit>/java.util.Hashtable.<init>/1, <java.util.Hashtable: void <init>(int)>
+<sun.misc.Launcher$Factory: void <init>()>/java.lang.Object.<init>/0, <java.lang.Object: void <init>()>
+sun.misc.Signal.handle/sun.misc.Signal.handle0/0, <sun.misc.Signal: long handle0(int,long)>
+sun.misc.Launcher$1.<init>/java.lang.Object.<init>/0, <java.lang.Object: void <init>()>
+java.lang.ClassLoader.getSystemClassLoader/sun.misc.Launcher.getLauncher/0, <sun.misc.Launcher: sun.misc.Launcher getLauncher()>
+java.lang.ClassLoader.checkPackageAccess/java.security.AccessController.doPrivileged/0, <java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction,java.security.AccessControlContext)>
+sun.misc.Signal.handle/sun.misc.NativeSignalHandler.<init>/3, <sun.misc.NativeSignalHandler: void <init>(long)>
+sun.misc.Version.init/java.lang.System.setProperty/1, <java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>
+Reachable: 57

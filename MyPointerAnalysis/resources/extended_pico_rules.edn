@@ -1,0 +1,71 @@
+[
+
+[ (VarType ?var ?type)
+  [?varType :Var-Type/ref ?var]
+  [?varType :Var-Type/type ?type] ]
+
+[ (AssignCompatible ?target ?source)
+  [?assignCompatible :AssignCompatible/target ?target]
+  [?assignCompatible :AssignCompatible/source ?source] ]
+
+[ (HeapAllocationType ?heap ?type)
+  [?heapAllocationType :HeapAllocation-Type/heap ?heap]
+  [?heapAllocationType :HeapAllocation-Type/type ?type] ]
+
+[ (MethodDeclaration ?signature ?method)
+  [?methodDeclaration :MethodDeclaration/signature ?signature]
+  [?methodDeclaration :MethodDeclaration/ref ?method] ]
+
+[ (Reachable ?method)
+  [?mainMethodDeclaration :MainMethodDeclaration/method ?method] ]
+
+[ (Reachable ?method) 
+  [?implicitReachable :ImplicitReachable/sig ?method] ]
+
+[ (Reachable ?clinit)
+  [?initializedClass :InitializedClass/classOrInterface ?class]
+  [?classInitializer :ClassInitializer/type ?class]
+  [?classInitializer :ClassInitializer/method ?clinit] ] 
+
+[ (Reachable ?tomethod)
+  (CallGraphEdge _ ?tomethod) ]
+
+[ (CallGraphEdge ?invocation ?tomethod)
+  (Reachable ?inmethod)
+  [?staticMethodInvocation :StaticMethodInvocation/inmethod ?inmethod]
+  [?staticMethodInvocation :StaticMethodInvocation/invocation ?invocation]
+  [?staticMethodInvocation :StaticMethodInvocation/signature ?signature]   
+  (MethodDeclaration ?signature ?tomethod) ]	
+    
+[ (VarPointsTo ?heap ?var)
+  (Reachable ?inmethod)
+  [?assignNormalHeapAllocation :AssignNormalHeapAllocation/inmethod ?inmethod]
+  [?assignNormalHeapAllocation :AssignNormalHeapAllocation/heap ?heap]
+  [?assignNormalHeapAllocation :AssignNormalHeapAllocation/var ?var] ]
+
+[ (VarPointsTo ?heap ?to)
+  (Assign ?type ?from ?to)
+  (VarPointsTo ?heap ?from)
+  (HeapAllocationType ?heap ?heaptype)
+  (AssignCompatible ?type ?heaptype) ]
+
+[ (Assign ?type ?actual ?formal) 
+  (CallGraphEdge ?invocation ?method)
+  [?formalParam :FormalParam/method ?method]
+  [?formalParam :FormalParam/index ?index]
+  [?formalParam :FormalParam/var ?formal]
+  [?actualParam :ActualParam/invocation ?invocation]
+  [?actualParam :ActualParam/index ?index]
+  [?actualParam :ActualParam/var ?actual]
+  (VarType ?formal ?type) ]
+
+[ (Assign ?type ?return ?local)
+  (CallGraphEdge ?invocation ?method)
+  [?assignReturnValue :AssignReturnValue/invocation ?invocation]
+  [?assignReturnValue :AssignReturnValue/to ?local]
+  [?returnVar :ReturnVar/method ?method] 
+  [?returnVar :ReturnVar/var ?return]
+  (VarType ?local ?type) ]
+
+  
+]

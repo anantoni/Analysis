@@ -1,0 +1,1126 @@
+[
+ ;;VarRef
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VarRef/value
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;MethodSignatureRef
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodSignatureRef/value
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;MethodDescriptorRef
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodDescriptorRef/value
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;FieldSignatureRef
+ {:db/id #db/id[:db.part/db]
+  :db/ident :FieldSignatureRef/value
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;SimpleNameRef
+ {:db/id #db/id[:db.part/db]
+  :db/ident :SimpleNameRef/value
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;ModifierRef
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ModifierRef/value
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+ ;;Bytecode Instructions
+
+
+ ;;InstructionRef
+ {:db/id #db/id[:db.part/db]
+  :db/ident :InstructionRef/x
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :CallGraphEdgeSourceRef/x
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodInvocationRef/x
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :HeapAllocationRef/x
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+ ;; Bytecode Instructions
+
+
+ ;; Instruction-Index
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Instruction-Index/instruction
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+  
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Instruction-Index/index
+  :db/valueType :db.type/long
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;HeapAllocationRef
+ {:db/id #db/id[:db.part/db]
+  :db/ident :HeapAllocationRef/x
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+
+ ;;Java Types
+
+
+
+ ;;Type
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Type/x
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;PrimitiveType
+ {:db/id #db/id[:db.part/db]
+  :db/ident :PrimitiveType/x
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;ReferenceType
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ReferenceType/x
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;NullType
+ {:db/id #db/id[:db.part/db]
+  :db/ident :NullType/x
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;ArrayType
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ArrayType/x
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;ClassType
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ClassType/x
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;InterfaceType
+ {:db/id #db/id[:db.part/db]
+  :db/ident :InterfaceType/x
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;; Heap Allocation
+ ;; HeapAllocation:Type
+ {:db/id #db/id[:db.part/db]
+  :db/ident :HeapAllocation-Type/heap
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/index true    
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :HeapAllocation-Type/type
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+
+ ;;Type Declarations
+
+
+ ;;DirectSuperclass
+ {:db/id #db/id[:db.part/db]
+  :db/ident :DirectSuperclass/ref
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :DirectSuperclass/super
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;DirectSuperinterface
+ {:db/id #db/id[:db.part/db]
+  :db/ident :DirectSuperinterface/class
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :DirectSuperinterface/interface
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;ApplicationClass
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ApplicationClass/ref
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;MainClass
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MainClass/ref
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+
+
+ ;; Variable declarations
+
+
+ ;;Var-Type
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Var-Type/ref
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Var-Type/type
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ ;;Var-DeclaringMethod
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Var-DeclaringMethod/ref
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Var-DeclaringMethod/method
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+ ;;Field declarations
+
+
+ ;;FieldSignature
+ {:db/id #db/id[:db.part/db]
+  :db/ident :FieldSignature/ref
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :FieldSignature/declaringClass
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :FieldSignature/simplename
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :FieldSignature/type
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;FieldModifier
+ {:db/id #db/id[:db.part/db]
+  :db/ident :FieldModifier/field
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :FieldModifier/modifier
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+ ;;Method declarations
+
+
+ ;;MethodDeclaration
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodDeclaration/signature
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/index true	
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodDeclaration/ref
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;MethodDeclaration-Exception
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodDeclaration-Exception/method
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodDeclaration-Exception/exceptionType
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+ ;;Method signatures
+
+
+ ;;MethodSignature-Type
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodSignature-Type/signature
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodSignature-Type/type
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;MethodSignature-SimpleName
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodSignature-SimpleName/signature
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodSignature-SimpleName/simplename
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;MethodSignature-Descriptor
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodSignature-Descriptor/signature
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodSignature-Descriptor/descriptor
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;MethodModifier
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodModifier/method
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodModifier/mod
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+ ;;Parameters
+
+
+ ;;FormalParam
+ {:db/id #db/id[:db.part/db]
+  :db/ident :FormalParam/index
+  :db/valueType :db.type/long
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :FormalParam/method
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :FormalParam/var
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;ActualParam
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ActualParam/index
+  :db/valueType :db.type/long
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ActualParam/invocation
+  :db/index true
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ActualParam/var
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;ThisVar
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ThisVar/method
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ThisVar/var
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db} 
+ 
+
+
+ ;;Return variables
+
+
+
+ ;;ReturnVar
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ReturnVar/method
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ReturnVar/var
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;SpecialMethodInvocation-Base
+ {:db/id #db/id[:db.part/db]
+  :db/ident :SpecialMethodInvocation-Base/invocation
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :SpecialMethodInvocation-Base/base
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;SpecialMethodInvocation-In
+ {:db/id #db/id[:db.part/db]
+  :db/ident :SpecialMethodInvocation-In/invocation
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :SpecialMethodInvocation-In/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;SpecialMethodInvocation-Signature
+ {:db/id #db/id[:db.part/db]
+  :db/ident :SpecialMethodInvocation-Signature/invocation
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :SpecialMethodInvocation-Signature/signature
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;VirtualMethodInvocation
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VirtualMethodInvocation/invocation
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VirtualMethodInvocation/signature
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VirtualMethodInvocation/inmethod
+  :db/index true
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db} 
+
+ ;;VirtualMethodInvocation-Base
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VirtualMethodInvocation-Base/invocation
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/unique :db.unique/value
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VirtualMethodInvocation-Base/base
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;VirtualMethodInvocation-In
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VirtualMethodInvocation-In/invocation
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VirtualMethodInvocation-In/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;VirtualMethodInvocation-Signature
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VirtualMethodInvocation-Signature/invocation
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VirtualMethodInvocation-Signature/signature
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;StaticMethodInvocation
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StaticMethodInvocation/invocation
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StaticMethodInvocation/signature
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StaticMethodInvocation/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;StaticMethodInvocation-In
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StaticMethodInvocation-In/invocation
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StaticMethodInvocation-In/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;VirtualMethodInvocation-Signature
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StaticMethodInvocation-Signature/invocation
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StaticMethodInvocation-Signature/signature
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+ ;;Assignments
+
+
+ ;;AssignHeapAllocation
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignHeapAllocation/heap
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignHeapAllocation/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignHeapAllocation/to
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;AssignReturnValue
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignReturnValue/invocation
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignReturnValue/to
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ ;;AssignLocal
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignLocal/from
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignLocal/to
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignLocal/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;AssignCast
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignCast/type
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignCast/from
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignCast/to
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignCast/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+ ;;Fields
+
+
+ ;;LoadInstanceField
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadInstanceField/base
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadInstanceField/sig
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+  {:db/id #db/id[:db.part/db]
+  :db/ident :LoadInstanceField/to
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadInstanceField/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;LoadStaticField
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadStaticField/sig
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadStaticField/to
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadStaticField/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;LoadPrimStaticField
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadPrimStaticField/sig
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadPrimStaticField/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;StoreInstanceField
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StoreInstanceField/base
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StoreInstanceField/signature
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+  {:db/id #db/id[:db.part/db]
+  :db/ident :StoreInstanceField/from
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StoreInstanceField/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;StoreStaticField
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StoreStaticField/signature
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StoreStaticField/from
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StoreStaticField/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;StorePrimStaticField
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StorePrimStaticField/signature
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StorePrimStaticField/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+
+ ;;Arrays
+
+
+ ;;LoadArrayIndex
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadArrayIndex/base
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadArrayIndex/to
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :LoadArrayIndex/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;StoreArrayIndex
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StoreArrayIndex/base
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StoreArrayIndex/from
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StoreArrayIndex/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;ComponentType
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ComponentType/arrayType
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ComponentType/componentType
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db} 
+
+
+ ;;method-resolution
+ ;;MethodLookup
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodLookup/type
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodLookup/simplename
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodLookup/descriptor
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MethodLookup/method
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db} 
+
+ ;;MainMethodDeclaration
+ {:db/id #db/id[:db.part/db]
+  :db/ident :MainMethodDeclaration/method
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db} 
+
+ ;;ImplicitReachable
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ImplicitReachable/sig
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db} 
+
+ ;;InitializedClass
+ {:db/id #db/id[:db.part/db]
+  :db/ident :InitializedClass/classOrInterface
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db} 
+
+ ;;ClassInitializer
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ClassInitializer/type
+  :db/valueType :db.type/ref
+  :db/unique :db.unique/value
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db} 
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ClassInitializer/method
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db} 
+
+ ;;Reachable
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Reachable/method
+  :db/index true
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;Assign 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Assign/type
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Assign/from
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Assign/to
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;VarPointsTo 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VarPointsTo/heap
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :VarPointsTo/var
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;CallGraphEdge
+ {:db/id #db/id[:db.part/db]
+  :db/ident :CallGraphEdge/invocation
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :CallGraphEdge/tomethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;StaticFieldPointsTo 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StaticFieldPointsTo/fieldsig
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :StaticFieldPointsTo/heap
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;InstanceFieldPointsTo
+ {:db/id #db/id[:db.part/db]
+  :db/ident :InstanceFieldPointsTo/heapbase
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :InstanceFieldPointsTo/fieldsig
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :InstanceFieldPointsTo/heap
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;AssignCompatible
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignCompatible/target
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignCompatible/source
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ ;;AssignNormalHeapAllocation
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignNormalHeapAllocation/heap
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignNormalHeapAllocation/var
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignNormalHeapAllocation/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;AssignNormalHeapAllocation
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignAuxiliaryHeapAllocation/heap
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignAuxiliaryHeapAllocation/var
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignAuxiliaryHeapAllocation/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ ;;AssignContextInsensitivelHeapAllocation
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignContextInsensitiveHeapAllocation/heap
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignContextInsensitiveHeapAllocation/var
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :AssignContextInsensitiveHeapAllocation/inmethod
+  :db/valueType :db.type/ref
+  :db/index true
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+  ;;ArrayIndexPointsTo
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ArrayIndexPointsTo/baseheap
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :ArrayIndexPointsTo/heap
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+ 
+ 
+]
+

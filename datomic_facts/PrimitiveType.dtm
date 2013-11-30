@@ -1,0 +1,16 @@
+{:db/id #db/id[:db.part/user -120222]
+ :PrimitiveType/x #db/id[:db.part/user -119397]}
+{:db/id #db/id[:db.part/user -120223]
+ :PrimitiveType/x #db/id[:db.part/user -120195]}
+{:db/id #db/id[:db.part/user -120224]
+ :PrimitiveType/x #db/id[:db.part/user -120196]}
+{:db/id #db/id[:db.part/user -120225]
+ :PrimitiveType/x #db/id[:db.part/user -120197]}
+{:db/id #db/id[:db.part/user -120226]
+ :PrimitiveType/x #db/id[:db.part/user -120198]}
+{:db/id #db/id[:db.part/user -120227]
+ :PrimitiveType/x #db/id[:db.part/user -120199]}
+{:db/id #db/id[:db.part/user -120228]
+ :PrimitiveType/x #db/id[:db.part/user -120200]}
+{:db/id #db/id[:db.part/user -120229]
+ :PrimitiveType/x #db/id[:db.part/user -120201]}

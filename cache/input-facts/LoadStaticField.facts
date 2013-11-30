@@ -1,0 +1,1083 @@
+  <java.lang.String: java.lang.ThreadLocal btcCache>, java.lang.String.getBTCConverter/$r4, <java.lang.String: sun.io.ByteToCharConverter getBTCConverter(java.lang.String)>
+  <java.lang.String: java.lang.ThreadLocal btcCache>, java.lang.String.getBTCConverter/$r6, <java.lang.String: sun.io.ByteToCharConverter getBTCConverter(java.lang.String)>
+  <java.lang.String: java.lang.ThreadLocal btcCache>, java.lang.String.getBTCConverter/$r9, <java.lang.String: sun.io.ByteToCharConverter getBTCConverter(java.lang.String)>
+  <java.lang.System: java.io.PrintStream err>, <java.lang.Throwable: void printStackTrace()>/r1, <java.lang.Throwable: void printStackTrace()>
+  <java.lang.System: java.io.PrintStream err>, <java.lang.Throwable: void printStackTrace()>/$r3, <java.lang.Throwable: void printStackTrace()>
+  <java.lang.System: java.io.PrintStream err>, <java.lang.Throwable: void printStackTrace()>/$r4, <java.lang.Throwable: void printStackTrace()>
+  <java.io.ObjectInputStream: java.lang.Class class$java$io$Serializable>, java.io.ObjectInputStream.inputObject/$r57, <java.io.ObjectInputStream: int inputObject(boolean)>
+  <java.io.ObjectInputStream: java.lang.Class class$java$io$Serializable>, java.io.ObjectInputStream.inputObject/$r58, <java.io.ObjectInputStream: int inputObject(boolean)>
+  <java.lang.ClassLoader: java.security.PermissionCollection defaultPermissions>, java.lang.ClassLoader.getDefaultDomain/$r3, <java.lang.ClassLoader: java.security.ProtectionDomain getDefaultDomain()>
+  <java.lang.ClassLoader: java.lang.Class class$java$lang$ClassLoader>, java.lang.ClassLoader.getDefaultDomain/$r6, <java.lang.ClassLoader: java.security.ProtectionDomain getDefaultDomain()>
+  <java.lang.ClassLoader: java.lang.Class class$java$lang$ClassLoader>, java.lang.ClassLoader.getDefaultDomain/$r7, <java.lang.ClassLoader: java.security.ProtectionDomain getDefaultDomain()>
+  <java.lang.ClassLoader: java.security.PermissionCollection defaultPermissions>, java.lang.ClassLoader.getDefaultDomain/$r8, <java.lang.ClassLoader: java.security.ProtectionDomain getDefaultDomain()>
+  <java.lang.ClassLoader: java.util.Vector systemNativeLibraries>, java.lang.ClassLoader.loadLibrary0/$r17, <java.lang.ClassLoader: boolean loadLibrary0(java.lang.Class,java.io.File)>
+  <java.lang.ClassLoader: java.util.Vector loadedLibraryNames>, java.lang.ClassLoader.loadLibrary0/r20, <java.lang.ClassLoader: boolean loadLibrary0(java.lang.Class,java.io.File)>
+  <java.lang.ClassLoader: java.util.Vector loadedLibraryNames>, java.lang.ClassLoader.loadLibrary0/$r21, <java.lang.ClassLoader: boolean loadLibrary0(java.lang.Class,java.io.File)>
+  <java.lang.ClassLoader: java.util.Stack nativeLibraryContext>, java.lang.ClassLoader.loadLibrary0/$r28, <java.lang.ClassLoader: boolean loadLibrary0(java.lang.Class,java.io.File)>
+  <java.lang.ClassLoader: java.util.Stack nativeLibraryContext>, java.lang.ClassLoader.loadLibrary0/$r29, <java.lang.ClassLoader: boolean loadLibrary0(java.lang.Class,java.io.File)>
+  <java.lang.ClassLoader: java.util.Stack nativeLibraryContext>, java.lang.ClassLoader.loadLibrary0/$r42, <java.lang.ClassLoader: boolean loadLibrary0(java.lang.Class,java.io.File)>
+  <java.lang.ClassLoader: java.util.Vector loadedLibraryNames>, java.lang.ClassLoader.loadLibrary0/$r45, <java.lang.ClassLoader: boolean loadLibrary0(java.lang.Class,java.io.File)>
+  <java.lang.ClassLoader: java.util.Stack nativeLibraryContext>, java.lang.ClassLoader.loadLibrary0/$r48, <java.lang.ClassLoader: boolean loadLibrary0(java.lang.Class,java.io.File)>
+  <java.lang.ClassLoader: java.util.Stack nativeLibraryContext>, java.lang.ClassLoader.loadLibrary0/$r50, <java.lang.ClassLoader: boolean loadLibrary0(java.lang.Class,java.io.File)>
+  <java.lang.ClassLoader: java.util.Vector systemNativeLibraries>, java.lang.ClassLoader.findNative/$r6, <java.lang.ClassLoader: long findNative(java.lang.ClassLoader,java.lang.String)>
+  <java.lang.Package: java.util.Map pkgs>, java.lang.Package.getSystemPackage/r1, <java.lang.Package: java.lang.Package getSystemPackage(java.lang.String)>
+  <java.lang.Package: java.util.Map pkgs>, java.lang.Package.getSystemPackage/$r5, <java.lang.Package: java.lang.Package getSystemPackage(java.lang.String)>
+  <java.lang.Package: java.util.Map pkgs>, java.lang.Package.getSystemPackages/r1, <java.lang.Package: java.lang.Package[] getSystemPackages()>
+  <java.lang.Package: java.util.Map pkgs>, java.lang.Package.getSystemPackages/$r8, <java.lang.Package: java.lang.Package[] getSystemPackages()>
+  <java.lang.Package: java.util.Map pkgs>, java.lang.Package.getSystemPackages/$r10, <java.lang.Package: java.lang.Package[] getSystemPackages()>
+  <java.net.URL: java.lang.Object streamHandlerLock>, java.net.URL.setURLStreamHandlerFactory/r1, <java.net.URL: void setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)>
+  <java.net.URL: java.net.URLStreamHandlerFactory factory>, java.net.URL.setURLStreamHandlerFactory/$r4, <java.net.URL: void setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)>
+  <java.net.URL: java.util.Hashtable handlers>, java.net.URL.setURLStreamHandlerFactory/$r6, <java.net.URL: void setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)>
+  <java.net.URL: java.util.Hashtable handlers>, java.net.URL.getURLStreamHandler/$r1, <java.net.URL: java.net.URLStreamHandler getURLStreamHandler(java.lang.String)>
+  <java.net.URL: java.net.URLStreamHandlerFactory factory>, java.net.URL.getURLStreamHandler/$r11, <java.net.URL: java.net.URLStreamHandler getURLStreamHandler(java.lang.String)>
+  <java.net.URL: java.net.URLStreamHandlerFactory factory>, java.net.URL.getURLStreamHandler/$r12, <java.net.URL: java.net.URLStreamHandler getURLStreamHandler(java.lang.String)>
+  <java.net.URL: java.lang.Object streamHandlerLock>, java.net.URL.getURLStreamHandler/r34, <java.net.URL: java.net.URLStreamHandler getURLStreamHandler(java.lang.String)>
+  <java.net.URL: java.util.Hashtable handlers>, java.net.URL.getURLStreamHandler/$r35, <java.net.URL: java.net.URLStreamHandler getURLStreamHandler(java.lang.String)>
+  <java.net.URL: java.net.URLStreamHandlerFactory factory>, java.net.URL.getURLStreamHandler/$r39, <java.net.URL: java.net.URLStreamHandler getURLStreamHandler(java.lang.String)>
+  <java.net.URL: java.net.URLStreamHandlerFactory factory>, java.net.URL.getURLStreamHandler/$r40, <java.net.URL: java.net.URLStreamHandler getURLStreamHandler(java.lang.String)>
+  <java.net.URL: java.util.Hashtable handlers>, java.net.URL.getURLStreamHandler/$r41, <java.net.URL: java.net.URLStreamHandler getURLStreamHandler(java.lang.String)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamClass$ObjectStreamClassEntry[] descriptorFor>, java.io.ObjectStreamClass.lookupInternal/r1, <java.io.ObjectStreamClass: java.io.ObjectStreamClass lookupInternal(java.lang.Class)>
+  <java.io.ObjectStreamClass: java.lang.Class class$java$io$Serializable>, java.io.ObjectStreamClass.lookupInternal/$r6, <java.io.ObjectStreamClass: java.io.ObjectStreamClass lookupInternal(java.lang.Class)>
+  <java.io.ObjectStreamClass: java.lang.Class class$java$io$Serializable>, java.io.ObjectStreamClass.lookupInternal/$r7, <java.io.ObjectStreamClass: java.io.ObjectStreamClass lookupInternal(java.lang.Class)>
+  <java.io.ObjectStreamClass: java.lang.Class class$java$io$Externalizable>, java.io.ObjectStreamClass.lookupInternal/$r8, <java.io.ObjectStreamClass: java.io.ObjectStreamClass lookupInternal(java.lang.Class)>
+  <java.io.ObjectStreamClass: java.lang.Class class$java$io$Externalizable>, java.io.ObjectStreamClass.lookupInternal/$r9, <java.io.ObjectStreamClass: java.io.ObjectStreamClass lookupInternal(java.lang.Class)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamField[] NO_FIELDS>, java.io.ObjectStreamClass.init/$r3, <java.io.ObjectStreamClass: void init()>
+  <java.io.ObjectStreamClass: java.util.Comparator compareClassByName>, java.io.ObjectStreamClass.computeSerialVersionUID/$r16, <java.io.ObjectStreamClass: long computeSerialVersionUID(java.lang.Class)>
+  <java.io.ObjectStreamClass: java.util.Comparator compareMemberByName>, java.io.ObjectStreamClass.computeSerialVersionUID/$r20, <java.io.ObjectStreamClass: long computeSerialVersionUID(java.lang.Class)>
+  <java.lang.SecurityManager: java.security.AllPermission allPermission>, java.lang.SecurityManager.hasAllPermission/$r1, <java.lang.SecurityManager: boolean hasAllPermission()>
+  <java.lang.SecurityManager: java.security.AllPermission allPermission>, java.lang.SecurityManager.hasAllPermission/$r4, <java.lang.SecurityManager: boolean hasAllPermission()>
+  <java.lang.SecurityManager: java.lang.Class class$java$lang$SecurityManager>, java.lang.SecurityManager.<init>/$r4, <java.lang.SecurityManager: void <init>()>
+  <java.lang.SecurityManager: java.lang.Class class$java$lang$SecurityManager>, java.lang.SecurityManager.<init>/$r5, <java.lang.SecurityManager: void <init>()>
+  <java.lang.SecurityManager: java.awt.AWTPermission topLevelWindowPermission>, java.lang.SecurityManager.checkTopLevelWindow/$r4, <java.lang.SecurityManager: boolean checkTopLevelWindow(java.lang.Object)>
+  <java.lang.SecurityManager: java.awt.AWTPermission topLevelWindowPermission>, java.lang.SecurityManager.checkTopLevelWindow/$r6, <java.lang.SecurityManager: boolean checkTopLevelWindow(java.lang.Object)>
+  <java.lang.SecurityManager: java.lang.String[] packageAccess>, java.lang.SecurityManager.checkPackageAccess/r2, <java.lang.SecurityManager: void checkPackageAccess(java.lang.String)>
+  <java.lang.SecurityManager: java.lang.String[] packageAccess>, java.lang.SecurityManager.checkPackageAccess/$r10, <java.lang.SecurityManager: void checkPackageAccess(java.lang.String)>
+  <java.lang.SecurityManager: java.lang.String[] packageAccess>, java.lang.SecurityManager.checkPackageAccess/$r12, <java.lang.SecurityManager: void checkPackageAccess(java.lang.String)>
+  <java.lang.SecurityManager: java.lang.String[] packageAccess>, java.lang.SecurityManager.checkPackageAccess/$r18, <java.lang.SecurityManager: void checkPackageAccess(java.lang.String)>
+  <java.lang.SecurityManager: java.lang.String[] packageDefinition>, java.lang.SecurityManager.checkPackageDefinition/r2, <java.lang.SecurityManager: void checkPackageDefinition(java.lang.String)>
+  <java.lang.SecurityManager: java.lang.String[] packageDefinition>, java.lang.SecurityManager.checkPackageDefinition/$r10, <java.lang.SecurityManager: void checkPackageDefinition(java.lang.String)>
+  <java.lang.SecurityManager: java.lang.String[] packageDefinition>, java.lang.SecurityManager.checkPackageDefinition/$r12, <java.lang.SecurityManager: void checkPackageDefinition(java.lang.String)>
+  <java.lang.SecurityManager: java.lang.String[] packageDefinition>, java.lang.SecurityManager.checkPackageDefinition/$r18, <java.lang.SecurityManager: void checkPackageDefinition(java.lang.String)>
+  <java.lang.Thread: java.lang.RuntimePermission stopThreadPermission>, <java.lang.Thread: void stop()>/$r5, <java.lang.Thread: void stop()>
+  <java.lang.Thread: java.lang.RuntimePermission stopThreadPermission>, <java.lang.Thread: void stop()>/$r7, <java.lang.Thread: void stop()>
+  <java.lang.FloatingDecimal: char[] zero>, java.lang.FloatingDecimal.readJavaFormatString/r1, <java.lang.FloatingDecimal: java.lang.FloatingDecimal readJavaFormatString(java.lang.String)>
+  <java.lang.Terminator: sun.misc.SignalHandler handler>, java.lang.Terminator.setup/$r0, <java.lang.Terminator: void setup()>
+  <java.util.ResourceBundle: java.lang.Integer DEFAULT_NOT_FOUND>, java.util.ResourceBundle.getBundleImpl/$r12, <java.util.ResourceBundle: java.util.ResourceBundle getBundleImpl(java.lang.String,java.util.Locale,java.lang.ClassLoader)>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.cleanUpConstructionList/r0, <java.util.ResourceBundle: void cleanUpConstructionList()>
+  <java.util.ResourceBundle: java.util.Hashtable underConstruction>, java.util.ResourceBundle.cleanUpConstructionList/$r4, <java.util.ResourceBundle: void cleanUpConstructionList()>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.findBundle/r5, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r11, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.findBundle/$r12, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r13, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r14, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.Hashtable underConstruction>, java.util.ResourceBundle.findBundle/$r15, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r16, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r20, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.findBundle/$r21, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r23, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.Hashtable underConstruction>, java.util.ResourceBundle.findBundle/$r24, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r25, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.findBundle/$r26, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r27, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r29, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r31, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.Hashtable underConstruction>, java.util.ResourceBundle.findBundle/$r33, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r36, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.findBundle/r39, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r40, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.Hashtable underConstruction>, java.util.ResourceBundle.findBundle/$r41, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r42, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundle/$r45, <java.util.ResourceBundle: java.lang.Object findBundle(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Object)>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.findBundleInCache/r2, <java.util.ResourceBundle: java.lang.Object findBundleInCache(java.lang.ClassLoader,java.lang.String)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundleInCache/$r6, <java.util.ResourceBundle: java.lang.Object findBundleInCache(java.lang.ClassLoader,java.lang.String)>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.findBundleInCache/$r7, <java.util.ResourceBundle: java.lang.Object findBundleInCache(java.lang.ClassLoader,java.lang.String)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundleInCache/$r8, <java.util.ResourceBundle: java.lang.Object findBundleInCache(java.lang.ClassLoader,java.lang.String)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.findBundleInCache/$r9, <java.util.ResourceBundle: java.lang.Object findBundleInCache(java.lang.ClassLoader,java.lang.String)>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.putBundleInCache/r3, <java.util.ResourceBundle: void putBundleInCache(java.lang.ClassLoader,java.lang.String,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.putBundleInCache/$r5, <java.util.ResourceBundle: void putBundleInCache(java.lang.ClassLoader,java.lang.String,java.lang.Object)>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.putBundleInCache/$r6, <java.util.ResourceBundle: void putBundleInCache(java.lang.ClassLoader,java.lang.String,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.putBundleInCache/$r7, <java.util.ResourceBundle: void putBundleInCache(java.lang.ClassLoader,java.lang.String,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.Hashtable underConstruction>, java.util.ResourceBundle.putBundleInCache/$r10, <java.util.ResourceBundle: void putBundleInCache(java.lang.ClassLoader,java.lang.String,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.putBundleInCache/$r11, <java.util.ResourceBundle: void putBundleInCache(java.lang.ClassLoader,java.lang.String,java.lang.Object)>
+  <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, java.util.ResourceBundle.putBundleInCache/$r13, <java.util.ResourceBundle: void putBundleInCache(java.lang.ClassLoader,java.lang.String,java.lang.Object)>
+  <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, java.util.ResourceBundle.putBundleInCache/$r14, <java.util.ResourceBundle: void putBundleInCache(java.lang.ClassLoader,java.lang.String,java.lang.Object)>
+  <java.util.ResourceBundle: java.lang.Class class$java$util$ResourceBundle>, java.util.ResourceBundle.loadBundle/$r7, <java.util.ResourceBundle: java.lang.Object loadBundle(java.lang.ClassLoader,java.lang.String)>
+  <java.util.ResourceBundle: java.lang.Class class$java$util$ResourceBundle>, java.util.ResourceBundle.loadBundle/$r8, <java.util.ResourceBundle: java.lang.Object loadBundle(java.lang.ClassLoader,java.lang.String)>
+  <java.text.MessageFormat: java.lang.String[] typeList>, java.text.MessageFormat.makeFormat/$r15, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  <java.text.MessageFormat: java.lang.String[] modifierList>, java.text.MessageFormat.makeFormat/$r18, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  <java.text.MessageFormat: java.lang.String[] dateModifierList>, java.text.MessageFormat.makeFormat/$r31, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  <java.text.MessageFormat: java.lang.String[] dateModifierList>, java.text.MessageFormat.makeFormat/$r46, <java.text.MessageFormat: void makeFormat(int,int,java.lang.StringBuffer[])>
+  <java.lang.System: java.io.PrintStream out>, java.text.resources.LocaleData.scanFile/$r13, <java.text.resources.LocaleData: void scanFile(java.io.File,java.lang.String,java.util.Vector,java.lang.String)>
+  <java.lang.System: java.io.PrintStream out>, java.text.resources.LocaleData.scanFile/$r20, <java.text.resources.LocaleData: void scanFile(java.io.File,java.lang.String,java.util.Vector,java.lang.String)>
+  <java.lang.System: java.io.PrintStream out>, java.text.resources.LocaleData.scanFile/$r27, <java.text.resources.LocaleData: void scanFile(java.io.File,java.lang.String,java.util.Vector,java.lang.String)>
+  <java.lang.reflect.Proxy: java.util.Map loaderToCache>, java.lang.reflect.Proxy.getProxyClass/r7, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  <java.lang.reflect.Proxy: java.util.Map loaderToCache>, java.lang.reflect.Proxy.getProxyClass/$r50, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  <java.lang.reflect.Proxy: java.util.Map loaderToCache>, java.lang.reflect.Proxy.getProxyClass/$r54, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  <java.lang.reflect.Proxy: java.lang.Object pendingGenerationMarker>, java.lang.reflect.Proxy.getProxyClass/$r60, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  <java.lang.reflect.Proxy: java.lang.Object pendingGenerationMarker>, java.lang.reflect.Proxy.getProxyClass/$r63, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  <java.lang.reflect.Proxy: java.lang.Object nextUniqueNumberLock>, java.lang.reflect.Proxy.getProxyClass/r71, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  <java.lang.reflect.Proxy: java.util.Map proxyClasses>, java.lang.reflect.Proxy.getProxyClass/$r81, <java.lang.reflect.Proxy: java.lang.Class getProxyClass(java.lang.ClassLoader,java.lang.Class[])>
+  <java.lang.reflect.Proxy: java.lang.Class[] constructorParams>, java.lang.reflect.Proxy.newProxyInstance/$r9, <java.lang.reflect.Proxy: java.lang.Object newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)>
+  <java.security.cert.CertificateFactory: java.lang.reflect.Method implMethod>, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String)>/$r1, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String)>
+  <java.security.cert.CertificateFactory: java.lang.reflect.Method implMethod>, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String)>/$r9, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String)>
+  <java.security.cert.CertificateFactory: java.lang.reflect.Method implMethod>, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String,java.lang.String)>/$r6, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String,java.lang.String)>
+  <java.security.cert.CertificateFactory: java.lang.reflect.Method implMethod>, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String,java.lang.String)>/$r12, <java.security.cert.CertificateFactory: java.security.cert.CertificateFactory getInstance(java.lang.String,java.lang.String)>
+  <java.security.UnresolvedPermission: java.lang.Class[] PARAMS>, java.security.UnresolvedPermission.resolve/$r9, <java.security.UnresolvedPermission: java.security.Permission resolve(java.security.Permission,java.security.cert.Certificate[])>
+  <java.net.InetAddress: java.net.InetAddressImpl impl>, <java.net.InetAddress: java.lang.String getHostName(boolean)>/$r1, <java.net.InetAddress: java.lang.String getHostName(boolean)>
+  <java.net.InetAddress: java.util.HashMap addressCache>, <java.net.InetAddress: void cacheAddress(java.lang.String,java.lang.Object,long)>/r2, <java.net.InetAddress: void cacheAddress(java.lang.String,java.lang.Object,long)>
+  <java.net.InetAddress: java.util.HashMap addressCache>, <java.net.InetAddress: void cacheAddress(java.lang.String,java.lang.Object,long)>/$r6, <java.net.InetAddress: void cacheAddress(java.lang.String,java.lang.Object,long)>
+  <java.net.InetAddress: java.util.HashMap addressCache>, <java.net.InetAddress: void cacheAddress(java.lang.String,java.lang.Object,long)>/$r10, <java.net.InetAddress: void cacheAddress(java.lang.String,java.lang.Object,long)>
+  <java.net.InetAddress: java.util.HashMap addressCache>, java.net.InetAddress.getCachedAddress/r1, <java.net.InetAddress: java.lang.Object getCachedAddress(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap addressCache>, java.net.InetAddress.getCachedAddress/$r6, <java.net.InetAddress: java.lang.Object getCachedAddress(java.lang.String)>
+  <java.net.InetAddress: java.net.InetAddress[] unknown_array>, <java.net.InetAddress: java.net.InetAddress[] getAllByName0(java.lang.String,boolean)>/$r4, <java.net.InetAddress: java.net.InetAddress[] getAllByName0(java.lang.String,boolean)>
+  <java.net.InetAddress: java.net.InetAddress[] unknown_array>, java.net.InetAddress.getAddressFromNameService/r7, <java.net.InetAddress: java.lang.Object getAddressFromNameService(java.lang.String)>
+  <java.net.InetAddress: java.net.InetAddressImpl impl>, java.net.InetAddress.getAddressFromNameService/$r8, <java.net.InetAddress: java.lang.Object getAddressFromNameService(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap lookupTable>, java.net.InetAddress.checkLookupTable/r1, <java.net.InetAddress: java.lang.Object checkLookupTable(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap lookupTable>, java.net.InetAddress.checkLookupTable/$r4, <java.net.InetAddress: java.lang.Object checkLookupTable(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap lookupTable>, java.net.InetAddress.checkLookupTable/$r5, <java.net.InetAddress: java.lang.Object checkLookupTable(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap lookupTable>, java.net.InetAddress.checkLookupTable/$r7, <java.net.InetAddress: java.lang.Object checkLookupTable(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap lookupTable>, java.net.InetAddress.checkLookupTable/$r10, <java.net.InetAddress: java.lang.Object checkLookupTable(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap lookupTable>, java.net.InetAddress.checkLookupTable/r13, <java.net.InetAddress: java.lang.Object checkLookupTable(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap lookupTable>, java.net.InetAddress.checkLookupTable/$r14, <java.net.InetAddress: java.lang.Object checkLookupTable(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap lookupTable>, java.net.InetAddress.updateLookupTable/r1, <java.net.InetAddress: void updateLookupTable(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap lookupTable>, java.net.InetAddress.updateLookupTable/$r3, <java.net.InetAddress: void updateLookupTable(java.lang.String)>
+  <java.net.InetAddress: java.util.HashMap lookupTable>, java.net.InetAddress.updateLookupTable/$r5, <java.net.InetAddress: void updateLookupTable(java.lang.String)>
+  <java.net.InetAddress: java.net.InetAddress localHost>, java.net.InetAddress.getLocalHost/$r0, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
+  <java.net.InetAddress: java.net.InetAddress unknownAddress>, java.net.InetAddress.getLocalHost/$r1, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
+  <java.net.InetAddress: java.net.InetAddress localHost>, java.net.InetAddress.getLocalHost/$r5, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
+  <java.net.InetAddress: java.net.InetAddress localHost>, java.net.InetAddress.getLocalHost/$r6, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
+  <java.net.InetAddress: java.net.InetAddress localHost>, java.net.InetAddress.getLocalHost/$r10, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
+  <java.net.InetAddress: java.net.InetAddress loopbackHost>, java.net.InetAddress.getLocalHost/$r13, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
+  <java.net.InetAddress: java.net.InetAddress localHost>, java.net.InetAddress.getLocalHost/$r14, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
+  <java.net.InetAddress: java.net.InetAddress unknownAddress>, java.net.InetAddress.<clinit>/$r5, <java.net.InetAddress: void <clinit>()>
+  <java.lang.System: java.io.PrintStream err>, java.net.InetAddress.<clinit>/$r20, <java.net.InetAddress: void <clinit>()>
+  <java.lang.System: java.io.PrintStream err>, java.net.InetAddress.<clinit>/$r28, <java.net.InetAddress: void <clinit>()>
+  <java.lang.System: java.io.PrintStream err>, java.net.InetAddress.<clinit>/$r36, <java.net.InetAddress: void <clinit>()>
+  <java.net.InetAddress: java.net.InetAddressImpl impl>, java.net.InetAddress.<clinit>/$r43, <java.net.InetAddress: void <clinit>()>
+  <java.net.InetAddress: java.net.InetAddressImpl impl>, java.net.InetAddress.<clinit>/$r52, <java.net.InetAddress: void <clinit>()>
+  <java.net.InetAddress: java.net.InetAddress anyLocalAddress>, java.net.InetAddress.<clinit>/$r53, <java.net.InetAddress: void <clinit>()>
+  <java.net.InetAddress: java.net.InetAddress localHost>, java.net.InetAddress.<clinit>/$r57, <java.net.InetAddress: void <clinit>()>
+  <java.net.InetAddress: java.net.InetAddressImpl impl>, java.net.InetAddress.<clinit>/$r58, <java.net.InetAddress: void <clinit>()>
+  <java.net.InetAddress: java.net.InetAddress localHost>, java.net.InetAddress.<clinit>/$r60, <java.net.InetAddress: void <clinit>()>
+  <java.net.InetAddress: java.net.InetAddress unknownAddress>, java.net.InetAddress.<clinit>/$r63, <java.net.InetAddress: void <clinit>()>
+  <java.net.InetAddress: java.net.InetAddress[] unknown_array>, java.net.InetAddress.<clinit>/$r66, <java.net.InetAddress: void <clinit>()>
+  <java.net.InetAddress: java.net.InetAddress[] unknown_array>, java.net.InetAddress.<clinit>/$r69, <java.net.InetAddress: void <clinit>()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.checkAndCreate/$r5, <java.io.File: boolean checkAndCreate(java.lang.String,java.lang.SecurityManager)>
+  <java.io.File: java.lang.Object tmpFileLock>, <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>/r4, <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+  <java.net.URLConnection: java.net.ContentHandler UnknownContentHandlerP>, java.net.URLConnection.getContentHandler/r2, <java.net.URLConnection: java.net.ContentHandler getContentHandler()>
+  <java.net.URLConnection: java.util.Hashtable handlers>, java.net.URLConnection.getContentHandler/$r6, <java.net.URLConnection: java.net.ContentHandler getContentHandler()>
+  <java.net.URLConnection: java.net.ContentHandlerFactory factory>, java.net.URLConnection.getContentHandler/$r9, <java.net.URLConnection: java.net.ContentHandler getContentHandler()>
+  <java.net.URLConnection: java.net.ContentHandlerFactory factory>, java.net.URLConnection.getContentHandler/$r10, <java.net.URLConnection: java.net.ContentHandler getContentHandler()>
+  <java.net.URLConnection: java.util.Hashtable handlers>, java.net.URLConnection.getContentHandler/$r13, <java.net.URLConnection: java.net.ContentHandler getContentHandler()>
+  <java.net.URLConnection: java.net.ContentHandler UnknownContentHandlerP>, java.net.URLConnection.lookupContentHandlerClassFor/$r21, <java.net.URLConnection: java.net.ContentHandler lookupContentHandlerClassFor(java.lang.String)>
+  <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue NULL>, java.lang.ref.Reference.isEnqueued/$r2, <java.lang.ref.Reference: boolean isEnqueued()>
+  <java.util.Date: java.util.Calendar staticCal>, <java.util.Date: void <init>(int,int,int,int,int,int)>/r1, <java.util.Date: void <init>(int,int,int,int,int,int)>
+  <java.util.Date: java.util.Calendar staticCal>, <java.util.Date: void <init>(int,int,int,int,int,int)>/$r3, <java.util.Date: void <init>(int,int,int,int,int,int)>
+  <java.util.Date: java.util.Calendar staticCal>, <java.util.Date: void <init>(int,int,int,int,int,int)>/$r4, <java.util.Date: void <init>(int,int,int,int,int,int)>
+  <java.util.Date: java.util.Calendar staticCal>, <java.util.Date: void <init>(int,int,int,int,int,int)>/$r6, <java.util.Date: void <init>(int,int,int,int,int,int)>
+  <java.util.Date: java.util.Calendar staticCal>, <java.util.Date: void <init>(int,int,int,int,int,int)>/$r7, <java.util.Date: void <init>(int,int,int,int,int,int)>
+  <java.util.Date: java.util.Calendar staticCal>, <java.util.Date: void <init>(int,int,int,int,int,int)>/$r8, <java.util.Date: void <init>(int,int,int,int,int,int)>
+  <java.util.Date: java.util.Calendar utcCal>, java.util.Date.UTC/$r0, <java.util.Date: long UTC(int,int,int,int,int,int)>
+  <java.util.Date: java.util.Calendar utcCal>, java.util.Date.UTC/r1, <java.util.Date: long UTC(int,int,int,int,int,int)>
+  <java.util.Date: java.util.Calendar utcCal>, java.util.Date.UTC/$r3, <java.util.Date: long UTC(int,int,int,int,int,int)>
+  <java.util.Date: java.util.Calendar utcCal>, java.util.Date.UTC/$r4, <java.util.Date: long UTC(int,int,int,int,int,int)>
+  <java.util.Date: java.util.Calendar utcCal>, java.util.Date.UTC/$r5, <java.util.Date: long UTC(int,int,int,int,int,int)>
+  <java.util.Locale: java.util.Locale US>, java.util.Date.toString/$r2, <java.util.Date: java.lang.String toString()>
+  <java.util.Date: java.lang.ref.SoftReference simpleFormatter>, java.util.Date.toString/$r6, <java.util.Date: java.lang.String toString()>
+  <java.util.Date: java.lang.ref.SoftReference simpleFormatter>, java.util.Date.toString/$r7, <java.util.Date: java.lang.String toString()>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getTimezoneOffset/r1, <java.util.Date: int getTimezoneOffset()>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getTimezoneOffset/$r5, <java.util.Date: int getTimezoneOffset()>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getTimezoneOffset/$r6, <java.util.Date: int getTimezoneOffset()>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getTimezoneOffset/$r7, <java.util.Date: int getTimezoneOffset()>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getTimezoneOffset/$r8, <java.util.Date: int getTimezoneOffset()>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getTimezoneOffset/$r9, <java.util.Date: int getTimezoneOffset()>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getField/r1, <java.util.Date: int getField(int)>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getField/$r5, <java.util.Date: int getField(int)>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getField/$r6, <java.util.Date: int getField(int)>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getField/$r7, <java.util.Date: int getField(int)>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.getField/$r8, <java.util.Date: int getField(int)>
+  <java.lang.Shutdown: java.lang.Object lock>, java.lang.Shutdown.setRunFinalizersOnExit/r0, <java.lang.Shutdown: void setRunFinalizersOnExit(boolean)>
+  <java.lang.Shutdown: java.lang.Object lock>, java.lang.Shutdown.add/r1, <java.lang.Shutdown: void add(java.lang.Thread)>
+  <java.lang.Shutdown: java.util.HashSet hooks>, java.lang.Shutdown.add/$r6, <java.lang.Shutdown: void add(java.lang.Thread)>
+  <java.lang.Shutdown: java.util.HashSet hooks>, java.lang.Shutdown.add/$r8, <java.lang.Shutdown: void add(java.lang.Thread)>
+  <java.lang.Shutdown: java.util.HashSet hooks>, java.lang.Shutdown.add/$r11, <java.lang.Shutdown: void add(java.lang.Thread)>
+  <java.lang.Shutdown: java.util.HashSet hooks>, java.lang.Shutdown.add/$r13, <java.lang.Shutdown: void add(java.lang.Thread)>
+  <java.lang.Shutdown: java.lang.Object lock>, java.lang.Shutdown.remove/r1, <java.lang.Shutdown: boolean remove(java.lang.Thread)>
+  <java.lang.Shutdown: java.util.HashSet hooks>, java.lang.Shutdown.remove/$r5, <java.lang.Shutdown: boolean remove(java.lang.Thread)>
+  <java.lang.Shutdown: java.util.HashSet hooks>, java.lang.Shutdown.remove/$r6, <java.lang.Shutdown: boolean remove(java.lang.Thread)>
+  <java.lang.Shutdown: java.util.HashSet hooks>, java.lang.Shutdown.remove/$r8, <java.lang.Shutdown: boolean remove(java.lang.Thread)>
+  <java.lang.Shutdown: java.util.HashSet hooks>, java.lang.Shutdown.runHooks/$r0, <java.lang.Shutdown: void runHooks()>
+  <java.lang.Shutdown: java.util.HashSet hooks>, java.lang.Shutdown.runHooks/$r4, <java.lang.Shutdown: void runHooks()>
+  <java.lang.Shutdown: java.util.HashSet hooks>, java.lang.Shutdown.runHooks/$r8, <java.lang.Shutdown: void runHooks()>
+  <java.lang.Shutdown: java.lang.Object lock>, java.lang.Shutdown.sequence/r0, <java.lang.Shutdown: void sequence()>
+  <java.lang.Shutdown: java.lang.Object lock>, java.lang.Shutdown.sequence/r2, <java.lang.Shutdown: void sequence()>
+  <java.lang.Shutdown: java.lang.Object lock>, java.lang.Shutdown.exit/r0, <java.lang.Shutdown: void exit(int)>
+  <java.lang.Shutdown: java.lang.Class class$java$lang$Shutdown>, java.lang.Shutdown.exit/$r4, <java.lang.Shutdown: void exit(int)>
+  <java.lang.Shutdown: java.lang.Class class$java$lang$Shutdown>, java.lang.Shutdown.exit/$r5, <java.lang.Shutdown: void exit(int)>
+  <java.lang.Shutdown: java.lang.Object lock>, java.lang.Shutdown.shutdown/r0, <java.lang.Shutdown: void shutdown()>
+  <java.lang.Shutdown: java.lang.Class class$java$lang$Shutdown>, java.lang.Shutdown.shutdown/$r4, <java.lang.Shutdown: void shutdown()>
+  <java.lang.Shutdown: java.lang.Class class$java$lang$Shutdown>, java.lang.Shutdown.shutdown/$r5, <java.lang.Shutdown: void shutdown()>
+  <java.text.SimpleDateFormat: int[] PATTERN_INDEX_TO_CALENDAR_FIELD>, java.text.SimpleDateFormat.subParse/$r10, <java.text.SimpleDateFormat: int subParse(java.lang.String,int,char,int,boolean,boolean[])>
+  <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue ENQUEUED>, java.lang.ref.ReferenceQueue.enqueue/$r3, <java.lang.ref.ReferenceQueue: boolean enqueue(java.lang.ref.Reference)>
+  <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue ENQUEUED>, java.lang.ref.ReferenceQueue.enqueue/$r8, <java.lang.ref.ReferenceQueue: boolean enqueue(java.lang.ref.Reference)>
+  <java.lang.System: java.io.PrintStream err>, java.security.Security.initialize/$r7, <java.security.Security: void initialize()>
+  <java.security.Security: java.util.Properties props>, java.security.Security.initialize/$r9, <java.security.Security: void initialize()>
+  <java.security.Security: java.util.Hashtable engineCache>, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>/$r13, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>
+  <java.security.Security: java.lang.Class class$java$security$Security>, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>/$r15, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>
+  <java.security.Security: java.lang.Class class$java$security$Security>, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>/$r16, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>
+  <java.security.Security: java.util.Vector providers>, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>/$r17, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>
+  <java.security.Security: java.util.Hashtable engineCache>, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>/$r23, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>
+  <java.security.Security: java.util.Vector providers>, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>/$r26, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r12, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r13, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r22, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r23, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r43, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r44, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r49, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r50, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r57, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r58, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r65, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r66, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r73, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.processEntry/$r74, <java.util.jar.JarVerifier: void processEntry(sun.security.util.ManifestEntryVerifier)>
+  <java.io.File: java.lang.String separator>, java.io.FilePermission$1.run/$r7, <java.io.FilePermission$1: java.lang.Object run()>
+  <java.io.File: java.lang.String separator>, java.io.FilePermission$1.run/$r10, <java.io.FilePermission$1: java.lang.Object run()>
+  <java.security.Policy: java.security.Policy policy>, java.security.Policy.getPolicyNoCheck/$r0, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
+  <java.security.Policy: java.lang.Class class$java$security$Policy>, java.security.Policy.getPolicyNoCheck/$r4, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
+  <java.security.Policy: java.lang.Class class$java$security$Policy>, java.security.Policy.getPolicyNoCheck/$r5, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
+  <java.security.Policy: java.security.Policy policy>, java.security.Policy.getPolicyNoCheck/$r6, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
+  <java.security.Policy: java.security.Policy policy>, java.security.Policy.getPolicyNoCheck/$r16, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
+  <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue NULL>, java.lang.ref.Reference$ReferenceHandler.run/$r13, <java.lang.ref.Reference$ReferenceHandler: void run()>
+  <java.util.TimeZone: java.util.Hashtable cachedLocaleData>, <java.util.TimeZone: java.lang.String getDisplayName(boolean,int,java.util.Locale)>/$r11, <java.util.TimeZone: java.lang.String getDisplayName(boolean,int,java.util.Locale)>
+  <java.util.TimeZone: java.util.Hashtable cachedLocaleData>, <java.util.TimeZone: java.lang.String getDisplayName(boolean,int,java.util.Locale)>/$r16, <java.util.TimeZone: java.lang.String getDisplayName(boolean,int,java.util.Locale)>
+  <java.util.TimeZone: java.lang.Class class$java$util$TimeZoneData>, java.util.TimeZone.parseCustomTimeZone/$r7, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
+  <java.util.TimeZone: java.lang.Class class$java$util$TimeZoneData>, java.util.TimeZone.parseCustomTimeZone/$r8, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
+  <java.util.TimeZone: java.text.NumberFormat numberFormat>, java.util.TimeZone.parseCustomTimeZone/$r9, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
+  <java.util.TimeZone: java.text.NumberFormat numberFormat>, java.util.TimeZone.parseCustomTimeZone/$r11, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
+  <java.util.TimeZone: java.text.NumberFormat numberFormat>, java.util.TimeZone.parseCustomTimeZone/r13, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
+  <java.util.TimeZone: java.text.NumberFormat numberFormat>, java.util.TimeZone.parseCustomTimeZone/$r14, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
+  <java.util.TimeZone: java.text.NumberFormat numberFormat>, java.util.TimeZone.parseCustomTimeZone/$r15, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
+  <java.io.File: java.lang.String separator>, java.net.URLClassLoader.getPermissions/$r10, <java.net.URLClassLoader: java.security.PermissionCollection getPermissions(java.security.CodeSource)>
+  <java.io.File: java.lang.String separator>, java.net.URLClassLoader.getPermissions/$r19, <java.net.URLClassLoader: java.security.PermissionCollection getPermissions(java.security.CodeSource)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarFile.initializeVerifier/$r15, <java.util.jar.JarFile: void initializeVerifier()>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarFile.initializeVerifier/$r16, <java.util.jar.JarFile: void initializeVerifier()>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarFile.initializeVerifier/$r18, <java.util.jar.JarFile: void initializeVerifier()>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarFile.initializeVerifier/$r19, <java.util.jar.JarFile: void initializeVerifier()>
+  <java.security.SecureClassLoader: sun.security.util.Debug debug>, java.security.SecureClassLoader.getProtectionDomain/$r10, <java.security.SecureClassLoader: java.security.ProtectionDomain getProtectionDomain(java.security.CodeSource)>
+  <java.security.SecureClassLoader: sun.security.util.Debug debug>, java.security.SecureClassLoader.getProtectionDomain/$r11, <java.security.SecureClassLoader: java.security.ProtectionDomain getProtectionDomain(java.security.CodeSource)>
+  <java.security.SecureClassLoader: sun.security.util.Debug debug>, java.security.SecureClassLoader.getProtectionDomain/$r16, <java.security.SecureClassLoader: java.security.ProtectionDomain getProtectionDomain(java.security.CodeSource)>
+  <java.security.SecureClassLoader: sun.security.util.Debug debug>, java.security.SecureClassLoader.getProtectionDomain/$r21, <java.security.SecureClassLoader: java.security.ProtectionDomain getProtectionDomain(java.security.CodeSource)>
+  <java.lang.ref.Finalizer: java.lang.Object lock>, java.lang.ref.Finalizer.add/r1, <java.lang.ref.Finalizer: void add()>
+  <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, java.lang.ref.Finalizer.add/$r2, <java.lang.ref.Finalizer: void add()>
+  <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, java.lang.ref.Finalizer.add/$r4, <java.lang.ref.Finalizer: void add()>
+  <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, java.lang.ref.Finalizer.add/$r5, <java.lang.ref.Finalizer: void add()>
+  <java.lang.ref.Finalizer: java.lang.Object lock>, java.lang.ref.Finalizer.remove/r1, <java.lang.ref.Finalizer: void remove()>
+  <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, java.lang.ref.Finalizer.remove/$r3, <java.lang.ref.Finalizer: void remove()>
+  <java.net.InetAddress: java.net.InetAddress anyLocalAddress>, <java.net.Socket: void <init>(java.net.InetAddress,int,java.net.InetAddress,int,boolean)>/r2, <java.net.Socket: void <init>(java.net.InetAddress,int,java.net.InetAddress,int,boolean)>
+  <java.net.InetAddress: java.net.InetAddress anyLocalAddress>, java.net.Socket.getLocalAddress/r4, <java.net.Socket: java.net.InetAddress getLocalAddress()>
+  <java.net.InetAddress: java.net.InetAddress anyLocalAddress>, <java.net.ServerSocket: void <init>(int,int,java.net.InetAddress)>/r1, <java.net.ServerSocket: void <init>(int,int,java.net.InetAddress)>
+  <java.net.Authenticator: java.net.Authenticator theAuthenticator>, java.net.Authenticator.requestPasswordAuthentication/r7, <java.net.Authenticator: java.net.PasswordAuthentication requestPasswordAuthentication(java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String)>
+  <java.text.Collator: sun.misc.SoftCache cache>, <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>/$r5, <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>
+  <java.text.CollationRules: java.lang.String DEFAULTRULES>, <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>/$r15, <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>
+  <java.text.CollationRules: java.lang.String DEFAULTRULES>, <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>/$r22, <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>
+  <java.text.Collator: sun.misc.SoftCache cache>, <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>/$r24, <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>
+  <java.lang.System: java.lang.SecurityManager security>, <java.lang.System: java.lang.String getProperty(java.lang.String)>/$r3, <java.lang.System: java.lang.String getProperty(java.lang.String)>
+  <java.lang.System: java.lang.SecurityManager security>, <java.lang.System: java.lang.String getProperty(java.lang.String)>/$r4, <java.lang.System: java.lang.String getProperty(java.lang.String)>
+  <java.lang.System: java.util.Properties props>, <java.lang.System: java.lang.String getProperty(java.lang.String)>/$r5, <java.lang.System: java.lang.String getProperty(java.lang.String)>
+  <java.lang.System: java.lang.SecurityManager security>, <java.lang.System: java.lang.String getProperty(java.lang.String,java.lang.String)>/$r4, <java.lang.System: java.lang.String getProperty(java.lang.String,java.lang.String)>
+  <java.lang.System: java.lang.SecurityManager security>, <java.lang.System: java.lang.String getProperty(java.lang.String,java.lang.String)>/$r5, <java.lang.System: java.lang.String getProperty(java.lang.String,java.lang.String)>
+  <java.lang.System: java.util.Properties props>, <java.lang.System: java.lang.String getProperty(java.lang.String,java.lang.String)>/$r6, <java.lang.System: java.lang.String getProperty(java.lang.String,java.lang.String)>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.setProperty/$r4, <java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.setProperty/$r5, <java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>
+  <java.lang.System: java.util.Properties props>, java.lang.System.setProperty/$r7, <java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>
+  <java.lang.Character: byte[] X>, java.lang.Character.<clinit>/$r6, <java.lang.Character: void <clinit>()>
+  <java.lang.Character: short[] Y>, java.lang.Character.<clinit>/$r10, <java.lang.Character: void <clinit>()>
+  <java.lang.Character: int[] A>, java.lang.Character.<clinit>/$r14, <java.lang.Character: void <clinit>()>
+  <java.lang.Boolean: java.lang.Class TYPE>, java.io.ObjectInputStream.inputArray/$r13, <java.io.ObjectInputStream: int inputArray(boolean)>
+  <java.lang.Byte: java.lang.Class TYPE>, java.io.ObjectInputStream.inputArray/$r18, <java.io.ObjectInputStream: int inputArray(boolean)>
+  <java.lang.Short: java.lang.Class TYPE>, java.io.ObjectInputStream.inputArray/$r23, <java.io.ObjectInputStream: int inputArray(boolean)>
+  <java.lang.Integer: java.lang.Class TYPE>, java.io.ObjectInputStream.inputArray/$r29, <java.io.ObjectInputStream: int inputArray(boolean)>
+  <java.lang.Long: java.lang.Class TYPE>, java.io.ObjectInputStream.inputArray/$r37, <java.io.ObjectInputStream: int inputArray(boolean)>
+  <java.lang.Float: java.lang.Class TYPE>, java.io.ObjectInputStream.inputArray/$r49, <java.io.ObjectInputStream: int inputArray(boolean)>
+  <java.lang.Double: java.lang.Class TYPE>, java.io.ObjectInputStream.inputArray/$r54, <java.io.ObjectInputStream: int inputArray(boolean)>
+  <java.lang.Character: java.lang.Class TYPE>, java.io.ObjectInputStream.inputArray/$r59, <java.io.ObjectInputStream: int inputArray(boolean)>
+  <java.lang.ClassLoader: java.lang.String[] sys_paths>, java.lang.ClassLoader.loadLibrary/$r8, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
+  <java.lang.ClassLoader: java.lang.String[] sys_paths>, java.lang.ClassLoader.loadLibrary/$r28, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
+  <java.lang.ClassLoader: java.lang.String[] sys_paths>, java.lang.ClassLoader.loadLibrary/$r32, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
+  <java.lang.ClassLoader: java.lang.String[] usr_paths>, java.lang.ClassLoader.loadLibrary/$r34, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
+  <java.lang.ClassLoader: java.lang.String[] usr_paths>, java.lang.ClassLoader.loadLibrary/$r37, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
+  <java.lang.SecurityManager: java.lang.ThreadGroup rootGroup>, <java.lang.SecurityManager: void checkAccess(java.lang.Thread)>/$r4, <java.lang.SecurityManager: void checkAccess(java.lang.Thread)>
+  <java.lang.SecurityManager: java.lang.RuntimePermission threadPermission>, <java.lang.SecurityManager: void checkAccess(java.lang.Thread)>/$r5, <java.lang.SecurityManager: void checkAccess(java.lang.Thread)>
+  <java.lang.SecurityManager: java.lang.RuntimePermission threadPermission>, <java.lang.SecurityManager: void checkAccess(java.lang.Thread)>/$r7, <java.lang.SecurityManager: void checkAccess(java.lang.Thread)>
+  <java.lang.SecurityManager: java.lang.ThreadGroup rootGroup>, <java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)>/$r3, <java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)>
+  <java.lang.SecurityManager: java.lang.RuntimePermission threadGroupPermission>, <java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)>/$r4, <java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)>
+  <java.lang.SecurityManager: java.lang.RuntimePermission threadGroupPermission>, <java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)>/$r6, <java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)>
+  <java.lang.SecurityManager: java.lang.RuntimePermission checkMemberAccessPermission>, java.lang.SecurityManager.checkMemberAccess/$r7, <java.lang.SecurityManager: void checkMemberAccess(java.lang.Class,int)>
+  <java.lang.SecurityManager: java.lang.RuntimePermission checkMemberAccessPermission>, java.lang.SecurityManager.checkMemberAccess/$r9, <java.lang.SecurityManager: void checkMemberAccess(java.lang.Class,int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r1, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r5, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r7, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r8, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r9, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r11, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: int[] small5pow>, java.lang.FloatingDecimal.big5pow/$r13, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r14, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: int[] small5pow>, java.lang.FloatingDecimal.big5pow/$r16, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: long[] long5pow>, java.lang.FloatingDecimal.big5pow/$r18, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r19, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: long[] long5pow>, java.lang.FloatingDecimal.big5pow/$r21, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r23, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: int[] small5pow>, java.lang.FloatingDecimal.big5pow/$r24, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r25, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: int[] small5pow>, java.lang.FloatingDecimal.big5pow/$r26, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r28, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, java.lang.FloatingDecimal.big5pow/$r29, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  <java.lang.FloatingDecimal: long[] long5pow>, java.lang.FloatingDecimal.developLongDigits/$r2, <java.lang.FloatingDecimal: void developLongDigits(int,long,long)>
+  <java.lang.FloatingDecimal: long[] long5pow>, java.lang.FloatingDecimal.dtoa/$r5, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: int[] n5bits>, java.lang.FloatingDecimal.dtoa/$r6, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: int[] n5bits>, java.lang.FloatingDecimal.dtoa/$r8, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: int[] n5bits>, java.lang.FloatingDecimal.dtoa/$r9, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: int[] n5bits>, java.lang.FloatingDecimal.dtoa/$r10, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: int[] n5bits>, java.lang.FloatingDecimal.dtoa/$r11, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: int[] small5pow>, java.lang.FloatingDecimal.dtoa/$r12, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: int[] small5pow>, java.lang.FloatingDecimal.dtoa/$r13, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: int[] small5pow>, java.lang.FloatingDecimal.dtoa/$r14, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: long[] long5pow>, java.lang.FloatingDecimal.dtoa/$r25, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: long[] long5pow>, java.lang.FloatingDecimal.dtoa/$r26, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.FloatingDecimal: long[] long5pow>, java.lang.FloatingDecimal.dtoa/$r27, <java.lang.FloatingDecimal: void dtoa(int,long,int)>
+  <java.lang.Integer: java.lang.Class TYPE>, java.io.ObjectOutputStream.outputArray/$r8, <java.io.ObjectOutputStream: void outputArray(java.lang.Object)>
+  <java.lang.Byte: java.lang.Class TYPE>, java.io.ObjectOutputStream.outputArray/$r18, <java.io.ObjectOutputStream: void outputArray(java.lang.Object)>
+  <java.lang.Long: java.lang.Class TYPE>, java.io.ObjectOutputStream.outputArray/$r20, <java.io.ObjectOutputStream: void outputArray(java.lang.Object)>
+  <java.lang.Float: java.lang.Class TYPE>, java.io.ObjectOutputStream.outputArray/$r39, <java.io.ObjectOutputStream: void outputArray(java.lang.Object)>
+  <java.lang.Double: java.lang.Class TYPE>, java.io.ObjectOutputStream.outputArray/$r44, <java.io.ObjectOutputStream: void outputArray(java.lang.Object)>
+  <java.lang.Short: java.lang.Class TYPE>, java.io.ObjectOutputStream.outputArray/$r49, <java.io.ObjectOutputStream: void outputArray(java.lang.Object)>
+  <java.lang.Character: java.lang.Class TYPE>, java.io.ObjectOutputStream.outputArray/$r56, <java.io.ObjectOutputStream: void outputArray(java.lang.Object)>
+  <java.lang.Boolean: java.lang.Class TYPE>, java.io.ObjectOutputStream.outputArray/$r63, <java.io.ObjectOutputStream: void outputArray(java.lang.Object)>
+  <java.lang.reflect.Proxy: java.util.Map proxyClasses>, java.lang.reflect.Proxy.isProxyClass/$r2, <java.lang.reflect.Proxy: boolean isProxyClass(java.lang.Class)>
+  <java.lang.reflect.AccessibleObject: java.lang.Class class$java$lang$Class>, java.lang.reflect.AccessibleObject.setAccessible0/$r3, <java.lang.reflect.AccessibleObject: void setAccessible0(java.lang.reflect.AccessibleObject,boolean)>
+  <java.lang.reflect.AccessibleObject: java.lang.Class class$java$lang$Class>, java.lang.reflect.AccessibleObject.setAccessible0/$r4, <java.lang.reflect.AccessibleObject: void setAccessible0(java.lang.reflect.AccessibleObject,boolean)>
+  <java.io.FilePermission: java.lang.String SEP_RECURSIVE>, java.io.FilePermission.init/$r8, <java.io.FilePermission: void init(int)>
+  <java.io.FilePermission: java.lang.String SEP_WILD>, java.io.FilePermission.init/$r14, <java.io.FilePermission: void init(int)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.lang.String)>/$r3, <java.io.File: void <init>(java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.lang.String)>/$r5, <java.io.File: void <init>(java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.lang.String,java.lang.String)>/$r3, <java.io.File: void <init>(java.lang.String,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.lang.String,java.lang.String)>/$r4, <java.io.File: void <init>(java.lang.String,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.lang.String,java.lang.String)>/$r6, <java.io.File: void <init>(java.lang.String,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.lang.String,java.lang.String)>/$r10, <java.io.File: void <init>(java.lang.String,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.lang.String,java.lang.String)>/$r11, <java.io.File: void <init>(java.lang.String,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.lang.String,java.lang.String)>/$r13, <java.io.File: void <init>(java.lang.String,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.lang.String,java.lang.String)>/$r16, <java.io.File: void <init>(java.lang.String,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.lang.String,java.lang.String)>/$r18, <java.io.File: void <init>(java.lang.String,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.io.File,java.lang.String)>/$r3, <java.io.File: void <init>(java.io.File,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.io.File,java.lang.String)>/$r4, <java.io.File: void <init>(java.io.File,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.io.File,java.lang.String)>/$r7, <java.io.File: void <init>(java.io.File,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.io.File,java.lang.String)>/$r11, <java.io.File: void <init>(java.io.File,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.io.File,java.lang.String)>/$r13, <java.io.File: void <init>(java.io.File,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.io.File,java.lang.String)>/$r16, <java.io.File: void <init>(java.io.File,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: void <init>(java.io.File,java.lang.String)>/$r18, <java.io.File: void <init>(java.io.File,java.lang.String)>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.setLastModified/$r4, <java.io.File: boolean setLastModified(long)>
+  <java.security.AccessControlContext: sun.security.util.Debug debug>, java.security.AccessControlContext.checkPermission/r3, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  <java.security.AccessControlContext: sun.security.util.Debug debug>, java.security.AccessControlContext.checkPermission/$r8, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  <java.security.AccessControlContext: sun.security.util.Debug debug>, java.security.AccessControlContext.checkPermission/$r9, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  <java.security.AccessControlContext: sun.security.util.Debug debug>, java.security.AccessControlContext.checkPermission/$r24, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  <java.security.AccessControlContext: sun.security.util.Debug debug>, java.security.AccessControlContext.checkPermission/$r25, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  <java.security.AccessControlContext: sun.security.util.Debug debug>, java.security.AccessControlContext.checkPermission/$r40, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  <java.security.AccessControlContext: sun.security.util.Debug debug>, java.security.AccessControlContext.checkPermission/$r41, <java.security.AccessControlContext: void checkPermission(java.security.Permission)>
+  <java.net.URLConnection: java.net.ContentHandlerFactory factory>, java.net.URLConnection.setContentHandlerFactory/$r1, <java.net.URLConnection: void setContentHandlerFactory(java.net.ContentHandlerFactory)>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.parse/$r1, <java.util.Date: long parse(java.lang.String)>
+  <java.util.Date: java.lang.String[] wtb>, java.util.Date.parse/$r2, <java.util.Date: long parse(java.lang.String)>
+  <java.util.Date: java.lang.String[] wtb>, java.util.Date.parse/$r3, <java.util.Date: long parse(java.lang.String)>
+  <java.util.Date: int[] ttb>, java.util.Date.parse/$r5, <java.util.Date: long parse(java.lang.String)>
+  <java.lang.Boolean: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,boolean)>/$r2, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,boolean)>
+  <java.lang.Boolean: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,boolean)>/$r6, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,boolean)>
+  <java.lang.Character: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,char)>/$r2, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,char)>
+  <java.lang.Character: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,char)>/$r6, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,char)>
+  <java.lang.Byte: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,byte)>/$r2, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,byte)>
+  <java.lang.Byte: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,byte)>/$r6, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,byte)>
+  <java.lang.Short: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,short)>/$r2, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,short)>
+  <java.lang.Short: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,short)>/$r6, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,short)>
+  <java.lang.Integer: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,int)>/$r2, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,int)>
+  <java.lang.Integer: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,int)>/$r6, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,int)>
+  <java.lang.Long: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,long)>/$r2, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,long)>
+  <java.lang.Long: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,long)>/$r6, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,long)>
+  <java.lang.Float: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,float)>/$r2, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,float)>
+  <java.lang.Float: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,float)>/$r6, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,float)>
+  <java.lang.Double: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,double)>/$r2, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,double)>
+  <java.lang.Double: java.lang.Class TYPE>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,double)>/$r6, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,double)>
+  <java.io.ObjectOutputStream$PutFieldImpl: java.lang.Class class$java$lang$Object>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,java.lang.Object)>/$r4, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,java.lang.Object)>
+  <java.io.ObjectOutputStream$PutFieldImpl: java.lang.Class class$java$lang$Object>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,java.lang.Object)>/$r7, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,java.lang.Object)>
+  <java.text.SimpleDateFormat: java.util.Hashtable cachedLocaleData>, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/$r4, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>
+  <java.text.SimpleDateFormat: java.util.Hashtable cachedLocaleData>, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>/$r6, <java.text.SimpleDateFormat: void <init>(int,int,java.util.Locale)>
+  <java.text.SimpleDateFormat: int[] PATTERN_INDEX_TO_CALENDAR_FIELD>, java.text.SimpleDateFormat.subFormat/$r12, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  <java.text.SimpleDateFormat: int[] PATTERN_INDEX_TO_DATE_FORMAT_FIELD>, java.text.SimpleDateFormat.subFormat/$r56, <java.text.SimpleDateFormat: java.lang.String subFormat(char,int,int,java.text.FieldPosition)>
+  <java.util.SimpleTimeZone: byte[] staticMonthLength>, <java.util.SimpleTimeZone: void <init>(int,java.lang.String,int,int,int,int,int,int,int,int,int,int,int)>/$r2, <java.util.SimpleTimeZone: void <init>(int,java.lang.String,int,int,int,int,int,int,int,int,int,int,int)>
+  <java.util.SimpleTimeZone: java.util.GregorianCalendar internalCal>, <java.util.SimpleTimeZone: int getOffset(int,int,int,int,int,int)>/$r6, <java.util.SimpleTimeZone: int getOffset(int,int,int,int,int,int)>
+  <java.util.SimpleTimeZone: byte[] staticLeapMonthLength>, <java.util.SimpleTimeZone: int getOffset(int,int,int,int,int,int)>/$r7, <java.util.SimpleTimeZone: int getOffset(int,int,int,int,int,int)>
+  <java.util.SimpleTimeZone: byte[] staticLeapMonthLength>, <java.util.SimpleTimeZone: int getOffset(int,int,int,int,int,int)>/$r8, <java.util.SimpleTimeZone: int getOffset(int,int,int,int,int,int)>
+  <java.util.SimpleTimeZone: byte[] staticMonthLength>, <java.util.SimpleTimeZone: int getOffset(int,int,int,int,int,int)>/$r9, <java.util.SimpleTimeZone: int getOffset(int,int,int,int,int,int)>
+  <java.util.SimpleTimeZone: byte[] staticMonthLength>, <java.util.SimpleTimeZone: int getOffset(int,int,int,int,int,int)>/$r10, <java.util.SimpleTimeZone: int getOffset(int,int,int,int,int,int)>
+  <java.util.SimpleTimeZone: byte[] staticMonthLength>, java.util.SimpleTimeZone.decodeStartRule/$r22, <java.util.SimpleTimeZone: void decodeStartRule()>
+  <java.util.SimpleTimeZone: byte[] staticMonthLength>, java.util.SimpleTimeZone.decodeEndRule/$r22, <java.util.SimpleTimeZone: void decodeEndRule()>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, <java.math.BigInteger: void <init>(java.lang.String,int)>/$r6, <java.math.BigInteger: void <init>(java.lang.String,int)>
+  <java.math.BigInteger: long[] bitsPerDigit>, <java.math.BigInteger: void <init>(java.lang.String,int)>/$r8, <java.math.BigInteger: void <init>(java.lang.String,int)>
+  <java.math.BigInteger: int[] digitsPerInt>, <java.math.BigInteger: void <init>(java.lang.String,int)>/$r10, <java.math.BigInteger: void <init>(java.lang.String,int)>
+  <java.math.BigInteger: int[] digitsPerInt>, <java.math.BigInteger: void <init>(java.lang.String,int)>/$r11, <java.math.BigInteger: void <init>(java.lang.String,int)>
+  <java.math.BigInteger: int[] intRadix>, <java.math.BigInteger: void <init>(java.lang.String,int)>/$r17, <java.math.BigInteger: void <init>(java.lang.String,int)>
+  <java.math.BigInteger: int[] digitsPerInt>, <java.math.BigInteger: void <init>(java.lang.String,int)>/$r18, <java.math.BigInteger: void <init>(java.lang.String,int)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, <java.math.BigInteger: void <init>(char[])>/$r3, <java.math.BigInteger: void <init>(char[])>
+  <java.math.BigInteger: long[] bitsPerDigit>, <java.math.BigInteger: void <init>(char[])>/$r5, <java.math.BigInteger: void <init>(char[])>
+  <java.math.BigInteger: int[] digitsPerInt>, <java.math.BigInteger: void <init>(char[])>/$r7, <java.math.BigInteger: void <init>(char[])>
+  <java.math.BigInteger: int[] digitsPerInt>, <java.math.BigInteger: void <init>(char[])>/$r8, <java.math.BigInteger: void <init>(char[])>
+  <java.math.BigInteger: int[] digitsPerInt>, <java.math.BigInteger: void <init>(char[])>/$r11, <java.math.BigInteger: void <init>(char[])>
+  <java.math.BigInteger: int[] intRadix>, <java.math.BigInteger: void <init>(char[])>/$r13, <java.math.BigInteger: void <init>(char[])>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.pow/$r4, <java.math.BigInteger: java.math.BigInteger pow(int)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modPow/$r13, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.modPow/$r14, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modPow/$r14, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modPow/$r15, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modPow/$r16, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.modPow/$r17, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modPow/$r17, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.modPow/$r18, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.modPow/$r19, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger[] negConst>, java.math.BigInteger.modPow/$r20, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modPow/$r22, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.modPow/$r23, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modPow/$r23, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modPow/$r25, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modPow/$r27, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.modPow/$r28, <java.math.BigInteger: java.math.BigInteger modPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modInverse/$r7, <java.math.BigInteger: java.math.BigInteger modInverse(java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.modInverse/$r8, <java.math.BigInteger: java.math.BigInteger modInverse(java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modInverse/$r11, <java.math.BigInteger: java.math.BigInteger modInverse(java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.modInverse/$r12, <java.math.BigInteger: java.math.BigInteger modInverse(java.math.BigInteger)>
+  <java.net.HttpURLConnection: java.lang.String[] methods>, java.net.HttpURLConnection.setRequestMethod/$r3, <java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+  <java.net.HttpURLConnection: java.lang.String[] methods>, java.net.HttpURLConnection.setRequestMethod/$r5, <java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+  <java.net.Socket: java.net.SocketImplFactory factory>, java.net.Socket.setSocketImplFactory/$r1, <java.net.Socket: void setSocketImplFactory(java.net.SocketImplFactory)>
+  <java.net.ServerSocket: java.net.SocketImplFactory factory>, java.net.ServerSocket.setSocketFactory/$r1, <java.net.ServerSocket: void setSocketFactory(java.net.SocketImplFactory)>
+  <java.lang.String: java.util.Comparator CASE_INSENSITIVE_ORDER>, java.lang.String.compareToIgnoreCase/$r2, <java.lang.String: int compareToIgnoreCase(java.lang.String)>
+  <java.lang.Class: java.security.ProtectionDomain allPermDomain>, java.lang.Class.getProtectionDomain/r2, <java.lang.Class: java.security.ProtectionDomain getProtectionDomain()>
+  <java.lang.Class: java.lang.RuntimePermission getPDperm>, java.lang.Class.getProtectionDomain/$r4, <java.lang.Class: java.security.ProtectionDomain getProtectionDomain()>
+  <java.lang.Class: java.lang.RuntimePermission getPDperm>, java.lang.Class.getProtectionDomain/$r6, <java.lang.Class: java.security.ProtectionDomain getProtectionDomain()>
+  <java.lang.Class: java.security.ProtectionDomain allPermDomain>, java.lang.Class.getProtectionDomain/$r7, <java.lang.Class: java.security.ProtectionDomain getProtectionDomain()>
+  <java.lang.Integer: java.lang.Class TYPE>, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>/$r3, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>
+  <java.lang.Byte: java.lang.Class TYPE>, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>/$r4, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>
+  <java.lang.Long: java.lang.Class TYPE>, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>/$r5, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>
+  <java.lang.Float: java.lang.Class TYPE>, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>/$r6, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>
+  <java.lang.Double: java.lang.Class TYPE>, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>/$r7, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>
+  <java.lang.Short: java.lang.Class TYPE>, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>/$r8, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>
+  <java.lang.Character: java.lang.Class TYPE>, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>/$r9, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>
+  <java.lang.Boolean: java.lang.Class TYPE>, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>/$r10, <java.io.ObjectStreamField: void <init>(java.lang.String,java.lang.Class)>
+  <java.lang.Byte: java.lang.Class TYPE>, java.io.ObjectStreamField.getType/$r1, <java.io.ObjectStreamField: java.lang.Class getType()>
+  <java.lang.Character: java.lang.Class TYPE>, java.io.ObjectStreamField.getType/$r4, <java.io.ObjectStreamField: java.lang.Class getType()>
+  <java.lang.Short: java.lang.Class TYPE>, java.io.ObjectStreamField.getType/$r5, <java.io.ObjectStreamField: java.lang.Class getType()>
+  <java.lang.Integer: java.lang.Class TYPE>, java.io.ObjectStreamField.getType/$r6, <java.io.ObjectStreamField: java.lang.Class getType()>
+  <java.lang.Long: java.lang.Class TYPE>, java.io.ObjectStreamField.getType/$r7, <java.io.ObjectStreamField: java.lang.Class getType()>
+  <java.lang.Float: java.lang.Class TYPE>, java.io.ObjectStreamField.getType/$r8, <java.io.ObjectStreamField: java.lang.Class getType()>
+  <java.lang.Double: java.lang.Class TYPE>, java.io.ObjectStreamField.getType/$r9, <java.io.ObjectStreamField: java.lang.Class getType()>
+  <java.lang.Boolean: java.lang.Class TYPE>, java.io.ObjectStreamField.getType/$r10, <java.io.ObjectStreamField: java.lang.Class getType()>
+  <java.io.ObjectStreamField: java.lang.Class class$java$lang$Object>, java.io.ObjectStreamField.getType/$r12, <java.io.ObjectStreamField: java.lang.Class getType()>
+  <java.io.ObjectStreamField: java.lang.Class class$java$lang$Object>, java.io.ObjectStreamField.getType/$r13, <java.io.ObjectStreamField: java.lang.Class getType()>
+  <java.io.ObjectStreamField: java.lang.String OBJECT_TYPESTRING>, java.io.ObjectStreamField.setSearchKeyTypeString/$r2, <java.io.ObjectStreamField: void setSearchKeyTypeString(boolean)>
+  <java.lang.System: java.io.PrintStream err>, <java.lang.ClassNotFoundException: void printStackTrace()>/$r1, <java.lang.ClassNotFoundException: void printStackTrace()>
+  <java.io.ObjectStreamConstants: java.io.SerializablePermission SUBCLASS_IMPLEMENTATION_PERMISSION>, <java.io.ObjectInputStream: void <init>()>/$r6, <java.io.ObjectInputStream: void <init>()>
+  <java.io.ObjectStreamConstants: java.io.SerializablePermission SUBSTITUTION_PERMISSION>, java.io.ObjectInputStream.enableResolveObject/$r2, <java.io.ObjectInputStream: boolean enableResolveObject(boolean)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_TITLE>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r8, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VERSION>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r10, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VENDOR>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r12, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_TITLE>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r14, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VERSION>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r16, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VENDOR>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r18, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SEALED>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r20, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_TITLE>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r23, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VERSION>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r26, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VENDOR>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r29, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_TITLE>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r32, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VERSION>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r35, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VENDOR>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r38, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SEALED>, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>/$r40, <java.lang.Package: void <init>(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.io.InputStream: byte[] skipBuffer>, java.io.InputStream.skip/r1, <java.io.InputStream: long skip(long)>
+  <java.io.InputStream: byte[] skipBuffer>, java.io.InputStream.skip/$r2, <java.io.InputStream: long skip(long)>
+  <java.net.URL: java.net.NetPermission specifyHandlerPerm>, java.net.URL.checkSpecifyHandler/$r2, <java.net.URL: void checkSpecifyHandler(java.lang.SecurityManager)>
+  <java.net.URL: java.net.NetPermission specifyHandlerPerm>, java.net.URL.checkSpecifyHandler/$r4, <java.net.URL: void checkSpecifyHandler(java.lang.SecurityManager)>
+  <java.lang.Byte: java.lang.Class TYPE>, <java.io.ObjectStreamClass: java.io.ObjectStreamField getField(java.lang.String)>/$r2, <java.io.ObjectStreamClass: java.io.ObjectStreamField getField(java.lang.String)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamField[] NO_FIELDS>, java.io.ObjectStreamClass.initProxyClassDesc/$r3, <java.io.ObjectStreamClass: void initProxyClassDesc(java.lang.Class)>
+  <java.security.Permissions: java.lang.Class class$java$security$UnresolvedPermission>, java.security.Permissions.getUnresolvedPermissions/$r2, <java.security.Permissions: java.security.PermissionCollection getUnresolvedPermissions(java.security.Permission)>
+  <java.security.Permissions: java.lang.Class class$java$security$UnresolvedPermission>, java.security.Permissions.getUnresolvedPermissions/$r10, <java.security.Permissions: java.security.PermissionCollection getUnresolvedPermissions(java.security.Permission)>
+  <java.lang.SecurityManager: java.lang.RuntimePermission createClassLoaderPermission>, java.lang.SecurityManager.checkCreateClassLoader/$r1, <java.lang.SecurityManager: void checkCreateClassLoader()>
+  <java.lang.SecurityManager: java.lang.RuntimePermission createClassLoaderPermission>, java.lang.SecurityManager.checkCreateClassLoader/$r3, <java.lang.SecurityManager: void checkCreateClassLoader()>
+  <java.lang.SecurityManager: java.net.SocketPermission localListenPermission>, java.lang.SecurityManager.checkListen/$r1, <java.lang.SecurityManager: void checkListen(int)>
+  <java.lang.SecurityManager: java.net.SocketPermission localListenPermission>, java.lang.SecurityManager.checkListen/$r3, <java.lang.SecurityManager: void checkListen(int)>
+  <java.lang.SecurityManager: java.awt.AWTPermission accessClipboardPermission>, java.lang.SecurityManager.checkSystemClipboardAccess/$r1, <java.lang.SecurityManager: void checkSystemClipboardAccess()>
+  <java.lang.SecurityManager: java.awt.AWTPermission accessClipboardPermission>, java.lang.SecurityManager.checkSystemClipboardAccess/$r3, <java.lang.SecurityManager: void checkSystemClipboardAccess()>
+  <java.lang.SecurityManager: java.awt.AWTPermission checkAwtEventQueuePermission>, java.lang.SecurityManager.checkAwtEventQueueAccess/$r1, <java.lang.SecurityManager: void checkAwtEventQueueAccess()>
+  <java.lang.SecurityManager: java.awt.AWTPermission checkAwtEventQueuePermission>, java.lang.SecurityManager.checkAwtEventQueueAccess/$r3, <java.lang.SecurityManager: void checkAwtEventQueueAccess()>
+  <java.lang.Thread: java.lang.RuntimePermission stopThreadPermission>, <java.lang.Thread: void stop(java.lang.Throwable)>/$r4, <java.lang.Thread: void stop(java.lang.Throwable)>
+  <java.lang.Thread: java.lang.RuntimePermission stopThreadPermission>, <java.lang.Thread: void stop(java.lang.Throwable)>/$r6, <java.lang.Thread: void stop(java.lang.Throwable)>
+  <java.lang.FloatingDecimal: char[] infinity>, <java.lang.FloatingDecimal: void <init>(double)>/$r1, <java.lang.FloatingDecimal: void <init>(double)>
+  <java.lang.FloatingDecimal: char[] notANumber>, <java.lang.FloatingDecimal: void <init>(double)>/$r2, <java.lang.FloatingDecimal: void <init>(double)>
+  <java.lang.FloatingDecimal: char[] zero>, <java.lang.FloatingDecimal: void <init>(double)>/$r4, <java.lang.FloatingDecimal: void <init>(double)>
+  <java.lang.FloatingDecimal: char[] infinity>, <java.lang.FloatingDecimal: void <init>(float)>/$r1, <java.lang.FloatingDecimal: void <init>(float)>
+  <java.lang.FloatingDecimal: char[] notANumber>, <java.lang.FloatingDecimal: void <init>(float)>/$r2, <java.lang.FloatingDecimal: void <init>(float)>
+  <java.lang.FloatingDecimal: char[] zero>, <java.lang.FloatingDecimal: void <init>(float)>/$r4, <java.lang.FloatingDecimal: void <init>(float)>
+  <java.lang.FloatingDecimal: char[] zero>, java.lang.FloatingDecimal.toJavaFormatString/$r4, <java.lang.FloatingDecimal: java.lang.String toJavaFormatString()>
+  <java.lang.FloatingDecimal: char[] zero>, java.lang.FloatingDecimal.toJavaFormatString/$r6, <java.lang.FloatingDecimal: java.lang.String toJavaFormatString()>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.doubleValue/$r7, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.doubleValue/$r8, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.doubleValue/$r10, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.doubleValue/$r11, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.doubleValue/$r12, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.doubleValue/$r14, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.doubleValue/$r15, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.doubleValue/$r17, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] big10pow>, java.lang.FloatingDecimal.doubleValue/$r18, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] big10pow>, java.lang.FloatingDecimal.doubleValue/$r19, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] big10pow>, java.lang.FloatingDecimal.doubleValue/$r20, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.doubleValue/$r21, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] tiny10pow>, java.lang.FloatingDecimal.doubleValue/$r22, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] tiny10pow>, java.lang.FloatingDecimal.doubleValue/$r23, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: double[] tiny10pow>, java.lang.FloatingDecimal.doubleValue/$r24, <java.lang.FloatingDecimal: double doubleValue()>
+  <java.lang.FloatingDecimal: float[] singleSmall10pow>, java.lang.FloatingDecimal.floatValue/$r3, <java.lang.FloatingDecimal: float floatValue()>
+  <java.lang.FloatingDecimal: float[] singleSmall10pow>, java.lang.FloatingDecimal.floatValue/$r4, <java.lang.FloatingDecimal: float floatValue()>
+  <java.lang.FloatingDecimal: float[] singleSmall10pow>, java.lang.FloatingDecimal.floatValue/$r5, <java.lang.FloatingDecimal: float floatValue()>
+  <java.lang.FloatingDecimal: float[] singleSmall10pow>, java.lang.FloatingDecimal.floatValue/$r6, <java.lang.FloatingDecimal: float floatValue()>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.floatValue/$r8, <java.lang.FloatingDecimal: float floatValue()>
+  <java.io.FileDescriptor: java.io.FileDescriptor in>, java.io.FileInputStream.finalize/$r4, <java.io.FileInputStream: void finalize()>
+  <java.io.FileDescriptor: java.io.FileDescriptor out>, java.io.FileOutputStream.finalize/$r4, <java.io.FileOutputStream: void finalize()>
+  <java.io.FileDescriptor: java.io.FileDescriptor err>, java.io.FileOutputStream.finalize/$r7, <java.io.FileOutputStream: void finalize()>
+  <java.util.Hashtable: java.util.Hashtable$EmptyEnumerator emptyEnumerator>, java.util.Hashtable.getEnumeration/$r1, <java.util.Hashtable: java.util.Enumeration getEnumeration(int)>
+  <java.util.Hashtable: java.util.Hashtable$EmptyIterator emptyIterator>, java.util.Hashtable.getIterator/$r1, <java.util.Hashtable: java.util.Iterator getIterator(int)>
+  <java.io.ObjectStreamConstants: java.io.SerializablePermission SUBCLASS_IMPLEMENTATION_PERMISSION>, <java.io.ObjectOutputStream: void <init>()>/$r3, <java.io.ObjectOutputStream: void <init>()>
+  <java.io.ObjectOutputStream: java.lang.Class class$java$lang$String>, java.io.ObjectOutputStream.checkSubstitutableSpecialClasses/$r4, <java.io.ObjectOutputStream: boolean checkSubstitutableSpecialClasses(java.lang.Object,java.lang.Class)>
+  <java.io.ObjectOutputStream: java.lang.Class class$java$lang$String>, java.io.ObjectOutputStream.checkSubstitutableSpecialClasses/$r5, <java.io.ObjectOutputStream: boolean checkSubstitutableSpecialClasses(java.lang.Object,java.lang.Class)>
+  <java.io.ObjectStreamConstants: java.io.SerializablePermission SUBSTITUTION_PERMISSION>, java.io.ObjectOutputStream.enableReplaceObject/$r2, <java.io.ObjectOutputStream: boolean enableReplaceObject(boolean)>
+  <java.lang.System: java.io.PrintStream err>, <java.lang.reflect.InvocationTargetException: void printStackTrace()>/$r1, <java.lang.reflect.InvocationTargetException: void printStackTrace()>
+  <java.lang.Boolean: java.lang.Class TYPE>, <java.io.ObjectInputStream$GetFieldImpl: boolean get(java.lang.String,boolean)>/$r2, <java.io.ObjectInputStream$GetFieldImpl: boolean get(java.lang.String,boolean)>
+  <java.lang.Character: java.lang.Class TYPE>, <java.io.ObjectInputStream$GetFieldImpl: char get(java.lang.String,char)>/$r2, <java.io.ObjectInputStream$GetFieldImpl: char get(java.lang.String,char)>
+  <java.lang.Byte: java.lang.Class TYPE>, <java.io.ObjectInputStream$GetFieldImpl: byte get(java.lang.String,byte)>/$r2, <java.io.ObjectInputStream$GetFieldImpl: byte get(java.lang.String,byte)>
+  <java.lang.Short: java.lang.Class TYPE>, <java.io.ObjectInputStream$GetFieldImpl: short get(java.lang.String,short)>/$r2, <java.io.ObjectInputStream$GetFieldImpl: short get(java.lang.String,short)>
+  <java.lang.Integer: java.lang.Class TYPE>, <java.io.ObjectInputStream$GetFieldImpl: int get(java.lang.String,int)>/$r2, <java.io.ObjectInputStream$GetFieldImpl: int get(java.lang.String,int)>
+  <java.lang.Long: java.lang.Class TYPE>, <java.io.ObjectInputStream$GetFieldImpl: long get(java.lang.String,long)>/$r2, <java.io.ObjectInputStream$GetFieldImpl: long get(java.lang.String,long)>
+  <java.lang.Float: java.lang.Class TYPE>, <java.io.ObjectInputStream$GetFieldImpl: float get(java.lang.String,float)>/$r2, <java.io.ObjectInputStream$GetFieldImpl: float get(java.lang.String,float)>
+  <java.lang.Double: java.lang.Class TYPE>, <java.io.ObjectInputStream$GetFieldImpl: double get(java.lang.String,double)>/$r2, <java.io.ObjectInputStream$GetFieldImpl: double get(java.lang.String,double)>
+  <java.io.ObjectInputStream$GetFieldImpl: java.lang.Class class$java$lang$Object>, <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>/$r5, <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>
+  <java.io.ObjectInputStream$GetFieldImpl: java.lang.Class class$java$lang$Object>, <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>/$r7, <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>
+  <java.lang.reflect.AccessibleObject: java.security.Permission ACCESS_PERMISSION>, <java.lang.reflect.AccessibleObject: void setAccessible(boolean)>/$r2, <java.lang.reflect.AccessibleObject: void setAccessible(boolean)>
+  <java.util.HashMap: java.util.HashMap$EmptyHashIterator emptyHashIterator>, java.util.HashMap.getHashIterator/$r1, <java.util.HashMap: java.util.Iterator getHashIterator(int)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name MANIFEST_VERSION>, java.util.jar.Attributes.writeMain/$r2, <java.util.jar.Attributes: void writeMain(java.io.DataOutputStream)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SIGNATURE_VERSION>, java.util.jar.Attributes.writeMain/$r9, <java.util.jar.Attributes: void writeMain(java.io.DataOutputStream)>
+  <java.lang.System: java.io.PrintStream out>, <java.lang.ThreadGroup: void list()>/$r1, <java.lang.ThreadGroup: void list()>
+  <java.lang.System: java.io.PrintStream err>, java.lang.ThreadGroup.uncaughtException/$r5, <java.lang.ThreadGroup: void uncaughtException(java.lang.Thread,java.lang.Throwable)>
+  <java.net.InetAddress: java.net.InetAddressImpl impl>, <java.net.InetAddress: void <init>()>/$r1, <java.net.InetAddress: void <init>()>
+  <java.net.InetAddress: java.net.InetAddressImpl impl>, <java.net.InetAddress: void <init>(java.lang.String,byte[])>/$r3, <java.net.InetAddress: void <init>(java.lang.String,byte[])>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.isAbsolute/$r1, <java.io.File: boolean isAbsolute()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.getAbsolutePath/$r1, <java.io.File: java.lang.String getAbsolutePath()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.getCanonicalPath/$r1, <java.io.File: java.lang.String getCanonicalPath()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.getCanonicalPath/$r2, <java.io.File: java.lang.String getCanonicalPath()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.canRead/$r3, <java.io.File: boolean canRead()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.canWrite/$r3, <java.io.File: boolean canWrite()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.exists/$r3, <java.io.File: boolean exists()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.isDirectory/$r3, <java.io.File: boolean isDirectory()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.isFile/$r3, <java.io.File: boolean isFile()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.isHidden/$r3, <java.io.File: boolean isHidden()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.lastModified/$r3, <java.io.File: long lastModified()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.length/$r3, <java.io.File: long length()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.createNewFile/$r3, <java.io.File: boolean createNewFile()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.delete/$r3, <java.io.File: boolean delete()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.deleteOnExit/$r3, <java.io.File: void deleteOnExit()>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: java.lang.String[] list()>/$r3, <java.io.File: java.lang.String[] list()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.mkdir/$r3, <java.io.File: boolean mkdir()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.renameTo/$r5, <java.io.File: boolean renameTo(java.io.File)>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.setReadOnly/$r3, <java.io.File: boolean setReadOnly()>
+  <java.io.File: java.io.FileSystem fs>, <java.io.File: int compareTo(java.io.File)>/$r2, <java.io.File: int compareTo(java.io.File)>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.hashCode/$r1, <java.io.File: int hashCode()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.readObject/$r4, <java.io.File: void readObject(java.io.ObjectInputStream)>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.readObject/$r7, <java.io.File: void readObject(java.io.ObjectInputStream)>
+  <java.security.AccessControlContext: sun.security.util.Debug debug>, java.security.AccessControlContext.goCombiner/$r5, <java.security.AccessControlContext: java.security.AccessControlContext goCombiner(java.security.ProtectionDomain[],java.security.AccessControlContext,boolean)>
+  <java.lang.System: java.io.PrintStream err>, <java.security.PrivilegedActionException: void printStackTrace()>/$r1, <java.security.PrivilegedActionException: void printStackTrace()>
+  <java.util.HashSet: java.lang.Object PRESENT>, java.util.HashSet.add/$r2, <java.util.HashSet: boolean add(java.lang.Object)>
+  <java.util.HashSet: java.lang.Object PRESENT>, java.util.HashSet.remove/$r4, <java.util.HashSet: boolean remove(java.lang.Object)>
+  <java.util.HashSet: java.lang.Object PRESENT>, java.util.HashSet.readObject/$r5, <java.util.HashSet: void readObject(java.io.ObjectInputStream)>
+  <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue NULL>, <java.lang.ref.Reference: void <init>(java.lang.Object,java.lang.ref.ReferenceQueue)>/$r3, <java.lang.ref.Reference: void <init>(java.lang.Object,java.lang.ref.ReferenceQueue)>
+  <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue NULL>, <java.lang.ref.Reference: void <init>(java.lang.Object,java.lang.ref.ReferenceQueue)>/$r5, <java.lang.ref.Reference: void <init>(java.lang.Object,java.lang.ref.ReferenceQueue)>
+  <java.util.Locale: java.util.Locale US>, java.util.Date.toGMTString/$r2, <java.util.Date: java.lang.String toGMTString()>
+  <java.util.Date: java.lang.ref.SoftReference gmtFormatter>, java.util.Date.toGMTString/$r3, <java.util.Date: java.lang.String toGMTString()>
+  <java.util.Date: java.lang.ref.SoftReference gmtFormatter>, java.util.Date.toGMTString/$r4, <java.util.Date: java.lang.String toGMTString()>
+  <java.text.DecimalFormat: java.util.Hashtable cachedLocaleData>, <java.text.DecimalFormat: void <init>()>/$r6, <java.text.DecimalFormat: void <init>()>
+  <java.text.DecimalFormat: java.util.Hashtable cachedLocaleData>, <java.text.DecimalFormat: void <init>()>/$r8, <java.text.DecimalFormat: void <init>()>
+  <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue NULL>, java.lang.ref.ReferenceQueue.reallyPoll/$r6, <java.lang.ref.ReferenceQueue: java.lang.ref.Reference reallyPoll()>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.beginEntry/$r6, <java.util.jar.JarVerifier: void beginEntry(java.util.jar.JarEntry,sun.security.util.ManifestEntryVerifier)>
+  <java.util.jar.JarVerifier: sun.security.util.Debug debug>, java.util.jar.JarVerifier.beginEntry/$r7, <java.util.jar.JarVerifier: void beginEntry(java.util.jar.JarEntry,sun.security.util.ManifestEntryVerifier)>
+  <java.util.Calendar: java.lang.String[] FIELD_NAME>, java.util.Calendar.toString/$r23, <java.util.Calendar: java.lang.String toString()>
+  <java.util.Calendar: java.util.Hashtable cachedLocaleData>, java.util.Calendar.setWeekCountData/$r2, <java.util.Calendar: void setWeekCountData(java.util.Locale)>
+  <java.util.Calendar: java.util.Hashtable cachedLocaleData>, java.util.Calendar.setWeekCountData/$r9, <java.util.Calendar: void setWeekCountData(java.util.Locale)>
+  <java.util.GregorianCalendar: int[] MIN_VALUES>, java.util.GregorianCalendar.getMinimum/$r1, <java.util.GregorianCalendar: int getMinimum(int)>
+  <java.util.GregorianCalendar: int[] MAX_VALUES>, java.util.GregorianCalendar.getMaximum/$r1, <java.util.GregorianCalendar: int getMaximum(int)>
+  <java.util.GregorianCalendar: int[] MIN_VALUES>, java.util.GregorianCalendar.getGreatestMinimum/$r1, <java.util.GregorianCalendar: int getGreatestMinimum(int)>
+  <java.util.GregorianCalendar: int[] LEAST_MAX_VALUES>, java.util.GregorianCalendar.getLeastMaximum/$r1, <java.util.GregorianCalendar: int getLeastMaximum(int)>
+  <java.util.GregorianCalendar: int[] LEAST_MAX_VALUES>, java.util.GregorianCalendar.getActualMaximum/$r4, <java.util.GregorianCalendar: int getActualMaximum(int)>
+  <java.util.GregorianCalendar: int[] MAX_VALUES>, java.util.GregorianCalendar.getActualMaximum/$r5, <java.util.GregorianCalendar: int getActualMaximum(int)>
+  <java.util.GregorianCalendar: int[] LEAP_NUM_DAYS>, java.util.GregorianCalendar.timeToFields/$r2, <java.util.GregorianCalendar: void timeToFields(long,boolean)>
+  <java.util.GregorianCalendar: int[] NUM_DAYS>, java.util.GregorianCalendar.timeToFields/$r3, <java.util.GregorianCalendar: void timeToFields(long,boolean)>
+  <java.util.GregorianCalendar: int[] LEAP_NUM_DAYS>, java.util.GregorianCalendar.computeJulianDay/$r12, <java.util.GregorianCalendar: long computeJulianDay(boolean,int)>
+  <java.util.GregorianCalendar: int[] NUM_DAYS>, java.util.GregorianCalendar.computeJulianDay/$r13, <java.util.GregorianCalendar: long computeJulianDay(boolean,int)>
+  <java.util.GregorianCalendar: int[] LEAP_MONTH_LENGTH>, <java.util.GregorianCalendar: int monthLength(int,int)>/$r1, <java.util.GregorianCalendar: int monthLength(int,int)>
+  <java.util.GregorianCalendar: int[] MONTH_LENGTH>, <java.util.GregorianCalendar: int monthLength(int,int)>/$r2, <java.util.GregorianCalendar: int monthLength(int,int)>
+  <java.text.DateFormatSymbols: java.util.Hashtable cachedLocaleData>, java.text.DateFormatSymbols.cacheLookup/$r5, <java.text.DateFormatSymbols: java.util.ResourceBundle[] cacheLookup(java.util.Locale)>
+  <java.text.DateFormatSymbols: java.util.Hashtable cachedLocaleData>, java.text.DateFormatSymbols.cacheLookup/$r15, <java.text.DateFormatSymbols: java.util.ResourceBundle[] cacheLookup(java.util.Locale)>
+  <java.text.DateFormatSymbols: java.util.Hashtable cachedZoneData>, java.text.DateFormatSymbols.loadZoneStrings/$r3, <java.text.DateFormatSymbols: java.lang.String[][] loadZoneStrings(java.util.Locale,java.util.ResourceBundle)>
+  <java.text.DateFormatSymbols: java.util.Hashtable cachedZoneData>, java.text.DateFormatSymbols.loadZoneStrings/$r18, <java.text.DateFormatSymbols: java.lang.String[][] loadZoneStrings(java.util.Locale,java.util.ResourceBundle)>
+  <java.util.SimpleTimeZone: byte[] staticMonthLength>, <java.util.SimpleTimeZone: void <init>(int,java.lang.String)>/$r2, <java.util.SimpleTimeZone: void <init>(int,java.lang.String)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.passesLucasLehmer/$r1, <java.math.BigInteger: boolean passesLucasLehmer()>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.passesLucasLehmer/$r5, <java.math.BigInteger: boolean passesLucasLehmer()>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.passesMillerRabin/$r1, <java.math.BigInteger: boolean passesMillerRabin(int)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.passesMillerRabin/$r10, <java.math.BigInteger: boolean passesMillerRabin(int)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.passesMillerRabin/$r11, <java.math.BigInteger: boolean passesMillerRabin(int)>
+  <java.math.BigInteger: java.math.BigInteger TWO>, java.math.BigInteger.passesMillerRabin/$r12, <java.math.BigInteger: boolean passesMillerRabin(int)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.passesMillerRabin/$r13, <java.math.BigInteger: boolean passesMillerRabin(int)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, <java.math.BigInteger: java.math.BigInteger add(java.math.BigInteger)>/$r9, <java.math.BigInteger: java.math.BigInteger add(java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, <java.math.BigInteger: java.math.BigInteger subtract(java.math.BigInteger)>/$r10, <java.math.BigInteger: java.math.BigInteger subtract(java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.multiply/$r3, <java.math.BigInteger: java.math.BigInteger multiply(java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.square/$r2, <java.math.BigInteger: java.math.BigInteger square()>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.oddModPow/$r3, <java.math.BigInteger: java.math.BigInteger oddModPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.oddModPow/$r17, <java.math.BigInteger: java.math.BigInteger oddModPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: int[] bnExpModThreshTable>, java.math.BigInteger.oddModPow/$r20, <java.math.BigInteger: java.math.BigInteger oddModPow(java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.shiftLeft/$r1, <java.math.BigInteger: java.math.BigInteger shiftLeft(int)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, java.math.BigInteger.shiftRight/$r3, <java.math.BigInteger: java.math.BigInteger shiftRight(int)>
+  <java.math.BigInteger: java.math.BigInteger[] negConst>, java.math.BigInteger.shiftRight/$r4, <java.math.BigInteger: java.math.BigInteger shiftRight(int)>
+  <java.math.BigInteger: java.math.BigInteger TWO>, java.math.BigInteger.isProbablePrime/$r2, <java.math.BigInteger: boolean isProbablePrime(int)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.isProbablePrime/$r3, <java.math.BigInteger: boolean isProbablePrime(int)>
+  <java.math.BigInteger: java.math.BigInteger[] longRadix>, <java.math.BigInteger: java.lang.String toString(int)>/$r11, <java.math.BigInteger: java.lang.String toString(int)>
+  <java.math.BigInteger: int[] digitsPerLong>, <java.math.BigInteger: java.lang.String toString(int)>/$r22, <java.math.BigInteger: java.lang.String toString(int)>
+  <java.math.BigInteger: int[] digitsPerLong>, <java.math.BigInteger: java.lang.String toString(int)>/$r27, <java.math.BigInteger: java.lang.String toString(int)>
+  <java.math.BigInteger: java.lang.String[] zeros>, <java.math.BigInteger: java.lang.String toString(int)>/$r29, <java.math.BigInteger: java.lang.String toString(int)>
+  <java.text.DecimalFormatSymbols: java.util.Hashtable cachedLocaleData>, java.text.DecimalFormatSymbols.initialize/$r2, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  <java.text.DecimalFormatSymbols: java.util.Hashtable cachedLocaleData>, java.text.DecimalFormatSymbols.initialize/$r10, <java.text.DecimalFormatSymbols: void initialize(java.util.Locale)>
+  <java.text.DigitList: byte[] LONG_MIN_REP>, java.text.DigitList.fitsIntoLong/$r4, <java.text.DigitList: boolean fitsIntoLong(boolean,boolean)>
+  <java.text.DigitList: byte[] LONG_MIN_REP>, <java.text.DigitList: void set(long,int)>/$r1, <java.text.DigitList: void set(long,int)>
+  <java.text.DigitList: byte[] LONG_MIN_REP>, java.text.DigitList.isLongMIN_VALUE/$r2, <java.text.DigitList: boolean isLongMIN_VALUE()>
+  <java.util.Collections: java.util.Set EMPTY_SET>, java.util.Collections$EmptyMap.keySet/$r1, <java.util.Collections$EmptyMap: java.util.Set keySet()>
+  <java.util.Collections: java.util.Set EMPTY_SET>, java.util.Collections$EmptyMap.values/$r1, <java.util.Collections$EmptyMap: java.util.Collection values()>
+  <java.util.Collections: java.util.Set EMPTY_SET>, java.util.Collections$EmptyMap.entrySet/$r1, <java.util.Collections$EmptyMap: java.util.Set entrySet()>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_TITLE>, java.net.URLClassLoader.definePackage/$r15, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VERSION>, java.net.URLClassLoader.definePackage/$r16, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VENDOR>, java.net.URLClassLoader.definePackage/$r17, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_TITLE>, java.net.URLClassLoader.definePackage/$r18, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VERSION>, java.net.URLClassLoader.definePackage/$r19, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VENDOR>, java.net.URLClassLoader.definePackage/$r20, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SEALED>, java.net.URLClassLoader.definePackage/$r21, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_TITLE>, java.net.URLClassLoader.definePackage/$r23, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VERSION>, java.net.URLClassLoader.definePackage/$r24, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VENDOR>, java.net.URLClassLoader.definePackage/$r25, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_TITLE>, java.net.URLClassLoader.definePackage/$r26, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VERSION>, java.net.URLClassLoader.definePackage/$r27, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VENDOR>, java.net.URLClassLoader.definePackage/$r28, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SEALED>, java.net.URLClassLoader.definePackage/$r29, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SEALED>, java.net.URLClassLoader.isSealed/$r7, <java.net.URLClassLoader: boolean isSealed(java.lang.String,java.util.jar.Manifest)>
+  <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SEALED>, java.net.URLClassLoader.isSealed/$r10, <java.net.URLClassLoader: boolean isSealed(java.lang.String,java.util.jar.Manifest)>
+  <java.math.BitSieve: java.math.BitSieve smallSieve>, <java.math.BitSieve: void <init>(java.math.BigInteger,int)>/$r5, <java.math.BitSieve: void <init>(java.math.BigInteger,int)>
+  <java.math.BitSieve: java.math.BitSieve smallSieve>, <java.math.BitSieve: void <init>(java.math.BigInteger,int)>/$r6, <java.math.BitSieve: void <init>(java.math.BigInteger,int)>
+  <java.math.BitSieve: java.math.BitSieve smallSieve>, <java.math.BitSieve: void <init>(java.math.BigInteger,int)>/$r11, <java.math.BitSieve: void <init>(java.math.BigInteger,int)>
+  <java.math.BitSieve: java.math.BitSieve smallSieve>, <java.math.BitSieve: void <init>(java.math.BigInteger,int)>/$r12, <java.math.BitSieve: void <init>(java.math.BigInteger,int)>
+  <java.lang.System: java.io.PrintStream err>, <java.lang.ExceptionInInitializerError: void printStackTrace()>/$r1, <java.lang.ExceptionInInitializerError: void printStackTrace()>
+  <java.lang.ref.Finalizer: java.lang.ref.ReferenceQueue queue>, java.lang.ref.Finalizer.<init>/$r2, <java.lang.ref.Finalizer: void <init>(java.lang.Object)>
+  <java.net.Socket: java.net.SocketImplFactory factory>, <java.net.Socket: void <init>()>/$r1, <java.net.Socket: void <init>()>
+  <java.net.Socket: java.net.SocketImplFactory factory>, <java.net.Socket: void <init>()>/$r3, <java.net.Socket: void <init>()>
+  <java.net.ServerSocket: java.net.SocketImplFactory factory>, <java.net.ServerSocket: void <init>()>/$r1, <java.net.ServerSocket: void <init>()>
+  <java.net.ServerSocket: java.net.SocketImplFactory factory>, <java.net.ServerSocket: void <init>()>/$r3, <java.net.ServerSocket: void <init>()>
+  <java.text.RuleBasedCollator: java.lang.Class class$java$text$RuleBasedCollator>, java.text.RuleBasedCollator.clone/$r1, <java.text.RuleBasedCollator: java.lang.Object clone()>
+  <java.text.RuleBasedCollator: java.lang.Class class$java$text$RuleBasedCollator>, java.text.RuleBasedCollator.clone/$r4, <java.text.RuleBasedCollator: java.lang.Object clone()>
+  <java.text.Normalizer: java.text.CompactShortArray startOffsets>, java.text.Normalizer.next/$r9, <java.text.Normalizer: char next()>
+  <java.text.Normalizer: java.text.CompactByteArray canonicals>, java.text.Normalizer.next/$r10, <java.text.Normalizer: char next()>
+  <java.text.Normalizer: java.lang.String contents>, java.text.Normalizer.next/$r13, <java.text.Normalizer: char next()>
+  <java.text.Normalizer: java.text.CompactByteArray canonicals>, java.text.Normalizer.next/$r21, <java.text.Normalizer: char next()>
+  <java.text.Normalizer: java.text.CompactShortArray startOffsets>, java.text.Normalizer.previous/$r7, <java.text.Normalizer: char previous()>
+  <java.text.Normalizer: java.text.CompactByteArray canonicals>, java.text.Normalizer.previous/$r8, <java.text.Normalizer: char previous()>
+  <java.text.Normalizer: java.text.CompactByteArray canonicals>, java.text.Normalizer.previous/$r12, <java.text.Normalizer: char previous()>
+  <java.text.Normalizer: java.text.CompactShortArray startOffsets>, java.text.Normalizer.previous/$r13, <java.text.Normalizer: char previous()>
+  <java.text.Normalizer: java.lang.String contents>, java.text.Normalizer.previous/$r16, <java.text.Normalizer: char previous()>
+  <java.text.IntHashtable: int[] PRIMES>, java.text.IntHashtable.initialize/$r1, <java.text.IntHashtable: void initialize(int)>
+  <java.lang.System: java.io.PrintStream out>, java.text.IntHashtable.initialize/$r2, <java.text.IntHashtable: void initialize(int)>
+  <java.text.IntHashtable: int[] PRIMES>, java.text.IntHashtable.initialize/$r3, <java.text.IntHashtable: void initialize(int)>
+  <java.text.IntHashtable: int[] PRIMES>, java.text.IntHashtable.initialize/$r4, <java.text.IntHashtable: void initialize(int)>
+  <java.lang.String: java.lang.ThreadLocal ctbCache>, java.lang.String.getCTBConverter/$r4, <java.lang.String: sun.io.CharToByteConverter getCTBConverter(java.lang.String)>
+  <java.lang.String: java.lang.ThreadLocal ctbCache>, java.lang.String.getCTBConverter/$r6, <java.lang.String: sun.io.CharToByteConverter getCTBConverter(java.lang.String)>
+  <java.lang.String: java.lang.ThreadLocal ctbCache>, java.lang.String.getCTBConverter/$r9, <java.lang.String: sun.io.CharToByteConverter getCTBConverter(java.lang.String)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamField[] NO_FIELDS>, java.lang.Class.<clinit>/$r0, <java.lang.Class: void <clinit>()>
+  <java.lang.Integer: char[] digits>, <java.lang.Integer: java.lang.String toString(int,int)>/$r2, <java.lang.Integer: java.lang.String toString(int,int)>
+  <java.lang.Integer: char[] digits>, <java.lang.Integer: java.lang.String toString(int,int)>/$r3, <java.lang.Integer: java.lang.String toString(int,int)>
+  <java.lang.Integer: char[] digits>, java.lang.Integer.toUnsignedString/$r1, <java.lang.Integer: java.lang.String toUnsignedString(int,int)>
+  <java.lang.Integer: char[] DigitOnes>, <java.lang.Integer: java.lang.String toString(int)>/$r1, <java.lang.Integer: java.lang.String toString(int)>
+  <java.lang.Integer: char[] DigitTens>, <java.lang.Integer: java.lang.String toString(int)>/$r2, <java.lang.Integer: java.lang.String toString(int)>
+  <java.lang.Integer: char[] digits>, <java.lang.Integer: java.lang.String toString(int)>/$r3, <java.lang.Integer: java.lang.String toString(int)>
+  <java.util.Locale: java.util.Locale defaultLocale>, java.util.Locale.getDefault/$r0, <java.util.Locale: java.util.Locale getDefault()>
+  <java.util.Locale: java.lang.String[] isoCountries>, java.util.Locale.getISOCountries/$r0, <java.util.Locale: java.lang.String[] getISOCountries()>
+  <java.util.Locale: java.lang.String[] isoCountries>, java.util.Locale.getISOCountries/$r4, <java.util.Locale: java.lang.String[] getISOCountries()>
+  <java.util.Locale: java.lang.String[] isoCountries>, java.util.Locale.getISOCountries/$r6, <java.util.Locale: java.lang.String[] getISOCountries()>
+  <java.util.Locale: java.lang.String[] isoCountries>, java.util.Locale.getISOCountries/$r7, <java.util.Locale: java.lang.String[] getISOCountries()>
+  <java.util.Locale: java.lang.String[] isoCountries>, java.util.Locale.getISOCountries/$r9, <java.util.Locale: java.lang.String[] getISOCountries()>
+  <java.util.Locale: java.lang.String[] isoCountries>, java.util.Locale.getISOCountries/$r10, <java.util.Locale: java.lang.String[] getISOCountries()>
+  <java.util.Locale: java.lang.String[] isoLanguages>, java.util.Locale.getISOLanguages/$r0, <java.util.Locale: java.lang.String[] getISOLanguages()>
+  <java.util.Locale: java.lang.String[] isoLanguages>, java.util.Locale.getISOLanguages/$r4, <java.util.Locale: java.lang.String[] getISOLanguages()>
+  <java.util.Locale: java.lang.String[] isoLanguages>, java.util.Locale.getISOLanguages/$r6, <java.util.Locale: java.lang.String[] getISOLanguages()>
+  <java.util.Locale: java.lang.String[] isoLanguages>, java.util.Locale.getISOLanguages/$r7, <java.util.Locale: java.lang.String[] getISOLanguages()>
+  <java.util.Locale: java.lang.String[] isoLanguages>, java.util.Locale.getISOLanguages/$r9, <java.util.Locale: java.lang.String[] getISOLanguages()>
+  <java.util.Locale: java.lang.String[] isoLanguages>, java.util.Locale.getISOLanguages/$r10, <java.util.Locale: java.lang.String[] getISOLanguages()>
+  <java.util.Locale: java.util.Hashtable ctry2LangMapping>, java.util.Locale.getLanguagesForCountry/$r1, <java.util.Locale: java.lang.String[] getLanguagesForCountry(java.lang.String)>
+  <java.util.Locale: java.util.Hashtable ctry2LangMapping>, java.util.Locale.getLanguagesForCountry/$r11, <java.util.Locale: java.lang.String[] getLanguagesForCountry(java.lang.String)>
+  <java.util.Locale: java.util.Hashtable ctry2LangMapping>, java.util.Locale.getLanguagesForCountry/$r14, <java.util.Locale: java.lang.String[] getLanguagesForCountry(java.lang.String)>
+  <java.lang.Integer: char[] digits>, <java.lang.Long: java.lang.String toString(long,int)>/$r1, <java.lang.Long: java.lang.String toString(long,int)>
+  <java.lang.Integer: char[] digits>, <java.lang.Long: java.lang.String toString(long,int)>/$r2, <java.lang.Long: java.lang.String toString(long,int)>
+  <java.lang.Integer: char[] digits>, java.lang.Long.toUnsignedString/$r1, <java.lang.Long: java.lang.String toUnsignedString(long,int)>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.checkIO/$r0, <java.lang.System: void checkIO()>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.checkIO/$r2, <java.lang.System: void checkIO()>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.setSecurityManager0/$r1, <java.lang.System: void setSecurityManager0(java.lang.SecurityManager)>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.setSecurityManager0/$r3, <java.lang.System: void setSecurityManager0(java.lang.SecurityManager)>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.getSecurityManager/$r0, <java.lang.System: java.lang.SecurityManager getSecurityManager()>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.getProperties/$r0, <java.lang.System: java.util.Properties getProperties()>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.getProperties/$r1, <java.lang.System: java.util.Properties getProperties()>
+  <java.lang.System: java.util.Properties props>, java.lang.System.getProperties/$r2, <java.lang.System: java.util.Properties getProperties()>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.setProperties/$r1, <java.lang.System: void setProperties(java.util.Properties)>
+  <java.lang.System: java.lang.SecurityManager security>, java.lang.System.setProperties/$r2, <java.lang.System: void setProperties(java.util.Properties)>
+  <java.io.FileDescriptor: java.io.FileDescriptor in>, java.lang.System.initializeSystemClass/$r1, <java.lang.System: void initializeSystemClass()>
+  <java.lang.System: java.util.Properties props>, java.lang.System.initializeSystemClass/$r5, <java.lang.System: void initializeSystemClass()>
+  <java.io.FileDescriptor: java.io.FileDescriptor out>, java.lang.System.initializeSystemClass/$r9, <java.lang.System: void initializeSystemClass()>
+  <java.io.FileDescriptor: java.io.FileDescriptor err>, java.lang.System.initializeSystemClass/$r11, <java.lang.System: void initializeSystemClass()>
+  <java.lang.Character: int[] A>, java.lang.Character.isLowerCase/$r0, <java.lang.Character: boolean isLowerCase(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isLowerCase/$r1, <java.lang.Character: boolean isLowerCase(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isLowerCase/$r2, <java.lang.Character: boolean isLowerCase(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isUpperCase/$r0, <java.lang.Character: boolean isUpperCase(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isUpperCase/$r1, <java.lang.Character: boolean isUpperCase(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isUpperCase/$r2, <java.lang.Character: boolean isUpperCase(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isTitleCase/$r0, <java.lang.Character: boolean isTitleCase(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isTitleCase/$r1, <java.lang.Character: boolean isTitleCase(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isTitleCase/$r2, <java.lang.Character: boolean isTitleCase(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isDigit/$r0, <java.lang.Character: boolean isDigit(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isDigit/$r1, <java.lang.Character: boolean isDigit(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isDigit/$r2, <java.lang.Character: boolean isDigit(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isDefined/$r0, <java.lang.Character: boolean isDefined(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isDefined/$r1, <java.lang.Character: boolean isDefined(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isDefined/$r2, <java.lang.Character: boolean isDefined(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isLetter/$r0, <java.lang.Character: boolean isLetter(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isLetter/$r1, <java.lang.Character: boolean isLetter(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isLetter/$r2, <java.lang.Character: boolean isLetter(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isLetterOrDigit/$r0, <java.lang.Character: boolean isLetterOrDigit(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isLetterOrDigit/$r1, <java.lang.Character: boolean isLetterOrDigit(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isLetterOrDigit/$r2, <java.lang.Character: boolean isLetterOrDigit(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isJavaLetter/$r0, <java.lang.Character: boolean isJavaLetter(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isJavaLetter/$r1, <java.lang.Character: boolean isJavaLetter(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isJavaLetter/$r2, <java.lang.Character: boolean isJavaLetter(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isJavaLetterOrDigit/$r0, <java.lang.Character: boolean isJavaLetterOrDigit(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isJavaLetterOrDigit/$r1, <java.lang.Character: boolean isJavaLetterOrDigit(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isJavaLetterOrDigit/$r2, <java.lang.Character: boolean isJavaLetterOrDigit(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isJavaIdentifierStart/$r0, <java.lang.Character: boolean isJavaIdentifierStart(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isJavaIdentifierStart/$r1, <java.lang.Character: boolean isJavaIdentifierStart(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isJavaIdentifierStart/$r2, <java.lang.Character: boolean isJavaIdentifierStart(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isJavaIdentifierPart/$r0, <java.lang.Character: boolean isJavaIdentifierPart(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isJavaIdentifierPart/$r1, <java.lang.Character: boolean isJavaIdentifierPart(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isJavaIdentifierPart/$r2, <java.lang.Character: boolean isJavaIdentifierPart(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isUnicodeIdentifierStart/$r0, <java.lang.Character: boolean isUnicodeIdentifierStart(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isUnicodeIdentifierStart/$r1, <java.lang.Character: boolean isUnicodeIdentifierStart(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isUnicodeIdentifierStart/$r2, <java.lang.Character: boolean isUnicodeIdentifierStart(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isUnicodeIdentifierPart/$r0, <java.lang.Character: boolean isUnicodeIdentifierPart(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isUnicodeIdentifierPart/$r1, <java.lang.Character: boolean isUnicodeIdentifierPart(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isUnicodeIdentifierPart/$r2, <java.lang.Character: boolean isUnicodeIdentifierPart(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isIdentifierIgnorable/$r0, <java.lang.Character: boolean isIdentifierIgnorable(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isIdentifierIgnorable/$r1, <java.lang.Character: boolean isIdentifierIgnorable(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isIdentifierIgnorable/$r2, <java.lang.Character: boolean isIdentifierIgnorable(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.toLowerCase/$r0, <java.lang.Character: char toLowerCase(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.toLowerCase/$r1, <java.lang.Character: char toLowerCase(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.toLowerCase/$r2, <java.lang.Character: char toLowerCase(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.toUpperCase/$r0, <java.lang.Character: char toUpperCase(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.toUpperCase/$r1, <java.lang.Character: char toUpperCase(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.toUpperCase/$r2, <java.lang.Character: char toUpperCase(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.toTitleCase/$r0, <java.lang.Character: char toTitleCase(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.toTitleCase/$r1, <java.lang.Character: char toTitleCase(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.toTitleCase/$r2, <java.lang.Character: char toTitleCase(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.digit/$r0, <java.lang.Character: int digit(char,int)>
+  <java.lang.Character: int[] A>, java.lang.Character.digit/$r1, <java.lang.Character: int digit(char,int)>
+  <java.lang.Character: short[] Y>, java.lang.Character.digit/$r2, <java.lang.Character: int digit(char,int)>
+  <java.lang.Character: int[] A>, java.lang.Character.getNumericValue/$r0, <java.lang.Character: int getNumericValue(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.getNumericValue/$r1, <java.lang.Character: int getNumericValue(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.getNumericValue/$r2, <java.lang.Character: int getNumericValue(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isSpaceChar/$r0, <java.lang.Character: boolean isSpaceChar(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isSpaceChar/$r1, <java.lang.Character: boolean isSpaceChar(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isSpaceChar/$r2, <java.lang.Character: boolean isSpaceChar(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.isWhitespace/$r0, <java.lang.Character: boolean isWhitespace(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.isWhitespace/$r1, <java.lang.Character: boolean isWhitespace(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.isWhitespace/$r2, <java.lang.Character: boolean isWhitespace(char)>
+  <java.lang.Character: int[] A>, java.lang.Character.getType/$r0, <java.lang.Character: int getType(char)>
+  <java.lang.Character: short[] Y>, java.lang.Character.getType/$r1, <java.lang.Character: int getType(char)>
+  <java.lang.Character: byte[] X>, java.lang.Character.getType/$r2, <java.lang.Character: int getType(char)>
+  <java.lang.Math: java.util.Random randomNumberGenerator>, java.lang.Math.initRNG/$r0, <java.lang.Math: void initRNG()>
+  <java.lang.Math: java.util.Random randomNumberGenerator>, java.lang.Math.random/$r0, <java.lang.Math: double random()>
+  <java.lang.Math: java.util.Random randomNumberGenerator>, java.lang.Math.random/$r1, <java.lang.Math: double random()>
+  <java.lang.ClassLoader: sun.misc.URLClassPath bootstrapClassPath>, java.lang.ClassLoader.getBootstrapClassPath/$r0, <java.lang.ClassLoader: sun.misc.URLClassPath getBootstrapClassPath()>
+  <java.lang.ClassLoader: sun.misc.URLClassPath bootstrapClassPath>, java.lang.ClassLoader.getBootstrapClassPath/$r2, <java.lang.ClassLoader: sun.misc.URLClassPath getBootstrapClassPath()>
+  <java.lang.ClassLoader: java.lang.ClassLoader scl>, java.lang.ClassLoader.getSystemClassLoader/$r2, <java.lang.ClassLoader: java.lang.ClassLoader getSystemClassLoader()>
+  <java.lang.ClassLoader: java.lang.ClassLoader scl>, java.lang.ClassLoader.getSystemClassLoader/$r4, <java.lang.ClassLoader: java.lang.ClassLoader getSystemClassLoader()>
+  <java.lang.ClassLoader: java.lang.ClassLoader scl>, java.lang.ClassLoader.getSystemClassLoader/$r6, <java.lang.ClassLoader: java.lang.ClassLoader getSystemClassLoader()>
+  <java.lang.ClassLoader: java.lang.ClassLoader scl>, java.lang.ClassLoader.getSystemClassLoader/$r8, <java.lang.ClassLoader: java.lang.ClassLoader getSystemClassLoader()>
+  <java.lang.ClassLoader: java.lang.RuntimePermission getClassLoaderPerm>, java.lang.ClassLoader.getGetClassLoaderPerm/$r0, <java.lang.ClassLoader: java.lang.RuntimePermission getGetClassLoaderPerm()>
+  <java.lang.ClassLoader: java.lang.RuntimePermission getClassLoaderPerm>, java.lang.ClassLoader.getGetClassLoaderPerm/$r2, <java.lang.ClassLoader: java.lang.RuntimePermission getGetClassLoaderPerm()>
+  <java.io.File: java.lang.String pathSeparator>, java.lang.ClassLoader.initializePath/r2, <java.lang.ClassLoader: java.lang.String[] initializePath(java.lang.String)>
+  <java.lang.ClassLoader: java.util.Vector loadedLibraryNames>, java.lang.ClassLoader.access$000/$r0, <java.lang.ClassLoader: java.util.Vector access$000()>
+  <java.lang.ClassLoader: java.util.Stack nativeLibraryContext>, java.lang.ClassLoader.access$100/$r0, <java.lang.ClassLoader: java.util.Stack access$100()>
+  <java.lang.Package: java.util.Map urls>, java.lang.Package.access$000/$r0, <java.lang.Package: java.util.Map access$000()>
+  <java.lang.Package: java.util.Map mans>, java.lang.Package.access$200/$r0, <java.lang.Package: java.util.Map access$200()>
+  <java.lang.Package: java.util.Map pkgs>, java.lang.Package.access$400/$r0, <java.lang.Package: java.util.Map access$400()>
+  <java.lang.Integer: java.lang.Class TYPE>, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>/$r8, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>
+  <java.lang.Byte: java.lang.Class TYPE>, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>/$r9, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>
+  <java.lang.Long: java.lang.Class TYPE>, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>/$r10, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>
+  <java.lang.Float: java.lang.Class TYPE>, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>/$r11, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>
+  <java.lang.Double: java.lang.Class TYPE>, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>/$r12, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>
+  <java.lang.Short: java.lang.Class TYPE>, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>/$r13, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>
+  <java.lang.Character: java.lang.Class TYPE>, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>/$r14, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>
+  <java.lang.Boolean: java.lang.Class TYPE>, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>/$r15, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>
+  <java.lang.Void: java.lang.Class TYPE>, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>/$r16, <java.io.ObjectStreamClass: java.lang.String getSignature(java.lang.Class)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamClass$ObjectStreamClassEntry[] descriptorFor>, java.io.ObjectStreamClass.findDescriptorFor/$r4, <java.io.ObjectStreamClass: java.io.ObjectStreamClass findDescriptorFor(java.lang.Class)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamClass$ObjectStreamClassEntry[] descriptorFor>, java.io.ObjectStreamClass.findDescriptorFor/$r5, <java.io.ObjectStreamClass: java.io.ObjectStreamClass findDescriptorFor(java.lang.Class)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamClass$ObjectStreamClassEntry[] descriptorFor>, java.io.ObjectStreamClass.findDescriptorFor/$r7, <java.io.ObjectStreamClass: java.io.ObjectStreamClass findDescriptorFor(java.lang.Class)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamClass$ObjectStreamClassEntry[] descriptorFor>, java.io.ObjectStreamClass.insertDescriptorFor/$r5, <java.io.ObjectStreamClass: void insertDescriptorFor(java.io.ObjectStreamClass)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamClass$ObjectStreamClassEntry[] descriptorFor>, java.io.ObjectStreamClass.insertDescriptorFor/$r7, <java.io.ObjectStreamClass: void insertDescriptorFor(java.io.ObjectStreamClass)>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamClass$ObjectStreamClassEntry[] descriptorFor>, java.io.ObjectStreamClass.insertDescriptorFor/$r9, <java.io.ObjectStreamClass: void insertDescriptorFor(java.io.ObjectStreamClass)>
+  <java.io.ObjectStreamClass: java.lang.Class class$java$io$ObjectOutputStream>, java.io.ObjectStreamClass.initStaticMethodArgs/$r0, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
+  <java.io.ObjectStreamClass: java.lang.Class[] OOS_ARGS>, java.io.ObjectStreamClass.initStaticMethodArgs/$r2, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
+  <java.io.ObjectStreamClass: java.lang.Class class$java$io$ObjectOutputStream>, java.io.ObjectStreamClass.initStaticMethodArgs/$r3, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
+  <java.io.ObjectStreamClass: java.lang.Class[] OIS_ARGS>, java.io.ObjectStreamClass.initStaticMethodArgs/$r5, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
+  <java.io.ObjectStreamClass: java.lang.Class class$java$io$ObjectInputStream>, java.io.ObjectStreamClass.initStaticMethodArgs/$r6, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
+  <java.io.ObjectStreamClass: java.lang.Class class$java$io$ObjectInputStream>, java.io.ObjectStreamClass.initStaticMethodArgs/$r7, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
+  <java.io.ObjectStreamClass: java.lang.Class[] NULL_ARGS>, java.io.ObjectStreamClass.access$300/$r0, <java.io.ObjectStreamClass: java.lang.Class[] access$300()>
+  <java.io.ObjectStreamClass: java.lang.Class[] OOS_ARGS>, java.io.ObjectStreamClass.access$700/$r0, <java.io.ObjectStreamClass: java.lang.Class[] access$700()>
+  <java.io.ObjectStreamClass: java.lang.Class[] OIS_ARGS>, java.io.ObjectStreamClass.access$800/$r0, <java.io.ObjectStreamClass: java.lang.Class[] access$800()>
+  <java.io.ObjectStreamClass: java.io.ObjectStreamField[] NO_FIELDS>, java.io.ObjectStreamClass.<clinit>/$r2, <java.io.ObjectStreamClass: void <clinit>()>
+  <java.lang.FloatingDecimal: int[] small5pow>, java.lang.FloatingDecimal.multPow52/$r1, <java.lang.FloatingDecimal: java.lang.FDBigInt multPow52(java.lang.FDBigInt,int,int)>
+  <java.lang.FloatingDecimal: int[] small5pow>, java.lang.FloatingDecimal.multPow52/$r2, <java.lang.FloatingDecimal: java.lang.FDBigInt multPow52(java.lang.FDBigInt,int,int)>
+  <java.lang.FloatingDecimal: double[] small10pow>, java.lang.FloatingDecimal.<clinit>/$r4, <java.lang.FloatingDecimal: void <clinit>()>
+  <java.lang.FloatingDecimal: float[] singleSmall10pow>, java.lang.FloatingDecimal.<clinit>/$r5, <java.lang.FloatingDecimal: void <clinit>()>
+  <java.util.Properties: char[] hexDigit>, java.util.Properties.toHex/$r0, <java.util.Properties: char toHex(int)>
+  <java.lang.Runtime: java.lang.Runtime currentRuntime>, java.lang.Runtime.getRuntime/$r0, <java.lang.Runtime: java.lang.Runtime getRuntime()>
+  <java.lang.Boolean: java.lang.Boolean TRUE>, java.lang.Boolean.valueOf/$r1, <java.lang.Boolean: java.lang.Boolean valueOf(java.lang.String)>
+  <java.lang.Boolean: java.lang.Boolean FALSE>, java.lang.Boolean.valueOf/$r1, <java.lang.Boolean: java.lang.Boolean valueOf(java.lang.String)>
+  <java.text.resources.LocaleData: java.util.Locale[] localeList>, java.text.resources.LocaleData.getAvailableLocales/$r1, <java.text.resources.LocaleData: java.util.Locale[] getAvailableLocales(java.lang.String)>
+  <java.text.resources.LocaleData: java.util.Locale[] localeList>, java.text.resources.LocaleData.getAvailableLocales/$r3, <java.text.resources.LocaleData: java.util.Locale[] getAvailableLocales(java.lang.String)>
+  <java.text.resources.LocaleData: java.util.Locale[] localeList>, java.text.resources.LocaleData.getAvailableLocales/$r4, <java.text.resources.LocaleData: java.util.Locale[] getAvailableLocales(java.lang.String)>
+  <java.text.resources.LocaleData: java.util.Vector classPathSegments>, java.text.resources.LocaleData.getClassList/$r18, <java.text.resources.LocaleData: java.lang.String[] getClassList(java.lang.String,java.lang.String)>
+  <java.io.File: java.lang.String separator>, java.text.resources.LocaleData.getClassList/$r21, <java.text.resources.LocaleData: java.lang.String[] getClassList(java.lang.String,java.lang.String)>
+  <java.text.resources.LocaleData: java.util.Vector classPathSegments>, java.text.resources.LocaleData.getClassList/$r30, <java.text.resources.LocaleData: java.lang.String[] getClassList(java.lang.String,java.lang.String)>
+  <java.io.File: java.lang.String pathSeparator>, java.text.resources.LocaleData.<clinit>/$r13, <java.text.resources.LocaleData: void <clinit>()>
+  <java.text.resources.LocaleData: java.util.Vector classPathSegments>, java.text.resources.LocaleData.<clinit>/$r16, <java.text.resources.LocaleData: void <clinit>()>
+  <java.text.resources.LocaleData: java.util.Locale[] localeList>, java.text.resources.LocaleData.<clinit>/$r31, <java.text.resources.LocaleData: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: char[] blockStarts>, java.lang.Character$UnicodeBlock.of/$r0, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock of(char)>
+  <java.lang.Character$UnicodeBlock: char[] blockStarts>, java.lang.Character$UnicodeBlock.of/$r1, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock of(char)>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock[] blocks>, java.lang.Character$UnicodeBlock.of/$r2, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock of(char)>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BASIC_LATIN>, java.lang.Character$UnicodeBlock.<clinit>/$r68, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_1_SUPPLEMENT>, java.lang.Character$UnicodeBlock.<clinit>/$r69, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_EXTENDED_A>, java.lang.Character$UnicodeBlock.<clinit>/$r70, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_EXTENDED_B>, java.lang.Character$UnicodeBlock.<clinit>/$r71, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock IPA_EXTENSIONS>, java.lang.Character$UnicodeBlock.<clinit>/$r72, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SPACING_MODIFIER_LETTERS>, java.lang.Character$UnicodeBlock.<clinit>/$r73, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock COMBINING_DIACRITICAL_MARKS>, java.lang.Character$UnicodeBlock.<clinit>/$r74, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GREEK>, java.lang.Character$UnicodeBlock.<clinit>/$r75, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CYRILLIC>, java.lang.Character$UnicodeBlock.<clinit>/$r76, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARMENIAN>, java.lang.Character$UnicodeBlock.<clinit>/$r77, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HEBREW>, java.lang.Character$UnicodeBlock.<clinit>/$r78, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARABIC>, java.lang.Character$UnicodeBlock.<clinit>/$r79, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock DEVANAGARI>, java.lang.Character$UnicodeBlock.<clinit>/$r80, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BENGALI>, java.lang.Character$UnicodeBlock.<clinit>/$r81, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GURMUKHI>, java.lang.Character$UnicodeBlock.<clinit>/$r82, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GUJARATI>, java.lang.Character$UnicodeBlock.<clinit>/$r83, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ORIYA>, java.lang.Character$UnicodeBlock.<clinit>/$r84, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock TAMIL>, java.lang.Character$UnicodeBlock.<clinit>/$r85, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock TELUGU>, java.lang.Character$UnicodeBlock.<clinit>/$r86, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock KANNADA>, java.lang.Character$UnicodeBlock.<clinit>/$r87, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MALAYALAM>, java.lang.Character$UnicodeBlock.<clinit>/$r88, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock THAI>, java.lang.Character$UnicodeBlock.<clinit>/$r89, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LAO>, java.lang.Character$UnicodeBlock.<clinit>/$r90, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock TIBETAN>, java.lang.Character$UnicodeBlock.<clinit>/$r91, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GEORGIAN>, java.lang.Character$UnicodeBlock.<clinit>/$r92, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HANGUL_JAMO>, java.lang.Character$UnicodeBlock.<clinit>/$r93, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_EXTENDED_ADDITIONAL>, java.lang.Character$UnicodeBlock.<clinit>/$r94, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GREEK_EXTENDED>, java.lang.Character$UnicodeBlock.<clinit>/$r95, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GENERAL_PUNCTUATION>, java.lang.Character$UnicodeBlock.<clinit>/$r96, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SUPERSCRIPTS_AND_SUBSCRIPTS>, java.lang.Character$UnicodeBlock.<clinit>/$r97, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CURRENCY_SYMBOLS>, java.lang.Character$UnicodeBlock.<clinit>/$r98, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock COMBINING_MARKS_FOR_SYMBOLS>, java.lang.Character$UnicodeBlock.<clinit>/$r99, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LETTERLIKE_SYMBOLS>, java.lang.Character$UnicodeBlock.<clinit>/$r100, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock NUMBER_FORMS>, java.lang.Character$UnicodeBlock.<clinit>/$r101, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARROWS>, java.lang.Character$UnicodeBlock.<clinit>/$r102, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MATHEMATICAL_OPERATORS>, java.lang.Character$UnicodeBlock.<clinit>/$r103, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MISCELLANEOUS_TECHNICAL>, java.lang.Character$UnicodeBlock.<clinit>/$r104, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CONTROL_PICTURES>, java.lang.Character$UnicodeBlock.<clinit>/$r105, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock OPTICAL_CHARACTER_RECOGNITION>, java.lang.Character$UnicodeBlock.<clinit>/$r106, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ENCLOSED_ALPHANUMERICS>, java.lang.Character$UnicodeBlock.<clinit>/$r107, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BOX_DRAWING>, java.lang.Character$UnicodeBlock.<clinit>/$r108, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BLOCK_ELEMENTS>, java.lang.Character$UnicodeBlock.<clinit>/$r109, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GEOMETRIC_SHAPES>, java.lang.Character$UnicodeBlock.<clinit>/$r110, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MISCELLANEOUS_SYMBOLS>, java.lang.Character$UnicodeBlock.<clinit>/$r111, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock DINGBATS>, java.lang.Character$UnicodeBlock.<clinit>/$r112, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_SYMBOLS_AND_PUNCTUATION>, java.lang.Character$UnicodeBlock.<clinit>/$r113, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HIRAGANA>, java.lang.Character$UnicodeBlock.<clinit>/$r114, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock KATAKANA>, java.lang.Character$UnicodeBlock.<clinit>/$r115, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BOPOMOFO>, java.lang.Character$UnicodeBlock.<clinit>/$r116, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HANGUL_COMPATIBILITY_JAMO>, java.lang.Character$UnicodeBlock.<clinit>/$r117, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock KANBUN>, java.lang.Character$UnicodeBlock.<clinit>/$r118, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ENCLOSED_CJK_LETTERS_AND_MONTHS>, java.lang.Character$UnicodeBlock.<clinit>/$r119, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_COMPATIBILITY>, java.lang.Character$UnicodeBlock.<clinit>/$r120, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_UNIFIED_IDEOGRAPHS>, java.lang.Character$UnicodeBlock.<clinit>/$r121, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HANGUL_SYLLABLES>, java.lang.Character$UnicodeBlock.<clinit>/$r122, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SURROGATES_AREA>, java.lang.Character$UnicodeBlock.<clinit>/$r123, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock PRIVATE_USE_AREA>, java.lang.Character$UnicodeBlock.<clinit>/$r124, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_COMPATIBILITY_IDEOGRAPHS>, java.lang.Character$UnicodeBlock.<clinit>/$r125, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ALPHABETIC_PRESENTATION_FORMS>, java.lang.Character$UnicodeBlock.<clinit>/$r126, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARABIC_PRESENTATION_FORMS_A>, java.lang.Character$UnicodeBlock.<clinit>/$r127, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock COMBINING_HALF_MARKS>, java.lang.Character$UnicodeBlock.<clinit>/$r128, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_COMPATIBILITY_FORMS>, java.lang.Character$UnicodeBlock.<clinit>/$r129, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SMALL_FORM_VARIANTS>, java.lang.Character$UnicodeBlock.<clinit>/$r130, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARABIC_PRESENTATION_FORMS_B>, java.lang.Character$UnicodeBlock.<clinit>/$r131, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SPECIALS>, java.lang.Character$UnicodeBlock.<clinit>/$r132, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HALFWIDTH_AND_FULLWIDTH_FORMS>, java.lang.Character$UnicodeBlock.<clinit>/$r133, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SPECIALS>, java.lang.Character$UnicodeBlock.<clinit>/$r134, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  <java.lang.StrictMath: java.util.Random randomNumberGenerator>, java.lang.StrictMath.initRNG/$r0, <java.lang.StrictMath: void initRNG()>
+  <java.lang.StrictMath: java.util.Random randomNumberGenerator>, java.lang.StrictMath.random/$r0, <java.lang.StrictMath: double random()>
+  <java.lang.StrictMath: java.util.Random randomNumberGenerator>, java.lang.StrictMath.random/$r1, <java.lang.StrictMath: double random()>
+  <java.lang.reflect.Proxy: java.lang.Class class$java$lang$reflect$InvocationHandler>, java.lang.reflect.Proxy.<clinit>/$r1, <java.lang.reflect.Proxy: void <clinit>()>
+  <java.lang.reflect.Proxy: java.lang.Class class$java$lang$reflect$InvocationHandler>, java.lang.reflect.Proxy.<clinit>/$r3, <java.lang.reflect.Proxy: void <clinit>()>
+  <java.lang.reflect.AccessibleObject: java.security.Permission ACCESS_PERMISSION>, <java.lang.reflect.AccessibleObject: void setAccessible(java.lang.reflect.AccessibleObject[],boolean)>/$r2, <java.lang.reflect.AccessibleObject: void setAccessible(java.lang.reflect.AccessibleObject[],boolean)>
+  <java.security.cert.CertificateFactory: java.lang.Class[] GET_IMPL_PARAMS>, java.security.cert.CertificateFactory.access$000/$r0, <java.security.cert.CertificateFactory: java.lang.Class[] access$000()>
+  <java.security.cert.CertificateFactory: java.lang.Class cl>, java.security.cert.CertificateFactory.access$100/$r0, <java.security.cert.CertificateFactory: java.lang.Class access$100()>
+  <java.security.cert.CertificateFactory: java.lang.Class class$java$security$Security>, java.security.cert.CertificateFactory.<clinit>/$r0, <java.security.cert.CertificateFactory: void <clinit>()>
+  <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, java.security.cert.CertificateFactory.<clinit>/$r1, <java.security.cert.CertificateFactory: void <clinit>()>
+  <java.security.cert.CertificateFactory: java.lang.Class class$java$security$Security>, java.security.cert.CertificateFactory.<clinit>/$r2, <java.security.cert.CertificateFactory: void <clinit>()>
+  <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, java.security.cert.CertificateFactory.<clinit>/$r5, <java.security.cert.CertificateFactory: void <clinit>()>
+  <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, java.security.cert.CertificateFactory.<clinit>/$r7, <java.security.cert.CertificateFactory: void <clinit>()>
+  <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, java.security.cert.CertificateFactory.<clinit>/$r8, <java.security.cert.CertificateFactory: void <clinit>()>
+  <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, java.security.cert.CertificateFactory.<clinit>/$r10, <java.security.cert.CertificateFactory: void <clinit>()>
+  <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, java.security.cert.CertificateFactory.<clinit>/$r11, <java.security.cert.CertificateFactory: void <clinit>()>
+  <java.security.UnresolvedPermission: java.lang.Class class$java$lang$String>, java.security.UnresolvedPermission.<clinit>/$r1, <java.security.UnresolvedPermission: void <clinit>()>
+  <java.security.UnresolvedPermission: java.lang.Class class$java$lang$String>, java.security.UnresolvedPermission.<clinit>/$r3, <java.security.UnresolvedPermission: void <clinit>()>
+  <java.security.UnresolvedPermission: java.lang.Class class$java$lang$String>, java.security.UnresolvedPermission.<clinit>/$r5, <java.security.UnresolvedPermission: void <clinit>()>
+  <java.security.UnresolvedPermission: java.lang.Class class$java$lang$String>, java.security.UnresolvedPermission.<clinit>/$r6, <java.security.UnresolvedPermission: void <clinit>()>
+  <java.net.InetAddress: java.net.InetAddress loopbackHost>, java.net.InetAddress.getByName/$r2, <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>
+  <java.io.File: java.lang.String separator>, java.io.FilePermission.<clinit>/$r1, <java.io.FilePermission: void <clinit>()>
+  <java.io.File: java.lang.String separator>, java.io.FilePermission.<clinit>/$r6, <java.io.FilePermission: void <clinit>()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.listRoots/$r0, <java.io.File: java.io.File[] listRoots()>
+  <java.io.File: java.lang.String tmpdir>, java.io.File.getTempDir/$r0, <java.io.File: java.lang.String getTempDir()>
+  <java.io.File: java.lang.String tmpdir>, java.io.File.getTempDir/$r5, <java.io.File: java.lang.String getTempDir()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.<clinit>/$r1, <java.io.File: void <clinit>()>
+  <java.io.File: java.io.FileSystem fs>, java.io.File.<clinit>/$r6, <java.io.File: void <clinit>()>
+  <java.security.AccessControlContext: sun.security.util.Debug debug>, java.security.AccessControlContext.getDebug/$r0, <java.security.AccessControlContext: sun.security.util.Debug getDebug()>
+  <java.security.AccessControlContext: sun.security.util.Debug debug>, java.security.AccessControlContext.getDebug/$r2, <java.security.AccessControlContext: sun.security.util.Debug getDebug()>
+  <java.net.URLConnection: java.net.FileNameMap fileNameMap>, java.net.URLConnection.getFileNameMap/$r0, <java.net.URLConnection: java.net.FileNameMap getFileNameMap()>
+  <java.net.URLConnection: java.net.FileNameMap fileNameMap>, java.net.URLConnection.access$000/$r0, <java.net.URLConnection: java.net.FileNameMap access$000()>
+  <java.lang.ref.Reference: java.lang.ref.Reference$Lock lock>, java.lang.ref.Reference.access$100/$r0, <java.lang.ref.Reference: java.lang.ref.Reference$Lock access$100()>
+  <java.lang.ref.Reference: java.lang.ref.Reference pending>, java.lang.ref.Reference.access$200/$r0, <java.lang.ref.Reference: java.lang.ref.Reference access$200()>
+  <java.util.Date: java.util.Calendar staticCal>, java.util.Date.makeStaticCalendars/$r0, <java.util.Date: void makeStaticCalendars()>
+  <java.text.NumberFormat: java.util.Hashtable cachedLocaleData>, <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale,int)>/$r1, <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale,int)>
+  <java.text.NumberFormat: java.util.Hashtable cachedLocaleData>, <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale,int)>/$r5, <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale,int)>
+  <java.text.Utility: char[] HEX_DIGIT>, java.text.Utility.formatForSource/$r6, <java.text.Utility: java.lang.String formatForSource(java.lang.String)>
+  <java.text.Utility: char[] HEX_DIGIT>, java.text.Utility.formatForSource/$r8, <java.text.Utility: java.lang.String formatForSource(java.lang.String)>
+  <java.text.Utility: char[] HEX_DIGIT>, java.text.Utility.formatForSource/$r10, <java.text.Utility: java.lang.String formatForSource(java.lang.String)>
+  <java.text.Utility: char[] HEX_DIGIT>, java.text.Utility.formatForSource/$r14, <java.text.Utility: java.lang.String formatForSource(java.lang.String)>
+  <java.text.Utility: char[] HEX_DIGIT>, java.text.Utility.formatForSource/$r16, <java.text.Utility: java.lang.String formatForSource(java.lang.String)>
+  <java.text.Utility: char[] HEX_DIGIT>, java.text.Utility.formatForSource/$r18, <java.text.Utility: java.lang.String formatForSource(java.lang.String)>
+  <java.text.Utility: char[] HEX_DIGIT>, java.text.Utility.formatForSource/$r20, <java.text.Utility: java.lang.String formatForSource(java.lang.String)>
+  <java.util.Collections: java.util.Random r>, <java.util.Collections: void shuffle(java.util.List)>/$r1, <java.util.Collections: void shuffle(java.util.List)>
+  <java.util.Collections: java.util.Comparator REVERSE_ORDER>, java.util.Collections.reverseOrder/$r0, <java.util.Collections: java.util.Comparator reverseOrder()>
+  <java.security.Security: java.util.Properties props>, java.security.Security.initializeStatic/$r0, <java.security.Security: void initializeStatic()>
+  <java.security.Security: java.util.Properties props>, java.security.Security.loadProviders/$r4, <java.security.Security: void loadProviders()>
+  <java.security.Security: java.util.Vector providers>, java.security.Security.loadProviders/$r9, <java.security.Security: void loadProviders()>
+  <java.security.Security: java.util.Vector providers>, java.security.Security.reloadProviders/$r4, <java.security.Security: void reloadProviders()>
+  <java.security.Security: java.util.Properties props>, java.security.Security.reloadProviders/$r5, <java.security.Security: void reloadProviders()>
+  <java.security.Security: java.util.Vector providers>, java.security.Security.reloadProviders/$r11, <java.security.Security: void reloadProviders()>
+  <java.security.Security: java.util.Hashtable providerPropertiesCache>, java.security.Security.reloadProviders/$r12, <java.security.Security: void reloadProviders()>
+  <java.security.Security: java.util.Hashtable engineCache>, java.security.Security.reloadProviders/$r13, <java.security.Security: void reloadProviders()>
+  <java.security.Security: java.util.Hashtable searchResultsCache>, java.security.Security.reloadProviders/$r14, <java.security.Security: void reloadProviders()>
+  <java.io.File: java.lang.String separator>, java.security.Security.securityPropFile/r1, <java.security.Security: java.io.File securityPropFile(java.lang.String)>
+  <java.security.Security: java.util.Hashtable providerPropertiesCache>, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>/$r1, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>
+  <java.security.Security: java.util.Vector providers>, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>/$r8, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>
+  <java.security.Security: java.util.Hashtable providerPropertiesCache>, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>/$r13, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>
+  <java.security.Security: java.util.Hashtable providerPropertiesCache>, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>/$r15, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>
+  <java.security.Security: java.util.Vector providers>, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>/$r17, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>
+  <java.security.Security: java.util.Vector providers>, java.security.Security.insertProviderAt/$r8, <java.security.Security: int insertProviderAt(java.security.Provider,int)>
+  <java.security.Security: java.util.Vector providers>, java.security.Security.insertProviderAt/$r9, <java.security.Security: int insertProviderAt(java.security.Provider,int)>
+  <java.security.Security: java.util.Hashtable providerPropertiesCache>, java.security.Security.insertProviderAt/$r10, <java.security.Security: int insertProviderAt(java.security.Provider,int)>
+  <java.security.Security: java.util.Hashtable engineCache>, java.security.Security.insertProviderAt/$r11, <java.security.Security: int insertProviderAt(java.security.Provider,int)>
+  <java.security.Security: java.util.Hashtable searchResultsCache>, java.security.Security.insertProviderAt/$r12, <java.security.Security: int insertProviderAt(java.security.Provider,int)>
+  <java.security.Security: java.util.Vector providers>, java.security.Security.addProvider/$r1, <java.security.Security: int addProvider(java.security.Provider)>
+  <java.security.Security: java.util.Vector providers>, java.security.Security.removeProvider/$r7, <java.security.Security: void removeProvider(java.lang.String)>
+  <java.security.Security: java.util.Hashtable providerPropertiesCache>, java.security.Security.removeProvider/$r9, <java.security.Security: void removeProvider(java.lang.String)>
+  <java.security.Security: java.util.Hashtable engineCache>, java.security.Security.removeProvider/$r10, <java.security.Security: void removeProvider(java.lang.String)>
+  <java.security.Security: java.util.Hashtable searchResultsCache>, java.security.Security.removeProvider/$r11, <java.security.Security: void removeProvider(java.lang.String)>
+  <java.security.Security: java.util.Vector providers>, <java.security.Security: java.security.Provider[] getProviders()>/$r0, <java.security.Security: java.security.Provider[] getProviders()>
+  <java.security.Security: java.util.Vector providers>, <java.security.Security: java.security.Provider[] getProviders()>/$r2, <java.security.Security: java.security.Provider[] getProviders()>
+  <java.security.Security: java.util.Vector providers>, java.security.Security.getProvider/$r1, <java.security.Security: java.security.Provider getProvider(java.lang.String)>
+  <java.security.Security: java.util.Properties props>, java.security.Security.getProperty/$r8, <java.security.Security: java.lang.String getProperty(java.lang.String)>
+  <java.security.Security: java.util.Properties props>, java.security.Security.setProperty/$r6, <java.security.Security: void setProperty(java.lang.String,java.lang.String)>
+  <java.security.Security: java.util.Hashtable searchResultsCache>, java.security.Security.getAllQualifyingCandidates/$r14, <java.security.Security: java.util.HashSet getAllQualifyingCandidates(java.lang.String,java.lang.String,java.security.Provider[])>
+  <java.security.Security: java.util.Hashtable searchResultsCache>, java.security.Security.getAllQualifyingCandidates/$r16, <java.security.Security: java.util.HashSet getAllQualifyingCandidates(java.lang.String,java.lang.String,java.security.Provider[])>
+  <java.security.Policy: java.security.Policy policy>, java.security.Policy.isSet/$r0, <java.security.Policy: boolean isSet()>
+  <java.util.TimeZone: java.util.TimeZone GMT>, java.util.TimeZone.getTimeZone/$r2, <java.util.TimeZone: java.util.TimeZone getTimeZone(java.lang.String)>
+  <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>/$r3, <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>
+  <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>/$r5, <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>
+  <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>/$r8, <java.util.TimeZone: java.lang.String[] getAvailableIDs(int)>
+  <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, <java.util.TimeZone: java.lang.String[] getAvailableIDs()>/$r0, <java.util.TimeZone: java.lang.String[] getAvailableIDs()>
+  <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, <java.util.TimeZone: java.lang.String[] getAvailableIDs()>/$r2, <java.util.TimeZone: java.lang.String[] getAvailableIDs()>
+  <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, <java.util.TimeZone: java.lang.String[] getAvailableIDs()>/$r6, <java.util.TimeZone: java.lang.String[] getAvailableIDs()>
+  <java.util.TimeZone: java.util.TimeZone defaultZone>, java.util.TimeZone.getDefault/$r0, <java.util.TimeZone: java.util.TimeZone getDefault()>
+  <java.util.TimeZone: java.util.TimeZone defaultZone>, java.util.TimeZone.getDefault/$r14, <java.util.TimeZone: java.util.TimeZone getDefault()>
+  <java.math.BigInteger: java.math.BigInteger SMALL_PRIME_PRODUCT>, java.math.BigInteger.smallPrime/$r5, <java.math.BigInteger: java.math.BigInteger smallPrime(int,int,java.util.Random)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.lucasLehmerSequence/r3, <java.math.BigInteger: java.math.BigInteger lucasLehmerSequence(int,java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ONE>, java.math.BigInteger.lucasLehmerSequence/r4, <java.math.BigInteger: java.math.BigInteger lucasLehmerSequence(int,java.math.BigInteger,java.math.BigInteger)>
+  <java.math.BigInteger: java.math.BigInteger ZERO>, <java.math.BigInteger: java.math.BigInteger valueOf(long)>/$r0, <java.math.BigInteger: java.math.BigInteger valueOf(long)>
+  <java.math.BigInteger: java.math.BigInteger[] posConst>, <java.math.BigInteger: java.math.BigInteger valueOf(long)>/$r1, <java.math.BigInteger: java.math.BigInteger valueOf(long)>
+  <java.math.BigInteger: java.math.BigInteger[] negConst>, <java.math.BigInteger: java.math.BigInteger valueOf(long)>/$r3, <java.math.BigInteger: java.math.BigInteger valueOf(long)>
+  <java.math.BigInteger: byte[] trailingZeroTable>, java.math.BigInteger.trailingZeroCnt/$r0, <java.math.BigInteger: int trailingZeroCnt(int)>
+  <java.math.BigInteger: byte[] trailingZeroTable>, java.math.BigInteger.trailingZeroCnt/$r1, <java.math.BigInteger: int trailingZeroCnt(int)>
+  <java.math.BigInteger: byte[] trailingZeroTable>, java.math.BigInteger.trailingZeroCnt/$r2, <java.math.BigInteger: int trailingZeroCnt(int)>
+  <java.math.BigInteger: byte[] trailingZeroTable>, java.math.BigInteger.trailingZeroCnt/$r3, <java.math.BigInteger: int trailingZeroCnt(int)>
+  <java.math.BigInteger: java.math.BigInteger[] posConst>, java.math.BigInteger.<clinit>/$r5, <java.math.BigInteger: void <clinit>()>
+  <java.math.BigInteger: java.math.BigInteger[] negConst>, java.math.BigInteger.<clinit>/$r7, <java.math.BigInteger: void <clinit>()>
+  <java.math.BigInteger: java.lang.String[] zeros>, java.math.BigInteger.<clinit>/$r16, <java.math.BigInteger: void <clinit>()>
+  <java.math.BigInteger: java.lang.String[] zeros>, java.math.BigInteger.<clinit>/$r17, <java.math.BigInteger: void <clinit>()>
+  <java.math.BigInteger: java.lang.String[] zeros>, java.math.BigInteger.<clinit>/$r18, <java.math.BigInteger: void <clinit>()>
+  <java.text.DigitList: byte[] LONG_MIN_REP>, java.text.DigitList.<clinit>/$r2, <java.text.DigitList: void <clinit>()>
+  <java.util.TimeZoneData: java.util.Hashtable lookup>, java.util.TimeZoneData.get/$r1, <java.util.TimeZoneData: java.util.TimeZone get(java.lang.String)>
+  <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, java.util.TimeZoneData.<clinit>/$r345, <java.util.TimeZoneData: void <clinit>()>
+  <java.util.TimeZoneData: java.util.Hashtable lookup>, java.util.TimeZoneData.<clinit>/$r346, <java.util.TimeZoneData: void <clinit>()>
+  <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, java.util.TimeZoneData.<clinit>/$r347, <java.util.TimeZoneData: void <clinit>()>
+  <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, java.util.TimeZoneData.<clinit>/$r350, <java.util.TimeZoneData: void <clinit>()>
+  <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, java.util.TimeZoneData.<clinit>/$r353, <java.util.TimeZoneData: void <clinit>()>
+  <java.math.BigInteger: byte[] trailingZeroTable>, java.math.MutableBigInteger.binaryGcd/$r0, <java.math.MutableBigInteger: int binaryGcd(int,int)>
+  <java.math.BigInteger: byte[] trailingZeroTable>, java.math.MutableBigInteger.binaryGcd/$r1, <java.math.MutableBigInteger: int binaryGcd(int,int)>
+  <java.math.BigInteger: byte[] trailingZeroTable>, java.math.MutableBigInteger.binaryGcd/$r2, <java.math.MutableBigInteger: int binaryGcd(int,int)>
+  <java.math.BigInteger: byte[] trailingZeroTable>, java.math.MutableBigInteger.binaryGcd/$r3, <java.math.MutableBigInteger: int binaryGcd(int,int)>
+  <java.security.IdentityScope: java.security.IdentityScope scope>, java.security.IdentityScope.getSystemScope/$r0, <java.security.IdentityScope: java.security.IdentityScope getSystemScope()>
+  <java.security.IdentityScope: java.security.IdentityScope scope>, java.security.IdentityScope.getSystemScope/$r1, <java.security.IdentityScope: java.security.IdentityScope getSystemScope()>
+  <java.security.SecureRandom: java.security.SecureRandom seedGenerator>, java.security.SecureRandom.getSeed/$r0, <java.security.SecureRandom: byte[] getSeed(int)>
+  <java.security.SecureRandom: java.security.SecureRandom seedGenerator>, java.security.SecureRandom.getSeed/$r2, <java.security.SecureRandom: byte[] getSeed(int)>
+  <java.lang.ref.Finalizer: java.lang.ref.ReferenceQueue queue>, java.lang.ref.Finalizer.access$000/$r0, <java.lang.ref.Finalizer: java.lang.ref.ReferenceQueue access$000()>
+  <java.lang.ref.Finalizer: java.lang.Object lock>, java.lang.ref.Finalizer.access$200/$r0, <java.lang.ref.Finalizer: java.lang.Object access$200()>
+  <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, java.lang.ref.Finalizer.access$300/$r0, <java.lang.ref.Finalizer: java.lang.ref.Finalizer access$300()>
+  <java.net.Authenticator: java.net.Authenticator theAuthenticator>, java.net.Authenticator.setDefault/$r4, <java.net.Authenticator: void setDefault(java.net.Authenticator)>
+  <java.text.Normalizer: java.text.CompactByteArray canonicals>, <java.text.Normalizer: void compose(java.lang.StringBuffer)>/$r1, <java.text.Normalizer: void compose(java.lang.StringBuffer)>
+  <java.text.Normalizer: java.text.CompactByteArray canonicals>, <java.text.Normalizer: void compose(java.lang.StringBuffer)>/$r2, <java.text.Normalizer: void compose(java.lang.StringBuffer)>
+  <java.text.Normalizer: java.text.IntHashtable composeMapping>, <java.text.Normalizer: void compose(java.lang.StringBuffer)>/$r3, <java.text.Normalizer: void compose(java.lang.StringBuffer)>
+  <java.text.Normalizer: java.text.CompactShortArray startOffsets>, <java.text.Normalizer: void decompose(java.lang.StringBuffer,int)>/$r3, <java.text.Normalizer: void decompose(java.lang.StringBuffer,int)>
+  <java.text.Normalizer: java.lang.String contents>, <java.text.Normalizer: void decompose(java.lang.StringBuffer,int)>/$r6, <java.text.Normalizer: void decompose(java.lang.StringBuffer,int)>
+  <java.text.Normalizer: java.text.CompactShortArray startOffsets>, <java.text.Normalizer: java.lang.String decompose(java.lang.String,int)>/$r3, <java.text.Normalizer: java.lang.String decompose(java.lang.String,int)>
+  <java.text.Normalizer: java.lang.String contents>, <java.text.Normalizer: java.lang.String decompose(java.lang.String,int)>/$r6, <java.text.Normalizer: java.lang.String decompose(java.lang.String,int)>
+  <java.text.Normalizer: java.text.CompactByteArray canonicals>, java.text.Normalizer.fixCanonical/$r1, <java.text.Normalizer: void fixCanonical(java.lang.StringBuffer)>
+  <java.text.Normalizer: java.text.CompactByteArray canonicals>, java.text.Normalizer.fixCanonical/$r2, <java.text.Normalizer: void fixCanonical(java.lang.StringBuffer)>
+  <java.text.Normalizer: java.text.CompactByteArray canonicals>, java.text.Normalizer.fixCanonical/$r3, <java.text.Normalizer: void fixCanonical(java.lang.StringBuffer)>
+  <java.text.Normalizer: java.lang.String contents>, java.text.Normalizer.access$200/$r0, <java.text.Normalizer: java.lang.String access$200()>
+  <java.text.Normalizer: java.text.CompactShortArray startOffsets>, java.text.Normalizer.access$300/$r0, <java.text.Normalizer: java.text.CompactShortArray access$300()>
+  <java.text.Normalizer: short[] kOffsetIndex>, java.text.Normalizer.<clinit>/$r0, <java.text.Normalizer: void <clinit>()>
+  <java.text.Normalizer: short[] kOffsetValues>, java.text.Normalizer.<clinit>/$r1, <java.text.Normalizer: void <clinit>()>
+  <java.text.Normalizer: short[] kCanonicalIndex>, java.text.Normalizer.<clinit>/$r10, <java.text.Normalizer: void <clinit>()>
+  <java.text.Normalizer: byte[] kCanonicalValues>, java.text.Normalizer.<clinit>/$r11, <java.text.Normalizer: void <clinit>()>
+  <java.text.Normalizer: java.text.IntHashtable composeMapping>, java.text.Normalizer.<clinit>/$r14, <java.text.Normalizer: void <clinit>()>
+  <java.text.IntHashtable: int[] PRIMES>, java.text.IntHashtable.leastGreaterPrimeIndex/$r0, <java.text.IntHashtable: int leastGreaterPrimeIndex(int)>
+  <java.text.IntHashtable: int[] PRIMES>, java.text.IntHashtable.leastGreaterPrimeIndex/$r1, <java.text.IntHashtable: int leastGreaterPrimeIndex(int)>

@@ -1,0 +1,315 @@
+{:db/id #db/id[:db.part/user -424768]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121868]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -123792]}
+{:db/id #db/id[:db.part/user -424769]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121867]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -123809]}
+{:db/id #db/id[:db.part/user -424770]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121869]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -123809]}
+{:db/id #db/id[:db.part/user -424771]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121882]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124034]}
+{:db/id #db/id[:db.part/user -424772]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121883]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124035]}
+{:db/id #db/id[:db.part/user -424773]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121895]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124141]}
+{:db/id #db/id[:db.part/user -424774]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121898]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124268]}
+{:db/id #db/id[:db.part/user -424775]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121915]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124389]}
+{:db/id #db/id[:db.part/user -424776]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121916]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124394]}
+{:db/id #db/id[:db.part/user -424778]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121917]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124398]}
+{:db/id #db/id[:db.part/user -424780]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121915]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124400]}
+{:db/id #db/id[:db.part/user -424781]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121917]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124400]}
+{:db/id #db/id[:db.part/user -424782]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121917]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124402]}
+{:db/id #db/id[:db.part/user -424783]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121918]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -124445]}
+{:db/id #db/id[:db.part/user -424784]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121889]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -125386]}
+{:db/id #db/id[:db.part/user -424786]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121906]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -128689]}
+{:db/id #db/id[:db.part/user -424788]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121870]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133564]}
+{:db/id #db/id[:db.part/user -424791]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121871]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133564]}
+{:db/id #db/id[:db.part/user -424794]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121872]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133564]}
+{:db/id #db/id[:db.part/user -424797]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121873]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133692]}
+{:db/id #db/id[:db.part/user -424800]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121874]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133701]}
+{:db/id #db/id[:db.part/user -424802]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121877]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133785]}
+{:db/id #db/id[:db.part/user -424805]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121878]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133798]}
+{:db/id #db/id[:db.part/user -424807]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121879]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133798]}
+{:db/id #db/id[:db.part/user -424812]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121880]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133875]}
+{:db/id #db/id[:db.part/user -424815]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121881]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133875]}
+{:db/id #db/id[:db.part/user -424818]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121882]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133882]}
+{:db/id #db/id[:db.part/user -424820]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121883]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133882]}
+{:db/id #db/id[:db.part/user -424823]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121885]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133921]}
+{:db/id #db/id[:db.part/user -424826]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121886]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -133921]}
+{:db/id #db/id[:db.part/user -424828]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121895]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134085]}
+{:db/id #db/id[:db.part/user -424831]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121897]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134098]}
+{:db/id #db/id[:db.part/user -424833]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121899]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134370]}
+{:db/id #db/id[:db.part/user -424837]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121899]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134373]}
+{:db/id #db/id[:db.part/user -424839]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121900]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134373]}
+{:db/id #db/id[:db.part/user -424842]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121901]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134373]}
+{:db/id #db/id[:db.part/user -424844]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121902]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134374]}
+{:db/id #db/id[:db.part/user -424847]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121904]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134379]}
+{:db/id #db/id[:db.part/user -424850]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121904]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134387]}
+{:db/id #db/id[:db.part/user -424854]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121905]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134387]}
+{:db/id #db/id[:db.part/user -424856]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121906]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134387]}
+{:db/id #db/id[:db.part/user -424860]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121907]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134393]}
+{:db/id #db/id[:db.part/user -424862]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121910]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134394]}
+{:db/id #db/id[:db.part/user -424864]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121910]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134395]}
+{:db/id #db/id[:db.part/user -424865]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121911]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134395]}
+{:db/id #db/id[:db.part/user -424866]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121912]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134395]}
+{:db/id #db/id[:db.part/user -424867]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121913]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134395]}
+{:db/id #db/id[:db.part/user -424868]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121914]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134395]}
+{:db/id #db/id[:db.part/user -424869]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121915]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134396]}
+{:db/id #db/id[:db.part/user -424871]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121916]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134396]}
+{:db/id #db/id[:db.part/user -424872]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121917]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134396]}
+{:db/id #db/id[:db.part/user -424875]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121919]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134509]}
+{:db/id #db/id[:db.part/user -424876]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121919]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134510]}
+{:db/id #db/id[:db.part/user -424877]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121919]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134537]}
+{:db/id #db/id[:db.part/user -424878]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121922]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134559]}
+{:db/id #db/id[:db.part/user -424879]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121923]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134559]}
+{:db/id #db/id[:db.part/user -424881]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121924]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134593]}
+{:db/id #db/id[:db.part/user -424882]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121927]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134614]}
+{:db/id #db/id[:db.part/user -424883]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121927]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134615]}
+{:db/id #db/id[:db.part/user -424884]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121934]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134664]}
+{:db/id #db/id[:db.part/user -424886]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121940]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134665]}
+{:db/id #db/id[:db.part/user -424887]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121943]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134692]}
+{:db/id #db/id[:db.part/user -424889]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121944]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134692]}
+{:db/id #db/id[:db.part/user -424890]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121945]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134692]}
+{:db/id #db/id[:db.part/user -424892]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121868]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134699]}
+{:db/id #db/id[:db.part/user -424893]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121875]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134700]}
+{:db/id #db/id[:db.part/user -424894]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121876]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134700]}
+{:db/id #db/id[:db.part/user -424895]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121884]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134701]}
+{:db/id #db/id[:db.part/user -424896]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121887]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134702]}
+{:db/id #db/id[:db.part/user -424898]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121888]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134703]}
+{:db/id #db/id[:db.part/user -424899]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121889]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134704]}
+{:db/id #db/id[:db.part/user -424901]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121890]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134704]}
+{:db/id #db/id[:db.part/user -424902]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121891]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134705]}
+{:db/id #db/id[:db.part/user -424903]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121892]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134705]}
+{:db/id #db/id[:db.part/user -424904]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121893]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134706]}
+{:db/id #db/id[:db.part/user -424906]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121894]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134706]}
+{:db/id #db/id[:db.part/user -424907]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121896]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134707]}
+{:db/id #db/id[:db.part/user -424909]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121902]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134708]}
+{:db/id #db/id[:db.part/user -424910]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121903]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134708]}
+{:db/id #db/id[:db.part/user -424912]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121905]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134709]}
+{:db/id #db/id[:db.part/user -424913]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121908]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134710]}
+{:db/id #db/id[:db.part/user -424914]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121909]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134710]}
+{:db/id #db/id[:db.part/user -424915]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121920]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134711]}
+{:db/id #db/id[:db.part/user -424916]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121920]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134712]}
+{:db/id #db/id[:db.part/user -424918]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121920]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134713]}
+{:db/id #db/id[:db.part/user -424920]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121921]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134714]}
+{:db/id #db/id[:db.part/user -424921]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121925]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134715]}
+{:db/id #db/id[:db.part/user -424922]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121925]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134716]}
+{:db/id #db/id[:db.part/user -424924]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121925]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134717]}
+{:db/id #db/id[:db.part/user -424925]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121926]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134718]}
+{:db/id #db/id[:db.part/user -424926]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121928]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134719]}
+{:db/id #db/id[:db.part/user -424927]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121928]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134720]}
+{:db/id #db/id[:db.part/user -424929]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121929]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134721]}
+{:db/id #db/id[:db.part/user -424930]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121930]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134722]}
+{:db/id #db/id[:db.part/user -424931]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121931]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134722]}
+{:db/id #db/id[:db.part/user -424932]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121932]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134722]}
+{:db/id #db/id[:db.part/user -424934]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121933]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134723]}
+{:db/id #db/id[:db.part/user -424936]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121935]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134724]}
+{:db/id #db/id[:db.part/user -424937]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121936]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134724]}
+{:db/id #db/id[:db.part/user -424939]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121937]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134725]}
+{:db/id #db/id[:db.part/user -424940]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121938]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134725]}
+{:db/id #db/id[:db.part/user -424941]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121939]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134725]}
+{:db/id #db/id[:db.part/user -424942]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121941]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134726]}
+{:db/id #db/id[:db.part/user -424943]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121941]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134727]}
+{:db/id #db/id[:db.part/user -424945]
+ :StorePrimStaticField/signature #db/id[:db.part/user -121942]
+ :StorePrimStaticField/inmethod #db/id[:db.part/user -134728]}

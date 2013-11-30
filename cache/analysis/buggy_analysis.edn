@@ -1,0 +1,33 @@
+bonjour
+VarPointsTo: 31
+sun.misc.Version.init/$stringconstant0, <<string-constant>>
+sun.misc.NativeSignalHandler.<init>/r0, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/1
+sun.misc.Version.init/$stringconstant5, <<string-constant>>
+sun.misc.Signal.<clinit>/$r0, sun.misc.Signal.<clinit>/new java.util.Hashtable/0
+sun.misc.Signal.handle/$r23, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
+sun.misc.NativeSignalHandler.<init>/@this, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/0
+sun.misc.NativeSignalHandler.<init>/@this, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/1
+sun.misc.Signal.handle/$r8, sun.misc.Signal.handle/new java.lang.StringBuffer/0
+<sun.misc.Launcher$Factory: void <init>()>/@this, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
+sun.misc.SignalHandler.<clinit>/$r1, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/1
+sun.misc.Launcher$Factory.<clinit>/$stringconstant0, <<string-constant>>
+sun.misc.NativeSignalHandler.<init>/r0, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
+sun.misc.Version.init/$stringconstant3, <<string-constant>>
+sun.misc.NativeSignalHandler.<init>/r0, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/0
+sun.misc.Signal.handle/$r7, sun.io.ByteToCharConverter.setSubstitutionChars/new java.lang.IllegalArgumentException/0
+sun.misc.Launcher$1.<init>/@this, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$1/0
+sun.misc.Signal.<clinit>/$r1, sun.misc.Signal.<clinit>/new java.util.Hashtable/1
+sun.misc.Version.init/$stringconstant1, <<string-constant>>
+sun.misc.Version.init/$stringconstant4, <<string-constant>>
+sun.misc.Launcher$1.<init>/r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$1/0
+sun.misc.NativeSignalHandler.<init>/@this, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
+<sun.misc.Launcher$Factory: void <init>()>/r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
+<sun.misc.Launcher$Factory: void <init>(sun.misc.Launcher$1)>/r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
+sun.misc.SignalHandler.<clinit>/$r0, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/0
+sun.misc.Signal.handle/$r13, sun.misc.Signal.handle/new java.lang.Integer/0
+sun.misc.Signal.handle/$stringconstant0, <<string-constant>>
+<sun.misc.Launcher$Factory: void <init>(sun.misc.Launcher$1)>/@this, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
+sun.misc.Signal.handle/r24, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
+sun.misc.Launcher.<clinit>/$r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
+sun.misc.Version.init/$stringconstant2, <<string-constant>>
+sun.misc.Launcher.<clinit>/$r1, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$1/0

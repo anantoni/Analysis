@@ -1,0 +1,411 @@
+{:db/id #db/id[:db.part/user -468798]
+ :ClassInitializer/type #db/id[:db.part/user -119402]
+ :ClassInitializer/method #db/id[:db.part/user -123809]}
+{:db/id #db/id[:db.part/user -468799]
+ :ClassInitializer/type #db/id[:db.part/user -119403]
+ :ClassInitializer/method #db/id[:db.part/user -133514]}
+{:db/id #db/id[:db.part/user -468800]
+ :ClassInitializer/type #db/id[:db.part/user -119405]
+ :ClassInitializer/method #db/id[:db.part/user -134998]}
+{:db/id #db/id[:db.part/user -468801]
+ :ClassInitializer/type #db/id[:db.part/user -119475]
+ :ClassInitializer/method #db/id[:db.part/user -134699]}
+{:db/id #db/id[:db.part/user -468802]
+ :ClassInitializer/type #db/id[:db.part/user -119480]
+ :ClassInitializer/method #db/id[:db.part/user -133564]}
+{:db/id #db/id[:db.part/user -468803]
+ :ClassInitializer/type #db/id[:db.part/user -119485]
+ :ClassInitializer/method #db/id[:db.part/user -133798]}
+{:db/id #db/id[:db.part/user -468804]
+ :ClassInitializer/type #db/id[:db.part/user -119486]
+ :ClassInitializer/method #db/id[:db.part/user -133882]}
+{:db/id #db/id[:db.part/user -468805]
+ :ClassInitializer/type #db/id[:db.part/user -119488]
+ :ClassInitializer/method #db/id[:db.part/user -133821]}
+{:db/id #db/id[:db.part/user -468806]
+ :ClassInitializer/type #db/id[:db.part/user -119498]
+ :ClassInitializer/method #db/id[:db.part/user -133825]}
+{:db/id #db/id[:db.part/user -468807]
+ :ClassInitializer/type #db/id[:db.part/user -119503]
+ :ClassInitializer/method #db/id[:db.part/user -133537]}
+{:db/id #db/id[:db.part/user -468808]
+ :ClassInitializer/type #db/id[:db.part/user -119505]
+ :ClassInitializer/method #db/id[:db.part/user -135016]}
+{:db/id #db/id[:db.part/user -468809]
+ :ClassInitializer/type #db/id[:db.part/user -119508]
+ :ClassInitializer/method #db/id[:db.part/user -133547]}
+{:db/id #db/id[:db.part/user -468810]
+ :ClassInitializer/type #db/id[:db.part/user -119512]
+ :ClassInitializer/method #db/id[:db.part/user -134021]}
+{:db/id #db/id[:db.part/user -468811]
+ :ClassInitializer/type #db/id[:db.part/user -119513]
+ :ClassInitializer/method #db/id[:db.part/user -134036]}
+{:db/id #db/id[:db.part/user -468812]
+ :ClassInitializer/type #db/id[:db.part/user -119515]
+ :ClassInitializer/method #db/id[:db.part/user -134045]}
+{:db/id #db/id[:db.part/user -468813]
+ :ClassInitializer/type #db/id[:db.part/user -119519]
+ :ClassInitializer/method #db/id[:db.part/user -133590]}
+{:db/id #db/id[:db.part/user -468814]
+ :ClassInitializer/type #db/id[:db.part/user -119520]
+ :ClassInitializer/method #db/id[:db.part/user -133921]}
+{:db/id #db/id[:db.part/user -468815]
+ :ClassInitializer/type #db/id[:db.part/user -119521]
+ :ClassInitializer/method #db/id[:db.part/user -133599]}
+{:db/id #db/id[:db.part/user -468816]
+ :ClassInitializer/type #db/id[:db.part/user -119522]
+ :ClassInitializer/method #db/id[:db.part/user -133692]}
+{:db/id #db/id[:db.part/user -468817]
+ :ClassInitializer/type #db/id[:db.part/user -119524]
+ :ClassInitializer/method #db/id[:db.part/user -133928]}
+{:db/id #db/id[:db.part/user -468818]
+ :ClassInitializer/type #db/id[:db.part/user -119525]
+ :ClassInitializer/method #db/id[:db.part/user -133976]}
+{:db/id #db/id[:db.part/user -468819]
+ :ClassInitializer/type #db/id[:db.part/user -119526]
+ :ClassInitializer/method #db/id[:db.part/user -133978]}
+{:db/id #db/id[:db.part/user -468820]
+ :ClassInitializer/type #db/id[:db.part/user -119527]
+ :ClassInitializer/method #db/id[:db.part/user -135019]}
+{:db/id #db/id[:db.part/user -468821]
+ :ClassInitializer/type #db/id[:db.part/user -119528]
+ :ClassInitializer/method #db/id[:db.part/user -135020]}
+{:db/id #db/id[:db.part/user -468822]
+ :ClassInitializer/type #db/id[:db.part/user -119529]
+ :ClassInitializer/method #db/id[:db.part/user -134702]}
+{:db/id #db/id[:db.part/user -468823]
+ :ClassInitializer/type #db/id[:db.part/user -119531]
+ :ClassInitializer/method #db/id[:db.part/user -133701]}
+{:db/id #db/id[:db.part/user -468824]
+ :ClassInitializer/type #db/id[:db.part/user -119532]
+ :ClassInitializer/method #db/id[:db.part/user -125241]}
+{:db/id #db/id[:db.part/user -468825]
+ :ClassInitializer/type #db/id[:db.part/user -119536]
+ :ClassInitializer/method #db/id[:db.part/user -134700]}
+{:db/id #db/id[:db.part/user -468826]
+ :ClassInitializer/type #db/id[:db.part/user -119540]
+ :ClassInitializer/method #db/id[:db.part/user -133875]}
+{:db/id #db/id[:db.part/user -468827]
+ :ClassInitializer/type #db/id[:db.part/user -119558]
+ :ClassInitializer/method #db/id[:db.part/user -134707]}
+{:db/id #db/id[:db.part/user -468828]
+ :ClassInitializer/type #db/id[:db.part/user -119564]
+ :ClassInitializer/method #db/id[:db.part/user -134377]}
+{:db/id #db/id[:db.part/user -468829]
+ :ClassInitializer/type #db/id[:db.part/user -119565]
+ :ClassInitializer/method #db/id[:db.part/user -134357]}
+{:db/id #db/id[:db.part/user -468830]
+ :ClassInitializer/type #db/id[:db.part/user -119567]
+ :ClassInitializer/method #db/id[:db.part/user -134708]}
+{:db/id #db/id[:db.part/user -468831]
+ :ClassInitializer/type #db/id[:db.part/user -119570]
+ :ClassInitializer/method #db/id[:db.part/user -135828]}
+{:db/id #db/id[:db.part/user -468832]
+ :ClassInitializer/type #db/id[:db.part/user -119576]
+ :ClassInitializer/method #db/id[:db.part/user -135029]}
+{:db/id #db/id[:db.part/user -468833]
+ :ClassInitializer/type #db/id[:db.part/user -119579]
+ :ClassInitializer/method #db/id[:db.part/user -135030]}
+{:db/id #db/id[:db.part/user -468834]
+ :ClassInitializer/type #db/id[:db.part/user -119584]
+ :ClassInitializer/method #db/id[:db.part/user -134373]}
+{:db/id #db/id[:db.part/user -468835]
+ :ClassInitializer/type #db/id[:db.part/user -119587]
+ :ClassInitializer/method #db/id[:db.part/user -133984]}
+{:db/id #db/id[:db.part/user -468836]
+ :ClassInitializer/type #db/id[:db.part/user -119592]
+ :ClassInitializer/method #db/id[:db.part/user -134342]}
+{:db/id #db/id[:db.part/user -468837]
+ :ClassInitializer/type #db/id[:db.part/user -119597]
+ :ClassInitializer/method #db/id[:db.part/user -134387]}
+{:db/id #db/id[:db.part/user -468838]
+ :ClassInitializer/type #db/id[:db.part/user -119599]
+ :ClassInitializer/method #db/id[:db.part/user -134098]}
+{:db/id #db/id[:db.part/user -468839]
+ :ClassInitializer/type #db/id[:db.part/user -119600]
+ :ClassInitializer/method #db/id[:db.part/user -134101]}
+{:db/id #db/id[:db.part/user -468840]
+ :ClassInitializer/type #db/id[:db.part/user -119618]
+ :ClassInitializer/method #db/id[:db.part/user -134335]}
+{:db/id #db/id[:db.part/user -468841]
+ :ClassInitializer/type #db/id[:db.part/user -119621]
+ :ClassInitializer/method #db/id[:db.part/user -134368]}
+{:db/id #db/id[:db.part/user -468842]
+ :ClassInitializer/type #db/id[:db.part/user -119622]
+ :ClassInitializer/method #db/id[:db.part/user -124268]}
+{:db/id #db/id[:db.part/user -468843]
+ :ClassInitializer/type #db/id[:db.part/user -119629]
+ :ClassInitializer/method #db/id[:db.part/user -135028]}
+{:db/id #db/id[:db.part/user -468844]
+ :ClassInitializer/type #db/id[:db.part/user -119639]
+ :ClassInitializer/method #db/id[:db.part/user -134710]}
+{:db/id #db/id[:db.part/user -468845]
+ :ClassInitializer/type #db/id[:db.part/user -119641]
+ :ClassInitializer/method #db/id[:db.part/user -134395]}
+{:db/id #db/id[:db.part/user -468846]
+ :ClassInitializer/type #db/id[:db.part/user -119644]
+ :ClassInitializer/method #db/id[:db.part/user -134703]}
+{:db/id #db/id[:db.part/user -468847]
+ :ClassInitializer/type #db/id[:db.part/user -119645]
+ :ClassInitializer/method #db/id[:db.part/user -135832]}
+{:db/id #db/id[:db.part/user -468848]
+ :ClassInitializer/type #db/id[:db.part/user -119647]
+ :ClassInitializer/method #db/id[:db.part/user -135833]}
+{:db/id #db/id[:db.part/user -468849]
+ :ClassInitializer/type #db/id[:db.part/user -119648]
+ :ClassInitializer/method #db/id[:db.part/user -133995]}
+{:db/id #db/id[:db.part/user -468850]
+ :ClassInitializer/type #db/id[:db.part/user -119649]
+ :ClassInitializer/method #db/id[:db.part/user -134006]}
+{:db/id #db/id[:db.part/user -468851]
+ :ClassInitializer/type #db/id[:db.part/user -119667]
+ :ClassInitializer/method #db/id[:db.part/user -134409]}
+{:db/id #db/id[:db.part/user -468852]
+ :ClassInitializer/type #db/id[:db.part/user -119668]
+ :ClassInitializer/method #db/id[:db.part/user -134437]}
+{:db/id #db/id[:db.part/user -468853]
+ :ClassInitializer/type #db/id[:db.part/user -119670]
+ :ClassInitializer/method #db/id[:db.part/user -134410]}
+{:db/id #db/id[:db.part/user -468854]
+ :ClassInitializer/type #db/id[:db.part/user -119681]
+ :ClassInitializer/method #db/id[:db.part/user -134070]}
+{:db/id #db/id[:db.part/user -468855]
+ :ClassInitializer/type #db/id[:db.part/user -119683]
+ :ClassInitializer/method #db/id[:db.part/user -134441]}
+{:db/id #db/id[:db.part/user -468856]
+ :ClassInitializer/type #db/id[:db.part/user -119686]
+ :ClassInitializer/method #db/id[:db.part/user -134075]}
+{:db/id #db/id[:db.part/user -468857]
+ :ClassInitializer/type #db/id[:db.part/user -119689]
+ :ClassInitializer/method #db/id[:db.part/user -134706]}
+{:db/id #db/id[:db.part/user -468858]
+ :ClassInitializer/type #db/id[:db.part/user -119695]
+ :ClassInitializer/method #db/id[:db.part/user -134085]}
+{:db/id #db/id[:db.part/user -468859]
+ :ClassInitializer/type #db/id[:db.part/user -119697]
+ :ClassInitializer/method #db/id[:db.part/user -134393]}
+{:db/id #db/id[:db.part/user -468860]
+ :ClassInitializer/type #db/id[:db.part/user -119702]
+ :ClassInitializer/method #db/id[:db.part/user -134089]}
+{:db/id #db/id[:db.part/user -468861]
+ :ClassInitializer/type #db/id[:db.part/user -119718]
+ :ClassInitializer/method #db/id[:db.part/user -134318]}
+{:db/id #db/id[:db.part/user -468862]
+ :ClassInitializer/type #db/id[:db.part/user -119721]
+ :ClassInitializer/method #db/id[:db.part/user -134507]}
+{:db/id #db/id[:db.part/user -468863]
+ :ClassInitializer/type #db/id[:db.part/user -119738]
+ :ClassInitializer/method #db/id[:db.part/user -134538]}
+{:db/id #db/id[:db.part/user -468864]
+ :ClassInitializer/type #db/id[:db.part/user -119739]
+ :ClassInitializer/method #db/id[:db.part/user -135043]}
+{:db/id #db/id[:db.part/user -468865]
+ :ClassInitializer/type #db/id[:db.part/user -119740]
+ :ClassInitializer/method #db/id[:db.part/user -134542]}
+{:db/id #db/id[:db.part/user -468866]
+ :ClassInitializer/type #db/id[:db.part/user -119741]
+ :ClassInitializer/method #db/id[:db.part/user -134540]}
+{:db/id #db/id[:db.part/user -468867]
+ :ClassInitializer/type #db/id[:db.part/user -119770]
+ :ClassInitializer/method #db/id[:db.part/user -134552]}
+{:db/id #db/id[:db.part/user -468868]
+ :ClassInitializer/type #db/id[:db.part/user -119771]
+ :ClassInitializer/method #db/id[:db.part/user -134559]}
+{:db/id #db/id[:db.part/user -468869]
+ :ClassInitializer/type #db/id[:db.part/user -119772]
+ :ClassInitializer/method #db/id[:db.part/user -134562]}
+{:db/id #db/id[:db.part/user -468870]
+ :ClassInitializer/type #db/id[:db.part/user -119773]
+ :ClassInitializer/method #db/id[:db.part/user -134396]}
+{:db/id #db/id[:db.part/user -468871]
+ :ClassInitializer/type #db/id[:db.part/user -119779]
+ :ClassInitializer/method #db/id[:db.part/user -134591]}
+{:db/id #db/id[:db.part/user -468872]
+ :ClassInitializer/type #db/id[:db.part/user -119780]
+ :ClassInitializer/method #db/id[:db.part/user -134592]}
+{:db/id #db/id[:db.part/user -468873]
+ :ClassInitializer/type #db/id[:db.part/user -119781]
+ :ClassInitializer/method #db/id[:db.part/user -134564]}
+{:db/id #db/id[:db.part/user -468874]
+ :ClassInitializer/type #db/id[:db.part/user -119782]
+ :ClassInitializer/method #db/id[:db.part/user -134565]}
+{:db/id #db/id[:db.part/user -468875]
+ :ClassInitializer/type #db/id[:db.part/user -119783]
+ :ClassInitializer/method #db/id[:db.part/user -134436]}
+{:db/id #db/id[:db.part/user -468876]
+ :ClassInitializer/type #db/id[:db.part/user -119784]
+ :ClassInitializer/method #db/id[:db.part/user -134593]}
+{:db/id #db/id[:db.part/user -468877]
+ :ClassInitializer/type #db/id[:db.part/user -119789]
+ :ClassInitializer/method #db/id[:db.part/user -134478]}
+{:db/id #db/id[:db.part/user -468878]
+ :ClassInitializer/type #db/id[:db.part/user -119827]
+ :ClassInitializer/method #db/id[:db.part/user -134537]}
+{:db/id #db/id[:db.part/user -468879]
+ :ClassInitializer/type #db/id[:db.part/user -119837]
+ :ClassInitializer/method #db/id[:db.part/user -135074]}
+{:db/id #db/id[:db.part/user -468880]
+ :ClassInitializer/type #db/id[:db.part/user -119841]
+ :ClassInitializer/method #db/id[:db.part/user -134718]}
+{:db/id #db/id[:db.part/user -468881]
+ :ClassInitializer/type #db/id[:db.part/user -119852]
+ :ClassInitializer/method #db/id[:db.part/user -134626]}
+{:db/id #db/id[:db.part/user -468882]
+ :ClassInitializer/type #db/id[:db.part/user -119887]
+ :ClassInitializer/method #db/id[:db.part/user -134615]}
+{:db/id #db/id[:db.part/user -468883]
+ :ClassInitializer/type #db/id[:db.part/user -119893]
+ :ClassInitializer/method #db/id[:db.part/user -134622]}
+{:db/id #db/id[:db.part/user -468884]
+ :ClassInitializer/type #db/id[:db.part/user -119906]
+ :ClassInitializer/method #db/id[:db.part/user -134632]}
+{:db/id #db/id[:db.part/user -468885]
+ :ClassInitializer/type #db/id[:db.part/user -119909]
+ :ClassInitializer/method #db/id[:db.part/user -134643]}
+{:db/id #db/id[:db.part/user -468886]
+ :ClassInitializer/type #db/id[:db.part/user -119917]
+ :ClassInitializer/method #db/id[:db.part/user -134721]}
+{:db/id #db/id[:db.part/user -468887]
+ :ClassInitializer/type #db/id[:db.part/user -119945]
+ :ClassInitializer/method #db/id[:db.part/user -134664]}
+{:db/id #db/id[:db.part/user -468888]
+ :ClassInitializer/type #db/id[:db.part/user -119955]
+ :ClassInitializer/method #db/id[:db.part/user -134665]}
+{:db/id #db/id[:db.part/user -468889]
+ :ClassInitializer/type #db/id[:db.part/user -119965]
+ :ClassInitializer/method #db/id[:db.part/user -135168]}
+{:db/id #db/id[:db.part/user -468890]
+ :ClassInitializer/type #db/id[:db.part/user -119966]
+ :ClassInitializer/method #db/id[:db.part/user -135169]}
+{:db/id #db/id[:db.part/user -468891]
+ :ClassInitializer/type #db/id[:db.part/user -119973]
+ :ClassInitializer/method #db/id[:db.part/user -135174]}
+{:db/id #db/id[:db.part/user -468892]
+ :ClassInitializer/type #db/id[:db.part/user -119978]
+ :ClassInitializer/method #db/id[:db.part/user -134669]}
+{:db/id #db/id[:db.part/user -468893]
+ :ClassInitializer/type #db/id[:db.part/user -119984]
+ :ClassInitializer/method #db/id[:db.part/user -134670]}
+{:db/id #db/id[:db.part/user -468894]
+ :ClassInitializer/type #db/id[:db.part/user -119988]
+ :ClassInitializer/method #db/id[:db.part/user -134694]}
+{:db/id #db/id[:db.part/user -468895]
+ :ClassInitializer/type #db/id[:db.part/user -119990]
+ :ClassInitializer/method #db/id[:db.part/user -134692]}
+{:db/id #db/id[:db.part/user -468896]
+ :ClassInitializer/type #db/id[:db.part/user -120001]
+ :ClassInitializer/method #db/id[:db.part/user -135018]}
+{:db/id #db/id[:db.part/user -468897]
+ :ClassInitializer/type #db/id[:db.part/user -120002]
+ :ClassInitializer/method #db/id[:db.part/user -134704]}
+{:db/id #db/id[:db.part/user -468898]
+ :ClassInitializer/type #db/id[:db.part/user -120003]
+ :ClassInitializer/method #db/id[:db.part/user -134705]}
+{:db/id #db/id[:db.part/user -468899]
+ :ClassInitializer/type #db/id[:db.part/user -120004]
+ :ClassInitializer/method #db/id[:db.part/user -134081]}
+{:db/id #db/id[:db.part/user -468900]
+ :ClassInitializer/type #db/id[:db.part/user -120006]
+ :ClassInitializer/method #db/id[:db.part/user -135212]}
+{:db/id #db/id[:db.part/user -468901]
+ :ClassInitializer/type #db/id[:db.part/user -120007]
+ :ClassInitializer/method #db/id[:db.part/user -124445]}
+{:db/id #db/id[:db.part/user -468902]
+ :ClassInitializer/type #db/id[:db.part/user -120008]
+ :ClassInitializer/method #db/id[:db.part/user -134713]}
+{:db/id #db/id[:db.part/user -468903]
+ :ClassInitializer/type #db/id[:db.part/user -120009]
+ :ClassInitializer/method #db/id[:db.part/user -136216]}
+{:db/id #db/id[:db.part/user -468904]
+ :ClassInitializer/type #db/id[:db.part/user -120019]
+ :ClassInitializer/method #db/id[:db.part/user -134714]}
+{:db/id #db/id[:db.part/user -468905]
+ :ClassInitializer/type #db/id[:db.part/user -120026]
+ :ClassInitializer/method #db/id[:db.part/user -134717]}
+{:db/id #db/id[:db.part/user -468906]
+ :ClassInitializer/type #db/id[:db.part/user -120033]
+ :ClassInitializer/method #db/id[:db.part/user -135286]}
+{:db/id #db/id[:db.part/user -468907]
+ :ClassInitializer/type #db/id[:db.part/user -120035]
+ :ClassInitializer/method #db/id[:db.part/user -136220]}
+{:db/id #db/id[:db.part/user -468908]
+ :ClassInitializer/type #db/id[:db.part/user -120048]
+ :ClassInitializer/method #db/id[:db.part/user -136230]}
+{:db/id #db/id[:db.part/user -468909]
+ :ClassInitializer/type #db/id[:db.part/user -120056]
+ :ClassInitializer/method #db/id[:db.part/user -135918]}
+{:db/id #db/id[:db.part/user -468910]
+ :ClassInitializer/type #db/id[:db.part/user -120070]
+ :ClassInitializer/method #db/id[:db.part/user -135425]}
+{:db/id #db/id[:db.part/user -468911]
+ :ClassInitializer/type #db/id[:db.part/user -120072]
+ :ClassInitializer/method #db/id[:db.part/user -135100]}
+{:db/id #db/id[:db.part/user -468912]
+ :ClassInitializer/type #db/id[:db.part/user -120085]
+ :ClassInitializer/method #db/id[:db.part/user -135974]}
+{:db/id #db/id[:db.part/user -468913]
+ :ClassInitializer/type #db/id[:db.part/user -120086]
+ :ClassInitializer/method #db/id[:db.part/user -134720]}
+{:db/id #db/id[:db.part/user -468914]
+ :ClassInitializer/type #db/id[:db.part/user -120089]
+ :ClassInitializer/method #db/id[:db.part/user -135992]}
+{:db/id #db/id[:db.part/user -468915]
+ :ClassInitializer/type #db/id[:db.part/user -120093]
+ :ClassInitializer/method #db/id[:db.part/user -124754]}
+{:db/id #db/id[:db.part/user -468916]
+ :ClassInitializer/type #db/id[:db.part/user -120094]
+ :ClassInitializer/method #db/id[:db.part/user -136001]}
+{:db/id #db/id[:db.part/user -468917]
+ :ClassInitializer/type #db/id[:db.part/user -120101]
+ :ClassInitializer/method #db/id[:db.part/user -136264]}
+{:db/id #db/id[:db.part/user -468918]
+ :ClassInitializer/type #db/id[:db.part/user -120112]
+ :ClassInitializer/method #db/id[:db.part/user -135632]}
+{:db/id #db/id[:db.part/user -468919]
+ :ClassInitializer/type #db/id[:db.part/user -120113]
+ :ClassInitializer/method #db/id[:db.part/user -135126]}
+{:db/id #db/id[:db.part/user -468920]
+ :ClassInitializer/type #db/id[:db.part/user -120129]
+ :ClassInitializer/method #db/id[:db.part/user -124941]}
+{:db/id #db/id[:db.part/user -468921]
+ :ClassInitializer/type #db/id[:db.part/user -120136]
+ :ClassInitializer/method #db/id[:db.part/user -136291]}
+{:db/id #db/id[:db.part/user -468922]
+ :ClassInitializer/type #db/id[:db.part/user -120142]
+ :ClassInitializer/method #db/id[:db.part/user -134722]}
+{:db/id #db/id[:db.part/user -468923]
+ :ClassInitializer/type #db/id[:db.part/user -120143]
+ :ClassInitializer/method #db/id[:db.part/user -134723]}
+{:db/id #db/id[:db.part/user -468924]
+ :ClassInitializer/type #db/id[:db.part/user -120150]
+ :ClassInitializer/method #db/id[:db.part/user -134724]}
+{:db/id #db/id[:db.part/user -468925]
+ :ClassInitializer/type #db/id[:db.part/user -120151]
+ :ClassInitializer/method #db/id[:db.part/user -136102]}
+{:db/id #db/id[:db.part/user -468926]
+ :ClassInitializer/type #db/id[:db.part/user -120158]
+ :ClassInitializer/method #db/id[:db.part/user -134725]}
+{:db/id #db/id[:db.part/user -468927]
+ :ClassInitializer/type #db/id[:db.part/user -120162]
+ :ClassInitializer/method #db/id[:db.part/user -136121]}
+{:db/id #db/id[:db.part/user -468928]
+ :ClassInitializer/type #db/id[:db.part/user -120164]
+ :ClassInitializer/method #db/id[:db.part/user -136312]}
+{:db/id #db/id[:db.part/user -468929]
+ :ClassInitializer/type #db/id[:db.part/user -120172]
+ :ClassInitializer/method #db/id[:db.part/user -134727]}
+{:db/id #db/id[:db.part/user -468930]
+ :ClassInitializer/type #db/id[:db.part/user -120179]
+ :ClassInitializer/method #db/id[:db.part/user -136322]}
+{:db/id #db/id[:db.part/user -468931]
+ :ClassInitializer/type #db/id[:db.part/user -120188]
+ :ClassInitializer/method #db/id[:db.part/user -136151]}
+{:db/id #db/id[:db.part/user -468932]
+ :ClassInitializer/type #db/id[:db.part/user -120189]
+ :ClassInitializer/method #db/id[:db.part/user -136153]}
+{:db/id #db/id[:db.part/user -468933]
+ :ClassInitializer/type #db/id[:db.part/user -120190]
+ :ClassInitializer/method #db/id[:db.part/user -134728]}
+{:db/id #db/id[:db.part/user -468934]
+ :ClassInitializer/type #db/id[:db.part/user -120194]
+ :ClassInitializer/method #db/id[:db.part/user -136324]}

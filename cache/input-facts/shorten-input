@@ -1,0 +1,40 @@
+#!/bin/bash
+
+FILES="basic-input-facts"
+
+for file in $(find $FILES -type f)
+do
+  if [[ "${file##*/}" == "Var-Type.facts" ]] || [[ "${file##*/}" == "Var-DeclaringMethod.facts" ]]; then
+    echo ${file##*/}
+    sed '/^  java/d;/^  <java/d' $file > ${file##*/}
+
+  elif [[ "${file##*/}" == "FormalParam.facts" ]] || [[ "${file##*/}" == "ActualParam.facts" ]] || [[ "${file##*/}" == "ThisVar.facts" ]] || [[ "${file##*/}" == "SpecialMethodInvocation-Base.facts" ]] || [[ "${file##*/}" == "VirtualMethodInvocation-Base.facts" ]]; then
+    echo ${file##*/}
+    sed '/, java/d;/, <java/d' $file > ${file##*/}
+
+  elif [[ "${file##*/}" == "AssignHeapAllocation.facts" ]] || [[ "${file##*/}" == "AssignNormalHeapAllocation.facts" ]] || [[ "${file##*/}" == "AssignAuxiliaryHeapAllocation.facts" ]] || [[ "${file##*/}" == "AssignContextInsensitiveHeapAllocation.facts" ]] || [[ "${file##*/}" == "AssignLocal.facts" ]] || [[ "${file##*/}" == "LoadArrayIndex.facts" ]] || [[ "${file##*/}" == "LoadStaticField.facts" ]]; then
+    sed '/.*, java.*,.*/d;/.*, <java.*,.*/d' $file > ${file##*/}
+
+  elif [[ "${file##*/}" == "ReturnVar.facts" ]] || [[ "${file##*/}" == "StoreStaticField.facts" ]] ; then
+    sed '/^  java/d;/^  <java/d' $file > ${file##*/}
+
+  elif [[ "${file##*/}" == "AssignReturnValue.facts" ]]; then
+    sed '/, java/d;/, <java/d' $file > ${file##*/}
+
+  elif [[ "${file##*/}" == "StoreArrayIndex.facts" ]] || [[ "${file##*/}" == "StoreInstanceField.facts" ]]; then
+    sed '/^  java/d;/^  <java/d;/.*, java.*,.*/d;/.*, <java.*,.*/d' $file > ${file##*/}
+
+  elif [[ "${file##*/}" == "LoadInstanceField.facts" ]]; then
+    sed '/^  java/d;/^  <java/d;/.*, .*, java.*,.*/d;/.*, .*, <java.*,.*/d' $file > ${file##*/}
+  else
+    cp $file .
+  fi
+done
+cat /dev/null > AssignCast.facts
+head -500 SpecialMethodInvocation-Base.facts > SpecialMethodInvocation-Base1.facts
+head -500 VirtualMethodInvocation-Base.facts > VirtualMethodInvocation-Base1.facts
+
+head -500 SpecialMethodInvocation-Base1.facts > SpecialMethodInvocation-Base.facts
+head -500 VirtualMethodInvocation-Base1.facts > VirtualMethodInvocation-Base.facts
+rm SpecialMethodInvocation-Base1.facts
+rm VirtualMethodInvocation-Base1.facts
