@@ -20,8 +20,8 @@ public class FactsID {
         return temp_id;
     }
 
-    void printID() {
-        System.out.println( this.id );
+    int printID() {
+        return id;
     }
 
 }

@@ -51,7 +51,16 @@
   <java.net.URLConnection: boolean defaultUseCaches>, <java.net.URLConnection: void <init>(java.net.URL)>
   <java.net.URLConnection: boolean defaultUseCaches>, <java.net.URLConnection: boolean getDefaultUseCaches()>
   <java.io.BufferedReader: int defaultCharBufferSize>, <java.io.BufferedReader: void <init>(java.io.Reader)>
+  <sun.misc.SoftCache$ValueCell: int dropped>, <sun.misc.SoftCache$ValueCell: void drop()>
+  <java.io.File: char separatorChar>, <sun.security.provider.PolicyFile: java.io.InputStream getInputStream(java.net.URL)>
   <java.net.HttpURLConnection: boolean followRedirects>, <java.net.HttpURLConnection: void <init>(java.net.URL)>
+  <java.io.File: char separatorChar>, <sun.misc.JarIndex: void parseJars(java.lang.String[])>
+  <sun.net.ftp.FtpClient: int FTP_TRY_AGAIN>, <sun.net.ftp.FtpClient: int issueCommand(java.lang.String)>
+  <sun.net.ftp.FtpClient: int FTP_ERROR>, <sun.net.ftp.FtpClient: int issueCommand(java.lang.String)>
+  <sun.net.www.protocol.ftp.FtpDirectoryThread: int imageWidth>, <sun.net.www.protocol.ftp.FtpDirectoryThread: void addImage(java.lang.String)>
+  <sun.net.www.protocol.ftp.FtpDirectoryThread: int imageHeight>, <sun.net.www.protocol.ftp.FtpDirectoryThread: void addImage(java.lang.String)>
+  <java.io.File: char separatorChar>, <sun.net.www.protocol.file.Handler: void parseURL(java.net.URL,java.lang.String,int,int)>
+  <java.io.File: char separatorChar>, <sun.net.www.protocol.file.FileURLConnection: java.security.Permission getPermission()>
   <java.text.Normalizer: int maximumCanonical>, <java.text.Normalizer: void <init>(java.text.CharacterIterator,int)>
   <java.lang.ClassLoader: boolean sclSet>, <java.lang.ClassLoader: java.lang.ClassLoader getSystemClassLoader()>
   <java.io.File: char separatorChar>, <java.text.resources.LocaleData: java.lang.String[] getClassList(java.lang.String,java.lang.String)>
@@ -61,19 +70,19 @@
   <java.io.File: char pathSeparatorChar>, <java.io.File: void <clinit>()>
   <java.security.AccessControlContext: boolean debugInit>, <java.security.AccessControlContext: sun.security.util.Debug getDebug()>
   <java.net.URLConnection: boolean fileNameMapLoaded>, <java.net.URLConnection: java.net.FileNameMap getFileNameMap()>
+  <sun.misc.ProxyGenerator: boolean saveGeneratedFiles>, <sun.misc.ProxyGenerator: byte[] generateProxyClass(java.lang.String,java.lang.Class[])>
   <java.security.Security: boolean reloadProviders>, <java.security.Security: void reloadProviders()>
+  <java.io.File: char separatorChar>, <sun.net.www.ParseUtil: java.lang.String encodePath(java.lang.String)>
+  <java.io.File: char separatorChar>, <sun.security.provider.IdentityDatabase: java.io.File systemDatabaseFile()>
+  <sun.security.x509.AlgorithmId: boolean initOidTable>, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  <sun.net.www.http.KeepAliveCache: int result>, <sun.net.www.http.KeepAliveCache: int getMaxConnections()>
   <java.text.Normalizer: int maximumCanonical>, <java.text.Normalizer: void decompose(java.lang.StringBuffer,int)>
   <java.text.Normalizer: int maximumCanonical>, <java.text.Normalizer: java.lang.String decompose(java.lang.String,int)>
   <java.text.Normalizer: char minimumCombining>, <java.text.Normalizer: void <clinit>()>
   <java.lang.Thread: int threadInitNumber>, <java.lang.Thread: int nextThreadNum()>
-  <sun.misc.SoftCache$ValueCell: int dropped>, <sun.misc.SoftCache$ValueCell: void drop()>
   <sun.misc.SoftCache$ValueCell: int dropped>, <sun.misc.SoftCache$ValueCell: int access$210()>
-  <sun.security.x509.AlgorithmId: boolean initOidTable>, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
-  <sun.net.www.http.KeepAliveCache: int result>, <sun.net.www.http.KeepAliveCache: int getMaxConnections()>
   <java.lang.Double: double MIN_VALUE>, <java.lang.FloatingDecimal: double ulp(double,boolean)>
-  <sun.misc.ProxyGenerator: boolean saveGeneratedFiles>, <sun.misc.ProxyGenerator: byte[] generateProxyClass(java.lang.String,java.lang.Class[])>
   <sun.net.InetAddressCachePolicy: int cachePolicy>, <sun.net.InetAddressCachePolicy: int get()>
-  <java.io.File: char separatorChar>, <sun.security.provider.IdentityDatabase: java.io.File systemDatabaseFile()>
   <sun.net.www.protocol.jar.URLJarFile: int BUF_SIZE>, <sun.net.www.protocol.jar.URLJarFile: int access$000()>
   <java.text.Normalizer: int maximumDecomposition>, <java.text.Normalizer: int access$000()>
   <java.text.Normalizer: int maximumCanonical>, <java.text.Normalizer: int access$100()>
@@ -86,15 +95,6 @@
   <java.lang.StrictMath: long negativeZeroFloatBits>, <java.lang.StrictMath: float min(float,float)>
   <java.lang.StrictMath: long negativeZeroDoubleBits>, <java.lang.StrictMath: double min(double,double)>
   <java.text.DigitList: double LOG10>, <java.text.DigitList: int log10(double)>
-  <java.io.File: char separatorChar>, <sun.net.www.ParseUtil: java.lang.String encodePath(java.lang.String)>
-  <java.io.File: char separatorChar>, <sun.net.www.protocol.file.FileURLConnection: java.security.Permission getPermission()>
-  <java.io.File: char separatorChar>, <sun.security.provider.PolicyFile: java.io.InputStream getInputStream(java.net.URL)>
-  <java.io.File: char separatorChar>, <sun.misc.JarIndex: void parseJars(java.lang.String[])>
-  <sun.net.ftp.FtpClient: int FTP_TRY_AGAIN>, <sun.net.ftp.FtpClient: int issueCommand(java.lang.String)>
-  <sun.net.ftp.FtpClient: int FTP_ERROR>, <sun.net.ftp.FtpClient: int issueCommand(java.lang.String)>
-  <sun.net.www.protocol.ftp.FtpDirectoryThread: int imageWidth>, <sun.net.www.protocol.ftp.FtpDirectoryThread: void addImage(java.lang.String)>
-  <sun.net.www.protocol.ftp.FtpDirectoryThread: int imageHeight>, <sun.net.www.protocol.ftp.FtpDirectoryThread: void addImage(java.lang.String)>
-  <java.io.File: char separatorChar>, <sun.net.www.protocol.file.Handler: void parseURL(java.net.URL,java.lang.String,int,int)>
   <java.net.URLConnection: boolean defaultAllowUserInteraction>, <java.net.URLConnection: boolean getDefaultAllowUserInteraction()>
   <sun.misc.VM: boolean suspended>, <sun.misc.VM: boolean threadsSuspended()>
   <java.net.HttpURLConnection: boolean followRedirects>, <java.net.HttpURLConnection: boolean getFollowRedirects()>

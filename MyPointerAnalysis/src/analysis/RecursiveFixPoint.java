@@ -62,7 +62,7 @@ public class RecursiveFixPoint {
         results = q( "[:find ?varValue ?z " +
                      ":in $ % " +
                      ":where (VarPointsTo ?heap ?var)" +
-                     "[?var :VarRef/value ?varValue]" +
+                     "[?var :VarRef/name ?varValue]" +
                      "[?heap :HeapAllocationRef/x ?x]" +
                      "[?x :CallGraphEdgeSourceRef/x ?y]" +
                      "[?y :InstructionRef/x ?z]]",

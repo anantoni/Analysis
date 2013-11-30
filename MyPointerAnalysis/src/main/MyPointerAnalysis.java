@@ -52,7 +52,7 @@ public class MyPointerAnalysis {
 	try {
             System.out.println( Thread.currentThread().getContextClassLoader().getResources("data_readers.clj") );
             // Comment the following line in order to not reproduce the .dtm files
-            InputFactsConverter inputFactsConverter = new InputFactsConverter();
+            //InputFactsConverter inputFactsConverter = new InputFactsConverter();
             
 	    System.out.println("Creating and connecting to database...");
          
@@ -72,23 +72,23 @@ public class MyPointerAnalysis {
             System.out.println( "Seed data inserted" );
 	    
             
-//            MyAnalysis myAnalysis = new MyAnalysis(conn);
-//            myAnalysis.runAnalysis();           
-            RecursiveFixPoint recursiveFixPoint = new RecursiveFixPoint(conn);
-            recursiveFixPoint.reachFixPoint();
+            MyAnalysis myAnalysis = new MyAnalysis(conn);
+            myAnalysis.runAnalysis();           
+//            RecursiveFixPoint recursiveFixPoint = new RecursiveFixPoint(conn);
+//            recursiveFixPoint.reachFixPoint();
             
             Collection results = Peer.q("[:find ?varValue ?z :where " +
                                         "[?varPointsTo :VarPointsTo/heap ?heap]" +
                                         "[?varPointsTo :VarPointsTo/var ?var]" +
-                                        "[?var :VarRef/value ?varValue]" +
+                                        "[?var :Var/name ?varValue]" +
                                         "[?heap :HeapAllocationRef/x ?x]" +
                                         "[?x :CallGraphEdgeSourceRef/x ?y]" +
                                         "[?y :InstructionRef/x ?z]]",
                                         conn.db());
 	    System.out.println("var points to: \t" + results.size());
-            for ( Object result : results ) {
-                System.out.println(((List) result).get(1) + ", " + ((List) result).get(0));
-            }
+//            for ( Object result : results ) {
+//                System.out.println(((List) result).get(1) + ", " + ((List) result).get(0));
+//            }
 //            results = Peer.q("[:find ?value :where "+
 //                            "[?reachable :Reachable/method ?method]" +
 //                            "[?method :MethodSignatureRef/value ?value]]",
@@ -106,9 +106,9 @@ public class MyPointerAnalysis {
                              "[?y :InstructionRef/x ?z]" +
                              "[?tomethod :MethodSignatureRef/value ?value]]", 
                              conn.db());
-            for ( Object result : results ) {
-                System.out.println(((List) result).get(0) + ", " + ((List) result).get(1));
-            }
+//            for ( Object result : results ) {
+//                System.out.println(((List) result).get(0) + ", " + ((List) result).get(1));
+//            }
             results = Peer.q("[:find ?arrayIndexPointsTo :where [?arrayIndexPointsTo :ArrayIndexPointsTo/baseheap]]", conn.db());
             System.out.println("array index points to: \t" + results.size());
             

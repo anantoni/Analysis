@@ -32,25 +32,25 @@
   java.util.ListIterator
   java.util.SortedSet
   java.util.SortedMap
+  sun.misc.VMNotification
   java.security.Key
   java.security.cert.X509Extension
   java.util.zip.Checksum
+  sun.misc.ExtensionInstallationProvider
   java.security.Certificate
   java.security.PrivateKey
+  sun.security.util.DerEncoder
   java.security.spec.AlgorithmParameterSpec
+  sun.security.x509.CertAttrSet
+  sun.security.x509.GeneralNameInterface
   java.security.spec.KeySpec
+  sun.net.www.protocol.http.HttpAuthenticator
   java.net.SocketImplFactory
   java.util.Observer
   java.net.SocketOptions
+  sun.misc.RegexpTarget
+  sun.net.www.http.Hurryable
   java.text.CharacterIterator
   java.io.ObjectStreamConstants
-  sun.misc.VMNotification
-  sun.misc.ExtensionInstallationProvider
-  sun.security.util.DerEncoder
-  sun.security.x509.CertAttrSet
-  sun.security.x509.GeneralNameInterface
-  sun.net.www.protocol.http.HttpAuthenticator
-  sun.net.www.http.Hurryable
-  sun.misc.RegexpTarget
   java.util.zip.ZipConstants
   java.lang.Cloneable

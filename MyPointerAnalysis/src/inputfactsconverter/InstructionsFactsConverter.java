@@ -65,45 +65,45 @@ public class InstructionsFactsConverter extends FactsConverter {
                 br.close();
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/Instruction-Index.facts" ) )) {
-                String line;
-                while ((line = br.readLine()) != null) {
-                    line = line.trim();
-                    String pattern = "(.*)(,\\s)(.*)";
-                    // Create a Pattern object
-                    Pattern r = Pattern.compile(pattern);
-
-                    // Now create matcher object.
-                    Matcher m = r.matcher(line);
-                    if ( m.find() ) {
-                        if ( m.groupCount() != 3 ) {
-                            System.out.println( "Invalid number of groups matched" );
-                            System.exit(-1);
-                        }
-                    } 
-                    else {
-                        System.out.println( "Could not find match" );
-                        System.exit(-1);
-                    }
-                    
-                    InstructionRef instructionRef = null;
-                    for ( InstructionRef instructionRef1 : instructionRefFactsList ) {
-                        if ( instructionRef1.getInstruction().equals(m.group(1))) {
-                            instructionRef = instructionRef1;
-                            break;
-                        }
-                    }
-                    
-                    if ( instructionRef == null ) {
-                        System.out.println( "Instruction reference not found for Instruction-Index: " + m.group(1) );
-                        System.exit(-1);
-                    }
-                    InstructionIndex instructionIndex = new InstructionIndex( id.getID(), instructionRef, Integer.parseInt( m.group(3) ) ); 
-                    instructionIndexFactsList.add(instructionIndex);           //decrement id and map the InstructionIndex object to it
-                }
-                br.close();
-
-            }
+//            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/Instruction-Index.facts" ) )) {
+//                String line;
+//                while ((line = br.readLine()) != null) {
+//                    line = line.trim();
+//                    String pattern = "(.*)(,\\s)(.*)";
+//                    // Create a Pattern object
+//                    Pattern r = Pattern.compile(pattern);
+//
+//                    // Now create matcher object.
+//                    Matcher m = r.matcher(line);
+//                    if ( m.find() ) {
+//                        if ( m.groupCount() != 3 ) {
+//                            System.out.println( "Invalid number of groups matched" );
+//                            System.exit(-1);
+//                        }
+//                    } 
+//                    else {
+//                        System.out.println( "Could not find match" );
+//                        System.exit(-1);
+//                    }
+//                    
+//                    InstructionRef instructionRef = null;
+//                    for ( InstructionRef instructionRef1 : instructionRefFactsList ) {
+//                        if ( instructionRef1.getInstruction().equals(m.group(1))) {
+//                            instructionRef = instructionRef1;
+//                            break;
+//                        }
+//                    }
+//                    
+//                    if ( instructionRef == null ) {
+//                        System.out.println( "Instruction reference not found for Instruction-Index: " + m.group(1) );
+//                        System.exit(-1);
+//                    }
+//                    InstructionIndex instructionIndex = new InstructionIndex( id.getID(), instructionRef, Integer.parseInt( m.group(3) ) ); 
+//                    instructionIndexFactsList.add(instructionIndex);           //decrement id and map the InstructionIndex object to it
+//                }
+//                br.close();
+//
+//            }
             
         }
         catch( IOException | NumberFormatException ex) {
@@ -138,15 +138,15 @@ public class InstructionsFactsConverter extends FactsConverter {
             }
             System.out.println( "CallGraphEdgeSourceRef facts converted: " + callGraphEdgeSourceRefFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/Instruction-Index.dtm", false))); ) {    
-                for ( InstructionIndex key: instructionIndexFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :Instruction-Index/instruction #db/id[:db.part/user " + key.getInstruction().getID() + "]");
-                    writer.println( " :Instruction-Index/index " + key.getIndex() + "}" );
-                }
-                writer.close();
-            }
-            System.out.println( "Instruction-Index facts converted: " + instructionIndexFactsList.size() );
+//            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/Instruction-Index.dtm", false))); ) {    
+//                for ( InstructionIndex key: instructionIndexFactsList ) {
+//                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
+//                    writer.println( " :Instruction-Index/instruction #db/id[:db.part/user " + key.getInstruction().getID() + "]");
+//                    writer.println( " :Instruction-Index/index " + key.getIndex() + "}" );
+//                }
+//                writer.close();
+//            }
+//            System.out.println( "Instruction-Index facts converted: " + instructionIndexFactsList.size() );
             
         }
         catch ( Exception ex ) {

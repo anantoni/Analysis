@@ -1,7 +1,6 @@
 [
 [ (VarType ?var ?type)
-  [?varType :Var-Type/ref ?var]
-  [?varType :Var-Type/type ?type] ]
+  [?var :Var/type ?type] ]
 
 [ (ThisVar ?method ?this)
   [?thisVar :ThisVar/method ?method]
@@ -12,8 +11,8 @@
   [?heapAllocationType :HeapAllocation-Type/type ?type] ]
 
 [ (MethodDeclaration ?signature ?method)
-  [?methodDeclaration :MethodDeclaration/signature ?signature]
-  [?methodDeclaration :MethodDeclaration/ref ?method] ]
+  [?methodDeclaration :Method/signature ?signature]
+  [?methodDeclaration :Method/declaration ?method] ]
 
 [ (AssignCompatible ?target ?source)
   [?assignCompatible :AssignCompatible/target ?target]
@@ -39,12 +38,10 @@
   [?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]  
   [?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]
   [?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature]
-  [?virtualMethodInvocationBase :VirtualMethodInvocation-Base/invocation ?invocation]
-  [?virtualMethodInvocationBase :VirtualMethodInvocation-Base/base ?base] 
-  [?methodSignatureSimplename :MethodSignature-SimpleName/signature ?signature]
-  [?methodSignatureSimplename :MethodSignature-SimpleName/simplename ?simplename]
-  [?methodSignatureDescriptor :MethodSignature-Descriptor/signature ?signature]
-  [?methodSignatureDescriptor :MethodSignature-Descriptor/descriptor ?descriptor]
+  [?virtualMethodInvocation :VirtualMethodInvocation/base ?base]
+  [?method :Method/signature ?signature]
+  [?method :Method/simplename ?simplename]
+  [?method :Method/descriptor ?descriptor]
   (VarPointsTo ?heap ?base)
   (HeapAllocationType ?heap ?type)
   [?methodLookup :MethodLookup/simplename ?simplename]
@@ -55,13 +52,11 @@
 
 [ (Reachable ?tomethod)
   (Reachable ?inmethod)
-  [?specialMethodInvocationIn :SpecialMethodInvocation-In/inmethod ?inmethod]
-  [?specialMethodInvocationIn :SpecialMethodInvocation-In/invocation ?invocation]
-  [?specialMethodInvocationBase :SpecialMethodInvocation-Base/invocation ?invocation]
-  [?specialMethodInvocationBase :SpecialMethodInvocation-Base/base ?base]
+  [?specialMethodInvocation :SpecialMethodInvocation/inmethod ?inmethod]
+  [?specialMethodInvocation :SpecialMethodInvocation/invocation ?invocation]
+  [?specialMethodInvocation :SpecialMethodInvocation/base ?base]
   (VarPointsTo _ ?base)
-  [?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/invocation ?invocation]
-  [?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/signature ?signature]
+  [?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]
   (MethodDeclaration ?signature ?tomethod)
   (ThisVar ?tomethod _ ) ]
 
@@ -77,13 +72,11 @@
   [?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]  
   [?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]
   [?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature]
-  [?virtualMethodInvocationBase :VirtualMethodInvocation-Base/invocation ?invocation]
-  [?virtualMethodInvocationBase :VirtualMethodInvocation-Base/base ?base] 
+  [?virtualMethodInvocation :VirtualMethodInvocation/base ?base] 
   (VarPointsTo ?heap ?base)
-  [?methodSignatureSimplename :MethodSignature-SimpleName/signature ?signature]
-  [?methodSignatureSimplename :MethodSignature-SimpleName/simplename ?simplename]
-  [?methodSignatureDescriptor :MethodSignature-Descriptor/signature ?signature]
-  [?methodSignatureDescriptor :MethodSignature-Descriptor/descriptor ?descriptor]
+  [?method :Method/signature ?signature]
+  [?method :Method/simplename ?simplename]
+  [?method :Method/descriptor ?descriptor]
   (HeapAllocationType ?heap ?type)
   [?methodLookup :MethodLookup/simplename ?simplename]
   [?methodLookup :MethodLookup/descriptor ?descriptor]
@@ -93,13 +86,11 @@
 
 [ (CallGraphEdge ?invocation ?tomethod)
   (Reachable ?inmethod)
-  [?specialMethodInvocationIn :SpecialMethodInvocation-In/inmethod ?inmethod]
-  [?specialMethodInvocationIn :SpecialMethodInvocation-In/invocation ?invocation]
-  [?specialMethodInvocationBase :SpecialMethodInvocation-Base/invocation ?invocation]
-  [?specialMethodInvocationBase :SpecialMethodInvocation-Base/base ?base]
+  [?specialMethodInvocation :SpecialMethodInvocation/inmethod ?inmethod]
+  [?specialMethodInvocation :SpecialMethodInvocation/invocation ?invocation]
+  [?specialMethodInvocation :SpecialMethodInvocation/base ?base]
   (VarPointsTo _ ?base)
-  [?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/invocation ?invocation]
-  [?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/signature ?signature]
+  [?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]
   (MethodDeclaration ?signature ?tomethod)
   (ThisVar ?tomethod _) ]
 
@@ -130,16 +121,14 @@
 
 [ (VarPointsTo ?heap ?this)
   (Reachable ?inmethod)
-  [?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod] 
+  [?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]  
   [?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]
   [?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature]
-  [?virtualMethodInvocationBase :VirtualMethodInvocation-Base/invocation ?invocation]
-  [?virtualMethodInvocationBase :VirtualMethodInvocation-Base/base ?base]   
+  [?virtualMethodInvocation :VirtualMethodInvocation/base ?base] 
   (VarPointsTo ?heap ?base)
-  [?methodSignatureSimplename :MethodSignature-SimpleName/signature ?signature]
-  [?methodSignatureSimplename :MethodSignature-SimpleName/simplename ?simplename]
-  [?methodSignatureDescriptor :MethodSignature-Descriptor/signature ?signature]
-  [?methodSignatureDescriptor :MethodSignature-Descriptor/descriptor ?descriptor]
+  [?method :Method/signature ?signature]
+  [?method :Method/simplename ?simplename]
+  [?method :Method/descriptor ?descriptor]
   (HeapAllocationType ?heap ?type)
   [?methodLookup :MethodLookup/simplename ?simplename]
   [?methodLookup :MethodLookup/descriptor ?descriptor]   
@@ -149,13 +138,11 @@
 
 [ (VarPointsTo ?heap ?this)
   (Reachable ?inmethod)
-  [?specialMethodInvocationIn :SpecialMethodInvocation-In/inmethod ?inmethod]
-  [?specialMethodInvocationIn :SpecialMethodInvocation-In/invocation ?invocation]
-  [?specialMethodInvocationBase :SpecialMethodInvocation-Base/invocation ?invocation]
-  [?specialMethodInvocationBase :SpecialMethodInvocation-Base/base ?base]
+  [?specialMethodInvocation :SpecialMethodInvocation/inmethod ?inmethod]
+  [?specialMethodInvocation :SpecialMethodInvocation/invocation ?invocation]
+  [?specialMethodInvocation :SpecialMethodInvocation/base ?base]
   (VarPointsTo ?heap ?base)
-  [?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/invocation ?invocation]
-  [?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/signature ?signature]
+  [?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]
   (MethodDeclaration ?signature ?tomethod)
   (ThisVar ?tomethod ?this) ]
 

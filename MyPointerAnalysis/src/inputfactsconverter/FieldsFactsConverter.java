@@ -30,7 +30,7 @@ import java.util.regex.Pattern;
 public class FieldsFactsConverter extends FactsConverter implements Runnable {
     private ArrayList<FieldSignatureRef> fieldSignatureRefFactsList = null;
     private ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
-    private ArrayList<Var> varFactsList = null;
+    private ArrayList<Var> varRefFactsList = null;
     private ArrayList<LoadInstanceField> loadInstanceFieldFactsList = null;
     private ArrayList<LoadStaticField> loadStaticFieldFactsList = null;
     private ArrayList<LoadPrimStaticField> loadPrimStaticFieldFactsList = null;
@@ -40,10 +40,10 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
     private FactsID id = null;
     private Thread t = null;
     
-    public FieldsFactsConverter(FactsID id, ArrayList<Var> varFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, ArrayList<FieldSignatureRef> fieldSignatureRefFactsList) {
+    public FieldsFactsConverter(FactsID id, ArrayList<Var> varRefFactsList, ArrayList<MethodSignatureRef> methodSignatureRefFactsList, ArrayList<FieldSignatureRef> fieldSignatureRefFactsList) {
         this.fieldSignatureRefFactsList = fieldSignatureRefFactsList;
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
-        this.varFactsList = varFactsList;
+        this.varRefFactsList = varRefFactsList;
         loadInstanceFieldFactsList = new ArrayList<>();
         loadStaticFieldFactsList = new ArrayList<>();
         loadPrimStaticFieldFactsList = new ArrayList<>();
@@ -92,7 +92,7 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( Var to1 : varFactsList ) {
+                    for ( Var to1 : varRefFactsList ) {
                         if ( to1.getName().equals( m.group(5) ) ) {
                             to = to1;
                             break;
@@ -103,7 +103,7 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( Var base1 : varFactsList ) {
+                    for ( Var base1 : varRefFactsList ) {
                         if ( base1.getName().equals( m.group(1) ) ) {
                             base = base1;
                             break;
@@ -166,7 +166,7 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( Var to1 : varFactsList ) {
+                    for ( Var to1 : varRefFactsList ) {
                         if ( to1.getName().equals( m.group(3) ) ) {
                             to = to1;
                             break;
@@ -281,7 +281,7 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( Var from1 : varFactsList ) {
+                    for ( Var from1 : varRefFactsList ) {
                         if ( from1.getName().equals( m.group(1) ) ) {
                             from = from1;
                             break;
@@ -292,7 +292,7 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( Var base1 : varFactsList ) {
+                    for ( Var base1 : varRefFactsList ) {
                         if ( base1.getName().equals( m.group(3) ) ) {
                             base = base1;
                             break;
@@ -355,7 +355,7 @@ public class FieldsFactsConverter extends FactsConverter implements Runnable {
                         System.exit(-1);
                     }
 
-                    for ( Var from1 : varFactsList ) {
+                    for ( Var from1 : varRefFactsList ) {
                         if ( from1.getName().equals( m.group(1) ) ) {
                             from = from1;
                             break;

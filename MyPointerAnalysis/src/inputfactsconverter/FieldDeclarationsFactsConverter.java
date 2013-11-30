@@ -37,10 +37,10 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
         
         public FieldDeclarationsFactsConverter( FactsID id, ArrayList<Type> typeFactsList ) {
             this.typeFactsList = typeFactsList;
-            fieldSignatureRefFactsList = new ArrayList<>();
+            fieldSignatureFactsList = new ArrayList<>();
             simpleNameRefFactsList = new ArrayList<>();
             modifierRefFactsList = new ArrayList<>();
-            fieldSignatureFactsList = new ArrayList<>();
+            fieldSignatureRefFactsList = new ArrayList<>();
             fieldModifierFactsList = new ArrayList<>();
             this.id = id;
         }
@@ -65,15 +65,15 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
         public void parseLogicBloxFactsFile() {
 
             try {
-//                try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/FieldSignatureRef.facts" ) )) {
-//                    String line;
-//                    while ((line = br.readLine()) != null) {
-//                        line = line.trim();
-//                        FieldSignatureRef fieldSignatureRef = new FieldSignatureRef(id.getID(), line );
-//                        fieldSignatureRefFactsList.add( fieldSignatureRef );
-//                    }
-//                    br.close();
-//                }
+                try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/FieldSignatureRef.facts" ) )) {
+                    String line;
+                    while ((line = br.readLine()) != null) {
+                        line = line.trim();
+                        FieldSignatureRef fieldSignatureRef = new FieldSignatureRef(id.getID(), line );
+                        fieldSignatureRefFactsList.add( fieldSignatureRef );
+                    }
+                    br.close();
+                }
                 
                 try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/SimpleNameRef.facts" ) )) {
                     String line;
@@ -115,12 +115,21 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
                             System.out.println( "Could not find match" );
                             System.exit(-1);
                         }
-                        String fieldSignature = null;
+                        FieldSignatureRef ref = null;
                         Type declaringClass = null;
                         SimpleNameRef simpleNameRef = null;
                         Type type = null;
 
-                        fieldSignature = m.group(1);
+                        for ( FieldSignatureRef fieldSignatureRef : fieldSignatureRefFactsList ) {
+                            if ( fieldSignatureRef.getValue().equals( m.group(1) ) ) {
+                                ref = fieldSignatureRef;
+                                break;
+                            }
+                        }
+                        if ( ref == null ) { 
+                            System.out.println( "Field Signature Ref not found for: " + m.group(1) );
+                            System.exit(-1);
+                        }
 
                         for ( Type t1 : typeFactsList ) {
                             if ( t1.getValue().equals( m.group(3) ) ) {
@@ -128,7 +137,7 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
                                 break;
                             }
                         }
-                        if ( declaringClass == null ) { 
+                        if ( ref == null ) { 
                             System.out.println( "Declaring Class not found for: " + m.group(3) );
                             System.exit(-1);
                         }
@@ -139,7 +148,7 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
                                 break;
                             }
                         }
-                        if ( simpleNameRef == null ) { 
+                        if ( ref == null ) { 
                             System.out.println( "Simple Name not found for: " + m.group(5) );
                             System.exit(-1);
                         }
@@ -150,12 +159,12 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
                                 break;
                             }
                         }
-                        if ( type == null ) { 
-                            System.out.println( "Type not found for: " + m.group(7) );
+                        if ( ref == null ) { 
+                            System.out.println( "Declaring Class not found for: " + m.group(7) );
                             System.exit(-1);
                         }
 
-                        FieldSignature fiedlSignature = new FieldSignature( id.getID(), fieldSignature, declaringClass, simpleNameRef, type );
+                        FieldSignature fiedlSignature = new FieldSignature( id.getID(), ref, declaringClass, simpleNameRef, type );
                         fieldSignatureFactsList.add(fiedlSignature);
                     }
                     br.close();
@@ -221,15 +230,15 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
     @Override
     void createDatomicFactsFile() {
         try {
-//            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/FieldSignatureRef.dtm", false)));) {
-//                for ( FieldSignatureRef key : fieldSignatureRefFactsList ) {
-//                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-//                    writer.println( " :FieldSignatureRef/value " + "\""+ key.getValue() + "\""+ "}");
-//                }
-//                writer.close();
-//            }
-//            System.out.println( "FieldSignatureRef facts converted: " + fieldSignatureRefFactsList.size() );
-//            
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/FieldSignatureRef.dtm", false)));) {
+                for ( FieldSignatureRef key : fieldSignatureRefFactsList ) {
+                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
+                    writer.println( " :FieldSignatureRef/value " + "\""+ key.getValue() + "\""+ "}");
+                }
+                writer.close();
+            }
+            System.out.println( "FieldSignatureRef facts converted: " + fieldSignatureRefFactsList.size() );
+            
             try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/SimpleNameRef.dtm", false)));) {
                 for ( SimpleNameRef key : simpleNameRefFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
@@ -252,7 +261,7 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
             try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/FieldSignature.dtm", false)));) {
                 for ( FieldSignature key : fieldSignatureFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :FieldSignature/signature \"" + key.getFieldSignatureRef() +"\"]"); 
+                    writer.println( " :FieldSignature/ref #db/id[:db.part/user " + key.getFieldSignatureRef().getID() +"]"); 
                     writer.println( " :FieldSignature/declaringClass #db/id[:db.part/user " + key.getDeclaringClass().getID() + "]");
                     writer.println( " :FieldSignature/simplename #db/id[:db.part/user " + key.getSimpleNameRef().getID() + "]");
                     writer.println( " :FieldSignature/type #db/id[:db.part/user " + key.getType().getID() + "]}");

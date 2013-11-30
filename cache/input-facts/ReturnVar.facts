@@ -10,6 +10,8 @@
   <java.lang.Integer: java.lang.Integer getInteger(java.lang.String,java.lang.Integer)>/$r7, <java.lang.Integer: java.lang.Integer getInteger(java.lang.String,java.lang.Integer)>
   java.lang.Integer.decode/r7, <java.lang.Integer: java.lang.Integer decode(java.lang.String)>
   java.io.ObjectStreamField.class$/$r2, <java.io.ObjectStreamField: java.lang.Class class$(java.lang.String)>
+  sun.io.ByteToCharConverter.convertAll/r4, <sun.io.ByteToCharConverter: char[] convertAll(byte[])>
+  sun.io.CharToByteConverter.convertAll/r4, <sun.io.CharToByteConverter: byte[] convertAll(char[])>
   <java.util.Locale: java.lang.String getDisplayLanguage(java.util.Locale)>/r2, <java.util.Locale: java.lang.String getDisplayLanguage(java.util.Locale)>
   <java.util.Locale: java.lang.String getDisplayLanguage(java.util.Locale)>/r4, <java.util.Locale: java.lang.String getDisplayLanguage(java.util.Locale)>
   <java.util.Locale: java.lang.String getDisplayLanguage(java.util.Locale)>/$stringconstant0, <java.util.Locale: java.lang.String getDisplayLanguage(java.util.Locale)>
@@ -61,6 +63,12 @@
   java.security.PermissionCollection.toString/$r18, <java.security.PermissionCollection: java.lang.String toString()>
   java.lang.SecurityManager.class$/$r2, <java.lang.SecurityManager: java.lang.Class class$(java.lang.String)>
   java.lang.FloatingDecimal.readJavaFormatString/$r4, <java.lang.FloatingDecimal: java.lang.FloatingDecimal readJavaFormatString(java.lang.String)>
+  sun.io.Converters.getConverterClass/$r12, <sun.io.Converters: java.lang.Class getConverterClass(int,java.lang.String)>
+  <sun.io.Converters: java.lang.Object newConverter(java.lang.String,java.lang.Class)>/$r4, <sun.io.Converters: java.lang.Object newConverter(java.lang.String,java.lang.Class)>
+  sun.io.Converters.getDefaultConverterClass/r1, <sun.io.Converters: java.lang.Class getDefaultConverterClass(int)>
+  sun.io.Converters.getDefaultConverterClass/r12, <sun.io.Converters: java.lang.Class getDefaultConverterClass(int)>
+  sun.io.Converters.newDefaultConverter/$r5, <sun.io.Converters: java.lang.Object newDefaultConverter(int)>
+  sun.io.Converters.class$/$r2, <sun.io.Converters: java.lang.Class class$(java.lang.String)>
   java.lang.Short.decode/r7, <java.lang.Short: java.lang.Short decode(java.lang.String)>
   java.lang.Byte.decode/r7, <java.lang.Byte: java.lang.Byte decode(java.lang.String)>
   java.util.Hashtable.clone/r1, <java.util.Hashtable: java.lang.Object clone()>
@@ -111,6 +119,14 @@
   java.net.InetAddress.getLocalHost/$r13, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
   java.net.InetAddress.getLocalHost/$r14, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
   <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>/r7, <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)>
+  sun.misc.URLClassPath.getURLs/r2, <sun.misc.URLClassPath: java.net.URL[] getURLs()>
+  <sun.misc.URLClassPath: sun.misc.URLClassPath$Loader getLoader(int)>/n0, <sun.misc.URLClassPath: sun.misc.URLClassPath$Loader getLoader(int)>
+  <sun.misc.URLClassPath: sun.misc.URLClassPath$Loader getLoader(int)>/$r19, <sun.misc.URLClassPath: sun.misc.URLClassPath$Loader getLoader(int)>
+  <sun.misc.URLClassPath: sun.misc.URLClassPath$Loader getLoader(java.net.URL)>/$r5, <sun.misc.URLClassPath: sun.misc.URLClassPath$Loader getLoader(java.net.URL)>
+  sun.misc.URLClassPath.pathToURLs/r4, <sun.misc.URLClassPath: java.net.URL[] pathToURLs(java.lang.String)>
+  sun.misc.URLClassPath.checkURL/r1, <sun.misc.URLClassPath: java.net.URL checkURL(java.net.URL)>
+  sun.misc.Launcher.getFileURL/$r3, <sun.misc.Launcher: java.net.URL getFileURL(java.io.File)>
+  sun.misc.Resource.getBytes/r2, <sun.misc.Resource: byte[] getBytes()>
   java.util.HashSet.clone/r1, <java.util.HashSet: java.lang.Object clone()>
   java.net.URLStreamHandler.getHostAddress/$r6, <java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>
   java.net.URLStreamHandler.getHostAddress/$r10, <java.net.URLStreamHandler: java.net.InetAddress getHostAddress(java.net.URL)>
@@ -125,6 +141,10 @@
   java.io.InputStreamReader.getEncoding/r2, <java.io.InputStreamReader: java.lang.String getEncoding()>
   java.io.InputStreamReader.getEncoding/n0, <java.io.InputStreamReader: java.lang.String getEncoding()>
   java.lang.Shutdown.class$/$r2, <java.lang.Shutdown: java.lang.Class class$(java.lang.String)>
+  sun.misc.Signal.handle/r4, <sun.misc.Signal: sun.misc.SignalHandler handle(sun.misc.Signal,sun.misc.SignalHandler)>
+  sun.misc.Signal.handle/r21, <sun.misc.Signal: sun.misc.SignalHandler handle(sun.misc.Signal,sun.misc.SignalHandler)>
+  sun.misc.Signal.handle/r22, <sun.misc.Signal: sun.misc.SignalHandler handle(sun.misc.Signal,sun.misc.SignalHandler)>
+  sun.misc.Signal.handle/r24, <sun.misc.Signal: sun.misc.SignalHandler handle(sun.misc.Signal,sun.misc.SignalHandler)>
   java.io.ObjectOutputStream$PutFieldImpl.class$/$r2, <java.io.ObjectOutputStream$PutFieldImpl: java.lang.Class class$(java.lang.String)>
   java.text.SimpleDateFormat.parse/r12, <java.text.SimpleDateFormat: java.util.Date parse(java.lang.String,java.text.ParsePosition)>
   java.text.DateFormat.get/$r12, <java.text.DateFormat: java.text.DateFormat get(int,int,int,java.util.Locale)>
@@ -137,6 +157,8 @@
   java.text.DecimalFormat.clone/r1, <java.text.DecimalFormat: java.lang.Object clone()>
   java.util.ResourceBundle$ResourceCacheKey.clone/$r2, <java.util.ResourceBundle$ResourceCacheKey: java.lang.Object clone()>
   java.util.zip.ZipEntry.clone/r1, <java.util.zip.ZipEntry: java.lang.Object clone()>
+  sun.misc.ProxyGenerator.generateClassFile/$r81, <sun.misc.ProxyGenerator: byte[] generateClassFile()>
+  sun.misc.ProxyGenerator.class$/$r2, <sun.misc.ProxyGenerator: java.lang.Class class$(java.lang.String)>
   java.security.cert.Certificate$CertificateRep.readResolve/$r5, <java.security.cert.Certificate$CertificateRep: java.lang.Object readResolve()>
   java.security.Provider.loadProvider/$r4, <java.security.Provider: java.security.Provider loadProvider(java.lang.String)>
   java.security.cert.CertificateFactory$1.run/r1, <java.security.cert.CertificateFactory$1: java.lang.Object run()>
@@ -154,6 +176,13 @@
   java.io.FilePermission$1.run/$r16, <java.io.FilePermission$1: java.lang.Object run()>
   java.security.Policy.getPolicyNoCheck/$r16, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
   java.security.Policy.class$/$r2, <java.security.Policy: java.lang.Class class$(java.lang.String)>
+  sun.misc.Launcher$Factory.createURLStreamHandler/$r14, <sun.misc.Launcher$Factory: java.net.URLStreamHandler createURLStreamHandler(java.lang.String)>
+  sun.misc.Launcher$ExtClassLoader.getExtClassLoader/$r4, <sun.misc.Launcher$ExtClassLoader: sun.misc.Launcher$ExtClassLoader getExtClassLoader()>
+  <sun.misc.URLClassPath$Loader: sun.misc.Resource getResource(java.lang.String,boolean)>/$r13, <sun.misc.URLClassPath$Loader: sun.misc.Resource getResource(java.lang.String,boolean)>
+  sun.misc.URLClassPath$FileLoader.getResource/$r12, <sun.misc.URLClassPath$FileLoader: sun.misc.Resource getResource(java.lang.String,boolean)>
+  sun.misc.URLClassPath$JarLoader.checkResource/$r12, <sun.misc.URLClassPath$JarLoader: sun.misc.Resource checkResource(java.lang.String,boolean,java.util.jar.JarEntry)>
+  <sun.misc.URLClassPath$JarLoader: sun.misc.Resource getResource(java.lang.String,boolean,java.util.Set)>/r8, <sun.misc.URLClassPath$JarLoader: sun.misc.Resource getResource(java.lang.String,boolean,java.util.Set)>
+  <sun.misc.URLClassPath$JarLoader: sun.misc.Resource getResource(java.lang.String,boolean,java.util.Set)>/$r31, <sun.misc.URLClassPath$JarLoader: sun.misc.Resource getResource(java.lang.String,boolean,java.util.Set)>
   java.util.Calendar.clone/r1, <java.util.Calendar: java.lang.Object clone()>
   <java.util.TimeZone: java.lang.String getDisplayName(boolean,int,java.util.Locale)>/$r28, <java.util.TimeZone: java.lang.String getDisplayName(boolean,int,java.util.Locale)>
   java.util.TimeZone.clone/r1, <java.util.TimeZone: java.lang.Object clone()>
@@ -194,11 +223,27 @@
   java.util.AbstractSequentialList.remove/r2, <java.util.AbstractSequentialList: java.lang.Object remove(int)>
   java.util.AbstractList$Itr.next/r1, <java.util.AbstractList$Itr: java.lang.Object next()>
   java.util.AbstractList$ListItr.previous/r2, <java.util.AbstractList$ListItr: java.lang.Object previous()>
+  sun.security.util.SignatureFileVerifier.getDigest/r3, <sun.security.util.SignatureFileVerifier: java.security.MessageDigest getDigest(java.lang.String)>
+  sun.security.util.SignatureFileVerifier.getCertificates/r17, <sun.security.util.SignatureFileVerifier: java.security.cert.Certificate[] getCertificates(sun.security.pkcs.SignerInfo[],sun.security.pkcs.PKCS7)>
+  sun.security.provider.PolicyFile.initKeyStore/r5, <sun.security.provider.PolicyFile: java.security.KeyStore initKeyStore(java.net.URL,java.lang.String,java.lang.String)>
+  sun.security.provider.PolicyFile.getCertificates/r18, <sun.security.provider.PolicyFile: java.security.cert.Certificate[] getCertificates(java.security.KeyStore,java.lang.String)>
+  sun.security.provider.PolicyFile.canonicalizeCodebase/r3, <sun.security.provider.PolicyFile: java.security.CodeSource canonicalizeCodebase(java.security.CodeSource,boolean)>
+  sun.security.provider.PolicyFile.class$/$r2, <sun.security.provider.PolicyFile: java.lang.Class class$(java.lang.String)>
   java.net.URLClassLoader.findClass/$r6, <java.net.URLClassLoader: java.lang.Class findClass(java.lang.String)>
   java.net.URLClassLoader.getPermissions/r2, <java.net.URLClassLoader: java.security.PermissionCollection getPermissions(java.security.CodeSource)>
+  sun.misc.ExtensionDependency.addNewExtensionsToClassLoader/$r28, <sun.misc.ExtensionDependency: java.lang.Boolean addNewExtensionsToClassLoader(sun.misc.Launcher$ExtClassLoader)>
   java.util.LinkedList.clone/r3, <java.util.LinkedList: java.lang.Object clone()>
+  sun.net.www.MimeEntry.launch/r2, <sun.net.www.MimeEntry: java.lang.Object launch(java.net.URLConnection,java.io.InputStream,sun.net.www.MimeTable)>
+  sun.net.www.MimeEntry.launch/$r9, <sun.net.www.MimeEntry: java.lang.Object launch(java.net.URLConnection,java.io.InputStream,sun.net.www.MimeTable)>
+  sun.net.www.MimeEntry.launch/$r10, <sun.net.www.MimeEntry: java.lang.Object launch(java.net.URLConnection,java.io.InputStream,sun.net.www.MimeTable)>
+  sun.net.www.MimeEntry.launch/$r14, <sun.net.www.MimeEntry: java.lang.Object launch(java.net.URLConnection,java.io.InputStream,sun.net.www.MimeTable)>
+  <sun.security.pkcs.SignerInfo: sun.security.pkcs.SignerInfo verify(sun.security.pkcs.PKCS7,byte[])>/r0, <sun.security.pkcs.SignerInfo: sun.security.pkcs.SignerInfo verify(sun.security.pkcs.PKCS7,byte[])>
   <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String)>/$r3, <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String)>
   <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String,java.lang.String)>/$r4, <java.security.KeyStore: java.security.KeyStore getInstance(java.lang.String,java.lang.String)>
+  sun.security.provider.PolicyParser.getKeyStoreUrl/$r6, <sun.security.provider.PolicyParser: java.lang.String getKeyStoreUrl()>
+  sun.security.provider.PolicyParser.parseGrantEntry/r2, <sun.security.provider.PolicyParser: sun.security.provider.PolicyParser$GrantEntry parseGrantEntry()>
+  sun.net.www.ParseUtil.decode/$r8, <sun.net.www.ParseUtil: java.lang.String decode(java.lang.String)>
+  sun.security.provider.IdentityDatabase.fromStream/r1, <sun.security.provider.IdentityDatabase: sun.security.provider.IdentityDatabase fromStream(java.io.InputStream)>
   java.security.SecureClassLoader.getProtectionDomain/r2, <java.security.SecureClassLoader: java.security.ProtectionDomain getProtectionDomain(java.security.CodeSource)>
   java.net.URLClassLoader$1.run/$r10, <java.net.URLClassLoader$1: java.lang.Object run()>
   <java.util.zip.ZipFile: java.util.zip.ZipEntry getEntry(java.lang.String)>/r4, <java.util.zip.ZipFile: java.util.zip.ZipEntry getEntry(java.lang.String)>
@@ -207,20 +252,105 @@
   <java.util.zip.ZipFile: java.io.InputStream getInputStream(java.lang.String)>/$r8, <java.util.zip.ZipFile: java.io.InputStream getInputStream(java.lang.String)>
   java.util.zip.ZipFile.getInflater/r3, <java.util.zip.ZipFile: java.util.zip.Inflater getInflater()>
   java.util.zip.ZipFile.getInflater/r9, <java.util.zip.ZipFile: java.util.zip.Inflater getInflater()>
+  sun.misc.ExtensionDependency$2.run/$r3, <sun.misc.ExtensionDependency$2: java.lang.Object run()>
+  sun.misc.ExtensionDependency$2.run/$r6, <sun.misc.ExtensionDependency$2: java.lang.Object run()>
+  sun.misc.ExtensionDependency$3.run/$r3, <sun.misc.ExtensionDependency$3: java.lang.Object run()>
+  sun.security.pkcs.PKCS9Attributes.decode/$r30, <sun.security.pkcs.PKCS9Attributes: byte[] decode(sun.security.util.DerInputStream)>
+  <sun.security.pkcs.PKCS9Attributes: java.lang.Object getAttributeValue(sun.security.util.ObjectIdentifier)>/r2, <sun.security.pkcs.PKCS9Attributes: java.lang.Object getAttributeValue(sun.security.util.ObjectIdentifier)>
+  sun.security.util.DerValue.toString/$r7, <sun.security.util.DerValue: java.lang.String toString()>
+  sun.security.util.DerValue.toString/$r13, <sun.security.util.DerValue: java.lang.String toString()>
+  sun.security.util.DerValue.toString/$r19, <sun.security.util.DerValue: java.lang.String toString()>
+  sun.security.util.DerValue.toString/$r25, <sun.security.util.DerValue: java.lang.String toString()>
+  sun.security.util.DerValue.toString/$r31, <sun.security.util.DerValue: java.lang.String toString()>
+  sun.security.util.DerValue.toString/$r36, <sun.security.util.DerValue: java.lang.String toString()>
+  sun.security.util.DerValue.toString/$r43, <sun.security.util.DerValue: java.lang.String toString()>
+  sun.security.util.DerValue.toString/$stringconstant10, <sun.security.util.DerValue: java.lang.String toString()>
+  <sun.misc.CharacterEncoder: java.lang.String encode(byte[])>/r7, <sun.misc.CharacterEncoder: java.lang.String encode(byte[])>
+  <sun.misc.CharacterEncoder: java.lang.String encodeBuffer(byte[])>/$r9, <sun.misc.CharacterEncoder: java.lang.String encodeBuffer(byte[])>
+  sun.security.x509.KeyUsageExtension.toString/r38, <sun.security.x509.KeyUsageExtension: java.lang.String toString()>
   <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/r2, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>
   <java.security.Signature: java.security.Signature getInstance(java.lang.String)>/r10, <java.security.Signature: java.security.Signature getInstance(java.lang.String)>
+  sun.security.x509.X509CertImpl.get/$r20, <sun.security.x509.X509CertImpl: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertImpl.get/$r27, <sun.security.x509.X509CertImpl: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertImpl.get/$r28, <sun.security.x509.X509CertImpl: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertImpl.get/$r29, <sun.security.x509.X509CertImpl: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertImpl.get/$r30, <sun.security.x509.X509CertImpl: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertImpl.getPublicKey/r1, <sun.security.x509.X509CertImpl: java.security.PublicKey getPublicKey()>
+  sun.security.x509.X509CertImpl.getSerialNumber/$r6, <sun.security.x509.X509CertImpl: java.math.BigInteger getSerialNumber()>
+  sun.security.x509.X509CertImpl.getSubjectDN/r1, <sun.security.x509.X509CertImpl: java.security.Principal getSubjectDN()>
+  sun.security.x509.X509CertImpl.getIssuerDN/r1, <sun.security.x509.X509CertImpl: java.security.Principal getIssuerDN()>
+  sun.security.x509.X509CertImpl.getNotBefore/r1, <sun.security.x509.X509CertImpl: java.util.Date getNotBefore()>
+  sun.security.x509.X509CertImpl.getNotAfter/r1, <sun.security.x509.X509CertImpl: java.util.Date getNotAfter()>
+  sun.security.x509.X509CertImpl.getSigAlgParams/$r4, <sun.security.x509.X509CertImpl: byte[] getSigAlgParams()>
+  sun.security.x509.X509CertImpl.getIssuerUniqueID/$r5, <sun.security.x509.X509CertImpl: boolean[] getIssuerUniqueID()>
+  sun.security.x509.X509CertImpl.getSubjectUniqueID/$r5, <sun.security.x509.X509CertImpl: boolean[] getSubjectUniqueID()>
+  sun.security.x509.X509CertImpl.getCriticalExtensionOIDs/r2, <sun.security.x509.X509CertImpl: java.util.Set getCriticalExtensionOIDs()>
+  sun.security.x509.X509CertImpl.getNonCriticalExtensionOIDs/r2, <sun.security.x509.X509CertImpl: java.util.Set getNonCriticalExtensionOIDs()>
+  sun.security.x509.X509CertImpl.getExtensionValue/$r18, <sun.security.x509.X509CertImpl: byte[] getExtensionValue(java.lang.String)>
+  sun.security.x509.X509CertImpl.getKeyUsage/r4, <sun.security.x509.X509CertImpl: boolean[] getKeyUsage()>
+  sun.security.x509.X509CRLImpl.toString/$r121, <sun.security.x509.X509CRLImpl: java.lang.String toString()>
+  sun.security.x509.X509CRLImpl.getSigAlgParams/$r4, <sun.security.x509.X509CRLImpl: byte[] getSigAlgParams()>
+  sun.security.x509.X509CRLImpl.getExtensionValue/$r17, <sun.security.x509.X509CRLImpl: byte[] getExtensionValue(java.lang.String)>
   java.util.BitSet.clone/r3, <java.util.BitSet: java.lang.Object clone()>
   java.util.zip.ZipFile$2.nextElement/r4, <java.util.zip.ZipFile$2: java.lang.Object nextElement()>
+  sun.security.util.DerInputBuffer.dup/r1, <sun.security.util.DerInputBuffer: sun.security.util.DerInputBuffer dup()>
   <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String)>/$r2, <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String)>
+  sun.security.x509.CertificateExtensions.class$/$r2, <sun.security.x509.CertificateExtensions: java.lang.Class class$(java.lang.String)>
   <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String)>/$r2, <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String)>
+  sun.security.x509.AVA.toString/$r61, <sun.security.x509.AVA: java.lang.String toString()>
+  sun.security.x509.X509CertInfo.getEncodedInfo/$r8, <sun.security.x509.X509CertInfo: byte[] getEncodedInfo()>
+  sun.security.x509.X509CertInfo.toString/$r125, <sun.security.x509.X509CertInfo: java.lang.String toString()>
+  <sun.security.x509.OIDMap: java.lang.Class getClass(java.lang.String)>/$r6, <sun.security.x509.OIDMap: java.lang.Class getClass(java.lang.String)>
+  <sun.security.x509.OIDMap: java.lang.Class getClass(sun.security.util.ObjectIdentifier)>/$r7, <sun.security.x509.OIDMap: java.lang.Class getClass(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.CRLExtensions.class$/$r2, <sun.security.x509.CRLExtensions: java.lang.Class class$(java.lang.String)>
+  sun.security.x509.X509CRLEntryImpl.toString/$r53, <sun.security.x509.X509CRLEntryImpl: java.lang.String toString()>
+  sun.security.x509.X509CRLEntryImpl.getExtensionValue/$r17, <sun.security.x509.X509CRLEntryImpl: byte[] getExtensionValue(java.lang.String)>
+  sun.security.provider.SeedGenerator.getSystemEntropy/$r6, <sun.security.provider.SeedGenerator: byte[] getSystemEntropy()>
+  sun.security.x509.X509Key.parse/r2, <sun.security.x509.X509Key: java.security.PublicKey parse(sun.security.util.DerValue)>
+  sun.security.x509.X509Key.buildX509Key/$r15, <sun.security.x509.X509Key: java.security.PublicKey buildX509Key(sun.security.x509.AlgorithmId,byte[])>
+  sun.security.x509.X509Key.buildX509Key/r31, <sun.security.x509.X509Key: java.security.PublicKey buildX509Key(sun.security.x509.AlgorithmId,byte[])>
+  sun.security.x509.X509Key.buildX509Key/r43, <sun.security.x509.X509Key: java.security.PublicKey buildX509Key(sun.security.x509.AlgorithmId,byte[])>
+  sun.security.x509.X509Key.getEncoded/r1, <sun.security.x509.X509Key: byte[] getEncoded()>
+  <sun.security.x509.X509Key: byte[] encode()>/$r15, <sun.security.x509.X509Key: byte[] encode()>
   <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String)>/$r2, <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String)>
+  sun.security.provider.SeedGenerator$4.run/$r1, <sun.security.provider.SeedGenerator$4: java.lang.Object run()>
+  sun.net.www.protocol.ftp.FtpURLConnection.getInputStream/$r5, <sun.net.www.protocol.ftp.FtpURLConnection: java.io.InputStream getInputStream()>
+  sun.net.www.protocol.ftp.FtpURLConnection.getInputStream/$r43, <sun.net.www.protocol.ftp.FtpURLConnection: java.io.InputStream getInputStream()>
+  sun.net.ftp.FtpClient.get/$r18, <sun.net.ftp.FtpClient: sun.net.TelnetInputStream get(java.lang.String)>
+  sun.net.www.protocol.http.HttpURLConnection.getOutputStream/$r26, <sun.net.www.protocol.http.HttpURLConnection: java.io.OutputStream getOutputStream()>
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream/$r14, <sun.net.www.protocol.http.HttpURLConnection: java.io.InputStream getInputStream()>
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream/$r43, <sun.net.www.protocol.http.HttpURLConnection: java.io.InputStream getInputStream()>
+  sun.net.www.protocol.http.HttpURLConnection.getInputStream/$r59, <sun.net.www.protocol.http.HttpURLConnection: java.io.InputStream getInputStream()>
+  sun.net.www.protocol.http.HttpURLConnection.getHttpProxyAuthentication/r1, <sun.net.www.protocol.http.HttpURLConnection: sun.net.www.protocol.http.AuthenticationInfo getHttpProxyAuthentication()>
+  sun.net.www.protocol.http.HttpURLConnection.getServerAuthentication/r1, <sun.net.www.protocol.http.HttpURLConnection: sun.net.www.protocol.http.AuthenticationInfo getServerAuthentication()>
+  <sun.net.www.protocol.http.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>/$r6, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>
+  <sun.net.www.protocol.http.HttpURLConnection: java.lang.String getHeaderField(int)>/$r5, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String getHeaderField(int)>
+  sun.net.www.protocol.http.HttpURLConnection.getHeaderFieldKey/$r5, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String getHeaderFieldKey(int)>
+  <sun.net.www.URLConnection: java.lang.String getHeaderField(java.lang.String)>/$r6, <sun.net.www.URLConnection: java.lang.String getHeaderField(java.lang.String)>
+  sun.net.www.URLConnection.getHeaderFieldKey/$r5, <sun.net.www.URLConnection: java.lang.String getHeaderFieldKey(int)>
+  <sun.net.www.URLConnection: java.lang.String getHeaderField(int)>/$r5, <sun.net.www.URLConnection: java.lang.String getHeaderField(int)>
+  sun.net.www.URLConnection.getContentType/$r15, <sun.net.www.URLConnection: java.lang.String getContentType()>
   java.net.Socket.getLocalAddress/r4, <java.net.Socket: java.net.InetAddress getLocalAddress()>
   java.net.Socket.getInputStream/$r4, <java.net.Socket: java.io.InputStream getInputStream()>
   java.net.Socket.getOutputStream/$r4, <java.net.Socket: java.io.OutputStream getOutputStream()>
+  sun.net.www.http.HttpClient.getDontProxy/r2, <sun.net.www.http.HttpClient: sun.misc.RegexpPool getDontProxy()>
+  sun.net.www.http.HttpClient.getDontProxy/$r22, <sun.net.www.http.HttpClient: sun.misc.RegexpPool getDontProxy()>
+  sun.net.www.protocol.http.AuthenticationInfo.clone/$r2, <sun.net.www.protocol.http.AuthenticationInfo: java.lang.Object clone()>
+  sun.net.www.protocol.http.AuthenticationInfo.getAuth/$r4, <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.AuthenticationInfo getAuth(java.lang.String,java.net.URL)>
+  sun.net.www.protocol.http.AuthenticationInfo.getAuth/$r8, <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.AuthenticationInfo getAuth(java.lang.String,java.net.URL)>
   java.net.PlainSocketImpl.acquireFD/r2, <java.net.PlainSocketImpl: java.io.FileDescriptor acquireFD()>
   java.net.Authenticator.requestPasswordAuthentication/r9, <java.net.Authenticator: java.net.PasswordAuthentication requestPasswordAuthentication(java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String)>
+  sun.net.www.protocol.jar.Handler.parseAbsoluteSpec/r1, <sun.net.www.protocol.jar.Handler: java.lang.String parseAbsoluteSpec(java.lang.String)>
+  sun.net.www.protocol.jar.JarURLConnection.getContentType/$r14, <sun.net.www.protocol.jar.JarURLConnection: java.lang.String getContentType()>
+  <sun.net.www.protocol.jar.JarFileFactory: java.util.jar.JarFile get(java.net.URL,boolean)>/r5, <sun.net.www.protocol.jar.JarFileFactory: java.util.jar.JarFile get(java.net.URL,boolean)>
+  sun.net.www.protocol.jar.JarFileFactory.getCachedJarFile/r3, <sun.net.www.protocol.jar.JarFileFactory: java.util.jar.JarFile getCachedJarFile(java.net.URL)>
+  sun.net.www.protocol.jar.JarFileFactory.getPermission/$r3, <sun.net.www.protocol.jar.JarFileFactory: java.security.Permission getPermission(java.util.jar.JarFile)>
+  sun.net.www.protocol.jar.URLJarFile.retrieve/r6, <sun.net.www.protocol.jar.URLJarFile: java.util.jar.JarFile retrieve(java.net.URL)>
+  sun.net.www.protocol.jar.URLJarFile$1.run/r4, <sun.net.www.protocol.jar.URLJarFile$1: java.lang.Object run()>
   java.io.UnixFileSystem.listRoots/$r3, <java.io.UnixFileSystem: java.io.File[] listRoots()>
   java.io.UnixFileSystem.listRoots/$r6, <java.io.UnixFileSystem: java.io.File[] listRoots()>
+  sun.net.www.protocol.file.Handler.openConnection/r6, <sun.net.www.protocol.file.Handler: java.net.URLConnection openConnection(java.net.URL)>
+  sun.net.www.protocol.file.Handler.openConnection/$r8, <sun.net.www.protocol.file.Handler: java.net.URLConnection openConnection(java.net.URL)>
   <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>/$r9, <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>
   <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>/$r27, <java.text.Collator: java.text.Collator getInstance(java.util.Locale)>
   java.text.Collator.clone/$r3, <java.text.Collator: java.lang.Object clone()>
@@ -282,6 +412,7 @@
   java.net.InetAddress.getAllByName/r1, <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
   java.net.InetAddress.getAllByName/$r4, <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>
   java.util.Stack.peek/$r2, <java.util.Stack: java.lang.Object peek()>
+  sun.misc.CompoundEnumeration.nextElement/$r4, <sun.misc.CompoundEnumeration: java.lang.Object nextElement()>
   java.lang.FDBigInt.sub/$r8, <java.lang.FDBigInt: java.lang.FDBigInt sub(java.lang.FDBigInt)>
   java.io.ObjectOutputStream$Stack.peek/$r2, <java.io.ObjectOutputStream$Stack: java.lang.Object peek()>
   <java.text.NumberFormat: java.lang.StringBuffer format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)>/$r6, <java.text.NumberFormat: java.lang.StringBuffer format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)>
@@ -298,6 +429,7 @@
   java.util.Hashtable$Enumerator.nextElement/$r6, <java.util.Hashtable$Enumerator: java.lang.Object nextElement()>
   java.util.Hashtable$Enumerator.next/$r3, <java.util.Hashtable$Enumerator: java.lang.Object next()>
   <java.util.AbstractList: java.util.ListIterator listIterator(int)>/$r6, <java.util.AbstractList: java.util.ListIterator listIterator(int)>
+  sun.misc.ProxyGenerator.generateStaticInitializer/r2, <sun.misc.ProxyGenerator: sun.misc.ProxyGenerator$MethodInfo generateStaticInitializer()>
   java.security.Provider.entrySet/$r5, <java.security.Provider: java.util.Set entrySet()>
   java.security.Provider.entrySet/$r7, <java.security.Provider: java.util.Set entrySet()>
   java.security.MessageDigestSpi.clone/$r1, <java.security.MessageDigestSpi: java.lang.Object clone()>
@@ -306,6 +438,11 @@
   java.security.Security.getFilterComponents/r12, <java.security.Security: java.lang.String[] getFilterComponents(java.lang.String,java.lang.String)>
   java.security.MessageDigest$Delegate.clone/r2, <java.security.MessageDigest$Delegate: java.lang.Object clone()>
   java.util.HashMap$HashIterator.next/$r8, <java.util.HashMap$HashIterator: java.lang.Object next()>
+  sun.security.util.ManifestEntryVerifier.verify/$r7, <sun.security.util.ManifestEntryVerifier: java.security.cert.Certificate[] verify(java.util.Hashtable,java.util.Hashtable)>
+  sun.security.util.ManifestEntryVerifier.verify/$r51, <sun.security.util.ManifestEntryVerifier: java.security.cert.Certificate[] verify(java.util.Hashtable,java.util.Hashtable)>
+  sun.misc.URLClassPath$1.nextElement/r1, <sun.misc.URLClassPath$1: java.lang.Object nextElement()>
+  sun.misc.URLClassPath$JarLoader.getJarFile/$r9, <sun.misc.URLClassPath$JarLoader: java.util.jar.JarFile getJarFile(java.net.URL)>
+  sun.misc.URLClassPath$JarLoader.getJarFile/$r14, <sun.misc.URLClassPath$JarLoader: java.util.jar.JarFile getJarFile(java.net.URL)>
   java.math.BigInteger.randomBits/r1, <java.math.BigInteger: byte[] randomBits(int,java.util.Random)>
   java.math.BigInteger.probablePrime/$r2, <java.math.BigInteger: java.math.BigInteger probablePrime(int,java.util.Random)>
   java.math.BigInteger.pow/$r4, <java.math.BigInteger: java.math.BigInteger pow(int)>
@@ -322,9 +459,11 @@
   java.math.BigInteger.setBit/$r4, <java.math.BigInteger: java.math.BigInteger setBit(int)>
   java.math.BigInteger.clearBit/$r4, <java.math.BigInteger: java.math.BigInteger clearBit(int)>
   java.math.BigInteger.flipBit/$r4, <java.math.BigInteger: java.math.BigInteger flipBit(int)>
+  sun.misc.SoftCache$1.next/r1, <sun.misc.SoftCache$1: java.lang.Object next()>
   java.util.Collections$CopiesList.get/$r8, <java.util.Collections$CopiesList: java.lang.Object get(int)>
   java.util.Collections$SingletonList.get/$r7, <java.util.Collections$SingletonList: java.lang.Object get(int)>
   java.util.SubList.listIterator/$r8, <java.util.SubList: java.util.ListIterator listIterator(int)>
+  sun.misc.ProxyGenerator$ProxyMethod.generateMethod/r2, <sun.misc.ProxyGenerator$ProxyMethod: sun.misc.ProxyGenerator$MethodInfo generateMethod()>
   java.util.WeakHashMap$1.next/r1, <java.util.WeakHashMap$1: java.lang.Object next()>
   java.net.URLClassLoader.defineClass/$r14, <java.net.URLClassLoader: java.lang.Class defineClass(java.lang.String,sun.misc.Resource)>
   java.util.LinkedList.getFirst/$r4, <java.util.LinkedList: java.lang.Object getFirst()>
@@ -342,30 +481,121 @@
   java.util.Collections$5.next/$r2, <java.util.Collections$5: java.lang.Object next()>
   java.util.SubList$1.next/$r2, <java.util.SubList$1: java.lang.Object next()>
   java.util.SubList$1.previous/$r2, <java.util.SubList$1: java.lang.Object previous()>
+  sun.security.pkcs.ContentInfo.getData/$r8, <sun.security.pkcs.ContentInfo: byte[] getData()>
   java.security.KeyStore.getKey/$r5, <java.security.KeyStore: java.security.Key getKey(java.lang.String,char[])>
   java.security.KeyStore.getCertificateChain/$r4, <java.security.KeyStore: java.security.cert.Certificate[] getCertificateChain(java.lang.String)>
   java.security.KeyStore.getCertificate/$r4, <java.security.KeyStore: java.security.cert.Certificate getCertificate(java.lang.String)>
   java.security.KeyStore.getCreationDate/$r4, <java.security.KeyStore: java.util.Date getCreationDate(java.lang.String)>
   java.security.KeyStore.aliases/$r3, <java.security.KeyStore: java.util.Enumeration aliases()>
   java.security.KeyStore.getCertificateAlias/$r4, <java.security.KeyStore: java.lang.String getCertificateAlias(java.security.cert.Certificate)>
+  sun.security.provider.PolicyParser.match/r2, <sun.security.provider.PolicyParser: java.lang.String match(java.lang.String)>
+  sun.security.util.PropertyExpander.expand/r0, <sun.security.util.PropertyExpander: java.lang.String expand(java.lang.String)>
+  sun.security.util.PropertyExpander.expand/$r18, <sun.security.util.PropertyExpander: java.lang.String expand(java.lang.String)>
   java.net.URLClassLoader$3.nextElement/r1, <java.net.URLClassLoader$3: java.lang.Object nextElement()>
   java.util.zip.ZipFile.entries/$r2, <java.util.zip.ZipFile: java.util.Enumeration entries()>
+  sun.misc.ExtensionDependency$1.run/$r8, <sun.misc.ExtensionDependency$1: java.lang.Object run()>
   java.util.LinkedList$ListItr.next/$r8, <java.util.LinkedList$ListItr: java.lang.Object next()>
   java.util.LinkedList$ListItr.previous/$r6, <java.util.LinkedList$ListItr: java.lang.Object previous()>
+  sun.security.x509.X500Name.getString/r2, <sun.security.x509.X500Name: java.lang.String getString(sun.security.util.DerValue)>
+  sun.security.x509.AlgorithmId.get/$r7, <sun.security.x509.AlgorithmId: sun.security.x509.AlgorithmId get(java.lang.String)>
+  sun.security.x509.AlgorithmId.parse/r4, <sun.security.x509.AlgorithmId: sun.security.x509.AlgorithmId parse(sun.security.util.DerValue)>
+  <sun.security.pkcs.PKCS9Attributes: java.lang.Object getAttributeValue(java.lang.String)>/$r9, <sun.security.pkcs.PKCS9Attributes: java.lang.Object getAttributeValue(java.lang.String)>
+  sun.security.util.DerInputStream.getInteger/$r5, <sun.security.util.DerInputStream: sun.security.util.BigInt getInteger()>
+  sun.security.util.DerInputStream.getEnumerated/$r5, <sun.security.util.DerInputStream: sun.security.util.BigInt getEnumerated()>
+  sun.security.util.DerInputStream.getBitString/r1, <sun.security.util.DerInputStream: byte[] getBitString()>
+  sun.security.util.DerInputStream.getUnalignedBitString/$r8, <sun.security.util.DerInputStream: sun.security.util.BitArray getUnalignedBitString()>
+  sun.security.util.DerInputStream.getOctetString/r1, <sun.security.util.DerInputStream: byte[] getOctetString()>
+  sun.security.util.DerInputStream.getSequence/$r3, <sun.security.util.DerInputStream: sun.security.util.DerValue[] getSequence(int)>
+  <sun.security.util.DerInputStream: sun.security.util.DerValue[] getSet(int)>/$r3, <sun.security.util.DerInputStream: sun.security.util.DerValue[] getSet(int)>
+  <sun.security.util.DerInputStream: sun.security.util.DerValue[] getSet(int,boolean)>/$r3, <sun.security.util.DerInputStream: sun.security.util.DerValue[] getSet(int,boolean)>
+  sun.security.util.DerInputStream.readVector/r4, <sun.security.util.DerInputStream: sun.security.util.DerValue[] readVector(int)>
+  sun.security.util.DerInputStream.readVector/$r6, <sun.security.util.DerInputStream: sun.security.util.DerValue[] readVector(int)>
+  sun.security.util.DerInputStream.readString/$r19, <sun.security.util.DerInputStream: java.lang.String readString(byte,java.lang.String,java.lang.String)>
+  sun.security.util.DerInputStream.getUTCTime/r2, <sun.security.util.DerInputStream: java.util.Date getUTCTime()>
+  sun.security.util.DerInputStream.getGeneralizedTime/r2, <sun.security.util.DerInputStream: java.util.Date getGeneralizedTime()>
+  sun.security.util.DerValue.getOID/$r6, <sun.security.util.DerValue: sun.security.util.ObjectIdentifier getOID()>
+  sun.security.util.DerValue.getOctetString/r2, <sun.security.util.DerValue: byte[] getOctetString()>
+  <sun.security.util.DerValue: sun.security.util.BigInt getInteger()>/$r8, <sun.security.util.DerValue: sun.security.util.BigInt getInteger()>
+  <sun.security.util.DerValue: sun.security.util.BigInt getInteger(boolean)>/$r8, <sun.security.util.DerValue: sun.security.util.BigInt getInteger(boolean)>
+  sun.security.util.DerValue.getEnumerated/$r8, <sun.security.util.DerValue: sun.security.util.BigInt getEnumerated()>
+  <sun.security.util.DerValue: byte[] getBitString()>/$r7, <sun.security.util.DerValue: byte[] getBitString()>
+  <sun.security.util.DerValue: sun.security.util.BitArray getUnalignedBitString()>/$r7, <sun.security.util.DerValue: sun.security.util.BitArray getUnalignedBitString()>
+  <sun.security.util.DerValue: byte[] getBitString(boolean)>/$r7, <sun.security.util.DerValue: byte[] getBitString(boolean)>
+  <sun.security.util.DerValue: sun.security.util.BitArray getUnalignedBitString(boolean)>/$r7, <sun.security.util.DerValue: sun.security.util.BitArray getUnalignedBitString(boolean)>
+  sun.security.util.DerValue.getPrintableString/$r6, <sun.security.util.DerValue: java.lang.String getPrintableString()>
+  sun.security.util.DerValue.getT61String/$r6, <sun.security.util.DerValue: java.lang.String getT61String()>
+  sun.security.util.DerValue.getIA5String/$r6, <sun.security.util.DerValue: java.lang.String getIA5String()>
+  sun.security.util.DerValue.getBMPString/$r6, <sun.security.util.DerValue: java.lang.String getBMPString()>
+  sun.security.util.DerValue.getUTF8String/$r6, <sun.security.util.DerValue: java.lang.String getUTF8String()>
+  sun.security.util.DerValue.toDerInputStream/$r1, <sun.security.util.DerValue: sun.security.util.DerInputStream toDerInputStream()>
+  sun.security.x509.KeyUsageExtension.get/$r2, <sun.security.x509.KeyUsageExtension: java.lang.Object get(java.lang.String)>
+  sun.security.x509.KeyUsageExtension.get/$r3, <sun.security.x509.KeyUsageExtension: java.lang.Object get(java.lang.String)>
+  sun.security.x509.KeyUsageExtension.get/$r4, <sun.security.x509.KeyUsageExtension: java.lang.Object get(java.lang.String)>
+  sun.security.x509.KeyUsageExtension.get/$r5, <sun.security.x509.KeyUsageExtension: java.lang.Object get(java.lang.String)>
+  sun.security.x509.KeyUsageExtension.get/$r6, <sun.security.x509.KeyUsageExtension: java.lang.Object get(java.lang.String)>
+  sun.security.x509.KeyUsageExtension.get/$r7, <sun.security.x509.KeyUsageExtension: java.lang.Object get(java.lang.String)>
+  sun.security.x509.KeyUsageExtension.get/$r8, <sun.security.x509.KeyUsageExtension: java.lang.Object get(java.lang.String)>
+  sun.security.x509.KeyUsageExtension.get/$r9, <sun.security.x509.KeyUsageExtension: java.lang.Object get(java.lang.String)>
+  sun.security.x509.KeyUsageExtension.get/$r10, <sun.security.x509.KeyUsageExtension: java.lang.Object get(java.lang.String)>
   <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/r3, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>
   <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>/r12, <java.security.Signature: java.security.Signature getInstance(java.lang.String,java.lang.String)>
   <java.security.Signature: byte[] sign()>/$r1, <java.security.Signature: byte[] sign()>
   java.security.Signature.clone/$r1, <java.security.Signature: java.lang.Object clone()>
+  sun.security.x509.X509CertImpl.getEncoded/$r5, <sun.security.x509.X509CertImpl: byte[] getEncoded()>
+  sun.security.x509.X509CertImpl.getTBSCertificate/$r3, <sun.security.x509.X509CertImpl: byte[] getTBSCertificate()>
+  sun.security.x509.X509CRLImpl.getEncoded/r1, <sun.security.x509.X509CRLImpl: byte[] getEncoded()>
+  sun.security.x509.X509CRLImpl.getTBSCertList/r1, <sun.security.x509.X509CRLImpl: byte[] getTBSCertList()>
+  sun.security.util.DerInputBuffer.getUnsigned/$r5, <sun.security.util.DerInputBuffer: sun.security.util.BigInt getUnsigned(int)>
   java.security.SignatureSpi.clone/$r1, <java.security.SignatureSpi: java.lang.Object clone()>
   <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String,java.lang.String)>/$r4, <java.security.SecureRandom: java.security.SecureRandom getInstance(java.lang.String,java.lang.String)>
   java.security.Signature$Delegate.clone/r2, <java.security.Signature$Delegate: java.lang.Object clone()>
+  sun.security.x509.CertificateExtensions.get/r2, <sun.security.x509.CertificateExtensions: java.lang.Object get(java.lang.String)>
   <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String,java.lang.String)>/$r4, <java.security.AlgorithmParameters: java.security.AlgorithmParameters getInstance(java.lang.String,java.lang.String)>
   java.security.AlgorithmParameters.getParameterSpec/$r4, <java.security.AlgorithmParameters: java.security.spec.AlgorithmParameterSpec getParameterSpec(java.lang.Class)>
   <java.security.AlgorithmParameters: byte[] getEncoded()>/$r3, <java.security.AlgorithmParameters: byte[] getEncoded()>
   <java.security.AlgorithmParameters: byte[] getEncoded(java.lang.String)>/$r4, <java.security.AlgorithmParameters: byte[] getEncoded(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r11, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r14, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r16, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r19, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r21, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r24, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r26, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r29, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r31, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r34, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r36, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r39, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r41, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r44, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r46, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r50, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r52, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r56, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r58, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.X509CertInfo.get/$r62, <sun.security.x509.X509CertInfo: java.lang.Object get(java.lang.String)>
+  sun.security.x509.CertificateValidity.get/$r2, <sun.security.x509.CertificateValidity: java.lang.Object get(java.lang.String)>
+  sun.security.x509.CertificateValidity.get/$r3, <sun.security.x509.CertificateValidity: java.lang.Object get(java.lang.String)>
+  sun.security.x509.BasicConstraintsExtension.get/$r2, <sun.security.x509.BasicConstraintsExtension: java.lang.Object get(java.lang.String)>
+  sun.security.x509.BasicConstraintsExtension.get/$r3, <sun.security.x509.BasicConstraintsExtension: java.lang.Object get(java.lang.String)>
+  sun.security.x509.CertificateVersion.get/$r2, <sun.security.x509.CertificateVersion: java.lang.Object get(java.lang.String)>
+  sun.security.x509.CertificateSerialNumber.get/$r2, <sun.security.x509.CertificateSerialNumber: java.lang.Object get(java.lang.String)>
+  sun.security.x509.CertificateAlgorithmId.get/$r2, <sun.security.x509.CertificateAlgorithmId: java.lang.Object get(java.lang.String)>
+  sun.security.x509.CertificateIssuerName.get/$r2, <sun.security.x509.CertificateIssuerName: java.lang.Object get(java.lang.String)>
+  sun.security.x509.CertificateSubjectName.get/$r2, <sun.security.x509.CertificateSubjectName: java.lang.Object get(java.lang.String)>
+  sun.security.x509.CertificateX509Key.get/$r2, <sun.security.x509.CertificateX509Key: java.lang.Object get(java.lang.String)>
+  sun.security.x509.CertificateIssuerUniqueIdentity.get/$r2, <sun.security.x509.CertificateIssuerUniqueIdentity: java.lang.Object get(java.lang.String)>
+  sun.security.x509.CertificateSubjectUniqueIdentity.get/$r2, <sun.security.x509.CertificateSubjectUniqueIdentity: java.lang.Object get(java.lang.String)>
   <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String,java.lang.String)>/$r4, <java.security.KeyFactory: java.security.KeyFactory getInstance(java.lang.String,java.lang.String)>
+  sun.net.ftp.FtpClient.openDataConnection/$r22, <sun.net.ftp.FtpClient: java.net.Socket openDataConnection(java.lang.String)>
+  sun.net.www.protocol.http.HttpURLConnection.openConnectionCheckRedirects/r6, <sun.net.www.protocol.http.HttpURLConnection: java.io.InputStream openConnectionCheckRedirects(java.net.URLConnection)>
+  sun.net.www.http.HttpClient.getURLFile/r1, <sun.net.www.http.HttpClient: java.lang.String getURLFile()>
   java.net.PlainSocketImpl.getInputStream/$r5, <java.net.PlainSocketImpl: java.io.InputStream getInputStream()>
   java.net.PlainSocketImpl.getOutputStream/$r3, <java.net.PlainSocketImpl: java.io.OutputStream getOutputStream()>
+  sun.net.www.protocol.jar.Handler.parseContextSpec/$r18, <sun.net.www.protocol.jar.Handler: java.lang.String parseContextSpec(java.net.URL,java.lang.String)>
+  sun.net.www.protocol.jar.JarURLConnection.getInputStream/r16, <sun.net.www.protocol.jar.JarURLConnection: java.io.InputStream getInputStream()>
+  sun.net.www.protocol.jar.URLJarFile.getEntry/$r3, <sun.net.www.protocol.jar.URLJarFile: java.util.zip.ZipEntry getEntry(java.lang.String)>
+  sun.net.www.protocol.file.FileURLConnection.getInputStream/$r82, <sun.net.www.protocol.file.FileURLConnection: java.io.InputStream getInputStream()>
   java.text.PatternEntry$Parser.next/$r53, <java.text.PatternEntry$Parser: java.text.PatternEntry next()>
   <java.lang.String: byte[] getBytes(java.lang.String)>/$r3, <java.lang.String: byte[] getBytes(java.lang.String)>
   <java.lang.String: byte[] getBytes()>/$r2, <java.lang.String: byte[] getBytes()>
@@ -460,6 +690,8 @@
   java.io.ObjectStreamField.toString/$r8, <java.io.ObjectStreamField: java.lang.String toString()>
   java.io.ObjectStreamField.toString/$r14, <java.io.ObjectStreamField: java.lang.String toString()>
   java.io.ObjectStreamField.getField/$r1, <java.io.ObjectStreamField: java.lang.reflect.Field getField()>
+  sun.io.ByteToCharConverter.toString/$r5, <sun.io.ByteToCharConverter: java.lang.String toString()>
+  sun.io.CharToByteConverter.toString/$r5, <sun.io.CharToByteConverter: java.lang.String toString()>
   java.util.Locale.getLanguage/$r1, <java.util.Locale: java.lang.String getLanguage()>
   java.util.Locale.getCountry/$r1, <java.util.Locale: java.lang.String getCountry()>
   java.util.Locale.getVariant/$r1, <java.util.Locale: java.lang.String getVariant()>
@@ -636,6 +868,7 @@
   java.io.ObjectOutputStream.replaceObject/r1, <java.io.ObjectOutputStream: java.lang.Object replaceObject(java.lang.Object)>
   java.io.ObjectOutputStream.lookupReplace/$r4, <java.io.ObjectOutputStream: java.lang.Object lookupReplace(java.lang.Object)>
   <java.text.Format: java.lang.String format(java.lang.Object)>/$r5, <java.text.Format: java.lang.String format(java.lang.Object)>
+  sun.security.action.GetPropertyAction.run/$r3, <sun.security.action.GetPropertyAction: java.lang.Object run()>
   <java.util.StringTokenizer: java.lang.String nextToken(java.lang.String)>/$r2, <java.util.StringTokenizer: java.lang.String nextToken(java.lang.String)>
   java.util.StringTokenizer.nextElement/$r1, <java.util.StringTokenizer: java.lang.Object nextElement()>
   java.lang.Character$Subset.toString/$r1, <java.lang.Character$Subset: java.lang.String toString()>
@@ -765,8 +998,13 @@
   java.security.PrivilegedActionException.getException/$r1, <java.security.PrivilegedActionException: java.lang.Exception getException()>
   java.security.PrivilegedActionException.toString/$r10, <java.security.PrivilegedActionException: java.lang.String toString()>
   java.security.AccessControlException.getPermission/$r1, <java.security.AccessControlException: java.security.Permission getPermission()>
+  <sun.misc.URLClassPath: sun.misc.Resource getResource(java.lang.String,boolean)>/r3, <sun.misc.URLClassPath: sun.misc.Resource getResource(java.lang.String,boolean)>
+  <sun.misc.URLClassPath: sun.misc.Resource getResource(java.lang.String)>/$r2, <sun.misc.URLClassPath: sun.misc.Resource getResource(java.lang.String)>
+  <sun.misc.URLClassPath: java.util.Enumeration getResources(java.lang.String,boolean)>/$r2, <sun.misc.URLClassPath: java.util.Enumeration getResources(java.lang.String,boolean)>
+  <sun.misc.URLClassPath: java.util.Enumeration getResources(java.lang.String)>/$r2, <sun.misc.URLClassPath: java.util.Enumeration getResources(java.lang.String)>
   java.util.Stack.push/r1, <java.util.Stack: java.lang.Object push(java.lang.Object)>
   java.util.Stack.pop/r1, <java.util.Stack: java.lang.Object pop()>
+  sun.misc.Launcher.getClassLoader/$r1, <sun.misc.Launcher: java.lang.ClassLoader getClassLoader()>
   java.lang.ClassLoader$4.run/$r1, <java.lang.ClassLoader$4: java.lang.Object run()>
   java.lang.ClassLoader$3.run/$r4, <java.lang.ClassLoader$3: java.lang.Object run()>
   java.lang.ClassLoader$2.nextElement/$r4, <java.lang.ClassLoader$2: java.lang.Object nextElement()>
@@ -795,6 +1033,10 @@
   <java.io.BufferedReader: java.lang.String readLine()>/$r1, <java.io.BufferedReader: java.lang.String readLine()>
   java.util.Date.toLocaleString/$r2, <java.util.Date: java.lang.String toLocaleString()>
   java.util.Date.toGMTString/$r9, <java.util.Date: java.lang.String toGMTString()>
+  sun.misc.Signal.getName/$r1, <sun.misc.Signal: java.lang.String getName()>
+  sun.misc.Signal.toString/$r5, <sun.misc.Signal: java.lang.String toString()>
+  sun.security.action.GetIntegerAction.run/r1, <sun.security.action.GetIntegerAction: java.lang.Object run()>
+  sun.security.action.GetIntegerAction.run/$r3, <sun.security.action.GetIntegerAction: java.lang.Object run()>
   java.io.ObjectOutputStream$Stack.push/r1, <java.io.ObjectOutputStream$Stack: java.lang.Object push(java.lang.Object)>
   java.io.ObjectOutputStream$Stack.pop/r1, <java.io.ObjectOutputStream$Stack: java.lang.Object pop()>
   java.io.ObjectOutputStream$ReplaceTable.lookup/$r4, <java.io.ObjectOutputStream$ReplaceTable: java.lang.Object lookup(java.lang.Object)>
@@ -835,6 +1077,11 @@
   java.text.DecimalFormat.toLocalizedPattern/$r1, <java.text.DecimalFormat: java.lang.String toLocalizedPattern()>
   java.text.DecimalFormat.expandAffix/$r13, <java.text.DecimalFormat: java.lang.String expandAffix(java.lang.String,java.lang.StringBuffer)>
   <java.text.DecimalFormat: java.lang.String toPattern(boolean)>/$r60, <java.text.DecimalFormat: java.lang.String toPattern(boolean)>
+  sun.misc.SoftCache.get/r2, <sun.misc.SoftCache: java.lang.Object get(java.lang.Object)>
+  sun.misc.SoftCache.get/$r8, <sun.misc.SoftCache: java.lang.Object get(java.lang.Object)>
+  sun.misc.SoftCache.put/$r7, <sun.misc.SoftCache: java.lang.Object put(java.lang.Object,java.lang.Object)>
+  sun.misc.SoftCache.remove/$r4, <sun.misc.SoftCache: java.lang.Object remove(java.lang.Object)>
+  sun.misc.SoftCache.entrySet/$r3, <sun.misc.SoftCache: java.util.Set entrySet()>
   java.util.ResourceBundle$1.run/$r4, <java.util.ResourceBundle$1: java.lang.Object run()>
   java.util.ResourceBundle$1.run/$r6, <java.util.ResourceBundle$1: java.lang.Object run()>
   java.util.PropertyResourceBundle.handleGetObject/r2, <java.util.PropertyResourceBundle: java.lang.Object handleGetObject(java.lang.String)>
@@ -854,12 +1101,14 @@
   java.util.AbstractList.iterator/$r1, <java.util.AbstractList: java.util.Iterator iterator()>
   <java.util.AbstractList: java.util.ListIterator listIterator()>/$r1, <java.util.AbstractList: java.util.ListIterator listIterator()>
   java.util.AbstractList.subList/$r1, <java.util.AbstractList: java.util.List subList(int,int)>
+  sun.misc.ProxyGenerator.generateConstructor/r2, <sun.misc.ProxyGenerator: sun.misc.ProxyGenerator$MethodInfo generateConstructor()>
   java.util.WeakHashMap.get/$r4, <java.util.WeakHashMap: java.lang.Object get(java.lang.Object)>
   java.util.WeakHashMap.put/$r6, <java.util.WeakHashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>
   java.util.WeakHashMap.remove/$r4, <java.util.WeakHashMap: java.lang.Object remove(java.lang.Object)>
   java.util.WeakHashMap.entrySet/$r3, <java.util.WeakHashMap: java.util.Set entrySet()>
   java.security.BasicPermissionCollection.elements/$r2, <java.security.BasicPermissionCollection: java.util.Enumeration elements()>
   java.net.SocketPermissionCollection.elements/$r2, <java.net.SocketPermissionCollection: java.util.Enumeration elements()>
+  sun.security.action.GetBooleanAction.run/$r1, <sun.security.action.GetBooleanAction: java.lang.Object run()>
   java.security.Provider.getName/$r1, <java.security.Provider: java.lang.String getName()>
   java.security.Provider.getInfo/$r1, <java.security.Provider: java.lang.String getInfo()>
   java.security.Provider.toString/$r6, <java.security.Provider: java.lang.String toString()>
@@ -894,10 +1143,19 @@
   java.util.jar.JarEntry.getAttributes/$r1, <java.util.jar.JarEntry: java.util.jar.Attributes getAttributes()>
   java.util.jar.JarEntry.getCertificates/$r1, <java.util.jar.JarEntry: java.security.cert.Certificate[] getCertificates()>
   java.util.jar.JarVerifier.getCerts/$r4, <java.util.jar.JarVerifier: java.security.cert.Certificate[] getCerts(java.lang.String)>
+  sun.security.util.ManifestEntryVerifier.getEntry/$r1, <sun.security.util.ManifestEntryVerifier: java.util.jar.JarEntry getEntry()>
   java.net.InetAddressImpl.getLocalHostName/@native-return, <java.net.InetAddressImpl: java.lang.String getLocalHostName()>
   java.net.InetAddressImpl.lookupAllHostAddr/@native-return, <java.net.InetAddressImpl: byte[][] lookupAllHostAddr(java.lang.String)>
   java.net.InetAddressImpl.getHostByAddr/@native-return, <java.net.InetAddressImpl: java.lang.String getHostByAddr(int)>
   java.io.FilePermissionCollection.elements/$r2, <java.io.FilePermissionCollection: java.util.Enumeration elements()>
+  sun.misc.Launcher$4.run/$r3, <sun.misc.Launcher$4: java.lang.Object run()>
+  sun.misc.Launcher$1.run/$r2, <sun.misc.Launcher$1: java.lang.Object run()>
+  sun.misc.Launcher$ExtClassLoader.findLibrary/$r9, <sun.misc.Launcher$ExtClassLoader: java.lang.String findLibrary(java.lang.String)>
+  sun.misc.Launcher$ExtClassLoader.findLibrary/$r14, <sun.misc.Launcher$ExtClassLoader: java.lang.String findLibrary(java.lang.String)>
+  sun.misc.Launcher$AppClassLoader.loadClass/$r5, <sun.misc.Launcher$AppClassLoader: java.lang.Class loadClass(java.lang.String,boolean)>
+  sun.misc.Launcher$AppClassLoader.getPermissions/r2, <sun.misc.Launcher$AppClassLoader: java.security.PermissionCollection getPermissions(java.security.CodeSource)>
+  sun.misc.URLClassPath$Loader.getBaseURL/$r1, <sun.misc.URLClassPath$Loader: java.net.URL getBaseURL()>
+  <sun.misc.URLClassPath$Loader: sun.misc.Resource getResource(java.lang.String)>/$r2, <sun.misc.URLClassPath$Loader: sun.misc.Resource getResource(java.lang.String)>
   java.net.JarURLConnection.getJarFileURL/$r1, <java.net.JarURLConnection: java.net.URL getJarFileURL()>
   java.net.JarURLConnection.getEntryName/$r1, <java.net.JarURLConnection: java.lang.String getEntryName()>
   java.net.JarURLConnection.getManifest/$r2, <java.net.JarURLConnection: java.util.jar.Manifest getManifest()>
@@ -905,8 +1163,29 @@
   java.net.JarURLConnection.getAttributes/$r2, <java.net.JarURLConnection: java.util.jar.Attributes getAttributes()>
   java.net.JarURLConnection.getMainAttributes/$r2, <java.net.JarURLConnection: java.util.jar.Attributes getMainAttributes()>
   java.net.JarURLConnection.getCertificates/$r2, <java.net.JarURLConnection: java.security.cert.Certificate[] getCertificates()>
+  sun.misc.URLClassPath$2.run/$r6, <sun.misc.URLClassPath$2: java.lang.Object run()>
+  sun.misc.URLClassPath$2.run/$r8, <sun.misc.URLClassPath$2: java.lang.Object run()>
+  sun.misc.URLClassPath$2.run/$r10, <sun.misc.URLClassPath$2: java.lang.Object run()>
+  sun.misc.URLClassPath$JarLoader.getIndex/$r1, <sun.misc.URLClassPath$JarLoader: sun.misc.JarIndex getIndex()>
+  <sun.misc.URLClassPath$JarLoader: sun.misc.Resource getResource(java.lang.String,boolean)>/$r5, <sun.misc.URLClassPath$JarLoader: sun.misc.Resource getResource(java.lang.String,boolean)>
+  <sun.misc.URLClassPath$JarLoader: sun.misc.Resource getResource(java.lang.String,boolean)>/$r8, <sun.misc.URLClassPath$JarLoader: sun.misc.Resource getResource(java.lang.String,boolean)>
+  sun.misc.URLClassPath$JarLoader.getClassPath/$r8, <sun.misc.URLClassPath$JarLoader: java.net.URL[] getClassPath()>
+  sun.misc.URLClassPath$JarLoader.parseClassPath/r5, <sun.misc.URLClassPath$JarLoader: java.net.URL[] parseClassPath(java.net.URL,java.lang.String)>
   java.security.AllPermissionCollection$1.nextElement/$r1, <java.security.AllPermissionCollection$1: java.lang.Object nextElement()>
   <java.net.ContentHandler: java.lang.Object getContent(java.net.URLConnection,java.lang.Class[])>/r3, <java.net.ContentHandler: java.lang.Object getContent(java.net.URLConnection,java.lang.Class[])>
+  sun.net.www.MimeTable.getContentTypeFor/$r3, <sun.net.www.MimeTable: java.lang.String getContentTypeFor(java.lang.String)>
+  <sun.net.www.MimeTable: sun.net.www.MimeEntry remove(java.lang.String)>/$r5, <sun.net.www.MimeTable: sun.net.www.MimeEntry remove(java.lang.String)>
+  <sun.net.www.MimeTable: sun.net.www.MimeEntry remove(sun.net.www.MimeEntry)>/$r9, <sun.net.www.MimeTable: sun.net.www.MimeEntry remove(sun.net.www.MimeEntry)>
+  sun.net.www.MimeTable.find/r2, <sun.net.www.MimeTable: sun.net.www.MimeEntry find(java.lang.String)>
+  sun.net.www.MimeTable.find/r4, <sun.net.www.MimeTable: sun.net.www.MimeEntry find(java.lang.String)>
+  sun.net.www.MimeTable.findByFileName/$r4, <sun.net.www.MimeTable: sun.net.www.MimeEntry findByFileName(java.lang.String)>
+  sun.net.www.MimeTable.findByExt/$r4, <sun.net.www.MimeTable: sun.net.www.MimeEntry findByExt(java.lang.String)>
+  sun.net.www.MimeTable.findByDescription/r3, <sun.net.www.MimeTable: sun.net.www.MimeEntry findByDescription(java.lang.String)>
+  sun.net.www.MimeTable.findByDescription/$r6, <sun.net.www.MimeTable: sun.net.www.MimeEntry findByDescription(java.lang.String)>
+  sun.net.www.MimeTable.getTempFileTemplate/$r1, <sun.net.www.MimeTable: java.lang.String getTempFileTemplate()>
+  sun.net.www.MimeTable.elements/$r2, <sun.net.www.MimeTable: java.util.Enumeration elements()>
+  sun.net.www.MimeTable.getExtensions/r4, <sun.net.www.MimeTable: java.lang.String[] getExtensions(java.lang.String)>
+  sun.net.www.MimeTable.getAsProperties/r2, <sun.net.www.MimeTable: java.util.Properties getAsProperties()>
   java.net.UnknownContentHandler.getContent/$r2, <java.net.UnknownContentHandler: java.lang.Object getContent(java.net.URLConnection)>
   java.net.URLConnection$1.getContentTypeFor/$r3, <java.net.URLConnection$1: java.lang.String getContentTypeFor(java.lang.String)>
   java.util.Calendar.getTime/$r1, <java.util.Calendar: java.util.Date getTime()>
@@ -917,6 +1196,10 @@
   <java.util.TimeZone: java.lang.String getDisplayName(java.util.Locale)>/$r2, <java.util.TimeZone: java.lang.String getDisplayName(java.util.Locale)>
   <java.util.TimeZone: java.lang.String getDisplayName(boolean,int)>/$r2, <java.util.TimeZone: java.lang.String getDisplayName(boolean,int)>
   java.util.GregorianCalendar.getGregorianChange/$r1, <java.util.GregorianCalendar: java.util.Date getGregorianChange()>
+  sun.io.CharacterEncoding$2.run/$stringconstant3, <sun.io.CharacterEncoding$2: java.lang.Object run()>
+  sun.io.CharacterEncoding$2.run/$stringconstant4, <sun.io.CharacterEncoding$2: java.lang.Object run()>
+  sun.io.CharacterEncoding$1.run/$r2, <sun.io.CharacterEncoding$1: java.lang.Object run()>
+  sun.io.CharacterEncoding$1.run/$stringconstant3, <sun.io.CharacterEncoding$1: java.lang.Object run()>
   java.text.DateFormatSymbols.getEras/$r2, <java.text.DateFormatSymbols: java.lang.String[] getEras()>
   java.text.DateFormatSymbols.getMonths/$r2, <java.text.DateFormatSymbols: java.lang.String[] getMonths()>
   java.text.DateFormatSymbols.getShortMonths/$r2, <java.text.DateFormatSymbols: java.lang.String[] getShortMonths()>
@@ -991,6 +1274,10 @@
   java.text.DecimalFormatSymbols.getInternationalCurrencySymbol/$r1, <java.text.DecimalFormatSymbols: java.lang.String getInternationalCurrencySymbol()>
   java.text.DigitList.toString/$r7, <java.text.DigitList: java.lang.String toString()>
   java.text.DigitList.toString/$stringconstant0, <java.text.DigitList: java.lang.String toString()>
+  sun.misc.SoftCache$Entry.getKey/$r2, <sun.misc.SoftCache$Entry: java.lang.Object getKey()>
+  sun.misc.SoftCache$Entry.getValue/$r1, <sun.misc.SoftCache$Entry: java.lang.Object getValue()>
+  sun.misc.SoftCache$Entry.setValue/$r8, <sun.misc.SoftCache$Entry: java.lang.Object setValue(java.lang.Object)>
+  sun.misc.SoftCache$EntrySet.iterator/$r1, <sun.misc.SoftCache$EntrySet: java.util.Iterator iterator()>
   java.util.PropertyResourceBundle$1.nextElement/r1, <java.util.PropertyResourceBundle$1: java.lang.Object nextElement()>
   java.util.Collections$SingletonMap.get/$r3, <java.util.Collections$SingletonMap: java.lang.Object get(java.lang.Object)>
   java.util.Collections$SingletonMap.keySet/$r4, <java.util.Collections$SingletonMap: java.util.Set keySet()>
@@ -1044,11 +1331,34 @@
   java.security.Security$2.run/$r3, <java.security.Security$2: java.lang.Object run()>
   java.util.AbstractMap$3.iterator/$r1, <java.util.AbstractMap$3: java.util.Iterator iterator()>
   java.util.AbstractMap$1.iterator/$r1, <java.util.AbstractMap$1: java.util.Iterator iterator()>
+  sun.security.util.ManifestDigester.get/r2, <sun.security.util.ManifestDigester: sun.security.util.ManifestDigester$Entry get(java.lang.String,boolean)>
+  sun.security.util.ManifestDigester.manifestDigest/$r4, <sun.security.util.ManifestDigester: byte[] manifestDigest(java.security.MessageDigest)>
+  <sun.misc.CharacterDecoder: byte[] decodeBuffer(java.lang.String)>/$r7, <sun.misc.CharacterDecoder: byte[] decodeBuffer(java.lang.String)>
+  <sun.misc.CharacterDecoder: byte[] decodeBuffer(java.io.InputStream)>/$r4, <sun.misc.CharacterDecoder: byte[] decodeBuffer(java.io.InputStream)>
   java.security.Policy$1.run/$r1, <java.security.Policy$1: java.lang.Object run()>
+  sun.security.provider.PolicyFile.getInputStream/$r6, <sun.security.provider.PolicyFile: java.io.InputStream getInputStream(java.net.URL)>
+  sun.security.provider.PolicyFile.getInputStream/$r7, <sun.security.provider.PolicyFile: java.io.InputStream getInputStream(java.net.URL)>
+  sun.security.provider.PolicyFile.getCodeSource/$r19, <sun.security.provider.PolicyFile: java.security.CodeSource getCodeSource(sun.security.provider.PolicyParser$GrantEntry,java.security.KeyStore)>
+  sun.security.provider.PolicyFile.elements/$r2, <sun.security.provider.PolicyFile: java.util.Enumeration elements()>
+  <sun.security.provider.PolicyFile: java.security.PermissionCollection getPermissions(java.security.CodeSource)>/$r3, <sun.security.provider.PolicyFile: java.security.PermissionCollection getPermissions(java.security.CodeSource)>
+  <sun.security.provider.PolicyFile: java.security.PermissionCollection getPermissions(java.security.CodeSource)>/$r4, <sun.security.provider.PolicyFile: java.security.PermissionCollection getPermissions(java.security.CodeSource)>
+  <sun.security.provider.PolicyFile: java.security.Permissions getPermissions(java.security.Permissions,java.security.CodeSource)>/r1, <sun.security.provider.PolicyFile: java.security.Permissions getPermissions(java.security.Permissions,java.security.CodeSource)>
+  sun.security.provider.PolicyFile.getSignerCertificates/r3, <sun.security.provider.PolicyFile: java.security.cert.Certificate[] getSignerCertificates(java.security.CodeSource)>
+  sun.security.provider.PolicyFile.getSignerCertificates/r5, <sun.security.provider.PolicyFile: java.security.cert.Certificate[] getSignerCertificates(java.security.CodeSource)>
+  sun.security.provider.PolicyFile.getSignerCertificates/$r7, <sun.security.provider.PolicyFile: java.security.cert.Certificate[] getSignerCertificates(java.security.CodeSource)>
   java.net.URLClassLoader.getURLs/$r2, <java.net.URLClassLoader: java.net.URL[] getURLs()>
   java.net.URLClassLoader.definePackage/$r31, <java.net.URLClassLoader: java.lang.Package definePackage(java.lang.String,java.util.jar.Manifest,java.net.URL)>
   java.net.URLClassLoader.findResource/$r8, <java.net.URLClassLoader: java.net.URL findResource(java.lang.String)>
   java.net.URLClassLoader.findResources/$r4, <java.net.URLClassLoader: java.util.Enumeration findResources(java.lang.String)>
+  sun.misc.Launcher$2.run/$r1, <sun.misc.Launcher$2: java.lang.Object run()>
+  sun.misc.PathPermissions.getCodeBase/$r1, <sun.misc.PathPermissions: java.net.URL getCodeBase()>
+  sun.misc.PathPermissions.elements/$r3, <sun.misc.PathPermissions: java.util.Enumeration elements()>
+  sun.misc.PathPermissions.toString/$r3, <sun.misc.PathPermissions: java.lang.String toString()>
+  sun.misc.Launcher$3.run/$r5, <sun.misc.Launcher$3: java.lang.Object run()>
+  sun.misc.URLClassPath$3.getName/$r1, <sun.misc.URLClassPath$3: java.lang.String getName()>
+  sun.misc.URLClassPath$3.getURL/$r1, <sun.misc.URLClassPath$3: java.net.URL getURL()>
+  sun.misc.URLClassPath$3.getCodeSourceURL/$r2, <sun.misc.URLClassPath$3: java.net.URL getCodeSourceURL()>
+  sun.misc.URLClassPath$3.getInputStream/$r2, <sun.misc.URLClassPath$3: java.io.InputStream getInputStream()>
   java.net.HttpURLConnection.getRequestMethod/$r1, <java.net.HttpURLConnection: java.lang.String getRequestMethod()>
   java.net.HttpURLConnection.getResponseMessage/$r1, <java.net.HttpURLConnection: java.lang.String getResponseMessage()>
   java.net.HttpURLConnection.getPermission/r2, <java.net.HttpURLConnection: java.security.Permission getPermission()>
@@ -1061,6 +1371,13 @@
   java.util.jar.JarFile.getInputStream/$r4, <java.util.jar.JarFile: java.io.InputStream getInputStream(java.util.zip.ZipEntry)>
   java.util.jar.JarFile.getInputStream/$r6, <java.util.jar.JarFile: java.io.InputStream getInputStream(java.util.zip.ZipEntry)>
   java.util.jar.JarFile.getInputStream/$r7, <java.util.jar.JarFile: java.io.InputStream getInputStream(java.util.zip.ZipEntry)>
+  sun.misc.URLClassPath$6.getName/$r1, <sun.misc.URLClassPath$6: java.lang.String getName()>
+  sun.misc.URLClassPath$6.getURL/$r1, <sun.misc.URLClassPath$6: java.net.URL getURL()>
+  sun.misc.URLClassPath$6.getCodeSourceURL/$r2, <sun.misc.URLClassPath$6: java.net.URL getCodeSourceURL()>
+  sun.misc.URLClassPath$6.getInputStream/$r1, <sun.misc.URLClassPath$6: java.io.InputStream getInputStream()>
+  sun.misc.JarIndex.getJarFiles/$r1, <sun.misc.JarIndex: java.lang.String[] getJarFiles()>
+  sun.misc.JarIndex.get/r5, <sun.misc.JarIndex: java.util.LinkedList get(java.lang.String)>
+  sun.misc.ExtensionDependency.getInstalledExtensions/$r3, <sun.misc.ExtensionDependency: java.io.File[] getInstalledExtensions()>
   java.util.LinkedList.removeFirst/r1, <java.util.LinkedList: java.lang.Object removeFirst()>
   java.util.LinkedList.removeLast/r1, <java.util.LinkedList: java.lang.Object removeLast()>
   java.util.LinkedList.get/$r2, <java.util.LinkedList: java.lang.Object get(int)>
@@ -1070,6 +1387,23 @@
   java.util.LinkedList.addBefore/r4, <java.util.LinkedList: java.util.LinkedList$Entry addBefore(java.lang.Object,java.util.LinkedList$Entry)>
   <java.util.LinkedList: java.lang.Object[] toArray()>/r1, <java.util.LinkedList: java.lang.Object[] toArray()>
   <java.util.LinkedList: java.lang.Object[] toArray(java.lang.Object[])>/r1, <java.util.LinkedList: java.lang.Object[] toArray(java.lang.Object[])>
+  sun.misc.URLClassPath$5.run/$r1, <sun.misc.URLClassPath$5: java.lang.Object run()>
+  sun.misc.URLClassPath$4.getName/$r1, <sun.misc.URLClassPath$4: java.lang.String getName()>
+  sun.misc.URLClassPath$4.getURL/$r1, <sun.misc.URLClassPath$4: java.net.URL getURL()>
+  sun.misc.URLClassPath$4.getCodeSourceURL/$r2, <sun.misc.URLClassPath$4: java.net.URL getCodeSourceURL()>
+  sun.misc.URLClassPath$4.getInputStream/$r4, <sun.misc.URLClassPath$4: java.io.InputStream getInputStream()>
+  sun.misc.URLClassPath$4.getManifest/$r3, <sun.misc.URLClassPath$4: java.util.jar.Manifest getManifest()>
+  sun.misc.URLClassPath$4.getCertificates/$r2, <sun.misc.URLClassPath$4: java.security.cert.Certificate[] getCertificates()>
+  sun.net.www.MimeEntry.getType/$r1, <sun.net.www.MimeEntry: java.lang.String getType()>
+  sun.net.www.MimeEntry.getLaunchString/$r1, <sun.net.www.MimeEntry: java.lang.String getLaunchString()>
+  sun.net.www.MimeEntry.getDescription/$r2, <sun.net.www.MimeEntry: java.lang.String getDescription()>
+  sun.net.www.MimeEntry.getImageFileName/$r1, <sun.net.www.MimeEntry: java.lang.String getImageFileName()>
+  sun.net.www.MimeEntry.getTempFileTemplate/$r1, <sun.net.www.MimeEntry: java.lang.String getTempFileTemplate()>
+  sun.net.www.MimeEntry.getExtensions/$r1, <sun.net.www.MimeEntry: java.lang.String[] getExtensions()>
+  sun.net.www.MimeEntry.getExtensionsAsList/r1, <sun.net.www.MimeEntry: java.lang.String getExtensionsAsList()>
+  sun.net.www.MimeEntry.clone/r2, <sun.net.www.MimeEntry: java.lang.Object clone()>
+  sun.net.www.MimeEntry.toProperty/$r41, <sun.net.www.MimeEntry: java.lang.String toProperty()>
+  sun.net.www.MimeEntry.toString/$r17, <sun.net.www.MimeEntry: java.lang.String toString()>
   java.math.MutableBigInteger.toIntArray/r1, <java.math.MutableBigInteger: int[] toIntArray()>
   java.math.MutableBigInteger.toString/$r3, <java.math.MutableBigInteger: java.lang.String toString()>
   java.math.MutableBigInteger.hybridGCD/r2, <java.math.MutableBigInteger: java.math.MutableBigInteger hybridGCD(java.math.MutableBigInteger)>
@@ -1088,6 +1422,34 @@
   java.util.Collections$2.previous/$r2, <java.util.Collections$2: java.lang.Object previous()>
   java.util.AbstractMap$4.next/$r4, <java.util.AbstractMap$4: java.lang.Object next()>
   java.util.AbstractMap$2.next/$r4, <java.util.AbstractMap$2: java.lang.Object next()>
+  <sun.security.pkcs.PKCS7: sun.security.pkcs.SignerInfo verify(sun.security.pkcs.SignerInfo,byte[])>/$r3, <sun.security.pkcs.PKCS7: sun.security.pkcs.SignerInfo verify(sun.security.pkcs.SignerInfo,byte[])>
+  <sun.security.pkcs.PKCS7: sun.security.pkcs.SignerInfo[] verify(byte[])>/r8, <sun.security.pkcs.PKCS7: sun.security.pkcs.SignerInfo[] verify(byte[])>
+  <sun.security.pkcs.PKCS7: sun.security.pkcs.SignerInfo[] verify()>/$r1, <sun.security.pkcs.PKCS7: sun.security.pkcs.SignerInfo[] verify()>
+  sun.security.pkcs.PKCS7.getVersion/$r1, <sun.security.pkcs.PKCS7: sun.security.util.BigInt getVersion()>
+  sun.security.pkcs.PKCS7.getDigestAlgorithmIds/$r1, <sun.security.pkcs.PKCS7: sun.security.x509.AlgorithmId[] getDigestAlgorithmIds()>
+  sun.security.pkcs.PKCS7.getContentInfo/$r1, <sun.security.pkcs.PKCS7: sun.security.pkcs.ContentInfo getContentInfo()>
+  sun.security.pkcs.PKCS7.getCertificates/$r3, <sun.security.pkcs.PKCS7: java.security.cert.X509Certificate[] getCertificates()>
+  sun.security.pkcs.PKCS7.getCRLs/$r1, <sun.security.pkcs.PKCS7: java.security.cert.X509CRL[] getCRLs()>
+  sun.security.pkcs.PKCS7.getSignerInfos/$r1, <sun.security.pkcs.PKCS7: sun.security.pkcs.SignerInfo[] getSignerInfos()>
+  sun.security.pkcs.PKCS7.getCertificate/r3, <sun.security.pkcs.PKCS7: java.security.cert.X509Certificate getCertificate(sun.security.util.BigInt,sun.security.x509.X500Name)>
+  sun.security.pkcs.PKCS7.toString/r7, <sun.security.pkcs.PKCS7: java.lang.String toString()>
+  sun.security.pkcs.SignerInfo.getCertificate/$r4, <sun.security.pkcs.SignerInfo: java.security.cert.X509Certificate getCertificate(sun.security.pkcs.PKCS7)>
+  sun.security.pkcs.SignerInfo.getCertificateChain/r3, <sun.security.pkcs.SignerInfo: java.util.ArrayList getCertificateChain(sun.security.pkcs.PKCS7)>
+  <sun.security.pkcs.SignerInfo: sun.security.pkcs.SignerInfo verify(sun.security.pkcs.PKCS7)>/$r2, <sun.security.pkcs.SignerInfo: sun.security.pkcs.SignerInfo verify(sun.security.pkcs.PKCS7)>
+  sun.security.pkcs.SignerInfo.getVersion/$r1, <sun.security.pkcs.SignerInfo: sun.security.util.BigInt getVersion()>
+  sun.security.pkcs.SignerInfo.getIssuerName/$r1, <sun.security.pkcs.SignerInfo: sun.security.x509.X500Name getIssuerName()>
+  sun.security.pkcs.SignerInfo.getCertificateSerialNumber/$r1, <sun.security.pkcs.SignerInfo: sun.security.util.BigInt getCertificateSerialNumber()>
+  sun.security.pkcs.SignerInfo.getDigestAlgorithmId/$r1, <sun.security.pkcs.SignerInfo: sun.security.x509.AlgorithmId getDigestAlgorithmId()>
+  sun.security.pkcs.SignerInfo.getAuthenticatedAttributes/$r1, <sun.security.pkcs.SignerInfo: sun.security.pkcs.PKCS9Attributes getAuthenticatedAttributes()>
+  sun.security.pkcs.SignerInfo.getDigestEncryptionAlgorithmId/$r1, <sun.security.pkcs.SignerInfo: sun.security.x509.AlgorithmId getDigestEncryptionAlgorithmId()>
+  sun.security.pkcs.SignerInfo.getEncryptedDigest/$r1, <sun.security.pkcs.SignerInfo: byte[] getEncryptedDigest()>
+  sun.security.pkcs.SignerInfo.getUnauthenticatedAttributes/$r1, <sun.security.pkcs.SignerInfo: sun.security.pkcs.PKCS9Attributes getUnauthenticatedAttributes()>
+  sun.security.pkcs.SignerInfo.toString/r53, <sun.security.pkcs.SignerInfo: java.lang.String toString()>
+  sun.security.pkcs.ContentInfo.getContent/$r1, <sun.security.pkcs.ContentInfo: sun.security.util.DerValue getContent()>
+  sun.security.pkcs.ContentInfo.getContentBytes/$r6, <sun.security.pkcs.ContentInfo: byte[] getContentBytes()>
+  sun.security.pkcs.ContentInfo.toString/r14, <sun.security.pkcs.ContentInfo: java.lang.String toString()>
+  sun.security.util.ManifestDigester$Entry.digest/$r4, <sun.security.util.ManifestDigester$Entry: byte[] digest(java.security.MessageDigest)>
+  sun.security.util.ManifestDigester$Entry.digestWorkaround/$r3, <sun.security.util.ManifestDigester$Entry: byte[] digestWorkaround(java.security.MessageDigest)>
   <java.security.IdentityScope: java.security.Identity getIdentity(java.security.Principal)>/$r3, <java.security.IdentityScope: java.security.Identity getIdentity(java.security.Principal)>
   java.security.IdentityScope.toString/$r7, <java.security.IdentityScope: java.lang.String toString()>
   java.security.KeyStore.getProvider/$r1, <java.security.KeyStore: java.security.Provider getProvider()>
@@ -1104,6 +1466,29 @@
   java.security.Identity.printKeys/r3, <java.security.Identity: java.lang.String printKeys()>
   java.security.Identity.printCertificates/r8, <java.security.Identity: java.lang.String printCertificates()>
   java.security.Identity.printCertificates/$stringconstant0, <java.security.Identity: java.lang.String printCertificates()>
+  sun.security.provider.PolicyParser$GrantEntry.permissionElements/$r2, <sun.security.provider.PolicyParser$GrantEntry: java.util.Enumeration permissionElements()>
+  sun.security.provider.PolicyParser.expand/r1, <sun.security.provider.PolicyParser: java.lang.String expand(java.lang.String)>
+  sun.security.provider.PolicyParser.expand/$r2, <sun.security.provider.PolicyParser: java.lang.String expand(java.lang.String)>
+  sun.security.provider.PolicyParser.getKeyStoreType/$r1, <sun.security.provider.PolicyParser: java.lang.String getKeyStoreType()>
+  sun.security.provider.PolicyParser.grantElements/$r2, <sun.security.provider.PolicyParser: java.util.Enumeration grantElements()>
+  sun.security.provider.PolicyParser.parsePermissionEntry/r2, <sun.security.provider.PolicyParser: sun.security.provider.PolicyParser$PermissionEntry parsePermissionEntry()>
+  sun.security.provider.PolicyFile$3.run/$r4, <sun.security.provider.PolicyFile$3: java.lang.Object run()>
+  sun.security.provider.PolicyFile$2.run/$r1, <sun.security.provider.PolicyFile$2: java.lang.Object run()>
+  sun.security.provider.PolicyPermissions.elements/$r2, <sun.security.provider.PolicyPermissions: java.util.Enumeration elements()>
+  sun.security.provider.PolicyPermissions.toString/$r2, <sun.security.provider.PolicyPermissions: java.lang.String toString()>
+  sun.net.www.ParseUtil.canonizeString/r1, <sun.net.www.ParseUtil: java.lang.String canonizeString(java.lang.String)>
+  sun.security.provider.SystemSigner.getSignerPrivateKey/$r1, <sun.security.provider.SystemSigner: java.security.PrivateKey getSignerPrivateKey()>
+  sun.security.provider.SystemSigner.toString/$r8, <sun.security.provider.SystemSigner: java.lang.String toString()>
+  <sun.security.provider.IdentityDatabase: java.security.Identity getIdentity(java.lang.String)>/r2, <sun.security.provider.IdentityDatabase: java.security.Identity getIdentity(java.lang.String)>
+  <sun.security.provider.IdentityDatabase: java.security.Identity getIdentity(java.security.PublicKey)>/r3, <sun.security.provider.IdentityDatabase: java.security.Identity getIdentity(java.security.PublicKey)>
+  sun.security.provider.IdentityDatabase.identities/$r2, <sun.security.provider.IdentityDatabase: java.util.Enumeration identities()>
+  sun.security.provider.IdentityDatabase.getSourceFile/$r1, <sun.security.provider.IdentityDatabase: java.io.File getSourceFile()>
+  sun.security.provider.IdentityDatabase.toString/$r5, <sun.security.provider.IdentityDatabase: java.lang.String toString()>
+  sun.security.provider.IdentityDatabase.localFullName/r1, <sun.security.provider.IdentityDatabase: java.lang.String localFullName()>
+  sun.security.provider.SystemIdentity.getIndentityInfo/$r1, <sun.security.provider.SystemIdentity: java.lang.String getIndentityInfo()>
+  sun.security.provider.SystemIdentity.toString/$r8, <sun.security.provider.SystemIdentity: java.lang.String toString()>
+  sun.security.provider.PolicyFile$PolicyEntry.getCodeSource/$r1, <sun.security.provider.PolicyFile$PolicyEntry: java.security.CodeSource getCodeSource()>
+  sun.security.provider.PolicyFile$PolicyEntry.toString/$r15, <sun.security.provider.PolicyFile$PolicyEntry: java.lang.String toString()>
   java.security.SecureClassLoader.defineClass/$r4, <java.security.SecureClassLoader: java.lang.Class defineClass(java.lang.String,byte[],int,int,java.security.CodeSource)>
   java.security.SecureClassLoader.defineClass/$r6, <java.security.SecureClassLoader: java.lang.Class defineClass(java.lang.String,byte[],int,int,java.security.CodeSource)>
   java.security.SecureClassLoader.getPermissions/r3, <java.security.SecureClassLoader: java.security.PermissionCollection getPermissions(java.security.CodeSource)>
@@ -1115,15 +1500,107 @@
   java.util.jar.JarFile$JarFileEntry.getAttributes/$r4, <java.util.jar.JarFile$JarFileEntry: java.util.jar.Attributes getAttributes()>
   java.util.jar.JarFile$JarFileEntry.getCertificates/$r10, <java.util.jar.JarFile$JarFileEntry: java.security.cert.Certificate[] getCertificates()>
   java.util.jar.JarFile$1.nextElement/$r4, <java.util.jar.JarFile$1: java.lang.Object nextElement()>
+  sun.misc.ExtensionInfo.toString/$r21, <sun.misc.ExtensionInfo: java.lang.String toString()>
+  sun.net.www.MimeLauncher.getTempFileName/r24, <sun.net.www.MimeLauncher: java.lang.String getTempFileName(java.net.URL,java.lang.String)>
   java.math.SignedMutableBigInteger.toString/$r3, <java.math.SignedMutableBigInteger: java.lang.String toString()>
   java.util.Collections$3.next/$r1, <java.util.Collections$3: java.lang.Object next()>
   java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry.getKey/$r2, <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry: java.lang.Object getKey()>
   java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry.getValue/$r2, <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry: java.lang.Object getValue()>
   java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry.toString/$r2, <java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry: java.lang.String toString()>
+  sun.security.util.BigInt.toString/$r1, <sun.security.util.BigInt: java.lang.String toString()>
+  sun.security.util.BigInt.toBigInteger/$r1, <sun.security.util.BigInt: java.math.BigInteger toBigInteger()>
+  sun.security.util.BigInt.toByteArray/$r3, <sun.security.util.BigInt: byte[] toByteArray()>
+  sun.security.util.BigInt.hexify/$r16, <sun.security.util.BigInt: java.lang.String hexify()>
+  sun.security.util.BigInt.hexify/$stringconstant0, <sun.security.util.BigInt: java.lang.String hexify()>
+  sun.security.x509.X500Name.getCountry/$r3, <sun.security.x509.X500Name: java.lang.String getCountry()>
+  sun.security.x509.X500Name.getOrganization/$r3, <sun.security.x509.X500Name: java.lang.String getOrganization()>
+  sun.security.x509.X500Name.getOrganizationalUnit/$r3, <sun.security.x509.X500Name: java.lang.String getOrganizationalUnit()>
+  sun.security.x509.X500Name.getCommonName/$r3, <sun.security.x509.X500Name: java.lang.String getCommonName()>
+  sun.security.x509.X500Name.getLocality/$r3, <sun.security.x509.X500Name: java.lang.String getLocality()>
+  sun.security.x509.X500Name.getState/$r3, <sun.security.x509.X500Name: java.lang.String getState()>
+  sun.security.x509.X500Name.getDomain/$r3, <sun.security.x509.X500Name: java.lang.String getDomain()>
+  sun.security.x509.X500Name.getDNQualifier/$r3, <sun.security.x509.X500Name: java.lang.String getDNQualifier()>
+  sun.security.x509.X500Name.getSurname/$r3, <sun.security.x509.X500Name: java.lang.String getSurname()>
+  sun.security.x509.X500Name.getGivenName/$r3, <sun.security.x509.X500Name: java.lang.String getGivenName()>
+  sun.security.x509.X500Name.getInitials/$r3, <sun.security.x509.X500Name: java.lang.String getInitials()>
+  sun.security.x509.X500Name.getGeneration/$r3, <sun.security.x509.X500Name: java.lang.String getGeneration()>
+  sun.security.x509.X500Name.getIP/$r3, <sun.security.x509.X500Name: java.lang.String getIP()>
+  sun.security.x509.X500Name.toString/$r2, <sun.security.x509.X500Name: java.lang.String toString()>
+  sun.security.x509.X500Name.getName/$r1, <sun.security.x509.X500Name: java.lang.String getName()>
+  sun.security.x509.X500Name.findAttribute/r2, <sun.security.x509.X500Name: sun.security.util.DerValue findAttribute(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.getEncoded/$r9, <sun.security.x509.X500Name: byte[] getEncoded()>
+  sun.security.x509.AlgorithmId.getParameters/$r1, <sun.security.x509.AlgorithmId: java.security.AlgorithmParameters getParameters()>
+  <sun.security.x509.AlgorithmId: byte[] encode()>/$r8, <sun.security.x509.AlgorithmId: byte[] encode()>
+  sun.security.x509.AlgorithmId.algName/$r34, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.algName/$stringconstant0, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.algName/$stringconstant1, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.algName/$stringconstant2, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.algName/$stringconstant3, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.algName/$stringconstant4, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.algName/$stringconstant5, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.algName/$stringconstant6, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.algName/$stringconstant7, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.algName/$stringconstant8, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.algName/$stringconstant9, <sun.security.x509.AlgorithmId: java.lang.String algName()>
+  sun.security.x509.AlgorithmId.getOID/$r1, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier getOID()>
+  sun.security.x509.AlgorithmId.getName/$r1, <sun.security.x509.AlgorithmId: java.lang.String getName()>
+  sun.security.x509.AlgorithmId.toString/$r6, <sun.security.x509.AlgorithmId: java.lang.String toString()>
+  sun.security.x509.AlgorithmId.getEncodedParams/$r3, <sun.security.x509.AlgorithmId: byte[] getEncodedParams()>
+  sun.security.x509.AlgorithmId.paramsToString/$r4, <sun.security.x509.AlgorithmId: java.lang.String paramsToString()>
+  sun.security.x509.AlgorithmId.paramsToString/$stringconstant0, <sun.security.x509.AlgorithmId: java.lang.String paramsToString()>
+  sun.security.x509.AlgorithmId.paramsToString/$stringconstant1, <sun.security.x509.AlgorithmId: java.lang.String paramsToString()>
+  sun.security.pkcs.PKCS9Attributes.generateDerEncoding/$r7, <sun.security.pkcs.PKCS9Attributes: byte[] generateDerEncoding()>
+  sun.security.pkcs.PKCS9Attributes.getDerEncoding/$r3, <sun.security.pkcs.PKCS9Attributes: byte[] getDerEncoding()>
+  <sun.security.pkcs.PKCS9Attributes: sun.security.pkcs.PKCS9Attribute getAttribute(sun.security.util.ObjectIdentifier)>/$r4, <sun.security.pkcs.PKCS9Attributes: sun.security.pkcs.PKCS9Attribute getAttribute(sun.security.util.ObjectIdentifier)>
+  <sun.security.pkcs.PKCS9Attributes: sun.security.pkcs.PKCS9Attribute getAttribute(java.lang.String)>/$r5, <sun.security.pkcs.PKCS9Attributes: sun.security.pkcs.PKCS9Attribute getAttribute(java.lang.String)>
+  sun.security.pkcs.PKCS9Attributes.getAttributes/r1, <sun.security.pkcs.PKCS9Attributes: sun.security.pkcs.PKCS9Attribute[] getAttributes()>
+  sun.security.pkcs.PKCS9Attributes.toString/$r12, <sun.security.pkcs.PKCS9Attributes: java.lang.String toString()>
+  sun.security.util.DerInputStream.subStream/$r4, <sun.security.util.DerInputStream: sun.security.util.DerInputStream subStream(int,boolean)>
+  sun.security.util.DerInputStream.toByteArray/$r2, <sun.security.util.DerInputStream: byte[] toByteArray()>
+  sun.security.util.DerInputStream.getOID/$r1, <sun.security.util.DerInputStream: sun.security.util.ObjectIdentifier getOID()>
+  sun.security.util.DerInputStream.getDerValue/$r1, <sun.security.util.DerInputStream: sun.security.util.DerValue getDerValue()>
+  sun.security.util.DerInputStream.getUTF8String/$r1, <sun.security.util.DerInputStream: java.lang.String getUTF8String()>
+  sun.security.util.DerInputStream.getPrintableString/$r1, <sun.security.util.DerInputStream: java.lang.String getPrintableString()>
+  sun.security.util.DerInputStream.getT61String/$r1, <sun.security.util.DerInputStream: java.lang.String getT61String()>
+  sun.security.util.DerInputStream.getIA5String/$r1, <sun.security.util.DerInputStream: java.lang.String getIA5String()>
+  sun.security.util.DerInputStream.getBMPString/$r1, <sun.security.util.DerInputStream: java.lang.String getBMPString()>
+  sun.security.util.DerValue.getAsString/$r1, <sun.security.util.DerValue: java.lang.String getAsString()>
+  sun.security.util.DerValue.getAsString/$r2, <sun.security.util.DerValue: java.lang.String getAsString()>
+  sun.security.util.DerValue.getAsString/$r3, <sun.security.util.DerValue: java.lang.String getAsString()>
+  sun.security.util.DerValue.getAsString/$r4, <sun.security.util.DerValue: java.lang.String getAsString()>
+  sun.security.util.DerValue.getAsString/$r5, <sun.security.util.DerValue: java.lang.String getAsString()>
+  sun.security.util.DerValue.getDataBytes/r1, <sun.security.util.DerValue: byte[] getDataBytes()>
+  sun.security.util.DerValue.toByteArray/$r4, <sun.security.util.DerValue: byte[] toByteArray()>
+  sun.security.x509.KeyUsageExtension.getElements/$r3, <sun.security.x509.KeyUsageExtension: java.util.Enumeration getElements()>
+  sun.security.x509.KeyUsageExtension.getBits/$r3, <sun.security.x509.KeyUsageExtension: boolean[] getBits()>
+  sun.security.x509.KeyUsageExtension.getName/$stringconstant0, <sun.security.x509.KeyUsageExtension: java.lang.String getName()>
   java.security.Signature.getProvider/$r1, <java.security.Signature: java.security.Provider getProvider()>
   java.security.Signature.getAlgorithm/$r1, <java.security.Signature: java.lang.String getAlgorithm()>
   java.security.Signature.toString/$r7, <java.security.Signature: java.lang.String toString()>
   java.security.Signature.getParameter/$r2, <java.security.Signature: java.lang.Object getParameter(java.lang.String)>
+  sun.security.pkcs.PKCS9Attribute.getValue/$r1, <sun.security.pkcs.PKCS9Attribute: java.lang.Object getValue()>
+  <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier getOID()>/$r2, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier getOID()>
+  <sun.security.pkcs.PKCS9Attribute: java.lang.String getName()>/$r5, <sun.security.pkcs.PKCS9Attribute: java.lang.String getName()>
+  sun.security.pkcs.PKCS9Attribute.toString/$r23, <sun.security.pkcs.PKCS9Attribute: java.lang.String toString()>
+  sun.security.pkcs.PKCS9Attribute.toString/$r29, <sun.security.pkcs.PKCS9Attribute: java.lang.String toString()>
+  sun.security.util.ObjectIdentifier.toString/r1, <sun.security.util.ObjectIdentifier: java.lang.String toString()>
+  sun.security.x509.X509CertImpl.getElements/$r3, <sun.security.x509.X509CertImpl: java.util.Enumeration getElements()>
+  sun.security.x509.X509CertImpl.getName/$stringconstant0, <sun.security.x509.X509CertImpl: java.lang.String getName()>
+  sun.security.x509.X509CertImpl.toString/$r32, <sun.security.x509.X509CertImpl: java.lang.String toString()>
+  sun.security.x509.X509CertImpl.toString/$stringconstant0, <sun.security.x509.X509CertImpl: java.lang.String toString()>
+  sun.security.x509.X509CertImpl.getSignature/r1, <sun.security.x509.X509CertImpl: byte[] getSignature()>
+  sun.security.x509.X509CertImpl.getSigAlgName/$r3, <sun.security.x509.X509CertImpl: java.lang.String getSigAlgName()>
+  sun.security.x509.X509CertImpl.getSigAlgOID/$r4, <sun.security.x509.X509CertImpl: java.lang.String getSigAlgOID()>
+  sun.security.x509.X509CRLImpl.getIssuerDN/$r1, <sun.security.x509.X509CRLImpl: java.security.Principal getIssuerDN()>
+  sun.security.x509.X509CRLImpl.getThisUpdate/$r1, <sun.security.x509.X509CRLImpl: java.util.Date getThisUpdate()>
+  sun.security.x509.X509CRLImpl.getNextUpdate/$r2, <sun.security.x509.X509CRLImpl: java.util.Date getNextUpdate()>
+  sun.security.x509.X509CRLImpl.getRevokedCertificate/$r6, <sun.security.x509.X509CRLImpl: java.security.cert.X509CRLEntry getRevokedCertificate(java.math.BigInteger)>
+  sun.security.x509.X509CRLImpl.getRevokedCertificates/r1, <sun.security.x509.X509CRLImpl: java.util.Set getRevokedCertificates()>
+  sun.security.x509.X509CRLImpl.getSignature/r1, <sun.security.x509.X509CRLImpl: byte[] getSignature()>
+  sun.security.x509.X509CRLImpl.getSigAlgName/$r3, <sun.security.x509.X509CRLImpl: java.lang.String getSigAlgName()>
+  sun.security.x509.X509CRLImpl.getSigAlgOID/$r4, <sun.security.x509.X509CRLImpl: java.lang.String getSigAlgOID()>
+  sun.security.x509.X509CRLImpl.getCriticalExtensionOIDs/r1, <sun.security.x509.X509CRLImpl: java.util.Set getCriticalExtensionOIDs()>
+  sun.security.x509.X509CRLImpl.getNonCriticalExtensionOIDs/r1, <sun.security.x509.X509CRLImpl: java.util.Set getNonCriticalExtensionOIDs()>
   java.io.StreamTokenizer.toString/$r13, <java.io.StreamTokenizer: java.lang.String toString()>
   java.security.KeyStore$1.run/$r1, <java.security.KeyStore$1: java.lang.Object run()>
   java.security.IdentityScope$1.run/$r1, <java.security.IdentityScope$1: java.lang.Object run()>
@@ -1135,15 +1612,98 @@
   java.security.KeyPair.getPrivate/$r1, <java.security.KeyPair: java.security.PrivateKey getPrivate()>
   java.net.URLClassLoader$4.run/$r5, <java.net.URLClassLoader$4: java.lang.Object run()>
   java.net.FactoryURLClassLoader.loadClass/$r5, <java.net.FactoryURLClassLoader: java.lang.Class loadClass(java.lang.String,boolean)>
+  sun.security.util.DerInputBuffer.toByteArray/r1, <sun.security.util.DerInputBuffer: byte[] toByteArray()>
+  sun.security.util.DerInputBuffer.getBitString/r1, <sun.security.util.DerInputBuffer: byte[] getBitString()>
+  sun.security.util.DerInputBuffer.getUnalignedBitString/r2, <sun.security.util.DerInputBuffer: sun.security.util.BitArray getUnalignedBitString()>
+  sun.security.util.BitArray.toByteArray/$r3, <sun.security.util.BitArray: byte[] toByteArray()>
+  sun.security.util.BitArray.toBooleanArray/r1, <sun.security.util.BitArray: boolean[] toBooleanArray()>
+  sun.security.util.BitArray.clone/$r1, <sun.security.util.BitArray: java.lang.Object clone()>
+  sun.security.util.BitArray.toString/$r12, <sun.security.util.BitArray: java.lang.String toString()>
+  sun.security.util.DerIndefLenConverter.getLengthBytes/r1, <sun.security.util.DerIndefLenConverter: byte[] getLengthBytes(int)>
+  sun.security.util.DerIndefLenConverter.convert/$r4, <sun.security.util.DerIndefLenConverter: byte[] convert(byte[])>
+  sun.security.x509.Extension.getExtensionId/$r1, <sun.security.x509.Extension: sun.security.util.ObjectIdentifier getExtensionId()>
+  sun.security.x509.Extension.getExtensionValue/r1, <sun.security.x509.Extension: byte[] getExtensionValue()>
+  sun.security.x509.Extension.toString/r10, <sun.security.x509.Extension: java.lang.String toString()>
   java.security.SecureRandom.getSecureRandomSpi/$r1, <java.security.SecureRandom: java.security.SecureRandomSpi getSecureRandomSpi()>
   java.security.SecureRandom.getProvider/$r1, <java.security.SecureRandom: java.security.Provider getProvider()>
   java.security.SecureRandom.generateSeed/$r2, <java.security.SecureRandom: byte[] generateSeed(int)>
   <java.security.Signature$Delegate: byte[] engineSign()>/$r2, <java.security.Signature$Delegate: byte[] engineSign()>
   java.security.Signature$Delegate.engineGetParameter/$r3, <java.security.Signature$Delegate: java.lang.Object engineGetParameter(java.lang.String)>
   java.lang.ExceptionInInitializerError.getException/$r1, <java.lang.ExceptionInInitializerError: java.lang.Throwable getException()>
+  sun.security.x509.CertificateExtensions.getElements/$r2, <sun.security.x509.CertificateExtensions: java.util.Enumeration getElements()>
+  sun.security.x509.CertificateExtensions.getAllExtensions/$r2, <sun.security.x509.CertificateExtensions: java.util.Collection getAllExtensions()>
+  sun.security.x509.CertificateExtensions.getName/$stringconstant0, <sun.security.x509.CertificateExtensions: java.lang.String getName()>
+  sun.security.x509.CertificateExtensions.toString/$r2, <sun.security.x509.CertificateExtensions: java.lang.String toString()>
   java.security.AlgorithmParameters.getAlgorithm/$r1, <java.security.AlgorithmParameters: java.lang.String getAlgorithm()>
   java.security.AlgorithmParameters.getProvider/$r1, <java.security.AlgorithmParameters: java.security.Provider getProvider()>
   java.security.AlgorithmParameters.toString/$r2, <java.security.AlgorithmParameters: java.lang.String toString()>
+  sun.security.x509.RDN.findAttribute/$r7, <sun.security.x509.RDN: sun.security.util.DerValue findAttribute(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.RDN.toString/r1, <sun.security.x509.RDN: java.lang.String toString()>
+  sun.security.x509.X509CertInfo.getElements/$r3, <sun.security.x509.X509CertInfo: java.util.Enumeration getElements()>
+  sun.security.x509.X509CertInfo.getName/$stringconstant0, <sun.security.x509.X509CertInfo: java.lang.String getName()>
+  sun.security.x509.UniqueIdentity.toString/$r7, <sun.security.x509.UniqueIdentity: java.lang.String toString()>
+  sun.security.x509.UniqueIdentity.getId/$r3, <sun.security.x509.UniqueIdentity: boolean[] getId()>
+  sun.security.x509.CertificateValidity.getNotBefore/$r1, <sun.security.x509.CertificateValidity: java.util.Date getNotBefore()>
+  sun.security.x509.CertificateValidity.getNotAfter/$r1, <sun.security.x509.CertificateValidity: java.util.Date getNotAfter()>
+  sun.security.x509.CertificateValidity.toString/$r13, <sun.security.x509.CertificateValidity: java.lang.String toString()>
+  sun.security.x509.CertificateValidity.toString/$stringconstant0, <sun.security.x509.CertificateValidity: java.lang.String toString()>
+  sun.security.x509.CertificateValidity.getElements/$r3, <sun.security.x509.CertificateValidity: java.util.Enumeration getElements()>
+  sun.security.x509.CertificateValidity.getName/$stringconstant0, <sun.security.x509.CertificateValidity: java.lang.String getName()>
+  sun.security.x509.BasicConstraintsExtension.toString/$r24, <sun.security.x509.BasicConstraintsExtension: java.lang.String toString()>
+  sun.security.x509.BasicConstraintsExtension.getElements/$r3, <sun.security.x509.BasicConstraintsExtension: java.util.Enumeration getElements()>
+  sun.security.x509.BasicConstraintsExtension.getName/$stringconstant0, <sun.security.x509.BasicConstraintsExtension: java.lang.String getName()>
+  sun.security.x509.X509AttributeName.getPrefix/$r1, <sun.security.x509.X509AttributeName: java.lang.String getPrefix()>
+  sun.security.x509.X509AttributeName.getSuffix/$r1, <sun.security.x509.X509AttributeName: java.lang.String getSuffix()>
+  sun.security.x509.SerialNumber.toString/$r7, <sun.security.x509.SerialNumber: java.lang.String toString()>
+  sun.security.x509.SerialNumber.getNumber/$r1, <sun.security.x509.SerialNumber: sun.security.util.BigInt getNumber()>
+  sun.security.x509.CRLExtensions.get/$r8, <sun.security.x509.CRLExtensions: sun.security.x509.Extension get(java.lang.String)>
+  sun.security.x509.CRLExtensions.getElements/$r2, <sun.security.x509.CRLExtensions: java.util.Enumeration getElements()>
+  sun.security.x509.CRLExtensions.getAllExtensions/$r2, <sun.security.x509.CRLExtensions: java.util.Collection getAllExtensions()>
+  sun.security.x509.CRLExtensions.toString/$r2, <sun.security.x509.CRLExtensions: java.lang.String toString()>
+  sun.security.x509.X509CRLEntryImpl.getEncoded/$r5, <sun.security.x509.X509CRLEntryImpl: byte[] getEncoded()>
+  sun.security.x509.X509CRLEntryImpl.getSerialNumber/$r3, <sun.security.x509.X509CRLEntryImpl: java.math.BigInteger getSerialNumber()>
+  sun.security.x509.X509CRLEntryImpl.getRevocationDate/$r1, <sun.security.x509.X509CRLEntryImpl: java.util.Date getRevocationDate()>
+  sun.security.x509.X509CRLEntryImpl.getCriticalExtensionOIDs/r1, <sun.security.x509.X509CRLEntryImpl: java.util.Set getCriticalExtensionOIDs()>
+  sun.security.x509.X509CRLEntryImpl.getNonCriticalExtensionOIDs/r1, <sun.security.x509.X509CRLEntryImpl: java.util.Set getNonCriticalExtensionOIDs()>
+  sun.security.provider.SecureRandom.engineGenerateSeed/r1, <sun.security.provider.SecureRandom: byte[] engineGenerateSeed(int)>
+  sun.security.x509.CertificateVersion.toString/$r4, <sun.security.x509.CertificateVersion: java.lang.String toString()>
+  sun.security.x509.CertificateVersion.getElements/$r3, <sun.security.x509.CertificateVersion: java.util.Enumeration getElements()>
+  sun.security.x509.CertificateVersion.getName/$stringconstant0, <sun.security.x509.CertificateVersion: java.lang.String getName()>
+  sun.security.x509.CertificateSerialNumber.toString/$r3, <sun.security.x509.CertificateSerialNumber: java.lang.String toString()>
+  sun.security.x509.CertificateSerialNumber.toString/$stringconstant0, <sun.security.x509.CertificateSerialNumber: java.lang.String toString()>
+  sun.security.x509.CertificateSerialNumber.getElements/$r3, <sun.security.x509.CertificateSerialNumber: java.util.Enumeration getElements()>
+  sun.security.x509.CertificateSerialNumber.getName/$stringconstant0, <sun.security.x509.CertificateSerialNumber: java.lang.String getName()>
+  sun.security.x509.CertificateAlgorithmId.toString/$r12, <sun.security.x509.CertificateAlgorithmId: java.lang.String toString()>
+  sun.security.x509.CertificateAlgorithmId.toString/$stringconstant0, <sun.security.x509.CertificateAlgorithmId: java.lang.String toString()>
+  sun.security.x509.CertificateAlgorithmId.getElements/$r3, <sun.security.x509.CertificateAlgorithmId: java.util.Enumeration getElements()>
+  sun.security.x509.CertificateAlgorithmId.getName/$stringconstant0, <sun.security.x509.CertificateAlgorithmId: java.lang.String getName()>
+  sun.security.x509.CertificateIssuerName.toString/$r3, <sun.security.x509.CertificateIssuerName: java.lang.String toString()>
+  sun.security.x509.CertificateIssuerName.toString/$stringconstant0, <sun.security.x509.CertificateIssuerName: java.lang.String toString()>
+  sun.security.x509.CertificateIssuerName.getElements/$r3, <sun.security.x509.CertificateIssuerName: java.util.Enumeration getElements()>
+  sun.security.x509.CertificateIssuerName.getName/$stringconstant0, <sun.security.x509.CertificateIssuerName: java.lang.String getName()>
+  sun.security.x509.CertificateSubjectName.toString/$r3, <sun.security.x509.CertificateSubjectName: java.lang.String toString()>
+  sun.security.x509.CertificateSubjectName.toString/$stringconstant0, <sun.security.x509.CertificateSubjectName: java.lang.String toString()>
+  sun.security.x509.CertificateSubjectName.getElements/$r3, <sun.security.x509.CertificateSubjectName: java.util.Enumeration getElements()>
+  sun.security.x509.CertificateSubjectName.getName/$stringconstant0, <sun.security.x509.CertificateSubjectName: java.lang.String getName()>
+  sun.security.x509.CertificateX509Key.toString/$r3, <sun.security.x509.CertificateX509Key: java.lang.String toString()>
+  sun.security.x509.CertificateX509Key.toString/$stringconstant0, <sun.security.x509.CertificateX509Key: java.lang.String toString()>
+  sun.security.x509.CertificateX509Key.getElements/$r3, <sun.security.x509.CertificateX509Key: java.util.Enumeration getElements()>
+  sun.security.x509.CertificateX509Key.getName/$stringconstant0, <sun.security.x509.CertificateX509Key: java.lang.String getName()>
+  sun.security.x509.CertificateIssuerUniqueIdentity.toString/$r3, <sun.security.x509.CertificateIssuerUniqueIdentity: java.lang.String toString()>
+  sun.security.x509.CertificateIssuerUniqueIdentity.toString/$stringconstant0, <sun.security.x509.CertificateIssuerUniqueIdentity: java.lang.String toString()>
+  sun.security.x509.CertificateIssuerUniqueIdentity.getElements/$r3, <sun.security.x509.CertificateIssuerUniqueIdentity: java.util.Enumeration getElements()>
+  sun.security.x509.CertificateIssuerUniqueIdentity.getName/$stringconstant0, <sun.security.x509.CertificateIssuerUniqueIdentity: java.lang.String getName()>
+  sun.security.x509.CertificateSubjectUniqueIdentity.toString/$r3, <sun.security.x509.CertificateSubjectUniqueIdentity: java.lang.String toString()>
+  sun.security.x509.CertificateSubjectUniqueIdentity.toString/$stringconstant0, <sun.security.x509.CertificateSubjectUniqueIdentity: java.lang.String toString()>
+  sun.security.x509.CertificateSubjectUniqueIdentity.getElements/$r3, <sun.security.x509.CertificateSubjectUniqueIdentity: java.util.Enumeration getElements()>
+  sun.security.x509.CertificateSubjectUniqueIdentity.getName/$stringconstant0, <sun.security.x509.CertificateSubjectUniqueIdentity: java.lang.String getName()>
+  sun.security.x509.X509Key.getAlgorithm/$r2, <sun.security.x509.X509Key: java.lang.String getAlgorithm()>
+  sun.security.x509.X509Key.getAlgorithmId/$r1, <sun.security.x509.X509Key: sun.security.x509.AlgorithmId getAlgorithmId()>
+  sun.security.x509.X509Key.getFormat/$stringconstant0, <sun.security.x509.X509Key: java.lang.String getFormat()>
+  sun.security.x509.X509Key.toString/$r12, <sun.security.x509.X509Key: java.lang.String toString()>
+  sun.security.provider.SeedGenerator$1.run/r1, <sun.security.provider.SeedGenerator$1: java.lang.Object run()>
+  sun.security.provider.SeedGenerator$1.run/r2, <sun.security.provider.SeedGenerator$1: java.lang.Object run()>
+  sun.security.provider.SeedGenerator$1.run/$stringconstant3, <sun.security.provider.SeedGenerator$1: java.lang.Object run()>
   java.security.spec.X509EncodedKeySpec.getEncoded/$r1, <java.security.spec.X509EncodedKeySpec: byte[] getEncoded()>
   java.security.spec.X509EncodedKeySpec.getFormat/$stringconstant0, <java.security.spec.X509EncodedKeySpec: java.lang.String getFormat()>
   java.security.KeyFactory.getProvider/$r1, <java.security.KeyFactory: java.security.Provider getProvider()>
@@ -1152,14 +1712,63 @@
   java.security.KeyFactory.generatePrivate/$r3, <java.security.KeyFactory: java.security.PrivateKey generatePrivate(java.security.spec.KeySpec)>
   java.security.KeyFactory.getKeySpec/$r4, <java.security.KeyFactory: java.security.spec.KeySpec getKeySpec(java.security.Key,java.lang.Class)>
   java.security.KeyFactory.translateKey/$r3, <java.security.KeyFactory: java.security.Key translateKey(java.security.Key)>
+  sun.security.provider.SeedGenerator$3.run/r5, <sun.security.provider.SeedGenerator$3: java.lang.Object run()>
   java.security.spec.EncodedKeySpec.getEncoded/$r3, <java.security.spec.EncodedKeySpec: byte[] getEncoded()>
+  sun.net.www.protocol.ftp.Handler.openConnection/$r3, <sun.net.www.protocol.ftp.Handler: java.net.URLConnection openConnection(java.net.URL)>
+  sun.net.www.protocol.ftp.Handler.openConnection/$r4, <sun.net.www.protocol.ftp.Handler: java.net.URLConnection openConnection(java.net.URL)>
+  sun.net.www.protocol.ftp.FtpURLConnection.guessContentTypeFromFilename/$r2, <sun.net.www.protocol.ftp.FtpURLConnection: java.lang.String guessContentTypeFromFilename(java.lang.String)>
+  sun.net.www.protocol.ftp.FtpURLConnection.getPermission/$r10, <sun.net.www.protocol.ftp.FtpURLConnection: java.security.Permission getPermission()>
+  sun.net.ftp.FtpClient.put/$r7, <sun.net.ftp.FtpClient: sun.net.TelnetOutputStream put(java.lang.String)>
+  sun.net.ftp.FtpClient.list/$r2, <sun.net.ftp.FtpClient: sun.net.TelnetInputStream list()>
+  sun.net.www.protocol.http.HttpURLConnection.getNewClient/$r2, <sun.net.www.protocol.http.HttpURLConnection: sun.net.www.http.HttpClient getNewClient(java.net.URL)>
+  sun.net.www.protocol.http.HttpURLConnection.getProxiedClient/$r3, <sun.net.www.protocol.http.HttpURLConnection: sun.net.www.http.HttpClient getProxiedClient(java.net.URL,java.lang.String,int)>
+  sun.net.www.protocol.http.HttpURLConnection.getErrorStream/$r2, <sun.net.www.protocol.http.HttpURLConnection: java.io.InputStream getErrorStream()>
+  sun.net.www.protocol.http.HttpURLConnection.getRequestProperty/$r6, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>
+  sun.net.www.protocol.http.HttpURLConnection.getMethod/$r1, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String getMethod()>
+  sun.net.www.URLConnection.getProperties/$r1, <sun.net.www.URLConnection: sun.net.www.MessageHeader getProperties()>
+  sun.net.www.MessageHeader.findValue/$r5, <sun.net.www.MessageHeader: java.lang.String findValue(java.lang.String)>
+  sun.net.www.MessageHeader.findValue/$r9, <sun.net.www.MessageHeader: java.lang.String findValue(java.lang.String)>
+  sun.net.www.MessageHeader.getKey/$r2, <sun.net.www.MessageHeader: java.lang.String getKey(int)>
+  sun.net.www.MessageHeader.getValue/$r2, <sun.net.www.MessageHeader: java.lang.String getValue(int)>
+  sun.net.www.MessageHeader.findNextValue/$r6, <sun.net.www.MessageHeader: java.lang.String findNextValue(java.lang.String,java.lang.String)>
+  sun.net.www.MessageHeader.findNextValue/$r12, <sun.net.www.MessageHeader: java.lang.String findNextValue(java.lang.String,java.lang.String)>
+  sun.net.www.MessageHeader.toString/r1, <sun.net.www.MessageHeader: java.lang.String toString()>
+  sun.net.TransferProtocolClient.getResponseString/$r3, <sun.net.TransferProtocolClient: java.lang.String getResponseString()>
+  sun.net.TransferProtocolClient.getResponseStrings/$r1, <sun.net.TransferProtocolClient: java.util.Vector getResponseStrings()>
+  sun.net.www.protocol.ftp.FtpDirectoryThread.lookupImage/$r4, <sun.net.www.protocol.ftp.FtpDirectoryThread: java.lang.String lookupImage(java.lang.String)>
+  sun.net.ProgressData.getStreams/$r3, <sun.net.ProgressData: sun.net.ProgressEntry[] getStreams()>
   java.net.Socket.getInetAddress/$r2, <java.net.Socket: java.net.InetAddress getInetAddress()>
   java.net.Socket.toString/$r13, <java.net.Socket: java.lang.String toString()>
+  sun.net.NetworkClient.doConnect/$r2, <sun.net.NetworkClient: java.net.Socket doConnect(java.lang.String,int)>
   java.net.ServerSocket.getInetAddress/$r2, <java.net.ServerSocket: java.net.InetAddress getInetAddress()>
   java.net.ServerSocket.accept/r2, <java.net.ServerSocket: java.net.Socket accept()>
   java.net.ServerSocket.toString/$r13, <java.net.ServerSocket: java.lang.String toString()>
+  sun.net.ftp.FtpClient$1.run/r1, <sun.net.ftp.FtpClient$1: java.lang.Object run()>
+  sun.net.www.http.HttpClient.getProxyHost/r2, <sun.net.www.http.HttpClient: java.lang.String getProxyHost()>
+  sun.net.www.http.HttpClient.getInputStream/$r1, <sun.net.www.http.HttpClient: java.io.InputStream getInputStream()>
+  sun.net.www.http.HttpClient.getOutputStream/$r1, <sun.net.www.http.HttpClient: java.io.OutputStream getOutputStream()>
+  sun.net.www.http.HttpClient.toString/$r9, <sun.net.www.http.HttpClient: java.lang.String toString()>
+  sun.net.www.http.HttpClient.getProxyHostUsed/$r1, <sun.net.www.http.HttpClient: java.lang.String getProxyHostUsed()>
+  sun.net.www.protocol.http.Handler.openConnection/$r2, <sun.net.www.protocol.http.Handler: java.net.URLConnection openConnection(java.net.URL)>
   java.net.PasswordAuthentication.getUserName/$r1, <java.net.PasswordAuthentication: java.lang.String getUserName()>
   java.net.PasswordAuthentication.getPassword/$r1, <java.net.PasswordAuthentication: char[] getPassword()>
+  sun.net.www.protocol.http.AuthenticationInfo.cacheKey/$r13, <sun.net.www.protocol.http.AuthenticationInfo: java.lang.String cacheKey(boolean)>
+  sun.net.www.protocol.http.AuthenticationInfo.cacheKey/$r21, <sun.net.www.protocol.http.AuthenticationInfo: java.lang.String cacheKey(boolean)>
+  sun.net.www.protocol.http.DigestAuthentication.getHeaderName/$stringconstant0, <sun.net.www.protocol.http.DigestAuthentication: java.lang.String getHeaderName()>
+  sun.net.www.protocol.http.DigestAuthentication.getHeaderValue/$stringconstant0, <sun.net.www.protocol.http.DigestAuthentication: java.lang.String getHeaderValue()>
+  sun.net.www.protocol.http.DigestAuthentication.computeDigest/r14, <sun.net.www.protocol.http.DigestAuthentication: java.lang.String computeDigest(java.lang.String,char[],java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+  sun.net.www.protocol.http.DigestAuthentication.encode/$r13, <sun.net.www.protocol.http.DigestAuthentication: java.lang.String encode(java.lang.String,char[],java.security.MessageDigest)>
+  sun.net.www.protocol.http.BasicAuthentication.getHeaderName/$stringconstant0, <sun.net.www.protocol.http.BasicAuthentication: java.lang.String getHeaderName()>
+  sun.net.www.protocol.http.BasicAuthentication.getHeaderName/$stringconstant1, <sun.net.www.protocol.http.BasicAuthentication: java.lang.String getHeaderName()>
+  sun.net.www.protocol.http.BasicAuthentication.getHeaderValue/$r1, <sun.net.www.protocol.http.BasicAuthentication: java.lang.String getHeaderValue()>
+  sun.net.www.protocol.http.BasicAuthentication.getRootPath/r1, <sun.net.www.protocol.http.BasicAuthentication: java.lang.String getRootPath(java.lang.String)>
+  sun.net.www.protocol.http.BasicAuthentication.getRootPath/$r5, <sun.net.www.protocol.http.BasicAuthentication: java.lang.String getRootPath(java.lang.String)>
+  sun.net.www.HeaderParser.findKey/$r3, <sun.net.www.HeaderParser: java.lang.String findKey(int)>
+  <sun.net.www.HeaderParser: java.lang.String findValue(int)>/$r3, <sun.net.www.HeaderParser: java.lang.String findValue(int)>
+  <sun.net.www.HeaderParser: java.lang.String findValue(java.lang.String)>/$r2, <sun.net.www.HeaderParser: java.lang.String findValue(java.lang.String)>
+  <sun.net.www.HeaderParser: java.lang.String findValue(java.lang.String,java.lang.String)>/r2, <sun.net.www.HeaderParser: java.lang.String findValue(java.lang.String,java.lang.String)>
+  <sun.net.www.HeaderParser: java.lang.String findValue(java.lang.String,java.lang.String)>/$r12, <sun.net.www.HeaderParser: java.lang.String findValue(java.lang.String,java.lang.String)>
+  sun.net.www.protocol.http.HttpURLConnection$1.run/$r5, <sun.net.www.protocol.http.HttpURLConnection$1: java.lang.Object run()>
   java.net.SocketImpl.getFileDescriptor/$r1, <java.net.SocketImpl: java.io.FileDescriptor getFileDescriptor()>
   java.net.SocketImpl.getInetAddress/$r1, <java.net.SocketImpl: java.net.InetAddress getInetAddress()>
   java.net.SocketImpl.toString/$r10, <java.net.SocketImpl: java.lang.String toString()>
@@ -1172,6 +1781,14 @@
   java.net.PlainSocketImpl.makeCommandPacket/$r9, <java.net.PlainSocketImpl: byte[] makeCommandPacket(int,java.net.InetAddress,int)>
   java.net.Socket$1.run/$r3, <java.net.Socket$1: java.lang.Object run()>
   java.net.Socket$2.run/$r3, <java.net.Socket$2: java.lang.Object run()>
+  sun.net.www.protocol.http.PathMap.get/r5, <sun.net.www.protocol.http.PathMap: sun.net.www.protocol.http.AuthenticationInfo get(java.lang.String,java.lang.String)>
+  sun.net.www.protocol.http.PathMap.get/$r9, <sun.net.www.protocol.http.PathMap: sun.net.www.protocol.http.AuthenticationInfo get(java.lang.String,java.lang.String)>
+  sun.misc.RegexpPool.delete/r2, <sun.misc.RegexpPool: java.lang.Object delete(java.lang.String)>
+  sun.misc.RegexpPool.match/$r2, <sun.misc.RegexpPool: java.lang.Object match(java.lang.String)>
+  sun.misc.RegexpPool.matchNext/$r2, <sun.misc.RegexpPool: java.lang.Object matchNext(java.lang.String)>
+  sun.misc.RegexpPool.matchAfter/r4, <sun.misc.RegexpPool: java.lang.Object matchAfter(java.lang.String,int)>
+  sun.net.www.http.KeepAliveCache.get/$r6, <sun.net.www.http.KeepAliveCache: java.lang.Object get(java.net.URL)>
+  sun.net.www.http.HttpClient$2.run/$r1, <sun.net.www.http.HttpClient$2: java.lang.Object run()>
   java.net.Authenticator.getRequestingSite/$r1, <java.net.Authenticator: java.net.InetAddress getRequestingSite()>
   java.net.Authenticator.getRequestingProtocol/$r1, <java.net.Authenticator: java.lang.String getRequestingProtocol()>
   java.net.Authenticator.getRequestingPrompt/$r1, <java.net.Authenticator: java.lang.String getRequestingPrompt()>
@@ -1179,6 +1796,22 @@
   java.net.PlainSocketImpl$2.run/$r2, <java.net.PlainSocketImpl$2: java.lang.Object run()>
   java.net.PlainSocketImpl$3.run/$r2, <java.net.PlainSocketImpl$3: java.lang.Object run()>
   java.net.PlainSocketImpl$1.run/$r2, <java.net.PlainSocketImpl$1: java.lang.Object run()>
+  sun.net.www.http.ClientVector.get/r1, <sun.net.www.http.ClientVector: sun.net.www.http.HttpClient get()>
+  sun.misc.RegexpNode.add/r1, <sun.misc.RegexpNode: sun.misc.RegexpNode add(char)>
+  sun.misc.RegexpNode.add/r3, <sun.misc.RegexpNode: sun.misc.RegexpNode add(char)>
+  sun.misc.RegexpNode.find/r1, <sun.misc.RegexpNode: sun.misc.RegexpNode find(char)>
+  sun.net.www.protocol.jar.Handler.openConnection/$r2, <sun.net.www.protocol.jar.Handler: java.net.URLConnection openConnection(java.net.URL)>
+  sun.net.www.protocol.jar.JarURLConnection.getJarFile/$r1, <sun.net.www.protocol.jar.JarURLConnection: java.util.jar.JarFile getJarFile()>
+  sun.net.www.protocol.jar.JarURLConnection.getJarEntry/$r1, <sun.net.www.protocol.jar.JarURLConnection: java.util.jar.JarEntry getJarEntry()>
+  sun.net.www.protocol.jar.JarURLConnection.getPermission/$r2, <sun.net.www.protocol.jar.JarURLConnection: java.security.Permission getPermission()>
+  sun.net.www.protocol.jar.JarURLConnection.getContent/r2, <sun.net.www.protocol.jar.JarURLConnection: java.lang.Object getContent()>
+  sun.net.www.protocol.jar.JarURLConnection.getHeaderField/$r3, <sun.net.www.protocol.jar.JarURLConnection: java.lang.String getHeaderField(java.lang.String)>
+  sun.net.www.protocol.jar.JarURLConnection.getRequestProperty/$r3, <sun.net.www.protocol.jar.JarURLConnection: java.lang.String getRequestProperty(java.lang.String)>
+  sun.net.www.protocol.jar.JarFileFactory.getConnection/$r5, <sun.net.www.protocol.jar.JarFileFactory: java.net.URLConnection getConnection(java.util.jar.JarFile)>
+  <sun.net.www.protocol.jar.JarFileFactory: java.util.jar.JarFile get(java.net.URL)>/$r2, <sun.net.www.protocol.jar.JarFileFactory: java.util.jar.JarFile get(java.net.URL)>
+  sun.net.www.protocol.jar.URLJarFile.getManifest/r1, <sun.net.www.protocol.jar.URLJarFile: java.util.jar.Manifest getManifest()>
+  sun.net.www.protocol.jar.URLJarFile$URLJarFileEntry.getAttributes/$r8, <sun.net.www.protocol.jar.URLJarFile$URLJarFileEntry: java.util.jar.Attributes getAttributes()>
+  sun.net.www.protocol.jar.URLJarFile$URLJarFileEntry.getCertificates/$r3, <sun.net.www.protocol.jar.URLJarFile$URLJarFileEntry: java.security.cert.Certificate[] getCertificates()>
   <java.io.UnixFileSystem: java.lang.String normalize(java.lang.String,int,int)>/r1, <java.io.UnixFileSystem: java.lang.String normalize(java.lang.String,int,int)>
   <java.io.UnixFileSystem: java.lang.String normalize(java.lang.String,int,int)>/$r7, <java.io.UnixFileSystem: java.lang.String normalize(java.lang.String,int,int)>
   <java.io.UnixFileSystem: java.lang.String normalize(java.lang.String,int,int)>/$stringconstant0, <java.io.UnixFileSystem: java.lang.String normalize(java.lang.String,int,int)>
@@ -1195,6 +1828,12 @@
   <java.io.UnixFileSystem: java.lang.String resolve(java.io.File)>/$r5, <java.io.UnixFileSystem: java.lang.String resolve(java.io.File)>
   java.io.UnixFileSystem.canonicalize/@native-return, <java.io.UnixFileSystem: java.lang.String canonicalize(java.lang.String)>
   java.io.UnixFileSystem.list/@native-return, <java.io.UnixFileSystem: java.lang.String[] list(java.io.File)>
+  sun.net.www.protocol.file.Handler.getHost/r2, <sun.net.www.protocol.file.Handler: java.lang.String getHost(java.net.URL)>
+  <sun.net.www.protocol.file.FileURLConnection: java.lang.String getHeaderField(java.lang.String)>/$r2, <sun.net.www.protocol.file.FileURLConnection: java.lang.String getHeaderField(java.lang.String)>
+  <sun.net.www.protocol.file.FileURLConnection: java.lang.String getHeaderField(int)>/$r1, <sun.net.www.protocol.file.FileURLConnection: java.lang.String getHeaderField(int)>
+  sun.net.www.protocol.file.FileURLConnection.getHeaderFieldKey/$r1, <sun.net.www.protocol.file.FileURLConnection: java.lang.String getHeaderFieldKey(int)>
+  sun.net.www.protocol.file.FileURLConnection.getProperties/$r1, <sun.net.www.protocol.file.FileURLConnection: sun.net.www.MessageHeader getProperties()>
+  sun.net.www.protocol.file.FileURLConnection.getPermission/$r8, <sun.net.www.protocol.file.FileURLConnection: java.security.Permission getPermission()>
   java.text.CollationKey.getSourceString/$r1, <java.text.CollationKey: java.lang.String getSourceString()>
   java.text.CollationKey.toByteArray/r2, <java.text.CollationKey: byte[] toByteArray()>
   java.text.RuleBasedCollator.getRules/$r2, <java.text.RuleBasedCollator: java.lang.String getRules()>
@@ -1260,6 +1899,10 @@
   <java.lang.Integer: java.lang.Integer getInteger(java.lang.String,int)>/$r2, <java.lang.Integer: java.lang.Integer getInteger(java.lang.String,int)>
   java.lang.ThreadLocal.createInheritedMap/$r1, <java.lang.ThreadLocal: java.lang.ThreadLocal$ThreadLocalMap createInheritedMap(java.lang.ThreadLocal$ThreadLocalMap)>
   java.io.ObjectStreamField.constructSearchKey/$r2, <java.io.ObjectStreamField: java.io.ObjectStreamField constructSearchKey(java.lang.String,java.lang.Class)>
+  sun.io.ByteToCharConverter.getDefault/$r1, <sun.io.ByteToCharConverter: sun.io.ByteToCharConverter getDefault()>
+  sun.io.ByteToCharConverter.getConverter/$r2, <sun.io.ByteToCharConverter: sun.io.ByteToCharConverter getConverter(java.lang.String)>
+  sun.io.CharToByteConverter.getDefault/$r1, <sun.io.CharToByteConverter: sun.io.CharToByteConverter getDefault()>
+  sun.io.CharToByteConverter.getConverter/$r2, <sun.io.CharToByteConverter: sun.io.CharToByteConverter getConverter(java.lang.String)>
   java.util.Locale.getDefault/$r0, <java.util.Locale: java.util.Locale getDefault()>
   java.util.Locale.getAvailableLocales/$r0, <java.util.Locale: java.util.Locale[] getAvailableLocales()>
   java.util.Locale.getISOCountries/r8, <java.util.Locale: java.lang.String[] getISOCountries()>
@@ -1348,6 +1991,9 @@
   java.lang.FloatingDecimal.constructPow52/r1, <java.lang.FloatingDecimal: java.lang.FDBigInt constructPow52(int,int)>
   <java.util.PropertyPermission: java.lang.String getActions(int)>/$r5, <java.util.PropertyPermission: java.lang.String getActions(int)>
   java.lang.Runtime.getRuntime/$r0, <java.lang.Runtime: java.lang.Runtime getRuntime()>
+  sun.io.Converters.getConverterPackageName/r0, <sun.io.Converters: java.lang.String getConverterPackageName()>
+  sun.io.Converters.getConverterPackageName/r4, <sun.io.Converters: java.lang.String getConverterPackageName()>
+  <sun.io.Converters: java.lang.Object newConverter(int,java.lang.String)>/$r2, <sun.io.Converters: java.lang.Object newConverter(int,java.lang.String)>
   java.lang.Boolean.valueOf/$r1, <java.lang.Boolean: java.lang.Boolean valueOf(java.lang.String)>
   <java.lang.Short: java.lang.String toString(short)>/$r0, <java.lang.Short: java.lang.String toString(short)>
   <java.lang.Short: java.lang.Short valueOf(java.lang.String,int)>/$r1, <java.lang.Short: java.lang.Short valueOf(java.lang.String,int)>
@@ -1401,6 +2047,19 @@
   <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String)>/$r2, <java.io.File: java.io.File createTempFile(java.lang.String,java.lang.String)>
   java.security.AccessControlContext.getDebug/$r0, <java.security.AccessControlContext: sun.security.util.Debug getDebug()>
   java.security.AccessControlContext.getDebug/$r2, <java.security.AccessControlContext: sun.security.util.Debug getDebug()>
+  <sun.security.util.Debug: sun.security.util.Debug getInstance(java.lang.String)>/$r1, <sun.security.util.Debug: sun.security.util.Debug getInstance(java.lang.String)>
+  <sun.security.util.Debug: sun.security.util.Debug getInstance(java.lang.String,java.lang.String)>/r2, <sun.security.util.Debug: sun.security.util.Debug getInstance(java.lang.String,java.lang.String)>
+  sun.misc.URLClassPath.access$000/$r1, <sun.misc.URLClassPath: sun.misc.URLClassPath$Loader access$000(sun.misc.URLClassPath,int)>
+  sun.misc.URLClassPath.access$100/$r1, <sun.misc.URLClassPath: java.net.URLStreamHandler access$100(sun.misc.URLClassPath)>
+  sun.misc.URLClassPath.access$200/$r1, <sun.misc.URLClassPath: java.util.HashMap access$200(sun.misc.URLClassPath)>
+  sun.misc.ClassFileTransformer.getTransformers/$r0, <sun.misc.ClassFileTransformer: java.lang.Object[] getTransformers()>
+  sun.misc.Launcher.getLauncher/$r0, <sun.misc.Launcher: sun.misc.Launcher getLauncher()>
+  sun.misc.Launcher.getBootstrapClassPath/$r10, <sun.misc.Launcher: sun.misc.URLClassPath getBootstrapClassPath()>
+  sun.misc.Launcher.pathToURLs/r1, <sun.misc.Launcher: java.net.URL[] pathToURLs(java.io.File[])>
+  sun.misc.Launcher.getClassPath/r1, <sun.misc.Launcher: java.io.File[] getClassPath(java.lang.String)>
+  sun.misc.Launcher.access$100/$r0, <sun.misc.Launcher: java.net.URLStreamHandlerFactory access$100()>
+  sun.misc.Launcher.access$200/$r1, <sun.misc.Launcher: java.io.File[] access$200(java.lang.String)>
+  sun.misc.Launcher.access$300/$r1, <sun.misc.Launcher: java.net.URL[] access$300(java.io.File[])>
   java.lang.ClassLoader$NativeLibrary.getFromClass/$r3, <java.lang.ClassLoader$NativeLibrary: java.lang.Class getFromClass()>
   java.lang.ClassLoader$NativeLibrary.access$200/$r1, <java.lang.ClassLoader$NativeLibrary: java.lang.Class access$200(java.lang.ClassLoader$NativeLibrary)>
   java.net.URLConnection.getFileNameMap/$r2, <java.net.URLConnection: java.net.FileNameMap getFileNameMap()>
@@ -1427,6 +2086,10 @@
   java.lang.ref.Reference.access$100/$r0, <java.lang.ref.Reference: java.lang.ref.Reference$Lock access$100()>
   java.lang.ref.Reference.access$200/$r0, <java.lang.ref.Reference: java.lang.ref.Reference access$200()>
   java.lang.ref.Reference.access$202/r0, <java.lang.ref.Reference: java.lang.ref.Reference access$202(java.lang.ref.Reference)>
+  sun.io.CharacterEncoding.aliasName/$r5, <sun.io.CharacterEncoding: java.lang.String aliasName(java.lang.String)>
+  sun.io.CharacterEncoding.getSJISName/r1, <sun.io.CharacterEncoding: java.lang.String getSJISName()>
+  sun.io.CharacterEncoding.getSJISName/$r3, <sun.io.CharacterEncoding: java.lang.String getSJISName()>
+  sun.io.CharacterEncoding.getEUCJPName/r1, <sun.io.CharacterEncoding: java.lang.String getEUCJPName()>
   <java.text.NumberFormat: java.text.NumberFormat getInstance()>/$r1, <java.text.NumberFormat: java.text.NumberFormat getInstance()>
   <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale)>/$r1, <java.text.NumberFormat: java.text.NumberFormat getInstance(java.util.Locale)>
   <java.text.NumberFormat: java.text.NumberFormat getNumberInstance()>/$r1, <java.text.NumberFormat: java.text.NumberFormat getNumberInstance()>
@@ -1453,6 +2116,8 @@
   <java.text.Utility: java.lang.String arrayToRLEString(short[])>/$r5, <java.text.Utility: java.lang.String arrayToRLEString(short[])>
   <java.text.Utility: java.lang.String arrayToRLEString(byte[])>/$r6, <java.text.Utility: java.lang.String arrayToRLEString(byte[])>
   java.text.Utility.formatForSource/$r23, <java.text.Utility: java.lang.String formatForSource(java.lang.String)>
+  sun.misc.SoftCache.access$500/$r1, <sun.misc.SoftCache: java.lang.ref.ReferenceQueue access$500(sun.misc.SoftCache)>
+  sun.misc.SoftCache.access$700/$r1, <sun.misc.SoftCache: java.util.Map access$700(sun.misc.SoftCache)>
   java.util.PropertyResourceBundle.access$000/$r1, <java.util.PropertyResourceBundle: java.util.Properties access$000(java.util.PropertyResourceBundle)>
   <java.util.Collections: java.lang.Object min(java.util.Collection)>/r2, <java.util.Collections: java.lang.Object min(java.util.Collection)>
   <java.util.Collections: java.lang.Object min(java.util.Collection,java.util.Comparator)>/r3, <java.util.Collections: java.lang.Object min(java.util.Collection,java.util.Comparator)>
@@ -1486,6 +2151,19 @@
   java.lang.reflect.Array.get/@native-return, <java.lang.reflect.Array: java.lang.Object get(java.lang.Object,int)>
   java.lang.reflect.Array.newArray/@native-return, <java.lang.reflect.Array: java.lang.Object newArray(java.lang.Class,int)>
   java.lang.reflect.Array.multiNewArray/@native-return, <java.lang.reflect.Array: java.lang.Object multiNewArray(java.lang.Class,int[])>
+  sun.misc.ProxyGenerator.generateProxyClass/r4, <sun.misc.ProxyGenerator: byte[] generateProxyClass(java.lang.String,java.lang.Class[])>
+  sun.misc.ProxyGenerator.dotToSlash/$r1, <sun.misc.ProxyGenerator: java.lang.String dotToSlash(java.lang.String)>
+  sun.misc.ProxyGenerator.getMethodDescriptor/$r8, <sun.misc.ProxyGenerator: java.lang.String getMethodDescriptor(java.lang.Class[],java.lang.Class)>
+  sun.misc.ProxyGenerator.getParameterDescriptors/$r7, <sun.misc.ProxyGenerator: java.lang.String getParameterDescriptors(java.lang.Class[])>
+  sun.misc.ProxyGenerator.getFieldType/$r2, <sun.misc.ProxyGenerator: java.lang.String getFieldType(java.lang.Class)>
+  sun.misc.ProxyGenerator.getFieldType/$r4, <sun.misc.ProxyGenerator: java.lang.String getFieldType(java.lang.Class)>
+  sun.misc.ProxyGenerator.getFieldType/$r11, <sun.misc.ProxyGenerator: java.lang.String getFieldType(java.lang.Class)>
+  sun.misc.ProxyGenerator.computeUniqueCatchList/r2, <sun.misc.ProxyGenerator: java.util.List computeUniqueCatchList(java.lang.Class[])>
+  sun.misc.ProxyGenerator.access$000/$r1, <sun.misc.ProxyGenerator: java.lang.String access$000(java.lang.String)>
+  sun.misc.ProxyGenerator.access$400/$r1, <sun.misc.ProxyGenerator: sun.misc.ProxyGenerator$ConstantPool access$400(sun.misc.ProxyGenerator)>
+  sun.misc.ProxyGenerator.access$500/$r2, <sun.misc.ProxyGenerator: java.lang.String access$500(java.lang.Class[],java.lang.Class)>
+  sun.misc.ProxyGenerator.access$800/$r1, <sun.misc.ProxyGenerator: java.lang.String access$800(sun.misc.ProxyGenerator)>
+  sun.misc.ProxyGenerator.access$1000/$r1, <sun.misc.ProxyGenerator: java.util.List access$1000(java.lang.Class[])>
   java.util.WeakHashMap.access$200/$r1, <java.util.WeakHashMap: java.util.Map access$200(java.util.WeakHashMap)>
   java.security.Security.securityPropFile/$r3, <java.security.Security: java.io.File securityPropFile(java.lang.String)>
   <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>/r2, <java.security.Security: java.security.Security$ProviderProperty getProviderProperty(java.lang.String)>
@@ -1502,8 +2180,24 @@
   java.security.Security.getAllQualifyingCandidates/r9, <java.security.Security: java.util.HashSet getAllQualifyingCandidates(java.lang.String,java.lang.String,java.security.Provider[])>
   java.security.Security.getAllQualifyingCandidates/$r18, <java.security.Security: java.util.HashSet getAllQualifyingCandidates(java.lang.String,java.lang.String,java.security.Provider[])>
   java.security.Security.getProvidersNotUsingCache/r4, <java.security.Security: java.util.HashSet getProvidersNotUsingCache(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.HashSet,java.security.Provider[])>
+  sun.security.util.ManifestEntryVerifier.toHex/$r7, <sun.security.util.ManifestEntryVerifier: java.lang.String toHex(byte[])>
   java.io.FileSystem.getFileSystem/@native-return, <java.io.FileSystem: java.io.FileSystem getFileSystem()>
   java.security.Policy.getPolicy/$r2, <java.security.Policy: java.security.Policy getPolicy()>
+  sun.misc.Launcher$ExtClassLoader.getExtDirs/r3, <sun.misc.Launcher$ExtClassLoader: java.io.File[] getExtDirs()>
+  sun.misc.Launcher$ExtClassLoader.getExtURLs/r10, <sun.misc.Launcher$ExtClassLoader: java.net.URL[] getExtURLs(java.io.File[])>
+  sun.misc.Launcher$ExtClassLoader.getContext/r4, <sun.misc.Launcher$ExtClassLoader: java.security.AccessControlContext getContext(java.io.File[])>
+  sun.misc.Launcher$AppClassLoader.getAppClassLoader/$r6, <sun.misc.Launcher$AppClassLoader: java.lang.ClassLoader getAppClassLoader(java.lang.ClassLoader)>
+  sun.misc.Launcher$AppClassLoader.getContext/r4, <sun.misc.Launcher$AppClassLoader: java.security.AccessControlContext getContext(java.io.File[])>
+  sun.misc.URLClassPath$Loader.access$300/$r1, <sun.misc.URLClassPath$Loader: java.net.URL access$300(sun.misc.URLClassPath$Loader)>
+  sun.misc.URLClassPath$JarLoader.access$400/$r1, <sun.misc.URLClassPath$JarLoader: java.net.URL access$400(sun.misc.URLClassPath$JarLoader)>
+  sun.misc.URLClassPath$JarLoader.access$500/$r1, <sun.misc.URLClassPath$JarLoader: java.util.jar.JarFile access$500(sun.misc.URLClassPath$JarLoader)>
+  sun.misc.URLClassPath$JarLoader.access$600/$r1, <sun.misc.URLClassPath$JarLoader: java.net.URLStreamHandler access$600(sun.misc.URLClassPath$JarLoader)>
+  sun.misc.URLClassPath$JarLoader.access$700/$r1, <sun.misc.URLClassPath$JarLoader: java.util.HashMap access$700(sun.misc.URLClassPath$JarLoader)>
+  sun.net.www.MimeTable.getDefaultTable/$r3, <sun.net.www.MimeTable: sun.net.www.MimeTable getDefaultTable()>
+  sun.net.www.MimeTable.loadTable/r0, <sun.net.www.MimeTable: java.net.FileNameMap loadTable()>
+  sun.net.www.MimeTable.access$002/r0, <sun.net.www.MimeTable: java.lang.String access$002(java.lang.String)>
+  sun.net.www.MimeTable.access$102/r0, <sun.net.www.MimeTable: sun.net.www.MimeTable access$102(sun.net.www.MimeTable)>
+  sun.net.www.MimeTable.access$100/$r0, <sun.net.www.MimeTable: sun.net.www.MimeTable access$100()>
   <java.util.Calendar: java.util.Calendar getInstance()>/$r0, <java.util.Calendar: java.util.Calendar getInstance()>
   <java.util.Calendar: java.util.Calendar getInstance(java.util.TimeZone)>/$r1, <java.util.Calendar: java.util.Calendar getInstance(java.util.TimeZone)>
   <java.util.Calendar: java.util.Calendar getInstance(java.util.Locale)>/$r1, <java.util.Calendar: java.util.Calendar getInstance(java.util.Locale)>
@@ -1536,21 +2230,43 @@
   java.math.BigInteger.stripLeadingZeroBytes/r1, <java.math.BigInteger: int[] stripLeadingZeroBytes(byte[])>
   <java.math.BigInteger: int[] makePositive(byte[])>/r1, <java.math.BigInteger: int[] makePositive(byte[])>
   <java.math.BigInteger: int[] makePositive(int[])>/r1, <java.math.BigInteger: int[] makePositive(int[])>
+  sun.misc.SoftCache$Entry.access$1000/$r1, <sun.misc.SoftCache$Entry: java.util.Map$Entry access$1000(sun.misc.SoftCache$Entry)>
+  sun.misc.SoftCache$ValueCell.create/$r3, <sun.misc.SoftCache$ValueCell: sun.misc.SoftCache$ValueCell create(java.lang.Object,java.lang.Object,java.lang.ref.ReferenceQueue)>
+  sun.misc.SoftCache$ValueCell.strip/r2, <sun.misc.SoftCache$ValueCell: java.lang.Object strip(java.lang.Object,boolean)>
+  sun.misc.SoftCache$ValueCell.access$100/$r1, <sun.misc.SoftCache$ValueCell: java.lang.Object access$100(sun.misc.SoftCache$ValueCell)>
+  sun.misc.SoftCache$ValueCell.access$300/$r1, <sun.misc.SoftCache$ValueCell: java.lang.Object access$300(java.lang.Object,boolean)>
+  sun.misc.SoftCache$ValueCell.access$400/$r3, <sun.misc.SoftCache$ValueCell: sun.misc.SoftCache$ValueCell access$400(java.lang.Object,java.lang.Object,java.lang.ref.ReferenceQueue)>
+  sun.misc.SoftCache$EntrySet.access$800/$r1, <sun.misc.SoftCache$EntrySet: sun.misc.SoftCache access$800(sun.misc.SoftCache$EntrySet)>
   java.util.Collections$SingletonSet.access$500/$r1, <java.util.Collections$SingletonSet: java.lang.Object access$500(java.util.Collections$SingletonSet)>
   java.util.Collections$UnmodifiableList.access$000/$r1, <java.util.Collections$UnmodifiableList: java.util.List access$000(java.util.Collections$UnmodifiableList)>
   java.util.SubList.access$100/$r1, <java.util.SubList: java.util.AbstractList access$100(java.util.SubList)>
+  sun.misc.ProxyGenerator$PrimitiveTypeInfo.get/$r3, <sun.misc.ProxyGenerator$PrimitiveTypeInfo: sun.misc.ProxyGenerator$PrimitiveTypeInfo get(java.lang.Class)>
+  sun.misc.ProxyGenerator$ProxyMethod.access$200/$r1, <sun.misc.ProxyGenerator$ProxyMethod: sun.misc.ProxyGenerator$MethodInfo access$200(sun.misc.ProxyGenerator$ProxyMethod)>
   <java.util.WeakHashMap$WeakKey: java.util.WeakHashMap$WeakKey create(java.lang.Object)>/$r1, <java.util.WeakHashMap$WeakKey: java.util.WeakHashMap$WeakKey create(java.lang.Object)>
   <java.util.WeakHashMap$WeakKey: java.util.WeakHashMap$WeakKey create(java.lang.Object,java.lang.ref.ReferenceQueue)>/$r2, <java.util.WeakHashMap$WeakKey: java.util.WeakHashMap$WeakKey create(java.lang.Object,java.lang.ref.ReferenceQueue)>
   java.util.WeakHashMap$WeakKey.access$000/$r1, <java.util.WeakHashMap$WeakKey: java.util.WeakHashMap$WeakKey access$000(java.lang.Object)>
   java.util.WeakHashMap$WeakKey.access$100/$r2, <java.util.WeakHashMap$WeakKey: java.util.WeakHashMap$WeakKey access$100(java.lang.Object,java.lang.ref.ReferenceQueue)>
   java.util.AbstractMap$3.access$100/$r1, <java.util.AbstractMap$3: java.util.AbstractMap access$100(java.util.AbstractMap$3)>
   java.util.AbstractMap$1.access$000/$r1, <java.util.AbstractMap$1: java.util.AbstractMap access$000(java.util.AbstractMap$1)>
+  sun.security.util.SignatureFileVerifier.toHex/$r7, <sun.security.util.SignatureFileVerifier: java.lang.String toHex(byte[])>
+  sun.security.provider.PolicyFile.getInstance/$r8, <sun.security.provider.PolicyFile: java.security.Permission getInstance(java.lang.String,java.lang.String,java.lang.String)>
+  sun.security.provider.PolicyFile.access$200/$r0, <sun.security.provider.PolicyFile: java.security.IdentityScope access$200()>
+  sun.security.provider.PolicyFile.access$300/$r0, <sun.security.provider.PolicyFile: sun.security.util.Debug access$300()>
+  sun.security.provider.PolicyFile.access$400/$r2, <sun.security.provider.PolicyFile: java.security.CodeSource access$400(sun.security.provider.PolicyFile,java.security.CodeSource,boolean)>
+  sun.security.provider.PolicyFile.access$500/$r1, <sun.security.provider.PolicyFile: java.util.Vector access$500(sun.security.provider.PolicyFile)>
   <java.net.URLClassLoader: java.net.URLClassLoader newInstance(java.net.URL[],java.lang.ClassLoader)>/r3, <java.net.URLClassLoader: java.net.URLClassLoader newInstance(java.net.URL[],java.lang.ClassLoader)>
   <java.net.URLClassLoader: java.net.URLClassLoader newInstance(java.net.URL[])>/r2, <java.net.URLClassLoader: java.net.URLClassLoader newInstance(java.net.URL[])>
   java.net.URLClassLoader.access$000/$r1, <java.net.URLClassLoader: sun.misc.URLClassPath access$000(java.net.URLClassLoader)>
   java.net.URLClassLoader.access$100/$r3, <java.net.URLClassLoader: java.lang.Class access$100(java.net.URLClassLoader,java.lang.String,sun.misc.Resource)>
   java.net.URLClassLoader.access$300/$r1, <java.net.URLClassLoader: java.security.AccessControlContext access$300(java.net.URLClassLoader)>
+  sun.misc.PathPermissions.access$000/$r1, <sun.misc.PathPermissions: java.io.File[] access$000(sun.misc.PathPermissions)>
+  sun.misc.PathPermissions.access$100/$r1, <sun.misc.PathPermissions: java.security.Permissions access$100(sun.misc.PathPermissions)>
   java.util.jar.JarFile.access$000/$r1, <java.util.jar.JarFile: java.util.jar.JarVerifier access$000(java.util.jar.JarFile)>
+  sun.misc.JarIndex.getJarIndex/r1, <sun.misc.JarIndex: sun.misc.JarIndex getJarIndex(java.util.jar.JarFile)>
+  sun.misc.ExtensionDependency.getExtDirs/r3, <sun.misc.ExtensionDependency: java.io.File[] getExtDirs()>
+  sun.misc.ExtensionDependency.getExtFiles/r9, <sun.misc.ExtensionDependency: java.io.File[] getExtFiles(java.io.File[])>
+  sun.misc.ExtensionDependency.access$000/$r0, <sun.misc.ExtensionDependency: java.io.File[] access$000()>
+  sun.misc.ExtensionDependency.access$100/$r1, <sun.misc.ExtensionDependency: java.io.File[] access$100(java.io.File[])>
   java.util.LinkedList.access$000/$r1, <java.util.LinkedList: java.util.LinkedList$Entry access$000(java.util.LinkedList)>
   java.util.LinkedList.access$300/$r3, <java.util.LinkedList: java.util.LinkedList$Entry access$300(java.util.LinkedList,java.lang.Object,java.util.LinkedList$Entry)>
   java.util.TimeZoneData.get/$r3, <java.util.TimeZoneData: java.util.TimeZone get(java.lang.String)>
@@ -1558,19 +2274,74 @@
   java.math.MutableBigInteger.fixup/r0, <java.math.MutableBigInteger: java.math.MutableBigInteger fixup(java.math.MutableBigInteger,java.math.MutableBigInteger,int)>
   java.security.IdentityScope.getSystemScope/$r1, <java.security.IdentityScope: java.security.IdentityScope getSystemScope()>
   java.security.KeyStore.getDefaultType/r1, <java.security.KeyStore: java.lang.String getDefaultType()>
+  sun.net.www.ParseUtil.encodePath/$r6, <sun.net.www.ParseUtil: java.lang.String encodePath(java.lang.String)>
+  sun.security.provider.IdentityDatabase.fromFile/r4, <sun.security.provider.IdentityDatabase: sun.security.provider.IdentityDatabase fromFile(java.io.File)>
+  sun.security.provider.IdentityDatabase.systemDatabaseFile/$r6, <sun.security.provider.IdentityDatabase: java.io.File systemDatabaseFile()>
   java.net.URLClassLoader$3.access$200/$r1, <java.net.URLClassLoader$3: java.util.Enumeration access$200(java.net.URLClassLoader$3)>
   java.util.zip.ZipFile.access$500/$r1, <java.util.zip.ZipFile: java.lang.String access$500(java.util.zip.ZipFile)>
+  sun.security.x509.X500Name.intern/r0, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r2, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r4, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r6, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r8, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r10, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r12, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r14, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r16, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r18, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r20, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r22, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r24, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r26, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r28, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r30, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.X500Name.intern/$r32, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier intern(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.AlgorithmId.getAlgorithmId/$r1, <sun.security.x509.AlgorithmId: sun.security.x509.AlgorithmId getAlgorithmId(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r7, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r9, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r10, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r11, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r12, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r13, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r14, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r15, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r16, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r17, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r18, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r19, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.x509.AlgorithmId.algOID/$r37, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  sun.security.pkcs.PKCS9Attributes.castToDerEncoder/r1, <sun.security.pkcs.PKCS9Attributes: sun.security.util.DerEncoder[] castToDerEncoder(java.lang.Object[])>
   java.security.Signature.access$000/$r1, <java.security.Signature: java.lang.String access$000(java.security.Signature)>
   java.security.Signature.access$102/r1, <java.security.Signature: java.security.Provider access$102(java.security.Signature,java.security.Provider)>
   java.security.Signature.access$100/$r1, <java.security.Signature: java.security.Provider access$100(java.security.Signature)>
+  <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier getOID(java.lang.String)>/$r4, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier getOID(java.lang.String)>
+  <sun.security.pkcs.PKCS9Attribute: java.lang.String getName(sun.security.util.ObjectIdentifier)>/$r3, <sun.security.pkcs.PKCS9Attribute: java.lang.String getName(sun.security.util.ObjectIdentifier)>
   java.security.SecureRandom.getSeed/$r3, <java.security.SecureRandom: byte[] getSeed(int)>
   java.security.SecureRandom.longToByteArray/r0, <java.security.SecureRandom: byte[] longToByteArray(long)>
   java.security.SecureRandom.getPrngAlgorithm/$r5, <java.security.SecureRandom: java.lang.String getPrngAlgorithm()>
+  sun.security.x509.OIDMap.getName/$r3, <sun.security.x509.OIDMap: java.lang.String getName(sun.security.util.ObjectIdentifier)>
+  sun.security.x509.OIDMap.getOID/$r3, <sun.security.x509.OIDMap: sun.security.util.ObjectIdentifier getOID(java.lang.String)>
+  sun.security.x509.OIDMap.loadOidClass/r1, <sun.security.x509.OIDMap: java.lang.Class loadOidClass(java.lang.String)>
+  sun.security.provider.SeedGenerator.longToByteArray/r0, <sun.security.provider.SeedGenerator: byte[] longToByteArray(long)>
+  sun.security.provider.SeedGenerator.access$000/$r0, <sun.security.provider.SeedGenerator: byte[] access$000(long)>
+  sun.net.ftp.FtpClient.getFtpProxyHost/$r2, <sun.net.ftp.FtpClient: java.lang.String getFtpProxyHost()>
+  sun.net.www.protocol.http.HttpURLConnection.privilegedRequestPasswordAuthentication/$r6, <sun.net.www.protocol.http.HttpURLConnection: java.net.PasswordAuthentication privilegedRequestPasswordAuthentication(java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String)>
   java.lang.ref.Finalizer.access$000/$r0, <java.lang.ref.Finalizer: java.lang.ref.ReferenceQueue access$000()>
   java.lang.ref.Finalizer.access$200/$r0, <java.lang.ref.Finalizer: java.lang.Object access$200()>
   java.lang.ref.Finalizer.access$300/$r0, <java.lang.ref.Finalizer: java.lang.ref.Finalizer access$300()>
   java.lang.ref.Finalizer.access$302/r0, <java.lang.ref.Finalizer: java.lang.ref.Finalizer access$302(java.lang.ref.Finalizer)>
   java.lang.ref.Finalizer.access$400/$r1, <java.lang.ref.Finalizer: java.lang.ref.Finalizer access$400(java.lang.ref.Finalizer)>
+  sun.net.www.MessageHeader.canonicalID/$r1, <sun.net.www.MessageHeader: java.lang.String canonicalID(java.lang.String)>
+  sun.net.www.MessageHeader.canonicalID/$stringconstant0, <sun.net.www.MessageHeader: java.lang.String canonicalID(java.lang.String)>
+  sun.net.www.protocol.ftp.FtpDirectoryThread.fullImagePath/$r5, <sun.net.www.protocol.ftp.FtpDirectoryThread: java.lang.String fullImagePath(java.lang.String)>
+  sun.net.www.http.HttpClient.New/r2, <sun.net.www.http.HttpClient: sun.net.www.http.HttpClient New(java.net.URL)>
+  <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.AuthenticationInfo getServerAuth(java.net.URL)>/$r8, <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.AuthenticationInfo getServerAuth(java.net.URL)>
+  <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.AuthenticationInfo getServerAuth(java.net.URL,java.lang.String,char)>/$r14, <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.AuthenticationInfo getServerAuth(java.net.URL,java.lang.String,char)>
+  <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.AuthenticationInfo getProxyAuth(java.lang.String,int)>/r3, <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.AuthenticationInfo getProxyAuth(java.lang.String,int)>
+  <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.AuthenticationInfo getProxyAuth(java.lang.String,int,java.lang.String,char)>/r4, <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.AuthenticationInfo getProxyAuth(java.lang.String,int,java.lang.String,char)>
+  sun.net.www.protocol.jar.URLJarFile.getJarFile/$r1, <sun.net.www.protocol.jar.URLJarFile: java.util.jar.JarFile getJarFile(java.net.URL)>
+  sun.net.www.protocol.jar.URLJarFile.getJarFile/$r2, <sun.net.www.protocol.jar.URLJarFile: java.util.jar.JarFile getJarFile(java.net.URL)>
+  sun.net.www.protocol.jar.URLJarFile.access$300/$r1, <sun.net.www.protocol.jar.URLJarFile: java.util.Map access$300(sun.net.www.protocol.jar.URLJarFile)>
   <java.text.Collator: java.text.Collator getInstance()>/$r1, <java.text.Collator: java.text.Collator getInstance()>
   java.text.Collator.getAvailableLocales/$r0, <java.text.Collator: java.util.Locale[] getAvailableLocales()>
   java.text.RBCollationTables.access$202/r1, <java.text.RBCollationTables: java.text.CompactIntArray access$202(java.text.RBCollationTables,java.text.CompactIntArray)>

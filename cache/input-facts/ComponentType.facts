@@ -26,6 +26,7 @@
   java.lang.ThreadLocal$ThreadLocalMap$Entry[], java.lang.ThreadLocal$ThreadLocalMap$Entry
   java.lang.Thread[], java.lang.Thread
   java.lang.FDBigInt[], java.lang.FDBigInt
+  java.lang.ref.SoftReference[], java.lang.ref.SoftReference
   java.util.Hashtable$Entry[], java.util.Hashtable$Entry
   java.text.Format[], java.text.Format
   java.lang.StringBuffer[], java.lang.StringBuffer
@@ -37,28 +38,27 @@
   java.lang.ThreadGroup[], java.lang.ThreadGroup
   byte[][], byte[]
   java.io.File[], java.io.File
+  java.net.URL[], java.net.URL
   java.security.Provider[], java.security.Provider
   java.util.SimpleTimeZone[], java.util.SimpleTimeZone
   java.util.ResourceBundle[], java.util.ResourceBundle
-  java.lang.ref.SoftReference[], java.lang.ref.SoftReference
   java.math.BigInteger[], java.math.BigInteger
   int[][], int[]
-  java.net.URL[], java.net.URL
-  java.security.Certificate[], java.security.Certificate
-  sun.security.x509.AlgorithmId[], sun.security.x509.AlgorithmId
-  java.security.cert.X509Certificate[], java.security.cert.X509Certificate
-  java.security.cert.X509CRL[], java.security.cert.X509CRL
   sun.security.pkcs.SignerInfo[], sun.security.pkcs.SignerInfo
   java.security.CodeSource[], java.security.CodeSource
-  sun.security.x509.RDN[], sun.security.x509.RDN
-  sun.security.util.ObjectIdentifier[], sun.security.util.ObjectIdentifier
-  java.lang.Byte[][], java.lang.Byte[]
-  sun.security.x509.AVA[], sun.security.x509.AVA
-  sun.net.ProgressEntry[], sun.net.ProgressEntry
+  sun.security.x509.AlgorithmId[], sun.security.x509.AlgorithmId
+  java.security.cert.X509Certificate[], java.security.cert.X509Certificate
+  sun.security.util.DerValue[], sun.security.util.DerValue
+  java.security.cert.X509CRL[], java.security.cert.X509CRL
   sun.security.x509.X509CertImpl[], sun.security.x509.X509CertImpl
+  java.security.Certificate[], java.security.Certificate
+  sun.security.x509.RDN[], sun.security.x509.RDN
+  sun.security.x509.AVA[], sun.security.x509.AVA
+  sun.security.util.ObjectIdentifier[], sun.security.util.ObjectIdentifier
   sun.security.pkcs.PKCS9Attribute[], sun.security.pkcs.PKCS9Attribute
   sun.security.util.DerEncoder[], sun.security.util.DerEncoder
-  sun.security.util.DerValue[], sun.security.util.DerValue
   sun.security.util.DerOutputStream[], sun.security.util.DerOutputStream
+  java.lang.Byte[][], java.lang.Byte[]
   java.lang.Byte[], java.lang.Byte
   java.security.cert.X509CRLEntry[], java.security.cert.X509CRLEntry
+  sun.net.ProgressEntry[], sun.net.ProgressEntry

@@ -88,7 +88,7 @@ public class InputFactsConverter {
         AssignmentsFactsConverter afc = new AssignmentsFactsConverter(id, hatfc.getHeapAllocationRefFactsList(), vdfc.getvarFactsList(), pfc.getMethodInvocationRefFactsList(), vdfc.getMethodSignatureRefFactsList(), tfc.getTypeFactsList() );
         afc.startThread();
         
-        FieldsFactsConverter ffc = new FieldsFactsConverter( id, vdfc.getvarFactsList(), vdfc.getMethodSignatureRefFactsList(), fdfc.getFieldSignatureRefFactsList() );
+        FieldsFactsConverter ffc = new FieldsFactsConverter( id, vdfc.getvarFactsList(), vdfc.getMethodSignatureRefFactsList(), fdfc.getFieldSignatureRefFactsList());
         ffc.startThread();
         
         ArrayFactsConverter arrayfc = new ArrayFactsConverter(id, vdfc.getMethodSignatureRefFactsList(), vdfc.getvarFactsList(), tfc.getTypeFactsList(), tfc.getArrayTypeFactsList());
@@ -114,6 +114,7 @@ public class InputFactsConverter {
         LibraryFactsConverter lfc = new LibraryFactsConverter(id, tfc.getTypeFactsList(), vdfc.getMethodSignatureRefFactsList(), mdasfc.getMethodDescriptorRefFactsList() , fdfc.getSimpleNameRefFactsList(), hatfc.getHeapAllocationRefFactsList(), vdfc.getvarFactsList() );
         lfc.parseLogicBloxFactsFile();
         lfc.createDatomicFactsFile();
+        System.out.println( "Total facts converted: " + id.printID());
         
     }
 }

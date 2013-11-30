@@ -274,7 +274,7 @@ public class VirtualMethodInvocationsFactsConverter extends FactsConverter imple
                     writer.println( " :VirtualMethodInvocation/invocation #db/id[:db.part/user " + key.getInvocation().getID() +"]" );
                     writer.println( " :VirtualMethodInvocation/signature #db/id[:db.part/user " + key.getSignature().getID() + "]" );
                     writer.println( " :VirtualMethodInvocation/inmethod #db/id[:db.part/user " + key.getInmethod().getID() + "]" );
-                    writer.println( " :VirtualMethodInvocation-Base/base #db/id[:db.part/user " + key.getBase().getID() + "]}" );
+                    writer.println( " :VirtualMethodInvocation/base #db/id[:db.part/user " + key.getBase().getID() + "]}" );
 
 
                 }

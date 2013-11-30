@@ -306,8 +306,7 @@ public class MyAnalysis {
                             "[?actualParam :ActualParam/invocation ?invocation]" +
                             "[?actualParam :ActualParam/index ?index]" +
                             "[?actualParam :ActualParam/var ?actual]" +
-                            "[?varType :Var-Type/ref ?formal]"+
-                            "[?varType :Var-Type/type ?type]]",
+                            "[?formal :Var/type ?type]]",
                             conn.db() );
             
             results.removeAll(assign_added_to_database);
@@ -336,8 +335,7 @@ public class MyAnalysis {
                             "[?returnVar :ReturnVar/method ?method]" + 
                             "[?returnVar :ReturnVar/var ?return]" +
                             "[?assignReturnValue :AssignReturnValue/to ?local]" +
-                            "[?varType :Var-Type/ref ?local]"+                            
-                            "[?varType :Var-Type/type ?type]]",
+                            "[?local :Var/type ?type]]",                            
                             conn.db() );
             
             results.removeAll(assign_added_to_database);
@@ -506,8 +504,7 @@ public class MyAnalysis {
                              "[?varPointsTo :VarPointsTo/heap ?heapbase]" +
                              "[?arrayIndexPointsTo :ArrayIndexPointsTo/baseheap ?heapbase]" +
                              "[?arrayIndexPointsTo :ArrayIndexPointsTo/heap ?heap]"+   
-                             "[?varType :Var-Type/ref ?to]" +
-                             "[?varType :Var-Type/type ?type]" +   
+                             "[?to :Var/type ?type]" +   
                              "[?heapAllocationType :HeapAllocation-Type/heap ?heapbase]" +
                              "[?heapAllocationType :HeapAllocation-Type/type ?heapbasetype]" +
                              "[?componentType :ComponentType/arrayType ?heapbasetype]" +
@@ -538,13 +535,11 @@ public class MyAnalysis {
                      "[?reachable :Reachable/method ?inmethod]" +
                      "[?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]" +   
                      "[?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]" +
-                     "[?virtualMethodInvocationBase :VirtualMethodInvocation-Base/invocation ?invocation]" +   
                      "[?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature]" +
-                     "[?methodSignatureSimplename :MethodSignature-SimpleName/signature ?signature]" +
-                     "[?methodSignatureDescriptor :MethodSignature-Descriptor/signature ?signature]" +
-                     "[?methodSignatureSimplename :MethodSignature-SimpleName/simplename ?simplename]" +
-                     "[?methodSignatureDescriptor :MethodSignature-Descriptor/descriptor ?descriptor]" +
-                     "[?virtualMethodInvocationBase :VirtualMethodInvocation-Base/base ?base]" +
+                     "[?method :Method/signature ?signature]" +
+                     "[?method :Method/simplename ?simplename]" +
+                     "[?method :Method/descriptor ?descriptor]" +
+                     "[?virtualMethodInvocation :VirtualMethodInvocation/base ?base]" +
                      "[?varPointsTo :VarPointsTo/var ?base]" +
                      "[?varPointsTo :VarPointsTo/heap ?heap]" +
                      "[?heapAllocationType :HeapAllocation-Type/heap ?heap]" +
@@ -581,13 +576,11 @@ public class MyAnalysis {
                      "[?reachable :Reachable/method ?inmethod]" +
                      "[?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]" +   
                      "[?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]" +
-                     "[?virtualMethodInvocationBase :VirtualMethodInvocation-Base/invocation ?invocation]" +   
                      "[?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature]" +
-                     "[?methodSignatureSimplename :MethodSignature-SimpleName/signature ?signature]" +
-                     "[?methodSignatureDescriptor :MethodSignature-Descriptor/signature ?signature]" +
-                     "[?methodSignatureSimplename :MethodSignature-SimpleName/simplename ?simplename]" +
-                     "[?methodSignatureDescriptor :MethodSignature-Descriptor/descriptor ?descriptor]" +
-                     "[?virtualMethodInvocationBase :VirtualMethodInvocation-Base/base ?base]" +
+                     "[?method :Method/signature ?signature]" +
+                     "[?method :Method/simplename ?simplename]" +
+                     "[?method :Method/descriptor ?descriptor]" +
+                     "[?virtualMethodInvocation :VirtualMethodInvocation/base ?base]" +
                      "[?varPointsTo :VarPointsTo/var ?base]" +
                      "[?varPointsTo :VarPointsTo/heap ?heap]" +
                      "[?heapAllocationType :HeapAllocation-Type/heap ?heap]" +
@@ -624,16 +617,14 @@ public class MyAnalysis {
             
             results = Peer.q("[:find ?heap ?this :where" +
                      "[?reachable :Reachable/method ?inmethod]" +
-                     "[?specialMethodInvocationIn :SpecialMethodInvocation-In/inmethod ?inmethod]" +
-                     "[?specialMethodInvocationIn :SpecialMethodInvocation-In/invocation ?invocation]" +
-                     "[?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/invocation ?invocation]" +
-                     "[?specialMethodInvocationBase :SpecialMethodInvocation-Base/invocation ?invocation]" +
-                     "[?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/signature ?signature]" +    
-                     "[?methodDeclaration :MethodDeclaration/signature ?signature]" +
-                     "[?specialMethodInvocationBase :SpecialMethodInvocation-Base/base ?base]" + 
+                     "[?specialMethodInvocation :SpecialMethodInvocation/inmethod ?inmethod]" +
+                     "[?specialMethodInvocation :SpecialMethodInvocation/invocation ?invocation]" +
+                     "[?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]" +    
+                     "[?method :Method/signature ?signature]" +
+                     "[?specialMethodInvocation :SpecialMethodInvocation/base ?base]" + 
                      "[?varPointsTo :VarPointsTo/var ?base]" +
                      "[?varPointsTo :VarPointsTo/heap ?heap]" +
-                     "[?methodDeclaration :MethodDeclaration/ref ?tomethod]"+
+                     "[?method :Method/declaration ?tomethod]"+
                      "[?thisVar :ThisVar/method ?tomethod]" +
                      "[?thisVar :ThisVar/var ?this]]" ,
                      conn.db());
@@ -659,14 +650,12 @@ public class MyAnalysis {
 
             results = Peer.q("[:find ?invocation ?tomethod :where" +
                      "[?reachable :Reachable/method ?inmethod]" +
-                     "[?specialMethodInvocationIn :SpecialMethodInvocation-In/inmethod ?inmethod]" +
-                     "[?specialMethodInvocationIn :SpecialMethodInvocation-In/invocation ?invocation]" +
-                     "[?specialMethodInvocationBase :SpecialMethodInvocation-Base/invocation ?invocation]" +
-                     "[?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/invocation ?invocation]" +
-                     "[?specialMethodInvocationSignature :SpecialMethodInvocation-Signature/signature ?signature]" +
-                     "[?methodDeclaration :MethodDeclaration/signature ?signature]" +
-                     "[?methodDeclaration :MethodDeclaration/ref ?tomethod]" +
-                     "[?specialMethodInvocationBase :SpecialMethodInvocation-Base/base ?base]" +
+                     "[?specialMethodInvocation :SpecialMethodInvocation/inmethod ?inmethod]" +
+                     "[?specialMethodInvocation :SpecialMethodInvocation/invocation ?invocation]" +
+                     "[?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]" +
+                     "[?method :Method/signature ?signature]" +
+                     "[?method :Method/declaration ?tomethod]" +
+                     "[?specialMethodInvocation :SpecialMethodInvocation/base ?base]" +
                      "[?varPointsTo :VarPointsTo/var ?base]" +
                      "[?thisVar :ThisVar/method ?tomethod]]" ,
                      conn.db());
@@ -695,8 +684,8 @@ public class MyAnalysis {
                      "[?staticMethodInvocation :StaticMethodInvocation/inmethod ?inmethod]" +
                      "[?staticMethodInvocation :StaticMethodInvocation/invocation ?invocation]" +
                      "[?staticMethodInvocation :StaticMethodInvocation/signature ?signature]" +   
-                     "[?methodDeclaration :MethodDeclaration/signature ?signature]" +
-                     "[?methodDeclaration :MethodDeclaration/ref ?tomethod]]",
+                     "[?method :Method/signature ?signature]" +
+                     "[?method :Method/declaration ?tomethod]]",
                      conn.db());
             
             results.removeAll(call_graph_edge_added_to_database);

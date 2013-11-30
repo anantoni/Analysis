@@ -14,6 +14,7 @@
   <sun.misc.ProxyGenerator: boolean saveGeneratedFiles>, <sun.misc.ProxyGenerator: void <clinit>()>
   <sun.net.InetAddressCachePolicy: int cachePolicy>, <sun.net.InetAddressCachePolicy: void setIfNotSet(int)>
   <java.net.URLConnection: boolean defaultUseCaches>, <java.net.URLConnection: void setDefaultUseCaches(boolean)>
+  <sun.misc.SoftCache$ValueCell: int dropped>, <sun.misc.SoftCache$ValueCell: void drop()>
   <java.util.Locale: java.lang.String[] isoLanguages>, <java.util.Locale: void <clinit>()>
   <java.util.Locale: java.lang.String[] isoCountries>, <java.util.Locale: void <clinit>()>
   <java.util.Locale: java.util.Hashtable ctry2LangMapping>, <java.util.Locale: void <clinit>()>
@@ -28,6 +29,10 @@
   <java.lang.SecurityManager: boolean packageDefinitionValid>, <java.lang.SecurityManager: void <clinit>()>
   <java.lang.FloatingDecimal: int maxSmallTen>, <java.lang.FloatingDecimal: void <clinit>()>
   <java.lang.FloatingDecimal: int singleMaxSmallTen>, <java.lang.FloatingDecimal: void <clinit>()>
+  <sun.net.InetAddressCachePolicy: int cachePolicy>, <sun.net.InetAddressCachePolicy: void <clinit>()>
+  <sun.net.InetAddressCachePolicy: boolean set>, <sun.net.InetAddressCachePolicy: void <clinit>()>
+  <sun.io.Converters: java.lang.String converterPackageName>, <sun.io.Converters: void <clinit>()>
+  <sun.io.Converters: java.lang.String defaultEncoding>, <sun.io.Converters: void <clinit>()>
   <java.lang.reflect.Proxy: long nextUniqueNumber>, <java.lang.reflect.Proxy: void <clinit>()>
   <java.net.SocketPermission: boolean trustProxy>, <java.net.SocketPermission: void <clinit>()>
   <java.io.File: int counter>, <java.io.File: java.io.File generateFile(java.lang.String,java.lang.String,java.io.File)>
@@ -52,13 +57,25 @@
   <java.security.Security: boolean reloadProviders>, <java.security.Security: void loadProviders()>
   <java.security.Security: boolean reloadProviders>, <java.security.Security: void reloadProviders()>
   <java.security.Security: boolean reloadProviders>, <java.security.Security: void <clinit>()>
+  <sun.net.www.MimeTable: sun.net.www.MimeTable defaultInstance>, <sun.net.www.MimeTable: void <clinit>()>
   <java.util.TimeZone: java.util.TimeZone defaultZone>, <java.util.TimeZone: void <clinit>()>
   <java.util.TimeZone: java.text.NumberFormat numberFormat>, <java.util.TimeZone: void <clinit>()>
   <java.text.DigitList: double LOG10>, <java.text.DigitList: void <clinit>()>
+  <sun.misc.SoftCache$ValueCell: int dropped>, <sun.misc.SoftCache$ValueCell: void <clinit>()>
+  <sun.security.provider.PolicyFile: java.security.IdentityScope scope>, <sun.security.provider.PolicyFile: void <clinit>()>
   <java.net.HttpURLConnection: boolean followRedirects>, <java.net.HttpURLConnection: void setFollowRedirects(boolean)>
   <java.net.HttpURLConnection: boolean followRedirects>, <java.net.HttpURLConnection: void <clinit>()>
+  <sun.security.x509.AlgorithmId: boolean initOidTable>, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
+  <sun.security.x509.AlgorithmId: boolean initOidTable>, <sun.security.x509.AlgorithmId: void <clinit>()>
+  <sun.net.www.protocol.http.HttpURLConnection: int maxRedirects>, <sun.net.www.protocol.http.HttpURLConnection: void <clinit>()>
   <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, <java.lang.ref.Finalizer: void <clinit>()>
+  <sun.net.www.protocol.ftp.FtpDirectoryThread: int imageWidth>, <sun.net.www.protocol.ftp.FtpDirectoryThread: void <clinit>()>
+  <sun.net.www.protocol.ftp.FtpDirectoryThread: int imageHeight>, <sun.net.www.protocol.ftp.FtpDirectoryThread: void <clinit>()>
+  <sun.net.www.http.HttpClient: java.lang.String dontProxySource>, <sun.net.www.http.HttpClient: void <clinit>()>
+  <sun.net.www.http.HttpClient: java.lang.String proxyHost>, <sun.net.www.http.HttpClient: void <clinit>()>
+  <sun.net.www.http.HttpClient: int proxyPort>, <sun.net.www.http.HttpClient: void <clinit>()>
   <java.net.PlainSocketImpl: int preferredConnectionTimeout>, <java.net.PlainSocketImpl: void <clinit>()>
+  <sun.net.www.http.KeepAliveCache: int result>, <sun.net.www.http.KeepAliveCache: int getMaxConnections()>
   <java.text.Normalizer: int maximumDecomposition>, <java.text.Normalizer: void <clinit>()>
   <java.text.Normalizer: int maximumCanonical>, <java.text.Normalizer: void <clinit>()>
   <java.text.Normalizer: char minimumCombining>, <java.text.Normalizer: void <clinit>()>
@@ -68,10 +85,6 @@
   <java.lang.Thread: int threadInitNumber>, <java.lang.Thread: int nextThreadNum()>
   <java.io.BufferedInputStream: int defaultBufferSize>, <java.io.BufferedInputStream: void <clinit>()>
   <java.lang.Terminator: sun.misc.SignalHandler handler>, <java.lang.Terminator: void <clinit>()>
-  <sun.net.InetAddressCachePolicy: int cachePolicy>, <sun.net.InetAddressCachePolicy: void <clinit>()>
-  <sun.net.InetAddressCachePolicy: boolean set>, <sun.net.InetAddressCachePolicy: void <clinit>()>
-  <sun.io.Converters: java.lang.String converterPackageName>, <sun.io.Converters: void <clinit>()>
-  <sun.io.Converters: java.lang.String defaultEncoding>, <sun.io.Converters: void <clinit>()>
   <java.lang.StrictMath: long negativeZeroFloatBits>, <java.lang.StrictMath: void <clinit>()>
   <java.lang.StrictMath: long negativeZeroDoubleBits>, <java.lang.StrictMath: void <clinit>()>
   <java.io.BufferedWriter: int defaultCharBufferSize>, <java.io.BufferedWriter: void <clinit>()>
@@ -83,23 +96,10 @@
   <sun.misc.VM: boolean suspended>, <sun.misc.VM: boolean suspendThreads()>
   <sun.misc.VM: boolean suspended>, <sun.misc.VM: void unsuspendThreads()>
   <sun.misc.VM: boolean suspended>, <sun.misc.VM: void <clinit>()>
-  <sun.net.www.MimeTable: sun.net.www.MimeTable defaultInstance>, <sun.net.www.MimeTable: void <clinit>()>
-  <sun.misc.SoftCache$ValueCell: int dropped>, <sun.misc.SoftCache$ValueCell: void drop()>
   <sun.misc.SoftCache$ValueCell: int dropped>, <sun.misc.SoftCache$ValueCell: int access$210()>
-  <sun.misc.SoftCache$ValueCell: int dropped>, <sun.misc.SoftCache$ValueCell: void <clinit>()>
-  <sun.security.provider.PolicyFile: java.security.IdentityScope scope>, <sun.security.provider.PolicyFile: void <clinit>()>
-  <sun.security.x509.AlgorithmId: boolean initOidTable>, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
-  <sun.security.x509.AlgorithmId: boolean initOidTable>, <sun.security.x509.AlgorithmId: void <clinit>()>
   <java.security.SecureRandom: java.security.SecureRandom seedGenerator>, <java.security.SecureRandom: void <clinit>()>
   <sun.net.ftp.FtpClient: int FTP_SUCCESS>, <sun.net.ftp.FtpClient: void <clinit>()>
   <sun.net.ftp.FtpClient: int FTP_TRY_AGAIN>, <sun.net.ftp.FtpClient: void <clinit>()>
   <sun.net.ftp.FtpClient: int FTP_ERROR>, <sun.net.ftp.FtpClient: void <clinit>()>
-  <sun.net.www.protocol.http.HttpURLConnection: int maxRedirects>, <sun.net.www.protocol.http.HttpURLConnection: void <clinit>()>
-  <sun.net.www.protocol.ftp.FtpDirectoryThread: int imageWidth>, <sun.net.www.protocol.ftp.FtpDirectoryThread: void <clinit>()>
-  <sun.net.www.protocol.ftp.FtpDirectoryThread: int imageHeight>, <sun.net.www.protocol.ftp.FtpDirectoryThread: void <clinit>()>
-  <sun.net.www.http.HttpClient: java.lang.String dontProxySource>, <sun.net.www.http.HttpClient: void <clinit>()>
-  <sun.net.www.http.HttpClient: java.lang.String proxyHost>, <sun.net.www.http.HttpClient: void <clinit>()>
-  <sun.net.www.http.HttpClient: int proxyPort>, <sun.net.www.http.HttpClient: void <clinit>()>
-  <sun.net.www.http.KeepAliveCache: int result>, <sun.net.www.http.KeepAliveCache: int getMaxConnections()>
   <sun.net.www.http.KeepAliveCache: int result>, <sun.net.www.http.KeepAliveCache: void <clinit>()>
   <sun.net.www.protocol.jar.URLJarFile: int BUF_SIZE>, <sun.net.www.protocol.jar.URLJarFile: void <clinit>()>

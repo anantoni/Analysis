@@ -1,11 +1,4 @@
 [
- ;;VarRef
- {:db/id #db/id[:db.part/db]
-  :db/ident :VarRef/value
-  :db/valueType :db.type/string
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
  ;;MethodSignatureRef
  {:db/id #db/id[:db.part/db]
   :db/ident :MethodSignatureRef/value
@@ -64,28 +57,8 @@
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
- {:db/id #db/id[:db.part/db]
-  :db/ident :HeapAllocationRef/x
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
 
  ;; Bytecode Instructions
-
-
- ;; Instruction-Index
- {:db/id #db/id[:db.part/db]
-  :db/ident :Instruction-Index/instruction
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-  
- {:db/id #db/id[:db.part/db]
-  :db/ident :Instruction-Index/index
-  :db/valueType :db.type/long
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
 
  ;;HeapAllocationRef
  {:db/id #db/id[:db.part/db]
@@ -94,11 +67,7 @@
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
-
-
  ;;Java Types
-
-
 
  ;;Type
  {:db/id #db/id[:db.part/db]
@@ -164,44 +133,6 @@
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
- 
-
- ;;Type Declarations
-
-
- ;;DirectSuperclass
- {:db/id #db/id[:db.part/db]
-  :db/ident :DirectSuperclass/ref
-  :db/valueType :db.type/ref
-  :db/unique :db.unique/value
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- {:db/id #db/id[:db.part/db]
-  :db/ident :DirectSuperclass/super
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;DirectSuperinterface
- {:db/id #db/id[:db.part/db]
-  :db/ident :DirectSuperinterface/class
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- {:db/id #db/id[:db.part/db]
-  :db/ident :DirectSuperinterface/interface
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;ApplicationClass
- {:db/id #db/id[:db.part/db]
-  :db/ident :ApplicationClass/ref
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
 
  ;;MainClass
  {:db/id #db/id[:db.part/db]
@@ -210,35 +141,23 @@
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
-
-
-
  ;; Variable declarations
 
-
- ;;Var-Type
+ ;;Var
  {:db/id #db/id[:db.part/db]
-  :db/ident :Var-Type/ref
-  :db/valueType :db.type/ref
-  :db/unique :db.unique/value
+  :db/ident :Var/name
+  :db/valueType :db.type/string
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
  {:db/id #db/id[:db.part/db]
-  :db/ident :Var-Type/type
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
- 
- ;;Var-DeclaringMethod
- {:db/id #db/id[:db.part/db]
-  :db/ident :Var-DeclaringMethod/ref
+  :db/ident :Var/type
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
  {:db/id #db/id[:db.part/db]
-  :db/ident :Var-DeclaringMethod/method
+  :db/ident :Var/method
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
@@ -272,115 +191,45 @@
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
- ;;FieldModifier
- {:db/id #db/id[:db.part/db]
-  :db/ident :FieldModifier/field
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- {:db/id #db/id[:db.part/db]
-  :db/ident :FieldModifier/modifier
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
 
  ;;Method declarations
 
 
- ;;MethodDeclaration
- {:db/id #db/id[:db.part/db]
-  :db/ident :MethodDeclaration/signature
-  :db/valueType :db.type/ref
-  :db/unique :db.unique/value
-  :db/index true	
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- {:db/id #db/id[:db.part/db]
-  :db/ident :MethodDeclaration/ref
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;MethodDeclaration-Exception
- {:db/id #db/id[:db.part/db]
-  :db/ident :MethodDeclaration-Exception/method
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- {:db/id #db/id[:db.part/db]
-  :db/ident :MethodDeclaration-Exception/exceptionType
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
 
  ;;Method signatures
 
-
- ;;MethodSignature-Type
  {:db/id #db/id[:db.part/db]
-  :db/ident :MethodSignature-Type/signature
+  :db/ident :Method/signature
   :db/valueType :db.type/ref
   :db/unique :db.unique/value
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
  {:db/id #db/id[:db.part/db]
-  :db/ident :MethodSignature-Type/type
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;MethodSignature-SimpleName
- {:db/id #db/id[:db.part/db]
-  :db/ident :MethodSignature-SimpleName/signature
-  :db/valueType :db.type/ref
-  :db/unique :db.unique/value
-  :db/index true
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- {:db/id #db/id[:db.part/db]
-  :db/ident :MethodSignature-SimpleName/simplename
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;MethodSignature-Descriptor
- {:db/id #db/id[:db.part/db]
-  :db/ident :MethodSignature-Descriptor/signature
-  :db/valueType :db.type/ref
-  :db/unique :db.unique/value
-  :db/index true
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- {:db/id #db/id[:db.part/db]
-  :db/ident :MethodSignature-Descriptor/descriptor
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;MethodModifier
- {:db/id #db/id[:db.part/db]
-  :db/ident :MethodModifier/method
+  :db/ident :Method/type
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
  {:db/id #db/id[:db.part/db]
-  :db/ident :MethodModifier/mod
+  :db/ident :Method/simplename
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Method/descriptor
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :Method/declaration
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db.install/_attribute :db.part/db}
 
  ;;Parameters
-
 
  ;;FormalParam
  {:db/id #db/id[:db.part/db]
@@ -439,8 +288,6 @@
 
  ;;Return variables
 
-
-
  ;;ReturnVar
  {:db/id #db/id[:db.part/db]
   :db/ident :ReturnVar/method
@@ -455,9 +302,9 @@
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
- ;;SpecialMethodInvocation-Base
+ ;;SpecialMethodInvocation
  {:db/id #db/id[:db.part/db]
-  :db/ident :SpecialMethodInvocation-Base/invocation
+  :db/ident :SpecialMethodInvocation/invocation
   :db/valueType :db.type/ref
   :db/unique :db.unique/value
   :db/index true
@@ -465,36 +312,21 @@
   :db.install/_attribute :db.part/db}
  
  {:db/id #db/id[:db.part/db]
-  :db/ident :SpecialMethodInvocation-Base/base
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;SpecialMethodInvocation-In
- {:db/id #db/id[:db.part/db]
-  :db/ident :SpecialMethodInvocation-In/invocation
+  :db/ident :SpecialMethodInvocation/base
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
  
  {:db/id #db/id[:db.part/db]
-  :db/ident :SpecialMethodInvocation-In/inmethod
+  :db/ident :SpecialMethodInvocation/inmethod
   :db/valueType :db.type/ref
   :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
-
- ;;SpecialMethodInvocation-Signature
- {:db/id #db/id[:db.part/db]
-  :db/ident :SpecialMethodInvocation-Signature/invocation
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
  
  {:db/id #db/id[:db.part/db]
-  :db/ident :SpecialMethodInvocation-Signature/signature
+  :db/ident :SpecialMethodInvocation/signature
   :db/valueType :db.type/ref
-  :db/unique :db.unique/value
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -517,46 +349,9 @@
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db} 
-
- ;;VirtualMethodInvocation-Base
- {:db/id #db/id[:db.part/db]
-  :db/ident :VirtualMethodInvocation-Base/invocation
-  :db/valueType :db.type/ref
-  :db/index true
-  :db/unique :db.unique/value
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
  
  {:db/id #db/id[:db.part/db]
-  :db/ident :VirtualMethodInvocation-Base/base
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;VirtualMethodInvocation-In
- {:db/id #db/id[:db.part/db]
-  :db/ident :VirtualMethodInvocation-In/invocation
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
- 
- {:db/id #db/id[:db.part/db]
-  :db/ident :VirtualMethodInvocation-In/inmethod
-  :db/valueType :db.type/ref
-  :db/index true
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;VirtualMethodInvocation-Signature
- {:db/id #db/id[:db.part/db]
-  :db/ident :VirtualMethodInvocation-Signature/invocation
-  :db/valueType :db.type/ref
-  :db/unique :db.unique/value
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
- 
- {:db/id #db/id[:db.part/db]
-  :db/ident :VirtualMethodInvocation-Signature/signature
+  :db/ident :VirtualMethodInvocation/base
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
@@ -565,6 +360,7 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :StaticMethodInvocation/invocation
   :db/valueType :db.type/ref
+  :db/unique :db.unique/value
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
  
@@ -578,34 +374,6 @@
   :db/ident :StaticMethodInvocation/inmethod
   :db/valueType :db.type/ref
   :db/index true
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;StaticMethodInvocation-In
- {:db/id #db/id[:db.part/db]
-  :db/ident :StaticMethodInvocation-In/invocation
-  :db/valueType :db.type/ref
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
- 
- {:db/id #db/id[:db.part/db]
-  :db/ident :StaticMethodInvocation-In/inmethod
-  :db/valueType :db.type/ref
-  :db/index true
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
-
- ;;VirtualMethodInvocation-Signature
- {:db/id #db/id[:db.part/db]
-  :db/ident :StaticMethodInvocation-Signature/invocation
-  :db/valueType :db.type/ref
-  :db/unique :db.unique/value
-  :db/cardinality :db.cardinality/one
-  :db.install/_attribute :db.part/db}
- 
- {:db/id #db/id[:db.part/db]
-  :db/ident :StaticMethodInvocation-Signature/signature
-  :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
