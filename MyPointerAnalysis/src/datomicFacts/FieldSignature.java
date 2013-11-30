@@ -11,12 +11,12 @@ package datomicFacts;
  */
 public class FieldSignature {
     int id;
-    FieldSignatureRef ref = null;
+    String ref = null;
     Type declaringClass = null;
     SimpleNameRef simplename = null;
     Type type = null;
     
-    public FieldSignature( int id, FieldSignatureRef ref, Type declaringClass, SimpleNameRef simplename, Type type ) {
+    public FieldSignature( int id, String ref, Type declaringClass, SimpleNameRef simplename, Type type ) {
         this.id = id;
         this.ref = ref;
         this.declaringClass = declaringClass;
@@ -28,7 +28,7 @@ public class FieldSignature {
         return this.id;
     }
     
-    public FieldSignatureRef getFieldSignatureRef() {
+    public String getFieldSignatureRef() {
         return this.ref;
     }
     

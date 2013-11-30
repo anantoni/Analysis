@@ -117,6 +117,7 @@ public class VirtualMethodInvocationsFactsConverter extends FactsConverter imple
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/VirtualMethodInvocation-Base.facts" ) )) {
                     String line;
+                    int counter = 0;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
                         String pattern = "(.*)(,\\s)(.*)";
@@ -135,19 +136,7 @@ public class VirtualMethodInvocationsFactsConverter extends FactsConverter imple
                             System.out.println( "VirtualMethodInvocation-Base.facts: Could not find match - " + line );
                             System.exit(-1);
                         }
-                        MethodInvocationRef invocation = null;
                         Var var = null;
-
-                        for ( MethodInvocationRef invocation1 : methodInvocationRefFactsList ) {
-                            if ( invocation1.getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
-                                invocation = invocation1;
-                                break;
-                            }
-                        }
-                        if ( invocation == null ) { 
-                            System.out.println( "VirtualMethodInvocation-Base.facts: Method Invocation Ref not found for: " + m.group(1) );
-                            System.exit(-1);
-                        }
 
                         for ( Var var1 : varFactsList ) {
                             if ( var1.getName().equals( m.group(3) ) ) {
@@ -158,120 +147,117 @@ public class VirtualMethodInvocationsFactsConverter extends FactsConverter imple
                         if ( var == null ) { 
                             System.out.println( "VirtualMethodInvocation-Base.facts: Variable Ref not found for: " + m.group(3) );
                             System.exit(-1);
-                        }
-                        
-                        VirtualMethodInvocationBase virtualMethodInvocationBase = new VirtualMethodInvocationBase( id.getID(), invocation, var );
-                        virtualMethodInvocationBaseFactsList.add(virtualMethodInvocationBase);
-                        
+                        }                        
+                        virtualMethodInvocationFactsList.get(counter++).setBase(var);
                     }
                     br.close();  
             }
 
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/VirtualMethodInvocation-In.facts" ) )) {
-                    String line;
-                    while ((line = br.readLine()) != null) {
-                        line = line.trim();
-                        String pattern = "(.*)(,\\s)(<.*>)";
-                        // Create a Pattern object
-                        Pattern r = Pattern.compile(pattern);
-
-                        // Now create matcher object.
-                        Matcher m = r.matcher(line);
-                        if ( m.find() ) {
-                            if ( m.groupCount() != 3 ) {
-                                System.out.println( "Invalid number of groups matched" );
-                                System.exit(-1);
-                            }
-                        } 
-                        else {
-                            System.out.println( "VirtualMethodInvocation-In.facts: Could not find match - " + line );
-                            System.exit(-1);
-                        }
-                        MethodInvocationRef invocation = null;
-                        MethodSignatureRef inmethod = null;
-
-                        for ( MethodInvocationRef invocation1 : methodInvocationRefFactsList ) {
-                            if ( invocation1.getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
-                                invocation = invocation1;
-                                break;
-                            }
-                        }
-                        if ( invocation == null ) { 
-                            System.out.println( "VirtualMethodInvocation-In.facts: Method Invocation Ref not found for: " + m.group(1) );
-                            System.exit(-1);
-                        }
-
-                        for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
-                            if ( inmethod1.getValue().equals( m.group(3) ) ) {
-                                inmethod = inmethod1;
-                                break;
-                            }
-                        }
-                        if ( inmethod == null ) { 
-                            System.out.println( "VirtualMethodInvocation-In.facts: Inmethod Signature Ref not found for: " + m.group(3) );
-                            System.exit(-1);
-                        }
-                        
-                        VirtualMethodInvocationIn virtualMethodInvocationIn = new VirtualMethodInvocationIn( id.getID(), invocation, inmethod );
-                        virtualMethodInvocationInFactsList.add(virtualMethodInvocationIn);
-                        
-                    }
-                    br.close();  
-            }
-            System.out.println("VirtualMethodInvocation-In read"); 
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/VirtualMethodInvocation-Signature.facts" ) )) {
-                String line;
-                while ((line = br.readLine()) != null) {
-                    line = line.trim();
-                    String pattern = "(.*)(,\\s)(.*)";
-                    // Create a Pattern object
-                    Pattern r = Pattern.compile(pattern);
-
-                    // Now create matcher object.
-                    Matcher m = r.matcher(line);
-                    if ( m.find() ) {
-                        if ( m.groupCount() != 3 ) {
-                            System.out.println( "Invalid number of groups matched" );
-                            System.exit(-1);
-                        }
-                    } 
-                    else {
-                        System.out.println( "VirtualMethodInvocation-Signature.facts: Could not find match - " + line );
-                        System.exit(-1);
-                    }
-                    MethodInvocationRef invocation = null;
-                    MethodSignatureRef signature = null;
-
-                    for ( MethodInvocationRef invocation1 : methodInvocationRefFactsList ) {
-                        if ( invocation1.getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
-                            invocation = invocation1;
-                            break;
-                        }
-                    }
-                    if ( invocation == null ) { 
-                        System.out.println( "VirtualMethodInvocation-Signature.facts: Method Invocation Ref not found for: " + m.group(1) );
-                        System.exit(-1);
-                    }
-
-                    for ( MethodSignatureRef signature1 : methodSignatureRefFactsList ) {
-                        if ( signature1.getValue().equals( m.group(3) ) ) {
-                            signature = signature1;
-                            break;
-                        }
-                    }
-                    if ( signature == null ) { 
-                        System.out.println( "VirtualMethodInvocation-Signature.facts: Method Signature not found for: " + m.group(3) );
-                        System.exit(-1);
-                    }
-
-
-                    VirtualMethodInvocationSignature virtualMethodInvocationSignature = new VirtualMethodInvocationSignature( id.getID(), invocation, signature );
-                    virtualMethodInvocationSignatureFactsList.add(virtualMethodInvocationSignature);
-
-                }
-                br.close();  
-            }  
-            System.out.println("VirtualMethodInvocation-Signature read"); 
+//            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/VirtualMethodInvocation-In.facts" ) )) {
+//                    String line;
+//                    while ((line = br.readLine()) != null) {
+//                        line = line.trim();
+//                        String pattern = "(.*)(,\\s)(<.*>)";
+//                        // Create a Pattern object
+//                        Pattern r = Pattern.compile(pattern);
+//
+//                        // Now create matcher object.
+//                        Matcher m = r.matcher(line);
+//                        if ( m.find() ) {
+//                            if ( m.groupCount() != 3 ) {
+//                                System.out.println( "Invalid number of groups matched" );
+//                                System.exit(-1);
+//                            }
+//                        } 
+//                        else {
+//                            System.out.println( "VirtualMethodInvocation-In.facts: Could not find match - " + line );
+//                            System.exit(-1);
+//                        }
+//                        MethodInvocationRef invocation = null;
+//                        MethodSignatureRef inmethod = null;
+//
+//                        for ( MethodInvocationRef invocation1 : methodInvocationRefFactsList ) {
+//                            if ( invocation1.getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
+//                                invocation = invocation1;
+//                                break;
+//                            }
+//                        }
+//                        if ( invocation == null ) { 
+//                            System.out.println( "VirtualMethodInvocation-In.facts: Method Invocation Ref not found for: " + m.group(1) );
+//                            System.exit(-1);
+//                        }
+//
+//                        for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
+//                            if ( inmethod1.getValue().equals( m.group(3) ) ) {
+//                                inmethod = inmethod1;
+//                                break;
+//                            }
+//                        }
+//                        if ( inmethod == null ) { 
+//                            System.out.println( "VirtualMethodInvocation-In.facts: Inmethod Signature Ref not found for: " + m.group(3) );
+//                            System.exit(-1);
+//                        }
+//                        
+//                        VirtualMethodInvocationIn virtualMethodInvocationIn = new VirtualMethodInvocationIn( id.getID(), invocation, inmethod );
+//                        virtualMethodInvocationInFactsList.add(virtualMethodInvocationIn);
+//                        
+//                    }
+//                    br.close();  
+//            }
+//            System.out.println("VirtualMethodInvocation-In read"); 
+//            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/VirtualMethodInvocation-Signature.facts" ) )) {
+//                String line;
+//                while ((line = br.readLine()) != null) {
+//                    line = line.trim();
+//                    String pattern = "(.*)(,\\s)(.*)";
+//                    // Create a Pattern object
+//                    Pattern r = Pattern.compile(pattern);
+//
+//                    // Now create matcher object.
+//                    Matcher m = r.matcher(line);
+//                    if ( m.find() ) {
+//                        if ( m.groupCount() != 3 ) {
+//                            System.out.println( "Invalid number of groups matched" );
+//                            System.exit(-1);
+//                        }
+//                    } 
+//                    else {
+//                        System.out.println( "VirtualMethodInvocation-Signature.facts: Could not find match - " + line );
+//                        System.exit(-1);
+//                    }
+//                    MethodInvocationRef invocation = null;
+//                    MethodSignatureRef signature = null;
+//
+//                    for ( MethodInvocationRef invocation1 : methodInvocationRefFactsList ) {
+//                        if ( invocation1.getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
+//                            invocation = invocation1;
+//                            break;
+//                        }
+//                    }
+//                    if ( invocation == null ) { 
+//                        System.out.println( "VirtualMethodInvocation-Signature.facts: Method Invocation Ref not found for: " + m.group(1) );
+//                        System.exit(-1);
+//                    }
+//
+//                    for ( MethodSignatureRef signature1 : methodSignatureRefFactsList ) {
+//                        if ( signature1.getValue().equals( m.group(3) ) ) {
+//                            signature = signature1;
+//                            break;
+//                        }
+//                    }
+//                    if ( signature == null ) { 
+//                        System.out.println( "VirtualMethodInvocation-Signature.facts: Method Signature not found for: " + m.group(3) );
+//                        System.exit(-1);
+//                    }
+//
+//
+//                    VirtualMethodInvocationSignature virtualMethodInvocationSignature = new VirtualMethodInvocationSignature( id.getID(), invocation, signature );
+//                    virtualMethodInvocationSignatureFactsList.add(virtualMethodInvocationSignature);
+//
+//                }
+//                br.close();  
+//            }  
+//            System.out.println("VirtualMethodInvocation-Signature read"); 
         }
         catch( IOException ex) {
             System.out.println( ex.toString() );
@@ -287,42 +273,43 @@ public class VirtualMethodInvocationsFactsConverter extends FactsConverter imple
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :VirtualMethodInvocation/invocation #db/id[:db.part/user " + key.getInvocation().getID() +"]" );
                     writer.println( " :VirtualMethodInvocation/signature #db/id[:db.part/user " + key.getSignature().getID() + "]" );
-                    writer.println( " :VirtualMethodInvocation/inmethod #db/id[:db.part/user " + key.getInmethod().getID() + "]}" );
+                    writer.println( " :VirtualMethodInvocation/inmethod #db/id[:db.part/user " + key.getInmethod().getID() + "]" );
+                    writer.println( " :VirtualMethodInvocation-Base/base #db/id[:db.part/user " + key.getBase().getID() + "]}" );
+
 
                 }
                 writer.close();
             }
             System.out.println( "VirtualMethodInvocation facts converted: " + virtualMethodInvocationFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/VirtualMethodInvocation-Base.dtm", false)));) {
-                for ( VirtualMethodInvocationBase key : virtualMethodInvocationBaseFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :VirtualMethodInvocation-Base/invocation #db/id[:db.part/user " + key.getInvocation().getID() +"]" );
-                    writer.println( " :VirtualMethodInvocation-Base/base #db/id[:db.part/user " + key.getVar().getID() + "]}" );
-                }
-                writer.close();
-            }
-            System.out.println( "VirtualMethodInvocation-Base facts converted: " + virtualMethodInvocationBaseFactsList.size() );
-            
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/VirtualMethodInvocation-In.dtm", false)));) {
-                for ( VirtualMethodInvocationIn key : virtualMethodInvocationInFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :VirtualMethodInvocation-In/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );
-                    writer.println( " :VirtualMethodInvocation-In/inmethod #db/id[:db.part/user " + key.getInmethod().getID() + "]}" );
-                }
-                writer.close();
-            }
-            System.out.println( "VirtualMethodInvocation-In facts converted: " + virtualMethodInvocationInFactsList.size() );
-            
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/VirtualMethodInvocation-Signature.dtm", false)));) {
-                for ( VirtualMethodInvocationSignature key : virtualMethodInvocationSignatureFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :VirtualMethodInvocation-Signature/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );
-                    writer.println( " :VirtualMethodInvocation-Signature/signature #db/id[:db.part/user " + key.getSignature().getID() + "]}" );
-                }
-                writer.close();
-            }
-            System.out.println( "VirtualMethodInvocation-Signature facts converted: " + virtualMethodInvocationSignatureFactsList.size() );
+//            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/VirtualMethodInvocation-Base.dtm", false)));) {
+//                for ( VirtualMethodInvocationBase key : virtualMethodInvocationBaseFactsList ) {
+//                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
+//                    writer.println( " :VirtualMethodInvocation-Base/invocation #db/id[:db.part/user " + key.getInvocation().getID() +"]" );
+//                }
+//                writer.close();
+//            }
+//            System.out.println( "VirtualMethodInvocation-Base facts converted: " + virtualMethodInvocationBaseFactsList.size() );
+//            
+//            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/VirtualMethodInvocation-In.dtm", false)));) {
+//                for ( VirtualMethodInvocationIn key : virtualMethodInvocationInFactsList ) {
+//                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
+//                    writer.println( " :VirtualMethodInvocation-In/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );
+//                    writer.println( " :VirtualMethodInvocation-In/inmethod #db/id[:db.part/user " + key.getInmethod().getID() + "]}" );
+//                }
+//                writer.close();
+//            }
+//            System.out.println( "VirtualMethodInvocation-In facts converted: " + virtualMethodInvocationInFactsList.size() );
+//            
+//            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/VirtualMethodInvocation-Signature.dtm", false)));) {
+//                for ( VirtualMethodInvocationSignature key : virtualMethodInvocationSignatureFactsList ) {
+//                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
+//                    writer.println( " :VirtualMethodInvocation-Signature/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );
+//                    writer.println( " :VirtualMethodInvocation-Signature/signature #db/id[:db.part/user " + key.getSignature().getID() + "]}" );
+//                }
+//                writer.close();
+//            }
+//            System.out.println( "VirtualMethodInvocation-Signature facts converted: " + virtualMethodInvocationSignatureFactsList.size() );
         }        
         catch ( Exception ex ) {
             System.out.println( ex.toString() ); 

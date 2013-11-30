@@ -6,9 +6,7 @@ package inputfactsconverter;
 
 import datomicFacts.MethodInvocationRef;
 import datomicFacts.MethodSignatureRef;
-import datomicFacts.SpecialMethodInvocationBase;
-import datomicFacts.SpecialMethodInvocationIn;
-import datomicFacts.SpecialMethodInvocationSignature;
+import datomicFacts.SpecialMethodInvocation;
 import datomicFacts.Var;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -28,9 +26,7 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
     private ArrayList<MethodInvocationRef> methodInvocationRefFactsList = null;
     private ArrayList<Var> varFactsList = null;
     private ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
-    private ArrayList<SpecialMethodInvocationBase> specialMethodInvocationBaseFactsList = null;
-    private ArrayList<SpecialMethodInvocationIn> specialMethodInvocationInFactsList = null;
-    private ArrayList<SpecialMethodInvocationSignature> specialMethodInvocationSignatureFactsList = null;
+    private ArrayList<SpecialMethodInvocation> specialMethodInvocationFactsList = null;
     private FactsID id = null;
     private Thread t = null;
     
@@ -38,9 +34,7 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
         this.methodInvocationRefFactsList = methodInvocationRefFactsList;
         this.varFactsList = varFactsList;
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
-        specialMethodInvocationBaseFactsList = new ArrayList<>();
-        specialMethodInvocationInFactsList = new ArrayList<>();
-        specialMethodInvocationSignatureFactsList = new ArrayList<>();
+        specialMethodInvocationFactsList = new ArrayList<>();
         this.id = id;
     }
 
@@ -92,14 +86,15 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
                             System.out.println( "SpecialMethodInvocation-Base.facts: Variable Ref not found for: " + m.group(3) );
                             System.exit(-1);
                         }                        
-                        SpecialMethodInvocationBase specialMethodInvocationBase = new SpecialMethodInvocationBase( id.getID(), invocation, var );
-                        specialMethodInvocationBaseFactsList.add(specialMethodInvocationBase);
+                        SpecialMethodInvocation specialMethodInvocation = new SpecialMethodInvocation( id.getID(), invocation, var );
+                        specialMethodInvocationFactsList.add(specialMethodInvocation);
                     }
                     br.close();  
             }
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/SpecialMethodInvocation-In.facts" ) )) {
                     String line;
+                    int counter = 0;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
                         String pattern = "(.*)(,\\s)(.*)";
@@ -118,19 +113,7 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
                             System.out.println( "SpecialMethodInvocation-In.facts: Could not find match - " + line );
                             System.exit(-1);
                         }
-                        MethodInvocationRef invocation = null;
                         MethodSignatureRef inmethod = null;
-
-                        for ( MethodInvocationRef invocation1 : methodInvocationRefFactsList ) {
-                            if ( invocation1.getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
-                                invocation = invocation1;
-                                break;
-                            }
-                        }
-                        if ( invocation == null ) { 
-                            System.out.println( "SpecialMethodInvocation-In.facts: Method Invocation Ref not found for: " + m.group(1) );
-                            System.exit(-1);
-                        }
 
                         for ( MethodSignatureRef inmethod1 : methodSignatureRefFactsList ) {
                             if ( inmethod1.getValue().equals( m.group(3) ) ) {
@@ -142,14 +125,14 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
                             System.out.println( "SpecialMethodInvocation-In.facts: Inmethod Signature Ref not found for: " + m.group(3) );
                             System.exit(-1);
                         }                        
-                        SpecialMethodInvocationIn specialMethodInvocationIn = new SpecialMethodInvocationIn( id.getID(), invocation, inmethod );
-                        specialMethodInvocationInFactsList.add(specialMethodInvocationIn);
+                        specialMethodInvocationFactsList.get(counter++).setInmethod(inmethod);
                     }
                     br.close();  
             }
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/SpecialMethodInvocation-Signature.facts" ) )) {
                     String line;
+                    int counter = 0;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
                         String pattern = "(.*)(,\\s)(.*)";
@@ -168,19 +151,7 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
                             System.out.println( "SpecialMethodInvocation-Signature.facts: Could not find match - " + line );
                             System.exit(-1);
                         }
-                        MethodInvocationRef invocation = null;
                         MethodSignatureRef signature = null;
-
-                        for ( MethodInvocationRef invocation1 : methodInvocationRefFactsList ) {
-                            if ( invocation1.getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
-                                invocation = invocation1;
-                                break;
-                            }
-                        }
-                        if ( invocation == null ) { 
-                            System.out.println( "SpecialMethodInvocation-Signature.facts: Method Invocation Ref not found for: " + m.group(1) );
-                            System.exit(-1);
-                        }
 
                         for ( MethodSignatureRef signature1 : methodSignatureRefFactsList ) {
                             if ( signature1.getValue().equals( m.group(3) ) ) {
@@ -192,8 +163,7 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
                             System.out.println( "SpecialMethodInvocation-Signature.facts: Method Signature not found for: " + m.group(3) );
                             System.exit(-1);
                         }                        
-                        SpecialMethodInvocationSignature specialMethodInvocationSignature = new SpecialMethodInvocationSignature( id.getID(), invocation, signature );
-                        specialMethodInvocationSignatureFactsList.add(specialMethodInvocationSignature);
+                        specialMethodInvocationFactsList.get(counter++).setSignature(signature);
                     }
                     br.close();  
             }
@@ -207,35 +177,17 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
     @Override
     void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/SpecialMethodInvocation-Base.dtm", false)));) {
-                for ( SpecialMethodInvocationBase key : specialMethodInvocationBaseFactsList ) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/SpecialMethodInvocation.dtm", false)));) {
+                for ( SpecialMethodInvocation key : specialMethodInvocationFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :SpecialMethodInvocation-Base/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );
-                    writer.println( " :SpecialMethodInvocation-Base/base #db/id[:db.part/user " + key.getVar().getID() + "]}" );
+                    writer.println( " :SpecialMethodInvocation/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );
+                    writer.println( " :SpecialMethodInvocation/base #db/id[:db.part/user " + key.getVar().getID() + "]" );
+                    writer.println( " :SpecialMethodInvocation/inmethod #db/id[:db.part/user " + key.getInmethod().getID() + "]" );
+                    writer.println( " :SpecialMethodInvocation/signature #db/id[:db.part/user " + key.getSignature().getID() + "]}" );
                 }
                 writer.close();
             }
-            System.out.println( "SpecialMethodInvocation-Base facts converted: " + specialMethodInvocationBaseFactsList.size() );
-            
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/SpecialMethodInvocation-In.dtm", false)));) {
-                for ( SpecialMethodInvocationIn key : specialMethodInvocationInFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :SpecialMethodInvocation-In/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );
-                    writer.println( " :SpecialMethodInvocation-In/inmethod #db/id[:db.part/user " + key.getInmethod().getID() + "]}" );
-                }
-                writer.close();
-            }
-            System.out.println( "SpecialMethodInvocation-In facts converted: " + specialMethodInvocationInFactsList.size() );
-            
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/SpecialMethodInvocation-Signature.dtm", false)));) {
-                for ( SpecialMethodInvocationSignature key : specialMethodInvocationSignatureFactsList ) {
-                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-                    writer.println( " :SpecialMethodInvocation-Signature/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );
-                    writer.println( " :SpecialMethodInvocation-Signature/signature #db/id[:db.part/user " + key.getSignature().getID() + "]}" );
-                }
-                writer.close();
-            }
-            System.out.println( "SpecialMethodInvocation-Signature facts converted: " + specialMethodInvocationSignatureFactsList.size() );
+            System.out.println( "SpecialMethodInvocation-Base facts converted: " + specialMethodInvocationFactsList.size() );
         }        
         catch ( Exception ex ) {
             System.out.println( ex.toString() ); 

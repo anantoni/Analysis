@@ -13,6 +13,7 @@ public class VirtualMethodInvocation {
     MethodInvocationRef invocation = null;
     MethodSignatureRef signature = null;
     MethodSignatureRef inmethod = null;
+    Var base = null;
     
     public VirtualMethodInvocation( int id, MethodInvocationRef invocation, MethodSignatureRef signature, MethodSignatureRef inmethod ) {
         this.id = id;
@@ -35,6 +36,14 @@ public class VirtualMethodInvocation {
     
     public MethodSignatureRef getInmethod() {
         return this.inmethod;
+    }
+    
+    public void setBase(Var base) {
+        this.base = base;
+    }
+    
+    public Var getBase() {
+        return this.base;
     }
     
 }
