@@ -29,13 +29,6 @@ public class SpecialMethodInvocation {
         return this.invocation;
     }
     
-    public void setInmethod(MethodSignatureRef inmethod) {
-        this.inmethod = inmethod;
-    }
-
-    public void setSignature(MethodSignatureRef signature) {
-        this.signature = signature;
-    }
     public MethodSignatureRef getInmethod() {
         return this.inmethod;
     }
@@ -47,4 +40,13 @@ public class SpecialMethodInvocation {
     public Var getVar() {
         return this.var;
     }
+    
+    public void setInmethod(MethodSignatureRef inmethod) {
+        this.inmethod = inmethod;
+    }
+
+    public void setSignature(MethodSignatureRef signature) {
+        this.signature = signature;
+    }
+    
 }

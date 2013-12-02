@@ -1,8 +1,8 @@
   boolean
+  byte
+  char
+  double
+  float
   int
   long
-  char
-  float
-  double
-  byte
   short

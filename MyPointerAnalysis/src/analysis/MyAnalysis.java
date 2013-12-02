@@ -177,9 +177,7 @@ public class MyAnalysis {
                }
             }
             System.out.println( "VarPointsTo from AssignContextInsensitiveHeapAllocation: " + results.size());
-            
-            
-            
+                        
             results = Peer.q("[:find ?heap ?to :where"+
                             "[?reachable :Reachable/method ?inmethod]" +
                             "[?loadInstanceField :LoadInstanceField/inmethod ?inmethod]" +
@@ -359,9 +357,9 @@ public class MyAnalysis {
             results = Peer.q("[:find ?heap ?to :where"+
                              "[?assign :Assign/to ?to]"+
                              "[?assign :Assign/from ?from]"+
-                             "[?assign :Assign/type ?type]"+
                              "[?fromPointsTo :VarPointsTo/var ?from]"+
                              "[?fromPointsTo :VarPointsTo/heap ?heap]"+
+                             "[?assign :Assign/type ?type]"+
                              "[?heapAllocationType :HeapAllocation-Type/heap ?heap]"+
                              "[?heapAllocationType :HeapAllocation-Type/type ?heaptype]"+
                              "[?assignCompatible :AssignCompatible/source ?heaptype]"+
@@ -534,7 +532,6 @@ public class MyAnalysis {
             results = Peer.q("[:find ?heap ?this :where" +
                      "[?reachable :Reachable/method ?inmethod]" +
                      "[?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]" +   
-                     "[?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]" +
                      "[?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature]" +
                      "[?method :Method/signature ?signature]" +
                      "[?method :Method/simplename ?simplename]" +
@@ -575,12 +572,12 @@ public class MyAnalysis {
             results = Peer.q("[:find ?invocation ?tomethod :where" +
                      "[?reachable :Reachable/method ?inmethod]" +
                      "[?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]" +   
+                     "[?virtualMethodInvocation :VirtualMethodInvocation/base ?base]" +
                      "[?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]" +
                      "[?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature]" +
                      "[?method :Method/signature ?signature]" +
                      "[?method :Method/simplename ?simplename]" +
                      "[?method :Method/descriptor ?descriptor]" +
-                     "[?virtualMethodInvocation :VirtualMethodInvocation/base ?base]" +
                      "[?varPointsTo :VarPointsTo/var ?base]" +
                      "[?varPointsTo :VarPointsTo/heap ?heap]" +
                      "[?heapAllocationType :HeapAllocation-Type/heap ?heap]" +
@@ -589,7 +586,7 @@ public class MyAnalysis {
                      "[?methodLookup :MethodLookup/descriptor ?descriptor]" +
                      "[?methodLookup :MethodLookup/type ?type]" +
                      "[?methodLookup :MethodLookup/method ?tomethod]" +
-                     "[?thisVar :ThisVar/method ?tomethod]]",
+                     "[_ :ThisVar/method ?tomethod]]",
                      conn.db());
             
             if ( counter == 0 ) 
@@ -619,11 +616,11 @@ public class MyAnalysis {
                      "[?reachable :Reachable/method ?inmethod]" +
                      "[?specialMethodInvocation :SpecialMethodInvocation/inmethod ?inmethod]" +
                      "[?specialMethodInvocation :SpecialMethodInvocation/invocation ?invocation]" +
-                     "[?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]" +    
-                     "[?method :Method/signature ?signature]" +
+                     "[?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]" +
                      "[?specialMethodInvocation :SpecialMethodInvocation/base ?base]" + 
                      "[?varPointsTo :VarPointsTo/var ?base]" +
                      "[?varPointsTo :VarPointsTo/heap ?heap]" +
+                     "[?method :Method/signature ?signature]" +
                      "[?method :Method/declaration ?tomethod]"+
                      "[?thisVar :ThisVar/method ?tomethod]" +
                      "[?thisVar :ThisVar/var ?this]]" ,
@@ -653,11 +650,11 @@ public class MyAnalysis {
                      "[?specialMethodInvocation :SpecialMethodInvocation/inmethod ?inmethod]" +
                      "[?specialMethodInvocation :SpecialMethodInvocation/invocation ?invocation]" +
                      "[?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]" +
+                     "[?specialMethodInvocation :SpecialMethodInvocation/base ?base]" +
+                     "[_ :VarPointsTo/var ?base]" +
                      "[?method :Method/signature ?signature]" +
                      "[?method :Method/declaration ?tomethod]" +
-                     "[?specialMethodInvocation :SpecialMethodInvocation/base ?base]" +
-                     "[?varPointsTo :VarPointsTo/var ?base]" +
-                     "[?thisVar :ThisVar/method ?tomethod]]" ,
+                     "[_ :ThisVar/method ?tomethod]]" ,
                      conn.db());
             
             results.removeAll(call_graph_edge_added_to_database);
@@ -707,7 +704,7 @@ public class MyAnalysis {
             }
 
             results = Peer.q("[:find ?tomethod :where" +
-                     "[?callGraphEdge :CallGraphEdge/invocation ?invocation]" +
+                     "[?callGraphEdge :CallGraphEdge/invocation _]" +
                      "[?callGraphEdge :CallGraphEdge/tomethod ?tomethod]]",
                      conn.db());
             
@@ -717,6 +714,7 @@ public class MyAnalysis {
                 fix_point_reached = false;
             
             for ( Object result : results) {
+                System.out.println(((List) result).get(0)); 
                 List tx = Util.list(Util.map(":db/id", Peer.tempid(":db.part/user"), ":Reachable/method", ((List) result).get(0)));
 
                 try { Object txResult = conn.transact(tx).get(); }
@@ -726,7 +724,7 @@ public class MyAnalysis {
                     System.exit(-1);
                 }
             }
-            System.out.println("Static reachable added: " + results.size());
+            System.out.println("Reachable added: " + results.size());
             if ( fix_point_reached == true) {
                 long stopTime = System.nanoTime();
                 long elapsedTime = stopTime - startTime;

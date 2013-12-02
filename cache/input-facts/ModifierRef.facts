@@ -1,9 +1,9 @@
+  abstract
+  final
+  native
   private
+  protected
   public
   static
-  native
-  final
-  protected
   synchronized
-  abstract
   transient

@@ -137,7 +137,7 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
                                 break;
                             }
                         }
-                        if ( ref == null ) { 
+                        if ( declaringClass == null ) { 
                             System.out.println( "Declaring Class not found for: " + m.group(3) );
                             System.exit(-1);
                         }
@@ -148,7 +148,7 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
                                 break;
                             }
                         }
-                        if ( ref == null ) { 
+                        if ( simpleNameRef == null ) { 
                             System.out.println( "Simple Name not found for: " + m.group(5) );
                             System.exit(-1);
                         }
@@ -159,7 +159,7 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
                                 break;
                             }
                         }
-                        if ( ref == null ) { 
+                        if ( type == null ) { 
                             System.out.println( "Declaring Class not found for: " + m.group(7) );
                             System.exit(-1);
                         }
@@ -169,57 +169,6 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
                     }
                     br.close();
                 }
-                
-//                try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/FieldModifier.facts" ) )) {
-//                    String line;
-//                    while ((line = br.readLine()) != null) {
-//                        line = line.trim();
-//                        String pattern = "(.*)(,\\s)(<.*>)";
-//                        // Create a Pattern object
-//                        Pattern r = Pattern.compile(pattern);
-//
-//                        // Now create matcher object.
-//                        Matcher m = r.matcher(line);
-//                        if ( m.find() ) {
-//                            if ( m.groupCount() != 3 ) {
-//                                System.out.println( "Invalid number of groups matched" );
-//                                System.exit(-1);
-//                            }
-//                        } 
-//                        else {
-//                            System.out.println( "Could not find match" );
-//                            System.exit(-1);
-//                        }
-//                        FieldSignatureRef field = null;
-//                        ModifierRef modifier = null;
-//
-//                        for ( FieldSignatureRef fieldSignatureRef : fieldSignatureRefFactsList ) {
-//                            if ( fieldSignatureRef.getValue().equals( m.group(3) ) ) {
-//                                field = fieldSignatureRef;
-//                                break;
-//                            }
-//                        }
-//                        if ( field == null ) { 
-//                            System.out.println( "Field Signature Ref not found for: " + m.group(3) );
-//                            System.exit(-1);
-//                        }
-//
-//                        for ( ModifierRef mod : modifierRefFactsList ) {
-//                            if (mod.getValue().equals( m.group(1) ) ) {
-//                                modifier = mod;
-//                                break;
-//                            }
-//                        }
-//                        if ( modifier == null ) { 
-//                            System.out.println( "Modifier Ref not found for: " + m.group(1) );
-//                            System.exit(-1);
-//                        }
-//
-//                        FieldModifier fieldModifier = new FieldModifier( id.getID(), field, modifier );
-//                        fieldModifierFactsList.add(fieldModifier);
-//                    }
-//                    br.close();  
-//                } 
             }
             catch( IOException ex) {
                 System.out.println( ex.toString() );
@@ -269,16 +218,6 @@ public class FieldDeclarationsFactsConverter extends FactsConverter implements R
                 writer.close();
             }
             System.out.println( "FieldSignature facts converted: " + fieldSignatureFactsList.size() );
-
-//            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/FieldModifier.dtm", false)));) {
-//                for ( FieldModifier key : fieldModifierFactsList ) {
-//                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-//                    writer.println( " :FieldModifier/field #db/id[:db.part/user " + key.getField().getID() +"]"); 
-//                    writer.println( " :FieldModifier/modifier #db/id[:db.part/user " + key.getModifier().getID() + "]}");                
-//                }
-//                writer.close();
-//            }
-//            System.out.println( "FieldModifier facts converted: " + fieldModifierFactsList.size() );       
         }        
         catch ( Exception ex ) {
             System.out.println( ex.toString() ); 

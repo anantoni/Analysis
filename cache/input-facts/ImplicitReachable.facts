@@ -1,9 +1,9 @@
+  <java.lang.ClassLoader: java.lang.Class loadClassInternal(java.lang.String)>
   <java.lang.ClassLoader: long findNative(java.lang.ClassLoader,java.lang.String)>
   <java.lang.ClassLoader: void addClass(java.lang.Class)>
-  <java.lang.ClassLoader: void <init>()>
-  <java.lang.ClassLoader: java.lang.Class loadClassInternal(java.lang.String)>
   <java.lang.ClassLoader: void checkPackageAccess(java.lang.Class,java.security.ProtectionDomain)>
-  <java.lang.Thread: void exit()>
-  <java.lang.ThreadGroup: void uncaughtException(java.lang.Thread,java.lang.Throwable)>
-  <java.security.PrivilegedActionException: void <init>(java.lang.Exception)>
+  <java.lang.ClassLoader: void <init>()>
   <java.lang.System: void initializeSystemClass()>
+  <java.lang.ThreadGroup: void uncaughtException(java.lang.Thread,java.lang.Throwable)>
+  <java.lang.Thread: void exit()>
+  <java.security.PrivilegedActionException: void <init>(java.lang.Exception)>

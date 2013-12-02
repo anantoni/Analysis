@@ -1,144 +1,337 @@
-  java.lang.String.getBTCConverter/$r5, <java.lang.String: java.lang.ThreadLocal btcCache>, <java.lang.String: sun.io.ByteToCharConverter getBTCConverter(java.lang.String)>
-  java.lang.String.<clinit>/$r0, <java.lang.String: java.io.ObjectStreamField[] serialPersistentFields>, <java.lang.String: void <clinit>()>
-  java.lang.String.<clinit>/$r1, <java.lang.String: java.util.Comparator CASE_INSENSITIVE_ORDER>, <java.lang.String: void <clinit>()>
+  java.io.File.<clinit>/$r0, <java.io.File: java.io.FileSystem fs>, <java.io.File: void <clinit>()>
+  java.io.File.<clinit>/$r10, <java.io.File: java.lang.String pathSeparator>, <java.io.File: void <clinit>()>
+  java.io.File.<clinit>/$r11, <java.io.File: java.lang.Object tmpFileLock>, <java.io.File: void <clinit>()>
+  java.io.File.<clinit>/$r5, <java.io.File: java.lang.String separator>, <java.io.File: void <clinit>()>
+  java.io.FileDescriptor.<clinit>/$r0, <java.io.FileDescriptor: java.io.FileDescriptor in>, <java.io.FileDescriptor: void <clinit>()>
+  java.io.FileDescriptor.<clinit>/$r1, <java.io.FileDescriptor: java.io.FileDescriptor out>, <java.io.FileDescriptor: void <clinit>()>
+  java.io.FileDescriptor.<clinit>/$r2, <java.io.FileDescriptor: java.io.FileDescriptor err>, <java.io.FileDescriptor: void <clinit>()>
+  java.io.File.getTempDir/$r4, <java.io.File: java.lang.String tmpdir>, <java.io.File: java.lang.String getTempDir()>
+  java.io.FilePermission.<clinit>/$r4, <java.io.FilePermission: java.lang.String SEP_RECURSIVE>, <java.io.FilePermission: void <clinit>()>
+  java.io.FilePermission.<clinit>/$r9, <java.io.FilePermission: java.lang.String SEP_WILD>, <java.io.FilePermission: void <clinit>()>
+  java.io.InputStream.skip/$r3, <java.io.InputStream: byte[] skipBuffer>, <java.io.InputStream: long skip(long)>
+  <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>/$r7, <java.io.ObjectInputStream$GetFieldImpl: java.lang.Class class$java$lang$Object>, <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>
   java.io.ObjectInputStream.inputObject/$r58, <java.io.ObjectInputStream: java.lang.Class class$java$io$Serializable>, <java.io.ObjectInputStream: int inputObject(boolean)>
-  java.lang.ClassLoader.getDefaultDomain/$r11, <java.lang.ClassLoader: java.security.PermissionCollection defaultPermissions>, <java.lang.ClassLoader: java.security.ProtectionDomain getDefaultDomain()>
-  java.lang.ClassLoader.getDefaultDomain/$r7, <java.lang.ClassLoader: java.lang.Class class$java$lang$ClassLoader>, <java.lang.ClassLoader: java.security.ProtectionDomain getDefaultDomain()>
-  java.net.URL.setURLStreamHandlerFactory/r0, <java.net.URL: java.net.URLStreamHandlerFactory factory>, <java.net.URL: void setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)>
+  java.io.ObjectOutputStream.checkSubstitutableSpecialClasses/$r5, <java.io.ObjectOutputStream: java.lang.Class class$java$lang$String>, <java.io.ObjectOutputStream: boolean checkSubstitutableSpecialClasses(java.lang.Object,java.lang.Class)>
+  <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,java.lang.Object)>/$r7, <java.io.ObjectOutputStream$PutFieldImpl: java.lang.Class class$java$lang$Object>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,java.lang.Object)>
+  java.io.ObjectStreamClass.<clinit>/$r0, <java.io.ObjectStreamClass: java.io.ObjectStreamClass$ObjectStreamClassEntry[] descriptorFor>, <java.io.ObjectStreamClass: void <clinit>()>
+  java.io.ObjectStreamClass.<clinit>/$r1, <java.io.ObjectStreamClass: java.io.ObjectStreamField[] NO_FIELDS>, <java.io.ObjectStreamClass: void <clinit>()>
+  java.io.ObjectStreamClass.<clinit>/$r2, <java.io.ObjectStreamClass: java.io.ObjectStreamField[] serialPersistentFields>, <java.io.ObjectStreamClass: void <clinit>()>
+  java.io.ObjectStreamClass.<clinit>/$r3, <java.io.ObjectStreamClass: java.util.Comparator compareClassByName>, <java.io.ObjectStreamClass: void <clinit>()>
+  java.io.ObjectStreamClass.<clinit>/$r4, <java.io.ObjectStreamClass: java.util.Comparator compareMemberByName>, <java.io.ObjectStreamClass: void <clinit>()>
+  java.io.ObjectStreamClass.<clinit>/$r5, <java.io.ObjectStreamClass: java.lang.Class[] NULL_ARGS>, <java.io.ObjectStreamClass: void <clinit>()>
+  java.io.ObjectStreamClass.initStaticMethodArgs/$r1, <java.io.ObjectStreamClass: java.lang.Class[] OOS_ARGS>, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
+  java.io.ObjectStreamClass.initStaticMethodArgs/$r3, <java.io.ObjectStreamClass: java.lang.Class class$java$io$ObjectOutputStream>, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
+  java.io.ObjectStreamClass.initStaticMethodArgs/$r4, <java.io.ObjectStreamClass: java.lang.Class[] OIS_ARGS>, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
+  java.io.ObjectStreamClass.initStaticMethodArgs/$r7, <java.io.ObjectStreamClass: java.lang.Class class$java$io$ObjectInputStream>, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
   java.io.ObjectStreamClass.lookupInternal/$r7, <java.io.ObjectStreamClass: java.lang.Class class$java$io$Serializable>, <java.io.ObjectStreamClass: java.io.ObjectStreamClass lookupInternal(java.lang.Class)>
   java.io.ObjectStreamClass.lookupInternal/$r9, <java.io.ObjectStreamClass: java.lang.Class class$java$io$Externalizable>, <java.io.ObjectStreamClass: java.io.ObjectStreamClass lookupInternal(java.lang.Class)>
-  java.lang.SecurityManager.hasAllPermission/$r3, <java.lang.SecurityManager: java.security.AllPermission allPermission>, <java.lang.SecurityManager: boolean hasAllPermission()>
-  java.lang.SecurityManager.<init>/$r5, <java.lang.SecurityManager: java.lang.Class class$java$lang$SecurityManager>, <java.lang.SecurityManager: void <init>()>
-  java.lang.SecurityManager.checkTopLevelWindow/$r5, <java.lang.SecurityManager: java.awt.AWTPermission topLevelWindowPermission>, <java.lang.SecurityManager: boolean checkTopLevelWindow(java.lang.Object)>
+  java.io.ObjectStreamConstants.<clinit>/$r0, <java.io.ObjectStreamConstants: java.io.SerializablePermission SUBSTITUTION_PERMISSION>, <java.io.ObjectStreamConstants: void <clinit>()>
+  java.io.ObjectStreamConstants.<clinit>/$r1, <java.io.ObjectStreamConstants: java.io.SerializablePermission SUBCLASS_IMPLEMENTATION_PERMISSION>, <java.io.ObjectStreamConstants: void <clinit>()>
+  java.io.ObjectStreamField.<clinit>/$r0, <java.io.ObjectStreamField: java.lang.String OBJECT_TYPESTRING>, <java.io.ObjectStreamField: void <clinit>()>
+  java.io.ObjectStreamField.getType/$r13, <java.io.ObjectStreamField: java.lang.Class class$java$lang$Object>, <java.io.ObjectStreamField: java.lang.Class getType()>
+  java.lang.Boolean.<clinit>/$r0, <java.lang.Boolean: java.lang.Boolean TRUE>, <java.lang.Boolean: void <clinit>()>
+  java.lang.Boolean.<clinit>/$r1, <java.lang.Boolean: java.lang.Boolean FALSE>, <java.lang.Boolean: void <clinit>()>
+  java.lang.Boolean.<clinit>/$r2, <java.lang.Boolean: java.lang.Class TYPE>, <java.lang.Boolean: void <clinit>()>
+  java.lang.Byte.<clinit>/$r0, <java.lang.Byte: java.lang.Class TYPE>, <java.lang.Byte: void <clinit>()>
+  java.lang.Character.<clinit>/$r0, <java.lang.Character: java.lang.Class TYPE>, <java.lang.Character: void <clinit>()>
+  java.lang.Character.<clinit>/$r1, <java.lang.Character: byte[] X>, <java.lang.Character: void <clinit>()>
+  java.lang.Character.<clinit>/$r2, <java.lang.Character: short[] Y>, <java.lang.Character: void <clinit>()>
+  java.lang.Character.<clinit>/$r3, <java.lang.Character: int[] A>, <java.lang.Character: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r0, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BASIC_LATIN>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r10, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HEBREW>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r11, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARABIC>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r12, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock DEVANAGARI>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r13, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BENGALI>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r14, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GURMUKHI>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r15, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GUJARATI>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r16, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ORIYA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r17, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock TAMIL>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r18, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock TELUGU>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r19, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock KANNADA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r1, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_1_SUPPLEMENT>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r20, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MALAYALAM>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r21, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock THAI>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r22, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LAO>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r23, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock TIBETAN>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r24, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GEORGIAN>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r25, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HANGUL_JAMO>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r26, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_EXTENDED_ADDITIONAL>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r27, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GREEK_EXTENDED>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r28, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GENERAL_PUNCTUATION>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r29, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SUPERSCRIPTS_AND_SUBSCRIPTS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r2, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_EXTENDED_A>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r30, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CURRENCY_SYMBOLS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r31, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock COMBINING_MARKS_FOR_SYMBOLS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r32, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LETTERLIKE_SYMBOLS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r33, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock NUMBER_FORMS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r34, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARROWS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r35, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MATHEMATICAL_OPERATORS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r36, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MISCELLANEOUS_TECHNICAL>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r37, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CONTROL_PICTURES>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r38, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock OPTICAL_CHARACTER_RECOGNITION>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r39, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ENCLOSED_ALPHANUMERICS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r3, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_EXTENDED_B>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r40, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BOX_DRAWING>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r41, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BLOCK_ELEMENTS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r42, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GEOMETRIC_SHAPES>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r43, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MISCELLANEOUS_SYMBOLS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r44, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock DINGBATS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r45, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_SYMBOLS_AND_PUNCTUATION>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r46, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HIRAGANA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r47, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock KATAKANA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r48, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BOPOMOFO>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r49, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HANGUL_COMPATIBILITY_JAMO>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r4, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock IPA_EXTENSIONS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r50, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock KANBUN>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r51, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ENCLOSED_CJK_LETTERS_AND_MONTHS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r52, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_COMPATIBILITY>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r53, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_UNIFIED_IDEOGRAPHS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r54, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HANGUL_SYLLABLES>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r55, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SURROGATES_AREA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r56, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock PRIVATE_USE_AREA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r57, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_COMPATIBILITY_IDEOGRAPHS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r58, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ALPHABETIC_PRESENTATION_FORMS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r59, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARABIC_PRESENTATION_FORMS_A>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r5, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SPACING_MODIFIER_LETTERS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r60, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock COMBINING_HALF_MARKS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r61, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_COMPATIBILITY_FORMS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r62, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SMALL_FORM_VARIANTS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r63, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARABIC_PRESENTATION_FORMS_B>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r64, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HALFWIDTH_AND_FULLWIDTH_FORMS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r65, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SPECIALS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r66, <java.lang.Character$UnicodeBlock: char[] blockStarts>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r67, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock[] blocks>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r6, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock COMBINING_DIACRITICAL_MARKS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r7, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GREEK>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r8, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CYRILLIC>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Character$UnicodeBlock.<clinit>/$r9, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARMENIAN>, <java.lang.Character$UnicodeBlock: void <clinit>()>
+  java.lang.Class.<clinit>/$r0, <java.lang.Class: java.io.ObjectStreamField[] serialPersistentFields>, <java.lang.Class: void <clinit>()>
+  java.lang.Class.getProtectionDomain/$r10, <java.lang.Class: java.security.ProtectionDomain allPermDomain>, <java.lang.Class: java.security.ProtectionDomain getProtectionDomain()>
+  java.lang.Class.getProtectionDomain/$r5, <java.lang.Class: java.lang.RuntimePermission getPDperm>, <java.lang.Class: java.security.ProtectionDomain getProtectionDomain()>
+  java.lang.ClassLoader.<clinit>/$r0, <java.lang.ClassLoader: java.util.Vector loadedLibraryNames>, <java.lang.ClassLoader: void <clinit>()>
+  java.lang.ClassLoader.<clinit>/$r1, <java.lang.ClassLoader: java.util.Vector systemNativeLibraries>, <java.lang.ClassLoader: void <clinit>()>
+  java.lang.ClassLoader.<clinit>/$r2, <java.lang.ClassLoader: java.util.Stack nativeLibraryContext>, <java.lang.ClassLoader: void <clinit>()>
+  java.lang.ClassLoader.getBootstrapClassPath/$r1, <java.lang.ClassLoader: sun.misc.URLClassPath bootstrapClassPath>, <java.lang.ClassLoader: sun.misc.URLClassPath getBootstrapClassPath()>
+  java.lang.ClassLoader.getDefaultDomain/$r11, <java.lang.ClassLoader: java.security.PermissionCollection defaultPermissions>, <java.lang.ClassLoader: java.security.ProtectionDomain getDefaultDomain()>
+  java.lang.ClassLoader.getDefaultDomain/$r7, <java.lang.ClassLoader: java.lang.Class class$java$lang$ClassLoader>, <java.lang.ClassLoader: java.security.ProtectionDomain getDefaultDomain()>
+  java.lang.ClassLoader.getGetClassLoaderPerm/$r1, <java.lang.ClassLoader: java.lang.RuntimePermission getClassLoaderPerm>, <java.lang.ClassLoader: java.lang.RuntimePermission getGetClassLoaderPerm()>
+  java.lang.ClassLoader.getSystemClassLoader/$r3, <java.lang.ClassLoader: java.lang.ClassLoader scl>, <java.lang.ClassLoader: java.lang.ClassLoader getSystemClassLoader()>
+  java.lang.ClassLoader.loadLibrary/$r10, <java.lang.ClassLoader: java.lang.String[] sys_paths>, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
+  java.lang.ClassLoader.loadLibrary/$r9, <java.lang.ClassLoader: java.lang.String[] usr_paths>, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
+  java.lang.Double.<clinit>/$r0, <java.lang.Double: java.lang.Class TYPE>, <java.lang.Double: void <clinit>()>
+  java.lang.Float.<clinit>/$r0, <java.lang.Float: java.lang.Class TYPE>, <java.lang.Float: void <clinit>()>
+  java.lang.FloatingDecimal.big5pow/r0, <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  java.lang.FloatingDecimal.big5pow/$r6, <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
+  java.lang.FloatingDecimal.<clinit>/$r0, <java.lang.FloatingDecimal: double[] small10pow>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.lang.FloatingDecimal.<clinit>/$r10, <java.lang.FloatingDecimal: char[] notANumber>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.lang.FloatingDecimal.<clinit>/$r11, <java.lang.FloatingDecimal: char[] zero>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.lang.FloatingDecimal.<clinit>/$r1, <java.lang.FloatingDecimal: float[] singleSmall10pow>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.lang.FloatingDecimal.<clinit>/$r2, <java.lang.FloatingDecimal: double[] big10pow>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.lang.FloatingDecimal.<clinit>/$r3, <java.lang.FloatingDecimal: double[] tiny10pow>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.lang.FloatingDecimal.<clinit>/$r6, <java.lang.FloatingDecimal: int[] small5pow>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.lang.FloatingDecimal.<clinit>/$r7, <java.lang.FloatingDecimal: long[] long5pow>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.lang.FloatingDecimal.<clinit>/$r8, <java.lang.FloatingDecimal: int[] n5bits>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.lang.FloatingDecimal.<clinit>/$r9, <java.lang.FloatingDecimal: char[] infinity>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.lang.Integer.<clinit>/$r0, <java.lang.Integer: java.lang.Class TYPE>, <java.lang.Integer: void <clinit>()>
+  java.lang.Integer.<clinit>/$r1, <java.lang.Integer: char[] digits>, <java.lang.Integer: void <clinit>()>
+  java.lang.Integer.<clinit>/$r2, <java.lang.Integer: char[] DigitTens>, <java.lang.Integer: void <clinit>()>
+  java.lang.Integer.<clinit>/$r3, <java.lang.Integer: char[] DigitOnes>, <java.lang.Integer: void <clinit>()>
+  java.lang.Long.<clinit>/$r0, <java.lang.Long: java.lang.Class TYPE>, <java.lang.Long: void <clinit>()>
+  java.lang.Math.initRNG/$r1, <java.lang.Math: java.util.Random randomNumberGenerator>, <java.lang.Math: void initRNG()>
+  java.lang.Package.<clinit>/$r0, <java.lang.Package: java.util.Map pkgs>, <java.lang.Package: void <clinit>()>
+  java.lang.Package.<clinit>/$r1, <java.lang.Package: java.util.Map urls>, <java.lang.Package: void <clinit>()>
+  java.lang.Package.<clinit>/$r2, <java.lang.Package: java.util.Map mans>, <java.lang.Package: void <clinit>()>
+  java.lang.ref.Finalizer.access$302/r0, <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, <java.lang.ref.Finalizer: java.lang.ref.Finalizer access$302(java.lang.ref.Finalizer)>
+  java.lang.ref.Finalizer.add/r0, <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, <java.lang.ref.Finalizer: void add()>
+  java.lang.ref.Finalizer.<clinit>/$r0, <java.lang.ref.Finalizer: java.lang.ref.ReferenceQueue queue>, <java.lang.ref.Finalizer: void <clinit>()>
+  java.lang.ref.Finalizer.<clinit>/$r4, <java.lang.ref.Finalizer: java.lang.Object lock>, <java.lang.ref.Finalizer: void <clinit>()>
+  java.lang.ref.Finalizer.remove/$r5, <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, <java.lang.ref.Finalizer: void remove()>
+  java.lang.ref.Finalizer.remove/$r6, <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, <java.lang.ref.Finalizer: void remove()>
+  java.lang.reflect.AccessibleObject.<clinit>/$r0, <java.lang.reflect.AccessibleObject: java.security.Permission ACCESS_PERMISSION>, <java.lang.reflect.AccessibleObject: void <clinit>()>
+  java.lang.reflect.AccessibleObject.setAccessible0/$r4, <java.lang.reflect.AccessibleObject: java.lang.Class class$java$lang$Class>, <java.lang.reflect.AccessibleObject: void setAccessible0(java.lang.reflect.AccessibleObject,boolean)>
+  java.lang.reflect.Proxy.<clinit>/$r2, <java.lang.reflect.Proxy: java.lang.Class[] constructorParams>, <java.lang.reflect.Proxy: void <clinit>()>
+  java.lang.reflect.Proxy.<clinit>/$r3, <java.lang.reflect.Proxy: java.lang.Class class$java$lang$reflect$InvocationHandler>, <java.lang.reflect.Proxy: void <clinit>()>
+  java.lang.reflect.Proxy.<clinit>/$r4, <java.lang.reflect.Proxy: java.util.Map loaderToCache>, <java.lang.reflect.Proxy: void <clinit>()>
+  java.lang.reflect.Proxy.<clinit>/$r5, <java.lang.reflect.Proxy: java.lang.Object pendingGenerationMarker>, <java.lang.reflect.Proxy: void <clinit>()>
+  java.lang.reflect.Proxy.<clinit>/$r6, <java.lang.reflect.Proxy: java.lang.Object nextUniqueNumberLock>, <java.lang.reflect.Proxy: void <clinit>()>
+  java.lang.reflect.Proxy.<clinit>/$r8, <java.lang.reflect.Proxy: java.util.Map proxyClasses>, <java.lang.reflect.Proxy: void <clinit>()>
+  java.lang.ref.Reference.access$202/r0, <java.lang.ref.Reference: java.lang.ref.Reference pending>, <java.lang.ref.Reference: java.lang.ref.Reference access$202(java.lang.ref.Reference)>
+  java.lang.ref.Reference.<clinit>/$r0, <java.lang.ref.Reference: java.lang.ref.Reference$Lock lock>, <java.lang.ref.Reference: void <clinit>()>
+  java.lang.ref.ReferenceQueue.<clinit>/$r0, <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue NULL>, <java.lang.ref.ReferenceQueue: void <clinit>()>
+  java.lang.ref.ReferenceQueue.<clinit>/$r1, <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue ENQUEUED>, <java.lang.ref.ReferenceQueue: void <clinit>()>
+  java.lang.Runtime.<clinit>/$r0, <java.lang.Runtime: java.lang.Runtime currentRuntime>, <java.lang.Runtime: void <clinit>()>
+  java.lang.SecurityManager.checkAwtEventQueueAccess/$r2, <java.lang.SecurityManager: java.awt.AWTPermission checkAwtEventQueuePermission>, <java.lang.SecurityManager: void checkAwtEventQueueAccess()>
+  java.lang.SecurityManager.checkCreateClassLoader/$r2, <java.lang.SecurityManager: java.lang.RuntimePermission createClassLoaderPermission>, <java.lang.SecurityManager: void checkCreateClassLoader()>
+  java.lang.SecurityManager.checkListen/$r2, <java.lang.SecurityManager: java.net.SocketPermission localListenPermission>, <java.lang.SecurityManager: void checkListen(int)>
+  java.lang.SecurityManager.checkMemberAccess/$r8, <java.lang.SecurityManager: java.lang.RuntimePermission checkMemberAccessPermission>, <java.lang.SecurityManager: void checkMemberAccess(java.lang.Class,int)>
   java.lang.SecurityManager.checkPackageAccess/$r9, <java.lang.SecurityManager: java.lang.String[] packageAccess>, <java.lang.SecurityManager: void checkPackageAccess(java.lang.String)>
   java.lang.SecurityManager.checkPackageDefinition/$r9, <java.lang.SecurityManager: java.lang.String[] packageDefinition>, <java.lang.SecurityManager: void checkPackageDefinition(java.lang.String)>
-  <java.lang.Thread: void stop()>/$r6, <java.lang.Thread: java.lang.RuntimePermission stopThreadPermission>, <java.lang.Thread: void stop()>
+  java.lang.SecurityManager.checkSystemClipboardAccess/$r2, <java.lang.SecurityManager: java.awt.AWTPermission accessClipboardPermission>, <java.lang.SecurityManager: void checkSystemClipboardAccess()>
+  java.lang.SecurityManager.checkTopLevelWindow/$r5, <java.lang.SecurityManager: java.awt.AWTPermission topLevelWindowPermission>, <java.lang.SecurityManager: boolean checkTopLevelWindow(java.lang.Object)>
+  java.lang.SecurityManager.<clinit>/$r0, <java.lang.SecurityManager: java.lang.ThreadGroup rootGroup>, <java.lang.SecurityManager: void <clinit>()>
+  java.lang.SecurityManager.<clinit>/$r1, <java.lang.SecurityManager: java.lang.String[] packageAccess>, <java.lang.SecurityManager: void <clinit>()>
+  java.lang.SecurityManager.<clinit>/$r2, <java.lang.SecurityManager: java.lang.String[] packageDefinition>, <java.lang.SecurityManager: void <clinit>()>
+  java.lang.SecurityManager.hasAllPermission/$r3, <java.lang.SecurityManager: java.security.AllPermission allPermission>, <java.lang.SecurityManager: boolean hasAllPermission()>
+  java.lang.SecurityManager.<init>/$r5, <java.lang.SecurityManager: java.lang.Class class$java$lang$SecurityManager>, <java.lang.SecurityManager: void <init>()>
+  <java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)>/$r5, <java.lang.SecurityManager: java.lang.RuntimePermission threadGroupPermission>, <java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)>
+  <java.lang.SecurityManager: void checkAccess(java.lang.Thread)>/$r6, <java.lang.SecurityManager: java.lang.RuntimePermission threadPermission>, <java.lang.SecurityManager: void checkAccess(java.lang.Thread)>
+  java.lang.Short.<clinit>/$r0, <java.lang.Short: java.lang.Class TYPE>, <java.lang.Short: void <clinit>()>
+  java.lang.Shutdown.add/$r7, <java.lang.Shutdown: java.util.HashSet hooks>, <java.lang.Shutdown: void add(java.lang.Thread)>
+  java.lang.Shutdown.<clinit>/$r0, <java.lang.Shutdown: java.lang.Object lock>, <java.lang.Shutdown: void <clinit>()>
+  java.lang.Shutdown.exit/$r5, <java.lang.Shutdown: java.lang.Class class$java$lang$Shutdown>, <java.lang.Shutdown: void exit(int)>
+  java.lang.Shutdown.shutdown/$r5, <java.lang.Shutdown: java.lang.Class class$java$lang$Shutdown>, <java.lang.Shutdown: void shutdown()>
+  java.lang.StrictMath.initRNG/$r1, <java.lang.StrictMath: java.util.Random randomNumberGenerator>, <java.lang.StrictMath: void initRNG()>
+  java.lang.String.<clinit>/$r0, <java.lang.String: java.io.ObjectStreamField[] serialPersistentFields>, <java.lang.String: void <clinit>()>
+  java.lang.String.<clinit>/$r1, <java.lang.String: java.util.Comparator CASE_INSENSITIVE_ORDER>, <java.lang.String: void <clinit>()>
+  java.lang.String.getBTCConverter/$r5, <java.lang.String: java.lang.ThreadLocal btcCache>, <java.lang.String: sun.io.ByteToCharConverter getBTCConverter(java.lang.String)>
+  java.lang.String.getCTBConverter/$r5, <java.lang.String: java.lang.ThreadLocal ctbCache>, <java.lang.String: sun.io.CharToByteConverter getCTBConverter(java.lang.String)>
+  java.lang.System.<clinit>/$r0, <java.lang.System: java.io.InputStream in>, <java.lang.System: void <clinit>()>
+  java.lang.System.<clinit>/$r1, <java.lang.System: java.io.PrintStream out>, <java.lang.System: void <clinit>()>
+  java.lang.System.<clinit>/$r2, <java.lang.System: java.io.PrintStream err>, <java.lang.System: void <clinit>()>
+  java.lang.System.initializeSystemClass/$r0, <java.lang.System: java.util.Properties props>, <java.lang.System: void initializeSystemClass()>
+  java.lang.System.setErr0/@param0, <java.lang.System: java.io.PrintStream err>, <java.lang.System: void setErr0(java.io.PrintStream)>
+  java.lang.System.setIn0/@param0, <java.lang.System: java.io.InputStream in>, <java.lang.System: void setIn0(java.io.InputStream)>
+  java.lang.System.setOut0/@param0, <java.lang.System: java.io.PrintStream out>, <java.lang.System: void setOut0(java.io.PrintStream)>
+  java.lang.System.setProperties/r0, <java.lang.System: java.util.Properties props>, <java.lang.System: void setProperties(java.util.Properties)>
+  java.lang.System.setSecurityManager0/r0, <java.lang.System: java.lang.SecurityManager security>, <java.lang.System: void setSecurityManager0(java.lang.SecurityManager)>
   java.lang.Terminator.setup/r1, <java.lang.Terminator: sun.misc.SignalHandler handler>, <java.lang.Terminator: void setup()>
-  sun.io.Converters.getDefaultConverterClass/r8, <sun.io.Converters: java.lang.String defaultEncoding>, <sun.io.Converters: java.lang.Class getDefaultConverterClass(int)>
-  java.util.ResourceBundle.loadBundle/$r8, <java.util.ResourceBundle: java.lang.Class class$java$util$ResourceBundle>, <java.util.ResourceBundle: java.lang.Object loadBundle(java.lang.ClassLoader,java.lang.String)>
-  java.net.InetAddress.getLocalHost/$r9, <java.net.InetAddress: java.net.InetAddress localHost>, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
+  <java.lang.Thread: void stop(java.lang.Throwable)>/$r5, <java.lang.Thread: java.lang.RuntimePermission stopThreadPermission>, <java.lang.Thread: void stop(java.lang.Throwable)>
+  <java.lang.Thread: void stop()>/$r6, <java.lang.Thread: java.lang.RuntimePermission stopThreadPermission>, <java.lang.Thread: void stop()>
+  java.lang.Void.<clinit>/$r0, <java.lang.Void: java.lang.Class TYPE>, <java.lang.Void: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r11, <java.math.BigInteger: java.math.BigInteger ONE>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r12, <java.math.BigInteger: java.math.BigInteger TWO>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r13, <java.math.BigInteger: int[] bnExpModThreshTable>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r14, <java.math.BigInteger: byte[] trailingZeroTable>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r15, <java.math.BigInteger: java.lang.String[] zeros>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r1, <java.math.BigInteger: long[] bitsPerDigit>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r21, <java.math.BigInteger: int[] digitsPerLong>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r22, <java.math.BigInteger: java.math.BigInteger[] longRadix>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r2, <java.math.BigInteger: java.math.BigInteger SMALL_PRIME_PRODUCT>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r3, <java.math.BigInteger: java.math.BigInteger[] posConst>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r4, <java.math.BigInteger: java.math.BigInteger[] negConst>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r58, <java.math.BigInteger: int[] digitsPerInt>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r59, <java.math.BigInteger: int[] intRadix>, <java.math.BigInteger: void <clinit>()>
+  java.math.BigInteger.<clinit>/$r9, <java.math.BigInteger: java.math.BigInteger ZERO>, <java.math.BigInteger: void <clinit>()>
+  java.math.BitSieve.<clinit>/$r0, <java.math.BitSieve: java.math.BitSieve smallSieve>, <java.math.BitSieve: void <clinit>()>
+  java.net.Authenticator.setDefault/r0, <java.net.Authenticator: java.net.Authenticator theAuthenticator>, <java.net.Authenticator: void setDefault(java.net.Authenticator)>
+  java.net.HttpURLConnection.<clinit>/$r0, <java.net.HttpURLConnection: java.lang.String[] methods>, <java.net.HttpURLConnection: void <clinit>()>
   java.net.InetAddress.<clinit>/$r18, <java.net.InetAddress: java.net.InetAddressImpl impl>, <java.net.InetAddress: void <clinit>()>
   java.net.InetAddress.<clinit>/$r46, <java.net.InetAddress: java.net.InetAddressImpl impl>, <java.net.InetAddress: void <clinit>()>
-  java.net.InetAddress.<clinit>/$r56, <java.net.InetAddress: java.net.InetAddress localHost>, <java.net.InetAddress: void <clinit>()>
-  java.net.InetAddress.<clinit>/$r63, <java.net.InetAddress: java.net.InetAddress localHost>, <java.net.InetAddress: void <clinit>()>
-  java.net.InetAddress.<clinit>/$r7, <java.net.InetAddress: java.util.HashMap addressCache>, <java.net.InetAddress: void <clinit>()>
-  java.net.InetAddress.<clinit>/$r8, <java.net.InetAddress: java.util.HashMap lookupTable>, <java.net.InetAddress: void <clinit>()>
   java.net.InetAddress.<clinit>/$r50, <java.net.InetAddress: java.net.InetAddress unknownAddress>, <java.net.InetAddress: void <clinit>()>
   java.net.InetAddress.<clinit>/$r51, <java.net.InetAddress: java.net.InetAddress anyLocalAddress>, <java.net.InetAddress: void <clinit>()>
   java.net.InetAddress.<clinit>/$r55, <java.net.InetAddress: java.net.InetAddress loopbackHost>, <java.net.InetAddress: void <clinit>()>
+  java.net.InetAddress.<clinit>/$r56, <java.net.InetAddress: java.net.InetAddress localHost>, <java.net.InetAddress: void <clinit>()>
+  java.net.InetAddress.<clinit>/$r63, <java.net.InetAddress: java.net.InetAddress localHost>, <java.net.InetAddress: void <clinit>()>
   java.net.InetAddress.<clinit>/$r65, <java.net.InetAddress: java.net.InetAddress[] unknown_array>, <java.net.InetAddress: void <clinit>()>
-  sun.misc.ClassFileTransformer.add/$r5, <sun.misc.ClassFileTransformer: java.lang.Object[] transformers>, <sun.misc.ClassFileTransformer: void add(sun.misc.ClassFileTransformer)>
-  java.util.Date.toString/$r10, <java.util.Date: java.lang.ref.SoftReference simpleFormatter>, <java.util.Date: java.lang.String toString()>
-  java.lang.Shutdown.add/$r7, <java.lang.Shutdown: java.util.HashSet hooks>, <java.lang.Shutdown: void add(java.lang.Thread)>
-  java.lang.Shutdown.exit/$r5, <java.lang.Shutdown: java.lang.Class class$java$lang$Shutdown>, <java.lang.Shutdown: void exit(int)>
-  java.lang.Shutdown.shutdown/$r5, <java.lang.Shutdown: java.lang.Class class$java$lang$Shutdown>, <java.lang.Shutdown: void shutdown()>
-  sun.misc.ProxyGenerator.generateClassFile/$r9, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: byte[] generateClassFile()>
-  sun.misc.ProxyGenerator.generateClassFile/$r13, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: byte[] generateClassFile()>
-  sun.misc.ProxyGenerator.generateClassFile/$r17, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: byte[] generateClassFile()>
-  sun.misc.ProxyGenerator.<clinit>/$r7, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: void <clinit>()>
-  sun.misc.ProxyGenerator.<clinit>/$r10, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: void <clinit>()>
-  sun.misc.ProxyGenerator.<clinit>/$r13, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: void <clinit>()>
-  sun.misc.ProxyGenerator.<clinit>/$r16, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: void <clinit>()>
-  sun.misc.ProxyGenerator.<clinit>/$r8, <sun.misc.ProxyGenerator: java.lang.reflect.Method hashCodeMethod>, <sun.misc.ProxyGenerator: void <clinit>()>
-  sun.misc.ProxyGenerator.<clinit>/$r14, <sun.misc.ProxyGenerator: java.lang.reflect.Method equalsMethod>, <sun.misc.ProxyGenerator: void <clinit>()>
-  sun.misc.ProxyGenerator.<clinit>/$r17, <sun.misc.ProxyGenerator: java.lang.reflect.Method toStringMethod>, <sun.misc.ProxyGenerator: void <clinit>()>
+  java.net.InetAddress.<clinit>/$r7, <java.net.InetAddress: java.util.HashMap addressCache>, <java.net.InetAddress: void <clinit>()>
+  java.net.InetAddress.<clinit>/$r8, <java.net.InetAddress: java.util.HashMap lookupTable>, <java.net.InetAddress: void <clinit>()>
+  java.net.InetAddress.getLocalHost/$r9, <java.net.InetAddress: java.net.InetAddress localHost>, <java.net.InetAddress: java.net.InetAddress getLocalHost()>
+  java.net.ServerSocket.setSocketFactory/r0, <java.net.ServerSocket: java.net.SocketImplFactory factory>, <java.net.ServerSocket: void setSocketFactory(java.net.SocketImplFactory)>
+  java.net.Socket.setSocketImplFactory/r0, <java.net.Socket: java.net.SocketImplFactory factory>, <java.net.Socket: void setSocketImplFactory(java.net.SocketImplFactory)>
+  java.net.URL.checkSpecifyHandler/$r3, <java.net.URL: java.net.NetPermission specifyHandlerPerm>, <java.net.URL: void checkSpecifyHandler(java.lang.SecurityManager)>
+  java.net.URL.<clinit>/$r0, <java.net.URL: java.util.Hashtable handlers>, <java.net.URL: void <clinit>()>
+  java.net.URL.<clinit>/$r1, <java.net.URL: java.lang.Object streamHandlerLock>, <java.net.URL: void <clinit>()>
+  java.net.URLConnection.<clinit>/$r0, <java.net.URLConnection: java.util.Hashtable handlers>, <java.net.URLConnection: void <clinit>()>
+  java.net.URLConnection.<clinit>/$r1, <java.net.URLConnection: java.net.ContentHandler UnknownContentHandlerP>, <java.net.URLConnection: void <clinit>()>
+  java.net.URLConnection.getFileNameMap/$r1, <java.net.URLConnection: java.net.FileNameMap fileNameMap>, <java.net.URLConnection: java.net.FileNameMap getFileNameMap()>
+  java.net.URLConnection.setContentHandlerFactory/r0, <java.net.URLConnection: java.net.ContentHandlerFactory factory>, <java.net.URLConnection: void setContentHandlerFactory(java.net.ContentHandlerFactory)>
+  java.net.URLConnection.setFileNameMap/r0, <java.net.URLConnection: java.net.FileNameMap fileNameMap>, <java.net.URLConnection: void setFileNameMap(java.net.FileNameMap)>
+  java.net.URL.setURLStreamHandlerFactory/r0, <java.net.URL: java.net.URLStreamHandlerFactory factory>, <java.net.URL: void setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)>
+  java.security.AccessControlContext.getDebug/$r1, <java.security.AccessControlContext: sun.security.util.Debug debug>, <java.security.AccessControlContext: sun.security.util.Debug getDebug()>
+  java.security.cert.CertificateFactory.<clinit>/$r11, <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, <java.security.cert.CertificateFactory: void <clinit>()>
+  java.security.cert.CertificateFactory.<clinit>/$r14, <java.security.cert.CertificateFactory: java.lang.reflect.Method implMethod>, <java.security.cert.CertificateFactory: void <clinit>()>
+  java.security.cert.CertificateFactory.<clinit>/$r2, <java.security.cert.CertificateFactory: java.lang.Class class$java$security$Security>, <java.security.cert.CertificateFactory: void <clinit>()>
+  java.security.cert.CertificateFactory.<clinit>/$r2, <java.security.cert.CertificateFactory: java.lang.Class cl>, <java.security.cert.CertificateFactory: void <clinit>()>
+  java.security.cert.CertificateFactory.<clinit>/$r3, <java.security.cert.CertificateFactory: java.lang.Class[] GET_IMPL_PARAMS>, <java.security.cert.CertificateFactory: void <clinit>()>
+  java.security.cert.CertificateFactory.<clinit>/$r5, <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, <java.security.cert.CertificateFactory: void <clinit>()>
+  java.security.cert.CertificateFactory.<clinit>/$r8, <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, <java.security.cert.CertificateFactory: void <clinit>()>
+  java.security.IdentityScope.setSystemScope/r0, <java.security.IdentityScope: java.security.IdentityScope scope>, <java.security.IdentityScope: void setSystemScope(java.security.IdentityScope)>
+  java.security.Permissions.getUnresolvedPermissions/$r10, <java.security.Permissions: java.lang.Class class$java$security$UnresolvedPermission>, <java.security.Permissions: java.security.PermissionCollection getUnresolvedPermissions(java.security.Permission)>
+  java.security.Policy.getPolicyNoCheck/$r12, <java.security.Policy: java.security.Policy policy>, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
+  java.security.Policy.getPolicyNoCheck/$r14, <java.security.Policy: java.security.Policy policy>, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
+  java.security.Policy.getPolicyNoCheck/$r5, <java.security.Policy: java.lang.Class class$java$security$Policy>, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
+  java.security.Policy.setPolicy/r0, <java.security.Policy: java.security.Policy policy>, <java.security.Policy: void setPolicy(java.security.Policy)>
+  java.security.SecureClassLoader.<clinit>/$r0, <java.security.SecureClassLoader: sun.security.util.Debug debug>, <java.security.SecureClassLoader: void <clinit>()>
+  java.security.SecureRandom.getSeed/$r1, <java.security.SecureRandom: java.security.SecureRandom seedGenerator>, <java.security.SecureRandom: byte[] getSeed(int)>
   java.security.Security.initialize/$r0, <java.security.Security: java.util.Properties props>, <java.security.Security: void initialize()>
   java.security.Security.initialize/$r3, <java.security.Security: java.util.Vector providers>, <java.security.Security: void initialize()>
   java.security.Security.initialize/$r4, <java.security.Security: java.util.Hashtable providerPropertiesCache>, <java.security.Security: void initialize()>
   java.security.Security.initialize/$r5, <java.security.Security: java.util.Hashtable engineCache>, <java.security.Security: void initialize()>
   java.security.Security.initialize/$r6, <java.security.Security: java.util.Hashtable searchResultsCache>, <java.security.Security: void initialize()>
   <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>/$r16, <java.security.Security: java.lang.Class class$java$security$Security>, <java.security.Security: java.security.Security$ProviderProperty getEngineClassName(java.lang.String,java.lang.String)>
-  java.security.Policy.getPolicyNoCheck/$r5, <java.security.Policy: java.lang.Class class$java$security$Policy>, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
-  java.security.Policy.getPolicyNoCheck/$r12, <java.security.Policy: java.security.Policy policy>, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
-  java.security.Policy.getPolicyNoCheck/$r14, <java.security.Policy: java.security.Policy policy>, <java.security.Policy: java.security.Policy getPolicyNoCheck()>
-  java.util.TimeZone.parseCustomTimeZone/$r10, <java.util.TimeZone: java.text.NumberFormat numberFormat>, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
-  java.util.TimeZone.parseCustomTimeZone/$r8, <java.util.TimeZone: java.lang.Class class$java$util$TimeZoneData>, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
-  sun.security.provider.PolicyFile.checkForTrustedIdentity/r3, <sun.security.provider.PolicyFile: java.security.IdentityScope scope>, <sun.security.provider.PolicyFile: boolean checkForTrustedIdentity(java.security.cert.Certificate)>
-  sun.security.provider.PolicyFile.checkForTrustedIdentity/$r7, <sun.security.provider.PolicyFile: java.lang.Class class$sun$security$provider$PolicyFile>, <sun.security.provider.PolicyFile: boolean checkForTrustedIdentity(java.security.cert.Certificate)>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r3, <sun.security.pkcs.PKCS9Attribute: sun.security.util.Debug debug>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r4, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier[] PKCS9_OIDS>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r11, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier EMAIL_ADDRESS_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r13, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier UNSTRUCTURED_NAME_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r15, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier CONTENT_TYPE_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r17, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier MESSAGE_DIGEST_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r19, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier SIGNING_TIME_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r21, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier COUNTERSIGNATURE_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r23, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier CHALLENGE_PASSWORD_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r25, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier UNSTRUCTURED_ADDRESS_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r27, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier EXTENDED_CERTIFICATE_ATTRIBUTES_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r29, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier ISSUER_SERIALNUMBER_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r31, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier EXTENSION_REQUEST_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r33, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier SMIME_CAPABILITY_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r34, <sun.security.pkcs.PKCS9Attribute: java.util.Hashtable NAME_OID_TABLE>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r95, <sun.security.pkcs.PKCS9Attribute: java.util.Hashtable OID_NAME_TABLE>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r156, <sun.security.pkcs.PKCS9Attribute: java.lang.Byte[][] PKCS9_VALUE_TAGS>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r182, <sun.security.pkcs.PKCS9Attribute: java.lang.Class[] VALUE_CLASSES>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.pkcs.PKCS9Attribute.<clinit>/$r210, <sun.security.pkcs.PKCS9Attribute: boolean[] SINGLE_VALUED>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
-  sun.security.x509.CertificateExtensions.parseExtension/$r18, <sun.security.x509.CertificateExtensions: java.lang.Class class$java$lang$Boolean>, <sun.security.x509.CertificateExtensions: void parseExtension(sun.security.x509.Extension)>
-  sun.security.x509.CertificateExtensions.parseExtension/$r21, <sun.security.x509.CertificateExtensions: java.lang.Class class$java$lang$Object>, <sun.security.x509.CertificateExtensions: void parseExtension(sun.security.x509.Extension)>
-  sun.security.x509.CRLExtensions.parseExtension/$r18, <sun.security.x509.CRLExtensions: java.lang.Class class$java$lang$Boolean>, <sun.security.x509.CRLExtensions: void parseExtension(sun.security.x509.Extension)>
-  sun.security.x509.CRLExtensions.parseExtension/$r21, <sun.security.x509.CRLExtensions: java.lang.Class class$java$lang$Object>, <sun.security.x509.CRLExtensions: void parseExtension(sun.security.x509.Extension)>
-  sun.security.provider.SeedGenerator.<clinit>/$r4, <sun.security.provider.SeedGenerator: sun.security.provider.SeedGenerator instance>, <sun.security.provider.SeedGenerator: void <clinit>()>
-  sun.security.provider.SeedGenerator.<clinit>/$r6, <sun.security.provider.SeedGenerator: sun.security.provider.SeedGenerator instance>, <sun.security.provider.SeedGenerator: void <clinit>()>
-  sun.security.provider.SeedGenerator.<clinit>/$r10, <sun.security.provider.SeedGenerator: sun.security.provider.SeedGenerator instance>, <sun.security.provider.SeedGenerator: void <clinit>()>
-  java.lang.ref.Finalizer.add/r0, <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, <java.lang.ref.Finalizer: void add()>
-  java.lang.ref.Finalizer.remove/$r5, <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, <java.lang.ref.Finalizer: void remove()>
-  java.lang.ref.Finalizer.remove/$r6, <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, <java.lang.ref.Finalizer: void remove()>
-  sun.net.www.http.HttpClient.getDontProxy/r1, <sun.net.www.http.HttpClient: java.lang.String dontProxySource>, <sun.net.www.http.HttpClient: sun.misc.RegexpPool getDontProxy()>
-  sun.net.www.http.HttpClient.getDontProxy/r10, <sun.net.www.http.HttpClient: sun.misc.RegexpPool dontProxy>, <sun.net.www.http.HttpClient: sun.misc.RegexpPool getDontProxy()>
-  java.util.Locale.setDefault/r0, <java.util.Locale: java.util.Locale defaultLocale>, <java.util.Locale: void setDefault(java.util.Locale)>
-  java.lang.Character.<clinit>/$r0, <java.lang.Character: java.lang.Class TYPE>, <java.lang.Character: void <clinit>()>
-  java.lang.Character.<clinit>/$r1, <java.lang.Character: byte[] X>, <java.lang.Character: void <clinit>()>
-  java.lang.Character.<clinit>/$r2, <java.lang.Character: short[] Y>, <java.lang.Character: void <clinit>()>
-  java.lang.Character.<clinit>/$r3, <java.lang.Character: int[] A>, <java.lang.Character: void <clinit>()>
-  java.lang.ClassLoader.loadLibrary/$r9, <java.lang.ClassLoader: java.lang.String[] usr_paths>, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
-  java.lang.ClassLoader.loadLibrary/$r10, <java.lang.ClassLoader: java.lang.String[] sys_paths>, <java.lang.ClassLoader: void loadLibrary(java.lang.Class,java.lang.String,boolean)>
-  <java.lang.SecurityManager: void checkAccess(java.lang.Thread)>/$r6, <java.lang.SecurityManager: java.lang.RuntimePermission threadPermission>, <java.lang.SecurityManager: void checkAccess(java.lang.Thread)>
-  <java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)>/$r5, <java.lang.SecurityManager: java.lang.RuntimePermission threadGroupPermission>, <java.lang.SecurityManager: void checkAccess(java.lang.ThreadGroup)>
-  java.lang.SecurityManager.checkMemberAccess/$r8, <java.lang.SecurityManager: java.lang.RuntimePermission checkMemberAccessPermission>, <java.lang.SecurityManager: void checkMemberAccess(java.lang.Class,int)>
-  java.lang.FloatingDecimal.big5pow/r0, <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
-  java.lang.FloatingDecimal.big5pow/$r6, <java.lang.FloatingDecimal: java.lang.FDBigInt[] b5p>, <java.lang.FloatingDecimal: java.lang.FDBigInt big5pow(int)>
-  java.lang.reflect.AccessibleObject.setAccessible0/$r4, <java.lang.reflect.AccessibleObject: java.lang.Class class$java$lang$Class>, <java.lang.reflect.AccessibleObject: void setAccessible0(java.lang.reflect.AccessibleObject,boolean)>
-  java.net.URLConnection.setContentHandlerFactory/r0, <java.net.URLConnection: java.net.ContentHandlerFactory factory>, <java.net.URLConnection: void setContentHandlerFactory(java.net.ContentHandlerFactory)>
-  <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,java.lang.Object)>/$r7, <java.io.ObjectOutputStream$PutFieldImpl: java.lang.Class class$java$lang$Object>, <java.io.ObjectOutputStream$PutFieldImpl: void put(java.lang.String,java.lang.Object)>
-  java.net.Socket.setSocketImplFactory/r0, <java.net.Socket: java.net.SocketImplFactory factory>, <java.net.Socket: void setSocketImplFactory(java.net.SocketImplFactory)>
-  java.net.ServerSocket.setSocketFactory/r0, <java.net.ServerSocket: java.net.SocketImplFactory factory>, <java.net.ServerSocket: void setSocketFactory(java.net.SocketImplFactory)>
-  java.lang.Class.getProtectionDomain/$r5, <java.lang.Class: java.lang.RuntimePermission getPDperm>, <java.lang.Class: java.security.ProtectionDomain getProtectionDomain()>
-  java.lang.Class.getProtectionDomain/$r10, <java.lang.Class: java.security.ProtectionDomain allPermDomain>, <java.lang.Class: java.security.ProtectionDomain getProtectionDomain()>
-  java.io.ObjectStreamField.getType/$r13, <java.io.ObjectStreamField: java.lang.Class class$java$lang$Object>, <java.io.ObjectStreamField: java.lang.Class getType()>
-  java.io.InputStream.skip/$r3, <java.io.InputStream: byte[] skipBuffer>, <java.io.InputStream: long skip(long)>
-  java.net.URL.checkSpecifyHandler/$r3, <java.net.URL: java.net.NetPermission specifyHandlerPerm>, <java.net.URL: void checkSpecifyHandler(java.lang.SecurityManager)>
-  java.security.Permissions.getUnresolvedPermissions/$r10, <java.security.Permissions: java.lang.Class class$java$security$UnresolvedPermission>, <java.security.Permissions: java.security.PermissionCollection getUnresolvedPermissions(java.security.Permission)>
-  java.lang.SecurityManager.checkCreateClassLoader/$r2, <java.lang.SecurityManager: java.lang.RuntimePermission createClassLoaderPermission>, <java.lang.SecurityManager: void checkCreateClassLoader()>
-  java.lang.SecurityManager.checkListen/$r2, <java.lang.SecurityManager: java.net.SocketPermission localListenPermission>, <java.lang.SecurityManager: void checkListen(int)>
-  java.lang.SecurityManager.checkSystemClipboardAccess/$r2, <java.lang.SecurityManager: java.awt.AWTPermission accessClipboardPermission>, <java.lang.SecurityManager: void checkSystemClipboardAccess()>
-  java.lang.SecurityManager.checkAwtEventQueueAccess/$r2, <java.lang.SecurityManager: java.awt.AWTPermission checkAwtEventQueuePermission>, <java.lang.SecurityManager: void checkAwtEventQueueAccess()>
-  <java.lang.Thread: void stop(java.lang.Throwable)>/$r5, <java.lang.Thread: java.lang.RuntimePermission stopThreadPermission>, <java.lang.Thread: void stop(java.lang.Throwable)>
-  java.io.ObjectOutputStream.checkSubstitutableSpecialClasses/$r5, <java.io.ObjectOutputStream: java.lang.Class class$java$lang$String>, <java.io.ObjectOutputStream: boolean checkSubstitutableSpecialClasses(java.lang.Object,java.lang.Class)>
-  <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>/$r7, <java.io.ObjectInputStream$GetFieldImpl: java.lang.Class class$java$lang$Object>, <java.io.ObjectInputStream$GetFieldImpl: java.lang.Object get(java.lang.String,java.lang.Object)>
-  java.util.Date.toGMTString/$r8, <java.util.Date: java.lang.ref.SoftReference gmtFormatter>, <java.util.Date: java.lang.String toGMTString()>
-  <sun.net.www.MimeTable: void parse(java.util.Properties)>/r2, <sun.net.www.MimeTable: java.lang.String tempFileTemplate>, <sun.net.www.MimeTable: void parse(java.util.Properties)>
-  sun.net.www.MimeTable$1.run/$r3, <sun.net.www.MimeTable: java.lang.String[] mailcapLocations>, <sun.net.www.MimeTable$1: java.lang.Object run()>
-  sun.security.provider.SecureRandom.engineNextBytes/$r7, <sun.security.provider.SecureRandom: sun.security.provider.SecureRandom seeder>, <sun.security.provider.SecureRandom: void engineNextBytes(byte[])>
+  java.security.UnresolvedPermission.<clinit>/$r2, <java.security.UnresolvedPermission: java.lang.Class[] PARAMS>, <java.security.UnresolvedPermission: void <clinit>()>
+  java.security.UnresolvedPermission.<clinit>/$r3, <java.security.UnresolvedPermission: java.lang.Class class$java$lang$String>, <java.security.UnresolvedPermission: void <clinit>()>
+  java.security.UnresolvedPermission.<clinit>/$r6, <java.security.UnresolvedPermission: java.lang.Class class$java$lang$String>, <java.security.UnresolvedPermission: void <clinit>()>
+  java.text.CollationRules.<clinit>/$r0, <java.text.CollationRules: java.lang.String DEFAULTRULES>, <java.text.CollationRules: void <clinit>()>
+  java.text.Collator.<clinit>/$r0, <java.text.Collator: sun.misc.SoftCache cache>, <java.text.Collator: void <clinit>()>
+  java.text.DateFormatSymbols.<clinit>/$r0, <java.text.DateFormatSymbols: java.util.Hashtable cachedLocaleData>, <java.text.DateFormatSymbols: void <clinit>()>
+  java.text.DateFormatSymbols.<clinit>/$r1, <java.text.DateFormatSymbols: java.util.Hashtable cachedZoneData>, <java.text.DateFormatSymbols: void <clinit>()>
+  java.text.DecimalFormat.<clinit>/$r0, <java.text.DecimalFormat: java.util.Hashtable cachedLocaleData>, <java.text.DecimalFormat: void <clinit>()>
+  java.text.DecimalFormatSymbols.<clinit>/$r0, <java.text.DecimalFormatSymbols: java.util.Hashtable cachedLocaleData>, <java.text.DecimalFormatSymbols: void <clinit>()>
+  java.text.DigitList.<clinit>/$r1, <java.text.DigitList: byte[] LONG_MIN_REP>, <java.text.DigitList: void <clinit>()>
+  java.text.IntHashtable.<clinit>/$r0, <java.text.IntHashtable: int[] PRIMES>, <java.text.IntHashtable: void <clinit>()>
+  java.text.MessageFormat.<clinit>/$r0, <java.text.MessageFormat: java.lang.String[] typeList>, <java.text.MessageFormat: void <clinit>()>
+  java.text.MessageFormat.<clinit>/$r1, <java.text.MessageFormat: java.lang.String[] modifierList>, <java.text.MessageFormat: void <clinit>()>
+  java.text.MessageFormat.<clinit>/$r2, <java.text.MessageFormat: java.lang.String[] dateModifierList>, <java.text.MessageFormat: void <clinit>()>
+  java.text.Normalizer.<clinit>/$r12, <java.text.Normalizer: java.text.IntHashtable composeMapping>, <java.text.Normalizer: void <clinit>()>
+  java.text.Normalizer.<clinit>/$r4, <java.text.Normalizer: short[] kOffsetIndex>, <java.text.Normalizer: void <clinit>()>
+  java.text.Normalizer.<clinit>/$r5, <java.text.Normalizer: short[] kOffsetValues>, <java.text.Normalizer: void <clinit>()>
+  java.text.Normalizer.<clinit>/$r6, <java.text.Normalizer: short[] kCanonicalIndex>, <java.text.Normalizer: void <clinit>()>
+  java.text.Normalizer.<clinit>/$r7, <java.text.Normalizer: byte[] kCanonicalValues>, <java.text.Normalizer: void <clinit>()>
+  java.text.Normalizer.<clinit>/$r8, <java.text.Normalizer: java.text.CompactShortArray startOffsets>, <java.text.Normalizer: void <clinit>()>
+  java.text.Normalizer.<clinit>/$r9, <java.text.Normalizer: java.text.CompactByteArray canonicals>, <java.text.Normalizer: void <clinit>()>
+  java.text.Normalizer.<clinit>/$stringconstant4, <java.text.Normalizer: java.lang.String contents>, <java.text.Normalizer: void <clinit>()>
+  java.text.NumberFormat.<clinit>/$r0, <java.text.NumberFormat: java.util.Hashtable cachedLocaleData>, <java.text.NumberFormat: void <clinit>()>
+  java.text.resources.LocaleData.<clinit>/$r0, <java.text.resources.LocaleData: java.util.Vector classPathSegments>, <java.text.resources.LocaleData: void <clinit>()>
+  java.text.resources.LocaleData.<clinit>/$r21, <java.text.resources.LocaleData: java.util.Locale[] localeList>, <java.text.resources.LocaleData: void <clinit>()>
   java.text.RuleBasedCollator.clone/$r4, <java.text.RuleBasedCollator: java.lang.Class class$java$text$RuleBasedCollator>, <java.text.RuleBasedCollator: java.lang.Object clone()>
-  java.lang.String.getCTBConverter/$r5, <java.lang.String: java.lang.ThreadLocal ctbCache>, <java.lang.String: sun.io.CharToByteConverter getCTBConverter(java.lang.String)>
-  java.lang.Class.<clinit>/$r0, <java.lang.Class: java.io.ObjectStreamField[] serialPersistentFields>, <java.lang.Class: void <clinit>()>
-  java.lang.Integer.<clinit>/$r0, <java.lang.Integer: java.lang.Class TYPE>, <java.lang.Integer: void <clinit>()>
-  java.lang.Integer.<clinit>/$r1, <java.lang.Integer: char[] digits>, <java.lang.Integer: void <clinit>()>
-  java.lang.Integer.<clinit>/$r2, <java.lang.Integer: char[] DigitTens>, <java.lang.Integer: void <clinit>()>
-  java.lang.Integer.<clinit>/$r3, <java.lang.Integer: char[] DigitOnes>, <java.lang.Integer: void <clinit>()>
-  java.io.ObjectStreamField.<clinit>/$r0, <java.io.ObjectStreamField: java.lang.String OBJECT_TYPESTRING>, <java.io.ObjectStreamField: void <clinit>()>
-  java.util.Locale.getISOCountries/$r3, <java.util.Locale: java.lang.String[] isoCountries>, <java.util.Locale: java.lang.String[] getISOCountries()>
-  java.util.Locale.getISOLanguages/$r3, <java.util.Locale: java.lang.String[] isoLanguages>, <java.util.Locale: java.lang.String[] getISOLanguages()>
-  java.util.Locale.getLanguagesForCountry/$r5, <java.util.Locale: java.util.Hashtable ctry2LangMapping>, <java.util.Locale: java.lang.String[] getLanguagesForCountry(java.lang.String)>
-  java.util.Locale.<clinit>/$r28, <java.util.Locale: java.util.Locale defaultLocale>, <java.util.Locale: void <clinit>()>
+  java.text.SimpleDateFormat.<clinit>/$r0, <java.text.SimpleDateFormat: java.util.Hashtable cachedLocaleData>, <java.text.SimpleDateFormat: void <clinit>()>
+  java.text.SimpleDateFormat.<clinit>/$r1, <java.text.SimpleDateFormat: int[] PATTERN_INDEX_TO_CALENDAR_FIELD>, <java.text.SimpleDateFormat: void <clinit>()>
+  java.text.SimpleDateFormat.<clinit>/$r2, <java.text.SimpleDateFormat: int[] PATTERN_INDEX_TO_DATE_FORMAT_FIELD>, <java.text.SimpleDateFormat: void <clinit>()>
+  java.text.Utility.<clinit>/$r0, <java.text.Utility: char[] HEX_DIGIT>, <java.text.Utility: void <clinit>()>
+  java.util.Calendar.<clinit>/$r0, <java.util.Calendar: java.util.Hashtable cachedLocaleData>, <java.util.Calendar: void <clinit>()>
+  java.util.Calendar.<clinit>/$r1, <java.util.Calendar: java.lang.String[] FIELD_NAME>, <java.util.Calendar: void <clinit>()>
+  java.util.Collections.<clinit>/$r0, <java.util.Collections: java.util.Random r>, <java.util.Collections: void <clinit>()>
+  java.util.Collections.<clinit>/$r1, <java.util.Collections: java.util.Set EMPTY_SET>, <java.util.Collections: void <clinit>()>
+  java.util.Collections.<clinit>/$r2, <java.util.Collections: java.util.List EMPTY_LIST>, <java.util.Collections: void <clinit>()>
+  java.util.Collections.<clinit>/$r3, <java.util.Collections: java.util.Map EMPTY_MAP>, <java.util.Collections: void <clinit>()>
+  java.util.Collections.<clinit>/$r4, <java.util.Collections: java.util.Comparator REVERSE_ORDER>, <java.util.Collections: void <clinit>()>
+  java.util.Date.<clinit>/$r0, <java.util.Date: java.lang.String[] wtb>, <java.util.Date: void <clinit>()>
+  java.util.Date.<clinit>/$r1, <java.util.Date: int[] ttb>, <java.util.Date: void <clinit>()>
+  java.util.Date.makeStaticCalendars/r1, <java.util.Date: java.util.Calendar staticCal>, <java.util.Date: void makeStaticCalendars()>
+  java.util.Date.makeStaticCalendars/$r3, <java.util.Date: java.util.Calendar utcCal>, <java.util.Date: void makeStaticCalendars()>
+  java.util.Date.toGMTString/$r8, <java.util.Date: java.lang.ref.SoftReference gmtFormatter>, <java.util.Date: java.lang.String toGMTString()>
+  java.util.Date.toString/$r10, <java.util.Date: java.lang.ref.SoftReference simpleFormatter>, <java.util.Date: java.lang.String toString()>
+  java.util.GregorianCalendar.<clinit>/$r0, <java.util.GregorianCalendar: int[] NUM_DAYS>, <java.util.GregorianCalendar: void <clinit>()>
+  java.util.GregorianCalendar.<clinit>/$r1, <java.util.GregorianCalendar: int[] LEAP_NUM_DAYS>, <java.util.GregorianCalendar: void <clinit>()>
+  java.util.GregorianCalendar.<clinit>/$r2, <java.util.GregorianCalendar: int[] MONTH_LENGTH>, <java.util.GregorianCalendar: void <clinit>()>
+  java.util.GregorianCalendar.<clinit>/$r3, <java.util.GregorianCalendar: int[] LEAP_MONTH_LENGTH>, <java.util.GregorianCalendar: void <clinit>()>
+  java.util.GregorianCalendar.<clinit>/$r4, <java.util.GregorianCalendar: int[] MIN_VALUES>, <java.util.GregorianCalendar: void <clinit>()>
+  java.util.GregorianCalendar.<clinit>/$r5, <java.util.GregorianCalendar: int[] LEAST_MAX_VALUES>, <java.util.GregorianCalendar: void <clinit>()>
+  java.util.GregorianCalendar.<clinit>/$r6, <java.util.GregorianCalendar: int[] MAX_VALUES>, <java.util.GregorianCalendar: void <clinit>()>
+  java.util.HashMap.<clinit>/$r0, <java.util.HashMap: java.util.HashMap$EmptyHashIterator emptyHashIterator>, <java.util.HashMap: void <clinit>()>
+  java.util.HashSet.<clinit>/$r0, <java.util.HashSet: java.lang.Object PRESENT>, <java.util.HashSet: void <clinit>()>
+  java.util.Hashtable.<clinit>/$r0, <java.util.Hashtable: java.util.Hashtable$EmptyEnumerator emptyEnumerator>, <java.util.Hashtable: void <clinit>()>
+  java.util.Hashtable.<clinit>/$r1, <java.util.Hashtable: java.util.Hashtable$EmptyIterator emptyIterator>, <java.util.Hashtable: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r0, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name MANIFEST_VERSION>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r10, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VERSION>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r11, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VENDOR>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r12, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VENDOR_ID>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r13, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_URL>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r14, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_TITLE>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r15, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VERSION>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r16, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VENDOR>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r1, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SIGNATURE_VERSION>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r2, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name CONTENT_TYPE>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r3, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name CLASS_PATH>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r4, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name MAIN_CLASS>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r5, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SEALED>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r6, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name EXTENSION_LIST>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r7, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name EXTENSION_NAME>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r8, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name EXTENSION_INSTALLATION>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.Attributes$Name.<clinit>/$r9, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_TITLE>, <java.util.jar.Attributes$Name: void <clinit>()>
+  java.util.jar.JarVerifier.<clinit>/$r0, <java.util.jar.JarVerifier: sun.security.util.Debug debug>, <java.util.jar.JarVerifier: void <clinit>()>
   java.util.Locale.<clinit>/$r0, <java.util.Locale: java.util.Locale ENGLISH>, <java.util.Locale: void <clinit>()>
-  java.util.Locale.<clinit>/$r4, <java.util.Locale: java.util.Locale FRENCH>, <java.util.Locale: void <clinit>()>
-  java.util.Locale.<clinit>/$r5, <java.util.Locale: java.util.Locale GERMAN>, <java.util.Locale: void <clinit>()>
-  java.util.Locale.<clinit>/$r6, <java.util.Locale: java.util.Locale ITALIAN>, <java.util.Locale: void <clinit>()>
-  java.util.Locale.<clinit>/$r7, <java.util.Locale: java.util.Locale JAPANESE>, <java.util.Locale: void <clinit>()>
-  java.util.Locale.<clinit>/$r8, <java.util.Locale: java.util.Locale KOREAN>, <java.util.Locale: void <clinit>()>
-  java.util.Locale.<clinit>/$r9, <java.util.Locale: java.util.Locale CHINESE>, <java.util.Locale: void <clinit>()>
   java.util.Locale.<clinit>/$r10, <java.util.Locale: java.util.Locale SIMPLIFIED_CHINESE>, <java.util.Locale: void <clinit>()>
   java.util.Locale.<clinit>/$r11, <java.util.Locale: java.util.Locale TRADITIONAL_CHINESE>, <java.util.Locale: void <clinit>()>
   java.util.Locale.<clinit>/$r12, <java.util.Locale: java.util.Locale FRANCE>, <java.util.Locale: void <clinit>()>
@@ -153,294 +346,109 @@
   java.util.Locale.<clinit>/$r21, <java.util.Locale: java.util.Locale US>, <java.util.Locale: void <clinit>()>
   java.util.Locale.<clinit>/$r22, <java.util.Locale: java.util.Locale CANADA>, <java.util.Locale: void <clinit>()>
   java.util.Locale.<clinit>/$r23, <java.util.Locale: java.util.Locale CANADA_FRENCH>, <java.util.Locale: void <clinit>()>
-  java.lang.Long.<clinit>/$r0, <java.lang.Long: java.lang.Class TYPE>, <java.lang.Long: void <clinit>()>
-  java.lang.Float.<clinit>/$r0, <java.lang.Float: java.lang.Class TYPE>, <java.lang.Float: void <clinit>()>
-  java.lang.System.setIn0/@param0, <java.lang.System: java.io.InputStream in>, <java.lang.System: void setIn0(java.io.InputStream)>
-  java.lang.System.setOut0/@param0, <java.lang.System: java.io.PrintStream out>, <java.lang.System: void setOut0(java.io.PrintStream)>
-  java.lang.System.setErr0/@param0, <java.lang.System: java.io.PrintStream err>, <java.lang.System: void setErr0(java.io.PrintStream)>
-  java.lang.System.setSecurityManager0/r0, <java.lang.System: java.lang.SecurityManager security>, <java.lang.System: void setSecurityManager0(java.lang.SecurityManager)>
-  java.lang.System.setProperties/r0, <java.lang.System: java.util.Properties props>, <java.lang.System: void setProperties(java.util.Properties)>
-  java.lang.System.initializeSystemClass/$r0, <java.lang.System: java.util.Properties props>, <java.lang.System: void initializeSystemClass()>
-  java.lang.System.<clinit>/$r0, <java.lang.System: java.io.InputStream in>, <java.lang.System: void <clinit>()>
-  java.lang.System.<clinit>/$r1, <java.lang.System: java.io.PrintStream out>, <java.lang.System: void <clinit>()>
-  java.lang.System.<clinit>/$r2, <java.lang.System: java.io.PrintStream err>, <java.lang.System: void <clinit>()>
-  java.lang.Double.<clinit>/$r0, <java.lang.Double: java.lang.Class TYPE>, <java.lang.Double: void <clinit>()>
-  java.lang.Math.initRNG/$r1, <java.lang.Math: java.util.Random randomNumberGenerator>, <java.lang.Math: void initRNG()>
-  java.lang.ClassLoader.getBootstrapClassPath/$r1, <java.lang.ClassLoader: sun.misc.URLClassPath bootstrapClassPath>, <java.lang.ClassLoader: sun.misc.URLClassPath getBootstrapClassPath()>
-  java.lang.ClassLoader.getSystemClassLoader/$r3, <java.lang.ClassLoader: java.lang.ClassLoader scl>, <java.lang.ClassLoader: java.lang.ClassLoader getSystemClassLoader()>
-  java.lang.ClassLoader.getGetClassLoaderPerm/$r1, <java.lang.ClassLoader: java.lang.RuntimePermission getClassLoaderPerm>, <java.lang.ClassLoader: java.lang.RuntimePermission getGetClassLoaderPerm()>
-  java.lang.ClassLoader.<clinit>/$r0, <java.lang.ClassLoader: java.util.Vector loadedLibraryNames>, <java.lang.ClassLoader: void <clinit>()>
-  java.lang.ClassLoader.<clinit>/$r1, <java.lang.ClassLoader: java.util.Vector systemNativeLibraries>, <java.lang.ClassLoader: void <clinit>()>
-  java.lang.ClassLoader.<clinit>/$r2, <java.lang.ClassLoader: java.util.Stack nativeLibraryContext>, <java.lang.ClassLoader: void <clinit>()>
-  java.lang.Package.<clinit>/$r0, <java.lang.Package: java.util.Map pkgs>, <java.lang.Package: void <clinit>()>
-  java.lang.Package.<clinit>/$r1, <java.lang.Package: java.util.Map urls>, <java.lang.Package: void <clinit>()>
-  java.lang.Package.<clinit>/$r2, <java.lang.Package: java.util.Map mans>, <java.lang.Package: void <clinit>()>
-  java.net.URL.<clinit>/$r0, <java.net.URL: java.util.Hashtable handlers>, <java.net.URL: void <clinit>()>
-  java.net.URL.<clinit>/$r1, <java.net.URL: java.lang.Object streamHandlerLock>, <java.net.URL: void <clinit>()>
-  java.io.ObjectStreamClass.initStaticMethodArgs/$r4, <java.io.ObjectStreamClass: java.lang.Class[] OIS_ARGS>, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
-  java.io.ObjectStreamClass.initStaticMethodArgs/$r1, <java.io.ObjectStreamClass: java.lang.Class[] OOS_ARGS>, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
-  java.io.ObjectStreamClass.initStaticMethodArgs/$r3, <java.io.ObjectStreamClass: java.lang.Class class$java$io$ObjectOutputStream>, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
-  java.io.ObjectStreamClass.initStaticMethodArgs/$r7, <java.io.ObjectStreamClass: java.lang.Class class$java$io$ObjectInputStream>, <java.io.ObjectStreamClass: void initStaticMethodArgs()>
-  java.io.ObjectStreamClass.<clinit>/$r0, <java.io.ObjectStreamClass: java.io.ObjectStreamClass$ObjectStreamClassEntry[] descriptorFor>, <java.io.ObjectStreamClass: void <clinit>()>
-  java.io.ObjectStreamClass.<clinit>/$r1, <java.io.ObjectStreamClass: java.io.ObjectStreamField[] NO_FIELDS>, <java.io.ObjectStreamClass: void <clinit>()>
-  java.io.ObjectStreamClass.<clinit>/$r2, <java.io.ObjectStreamClass: java.io.ObjectStreamField[] serialPersistentFields>, <java.io.ObjectStreamClass: void <clinit>()>
-  java.io.ObjectStreamClass.<clinit>/$r3, <java.io.ObjectStreamClass: java.util.Comparator compareClassByName>, <java.io.ObjectStreamClass: void <clinit>()>
-  java.io.ObjectStreamClass.<clinit>/$r4, <java.io.ObjectStreamClass: java.util.Comparator compareMemberByName>, <java.io.ObjectStreamClass: void <clinit>()>
-  java.io.ObjectStreamClass.<clinit>/$r5, <java.io.ObjectStreamClass: java.lang.Class[] NULL_ARGS>, <java.io.ObjectStreamClass: void <clinit>()>
-  java.lang.SecurityManager.<clinit>/$r1, <java.lang.SecurityManager: java.lang.String[] packageAccess>, <java.lang.SecurityManager: void <clinit>()>
-  java.lang.SecurityManager.<clinit>/$r2, <java.lang.SecurityManager: java.lang.String[] packageDefinition>, <java.lang.SecurityManager: void <clinit>()>
-  java.lang.SecurityManager.<clinit>/$r0, <java.lang.SecurityManager: java.lang.ThreadGroup rootGroup>, <java.lang.SecurityManager: void <clinit>()>
-  java.lang.FloatingDecimal.<clinit>/$r0, <java.lang.FloatingDecimal: double[] small10pow>, <java.lang.FloatingDecimal: void <clinit>()>
-  java.lang.FloatingDecimal.<clinit>/$r1, <java.lang.FloatingDecimal: float[] singleSmall10pow>, <java.lang.FloatingDecimal: void <clinit>()>
-  java.lang.FloatingDecimal.<clinit>/$r2, <java.lang.FloatingDecimal: double[] big10pow>, <java.lang.FloatingDecimal: void <clinit>()>
-  java.lang.FloatingDecimal.<clinit>/$r3, <java.lang.FloatingDecimal: double[] tiny10pow>, <java.lang.FloatingDecimal: void <clinit>()>
-  java.lang.FloatingDecimal.<clinit>/$r6, <java.lang.FloatingDecimal: int[] small5pow>, <java.lang.FloatingDecimal: void <clinit>()>
-  java.lang.FloatingDecimal.<clinit>/$r7, <java.lang.FloatingDecimal: long[] long5pow>, <java.lang.FloatingDecimal: void <clinit>()>
-  java.lang.FloatingDecimal.<clinit>/$r8, <java.lang.FloatingDecimal: int[] n5bits>, <java.lang.FloatingDecimal: void <clinit>()>
-  java.lang.FloatingDecimal.<clinit>/$r9, <java.lang.FloatingDecimal: char[] infinity>, <java.lang.FloatingDecimal: void <clinit>()>
-  java.lang.FloatingDecimal.<clinit>/$r10, <java.lang.FloatingDecimal: char[] notANumber>, <java.lang.FloatingDecimal: void <clinit>()>
-  java.lang.FloatingDecimal.<clinit>/$r11, <java.lang.FloatingDecimal: char[] zero>, <java.lang.FloatingDecimal: void <clinit>()>
+  java.util.Locale.<clinit>/$r28, <java.util.Locale: java.util.Locale defaultLocale>, <java.util.Locale: void <clinit>()>
+  java.util.Locale.<clinit>/$r4, <java.util.Locale: java.util.Locale FRENCH>, <java.util.Locale: void <clinit>()>
+  java.util.Locale.<clinit>/$r5, <java.util.Locale: java.util.Locale GERMAN>, <java.util.Locale: void <clinit>()>
+  java.util.Locale.<clinit>/$r6, <java.util.Locale: java.util.Locale ITALIAN>, <java.util.Locale: void <clinit>()>
+  java.util.Locale.<clinit>/$r7, <java.util.Locale: java.util.Locale JAPANESE>, <java.util.Locale: void <clinit>()>
+  java.util.Locale.<clinit>/$r8, <java.util.Locale: java.util.Locale KOREAN>, <java.util.Locale: void <clinit>()>
+  java.util.Locale.<clinit>/$r9, <java.util.Locale: java.util.Locale CHINESE>, <java.util.Locale: void <clinit>()>
+  java.util.Locale.getISOCountries/$r3, <java.util.Locale: java.lang.String[] isoCountries>, <java.util.Locale: java.lang.String[] getISOCountries()>
+  java.util.Locale.getISOLanguages/$r3, <java.util.Locale: java.lang.String[] isoLanguages>, <java.util.Locale: java.lang.String[] getISOLanguages()>
+  java.util.Locale.getLanguagesForCountry/$r5, <java.util.Locale: java.util.Hashtable ctry2LangMapping>, <java.util.Locale: java.lang.String[] getLanguagesForCountry(java.lang.String)>
+  java.util.Locale.setDefault/r0, <java.util.Locale: java.util.Locale defaultLocale>, <java.util.Locale: void setDefault(java.util.Locale)>
   java.util.Properties.<clinit>/$r0, <java.util.Properties: char[] hexDigit>, <java.util.Properties: void <clinit>()>
-  java.lang.Runtime.<clinit>/$r0, <java.lang.Runtime: java.lang.Runtime currentRuntime>, <java.lang.Runtime: void <clinit>()>
-  java.io.FileDescriptor.<clinit>/$r0, <java.io.FileDescriptor: java.io.FileDescriptor in>, <java.io.FileDescriptor: void <clinit>()>
-  java.io.FileDescriptor.<clinit>/$r1, <java.io.FileDescriptor: java.io.FileDescriptor out>, <java.io.FileDescriptor: void <clinit>()>
-  java.io.FileDescriptor.<clinit>/$r2, <java.io.FileDescriptor: java.io.FileDescriptor err>, <java.io.FileDescriptor: void <clinit>()>
-  sun.io.Converters.getConverterPackageName/r4, <sun.io.Converters: java.lang.String converterPackageName>, <sun.io.Converters: java.lang.String getConverterPackageName()>
-  sun.io.Converters.<clinit>/$r1, <sun.io.Converters: java.lang.Class class$sun$io$Converters>, <sun.io.Converters: void <clinit>()>
-  sun.io.Converters.<clinit>/$r1, <sun.io.Converters: java.lang.Object lock>, <sun.io.Converters: void <clinit>()>
-  sun.io.Converters.<clinit>/$r2, <sun.io.Converters: java.lang.String[] converterPrefix>, <sun.io.Converters: void <clinit>()>
-  sun.io.Converters.<clinit>/$r3, <sun.io.Converters: java.lang.ref.SoftReference[] classCache>, <sun.io.Converters: void <clinit>()>
-  java.lang.Boolean.<clinit>/$r0, <java.lang.Boolean: java.lang.Boolean TRUE>, <java.lang.Boolean: void <clinit>()>
-  java.lang.Boolean.<clinit>/$r1, <java.lang.Boolean: java.lang.Boolean FALSE>, <java.lang.Boolean: void <clinit>()>
-  java.lang.Boolean.<clinit>/$r2, <java.lang.Boolean: java.lang.Class TYPE>, <java.lang.Boolean: void <clinit>()>
-  java.lang.Short.<clinit>/$r0, <java.lang.Short: java.lang.Class TYPE>, <java.lang.Short: void <clinit>()>
-  java.lang.Byte.<clinit>/$r0, <java.lang.Byte: java.lang.Class TYPE>, <java.lang.Byte: void <clinit>()>
-  java.util.Hashtable.<clinit>/$r0, <java.util.Hashtable: java.util.Hashtable$EmptyEnumerator emptyEnumerator>, <java.util.Hashtable: void <clinit>()>
-  java.util.Hashtable.<clinit>/$r1, <java.util.Hashtable: java.util.Hashtable$EmptyIterator emptyIterator>, <java.util.Hashtable: void <clinit>()>
   java.util.ResourceBundle.<clinit>/$r0, <java.util.ResourceBundle: java.util.ResourceBundle$ResourceCacheKey cacheKey>, <java.util.ResourceBundle: void <clinit>()>
   java.util.ResourceBundle.<clinit>/$r1, <java.util.ResourceBundle: java.util.Hashtable underConstruction>, <java.util.ResourceBundle: void <clinit>()>
   java.util.ResourceBundle.<clinit>/$r2, <java.util.ResourceBundle: java.lang.Integer DEFAULT_NOT_FOUND>, <java.util.ResourceBundle: void <clinit>()>
   java.util.ResourceBundle.<clinit>/$r3, <java.util.ResourceBundle: sun.misc.SoftCache cacheList>, <java.util.ResourceBundle: void <clinit>()>
-  java.text.MessageFormat.<clinit>/$r0, <java.text.MessageFormat: java.lang.String[] typeList>, <java.text.MessageFormat: void <clinit>()>
-  java.text.MessageFormat.<clinit>/$r1, <java.text.MessageFormat: java.lang.String[] modifierList>, <java.text.MessageFormat: void <clinit>()>
-  java.text.MessageFormat.<clinit>/$r2, <java.text.MessageFormat: java.lang.String[] dateModifierList>, <java.text.MessageFormat: void <clinit>()>
-  java.text.resources.LocaleData.<clinit>/$r0, <java.text.resources.LocaleData: java.util.Vector classPathSegments>, <java.text.resources.LocaleData: void <clinit>()>
-  java.text.resources.LocaleData.<clinit>/$r21, <java.text.resources.LocaleData: java.util.Locale[] localeList>, <java.text.resources.LocaleData: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r0, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BASIC_LATIN>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r1, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_1_SUPPLEMENT>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r2, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_EXTENDED_A>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r3, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_EXTENDED_B>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r4, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock IPA_EXTENSIONS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r5, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SPACING_MODIFIER_LETTERS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r6, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock COMBINING_DIACRITICAL_MARKS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r7, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GREEK>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r8, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CYRILLIC>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r9, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARMENIAN>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r10, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HEBREW>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r11, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARABIC>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r12, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock DEVANAGARI>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r13, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BENGALI>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r14, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GURMUKHI>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r15, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GUJARATI>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r16, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ORIYA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r17, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock TAMIL>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r18, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock TELUGU>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r19, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock KANNADA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r20, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MALAYALAM>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r21, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock THAI>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r22, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LAO>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r23, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock TIBETAN>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r24, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GEORGIAN>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r25, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HANGUL_JAMO>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r26, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LATIN_EXTENDED_ADDITIONAL>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r27, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GREEK_EXTENDED>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r28, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GENERAL_PUNCTUATION>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r29, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SUPERSCRIPTS_AND_SUBSCRIPTS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r30, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CURRENCY_SYMBOLS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r31, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock COMBINING_MARKS_FOR_SYMBOLS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r32, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock LETTERLIKE_SYMBOLS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r33, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock NUMBER_FORMS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r34, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARROWS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r35, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MATHEMATICAL_OPERATORS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r36, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MISCELLANEOUS_TECHNICAL>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r37, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CONTROL_PICTURES>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r38, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock OPTICAL_CHARACTER_RECOGNITION>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r39, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ENCLOSED_ALPHANUMERICS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r40, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BOX_DRAWING>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r41, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BLOCK_ELEMENTS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r42, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock GEOMETRIC_SHAPES>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r43, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock MISCELLANEOUS_SYMBOLS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r44, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock DINGBATS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r45, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_SYMBOLS_AND_PUNCTUATION>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r46, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HIRAGANA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r47, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock KATAKANA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r48, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock BOPOMOFO>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r49, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HANGUL_COMPATIBILITY_JAMO>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r50, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock KANBUN>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r51, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ENCLOSED_CJK_LETTERS_AND_MONTHS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r52, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_COMPATIBILITY>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r53, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_UNIFIED_IDEOGRAPHS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r54, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HANGUL_SYLLABLES>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r55, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SURROGATES_AREA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r56, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock PRIVATE_USE_AREA>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r57, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_COMPATIBILITY_IDEOGRAPHS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r58, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ALPHABETIC_PRESENTATION_FORMS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r59, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARABIC_PRESENTATION_FORMS_A>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r60, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock COMBINING_HALF_MARKS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r61, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock CJK_COMPATIBILITY_FORMS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r62, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SMALL_FORM_VARIANTS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r63, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock ARABIC_PRESENTATION_FORMS_B>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r64, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock HALFWIDTH_AND_FULLWIDTH_FORMS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r65, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock SPECIALS>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r66, <java.lang.Character$UnicodeBlock: char[] blockStarts>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.Character$UnicodeBlock.<clinit>/$r67, <java.lang.Character$UnicodeBlock: java.lang.Character$UnicodeBlock[] blocks>, <java.lang.Character$UnicodeBlock: void <clinit>()>
-  java.lang.StrictMath.initRNG/$r1, <java.lang.StrictMath: java.util.Random randomNumberGenerator>, <java.lang.StrictMath: void initRNG()>
-  java.io.ObjectStreamConstants.<clinit>/$r0, <java.io.ObjectStreamConstants: java.io.SerializablePermission SUBSTITUTION_PERMISSION>, <java.io.ObjectStreamConstants: void <clinit>()>
-  java.io.ObjectStreamConstants.<clinit>/$r1, <java.io.ObjectStreamConstants: java.io.SerializablePermission SUBCLASS_IMPLEMENTATION_PERMISSION>, <java.io.ObjectStreamConstants: void <clinit>()>
-  java.lang.reflect.Proxy.<clinit>/$r3, <java.lang.reflect.Proxy: java.lang.Class class$java$lang$reflect$InvocationHandler>, <java.lang.reflect.Proxy: void <clinit>()>
-  java.lang.reflect.Proxy.<clinit>/$r2, <java.lang.reflect.Proxy: java.lang.Class[] constructorParams>, <java.lang.reflect.Proxy: void <clinit>()>
-  java.lang.reflect.Proxy.<clinit>/$r4, <java.lang.reflect.Proxy: java.util.Map loaderToCache>, <java.lang.reflect.Proxy: void <clinit>()>
-  java.lang.reflect.Proxy.<clinit>/$r5, <java.lang.reflect.Proxy: java.lang.Object pendingGenerationMarker>, <java.lang.reflect.Proxy: void <clinit>()>
-  java.lang.reflect.Proxy.<clinit>/$r6, <java.lang.reflect.Proxy: java.lang.Object nextUniqueNumberLock>, <java.lang.reflect.Proxy: void <clinit>()>
-  java.lang.reflect.Proxy.<clinit>/$r8, <java.lang.reflect.Proxy: java.util.Map proxyClasses>, <java.lang.reflect.Proxy: void <clinit>()>
-  java.lang.reflect.AccessibleObject.<clinit>/$r0, <java.lang.reflect.AccessibleObject: java.security.Permission ACCESS_PERMISSION>, <java.lang.reflect.AccessibleObject: void <clinit>()>
-  java.security.cert.CertificateFactory.<clinit>/$r2, <java.security.cert.CertificateFactory: java.lang.Class class$java$security$Security>, <java.security.cert.CertificateFactory: void <clinit>()>
-  java.security.cert.CertificateFactory.<clinit>/$r2, <java.security.cert.CertificateFactory: java.lang.Class cl>, <java.security.cert.CertificateFactory: void <clinit>()>
-  java.security.cert.CertificateFactory.<clinit>/$r5, <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, <java.security.cert.CertificateFactory: void <clinit>()>
-  java.security.cert.CertificateFactory.<clinit>/$r8, <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, <java.security.cert.CertificateFactory: void <clinit>()>
-  java.security.cert.CertificateFactory.<clinit>/$r11, <java.security.cert.CertificateFactory: java.lang.Class class$java$lang$String>, <java.security.cert.CertificateFactory: void <clinit>()>
-  java.security.cert.CertificateFactory.<clinit>/$r3, <java.security.cert.CertificateFactory: java.lang.Class[] GET_IMPL_PARAMS>, <java.security.cert.CertificateFactory: void <clinit>()>
-  java.security.cert.CertificateFactory.<clinit>/$r14, <java.security.cert.CertificateFactory: java.lang.reflect.Method implMethod>, <java.security.cert.CertificateFactory: void <clinit>()>
-  java.lang.Void.<clinit>/$r0, <java.lang.Void: java.lang.Class TYPE>, <java.lang.Void: void <clinit>()>
-  java.security.UnresolvedPermission.<clinit>/$r3, <java.security.UnresolvedPermission: java.lang.Class class$java$lang$String>, <java.security.UnresolvedPermission: void <clinit>()>
-  java.security.UnresolvedPermission.<clinit>/$r6, <java.security.UnresolvedPermission: java.lang.Class class$java$lang$String>, <java.security.UnresolvedPermission: void <clinit>()>
-  java.security.UnresolvedPermission.<clinit>/$r2, <java.security.UnresolvedPermission: java.lang.Class[] PARAMS>, <java.security.UnresolvedPermission: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r0, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name MANIFEST_VERSION>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r1, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SIGNATURE_VERSION>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r2, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name CONTENT_TYPE>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r3, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name CLASS_PATH>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r4, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name MAIN_CLASS>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r5, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SEALED>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r6, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name EXTENSION_LIST>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r7, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name EXTENSION_NAME>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r8, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name EXTENSION_INSTALLATION>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r9, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_TITLE>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r10, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VERSION>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r11, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VENDOR>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r12, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_VENDOR_ID>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r13, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name IMPLEMENTATION_URL>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r14, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_TITLE>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r15, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VERSION>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.jar.Attributes$Name.<clinit>/$r16, <java.util.jar.Attributes$Name: java.util.jar.Attributes$Name SPECIFICATION_VENDOR>, <java.util.jar.Attributes$Name: void <clinit>()>
-  java.util.HashMap.<clinit>/$r0, <java.util.HashMap: java.util.HashMap$EmptyHashIterator emptyHashIterator>, <java.util.HashMap: void <clinit>()>
-  java.io.FilePermission.<clinit>/$r4, <java.io.FilePermission: java.lang.String SEP_RECURSIVE>, <java.io.FilePermission: void <clinit>()>
-  java.io.FilePermission.<clinit>/$r9, <java.io.FilePermission: java.lang.String SEP_WILD>, <java.io.FilePermission: void <clinit>()>
-  java.io.File.getTempDir/$r4, <java.io.File: java.lang.String tmpdir>, <java.io.File: java.lang.String getTempDir()>
-  java.io.File.<clinit>/$r0, <java.io.File: java.io.FileSystem fs>, <java.io.File: void <clinit>()>
-  java.io.File.<clinit>/$r5, <java.io.File: java.lang.String separator>, <java.io.File: void <clinit>()>
-  java.io.File.<clinit>/$r10, <java.io.File: java.lang.String pathSeparator>, <java.io.File: void <clinit>()>
-  java.io.File.<clinit>/$r11, <java.io.File: java.lang.Object tmpFileLock>, <java.io.File: void <clinit>()>
-  java.security.AccessControlContext.getDebug/$r1, <java.security.AccessControlContext: sun.security.util.Debug debug>, <java.security.AccessControlContext: sun.security.util.Debug getDebug()>
-  sun.security.util.Debug.<clinit>/$r2, <sun.security.util.Debug: java.lang.String args>, <sun.security.util.Debug: void <clinit>()>
-  sun.security.util.Debug.<clinit>/$r5, <sun.security.util.Debug: java.lang.String args>, <sun.security.util.Debug: void <clinit>()>
-  sun.misc.URLClassPath.<clinit>/$r2, <sun.misc.URLClassPath: java.lang.String JAVA_VERSION>, <sun.misc.URLClassPath: void <clinit>()>
-  sun.misc.ClassFileTransformer.<clinit>/$r1, <sun.misc.ClassFileTransformer: java.lang.Object[] transformers>, <sun.misc.ClassFileTransformer: void <clinit>()>
-  sun.misc.ClassFileTransformer.<clinit>/$r0, <sun.misc.ClassFileTransformer: java.util.ArrayList transformerList>, <sun.misc.ClassFileTransformer: void <clinit>()>
-  sun.misc.Launcher.<clinit>/$r0, <sun.misc.Launcher: java.net.URLStreamHandlerFactory factory>, <sun.misc.Launcher: void <clinit>()>
-  sun.misc.Launcher.<clinit>/$r3, <sun.misc.Launcher: sun.misc.Launcher launcher>, <sun.misc.Launcher: void <clinit>()>
-  java.util.HashSet.<clinit>/$r0, <java.util.HashSet: java.lang.Object PRESENT>, <java.util.HashSet: void <clinit>()>
-  java.net.URLConnection.getFileNameMap/$r1, <java.net.URLConnection: java.net.FileNameMap fileNameMap>, <java.net.URLConnection: java.net.FileNameMap getFileNameMap()>
-  java.net.URLConnection.setFileNameMap/r0, <java.net.URLConnection: java.net.FileNameMap fileNameMap>, <java.net.URLConnection: void setFileNameMap(java.net.FileNameMap)>
-  java.net.URLConnection.<clinit>/$r0, <java.net.URLConnection: java.util.Hashtable handlers>, <java.net.URLConnection: void <clinit>()>
-  java.net.URLConnection.<clinit>/$r1, <java.net.URLConnection: java.net.ContentHandler UnknownContentHandlerP>, <java.net.URLConnection: void <clinit>()>
-  java.lang.ref.Reference.access$202/r0, <java.lang.ref.Reference: java.lang.ref.Reference pending>, <java.lang.ref.Reference: java.lang.ref.Reference access$202(java.lang.ref.Reference)>
-  java.lang.ref.Reference.<clinit>/$r0, <java.lang.ref.Reference: java.lang.ref.Reference$Lock lock>, <java.lang.ref.Reference: void <clinit>()>
-  java.util.Date.makeStaticCalendars/r1, <java.util.Date: java.util.Calendar staticCal>, <java.util.Date: void makeStaticCalendars()>
-  java.util.Date.makeStaticCalendars/$r3, <java.util.Date: java.util.Calendar utcCal>, <java.util.Date: void makeStaticCalendars()>
-  java.util.Date.<clinit>/$r0, <java.util.Date: java.lang.String[] wtb>, <java.util.Date: void <clinit>()>
-  java.util.Date.<clinit>/$r1, <java.util.Date: int[] ttb>, <java.util.Date: void <clinit>()>
-  java.lang.Shutdown.<clinit>/$r0, <java.lang.Shutdown: java.lang.Object lock>, <java.lang.Shutdown: void <clinit>()>
-  sun.misc.SignalHandler.<clinit>/$r0, <sun.misc.SignalHandler: sun.misc.SignalHandler SIG_DFL>, <sun.misc.SignalHandler: void <clinit>()>
-  sun.misc.SignalHandler.<clinit>/$r1, <sun.misc.SignalHandler: sun.misc.SignalHandler SIG_IGN>, <sun.misc.SignalHandler: void <clinit>()>
-  sun.misc.Signal.<clinit>/$r0, <sun.misc.Signal: java.util.Hashtable handlers>, <sun.misc.Signal: void <clinit>()>
-  sun.misc.Signal.<clinit>/$r1, <sun.misc.Signal: java.util.Hashtable signals>, <sun.misc.Signal: void <clinit>()>
-  sun.io.CharacterEncoding.<clinit>/$r0, <sun.io.CharacterEncoding: java.util.Hashtable aliasTable>, <sun.io.CharacterEncoding: void <clinit>()>
-  java.text.NumberFormat.<clinit>/$r0, <java.text.NumberFormat: java.util.Hashtable cachedLocaleData>, <java.text.NumberFormat: void <clinit>()>
-  java.text.SimpleDateFormat.<clinit>/$r0, <java.text.SimpleDateFormat: java.util.Hashtable cachedLocaleData>, <java.text.SimpleDateFormat: void <clinit>()>
-  java.text.SimpleDateFormat.<clinit>/$r1, <java.text.SimpleDateFormat: int[] PATTERN_INDEX_TO_CALENDAR_FIELD>, <java.text.SimpleDateFormat: void <clinit>()>
-  java.text.SimpleDateFormat.<clinit>/$r2, <java.text.SimpleDateFormat: int[] PATTERN_INDEX_TO_DATE_FORMAT_FIELD>, <java.text.SimpleDateFormat: void <clinit>()>
-  java.text.Utility.<clinit>/$r0, <java.text.Utility: char[] HEX_DIGIT>, <java.text.Utility: void <clinit>()>
-  java.text.DecimalFormat.<clinit>/$r0, <java.text.DecimalFormat: java.util.Hashtable cachedLocaleData>, <java.text.DecimalFormat: void <clinit>()>
-  java.util.Collections.<clinit>/$r0, <java.util.Collections: java.util.Random r>, <java.util.Collections: void <clinit>()>
-  java.util.Collections.<clinit>/$r1, <java.util.Collections: java.util.Set EMPTY_SET>, <java.util.Collections: void <clinit>()>
-  java.util.Collections.<clinit>/$r2, <java.util.Collections: java.util.List EMPTY_LIST>, <java.util.Collections: void <clinit>()>
-  java.util.Collections.<clinit>/$r3, <java.util.Collections: java.util.Map EMPTY_MAP>, <java.util.Collections: void <clinit>()>
-  java.util.Collections.<clinit>/$r4, <java.util.Collections: java.util.Comparator REVERSE_ORDER>, <java.util.Collections: void <clinit>()>
-  sun.misc.ProxyGenerator.computeUniqueCatchList/$r7, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Error>, <sun.misc.ProxyGenerator: java.util.List computeUniqueCatchList(java.lang.Class[])>
-  sun.misc.ProxyGenerator.computeUniqueCatchList/$r10, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$RuntimeException>, <sun.misc.ProxyGenerator: java.util.List computeUniqueCatchList(java.lang.Class[])>
-  sun.misc.ProxyGenerator.computeUniqueCatchList/$r13, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Throwable>, <sun.misc.ProxyGenerator: java.util.List computeUniqueCatchList(java.lang.Class[])>
-  sun.misc.ProxyGenerator.computeUniqueCatchList/$r15, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Throwable>, <sun.misc.ProxyGenerator: java.util.List computeUniqueCatchList(java.lang.Class[])>
-  java.lang.ref.ReferenceQueue.<clinit>/$r0, <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue NULL>, <java.lang.ref.ReferenceQueue: void <clinit>()>
-  java.lang.ref.ReferenceQueue.<clinit>/$r1, <java.lang.ref.ReferenceQueue: java.lang.ref.ReferenceQueue ENQUEUED>, <java.lang.ref.ReferenceQueue: void <clinit>()>
-  java.util.jar.JarVerifier.<clinit>/$r0, <java.util.jar.JarVerifier: sun.security.util.Debug debug>, <java.util.jar.JarVerifier: void <clinit>()>
-  sun.security.util.ManifestEntryVerifier.<clinit>/$r0, <sun.security.util.ManifestEntryVerifier: sun.security.util.Debug debug>, <sun.security.util.ManifestEntryVerifier: void <clinit>()>
-  sun.security.util.ManifestEntryVerifier.<clinit>/$r1, <sun.security.util.ManifestEntryVerifier: char[] hexc>, <sun.security.util.ManifestEntryVerifier: void <clinit>()>
-  java.security.Policy.setPolicy/r0, <java.security.Policy: java.security.Policy policy>, <java.security.Policy: void setPolicy(java.security.Policy)>
-  sun.misc.Launcher$Factory.<clinit>/$stringconstant0, <sun.misc.Launcher$Factory: java.lang.String PREFIX>, <sun.misc.Launcher$Factory: void <clinit>()>
-  sun.net.www.MimeTable.access$002/r0, <sun.net.www.MimeTable: java.lang.String tempFileTemplate>, <sun.net.www.MimeTable: java.lang.String access$002(java.lang.String)>
-  sun.net.www.MimeTable.access$102/r0, <sun.net.www.MimeTable: sun.net.www.MimeTable defaultInstance>, <sun.net.www.MimeTable: sun.net.www.MimeTable access$102(sun.net.www.MimeTable)>
-  java.util.Calendar.<clinit>/$r0, <java.util.Calendar: java.util.Hashtable cachedLocaleData>, <java.util.Calendar: void <clinit>()>
-  java.util.Calendar.<clinit>/$r1, <java.util.Calendar: java.lang.String[] FIELD_NAME>, <java.util.Calendar: void <clinit>()>
-  java.util.TimeZone.getDefault/$r13, <java.util.TimeZone: java.util.TimeZone defaultZone>, <java.util.TimeZone: java.util.TimeZone getDefault()>
-  java.util.TimeZone.setDefault/r0, <java.util.TimeZone: java.util.TimeZone defaultZone>, <java.util.TimeZone: void setDefault(java.util.TimeZone)>
-  java.util.TimeZone.<clinit>/$r0, <java.util.TimeZone: java.util.Hashtable cachedLocaleData>, <java.util.TimeZone: void <clinit>()>
-  java.util.TimeZone.<clinit>/$r1, <java.util.TimeZone: java.util.TimeZone GMT>, <java.util.TimeZone: void <clinit>()>
-  java.util.GregorianCalendar.<clinit>/$r0, <java.util.GregorianCalendar: int[] NUM_DAYS>, <java.util.GregorianCalendar: void <clinit>()>
-  java.util.GregorianCalendar.<clinit>/$r1, <java.util.GregorianCalendar: int[] LEAP_NUM_DAYS>, <java.util.GregorianCalendar: void <clinit>()>
-  java.util.GregorianCalendar.<clinit>/$r2, <java.util.GregorianCalendar: int[] MONTH_LENGTH>, <java.util.GregorianCalendar: void <clinit>()>
-  java.util.GregorianCalendar.<clinit>/$r3, <java.util.GregorianCalendar: int[] LEAP_MONTH_LENGTH>, <java.util.GregorianCalendar: void <clinit>()>
-  java.util.GregorianCalendar.<clinit>/$r4, <java.util.GregorianCalendar: int[] MIN_VALUES>, <java.util.GregorianCalendar: void <clinit>()>
-  java.util.GregorianCalendar.<clinit>/$r5, <java.util.GregorianCalendar: int[] LEAST_MAX_VALUES>, <java.util.GregorianCalendar: void <clinit>()>
-  java.util.GregorianCalendar.<clinit>/$r6, <java.util.GregorianCalendar: int[] MAX_VALUES>, <java.util.GregorianCalendar: void <clinit>()>
-  java.text.DateFormatSymbols.<clinit>/$r0, <java.text.DateFormatSymbols: java.util.Hashtable cachedLocaleData>, <java.text.DateFormatSymbols: void <clinit>()>
-  java.text.DateFormatSymbols.<clinit>/$r1, <java.text.DateFormatSymbols: java.util.Hashtable cachedZoneData>, <java.text.DateFormatSymbols: void <clinit>()>
+  java.util.ResourceBundle.loadBundle/$r8, <java.util.ResourceBundle: java.lang.Class class$java$util$ResourceBundle>, <java.util.ResourceBundle: java.lang.Object loadBundle(java.lang.ClassLoader,java.lang.String)>
   java.util.SimpleTimeZone.<clinit>/$r0, <java.util.SimpleTimeZone: byte[] staticMonthLength>, <java.util.SimpleTimeZone: void <clinit>()>
   java.util.SimpleTimeZone.<clinit>/$r1, <java.util.SimpleTimeZone: byte[] staticLeapMonthLength>, <java.util.SimpleTimeZone: void <clinit>()>
   java.util.SimpleTimeZone.<clinit>/$r2, <java.util.SimpleTimeZone: java.util.GregorianCalendar internalCal>, <java.util.SimpleTimeZone: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r1, <java.math.BigInteger: long[] bitsPerDigit>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r2, <java.math.BigInteger: java.math.BigInteger SMALL_PRIME_PRODUCT>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r3, <java.math.BigInteger: java.math.BigInteger[] posConst>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r4, <java.math.BigInteger: java.math.BigInteger[] negConst>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r9, <java.math.BigInteger: java.math.BigInteger ZERO>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r11, <java.math.BigInteger: java.math.BigInteger ONE>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r12, <java.math.BigInteger: java.math.BigInteger TWO>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r13, <java.math.BigInteger: int[] bnExpModThreshTable>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r14, <java.math.BigInteger: byte[] trailingZeroTable>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r15, <java.math.BigInteger: java.lang.String[] zeros>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r21, <java.math.BigInteger: int[] digitsPerLong>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r22, <java.math.BigInteger: java.math.BigInteger[] longRadix>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r58, <java.math.BigInteger: int[] digitsPerInt>, <java.math.BigInteger: void <clinit>()>
-  java.math.BigInteger.<clinit>/$r59, <java.math.BigInteger: int[] intRadix>, <java.math.BigInteger: void <clinit>()>
-  java.text.DecimalFormatSymbols.<clinit>/$r0, <java.text.DecimalFormatSymbols: java.util.Hashtable cachedLocaleData>, <java.text.DecimalFormatSymbols: void <clinit>()>
-  java.text.DigitList.<clinit>/$r1, <java.text.DigitList: byte[] LONG_MIN_REP>, <java.text.DigitList: void <clinit>()>
-  sun.misc.SoftCache$ValueCell.<clinit>/$r0, <sun.misc.SoftCache$ValueCell: java.lang.Object INVALID_KEY>, <sun.misc.SoftCache$ValueCell: void <clinit>()>
-  sun.misc.ProxyGenerator$PrimitiveTypeInfo.<clinit>/$r0, <sun.misc.ProxyGenerator$PrimitiveTypeInfo: java.util.Map table>, <sun.misc.ProxyGenerator$PrimitiveTypeInfo: void <clinit>()>
-  sun.security.util.SignatureFileVerifier.<clinit>/$r0, <sun.security.util.SignatureFileVerifier: sun.security.util.Debug debug>, <sun.security.util.SignatureFileVerifier: void <clinit>()>
-  sun.security.util.SignatureFileVerifier.<clinit>/$r1, <sun.security.util.SignatureFileVerifier: char[] hexc>, <sun.security.util.SignatureFileVerifier: void <clinit>()>
-  sun.misc.BASE64Decoder.<clinit>/$r0, <sun.misc.BASE64Decoder: char[] pem_array>, <sun.misc.BASE64Decoder: void <clinit>()>
-  sun.misc.BASE64Decoder.<clinit>/$r1, <sun.misc.BASE64Decoder: byte[] pem_convert_array>, <sun.misc.BASE64Decoder: void <clinit>()>
-  sun.security.provider.PolicyFile.<clinit>/$r2, <sun.security.provider.PolicyFile: sun.security.util.Debug debug>, <sun.security.provider.PolicyFile: void <clinit>()>
-  sun.security.provider.PolicyFile.<clinit>/$r4, <sun.security.provider.PolicyFile: java.lang.Class class$java$lang$String>, <sun.security.provider.PolicyFile: void <clinit>()>
-  sun.security.provider.PolicyFile.<clinit>/$r7, <sun.security.provider.PolicyFile: java.lang.Class class$java$lang$String>, <sun.security.provider.PolicyFile: void <clinit>()>
-  sun.security.provider.PolicyFile.<clinit>/$r3, <sun.security.provider.PolicyFile: java.lang.Class[] PARAMS>, <sun.security.provider.PolicyFile: void <clinit>()>
-  java.net.HttpURLConnection.<clinit>/$r0, <java.net.HttpURLConnection: java.lang.String[] methods>, <java.net.HttpURLConnection: void <clinit>()>
-  sun.misc.ExtensionDependency.addExtensionInstallationProvider/$r2, <sun.misc.ExtensionDependency: java.util.Vector providers>, <sun.misc.ExtensionDependency: void addExtensionInstallationProvider(sun.misc.ExtensionInstallationProvider)>
-  sun.net.www.MimeEntry.<clinit>/$r0, <sun.net.www.MimeEntry: java.lang.String[] actionKeywords>, <sun.net.www.MimeEntry: void <clinit>()>
+  java.util.TimeZone.<clinit>/$r0, <java.util.TimeZone: java.util.Hashtable cachedLocaleData>, <java.util.TimeZone: void <clinit>()>
+  java.util.TimeZone.<clinit>/$r1, <java.util.TimeZone: java.util.TimeZone GMT>, <java.util.TimeZone: void <clinit>()>
   java.util.TimeZoneData.<clinit>/$r1, <java.util.TimeZoneData: java.util.SimpleTimeZone[] zones>, <java.util.TimeZoneData: void <clinit>()>
   java.util.TimeZoneData.<clinit>/$r344, <java.util.TimeZoneData: java.util.Hashtable lookup>, <java.util.TimeZoneData: void <clinit>()>
-  java.math.BitSieve.<clinit>/$r0, <java.math.BitSieve: java.math.BitSieve smallSieve>, <java.math.BitSieve: void <clinit>()>
+  java.util.TimeZone.getDefault/$r13, <java.util.TimeZone: java.util.TimeZone defaultZone>, <java.util.TimeZone: java.util.TimeZone getDefault()>
+  java.util.TimeZone.parseCustomTimeZone/$r10, <java.util.TimeZone: java.text.NumberFormat numberFormat>, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
+  java.util.TimeZone.parseCustomTimeZone/$r8, <java.util.TimeZone: java.lang.Class class$java$util$TimeZoneData>, <java.util.TimeZone: java.util.SimpleTimeZone parseCustomTimeZone(java.lang.String)>
+  java.util.TimeZone.setDefault/r0, <java.util.TimeZone: java.util.TimeZone defaultZone>, <java.util.TimeZone: void setDefault(java.util.TimeZone)>
+  sun.io.CharacterEncoding.<clinit>/$r0, <sun.io.CharacterEncoding: java.util.Hashtable aliasTable>, <sun.io.CharacterEncoding: void <clinit>()>
+  sun.io.Converters.<clinit>/$r1, <sun.io.Converters: java.lang.Class class$sun$io$Converters>, <sun.io.Converters: void <clinit>()>
+  sun.io.Converters.<clinit>/$r1, <sun.io.Converters: java.lang.Object lock>, <sun.io.Converters: void <clinit>()>
+  sun.io.Converters.<clinit>/$r2, <sun.io.Converters: java.lang.String[] converterPrefix>, <sun.io.Converters: void <clinit>()>
+  sun.io.Converters.<clinit>/$r3, <sun.io.Converters: java.lang.ref.SoftReference[] classCache>, <sun.io.Converters: void <clinit>()>
+  sun.io.Converters.getConverterPackageName/r4, <sun.io.Converters: java.lang.String converterPackageName>, <sun.io.Converters: java.lang.String getConverterPackageName()>
+  sun.io.Converters.getDefaultConverterClass/r8, <sun.io.Converters: java.lang.String defaultEncoding>, <sun.io.Converters: java.lang.Class getDefaultConverterClass(int)>
+  sun.misc.BASE64Decoder.<clinit>/$r0, <sun.misc.BASE64Decoder: char[] pem_array>, <sun.misc.BASE64Decoder: void <clinit>()>
+  sun.misc.BASE64Decoder.<clinit>/$r1, <sun.misc.BASE64Decoder: byte[] pem_convert_array>, <sun.misc.BASE64Decoder: void <clinit>()>
+  sun.misc.BASE64Encoder.<clinit>/$r0, <sun.misc.BASE64Encoder: char[] pem_array>, <sun.misc.BASE64Encoder: void <clinit>()>
+  sun.misc.ClassFileTransformer.add/$r5, <sun.misc.ClassFileTransformer: java.lang.Object[] transformers>, <sun.misc.ClassFileTransformer: void add(sun.misc.ClassFileTransformer)>
+  sun.misc.ClassFileTransformer.<clinit>/$r0, <sun.misc.ClassFileTransformer: java.util.ArrayList transformerList>, <sun.misc.ClassFileTransformer: void <clinit>()>
+  sun.misc.ClassFileTransformer.<clinit>/$r1, <sun.misc.ClassFileTransformer: java.lang.Object[] transformers>, <sun.misc.ClassFileTransformer: void <clinit>()>
+  sun.misc.ExtensionDependency.addExtensionInstallationProvider/$r2, <sun.misc.ExtensionDependency: java.util.Vector providers>, <sun.misc.ExtensionDependency: void addExtensionInstallationProvider(sun.misc.ExtensionInstallationProvider)>
+  sun.misc.Launcher.<clinit>/$r0, <sun.misc.Launcher: java.net.URLStreamHandlerFactory factory>, <sun.misc.Launcher: void <clinit>()>
+  sun.misc.Launcher.<clinit>/$r3, <sun.misc.Launcher: sun.misc.Launcher launcher>, <sun.misc.Launcher: void <clinit>()>
+  sun.misc.Launcher$Factory.<clinit>/$stringconstant0, <sun.misc.Launcher$Factory: java.lang.String PREFIX>, <sun.misc.Launcher$Factory: void <clinit>()>
+  sun.misc.ProxyGenerator.<clinit>/$r10, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: void <clinit>()>
+  sun.misc.ProxyGenerator.<clinit>/$r13, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: void <clinit>()>
+  sun.misc.ProxyGenerator.<clinit>/$r14, <sun.misc.ProxyGenerator: java.lang.reflect.Method equalsMethod>, <sun.misc.ProxyGenerator: void <clinit>()>
+  sun.misc.ProxyGenerator.<clinit>/$r16, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: void <clinit>()>
+  sun.misc.ProxyGenerator.<clinit>/$r17, <sun.misc.ProxyGenerator: java.lang.reflect.Method toStringMethod>, <sun.misc.ProxyGenerator: void <clinit>()>
+  sun.misc.ProxyGenerator.<clinit>/$r7, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: void <clinit>()>
+  sun.misc.ProxyGenerator.<clinit>/$r8, <sun.misc.ProxyGenerator: java.lang.reflect.Method hashCodeMethod>, <sun.misc.ProxyGenerator: void <clinit>()>
+  sun.misc.ProxyGenerator.computeUniqueCatchList/$r10, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$RuntimeException>, <sun.misc.ProxyGenerator: java.util.List computeUniqueCatchList(java.lang.Class[])>
+  sun.misc.ProxyGenerator.computeUniqueCatchList/$r13, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Throwable>, <sun.misc.ProxyGenerator: java.util.List computeUniqueCatchList(java.lang.Class[])>
+  sun.misc.ProxyGenerator.computeUniqueCatchList/$r15, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Throwable>, <sun.misc.ProxyGenerator: java.util.List computeUniqueCatchList(java.lang.Class[])>
+  sun.misc.ProxyGenerator.computeUniqueCatchList/$r7, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Error>, <sun.misc.ProxyGenerator: java.util.List computeUniqueCatchList(java.lang.Class[])>
+  sun.misc.ProxyGenerator.generateClassFile/$r13, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: byte[] generateClassFile()>
+  sun.misc.ProxyGenerator.generateClassFile/$r17, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: byte[] generateClassFile()>
+  sun.misc.ProxyGenerator.generateClassFile/$r9, <sun.misc.ProxyGenerator: java.lang.Class class$java$lang$Object>, <sun.misc.ProxyGenerator: byte[] generateClassFile()>
+  sun.misc.ProxyGenerator$PrimitiveTypeInfo.<clinit>/$r0, <sun.misc.ProxyGenerator$PrimitiveTypeInfo: java.util.Map table>, <sun.misc.ProxyGenerator$PrimitiveTypeInfo: void <clinit>()>
+  sun.misc.Signal.<clinit>/$r0, <sun.misc.Signal: java.util.Hashtable handlers>, <sun.misc.Signal: void <clinit>()>
+  sun.misc.Signal.<clinit>/$r1, <sun.misc.Signal: java.util.Hashtable signals>, <sun.misc.Signal: void <clinit>()>
+  sun.misc.SignalHandler.<clinit>/$r0, <sun.misc.SignalHandler: sun.misc.SignalHandler SIG_DFL>, <sun.misc.SignalHandler: void <clinit>()>
+  sun.misc.SignalHandler.<clinit>/$r1, <sun.misc.SignalHandler: sun.misc.SignalHandler SIG_IGN>, <sun.misc.SignalHandler: void <clinit>()>
+  sun.misc.SoftCache$ValueCell.<clinit>/$r0, <sun.misc.SoftCache$ValueCell: java.lang.Object INVALID_KEY>, <sun.misc.SoftCache$ValueCell: void <clinit>()>
+  sun.misc.URLClassPath.<clinit>/$r2, <sun.misc.URLClassPath: java.lang.String JAVA_VERSION>, <sun.misc.URLClassPath: void <clinit>()>
+  sun.net.ProgressData.<clinit>/$r0, <sun.net.ProgressData: sun.net.ProgressData pdata>, <sun.net.ProgressData: void <clinit>()>
+  sun.net.www.http.HttpClient.<clinit>/$r0, <sun.net.www.http.HttpClient: sun.misc.RegexpPool dontProxy>, <sun.net.www.http.HttpClient: void <clinit>()>
+  sun.net.www.http.HttpClient.<clinit>/$r1, <sun.net.www.http.HttpClient: sun.net.www.http.KeepAliveCache kac>, <sun.net.www.http.HttpClient: void <clinit>()>
+  sun.net.www.http.HttpClient.getDontProxy/r10, <sun.net.www.http.HttpClient: sun.misc.RegexpPool dontProxy>, <sun.net.www.http.HttpClient: sun.misc.RegexpPool getDontProxy()>
+  sun.net.www.http.HttpClient.getDontProxy/r1, <sun.net.www.http.HttpClient: java.lang.String dontProxySource>, <sun.net.www.http.HttpClient: sun.misc.RegexpPool getDontProxy()>
+  sun.net.www.MimeEntry.<clinit>/$r0, <sun.net.www.MimeEntry: java.lang.String[] actionKeywords>, <sun.net.www.MimeEntry: void <clinit>()>
+  sun.net.www.MimeTable$1.run/$r3, <sun.net.www.MimeTable: java.lang.String[] mailcapLocations>, <sun.net.www.MimeTable$1: java.lang.Object run()>
+  sun.net.www.MimeTable.access$002/r0, <sun.net.www.MimeTable: java.lang.String tempFileTemplate>, <sun.net.www.MimeTable: java.lang.String access$002(java.lang.String)>
+  sun.net.www.MimeTable.access$102/r0, <sun.net.www.MimeTable: sun.net.www.MimeTable defaultInstance>, <sun.net.www.MimeTable: sun.net.www.MimeTable access$102(sun.net.www.MimeTable)>
+  <sun.net.www.MimeTable: void parse(java.util.Properties)>/r2, <sun.net.www.MimeTable: java.lang.String tempFileTemplate>, <sun.net.www.MimeTable: void parse(java.util.Properties)>
+  sun.net.www.ParseUtil.<clinit>/$r0, <sun.net.www.ParseUtil: java.util.BitSet encodedInPath>, <sun.net.www.ParseUtil: void <clinit>()>
+  sun.net.www.protocol.file.FileURLConnection.<clinit>/$stringconstant0, <sun.net.www.protocol.file.FileURLConnection: java.lang.String CONTENT_LENGTH>, <sun.net.www.protocol.file.FileURLConnection: void <clinit>()>
+  sun.net.www.protocol.file.FileURLConnection.<clinit>/$stringconstant1, <sun.net.www.protocol.file.FileURLConnection: java.lang.String CONTENT_TYPE>, <sun.net.www.protocol.file.FileURLConnection: void <clinit>()>
+  sun.net.www.protocol.file.FileURLConnection.<clinit>/$stringconstant2, <sun.net.www.protocol.file.FileURLConnection: java.lang.String TEXT_HTML>, <sun.net.www.protocol.file.FileURLConnection: void <clinit>()>
+  sun.net.www.protocol.ftp.FtpDirectoryThread.<clinit>/$r0, <sun.net.www.protocol.ftp.FtpDirectoryThread: java.util.Hashtable images>, <sun.net.www.protocol.ftp.FtpDirectoryThread: void <clinit>()>
+  sun.net.www.protocol.http.AuthenticationInfo.<clinit>/$r0, <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.PathMap cache>, <sun.net.www.protocol.http.AuthenticationInfo: void <clinit>()>
+  sun.net.www.protocol.http.DigestAuthentication.<clinit>/$r0, <sun.net.www.protocol.http.DigestAuthentication: char[] charArray>, <sun.net.www.protocol.http.DigestAuthentication: void <clinit>()>
+  sun.net.www.protocol.http.HttpURLConnection.<clinit>/$r13, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String userAgent>, <sun.net.www.protocol.http.HttpURLConnection: void <clinit>()>
+  sun.net.www.protocol.http.HttpURLConnection.<clinit>/$r14, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String[] EXCLUDE_HEADERS>, <sun.net.www.protocol.http.HttpURLConnection: void <clinit>()>
+  sun.net.www.protocol.http.HttpURLConnection.<clinit>/$r5, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String version>, <sun.net.www.protocol.http.HttpURLConnection: void <clinit>()>
+  sun.net.www.protocol.http.HttpURLConnection.setDefaultAuthenticator/r0, <sun.net.www.protocol.http.HttpURLConnection: sun.net.www.protocol.http.HttpAuthenticator defaultAuth>, <sun.net.www.protocol.http.HttpURLConnection: void setDefaultAuthenticator(sun.net.www.protocol.http.HttpAuthenticator)>
+  sun.net.www.protocol.jar.JarFileFactory.<clinit>/$r0, <sun.net.www.protocol.jar.JarFileFactory: java.util.HashMap fileCache>, <sun.net.www.protocol.jar.JarFileFactory: void <clinit>()>
+  sun.net.www.protocol.jar.JarFileFactory.<clinit>/$r1, <sun.net.www.protocol.jar.JarFileFactory: java.util.HashMap urlCache>, <sun.net.www.protocol.jar.JarFileFactory: void <clinit>()>
+  sun.net.www.protocol.jar.JarURLConnection.<clinit>/$r0, <sun.net.www.protocol.jar.JarURLConnection: sun.net.www.protocol.jar.JarFileFactory factory>, <sun.net.www.protocol.jar.JarURLConnection: void <clinit>()>
   sun.security.pkcs.ContentInfo.<clinit>/$r0, <sun.security.pkcs.ContentInfo: int[] pkcs7>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r10, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r12, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier SIGNED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r14, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier ENVELOPED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r16, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier SIGNED_AND_ENVELOPED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r18, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier DIGESTED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
   sun.security.pkcs.ContentInfo.<clinit>/$r1, <sun.security.pkcs.ContentInfo: int[] data>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r20, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier ENCRYPTED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r22, <sun.security.pkcs.ContentInfo: int[] OLD_SDATA>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r23, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier OLD_SIGNED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r25, <sun.security.pkcs.ContentInfo: int[] OLD_DATA>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r26, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier OLD_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
+  sun.security.pkcs.ContentInfo.<clinit>/$r28, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier NETSCAPE_CERT_SEQUENCE_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
   sun.security.pkcs.ContentInfo.<clinit>/$r2, <sun.security.pkcs.ContentInfo: int[] sdata>, <sun.security.pkcs.ContentInfo: void <clinit>()>
   sun.security.pkcs.ContentInfo.<clinit>/$r3, <sun.security.pkcs.ContentInfo: int[] edata>, <sun.security.pkcs.ContentInfo: void <clinit>()>
   sun.security.pkcs.ContentInfo.<clinit>/$r4, <sun.security.pkcs.ContentInfo: int[] sedata>, <sun.security.pkcs.ContentInfo: void <clinit>()>
@@ -448,58 +456,47 @@
   sun.security.pkcs.ContentInfo.<clinit>/$r6, <sun.security.pkcs.ContentInfo: int[] crdata>, <sun.security.pkcs.ContentInfo: void <clinit>()>
   sun.security.pkcs.ContentInfo.<clinit>/$r7, <sun.security.pkcs.ContentInfo: int[] nsdata>, <sun.security.pkcs.ContentInfo: void <clinit>()>
   sun.security.pkcs.ContentInfo.<clinit>/$r8, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier PKCS7_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r10, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r12, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier SIGNED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r14, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier ENVELOPED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r16, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier SIGNED_AND_ENVELOPED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r18, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier DIGESTED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r20, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier ENCRYPTED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r22, <sun.security.pkcs.ContentInfo: int[] OLD_SDATA>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r23, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier OLD_SIGNED_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r25, <sun.security.pkcs.ContentInfo: int[] OLD_DATA>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r26, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier OLD_DATA_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  sun.security.pkcs.ContentInfo.<clinit>/$r28, <sun.security.pkcs.ContentInfo: sun.security.util.ObjectIdentifier NETSCAPE_CERT_SEQUENCE_OID>, <sun.security.pkcs.ContentInfo: void <clinit>()>
-  java.security.IdentityScope.setSystemScope/r0, <java.security.IdentityScope: java.security.IdentityScope scope>, <java.security.IdentityScope: void setSystemScope(java.security.IdentityScope)>
-  sun.net.www.ParseUtil.<clinit>/$r0, <sun.net.www.ParseUtil: java.util.BitSet encodedInPath>, <sun.net.www.ParseUtil: void <clinit>()>
-  java.security.SecureClassLoader.<clinit>/$r0, <java.security.SecureClassLoader: sun.security.util.Debug debug>, <java.security.SecureClassLoader: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r0, <sun.security.x509.X500Name: int[] commonName_data>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r1, <sun.security.x509.X500Name: int[] SURNAME_DATA>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r2, <sun.security.x509.X500Name: int[] countryName_data>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r3, <sun.security.x509.X500Name: int[] localityName_data>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r4, <sun.security.x509.X500Name: int[] stateName_data>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r5, <sun.security.x509.X500Name: int[] streetAddress_data>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r6, <sun.security.x509.X500Name: int[] orgName_data>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r7, <sun.security.x509.X500Name: int[] orgUnitName_data>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r8, <sun.security.x509.X500Name: int[] title_data>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r9, <sun.security.x509.X500Name: int[] GIVENNAME_DATA>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r10, <sun.security.x509.X500Name: int[] INITIALS_DATA>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r11, <sun.security.x509.X500Name: int[] GENERATIONQUALIFIER_DATA>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r12, <sun.security.x509.X500Name: int[] DNQUALIFIER_DATA>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r13, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier commonName_oid>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r15, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier countryName_oid>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r17, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier localityName_oid>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r19, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier orgName_oid>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r21, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier orgUnitName_oid>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r23, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier stateName_oid>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r25, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier streetAddress_oid>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r27, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier title_oid>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r29, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier DNQUALIFIER_OID>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r31, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier SURNAME_OID>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r33, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier GIVENNAME_OID>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r35, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier INITIALS_OID>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r37, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier GENERATIONQUALIFIER_OID>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r39, <sun.security.x509.X500Name: int[] ipAddress_data>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r40, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier ipAddress_oid>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r42, <sun.security.x509.X500Name: int[] DOMAIN_COMPONENT_DATA>, <sun.security.x509.X500Name: void <clinit>()>
-  sun.security.x509.X500Name.<clinit>/$r43, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier DOMAIN_COMPONENT_OID>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r11, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier EMAIL_ADDRESS_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r13, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier UNSTRUCTURED_NAME_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r156, <sun.security.pkcs.PKCS9Attribute: java.lang.Byte[][] PKCS9_VALUE_TAGS>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r15, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier CONTENT_TYPE_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r17, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier MESSAGE_DIGEST_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r182, <sun.security.pkcs.PKCS9Attribute: java.lang.Class[] VALUE_CLASSES>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r19, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier SIGNING_TIME_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r210, <sun.security.pkcs.PKCS9Attribute: boolean[] SINGLE_VALUED>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r21, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier COUNTERSIGNATURE_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r23, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier CHALLENGE_PASSWORD_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r25, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier UNSTRUCTURED_ADDRESS_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r27, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier EXTENDED_CERTIFICATE_ATTRIBUTES_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r29, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier ISSUER_SERIALNUMBER_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r31, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier EXTENSION_REQUEST_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r33, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier SMIME_CAPABILITY_OID>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r34, <sun.security.pkcs.PKCS9Attribute: java.util.Hashtable NAME_OID_TABLE>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r3, <sun.security.pkcs.PKCS9Attribute: sun.security.util.Debug debug>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r4, <sun.security.pkcs.PKCS9Attribute: sun.security.util.ObjectIdentifier[] PKCS9_OIDS>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.pkcs.PKCS9Attribute.<clinit>/$r95, <sun.security.pkcs.PKCS9Attribute: java.util.Hashtable OID_NAME_TABLE>, <sun.security.pkcs.PKCS9Attribute: void <clinit>()>
+  sun.security.provider.PolicyFile.checkForTrustedIdentity/r3, <sun.security.provider.PolicyFile: java.security.IdentityScope scope>, <sun.security.provider.PolicyFile: boolean checkForTrustedIdentity(java.security.cert.Certificate)>
+  sun.security.provider.PolicyFile.checkForTrustedIdentity/$r7, <sun.security.provider.PolicyFile: java.lang.Class class$sun$security$provider$PolicyFile>, <sun.security.provider.PolicyFile: boolean checkForTrustedIdentity(java.security.cert.Certificate)>
+  sun.security.provider.PolicyFile.<clinit>/$r2, <sun.security.provider.PolicyFile: sun.security.util.Debug debug>, <sun.security.provider.PolicyFile: void <clinit>()>
+  sun.security.provider.PolicyFile.<clinit>/$r3, <sun.security.provider.PolicyFile: java.lang.Class[] PARAMS>, <sun.security.provider.PolicyFile: void <clinit>()>
+  sun.security.provider.PolicyFile.<clinit>/$r4, <sun.security.provider.PolicyFile: java.lang.Class class$java$lang$String>, <sun.security.provider.PolicyFile: void <clinit>()>
+  sun.security.provider.PolicyFile.<clinit>/$r7, <sun.security.provider.PolicyFile: java.lang.Class class$java$lang$String>, <sun.security.provider.PolicyFile: void <clinit>()>
+  sun.security.provider.SecureRandom.engineNextBytes/$r7, <sun.security.provider.SecureRandom: sun.security.provider.SecureRandom seeder>, <sun.security.provider.SecureRandom: void engineNextBytes(byte[])>
+  sun.security.provider.SeedGenerator.<clinit>/$r10, <sun.security.provider.SeedGenerator: sun.security.provider.SeedGenerator instance>, <sun.security.provider.SeedGenerator: void <clinit>()>
+  sun.security.provider.SeedGenerator.<clinit>/$r4, <sun.security.provider.SeedGenerator: sun.security.provider.SeedGenerator instance>, <sun.security.provider.SeedGenerator: void <clinit>()>
+  sun.security.provider.SeedGenerator.<clinit>/$r6, <sun.security.provider.SeedGenerator: sun.security.provider.SeedGenerator instance>, <sun.security.provider.SeedGenerator: void <clinit>()>
+  sun.security.provider.SeedGenerator$ThreadedSeedGenerator.<clinit>/$r0, <sun.security.provider.SeedGenerator$ThreadedSeedGenerator: byte[] rndTab>, <sun.security.provider.SeedGenerator$ThreadedSeedGenerator: void <clinit>()>
+  sun.security.util.BitArray.<clinit>/$r0, <sun.security.util.BitArray: byte[][] NYBBLE>, <sun.security.util.BitArray: void <clinit>()>
+  sun.security.util.Debug.<clinit>/$r2, <sun.security.util.Debug: java.lang.String args>, <sun.security.util.Debug: void <clinit>()>
+  sun.security.util.Debug.<clinit>/$r5, <sun.security.util.Debug: java.lang.String args>, <sun.security.util.Debug: void <clinit>()>
+  sun.security.util.DerOutputStream.<clinit>/$r0, <sun.security.util.DerOutputStream: sun.security.util.ByteArrayLexOrder lexOrder>, <sun.security.util.DerOutputStream: void <clinit>()>
+  sun.security.util.DerOutputStream.<clinit>/$r1, <sun.security.util.DerOutputStream: sun.security.util.ByteArrayTagOrder tagOrder>, <sun.security.util.DerOutputStream: void <clinit>()>
+  sun.security.util.ManifestEntryVerifier.<clinit>/$r0, <sun.security.util.ManifestEntryVerifier: sun.security.util.Debug debug>, <sun.security.util.ManifestEntryVerifier: void <clinit>()>
+  sun.security.util.ManifestEntryVerifier.<clinit>/$r1, <sun.security.util.ManifestEntryVerifier: char[] hexc>, <sun.security.util.ManifestEntryVerifier: void <clinit>()>
+  sun.security.util.SignatureFileVerifier.<clinit>/$r0, <sun.security.util.SignatureFileVerifier: sun.security.util.Debug debug>, <sun.security.util.SignatureFileVerifier: void <clinit>()>
+  sun.security.util.SignatureFileVerifier.<clinit>/$r1, <sun.security.util.SignatureFileVerifier: char[] hexc>, <sun.security.util.SignatureFileVerifier: void <clinit>()>
   sun.security.x509.AlgorithmId.algOID/$r26, <sun.security.x509.AlgorithmId: java.util.Hashtable oidTable>, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier algOID(java.lang.String)>
   sun.security.x509.AlgorithmId.<clinit>/$r0, <sun.security.x509.AlgorithmId: int[] MD2_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
-  sun.security.x509.AlgorithmId.<clinit>/$r1, <sun.security.x509.AlgorithmId: int[] MD5_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
-  sun.security.x509.AlgorithmId.<clinit>/$r2, <sun.security.x509.AlgorithmId: int[] SHA1_OIW_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
-  sun.security.x509.AlgorithmId.<clinit>/$r3, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier MD2_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
-  sun.security.x509.AlgorithmId.<clinit>/$r5, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier MD5_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
-  sun.security.x509.AlgorithmId.<clinit>/$r7, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier SHA_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
-  sun.security.x509.AlgorithmId.<clinit>/$r9, <sun.security.x509.AlgorithmId: int[] DH_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r10, <sun.security.x509.AlgorithmId: int[] DH_PKIX_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r11, <sun.security.x509.AlgorithmId: int[] DSA_OIW_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r12, <sun.security.x509.AlgorithmId: int[] DSA_PKIX_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
@@ -508,12 +505,14 @@
   sun.security.x509.AlgorithmId.<clinit>/$r15, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier DH_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r17, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier DH_PKIX_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r19, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier DSA_OIW_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
+  sun.security.x509.AlgorithmId.<clinit>/$r1, <sun.security.x509.AlgorithmId: int[] MD5_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r21, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier DSA_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r23, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier RSA_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r25, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier RSAEncryption_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r27, <sun.security.x509.AlgorithmId: int[] md2WithRSAEncryption_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r28, <sun.security.x509.AlgorithmId: int[] md5WithRSAEncryption_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r29, <sun.security.x509.AlgorithmId: int[] sha1WithRSAEncryption_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
+  sun.security.x509.AlgorithmId.<clinit>/$r2, <sun.security.x509.AlgorithmId: int[] SHA1_OIW_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r30, <sun.security.x509.AlgorithmId: int[] sha1WithRSAEncryption_OIW_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r31, <sun.security.x509.AlgorithmId: int[] shaWithDSA_OIW_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r32, <sun.security.x509.AlgorithmId: int[] sha1WithDSA_OIW_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
@@ -521,22 +520,22 @@
   sun.security.x509.AlgorithmId.<clinit>/$r34, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier md2WithRSAEncryption_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r36, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier md5WithRSAEncryption_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r38, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier sha1WithRSAEncryption_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
+  sun.security.x509.AlgorithmId.<clinit>/$r3, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier MD2_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r40, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier sha1WithRSAEncryption_OIW_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r42, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier shaWithDSA_OIW_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r44, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier sha1WithDSA_OIW_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
   sun.security.x509.AlgorithmId.<clinit>/$r46, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier sha1WithDSA_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
-  sun.security.util.DerOutputStream.<clinit>/$r0, <sun.security.util.DerOutputStream: sun.security.util.ByteArrayLexOrder lexOrder>, <sun.security.util.DerOutputStream: void <clinit>()>
-  sun.security.util.DerOutputStream.<clinit>/$r1, <sun.security.util.DerOutputStream: sun.security.util.ByteArrayTagOrder tagOrder>, <sun.security.util.DerOutputStream: void <clinit>()>
+  sun.security.x509.AlgorithmId.<clinit>/$r5, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier MD5_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
+  sun.security.x509.AlgorithmId.<clinit>/$r7, <sun.security.x509.AlgorithmId: sun.security.util.ObjectIdentifier SHA_oid>, <sun.security.x509.AlgorithmId: void <clinit>()>
+  sun.security.x509.AlgorithmId.<clinit>/$r9, <sun.security.x509.AlgorithmId: int[] DH_data>, <sun.security.x509.AlgorithmId: void <clinit>()>
+  sun.security.x509.CertificateExtensions.parseExtension/$r18, <sun.security.x509.CertificateExtensions: java.lang.Class class$java$lang$Boolean>, <sun.security.x509.CertificateExtensions: void parseExtension(sun.security.x509.Extension)>
+  sun.security.x509.CertificateExtensions.parseExtension/$r21, <sun.security.x509.CertificateExtensions: java.lang.Class class$java$lang$Object>, <sun.security.x509.CertificateExtensions: void parseExtension(sun.security.x509.Extension)>
+  sun.security.x509.CRLExtensions.parseExtension/$r18, <sun.security.x509.CRLExtensions: java.lang.Class class$java$lang$Boolean>, <sun.security.x509.CRLExtensions: void parseExtension(sun.security.x509.Extension)>
+  sun.security.x509.CRLExtensions.parseExtension/$r21, <sun.security.x509.CRLExtensions: java.lang.Class class$java$lang$Object>, <sun.security.x509.CRLExtensions: void parseExtension(sun.security.x509.Extension)>
+  sun.security.x509.OIDMap.<clinit>/$r0, <sun.security.x509.OIDMap: java.util.Hashtable oid2Name>, <sun.security.x509.OIDMap: void <clinit>()>
+  sun.security.x509.OIDMap.<clinit>/$r1, <sun.security.x509.OIDMap: java.util.Hashtable name2OID>, <sun.security.x509.OIDMap: void <clinit>()>
+  sun.security.x509.OIDMap.<clinit>/$r2, <sun.security.x509.OIDMap: java.util.Hashtable name2Class>, <sun.security.x509.OIDMap: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r0, <sun.security.x509.PKIXExtensions: int[] AuthorityKey_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
-  sun.security.x509.PKIXExtensions.<clinit>/$r1, <sun.security.x509.PKIXExtensions: int[] SubjectKey_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
-  sun.security.x509.PKIXExtensions.<clinit>/$r2, <sun.security.x509.PKIXExtensions: int[] KeyUsage_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
-  sun.security.x509.PKIXExtensions.<clinit>/$r3, <sun.security.x509.PKIXExtensions: int[] PrivateKeyUsage_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
-  sun.security.x509.PKIXExtensions.<clinit>/$r4, <sun.security.x509.PKIXExtensions: int[] CertificatePolicies_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
-  sun.security.x509.PKIXExtensions.<clinit>/$r5, <sun.security.x509.PKIXExtensions: int[] PolicyMappings_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
-  sun.security.x509.PKIXExtensions.<clinit>/$r6, <sun.security.x509.PKIXExtensions: int[] SubjectAlternativeName_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
-  sun.security.x509.PKIXExtensions.<clinit>/$r7, <sun.security.x509.PKIXExtensions: int[] IssuerAlternativeName_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
-  sun.security.x509.PKIXExtensions.<clinit>/$r8, <sun.security.x509.PKIXExtensions: int[] SubjectDirectoryAttributes_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
-  sun.security.x509.PKIXExtensions.<clinit>/$r9, <sun.security.x509.PKIXExtensions: int[] BasicConstraints_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r10, <sun.security.x509.PKIXExtensions: int[] NameConstraints_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r11, <sun.security.x509.PKIXExtensions: int[] PolicyConstraints_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r12, <sun.security.x509.PKIXExtensions: int[] CRLDistributionPoints_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
@@ -547,60 +546,61 @@
   sun.security.x509.PKIXExtensions.<clinit>/$r17, <sun.security.x509.PKIXExtensions: int[] HoldInstructionCode_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r18, <sun.security.x509.PKIXExtensions: int[] InvalidityDate_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r19, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier AuthorityKey_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
+  sun.security.x509.PKIXExtensions.<clinit>/$r1, <sun.security.x509.PKIXExtensions: int[] SubjectKey_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r21, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier SubjectKey_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r23, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier KeyUsage_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r25, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier PrivateKeyUsage_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r27, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier CertificatePolicies_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r29, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier PolicyMappings_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
+  sun.security.x509.PKIXExtensions.<clinit>/$r2, <sun.security.x509.PKIXExtensions: int[] KeyUsage_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r31, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier SubjectAlternativeName_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r33, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier IssuerAlternativeName_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r35, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier SubjectDirectoryAttributes_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r37, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier BasicConstraints_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r39, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier NameConstraints_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
+  sun.security.x509.PKIXExtensions.<clinit>/$r3, <sun.security.x509.PKIXExtensions: int[] PrivateKeyUsage_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r41, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier PolicyConstraints_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r43, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier CRLDistributionPoints_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r45, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier CRLNumber_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r47, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier IssuingDistributionPoint_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r49, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier DeltaCRLIndicator_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
+  sun.security.x509.PKIXExtensions.<clinit>/$r4, <sun.security.x509.PKIXExtensions: int[] CertificatePolicies_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r51, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier ReasonCode_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r53, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier HoldInstructionCode_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
   sun.security.x509.PKIXExtensions.<clinit>/$r55, <sun.security.x509.PKIXExtensions: sun.security.util.ObjectIdentifier InvalidityDate_Id>, <sun.security.x509.PKIXExtensions: void <clinit>()>
-  sun.security.util.BitArray.<clinit>/$r0, <sun.security.util.BitArray: byte[][] NYBBLE>, <sun.security.util.BitArray: void <clinit>()>
-  java.security.SecureRandom.getSeed/$r1, <java.security.SecureRandom: java.security.SecureRandom seedGenerator>, <java.security.SecureRandom: byte[] getSeed(int)>
+  sun.security.x509.PKIXExtensions.<clinit>/$r5, <sun.security.x509.PKIXExtensions: int[] PolicyMappings_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
+  sun.security.x509.PKIXExtensions.<clinit>/$r6, <sun.security.x509.PKIXExtensions: int[] SubjectAlternativeName_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
+  sun.security.x509.PKIXExtensions.<clinit>/$r7, <sun.security.x509.PKIXExtensions: int[] IssuerAlternativeName_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
+  sun.security.x509.PKIXExtensions.<clinit>/$r8, <sun.security.x509.PKIXExtensions: int[] SubjectDirectoryAttributes_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
+  sun.security.x509.PKIXExtensions.<clinit>/$r9, <sun.security.x509.PKIXExtensions: int[] BasicConstraints_data>, <sun.security.x509.PKIXExtensions: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r0, <sun.security.x509.X500Name: int[] commonName_data>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r10, <sun.security.x509.X500Name: int[] INITIALS_DATA>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r11, <sun.security.x509.X500Name: int[] GENERATIONQUALIFIER_DATA>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r12, <sun.security.x509.X500Name: int[] DNQUALIFIER_DATA>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r13, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier commonName_oid>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r15, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier countryName_oid>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r17, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier localityName_oid>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r19, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier orgName_oid>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r1, <sun.security.x509.X500Name: int[] SURNAME_DATA>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r21, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier orgUnitName_oid>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r23, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier stateName_oid>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r25, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier streetAddress_oid>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r27, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier title_oid>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r29, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier DNQUALIFIER_OID>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r2, <sun.security.x509.X500Name: int[] countryName_data>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r31, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier SURNAME_OID>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r33, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier GIVENNAME_OID>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r35, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier INITIALS_OID>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r37, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier GENERATIONQUALIFIER_OID>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r39, <sun.security.x509.X500Name: int[] ipAddress_data>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r3, <sun.security.x509.X500Name: int[] localityName_data>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r40, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier ipAddress_oid>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r42, <sun.security.x509.X500Name: int[] DOMAIN_COMPONENT_DATA>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r43, <sun.security.x509.X500Name: sun.security.util.ObjectIdentifier DOMAIN_COMPONENT_OID>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r4, <sun.security.x509.X500Name: int[] stateName_data>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r5, <sun.security.x509.X500Name: int[] streetAddress_data>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r6, <sun.security.x509.X500Name: int[] orgName_data>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r7, <sun.security.x509.X500Name: int[] orgUnitName_data>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r8, <sun.security.x509.X500Name: int[] title_data>, <sun.security.x509.X500Name: void <clinit>()>
+  sun.security.x509.X500Name.<clinit>/$r9, <sun.security.x509.X500Name: int[] GIVENNAME_DATA>, <sun.security.x509.X500Name: void <clinit>()>
   sun.security.x509.X509CertInfo.<clinit>/$r0, <sun.security.x509.X509CertInfo: java.util.Hashtable map>, <sun.security.x509.X509CertInfo: void <clinit>()>
-  sun.security.x509.OIDMap.<clinit>/$r0, <sun.security.x509.OIDMap: java.util.Hashtable oid2Name>, <sun.security.x509.OIDMap: void <clinit>()>
-  sun.security.x509.OIDMap.<clinit>/$r1, <sun.security.x509.OIDMap: java.util.Hashtable name2OID>, <sun.security.x509.OIDMap: void <clinit>()>
-  sun.security.x509.OIDMap.<clinit>/$r2, <sun.security.x509.OIDMap: java.util.Hashtable name2Class>, <sun.security.x509.OIDMap: void <clinit>()>
-  sun.security.provider.SeedGenerator$ThreadedSeedGenerator.<clinit>/$r0, <sun.security.provider.SeedGenerator$ThreadedSeedGenerator: byte[] rndTab>, <sun.security.provider.SeedGenerator$ThreadedSeedGenerator: void <clinit>()>
-  sun.net.www.protocol.http.HttpURLConnection.setDefaultAuthenticator/r0, <sun.net.www.protocol.http.HttpURLConnection: sun.net.www.protocol.http.HttpAuthenticator defaultAuth>, <sun.net.www.protocol.http.HttpURLConnection: void setDefaultAuthenticator(sun.net.www.protocol.http.HttpAuthenticator)>
-  sun.net.www.protocol.http.HttpURLConnection.<clinit>/$r5, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String version>, <sun.net.www.protocol.http.HttpURLConnection: void <clinit>()>
-  sun.net.www.protocol.http.HttpURLConnection.<clinit>/$r13, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String userAgent>, <sun.net.www.protocol.http.HttpURLConnection: void <clinit>()>
-  sun.net.www.protocol.http.HttpURLConnection.<clinit>/$r14, <sun.net.www.protocol.http.HttpURLConnection: java.lang.String[] EXCLUDE_HEADERS>, <sun.net.www.protocol.http.HttpURLConnection: void <clinit>()>
-  java.lang.ref.Finalizer.access$302/r0, <java.lang.ref.Finalizer: java.lang.ref.Finalizer unfinalized>, <java.lang.ref.Finalizer: java.lang.ref.Finalizer access$302(java.lang.ref.Finalizer)>
-  java.lang.ref.Finalizer.<clinit>/$r0, <java.lang.ref.Finalizer: java.lang.ref.ReferenceQueue queue>, <java.lang.ref.Finalizer: void <clinit>()>
-  java.lang.ref.Finalizer.<clinit>/$r4, <java.lang.ref.Finalizer: java.lang.Object lock>, <java.lang.ref.Finalizer: void <clinit>()>
-  sun.net.www.protocol.ftp.FtpDirectoryThread.<clinit>/$r0, <sun.net.www.protocol.ftp.FtpDirectoryThread: java.util.Hashtable images>, <sun.net.www.protocol.ftp.FtpDirectoryThread: void <clinit>()>
-  sun.net.ProgressData.<clinit>/$r0, <sun.net.ProgressData: sun.net.ProgressData pdata>, <sun.net.ProgressData: void <clinit>()>
-  sun.net.www.http.HttpClient.<clinit>/$r0, <sun.net.www.http.HttpClient: sun.misc.RegexpPool dontProxy>, <sun.net.www.http.HttpClient: void <clinit>()>
-  sun.net.www.http.HttpClient.<clinit>/$r1, <sun.net.www.http.HttpClient: sun.net.www.http.KeepAliveCache kac>, <sun.net.www.http.HttpClient: void <clinit>()>
-  sun.net.www.protocol.http.AuthenticationInfo.<clinit>/$r0, <sun.net.www.protocol.http.AuthenticationInfo: sun.net.www.protocol.http.PathMap cache>, <sun.net.www.protocol.http.AuthenticationInfo: void <clinit>()>
-  sun.net.www.protocol.http.DigestAuthentication.<clinit>/$r0, <sun.net.www.protocol.http.DigestAuthentication: char[] charArray>, <sun.net.www.protocol.http.DigestAuthentication: void <clinit>()>
-  sun.misc.BASE64Encoder.<clinit>/$r0, <sun.misc.BASE64Encoder: char[] pem_array>, <sun.misc.BASE64Encoder: void <clinit>()>
-  java.net.Authenticator.setDefault/r0, <java.net.Authenticator: java.net.Authenticator theAuthenticator>, <java.net.Authenticator: void setDefault(java.net.Authenticator)>
-  sun.net.www.protocol.jar.JarURLConnection.<clinit>/$r0, <sun.net.www.protocol.jar.JarURLConnection: sun.net.www.protocol.jar.JarFileFactory factory>, <sun.net.www.protocol.jar.JarURLConnection: void <clinit>()>
-  sun.net.www.protocol.jar.JarFileFactory.<clinit>/$r0, <sun.net.www.protocol.jar.JarFileFactory: java.util.HashMap fileCache>, <sun.net.www.protocol.jar.JarFileFactory: void <clinit>()>
-  sun.net.www.protocol.jar.JarFileFactory.<clinit>/$r1, <sun.net.www.protocol.jar.JarFileFactory: java.util.HashMap urlCache>, <sun.net.www.protocol.jar.JarFileFactory: void <clinit>()>
-  sun.net.www.protocol.file.FileURLConnection.<clinit>/$stringconstant0, <sun.net.www.protocol.file.FileURLConnection: java.lang.String CONTENT_LENGTH>, <sun.net.www.protocol.file.FileURLConnection: void <clinit>()>
-  sun.net.www.protocol.file.FileURLConnection.<clinit>/$stringconstant1, <sun.net.www.protocol.file.FileURLConnection: java.lang.String CONTENT_TYPE>, <sun.net.www.protocol.file.FileURLConnection: void <clinit>()>
-  sun.net.www.protocol.file.FileURLConnection.<clinit>/$stringconstant2, <sun.net.www.protocol.file.FileURLConnection: java.lang.String TEXT_HTML>, <sun.net.www.protocol.file.FileURLConnection: void <clinit>()>
-  java.text.Collator.<clinit>/$r0, <java.text.Collator: sun.misc.SoftCache cache>, <java.text.Collator: void <clinit>()>
-  java.text.CollationRules.<clinit>/$r0, <java.text.CollationRules: java.lang.String DEFAULTRULES>, <java.text.CollationRules: void <clinit>()>
-  java.text.Normalizer.<clinit>/$r4, <java.text.Normalizer: short[] kOffsetIndex>, <java.text.Normalizer: void <clinit>()>
-  java.text.Normalizer.<clinit>/$r5, <java.text.Normalizer: short[] kOffsetValues>, <java.text.Normalizer: void <clinit>()>
-  java.text.Normalizer.<clinit>/$r6, <java.text.Normalizer: short[] kCanonicalIndex>, <java.text.Normalizer: void <clinit>()>
-  java.text.Normalizer.<clinit>/$r7, <java.text.Normalizer: byte[] kCanonicalValues>, <java.text.Normalizer: void <clinit>()>
-  java.text.Normalizer.<clinit>/$stringconstant4, <java.text.Normalizer: java.lang.String contents>, <java.text.Normalizer: void <clinit>()>
-  java.text.Normalizer.<clinit>/$r8, <java.text.Normalizer: java.text.CompactShortArray startOffsets>, <java.text.Normalizer: void <clinit>()>
-  java.text.Normalizer.<clinit>/$r9, <java.text.Normalizer: java.text.CompactByteArray canonicals>, <java.text.Normalizer: void <clinit>()>
-  java.text.Normalizer.<clinit>/$r12, <java.text.Normalizer: java.text.IntHashtable composeMapping>, <java.text.Normalizer: void <clinit>()>
-  java.text.IntHashtable.<clinit>/$r0, <java.text.IntHashtable: int[] PRIMES>, <java.text.IntHashtable: void <clinit>()>

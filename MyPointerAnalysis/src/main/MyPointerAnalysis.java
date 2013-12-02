@@ -109,6 +109,7 @@ public class MyPointerAnalysis {
 //            for ( Object result : results ) {
 //                System.out.println(((List) result).get(0) + ", " + ((List) result).get(1));
 //            }
+            System.out.println("call graph edge: \t" + results.size()); 
             results = Peer.q("[:find ?arrayIndexPointsTo :where [?arrayIndexPointsTo :ArrayIndexPointsTo/baseheap]]", conn.db());
             System.out.println("array index points to: \t" + results.size());
             

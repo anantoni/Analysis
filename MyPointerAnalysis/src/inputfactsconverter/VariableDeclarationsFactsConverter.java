@@ -127,9 +127,7 @@ public class VariableDeclarationsFactsConverter extends FactsConverter implement
                         System.out.println( "Declaring method reference not found : " + m.group(3) );
                         System.exit(-1);
                     }
-                    
                     varFactsList.get(counter++).setDeclaringMethod(method);              
-                    
                 }
                 br.close();
             }

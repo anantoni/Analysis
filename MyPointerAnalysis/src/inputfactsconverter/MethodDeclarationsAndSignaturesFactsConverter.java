@@ -29,9 +29,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
     private ArrayList<Type> typeFactsList = null;
     private ArrayList<SimpleNameRef> simpleNameRefFactsList = null;
     private ArrayList<MethodSignatureRef> methodSignatureRefFactsList = null;
-    private ArrayList<ModifierRef> modifierRefFactsList = null;
     private ArrayList<Method> methodFactsList = null;
-    private ArrayList<MethodModifier> methodModifierFactsList = null;
     private ArrayList<MethodDescriptorRef> methodDescriptorRefFactsList = null;
     private FactsID id = null;
     Thread t = null;
@@ -40,11 +38,9 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
         this.typeFactsList = typeFactsList;
         this.simpleNameRefFactsList = simpleNameRefFactsList;
         this.methodSignatureRefFactsList = methodSignatureRefFactsList;
-        this.modifierRefFactsList = modifierRefFactsList;
         this.id = id;
         methodFactsList = new ArrayList();
         methodDescriptorRefFactsList = new ArrayList<>();
-        methodModifierFactsList = new ArrayList<>();
     }
     
     public ArrayList<MethodDescriptorRef> getMethodDescriptorRefFactsList() {
@@ -233,62 +229,10 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                 }
                 br.close();  
             }
-            
-//            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodModifier.facts" ) )) {
-//                String line;
-//                while ((line = br.readLine()) != null) {
-//                    line = line.trim();
-//                    String pattern = "(.*)(,\\s)(.*)";
-//                    // Create a Pattern object
-//                    Pattern r = Pattern.compile(pattern);
-//
-//                    // Now create matcher object.
-//                    Matcher m = r.matcher(line);
-//                    if ( m.find() ) {
-//                        if ( m.groupCount() != 3 ) {
-//                            System.out.println( "Invalid number of groups matched" );
-//                            System.exit(-1);
-//                        }
-//                    } 
-//                    else {
-//                        System.out.println( "Could not find match" );
-//                        System.exit(-1);
-//                    }
-//                    MethodSignatureRef method = null;
-//                    ModifierRef mod = null;
-//
-//                    for ( MethodSignatureRef methodSignatureRef : methodSignatureRefFactsList ) {
-//                        if ( methodSignatureRef.getValue().equals( m.group(3) ) ) {
-//                            method = methodSignatureRef;
-//                            break;
-//                        }
-//                    }
-//                    if ( method == null ) { 
-//                        System.out.println( "MethodModifier.facts: Method signature not found for: " + m.group(3) );
-//                        System.exit(-1);
-//                    }
-//
-//                    for ( ModifierRef mod1 : modifierRefFactsList ) {
-//                        if ( mod1.getValue().equals( m.group(1) ) ) {
-//                            mod = mod1;
-//                            break;
-//                        }
-//                    }
-//                    if ( mod == null ) { 
-//                        System.out.println( "MethodModifier.facts: Method modifier not found for: " + m.group(1) );
-//                        System.exit(-1);
-//                    }
-//
-//                    MethodModifier methodModifier = new MethodModifier( id.getID(), method, mod );
-//                    methodModifierFactsList.add(methodModifier);
-//                }
-//                br.close();  
-//            }
         }
         catch( IOException ex) {
             System.out.println( ex.toString() );
             System.exit(-1);
-
         }
     }
 
@@ -316,16 +260,6 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                 writer.close();
             }
             System.out.println( "Method facts converted: " + methodFactsList.size() );
-            
-//            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodModifier.dtm", false)));) {
-//                for ( MethodModifier key : methodModifierFactsList ) {
-//                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
-//                    writer.println( " :MethodModifier/method #db/id[:db.part/user " + key.getMethod().getID() + "]");
-//                    writer.println( " :MethodModifier/mod #db/id[:db.part/user " + key.getModifier().getID() + "]}");    
-//                }
-//                writer.close();
-//            }
-//            System.out.println( "MethodModifier facts converted: " + methodModifierFactsList.size() ); 
         }        
         catch ( Exception ex ) {
             System.out.println( ex.toString() ); 

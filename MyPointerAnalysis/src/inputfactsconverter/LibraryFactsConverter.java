@@ -251,7 +251,7 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
                                 break;
                             }
                         }
-                        if ( simplename == null ) { 
+                        if ( descriptor == null ) { 
                             System.out.println( "MethodLookup.facts: Descriptor not found for: " + m.group(3) );
                             System.exit(-1);
                         }
@@ -273,7 +273,7 @@ public class LibraryFactsConverter extends FactsConverter implements Runnable {
                                 break;
                             }
                         }
-                        if ( type == null ) { 
+                        if ( method == null ) { 
                             System.out.println( "MethodLookup: Method Signature not found for: " + m.group(7) );
                             System.exit(-1);
                         }

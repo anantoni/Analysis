@@ -124,7 +124,6 @@
   :db/ident :HeapAllocation-Type/heap
   :db/valueType :db.type/ref
   :db/unique :db.unique/value
-  :db/index true    
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -241,7 +240,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :FormalParam/method
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -260,7 +258,6 @@
  
  {:db/id #db/id[:db.part/db]
   :db/ident :ActualParam/invocation
-  :db/index true
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
@@ -292,7 +289,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :ReturnVar/method
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
  
@@ -307,7 +303,6 @@
   :db/ident :SpecialMethodInvocation/invocation
   :db/valueType :db.type/ref
   :db/unique :db.unique/value
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
  
@@ -320,7 +315,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :SpecialMethodInvocation/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
  
@@ -345,7 +339,6 @@
 
  {:db/id #db/id[:db.part/db]
   :db/ident :VirtualMethodInvocation/inmethod
-  :db/index true
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db} 
@@ -373,7 +366,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :StaticMethodInvocation/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -391,7 +383,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :AssignHeapAllocation/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
  
@@ -406,7 +397,6 @@
   :db/ident :AssignReturnValue/invocation
   :db/valueType :db.type/ref
   :db/unique :db.unique/value
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -432,7 +422,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :AssignLocal/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -458,7 +447,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :AssignCast/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -488,7 +476,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :LoadInstanceField/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -508,7 +495,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :LoadStaticField/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -522,7 +508,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :LoadPrimStaticField/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -548,7 +533,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :StoreInstanceField/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -568,7 +552,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :StoreStaticField/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -582,7 +565,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :StorePrimStaticField/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -606,7 +588,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :LoadArrayIndex/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -626,7 +607,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :StoreArrayIndex/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -657,21 +637,18 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :MethodLookup/simplename
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
  {:db/id #db/id[:db.part/db]
   :db/ident :MethodLookup/descriptor
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
  {:db/id #db/id[:db.part/db]
   :db/ident :MethodLookup/method
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db} 
 
@@ -713,7 +690,6 @@
  ;;Reachable
  {:db/id #db/id[:db.part/db]
   :db/ident :Reachable/method
-  :db/index true
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
@@ -748,7 +724,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :VarPointsTo/var
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -756,14 +731,12 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :CallGraphEdge/invocation
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
  {:db/id #db/id[:db.part/db]
   :db/ident :CallGraphEdge/tomethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -771,7 +744,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :StaticFieldPointsTo/fieldsig
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -791,7 +763,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :InstanceFieldPointsTo/fieldsig
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -805,14 +776,12 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :AssignCompatible/target
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
  {:db/id #db/id[:db.part/db]
   :db/ident :AssignCompatible/source
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
  
@@ -832,7 +801,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :AssignNormalHeapAllocation/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -852,7 +820,6 @@
  {:db/id #db/id[:db.part/db]
   :db/ident :AssignAuxiliaryHeapAllocation/inmethod
   :db/valueType :db.type/ref
-  :db/index true
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
 
@@ -888,7 +855,6 @@
   :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/one
   :db.install/_attribute :db.part/db}
- 
  
 ]
 
