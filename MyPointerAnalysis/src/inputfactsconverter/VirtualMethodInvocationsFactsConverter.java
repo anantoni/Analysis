@@ -108,7 +108,6 @@ public class VirtualMethodInvocationsFactsConverter extends FactsConverter imple
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/VirtualMethodInvocation-Base.facts" ) )) {
                     String line;
-                    int counter = 0;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
                         String pattern = "(.*)(,\\s)(.*)";
@@ -138,8 +137,17 @@ public class VirtualMethodInvocationsFactsConverter extends FactsConverter imple
                         if ( var == null ) { 
                             System.out.println( "VirtualMethodInvocation-Base.facts: Variable Ref not found for: " + m.group(3) );
                             System.exit(-1);
-                        }                        
-                        virtualMethodInvocationFactsList.get(counter++).setBase(var);
+                        }          
+                        boolean invocationFound = false;
+                        for ( VirtualMethodInvocation invocation : virtualMethodInvocationFactsList ) 
+                            if ( invocation.getInvocation().getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
+                                invocation.setBase(var);
+                                invocationFound = true;
+                            }
+                        if ( invocationFound == false ) {
+                            System.out.println("MethodSignature-Base.facts: Invocation not found for: " + m.group(1) );
+                            System.exit(-1);
+                        }
                     }
                     br.close();  
             }

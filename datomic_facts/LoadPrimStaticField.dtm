@@ -1,303 +1,303 @@
-{:db/id #db/id[:db.part/user -312495]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95544]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97077]}
-{:db/id #db/id[:db.part/user -312496]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95553]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97130]}
-{:db/id #db/id[:db.part/user -312497]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95554]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97116]}
-{:db/id #db/id[:db.part/user -312498]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95563]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97148]}
-{:db/id #db/id[:db.part/user -312499]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95578]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97621]}
-{:db/id #db/id[:db.part/user -312500]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95578]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -102448]}
-{:db/id #db/id[:db.part/user -312501]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97481]}
-{:db/id #db/id[:db.part/user -312502]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97483]}
-{:db/id #db/id[:db.part/user -312503]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97493]}
-{:db/id #db/id[:db.part/user -312504]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97539]}
-{:db/id #db/id[:db.part/user -312505]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97621]}
 {:db/id #db/id[:db.part/user -312506]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97631]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95549]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98034]}
 {:db/id #db/id[:db.part/user -312507]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97633]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95558]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98088]}
 {:db/id #db/id[:db.part/user -312508]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99720]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95559]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98073]}
 {:db/id #db/id[:db.part/user -312509]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -101009]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95568]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98108]}
 {:db/id #db/id[:db.part/user -312510]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -102441]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95583]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98595]}
 {:db/id #db/id[:db.part/user -312511]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -105622]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95583]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -103543]}
+{:db/id #db/id[:db.part/user -312512]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98424]}
 {:db/id #db/id[:db.part/user -312513]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -105724]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98426]}
 {:db/id #db/id[:db.part/user -312514]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106159]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98438]}
 {:db/id #db/id[:db.part/user -312515]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106161]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98494]}
 {:db/id #db/id[:db.part/user -312516]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106175]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98595]}
+{:db/id #db/id[:db.part/user -312517]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98606]}
 {:db/id #db/id[:db.part/user -312518]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106697]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98607]}
 {:db/id #db/id[:db.part/user -312519]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106711]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100131]}
 {:db/id #db/id[:db.part/user -312520]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106716]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -101031]}
 {:db/id #db/id[:db.part/user -312521]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106727]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -103533]}
 {:db/id #db/id[:db.part/user -312523]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -107294]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -107836]}
 {:db/id #db/id[:db.part/user -312524]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -107364]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -107952]}
 {:db/id #db/id[:db.part/user -312525]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -107401]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108518]}
+{:db/id #db/id[:db.part/user -312526]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108520]}
 {:db/id #db/id[:db.part/user -312527]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -107435]}
-{:db/id #db/id[:db.part/user -312528]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -107462]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108538]}
 {:db/id #db/id[:db.part/user -312529]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -107482]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108951]}
+{:db/id #db/id[:db.part/user -312530]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108960]}
 {:db/id #db/id[:db.part/user -312531]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95579]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -107984]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108963]}
 {:db/id #db/id[:db.part/user -312532]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95585]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -97464]}
-{:db/id #db/id[:db.part/user -312533]
- :LoadPrimStaticField/sig #db/id[:db.part/user -95983]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -98849]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108969]}
 {:db/id #db/id[:db.part/user -312534]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96010]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99037]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -109231]}
 {:db/id #db/id[:db.part/user -312535]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96010]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99039]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -109271]}
 {:db/id #db/id[:db.part/user -312536]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96048]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99037]}
-{:db/id #db/id[:db.part/user -312537]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96061]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99040]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -109276]}
 {:db/id #db/id[:db.part/user -312538]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96093]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99226]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -109295]}
 {:db/id #db/id[:db.part/user -312539]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96093]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99227]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -109310]}
 {:db/id #db/id[:db.part/user -312540]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96094]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99243]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -109321]}
 {:db/id #db/id[:db.part/user -312541]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96094]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99245]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95584]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -109605]}
 {:db/id #db/id[:db.part/user -312542]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96159]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99588]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95590]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -98403]}
 {:db/id #db/id[:db.part/user -312543]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96169]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99669]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -95989]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -99585]}
 {:db/id #db/id[:db.part/user -312544]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96169]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99671]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96016]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -99702]}
+{:db/id #db/id[:db.part/user -312545]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96016]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -99703]}
 {:db/id #db/id[:db.part/user -312546]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96169]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99673]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96056]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -99702]}
 {:db/id #db/id[:db.part/user -312547]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96176]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99793]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96069]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -99704]}
 {:db/id #db/id[:db.part/user -312548]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96177]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99794]}
-{:db/id #db/id[:db.part/user -312549]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96196]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99836]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96101]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -99829]}
 {:db/id #db/id[:db.part/user -312550]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96196]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99850]}
-{:db/id #db/id[:db.part/user -312551]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96200]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96101]
  :LoadPrimStaticField/inmethod #db/id[:db.part/user -99830]}
+{:db/id #db/id[:db.part/user -312551]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96102]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -99840]}
 {:db/id #db/id[:db.part/user -312552]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96200]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99834]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96102]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -99841]}
 {:db/id #db/id[:db.part/user -312553]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96200]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99836]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96167]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100066]}
 {:db/id #db/id[:db.part/user -312554]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96200]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99850]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96177]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100100]}
 {:db/id #db/id[:db.part/user -312555]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96200]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99854]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96177]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100101]}
 {:db/id #db/id[:db.part/user -312556]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96210]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99882]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96177]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100102]}
+{:db/id #db/id[:db.part/user -312557]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96184]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100177]}
 {:db/id #db/id[:db.part/user -312558]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96210]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99884]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96185]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100178]}
 {:db/id #db/id[:db.part/user -312559]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96211]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99900]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96204]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100220]}
 {:db/id #db/id[:db.part/user -312560]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96211]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -99902]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96204]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100225]}
 {:db/id #db/id[:db.part/user -312561]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96255]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -100242]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96208]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100214]}
 {:db/id #db/id[:db.part/user -312562]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96265]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -100249]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96208]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100218]}
 {:db/id #db/id[:db.part/user -312563]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96316]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -100703]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96208]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100220]}
 {:db/id #db/id[:db.part/user -312564]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96316]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -100754]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96208]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100225]}
 {:db/id #db/id[:db.part/user -312565]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96429]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -100931]}
-{:db/id #db/id[:db.part/user -312566]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96465]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -101020]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96208]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100227]}
+{:db/id #db/id[:db.part/user -312567]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96216]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100247]}
 {:db/id #db/id[:db.part/user -312568]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96465]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -101057]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96216]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100248]}
 {:db/id #db/id[:db.part/user -312569]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96466]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -101021]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96217]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100258]}
 {:db/id #db/id[:db.part/user -312570]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96466]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -101057]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96217]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100259]}
 {:db/id #db/id[:db.part/user -312571]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96469]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -101047]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96261]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100477]}
 {:db/id #db/id[:db.part/user -312572]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96500]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -101124]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96271]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100484]}
 {:db/id #db/id[:db.part/user -312573]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96598]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -101633]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96322]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100764]}
+{:db/id #db/id[:db.part/user -312574]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96322]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100775]}
 {:db/id #db/id[:db.part/user -312575]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96795]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -102024]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96437]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -100953]}
 {:db/id #db/id[:db.part/user -312576]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96846]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -102212]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96473]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -101042]}
 {:db/id #db/id[:db.part/user -312577]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96860]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -102197]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96473]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -101079]}
 {:db/id #db/id[:db.part/user -312578]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96860]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -102208]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96474]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -101043]}
 {:db/id #db/id[:db.part/user -312579]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96860]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -102217]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96474]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -101079]}
 {:db/id #db/id[:db.part/user -312581]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96860]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -102223]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96477]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -101069]}
 {:db/id #db/id[:db.part/user -312582]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96861]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -102196]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96508]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -101146]}
 {:db/id #db/id[:db.part/user -312583]
- :LoadPrimStaticField/sig #db/id[:db.part/user -96861]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -102200]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96606]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -102012]}
 {:db/id #db/id[:db.part/user -312584]
- :LoadPrimStaticField/sig #db/id[:db.part/user -97190]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -103510]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96803]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -103007]}
+{:db/id #db/id[:db.part/user -312585]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96854]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -103213]}
 {:db/id #db/id[:db.part/user -312586]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98312]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -105749]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96868]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -103201]}
 {:db/id #db/id[:db.part/user -312587]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98550]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106069]}
-{:db/id #db/id[:db.part/user -312588]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98550]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106082]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96868]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -103209]}
+{:db/id #db/id[:db.part/user -312589]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96868]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -103216]}
 {:db/id #db/id[:db.part/user -312590]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98655]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106242]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96868]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -103221]}
 {:db/id #db/id[:db.part/user -312591]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98675]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106269]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96869]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -103200]}
 {:db/id #db/id[:db.part/user -312592]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98675]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106271]}
-{:db/id #db/id[:db.part/user -312594]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98675]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106274]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -96869]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -103203]}
+{:db/id #db/id[:db.part/user -312593]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97134]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -105228]}
 {:db/id #db/id[:db.part/user -312595]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98675]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106297]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97630]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -107982]}
 {:db/id #db/id[:db.part/user -312596]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98675]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106300]}
-{:db/id #db/id[:db.part/user -312598]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98682]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106271]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97713]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108391]}
+{:db/id #db/id[:db.part/user -312597]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97713]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108407]}
 {:db/id #db/id[:db.part/user -312599]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98682]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106295]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97754]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108620]}
+{:db/id #db/id[:db.part/user -312600]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97762]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108655]}
 {:db/id #db/id[:db.part/user -312601]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98685]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106269]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97762]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108657]}
 {:db/id #db/id[:db.part/user -312602]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98707]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106314]}
-{:db/id #db/id[:db.part/user -312603]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98710]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106309]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97762]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108661]}
+{:db/id #db/id[:db.part/user -312604]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97762]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108690]}
 {:db/id #db/id[:db.part/user -312605]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98710]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106314]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97762]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108694]}
 {:db/id #db/id[:db.part/user -312606]
- :LoadPrimStaticField/sig #db/id[:db.part/user -98958]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106520]}
-{:db/id #db/id[:db.part/user -312607]
- :LoadPrimStaticField/sig #db/id[:db.part/user -99073]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106734]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97765]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108657]}
+{:db/id #db/id[:db.part/user -312608]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97765]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108688]}
 {:db/id #db/id[:db.part/user -312609]
- :LoadPrimStaticField/sig #db/id[:db.part/user -99076]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106734]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97766]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108655]}
 {:db/id #db/id[:db.part/user -312610]
- :LoadPrimStaticField/sig #db/id[:db.part/user -99217]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -106878]}
-{:db/id #db/id[:db.part/user -312611]
- :LoadPrimStaticField/sig #db/id[:db.part/user -99297]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -107023]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97775]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108712]}
+{:db/id #db/id[:db.part/user -312612]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97776]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108705]}
 {:db/id #db/id[:db.part/user -312613]
- :LoadPrimStaticField/sig #db/id[:db.part/user -100002]
- :LoadPrimStaticField/inmethod #db/id[:db.part/user -108063]}
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97776]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108712]}
+{:db/id #db/id[:db.part/user -312614]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97865]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108832]}
+{:db/id #db/id[:db.part/user -312616]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97923]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108973]}
+{:db/id #db/id[:db.part/user -312617]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97924]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -108973]}
+{:db/id #db/id[:db.part/user -312618]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97967]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -109036]}
+{:db/id #db/id[:db.part/user -312620]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -97998]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -109102]}
+{:db/id #db/id[:db.part/user -312621]
+ :LoadPrimStaticField/sig #db/id[:db.part/user -98501]
+ :LoadPrimStaticField/inmethod #db/id[:db.part/user -109634]}

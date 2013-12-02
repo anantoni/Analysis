@@ -93,7 +93,6 @@ public class VariableDeclarationsFactsConverter extends FactsConverter implement
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/Var-DeclaringMethod.facts" ) ) ) {
                 String line;
-                int counter = 0;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
                     String pattern = "(.*)(,\\s)(<.*>)|";
@@ -127,7 +126,16 @@ public class VariableDeclarationsFactsConverter extends FactsConverter implement
                         System.out.println( "Declaring method reference not found : " + m.group(3) );
                         System.exit(-1);
                     }
-                    varFactsList.get(counter++).setDeclaringMethod(method);              
+                    boolean varFound = false;
+                    for ( Var var : varFactsList ) 
+                        if ( var.getName().equals(m.group(1) ) ) {
+                            var.setDeclaringMethod(method);
+                            varFound = true;
+                        }
+                    if ( varFound == false ) {
+                        System.out.println("Var-DeclaringMethod.facts: Var not found for: " + m.group(1) );
+                        System.exit(-1);
+                    }
                 }
                 br.close();
             }

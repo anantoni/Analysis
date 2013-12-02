@@ -94,7 +94,6 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/SpecialMethodInvocation-In.facts" ) )) {
                     String line;
-                    int counter = 0;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
                         String pattern = "(.*)(,\\s)(.*)";
@@ -124,15 +123,23 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
                         if ( inmethod == null ) { 
                             System.out.println( "SpecialMethodInvocation-In.facts: Inmethod Signature Ref not found for: " + m.group(3) );
                             System.exit(-1);
-                        }                        
-                        specialMethodInvocationFactsList.get(counter++).setInmethod(inmethod);
+                        }     
+                        boolean invocationFound = false;
+                        for ( SpecialMethodInvocation invocation : specialMethodInvocationFactsList ) 
+                            if ( invocation.getInvocation().getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
+                                invocation.setInmethod(inmethod);
+                                invocationFound = true;
+                            }
+                        if ( invocationFound == false ) {
+                            System.out.println("SpecialMethodInvocation-In.facts: Invocation not found for: " + m.group(1) );
+                            System.exit(-1);
+                        }
                     }
                     br.close();  
             }
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/SpecialMethodInvocation-Signature.facts" ) )) {
                     String line;
-                    int counter = 0;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
                         String pattern = "(.*)(,\\s)(.*)";
@@ -162,8 +169,17 @@ public class SpecialMethodInvocationsFactsConverter extends FactsConverter imple
                         if ( signature == null ) { 
                             System.out.println( "SpecialMethodInvocation-Signature.facts: Method Signature not found for: " + m.group(3) );
                             System.exit(-1);
-                        }                        
-                        specialMethodInvocationFactsList.get(counter++).setSignature(signature);
+                        }
+                        boolean invocationFound = false;
+                        for ( SpecialMethodInvocation invocation : specialMethodInvocationFactsList ) 
+                            if ( invocation.getInvocation().getCallGraphEdgeSourceRef().getInstructionRef().getInstruction().equals( m.group(1) ) ) {
+                                invocation.setSignature(signature);
+                                invocationFound = true;
+                            }
+                        if ( invocationFound == false ) {
+                            System.out.println("SpecialMethodInvocation-Signature.facts: Invocation not found for: " + m.group(1) );
+                            System.exit(-1);
+                        }
                     }
                     br.close();  
             }

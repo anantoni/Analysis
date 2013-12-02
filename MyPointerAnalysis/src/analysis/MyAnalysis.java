@@ -186,8 +186,8 @@ public class MyAnalysis {
                             "[?loadInstanceField :LoadInstanceField/to ?to]" + 
                             "[?basePointsTo :VarPointsTo/var ?base]" +
                             "[?basePointsTo :VarPointsTo/heap ?heapbase]" +
-                            "[?instanceFieldPointsTo :InstanceFieldPointsTo/heapbase ?heapbase]"+
-                            "[?instanceFieldPointsTo :InstanceFieldPointsTo/fieldsig ?fieldsig]"+
+                            "[?instanceFieldPointsTo :InstanceFieldPointsTo/heapbase ?heapbase]" +
+                            "[?instanceFieldPointsTo :InstanceFieldPointsTo/fieldsig ?fieldsig]" +
                             "[?instanceFieldPointsTo :InstanceFieldPointsTo/heap ?heap]]",
                             conn.db() );
             results.removeAll(var_points_to_added_to_database);
@@ -714,7 +714,6 @@ public class MyAnalysis {
                 fix_point_reached = false;
             
             for ( Object result : results) {
-                System.out.println(((List) result).get(0)); 
                 List tx = Util.list(Util.map(":db/id", Peer.tempid(":db.part/user"), ":Reachable/method", ((List) result).get(0)));
 
                 try { Object txResult = conn.transact(tx).get(); }

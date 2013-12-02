@@ -115,7 +115,6 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodSignature-Type.facts" ) )) {
                 String line;
-                int counter = 0;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
                     String pattern = "(.*)(,\\s)(.*)";
@@ -146,15 +145,22 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                         System.out.println( "MethodSignature-Type.facts: Method type not found for: " + m.group(3) );
                         System.exit(-1);
                     }
-                    methodFactsList.get(counter++).setType(type);
-
+                    boolean methodFound = false;
+                    for ( Method method : methodFactsList ) 
+                        if ( method.getSignature().getValue().equals( m.group(1) ) ) {
+                            method.setType(type);
+                            methodFound = true;
+                        }
+                    if ( methodFound == false ) {
+                        System.out.println("MethodSignature-Type.facts: Method not found for: " + m.group(1) );
+                        System.exit(-1);
+                    }
                 }
                 br.close();  
             }
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodSignature-SimpleName.facts" ) )) {
                 String line;
-                int counter = 0;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
                     String pattern = "(.*)(,\\s)(.*)";
@@ -185,15 +191,22 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                         System.out.println( "MethodSignature-Simplename.facts: Method simplename not found for: " + m.group(3) );
                         System.exit(-1);
                     }
-
-                    methodFactsList.get(counter++).setSimpleName(simplename);
+                    boolean methodFound = false;
+                    for ( Method method : methodFactsList ) 
+                        if ( method.getSignature().getValue().equals( m.group(1) ) ) {
+                            method.setSimpleName(simplename);
+                            methodFound = true;
+                        }
+                    if ( methodFound == false ) {
+                        System.out.println("MethodSignature-Simplename.facts: Method not found for: " + m.group(1) );
+                        System.exit(-1);
+                    }
                 }
                 br.close();  
             }
             
             try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodSignature-Descriptor.facts" ) )) {
                 String line;
-                int counter = 0;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
                     String pattern = "(.*)(,\\s)(.*)";
@@ -224,7 +237,16 @@ public class MethodDeclarationsAndSignaturesFactsConverter extends FactsConverte
                         System.out.println( "MethodSignature-Descriptor.facts: Method descriptor not found for: " + m.group(3) );
                         System.exit(-1);
                     }
-                    methodFactsList.get(counter++).setDescriptor(descriptor);
+                    boolean methodFound = false;
+                    for ( Method method : methodFactsList ) 
+                        if ( method.getSignature().getValue().equals( m.group(1) ) ) {
+                            method.setDescriptor(descriptor);
+                            methodFound = true;
+                        }
+                    if ( methodFound == false ) {
+                        System.out.println("MethodSignature-Descriptor.facts: Method not found for: " + m.group(1) );
+                        System.exit(-1);
+                    }
 
                 }
                 br.close();  
