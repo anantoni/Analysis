@@ -1,18 +1,18 @@
-{:db/id #db/id[:db.part/user -109797]
+{:db/id #db/id[:db.part/user -106577]
  :ModifierRef/value "abstract"}
-{:db/id #db/id[:db.part/user -109810]
+{:db/id #db/id[:db.part/user -106594]
  :ModifierRef/value "final"}
-{:db/id #db/id[:db.part/user -109811]
+{:db/id #db/id[:db.part/user -106596]
  :ModifierRef/value "native"}
-{:db/id #db/id[:db.part/user -109812]
+{:db/id #db/id[:db.part/user -106598]
  :ModifierRef/value "private"}
-{:db/id #db/id[:db.part/user -109813]
+{:db/id #db/id[:db.part/user -106599]
  :ModifierRef/value "protected"}
-{:db/id #db/id[:db.part/user -109814]
+{:db/id #db/id[:db.part/user -106601]
  :ModifierRef/value "public"}
-{:db/id #db/id[:db.part/user -109815]
+{:db/id #db/id[:db.part/user -106603]
  :ModifierRef/value "static"}
-{:db/id #db/id[:db.part/user -109816]
+{:db/id #db/id[:db.part/user -106604]
  :ModifierRef/value "synchronized"}
-{:db/id #db/id[:db.part/user -109817]
+{:db/id #db/id[:db.part/user -106606]
  :ModifierRef/value "transient"}

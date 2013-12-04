@@ -52,7 +52,7 @@ public class MyPointerAnalysis {
 	try {
             System.out.println( Thread.currentThread().getContextClassLoader().getResources("data_readers.clj") );
             // Comment the following line in order to not reproduce the .dtm files
-            InputFactsConverter inputFactsConverter = new InputFactsConverter();
+            //InputFactsConverter inputFactsConverter = new InputFactsConverter();
             
 	    System.out.println("Creating and connecting to database...");
          
