@@ -43,6 +43,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Date;
 import java.util.concurrent.ExecutionException;
 
 public class MyPointerAnalysis {
@@ -102,8 +103,8 @@ public class MyPointerAnalysis {
                              "[?callGraphEdge :CallGraphEdge/invocation ?invocation]" +
                              "[?callGraphEdge :CallGraphEdge/tomethod ?tomethod]" +
                              "[?invocation :MethodInvocationRef/x ?x]" +
-                             "[?x :CallGraphEdgeSourceRef/x ?y]" +
                              "[?y :InstructionRef/x ?z]" +
+                             "[?x :CallGraphEdgeSourceRef/x ?y]" +
                              "[?tomethod :MethodSignatureRef/value ?value]]", 
                              conn.db());
 //            for ( Object result : results ) {
@@ -200,6 +201,7 @@ public class MyPointerAnalysis {
         data_rdr = new FileReader("../schema_and_seed_data/seed-data.dtm");
         data_tx = (List) Util.readAll(data_rdr).get(0);
 	txResult = conn.transact(data_tx).get();
+        conn.gcStorage(new Date());
         
         System.out.println( "input facts imported" );
                 
