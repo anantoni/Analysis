@@ -9,18 +9,6 @@ package main;
  * @author
  * anantoni
  */
-// Copyright (c) Metadata Partners, LLC.
-// All rights reserved.
-
-/* 
- * To compile, from the top-level project directory
- *
- *    javac -cp `bin/classpath` samples/seattle/GettingStarted.java
- *
- * To run:
- *
- *    java -cp `bin/classpath`:samples/seattle GettingStarted
- */
 
 import analysis.MyAnalysis;
 import analysis.RecursiveFixPoint;
