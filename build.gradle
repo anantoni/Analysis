@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+             mavenCentral()
+             maven { url "http://clojars.org/repo" }        
+}
+
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+project.group = 'plast-lab'
+project.version = 1.0
+
+mainClassName = 'Main'
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = 2.13
+}
+
+dependencies {
+    compile "com.datomic:datomic-free:0.9.5359"
+}
