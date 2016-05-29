@@ -1,83 +1,213 @@
-bonjour
-VarPointsTo: 31
-sun.misc.Version.init/$stringconstant0, <<string-constant>>
-sun.misc.NativeSignalHandler.<init>/r0, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/1
-sun.misc.Version.init/$stringconstant5, <<string-constant>>
-sun.misc.Signal.<clinit>/$r0, sun.misc.Signal.<clinit>/new java.util.Hashtable/0
-sun.misc.Signal.handle/$r23, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
-sun.misc.NativeSignalHandler.<init>/@this, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/0
-sun.misc.NativeSignalHandler.<init>/@this, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/1
-sun.misc.Signal.handle/$r8, sun.misc.Signal.handle/new java.lang.StringBuffer/0
-<sun.misc.Launcher$Factory: void <init>()>/@this, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
-sun.misc.SignalHandler.<clinit>/$r1, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/1
-sun.misc.Launcher$Factory.<clinit>/$stringconstant0, <<string-constant>>
-sun.misc.NativeSignalHandler.<init>/r0, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
-sun.misc.Version.init/$stringconstant3, <<string-constant>>
-sun.misc.NativeSignalHandler.<init>/r0, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/0
-sun.misc.Signal.handle/$r7, sun.io.ByteToCharConverter.setSubstitutionChars/new java.lang.IllegalArgumentException/0
-sun.misc.Launcher$1.<init>/@this, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$1/0
-sun.misc.Signal.<clinit>/$r1, sun.misc.Signal.<clinit>/new java.util.Hashtable/1
-sun.misc.Version.init/$stringconstant1, <<string-constant>>
-sun.misc.Version.init/$stringconstant4, <<string-constant>>
-sun.misc.Launcher$1.<init>/r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$1/0
-sun.misc.NativeSignalHandler.<init>/@this, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
-<sun.misc.Launcher$Factory: void <init>()>/r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
-<sun.misc.Launcher$Factory: void <init>(sun.misc.Launcher$1)>/r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
-sun.misc.SignalHandler.<clinit>/$r0, sun.misc.SignalHandler.<clinit>/new sun.misc.NativeSignalHandler/0
-sun.misc.Signal.handle/$r13, sun.misc.Signal.handle/new java.lang.Integer/0
-sun.misc.Signal.handle/$stringconstant0, <<string-constant>>
-<sun.misc.Launcher$Factory: void <init>(sun.misc.Launcher$1)>/@this, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
-sun.misc.Signal.handle/r24, sun.misc.Signal.handle/new sun.misc.NativeSignalHandler/0
-sun.misc.Launcher.<clinit>/$r0, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$Factory/0
-sun.misc.Version.init/$stringconstant2, <<string-constant>>
-sun.misc.Launcher.<clinit>/$r1, sun.misc.Launcher.<clinit>/new sun.misc.Launcher$1/0
-CallGraphEdge: 48
-sun.misc.Signal.handle/java.lang.Integer.<init>/2, <java.lang.Integer: void <init>(int)>
-<sun.misc.Launcher$Factory: void <init>(sun.misc.Launcher$1)>/sun.misc.Launcher$Factory.<init>/0, <sun.misc.Launcher$Factory: void <init>()>
-sun.misc.SignalHandler.<clinit>/sun.misc.NativeSignalHandler.<init>/1, <sun.misc.NativeSignalHandler: void <init>(long)>
-java.lang.ClassLoader.getSystemClassLoader/java.lang.ClassLoader.getGetClassLoaderPerm/0, <java.lang.ClassLoader: java.lang.RuntimePermission getGetClassLoaderPerm()>
-java.lang.Terminator.setup/sun.misc.Signal.handle/2, <sun.misc.Signal: sun.misc.SignalHandler handle(sun.misc.Signal,sun.misc.SignalHandler)>
-java.lang.System.initializeSystemClass/java.lang.Terminator.setup/0, <java.lang.Terminator: void setup()>
-sun.misc.Signal.<clinit>/java.util.Hashtable.<init>/0, <java.util.Hashtable: void <init>(int)>
-java.lang.Terminator.setup/sun.misc.Signal.handle/0, <sun.misc.Signal: sun.misc.SignalHandler handle(sun.misc.Signal,sun.misc.SignalHandler)>
-sun.misc.Launcher.<clinit>/java.security.AccessController.doPrivileged/0, <java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction)>
-<java.lang.ClassLoader: void <init>()>/java.lang.ClassLoader.getSystemClassLoader/0, <java.lang.ClassLoader: java.lang.ClassLoader getSystemClassLoader()>
-sun.misc.Signal.handle/java.lang.StringBuffer.append/0, <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
-java.lang.System.<clinit>/java.lang.System.nullPrintStream/0, <java.lang.System: java.io.PrintStream nullPrintStream()>
-java.lang.System.nullInputStream/java.lang.System.currentTimeMillis/0, <java.lang.System: long currentTimeMillis()>
-java.lang.ClassLoader.getSystemClassLoader/java.lang.ClassLoader.getCallerClassLoader/0, <java.lang.ClassLoader: java.lang.ClassLoader getCallerClassLoader()>
-sun.misc.Version.init/java.lang.System.setProperty/2, <java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>
-java.lang.System.initializeSystemClass/sun.misc.Version.init/0, <sun.misc.Version: void init()>
-java.lang.System.initializeSystemClass/java.lang.System.setOut0/0, <java.lang.System: void setOut0(java.io.PrintStream)>
-sun.misc.Launcher.<clinit>/sun.misc.Launcher$1.<init>/1, <sun.misc.Launcher$1: void <init>()>
-java.lang.System.<clinit>/java.lang.System.registerNatives/0, <java.lang.System: void registerNatives()>
-java.lang.Integer.<clinit>/java.lang.Class.getPrimitiveClass/0, <java.lang.Class: java.lang.Class getPrimitiveClass(java.lang.String)>
-sun.misc.SignalHandler.<clinit>/sun.misc.NativeSignalHandler.<init>/0, <sun.misc.NativeSignalHandler: void <init>(long)>
-java.lang.System.<clinit>/java.lang.System.nullInputStream/0, <java.lang.System: java.io.InputStream nullInputStream()>
-sun.misc.Version.init/java.lang.System.setProperty/0, <java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>
-sun.misc.Signal.handle/java.lang.IllegalArgumentException.<init>/1, <java.lang.IllegalArgumentException: void <init>(java.lang.String)>
-java.lang.System.initializeSystemClass/java.lang.System.initProperties/0, <java.lang.System: java.util.Properties initProperties(java.util.Properties)>
-java.lang.ClassLoader.checkPackageAccess/java.lang.System.getSecurityManager/0, <java.lang.System: java.lang.SecurityManager getSecurityManager()>
-sun.misc.Launcher.<clinit>/sun.misc.Launcher$Factory.<init>/0, <sun.misc.Launcher$Factory: void <init>(sun.misc.Launcher$1)>
-<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>/java.lang.String.valueOf/0, <java.lang.String: java.lang.String valueOf(java.lang.Object)>
-java.lang.Terminator.setup/sun.misc.Signal.handle/1, <sun.misc.Signal: sun.misc.SignalHandler handle(sun.misc.Signal,sun.misc.SignalHandler)>
-java.lang.System.nullPrintStream/java.lang.System.currentTimeMillis/0, <java.lang.System: long currentTimeMillis()>
-java.lang.System.initializeSystemClass/java.lang.System.setErr0/0, <java.lang.System: void setErr0(java.io.PrintStream)>
-java.lang.System.initializeSystemClass/java.lang.System.setIn0/0, <java.lang.System: void setIn0(java.io.InputStream)>
-sun.misc.Version.<clinit>/sun.misc.Version.init/0, <sun.misc.Version: void init()>
-java.lang.Class.<clinit>/java.lang.Class.registerNatives/0, <java.lang.Class: void registerNatives()>
-sun.misc.Signal.handle/java.lang.StringBuffer.<init>/0, <java.lang.StringBuffer: void <init>()>
-java.lang.Object.<clinit>/java.lang.Object.registerNatives/0, <java.lang.Object: void registerNatives()>
-java.lang.ClassLoader.getSystemClassLoader/java.lang.System.getSecurityManager/0, <java.lang.System: java.lang.SecurityManager getSecurityManager()>
-<java.lang.ClassLoader: void <init>()>/java.lang.System.getSecurityManager/0, <java.lang.System: java.lang.SecurityManager getSecurityManager()>
-sun.misc.NativeSignalHandler.<init>/java.lang.Object.<init>/0, <java.lang.Object: void <init>()>
-java.lang.System.<clinit>/java.lang.System.nullPrintStream/1, <java.lang.System: java.io.PrintStream nullPrintStream()>
-sun.misc.Signal.<clinit>/java.util.Hashtable.<init>/1, <java.util.Hashtable: void <init>(int)>
-<sun.misc.Launcher$Factory: void <init>()>/java.lang.Object.<init>/0, <java.lang.Object: void <init>()>
-sun.misc.Signal.handle/sun.misc.Signal.handle0/0, <sun.misc.Signal: long handle0(int,long)>
-sun.misc.Launcher$1.<init>/java.lang.Object.<init>/0, <java.lang.Object: void <init>()>
-java.lang.ClassLoader.getSystemClassLoader/sun.misc.Launcher.getLauncher/0, <sun.misc.Launcher: sun.misc.Launcher getLauncher()>
-java.lang.ClassLoader.checkPackageAccess/java.security.AccessController.doPrivileged/0, <java.security.AccessController: java.lang.Object doPrivileged(java.security.PrivilegedAction,java.security.AccessControlContext)>
-sun.misc.Signal.handle/sun.misc.NativeSignalHandler.<init>/3, <sun.misc.NativeSignalHandler: void <init>(long)>
-sun.misc.Version.init/java.lang.System.setProperty/1, <java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>
-Reachable: 57
+[
+[ (VarType ?var ?type)
+ [?var :Var/type ?type] ]
+[ (ThisVar ?method ?this)
+ [?thisVar :ThisVar/method ?method]
+ [?thisVar :ThisVar/var ?this] ]
+[ (HeapAllocationType ?heap ?type)
+ [?heapAllocationType :HeapAllocation-Type/heap ?heap]
+ [?heapAllocationType :HeapAllocation-Type/type ?type] ]
+[ (MethodDeclaration ?signature ?method)
+ [?methodDeclaration :Method/signature ?signature]
+ [?methodDeclaration :Method/declaration ?method] ]
+[ (AssignCompatible ?target ?source)
+ [?assignCompatible :AssignCompatible/target ?target]
+ [?assignCompatible :AssignCompatible/source ?source] ]
+[ (ComponentType ?arrayType ?componentType)
+ [?componentType :ComponentType/arrayType ?arrayType]
+ [?componentType :ComponentType/componentType ?componentType] ]
+[ (Reachable ?method)
+ [?mainMethodDeclaration :MainMethodDeclaration/method ?method] ]
+[ (Reachable ?method)
+ [?implicitReachable :ImplicitReachable/sig ?method] ]
+[ (Reachable ?clinit)
+ [?initializedClass :InitializedClass/classOrInterface ?class]
+ [?classInitializer :ClassInitializer/type ?class]
+ [?classInitializer :ClassInitializer/method ?clinit] ]
+[ (Reachable ?tomethod)
+ (Reachable ?inmethod)
+ [?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]
+ [?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]
+ [?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature]
+ [?virtualMethodInvocation :VirtualMethodInvocation/base ?base]
+ [?method :Method/signature ?signature]
+ [?method :Method/simplename ?simplename]
+ [?method :Method/descriptor ?descriptor]
+ (VarPointsTo ?heap ?base)
+ (HeapAllocationType ?heap ?type)
+ [?methodLookup :MethodLookup/simplename ?simplename]
+ [?methodLookup :MethodLookup/descriptor ?descriptor]
+ [?methodLookup :MethodLookup/type ?type]
+  [?methodLookup :MethodLookup/method ?tomethod]
+  (ThisVar ?tomethod _ ) ]
+ [ (Reachable ?tomethod)
+  (Reachable ?inmethod)
+  [?specialMethodInvocation :SpecialMethodInvocation/inmethod ?inmethod]
+  [?specialMethodInvocation :SpecialMethodInvocation/invocation ?invocation]
+  [?specialMethodInvocation :SpecialMethodInvocation/base ?base]
+  (VarPointsTo _ ?base)
+  [?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]
+  (MethodDeclaration ?signature ?tomethod)
+  (ThisVar ?tomethod _ ) ]
+ [ (Reachable ?tomethod)
+  (Reachable ?inmethod)
+  [?staticMethodInvocation :StaticMethodInvocation/inmethod ?inmethod]
+  [?staticMethodInvocation :StaticMethodInvocation/invocation _]
+  [?staticMethodInvocation :StaticMethodInvocation/signature ?signature]
+  (MethodDeclaration ?signature ?tomethod) ]
+ [ (CallGraphEdge ?invocation ?tomethod)
+  (Reachable ?inmethod)
+  [?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]
+  [?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]
+  [?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature]
+  [?virtualMethodInvocation :VirtualMethodInvocation/base ?base]
+  (VarPointsTo ?heap ?base)
+  [?method :Method/signature ?signature]
+  [?method :Method/simplename ?simplename]
+  [?method :Method/descriptor ?descriptor]
+  (HeapAllocationType ?heap ?type)
+  [?methodLookup :MethodLookup/simplename ?simplename]
+  [?methodLookup :MethodLookup/descriptor ?descriptor]
+  [?methodLookup :MethodLookup/type ?type]
+  [?methodLookup :MethodLookup/method ?tomethod]
+  (ThisVar ?tomethod _ ) ]
+ [ (CallGraphEdge ?invocation ?tomethod)
+  (Reachable ?inmethod)
+  [?specialMethodInvocation :SpecialMethodInvocation/inmethod ?inmethod]
+  [?specialMethodInvocation :SpecialMethodInvocation/invocation ?invocation]
+  [?specialMethodInvocation :SpecialMethodInvocation/base ?base]
+  (VarPointsTo _ ?base)
+  [?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]
+  (MethodDeclaration ?signature ?tomethod)
+  (ThisVar ?tomethod _) ]
+ [ (CallGraphEdge ?invocation ?tomethod)
+  (Reachable ?inmethod)
+  [?staticMethodInvocation :StaticMethodInvocation/inmethod ?inmethod]
+  [?staticMethodInvocation :StaticMethodInvocation/invocation ?invocation]
+  [?staticMethodInvocation :StaticMethodInvocation/signature ?signature]
+  (MethodDeclaration ?signature ?tomethod) ]
+ [ (VarPointsTo ?heap ?var)
+  (Reachable ?inmethod)
+  [?a :AssignNormalHeapAllocation/inmethod ?inmethod]
+  [?a :AssignNormalHeapAllocation/heap ?heap]
+  [?a :AssignNormalHeapAllocation/var ?var] ]
+ [ (VarPointsTo ?heap ?var)
+  (Reachable ?inmethod)
+  [?a :AssignAuxiliaryHeapAllocation/inmethod ?inmethod]
+  [?a :AssignAuxiliaryHeapAllocation/heap ?heap]
+  [?a :AssignAuxiliaryHeapAllocation/var ?var] ]
+ [ (VarPointsTo ?heap ?var)
+  (Reachable ?inmethod)
+  [?a :AssignContextInsensitiveHeapAllocation/inmethod ?inmethod]
+  [?a :AssignContextInsensitiveHeapAllocation/heap ?heap]
+  [?a :AssignContextInsensitiveHeapAllocation/var ?var] ]
+ [ (VarPointsTo ?heap ?this)
+  (Reachable ?inmethod)
+  [?virtualMethodInvocation :VirtualMethodInvocation/inmethod ?inmethod]
+  [?virtualMethodInvocation :VirtualMethodInvocation/invocation ?invocation]
+  [?virtualMethodInvocation :VirtualMethodInvocation/signature ?signature]
+  [?virtualMethodInvocation :VirtualMethodInvocation/base ?base]
+  (VarPointsTo ?heap ?base)
+  [?method :Method/signature ?signature]
+  [?method :Method/simplename ?simplename]
+  [?method :Method/descriptor ?descriptor]
+  (HeapAllocationType ?heap ?type)
+  [?methodLookup :MethodLookup/simplename ?simplename]
+  [?methodLookup :MethodLookup/descriptor ?descriptor]
+  [?methodLookup :MethodLookup/type ?type]
+  [?methodLookup :MethodLookup/method ?tomethod]
+  (ThisVar ?tomethod ?this) ]
+ [ (VarPointsTo ?heap ?this)
+  (Reachable ?inmethod)
+  [?specialMethodInvocation :SpecialMethodInvocation/inmethod ?inmethod]
+  [?specialMethodInvocation :SpecialMethodInvocation/invocation ?invocation]
+  [?specialMethodInvocation :SpecialMethodInvocation/base ?base]
+  (VarPointsTo ?heap ?base)
+  [?specialMethodInvocation :SpecialMethodInvocation/signature ?signature]
+  (MethodDeclaration ?signature ?tomethod)
+  (ThisVar ?tomethod ?this) ]
+ [ (VarPointsTo ?heap ?to)
+  (Reachable ?inmethod)
+  [?assignLocal :AssignLocal/inmethod ?inmethod]
+  [?assignLocal :AssignLocal/to ?to]
+  [?assignLocal :AssignLocal/from ?from]
+  (VarPointsTo ?heap ?from) ]
+ [ (VarPointsTo ?heap ?to)
+  (Reachable ?inmethod)
+ [?loadInstanceField :LoadInstanceField/inmethod ?inmethod]
+  [?loadInstanceField :LoadInstanceField/sig ?fieldsig]
+  [?loadInstanceField :LoadInstanceField/base ?base]
+  [?loadInstanceField :LoadInstanceField/to ?to]
+  (VarPointsTo ?heapbase ?base)
+  (InstanceFieldPointsTo ?heapbase ?fieldsig ?heap) ]
+ [ (VarPointsTo ?heap ?to)
+  (Reachable ?inmethod)
+  [?loadStaticField :LoadStaticField/inmethod ?inmethod]
+  [?loadStaticField :LoadStaticField/sig ?fieldsig]
+  [?loadStaticField :LoadStaticField/to ?to]
+  (StaticFieldPointsTo ?fieldsig ?heap) ]
+   (Assign ?type ?from ?to)
+   (VarPointsTo ?heap ?from)
+   (HeapAllocationType ?heap ?heaptype)
+   (AssignCompatible ?type ?heaptype) ]
+  [ (VarPointsTo ?heap ?to)
+   (Reachable ?inmethod)
+   [?loadArrayIndex :LoadArrayIndex/inmethod ?inmethod]
+   [?loadArrayIndex :LoadArrayIndex/to ?to]
+   [?loadArrayIndex :LoadArrayIndex/base ?base]
+   (VarPointsTo ?heapbase ?base)
+   (ArrayIndexPointsTo ?heapbase ?heap)
+   (VarType ?to ?type)
+   (HeapAllocationType ?heapbase ?heapbasetype)
+   [?componentType :ComponentType/arrayType ?heapbasetype]
+   [?componentType :ComponentType/componentType ?basecomponenttype]
+   (AssignCompatible ?type ?basecomponenttype) ]
+  [ (Assign ?type ?from ?to)
+   (Reachable ?inmethod)
+   [?assignCast :AssignCast/inmethod ?inmethod]
+   [?assignCast :AssignCast/type ?type]
+   [?assignCast :AssignCast/from ?from]
+   [?assignCast :AssignCast/to ?to] ]
+  [ (Assign ?type ?actual ?formal)
+   (CallGraphEdge ?invocation ?method)
+   [?formalParam :FormalParam/method ?method]
+   [?formalParam :FormalParam/index ?index]
+   [?formalParam :FormalParam/var ?formal]
+   [?actualParam :ActualParam/invocation ?invocation]
+   [?actualParam :ActualParam/index ?index]
+   [?actualParam :ActualParam/var ?actual]
+   (VarType ?formal ?type) ]
+  [ (Assign ?type ?return ?local)
+   (CallGraphEdge ?invocation ?method)
+   [?assignReturnValue :AssignReturnValue/invocation ?invocation]
+   [?assignReturnValue :AssignReturnValue/to ?local]
+   [?returnVar :ReturnVar/method ?method]
+   [?returnVar :ReturnVar/var ?return]
+   (VarType ?local ?type) ]
+  [ (StaticFieldPointsTo ?fieldsig ?heap)
+   (Reachable ?inmethod)
+   [?storeStaticField :StoreStaticField/inmethod ?inmethod]
+   [?storeStaticField :StoreStaticField/signature ?fieldsig]
+   [?storeStaticField :StoreStaticField/from ?from]
+   (VarPointsTo ?heap ?from) ]
+  [ (InstanceFieldPointsTo ?heapbase ?fieldsig ?heap)
+   (Reachable ?inmethod)
+   [?storeInstanceField :StoreInstanceField/inmethod ?inmethod]
+   [?storeInstanceField :StoreInstanceField/base ?base]
+   [?storeInstanceField :StoreInstanceField/from ?from]
+   [?storeInstanceField :StoreInstanceField/signature ?fieldsig]
+   (VarPointsTo ?heapbase ?base)
+   (VarPointsTo ?heap ?from) ]
+  [ (ArrayIndexPointsTo ?heapbase ?heap)
+   (Reachable ?inmethod)
+   [?storeArrayIndex :StoreArrayIndex/inmethod ?inmethod]
+   [?storeArrayIndex :StoreArrayIndex/from ?from]
+   [?storeArrayIndex :StoreArrayIndex/base ?base]
+   (VarPointsTo ?heapbase ?base)
+   (VarPointsTo ?heap ?from)
+   (HeapAllocationType ?heap ?heaptype)
+   (HeapAllocationType ?heapbase ?heapbasetype)
+   [?componentType :ComponentType/arrayType ?heapbasetype]
+   [?componentType :ComponentType/componentType ?componenttype]
+   (AssignCompatible ?componenttype ?heaptype) ]
+  ]
