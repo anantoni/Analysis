@@ -1,8 +1,12 @@
 import analysis.MyAnalysis;
+import analysis.RecursiveFixPoint;
 import datomic.Connection;
 import datomic.Peer;
 import datomic.Util;
+import inputfactsconverter.InputFactsConverter;
 
+import java.io.*;
+import java.util.*;
 import java.util.concurrent.ExecutionException;
 
 public class Main {
@@ -12,7 +16,7 @@ public class Main {
         try {
             System.out.println( Thread.currentThread().getContextClassLoader().getResources("data_readers.clj") );
             // Comment the following line in order to not reproduce the .dtm files
-            //InputFactsConverter inputFactsConverter = new InputFactsConverter();
+            InputFactsConverter inputFactsConverter = new InputFactsConverter();
 
 
             System.out.println("Creating and connecting to database...");
@@ -24,7 +28,7 @@ public class Main {
 
             System.out.println("Parsing schema dtm file and running transaction...");
 
-            Reader schema_rdr = new FileReader("../schema_and_seed_data/schema.dtm");
+            Reader schema_rdr = new FileReader("schema_and_seed_data/schema.dtm");
             List schema_tx = (List) Util.readAll(schema_rdr).get(0);
             Object txResult = conn.transact(schema_tx).get();
             System.out.println(txResult);
@@ -100,8 +104,9 @@ public class Main {
 //          System.out.println("method signature - descriptor: \t" + results.size());
             Peer.shutdown(true);
 
-        }
-        catch (IOException | InterruptedException | ExecutionException e) {
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch ( InterruptedException | ExecutionException e) {
             e.printStackTrace();
             System.out.println( e.toString() );
             System.exit(-1);

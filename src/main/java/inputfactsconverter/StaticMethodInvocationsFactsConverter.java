@@ -36,7 +36,7 @@ public class StaticMethodInvocationsFactsConverter implements FactsConverter, Ru
     public void parseLogicBloxFactsFile() {
         try {
                     
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/StaticMethodInvocation.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/StaticMethodInvocation.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -110,7 +110,7 @@ public class StaticMethodInvocationsFactsConverter implements FactsConverter, Ru
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/StaticMethodInvocation.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/StaticMethodInvocation.dtm", false)));) {
                 for ( StaticMethodInvocation key : staticMethodInvocationFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :StaticMethodInvocation/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );

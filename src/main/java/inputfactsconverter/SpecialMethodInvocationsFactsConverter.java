@@ -39,7 +39,7 @@ public class SpecialMethodInvocationsFactsConverter implements FactsConverter, R
     public void parseLogicBloxFactsFile() {
         try {
                     
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/SpecialMethodInvocation-Base.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/SpecialMethodInvocation-Base.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -89,7 +89,7 @@ public class SpecialMethodInvocationsFactsConverter implements FactsConverter, R
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/SpecialMethodInvocation-In.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/SpecialMethodInvocation-In.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -135,7 +135,7 @@ public class SpecialMethodInvocationsFactsConverter implements FactsConverter, R
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/SpecialMethodInvocation-Signature.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/SpecialMethodInvocation-Signature.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -190,7 +190,7 @@ public class SpecialMethodInvocationsFactsConverter implements FactsConverter, R
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/SpecialMethodInvocation.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/SpecialMethodInvocation.dtm", false)));) {
                 for ( SpecialMethodInvocation key : specialMethodInvocationFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :SpecialMethodInvocation/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );

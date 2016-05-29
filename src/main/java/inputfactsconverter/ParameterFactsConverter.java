@@ -42,7 +42,7 @@ public class ParameterFactsConverter implements FactsConverter {
     public void parseLogicBloxFactsFile() {
         try {
                     
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/FormalParam.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/FormalParam.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -106,7 +106,7 @@ public class ParameterFactsConverter implements FactsConverter {
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodInvocationRef.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/MethodInvocationRef.facts" ) )) {
                 String line;
 
                 while ((line = br.readLine()) != null) {
@@ -128,7 +128,7 @@ public class ParameterFactsConverter implements FactsConverter {
                 br.close();
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ActualParam.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ActualParam.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -192,7 +192,7 @@ public class ParameterFactsConverter implements FactsConverter {
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ThisVar.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ThisVar.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -256,7 +256,7 @@ public class ParameterFactsConverter implements FactsConverter {
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodInvocationRef.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/MethodInvocationRef.dtm", false)));) {
                 for ( MethodInvocationRef key : methodInvocationRefFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :MethodInvocationRef/x #db/id[:db.part/user " + key.getCallGraphEdgeSourceRef().getID() + "]}" );
@@ -266,7 +266,7 @@ public class ParameterFactsConverter implements FactsConverter {
             }
             System.out.println( "MethodInvocationRef facts converted: " + methodInvocationRefFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ActualParam.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ActualParam.dtm", false)));) {
                 for ( ActualParam key : actualParamFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :ActualParam/index " + key.getIndex() );
@@ -278,7 +278,7 @@ public class ParameterFactsConverter implements FactsConverter {
             }
             System.out.println( "ActualParam facts converted: " + actualParamFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/FormalParam.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/FormalParam.dtm", false)));) {
                 for ( FormalParam key : formalParamFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :FormalParam/index " + key.getIndex() );
@@ -290,7 +290,7 @@ public class ParameterFactsConverter implements FactsConverter {
             }
             System.out.println( "FormalParam facts converted: " + formalParamFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ThisVar.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ThisVar.dtm", false)));) {
                 for ( ThisVar key : thisVarFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :ThisVar/method #db/id[:db.part/user " + key.getMethod().getID() + "]" );

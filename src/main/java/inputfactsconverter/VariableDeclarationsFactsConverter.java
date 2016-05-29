@@ -37,7 +37,7 @@ public class VariableDeclarationsFactsConverter implements FactsConverter, Runna
     public void parseLogicBloxFactsFile() {
         
         try {
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodSignatureRef.facts" ) ) ) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/MethodSignatureRef.facts" ) ) ) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -48,7 +48,7 @@ public class VariableDeclarationsFactsConverter implements FactsConverter, Runna
                 br.close();
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/Var-Type.facts" ) ) ) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/Var-Type.facts" ) ) ) {
                 String line;
 
                 while ((line = br.readLine()) != null) {
@@ -88,7 +88,7 @@ public class VariableDeclarationsFactsConverter implements FactsConverter, Runna
                 br.close();
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/Var-DeclaringMethod.facts" ) ) ) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/Var-DeclaringMethod.facts" ) ) ) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -148,7 +148,7 @@ public class VariableDeclarationsFactsConverter implements FactsConverter, Runna
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/Var.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/Var.dtm", false)));) {
                 for ( Var key : varFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :Var/name " + "\""+ key.getName() + "\"");
@@ -160,7 +160,7 @@ public class VariableDeclarationsFactsConverter implements FactsConverter, Runna
             }
             System.out.println( "Var facts converted: " + varFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodSignatureRef.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/MethodSignatureRef.dtm", false)));) {
                 for ( MethodSignatureRef key : methodSignatureRefFactsList) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :MethodSignatureRef/value " + "\"" + key.getValue() + "\"" + "}");

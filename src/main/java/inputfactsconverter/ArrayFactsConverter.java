@@ -121,7 +121,7 @@ public class ArrayFactsConverter implements FactsConverter, Runnable {
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/StoreArrayIndex.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/StoreArrayIndex.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -183,7 +183,7 @@ public class ArrayFactsConverter implements FactsConverter, Runnable {
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ComponentType.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ComponentType.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -244,7 +244,7 @@ public class ArrayFactsConverter implements FactsConverter, Runnable {
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/LoadArrayIndex.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/LoadArrayIndex.dtm", false)));) {
                 for ( LoadArrayIndex key : loadArrayIndexFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :LoadArrayIndex/base #db/id[:db.part/user " + key.getBase().getID() + "]" );
@@ -255,7 +255,7 @@ public class ArrayFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "LoadArrayIndex facts converted: " + loadArrayIndexFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/StoreArrayIndex.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/StoreArrayIndex.dtm", false)));) {
                 for ( StoreArrayIndex key : storeArrayIndexFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :StoreArrayIndex/from #db/id[:db.part/user " + key.getFrom().getID() + "]" );
@@ -266,7 +266,7 @@ public class ArrayFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "StoreArrayIndex facts converted: " + storeArrayIndexFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ComponentType.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ComponentType.dtm", false)));) {
                 for ( ComponentType key : componentTypeFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :ComponentType/arrayType #db/id[:db.part/user " + key.getArrayType().getReferenceType().getType().getID() + "]" );

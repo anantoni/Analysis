@@ -29,7 +29,7 @@ public class RecursiveFixPoint {
     public void reachFixPoint() {
         PrintWriter writer = null;
         try {
-            writer = new PrintWriter("../cache/analysis/results.txt", "UTF-8");
+            writer = new PrintWriter("cache/analysis/results.txt", "UTF-8");
         } catch (FileNotFoundException ex) {
             Logger.getLogger(RecursiveFixPoint.class.getName()).log(Level.SEVERE, null, ex);
             System.exit(-1);
@@ -40,7 +40,7 @@ public class RecursiveFixPoint {
         Object rules = null;
         Reader rulesReader;
         try {
-            rulesReader = new FileReader("resources/analysis.edn");
+            rulesReader = new FileReader("cache/analysis/analysis.edn");
             rules = Util.readAll(rulesReader).get(0);
         } catch (FileNotFoundException ex) {
             System.out.println(ex.toString());
@@ -97,8 +97,6 @@ public class RecursiveFixPoint {
         }
         writer.flush();
         
-        
-        
         results = q( "[:find ?fieldsig ?heap " +
                      ":in $ % " +
                      ":where (StaticFieldPointsTo ?fieldsig ?heap ) ]" , 
@@ -115,13 +113,7 @@ public class RecursiveFixPoint {
         System.out.println("InstanceFieldPointsTo: " + results.size() );
         writer.println("InstanceFieldPointsTo: " + results.size() );
         writer.flush();
-        
-        
-        
-        
-        
-        
-        
+
         results = q( "[:find ?z ?value " +
                      ":in $ % " +
                      ":where (CallGraphEdge ?invocation ?tomethod)" +

@@ -90,7 +90,7 @@ public class FieldDeclarationsFactsConverter implements FactsConverter, Runnable
     public void parseLogicBloxFactsFile() {
 
         try {
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/FieldSignatureRef.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/FieldSignatureRef.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -100,7 +100,7 @@ public class FieldDeclarationsFactsConverter implements FactsConverter, Runnable
                 br.close();
             }
 
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/SimpleNameRef.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/SimpleNameRef.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -110,7 +110,7 @@ public class FieldDeclarationsFactsConverter implements FactsConverter, Runnable
                 br.close();
             }
 
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ModifierRef.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ModifierRef.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -120,7 +120,7 @@ public class FieldDeclarationsFactsConverter implements FactsConverter, Runnable
                 br.close();
             }
 
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/FieldSignature.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/FieldSignature.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -204,7 +204,7 @@ public class FieldDeclarationsFactsConverter implements FactsConverter, Runnable
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/FieldSignatureRef.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/FieldSignatureRef.dtm", false)));) {
                 for ( FieldSignatureRef key : fieldSignatureRefFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :FieldSignatureRef/value " + "\""+ key.getValue() + "\""+ "}");
@@ -213,7 +213,7 @@ public class FieldDeclarationsFactsConverter implements FactsConverter, Runnable
             }
             System.out.println( "FieldSignatureRef facts converted: " + fieldSignatureRefFactsList.size() );
 
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/SimpleNameRef.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/SimpleNameRef.dtm", false)));) {
                 for ( SimpleNameRef key : simpleNameRefFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :SimpleNameRef/value " + "\"" + key.getValue() + "\"" + "}");
@@ -222,7 +222,7 @@ public class FieldDeclarationsFactsConverter implements FactsConverter, Runnable
             }
             System.out.println( "SimpleNameRef facts converted: " + simpleNameRefFactsList.size() );
 
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ModifierRef.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ModifierRef.dtm", false)));) {
                 for ( ModifierRef key : modifierRefFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :ModifierRef/value " + "\"" + key.getValue() + "\"" + "}");
@@ -232,7 +232,7 @@ public class FieldDeclarationsFactsConverter implements FactsConverter, Runnable
             System.out.println( "ModifierRef facts converted: " + modifierRefFactsList.size() );
 
 
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/FieldSignature.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/FieldSignature.dtm", false)));) {
                 for ( FieldSignature key : fieldSignatureFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :FieldSignature/ref #db/id[:db.part/user " + key.getFieldSignatureRef().getID() +"]");

@@ -61,7 +61,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
     public void parseLogicBloxFactsFile() {
         try {
                     
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/InitializedClass.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/InitializedClass.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -86,7 +86,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ClassInitializer.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ClassInitializer.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -138,7 +138,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/AssignCompatible.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/AssignCompatible.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -191,7 +191,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodLookup.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/MethodLookup.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -267,7 +267,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/AssignNormalHeapAllocation.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/AssignNormalHeapAllocation.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -332,7 +332,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/AssignAuxiliaryHeapAllocation.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/AssignAuxiliaryHeapAllocation.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -397,7 +397,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/AssignContextInsensitiveHeapAllocation.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/AssignContextInsensitiveHeapAllocation.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -460,7 +460,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MainMethodDeclaration.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/MainMethodDeclaration.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -484,7 +484,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ImplicitReachable.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ImplicitReachable.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -519,7 +519,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ClassInitializer.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ClassInitializer.dtm", false)));) {
                 for ( ClassInitializer key : classInitializerFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :ClassInitializer/type #db/id[:db.part/user " + key.getType().getID() +"]" );
@@ -530,7 +530,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "ClassInitializer facts converted: " + classInitializerFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/InitializedClass.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/InitializedClass.dtm", false)));) {
                 for ( InitializedClass key : initializedClassFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :InitializedClass/classOrInterface #db/id[:db.part/user " + key.getClassOrInterface().getID() +"]}" );
@@ -539,7 +539,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "InitializedClass facts converted: " + initializedClassFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ImplicitReachable.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ImplicitReachable.dtm", false)));) {
                 for ( ImplicitReachable key : implicitReachabeFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :ImplicitReachable/sig #db/id[:db.part/user " + key.getMethod().getID() + "]}" );
@@ -548,7 +548,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "ImplicitReachable facts converted: " + implicitReachabeFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MainMethodDeclaration.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/MainMethodDeclaration.dtm", false)));) {
                 for ( MainMethodDeclaration key : mainMethodDeclarationFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :MainMethodDeclaration/method #db/id[:db.part/user " + key.getMethod().getID() + "]}" );
@@ -557,7 +557,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "MainMethodDeclaration facts converted: " + mainMethodDeclarationFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/AssignCompatible.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/AssignCompatible.dtm", false)));) {
                 for ( AssignCompatible key : assignCompatibleFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :AssignCompatible/target #db/id[:db.part/user " + key.getTarget().getID() + "]" );
@@ -567,7 +567,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "AssignCompatible facts converted: " + assignCompatibleFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodLookup.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/MethodLookup.dtm", false)));) {
                 for ( MethodLookup key : methodLookupFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :MethodLookup/type #db/id[:db.part/user " + key.getType().getID() + "]" );
@@ -579,7 +579,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "MethodLookup facts converted: " + methodLookupFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/AssignNormalHeapAllocation.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/AssignNormalHeapAllocation.dtm", false)));) {
                 for ( AssignNormalHeapAllocation key : assignNormalHeapAllocationFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :AssignNormalHeapAllocation/heap #db/id[:db.part/user " + key.getHeap().getID() + "]" );
@@ -590,7 +590,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "AssignNormalHeapAllocation facts converted: " + assignNormalHeapAllocationFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/AssignAuxiliaryHeapAllocation.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/AssignAuxiliaryHeapAllocation.dtm", false)));) {
                 for ( AssignAuxiliaryHeapAllocation key : assignAuxiliaryHeapAllocationFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :AssignAuxiliaryHeapAllocation/heap #db/id[:db.part/user " + key.getHeap().getID() + "]" );
@@ -601,7 +601,7 @@ public class LibraryFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "AssignAuxiliaryHeapAllocation facts converted: " + assignAuxiliaryHeapAllocationFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/AssignContextInsensitiveHeapAllocation.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/AssignContextInsensitiveHeapAllocation.dtm", false)));) {
                 for ( AssignContextInsensitiveHeapAllocation key : assignContextInsensitiveHeapAllocationFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :AssignContextInsensitiveHeapAllocation/heap #db/id[:db.part/user " + key.getHeap().getID() + "]" );

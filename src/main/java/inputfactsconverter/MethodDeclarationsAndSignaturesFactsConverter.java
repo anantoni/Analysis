@@ -41,7 +41,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter implements FactsConve
     @Override
     public void parseLogicBloxFactsFile() {
         try {
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodDescriptorRef.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/MethodDescriptorRef.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -52,7 +52,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter implements FactsConve
                 br.close();
             }
                     
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodDeclaration.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/MethodDeclaration.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -104,7 +104,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter implements FactsConve
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodSignature-Type.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/MethodSignature-Type.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -150,7 +150,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter implements FactsConve
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodSignature-SimpleName.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/MethodSignature-SimpleName.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -196,7 +196,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter implements FactsConve
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/MethodSignature-Descriptor.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/MethodSignature-Descriptor.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -252,7 +252,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter implements FactsConve
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/MethodDescriptorRef.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/MethodDescriptorRef.dtm", false)));) {
                 for ( MethodDescriptorRef key : methodDescriptorRefFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :MethodDescriptorRef/value \"" + key.getValue() + "\"}");
@@ -261,7 +261,7 @@ public class MethodDeclarationsAndSignaturesFactsConverter implements FactsConve
             }
             System.out.println( "MethodDescriptorRef facts converted: " + methodDescriptorRefFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/Method.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/Method.dtm", false)));) {
                 for ( Method key : methodFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :Method/signature #db/id[:db.part/user " + key.getSignature().getID() + "]");

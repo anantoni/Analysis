@@ -31,7 +31,7 @@ public class InstructionsFactsConverter implements FactsConverter {
     @Override
     public void parseLogicBloxFactsFile() {
         try {
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/InstructionRef.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/InstructionRef.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null ) {
                     line = line.trim();
@@ -41,7 +41,7 @@ public class InstructionsFactsConverter implements FactsConverter {
                 br.close();
             }
 
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/CallGraphEdgeSourceRef.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/CallGraphEdgeSourceRef.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null ) {
                     line = line.trim();
@@ -62,7 +62,7 @@ public class InstructionsFactsConverter implements FactsConverter {
                 br.close();
             }
 
-//            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/Instruction-Index.facts" ) )) {
+//            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/Instruction-Index.facts" ) )) {
 //                String line;
 //                while ((line = br.readLine()) != null) {
 //                    line = line.trim();
@@ -117,7 +117,7 @@ public class InstructionsFactsConverter implements FactsConverter {
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/InstructionRef.dtm", false))); ) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/InstructionRef.dtm", false))); ) {
                 for ( InstructionRef key: instructionRefFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :InstructionRef/x \"" + key.getInstruction().replace( "\\", "\\\\").replace( "\"", "\\\"") + "\" }");
@@ -126,7 +126,7 @@ public class InstructionsFactsConverter implements FactsConverter {
             }
             System.out.println( "InstructionRef facts converted: " + instructionRefFactsList.size() );
 
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/CallGraphEdgeSourceRef.dtm", false))); ) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/CallGraphEdgeSourceRef.dtm", false))); ) {
                 for ( CallGraphEdgeSourceRef key :callGraphEdgeSourceRefFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :CallGraphEdgeSourceRef/x #db/id[:db.part/user " + key.getInstructionRef().getID() + "]}");
@@ -135,7 +135,7 @@ public class InstructionsFactsConverter implements FactsConverter {
             }
             System.out.println( "CallGraphEdgeSourceRef facts converted: " + callGraphEdgeSourceRefFactsList.size() );
 
-//            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/Instruction-Index.dtm", false))); ) {    
+//            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/Instruction-Index.dtm", false))); ) {    
 //                for ( InstructionIndex key: instructionIndexFactsList ) {
 //                    writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
 //                    writer.println( " :Instruction-Index/instruction #db/id[:db.part/user " + key.getInstruction().getID() + "]");

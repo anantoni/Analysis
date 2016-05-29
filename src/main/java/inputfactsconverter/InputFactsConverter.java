@@ -59,8 +59,8 @@ public class InputFactsConverter {
         
         
         /******************** TypeDeclarations facts converter *******************/
-//        TypeDeclarationsFactsConverter tdfc = new TypeDeclarationsFactsConverter(id, tfc.getTypeFactsList(), tfc.getClassTypeFactsList());
-//        tdfc.startThread();
+        TypeDeclarationsFactsConverter tdfc = new TypeDeclarationsFactsConverter(id, tfc.getTypeFactsList(), tfc.getClassTypeFactsList());
+        tdfc.startThread();
        
         /************** Method Declarations and Signatures facts converter **********************/
         MethodDeclarationsAndSignaturesFactsConverter mdasfc = new MethodDeclarationsAndSignaturesFactsConverter(id,tfc.getTypeFactsList(),fdfc.getSimpleNameRefFactsList(), vdfc.getMethodSignatureRefFactsList(), fdfc.getModifierRefFactsList());
@@ -89,7 +89,8 @@ public class InputFactsConverter {
         
         
         try {
-            //tdfc.getThread().join();
+
+            tdfc.getThread().join();
             mdasfc.getThread().join();
             rvfc.getThread().join();
             smifc.getThread().join();

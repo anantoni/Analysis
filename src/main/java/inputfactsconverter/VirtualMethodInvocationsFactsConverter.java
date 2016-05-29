@@ -39,7 +39,7 @@ public class VirtualMethodInvocationsFactsConverter implements FactsConverter, R
     @Override
     public void parseLogicBloxFactsFile() {
         try {
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/VirtualMethodInvocation.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/VirtualMethodInvocation.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -103,7 +103,7 @@ public class VirtualMethodInvocationsFactsConverter implements FactsConverter, R
                     br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/VirtualMethodInvocation-Base.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/VirtualMethodInvocation-Base.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -159,7 +159,7 @@ public class VirtualMethodInvocationsFactsConverter implements FactsConverter, R
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/VirtualMethodInvocation.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/VirtualMethodInvocation.dtm", false)));) {
                 for ( VirtualMethodInvocation key : virtualMethodInvocationFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :VirtualMethodInvocation/invocation #db/id[:db.part/user " + key.getInvocation().getID() +"]" );

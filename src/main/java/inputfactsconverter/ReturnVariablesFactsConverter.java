@@ -35,7 +35,7 @@ public class ReturnVariablesFactsConverter implements FactsConverter, Runnable {
     @Override
     public void parseLogicBloxFactsFile() {
         try {
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ReturnVar.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ReturnVar.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -95,7 +95,7 @@ public class ReturnVariablesFactsConverter implements FactsConverter, Runnable {
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ReturnVar.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ReturnVar.dtm", false)));) {
                 for ( ReturnVar key : returnVarFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :ReturnVar/method #db/id[:db.part/user " + key.getMethod().getID() + "]" );

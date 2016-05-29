@@ -41,7 +41,7 @@ public class TypeDeclarationsFactsConverter implements FactsConverter, Runnable 
     public void parseLogicBloxFactsFile() { 
         
         try {
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/DirectSuperclass.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/DirectSuperclass.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -83,7 +83,7 @@ public class TypeDeclarationsFactsConverter implements FactsConverter, Runnable 
                 br.close();
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/DirectSuperinterface.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/DirectSuperinterface.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -125,7 +125,7 @@ public class TypeDeclarationsFactsConverter implements FactsConverter, Runnable 
                 br.close();
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ApplicationClass.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ApplicationClass.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -153,7 +153,7 @@ public class TypeDeclarationsFactsConverter implements FactsConverter, Runnable 
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/DirectSuperclass.dtm", false))); ) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/DirectSuperclass.dtm", false))); ) {
                 for ( DirectSuperClass key : directSuperClassFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :DirectSuperclass/ref #db/id[:db.part/user " + key.getRefClassType().getID() +"]"); 
@@ -162,7 +162,7 @@ public class TypeDeclarationsFactsConverter implements FactsConverter, Runnable 
                 writer.close();
             }
             System.out.println( "DirectSuperclass facts converted: " + directSuperClassFactsList.size() );
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/DirectSuperinterface.dtm", false))); ) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/DirectSuperinterface.dtm", false))); ) {
                 for ( DirectSuperInterface key: directSuperInterfaceFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :DirectSuperinterface/class #db/id[:db.part/user " + key.getClassType().getID() + "]"); 
@@ -171,7 +171,7 @@ public class TypeDeclarationsFactsConverter implements FactsConverter, Runnable 
                 writer.close();
             }
             System.out.println( "DirectSuperinterface facts converted: " + directSuperInterfaceFactsList.size() );
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ApplicationClass.dtm", false))); ) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ApplicationClass.dtm", false))); ) {
                 for ( ApplicationClass key : applicationClassFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :ApplicationClass/ref #db/id[:db.part/user " + key.getType().getID() + "]}");

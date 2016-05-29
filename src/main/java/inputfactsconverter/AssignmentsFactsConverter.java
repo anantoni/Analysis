@@ -219,7 +219,7 @@ public class AssignmentsFactsConverter implements FactsConverter, Runnable {
                     br.close();  
             }            
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/AssignCast.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/AssignCast.facts" ) )) {
                     String line;
                     while ((line = br.readLine()) != null) {
                         line = line.trim();
@@ -306,7 +306,7 @@ public class AssignmentsFactsConverter implements FactsConverter, Runnable {
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/AssignHeapAllocation.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/AssignHeapAllocation.dtm", false)));) {
                 for ( AssignHeapAllocation key : assignHeapAllocationFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :AssignHeapAllocation/heap #db/id[:db.part/user " + key.getHeap().getID() + "]");
@@ -317,7 +317,7 @@ public class AssignmentsFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "AssignHeapAllocation facts converted: " + assignHeapAllocationFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/AssignReturnValue.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/AssignReturnValue.dtm", false)));) {
                 for ( AssignReturnValue key : assignReturnValueFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :AssignReturnValue/invocation #db/id[:db.part/user " + key.getInvocation().getID() + "]" );
@@ -327,7 +327,7 @@ public class AssignmentsFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "AssignReturnValue facts converted: " + assignReturnValueFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/AssignLocal.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/AssignLocal.dtm", false)));) {
                 for ( AssignLocal key : assignLocalFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :AssignLocal/from #db/id[:db.part/user " + key.getFrom().getID() + "]" );
@@ -338,7 +338,7 @@ public class AssignmentsFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "AssignLocal facts converted: " + assignLocalFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/AssignCast.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/AssignCast.dtm", false)));) {
                 for ( AssignCast key : assignCastFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :AssignCast/type #db/id[:db.part/user " + key.getType().getID() + "]" );

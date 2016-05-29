@@ -41,7 +41,7 @@ public class TypeFactsConverter implements FactsConverter {
     @Override
     public void parseLogicBloxFactsFile() {
         try {
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/Type.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/Type.facts" ) )) {
                 String line;
 
                 while ((line = br.readLine()) != null) {
@@ -52,7 +52,7 @@ public class TypeFactsConverter implements FactsConverter {
                 br.close();
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/NullType.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/NullType.facts" ) )) {
                 String line;
                 
                 while ((line = br.readLine()) != null) {
@@ -74,7 +74,7 @@ public class TypeFactsConverter implements FactsConverter {
                 br.close();
             }
         
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/PrimitiveType.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/PrimitiveType.facts" ) )) {
                 String line;
                 
                 while ((line = br.readLine()) != null) {
@@ -96,7 +96,7 @@ public class TypeFactsConverter implements FactsConverter {
                 br.close();
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ReferenceType.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ReferenceType.facts" ) )) {
                 String line;
                 
                 while ((line = br.readLine()) != null) {
@@ -118,7 +118,7 @@ public class TypeFactsConverter implements FactsConverter {
                 br.close();
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ArrayType.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ArrayType.facts" ) )) {
                 String line;
 
                 while ((line = br.readLine()) != null) {
@@ -140,7 +140,7 @@ public class TypeFactsConverter implements FactsConverter {
                 br.close();
             }
         
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/ClassType.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/ClassType.facts" ) )) {
                 String line;
 
                 while ((line = br.readLine()) != null) {
@@ -162,7 +162,7 @@ public class TypeFactsConverter implements FactsConverter {
                 br.close();
             }
         
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/InterfaceType.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/InterfaceType.facts" ) )) {
                 String line;
 
                 while ((line = br.readLine()) != null) {
@@ -197,7 +197,7 @@ public class TypeFactsConverter implements FactsConverter {
     public void createDatomicFactsFile() {
         try {
             /*************************** Type.dtm **********************************************/
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/Type.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/Type.dtm", false)));) {
                 for ( Type type: typeFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + type.getID() + "]" );
                     writer.println( " :Type/x \""+ type.getValue() +"\"}"); 
@@ -207,7 +207,7 @@ public class TypeFactsConverter implements FactsConverter {
             System.out.println( "Type facts converted: " + typeFactsList.size() ); 
             
             /********************************* ReferenceType.dtm ***********************************/
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ReferenceType.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ReferenceType.dtm", false)));) {
                 for ( ReferenceType referenceType: referenceTypeFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + referenceType.getID() + "]" );
                     writer.println( " :ReferenceType/x #db/id[:db.part/user " + referenceType.getType().getID() + "]}");  
@@ -217,7 +217,7 @@ public class TypeFactsConverter implements FactsConverter {
             System.out.println( "ReferenceType facts converted: " + referenceTypeFactsList.size() ); 
             
             /********************************* ArrayType.dtm ***********************************/
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ArrayType.dtm", false)));) { 
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ArrayType.dtm", false)));) { 
                 for ( ArrayType arrayType: arrayTypeFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + arrayType.getID() + "]" );
                     writer.println( " :ArrayType/x #db/id[:db.part/user " + arrayType.getReferenceType().getID() + "]}");  
@@ -227,7 +227,7 @@ public class TypeFactsConverter implements FactsConverter {
             System.out.println( "ArrayType facts converted: " + arrayTypeFactsList.size() );
             
             /********************************* ClassType.dtm ***********************************/
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/ClassType.dtm", false)));) {   
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/ClassType.dtm", false)));) {   
                 for ( ClassType classType: classTypeFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + classType.getID() + "]" );
                     writer.println( " :ClassType/x #db/id[:db.part/user " + classType.getReferenceType().getID() + "]}");  
@@ -237,7 +237,7 @@ public class TypeFactsConverter implements FactsConverter {
             System.out.println( "ClassType facts converted: " + classTypeFactsList.size() );
                 
             /********************************* InterfaceType.dtm ***********************************/
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/InterfaceType.dtm", false)));) {   
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/InterfaceType.dtm", false)));) {   
                 for ( InterfaceType interfaceType: interfaceTypeFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + interfaceType.getID() + "]" );
                     writer.println( " :InterfaceType/x #db/id[:db.part/user " + interfaceType.getReferenceType().getID() + "]}");
@@ -247,7 +247,7 @@ public class TypeFactsConverter implements FactsConverter {
             System.out.println( "InterfaceType facts converted: " + interfaceTypeFactsList.size() );
             
             /********************************* PrimitiveType.dtm ***********************************/
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/PrimitiveType.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/PrimitiveType.dtm", false)));) {
                 for ( PrimitiveType primitiveType: primitiveTypeFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + primitiveType.getID() + "]" );
                     writer.println( " :PrimitiveType/x #db/id[:db.part/user " + primitiveType.getType().getID() + "]}");  
@@ -257,7 +257,7 @@ public class TypeFactsConverter implements FactsConverter {
             System.out.println( "PrimitiveType facts converted: " + primitiveTypeFactsList.size() );
                             
             /********************************* NullType.dtm ***********************************/
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/NullType.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/NullType.dtm", false)));) {
                 for ( NullType nullType : nullTypeFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + nullType.getID() + "]" );
                     writer.println( " :NullType/x #db/id[:db.part/user " + nullType.getType().getID() + "]}");  

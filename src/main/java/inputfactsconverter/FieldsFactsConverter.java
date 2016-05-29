@@ -41,7 +41,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
     @Override
     public void parseLogicBloxFactsFile() {
         try {
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/LoadInstanceField.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/LoadInstanceField.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -116,7 +116,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/LoadStaticField.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/LoadStaticField.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -179,7 +179,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/LoadPrimStaticField.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/LoadPrimStaticField.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -230,7 +230,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/StoreInstanceField.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/StoreInstanceField.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -305,7 +305,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/StoreStaticField.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/StoreStaticField.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -368,7 +368,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
                 br.close();  
             }
             
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/StorePrimStaticField.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/StorePrimStaticField.facts" ) )) {
                 String line;
                 while ((line = br.readLine()) != null) {
                     line = line.trim();
@@ -430,7 +430,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/LoadInstanceField.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/LoadInstanceField.dtm", false)));) {
                 for ( LoadInstanceField key : loadInstanceFieldFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :LoadInstanceField/base #db/id[:db.part/user " + key.getBase().getID() + "]" );
@@ -442,7 +442,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "LoadInstanceField facts converted: " + loadInstanceFieldFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/LoadStaticField.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/LoadStaticField.dtm", false)));) {
                 for ( LoadStaticField key : loadStaticFieldFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :LoadStaticField/sig #db/id[:db.part/user " + key.getSig().getID() + "]" );
@@ -453,7 +453,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "LoadStaticField facts converted: " + loadStaticFieldFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/LoadPrimStaticField.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/LoadPrimStaticField.dtm", false)));) {
                 for ( LoadPrimStaticField key : loadPrimStaticFieldFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :LoadPrimStaticField/sig #db/id[:db.part/user " + key.getSig().getID() + "]" );
@@ -463,7 +463,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "LoadPrimStaticField facts converted: " + loadPrimStaticFieldFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/StoreInstanceField.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/StoreInstanceField.dtm", false)));) {
                 for ( StoreInstanceField key : storeInstanceFieldFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :StoreInstanceField/from #db/id[:db.part/user " + key.getFrom().getID() + "]" );
@@ -475,7 +475,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "StoreInstanceField facts converted: " + storeInstanceFieldFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/StoreStaticField.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/StoreStaticField.dtm", false)));) {
                 for ( StoreStaticField key : storeStaticFieldFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :StoreStaticField/signature #db/id[:db.part/user " + key.getSignature().getID() + "]" );
@@ -486,7 +486,7 @@ public class FieldsFactsConverter implements FactsConverter, Runnable {
             }
             System.out.println( "StoreStaticField facts converted: " + storeStaticFieldFactsList.size() );
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/StorePrimStaticField.dtm", false)));) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/StorePrimStaticField.dtm", false)));) {
                 for ( StorePrimStaticField key : storePrimStaticFieldFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :StorePrimStaticField/signature #db/id[:db.part/user " + key.getSignature().getID() + "]" );

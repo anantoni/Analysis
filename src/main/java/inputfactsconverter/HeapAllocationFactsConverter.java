@@ -6,13 +6,10 @@ package inputfactsconverter;
 
 import datomicFacts.CallGraphEdgeSourceRef;
 import datomicFacts.HeapAllocationRef;
-import datomicFacts.Type;
 import datomicFacts.HeapAllocationType;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.PrintWriter;
+import datomicFacts.Type;
+
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
