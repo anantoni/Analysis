@@ -40,7 +40,7 @@ public class HeapAllocationFactsConverter implements FactsConverter, Runnable {
     @Override
     public void parseLogicBloxFactsFile() {
         try {
-            try (BufferedReader br = new BufferedReader( new FileReader( "../cache/input-facts/HeapAllocation-Type.facts" ) )) {
+            try (BufferedReader br = new BufferedReader( new FileReader( "cache/input-facts/HeapAllocation-Type.facts" ) )) {
                 String line;                
              
                 while ((line = br.readLine()) != null) {
@@ -106,7 +106,7 @@ public class HeapAllocationFactsConverter implements FactsConverter, Runnable {
     @Override
     public void createDatomicFactsFile() {
         try {
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/HeapAllocationRef.dtm", false))); ) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/HeapAllocationRef.dtm", false))); ) {
                 for ( HeapAllocationRef key : heapAllocationRefFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
                     writer.println( " :HeapAllocationRef/x #db/id[:db.part/user " + key.getCallGraphEdgeSourceRef().getID() + "]}"); 
@@ -116,7 +116,7 @@ public class HeapAllocationFactsConverter implements FactsConverter, Runnable {
             System.out.println( "HeapAllocationRef facts converted: " + heapAllocationRefFactsList.size() );
 
             
-            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../datomic_facts/HeapAllocation-Type.dtm", false))); ) {
+            try ( PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("datomic_facts/HeapAllocation-Type.dtm", false))); ) {
 
                 for ( HeapAllocationType key: heapAllocationTypeFactsList ) {
                     writer.println( "{:db/id #db/id[:db.part/user " + key.getID() + "]" );
